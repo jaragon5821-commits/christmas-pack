@@ -3,10 +3,9 @@ name = 'BlockUI'
 side = 'server'
 
 [download]
-hash = '985b739fb0e01ad0bc559c5cd41be45de5cfe2bf'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+url = "https://edge.forgecdn.net/files/9137/005/blockui-1.0.212-1.21.1-snapshot.jar"
+hash-format = "sha512"
+hash = "defaae595ade0f82e4be5f426978b71cbe9e7a84301f8f8e4e096581b8aefe3b053d8f5e6e0ee55844c3d4e07f3db781e70aab4663fd222a61e20c30f66cd3a3"
 
 [update.curseforge]
 file-id = 9137005

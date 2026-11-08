@@ -3,10 +3,9 @@ name = 'MineColonies'
 side = 'server'
 
 [download]
-hash = 'c32ef692ca81fce5b788552652cb6c22c338e02d'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+url = "https://edge.forgecdn.net/files/9276/847/minecolonies-1.1.1405-1.21.1-snapshot.jar"
+hash-format = "sha512"
+hash = "d024e5a156ff2df9cbc46520bb82f7dc195f5b7fd850ef37004844970c25369b4d876a5f6f0663d88151a3a30a8719589be50a8877d740ce697cb7231ce62dae"
 
 [update.curseforge]
 file-id = 9276847

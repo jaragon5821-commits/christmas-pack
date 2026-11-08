@@ -3,9 +3,9 @@ name = "Memory Settings"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "cf94148dab1e03ee5c737657efe0371f1132a145"
-mode = "metadata:curseforge"
+url = "https://edge.forgecdn.net/files/7934/534/memorysettings-1.21-6.0.jar"
+hash-format = "sha512"
+hash = "84e8afc8ac253678cac4bae061470e79617dbec9c853ec9385508eaf000901bcb84d0d5ec4ab3eefdaaf9e8ad641da5ecb7c96a7eb59813f75c94c5702e87ab9"
 
 [update]
 [update.curseforge]

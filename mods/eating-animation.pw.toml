@@ -3,9 +3,9 @@ name = "Eating Animation"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "68f276dc8cf57658b0afc2112c6ee63325989e02"
-mode = "metadata:curseforge"
+url = "https://edge.forgecdn.net/files/5567/664/eatinganimation-1.21.0-6.0.1.jar"
+hash-format = "sha512"
+hash = "1c2eacc647be8256d4a3f7caec9d13c974881e70819d184480294bff96f220718b2a223201c3146f8af69e04d3907012492ed9a488eb81463e9535a3f799a2a3"
 
 [update]
 [update.curseforge]

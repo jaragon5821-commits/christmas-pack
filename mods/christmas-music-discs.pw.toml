@@ -3,9 +3,9 @@ name = "Christmas Music Discs"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c41379ba4015a719d578be36f9a195ca8921dd7a"
-mode = "metadata:curseforge"
+url = "https://edge.forgecdn.net/files/5936/162/christmasmusicdiscs-1.21.1-v1.3.jar"
+hash-format = "sha512"
+hash = "ce0e8284991fc57acf01cae8fee7fd49968514687c761d82dad366ea6b6dea8e032d8bbdcc0d97d344855dcd7a268775fd9e549a55abb3fa818d7163ccb15968"
 
 [update]
 [update.curseforge]

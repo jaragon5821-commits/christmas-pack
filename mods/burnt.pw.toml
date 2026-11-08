@@ -3,9 +3,9 @@ name = "Burnt + Additions"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "83163da0772db9137eb10a31b756fc9018f92509"
-mode = "metadata:curseforge"
+url = "https://edge.forgecdn.net/files/9313/775/burnt-1.10.5.3-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "c4b02b234cf20186b954980eabcd088b083eb035cb27d77769b8a17851fda4d3e4fa76e77fb128c3c2eee846f97e207a1a971c66077a8a1e3361b54bf92d2c2c"
 
 [update]
 [update.curseforge]

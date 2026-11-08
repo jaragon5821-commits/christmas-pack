@@ -3,10 +3,9 @@ name = 'Multi-Piston'
 side = ''
 
 [download]
-hash = '2b63be739da24247328e4052ec91c928230d0390'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+url = "https://edge.forgecdn.net/files/7097/877/multipiston-1.2.58-1.21.1.jar"
+hash-format = "sha512"
+hash = "60007e72516857228c45cbfee14ec18c9c4e89b626ecdd659fff3a146d5dc527d52563645e3348b79820f7eeb0b6d3aeab4394e7b6d6a065666ed04333c05a48"
 
 [update.curseforge]
 file-id = 7097877

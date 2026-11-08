@@ -3,9 +3,9 @@ name = "Mama's Merrymaking"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "fa0158ce772b0032509f63ebd0ece4e943bb3831"
-mode = "metadata:curseforge"
+url = "https://edge.forgecdn.net/files/8978/980/merrymaking-1.21.1-17.jar"
+hash-format = "sha512"
+hash = "07812b79df0a7d710bcbd2751a3b777e938be0b0c27add49ac91f98427b354d4a2493569d77ce0cbe0e01a040cee126c1fafcfd1113f3929e5f47167da9c1707"
 
 [update]
 [update.curseforge]

@@ -3,9 +3,9 @@ name = "MineColonies Compatibility"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "31da491c423c1a47181906bd5f5463e7fc33cae0"
-mode = "metadata:curseforge"
+url = "https://edge.forgecdn.net/files/9255/068/MineColonies_Compatibility-1.21.1-3.60.jar"
+hash-format = "sha512"
+hash = "145ff1ea8a344fdbc43bad079ee36c7343a8902c50422825a00606292bf8bae75ebbd609103ac4a64a9a1fee1dd8a15d0f895efa820767f8f9e833c5072f628c"
 
 [update]
 [update.curseforge]

@@ -3,10 +3,9 @@ name = 'Structurize'
 side = 'server'
 
 [download]
-hash = '774de15db3c7f6889909e2a0ce06f3f2c66ada15'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+url = "https://edge.forgecdn.net/files/9333/948/structurize-1.0.837-1.21.1-snapshot.jar"
+hash-format = "sha512"
+hash = "5a03a88a5a7d432a86966c2d02e6ab7916a22f39e90aa408c43ce7fe8454c84d28fb94f88cacf128ca9b847a8c5e4c5105116f16741584e2a7ce9e9a71302067"
 
 [update.curseforge]
 file-id = 9333948

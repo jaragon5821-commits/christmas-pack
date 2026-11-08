@@ -3,10 +3,9 @@ name = 'Domum Ornamentum'
 side = 'server'
 
 [download]
-hash = '31b16b65eb0cc26473bcd607b1c7f386aa99680f'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+url = "https://edge.forgecdn.net/files/8784/713/domum-ornamentum-1.0.236-snapshot-main.jar"
+hash-format = "sha512"
+hash = "0d00bcaf1d2dc234f8a166f8af30ec1bde3c4c1dd8c5e8a05d77368276d5b7115043cc0a14cf7a747e43490e71a82456ccaadb55b24f26171fd890c070d9c890"
 
 [update.curseforge]
 file-id = 8784713

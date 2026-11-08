@@ -3,9 +3,9 @@ name = "Crash Utilities"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5117a448b0611f60fbe743a4a631e431dd31740e"
-mode = "metadata:curseforge"
+url = "https://edge.forgecdn.net/files/5993/450/crashutilities-9.0.4.jar"
+hash-format = "sha512"
+hash = "b728916508cdbb866331173599c79edb0a4e90548d57f197f2b441e34b1a7e8a47c214c182c4ffb713ee9b8bc19579902e584a71c1053978d9fecda585cb33b3"
 
 [update]
 [update.curseforge]

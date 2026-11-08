@@ -3,9 +3,9 @@ name = "Christmas Grandma's Cabinet"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "55b7fc1c924b2c5bc147cd38670391c15ea8103d"
-mode = "metadata:curseforge"
+url = "https://edge.forgecdn.net/files/7761/067/christmassgrandmascabinet-1.1.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "7f0e8ccfa4626bf85ff76deb6717587e8560468b9ca918c3bf8d0576865530f2474509947dff2e4078f051c8ae8006ed1edca7ca83e8de6551d4c6d36dbf75ac"
 
 [update]
 [update.curseforge]

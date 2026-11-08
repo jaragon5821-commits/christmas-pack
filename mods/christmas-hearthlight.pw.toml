@@ -3,9 +3,9 @@ name = "Christmas Hearthlight"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b5f6ba31ddb6f9f0f2a59dde17b8f6571d943097"
-mode = "metadata:curseforge"
+url = "https://edge.forgecdn.net/files/9261/765/christmas_hearthlight-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "9ece9fc992485460d9a170be4b8a2af543cc434213add1ed08d6af622d13a45468cece8f487a9b8d1615cd6d23ff179971d40da0e2fa442276fb31ab411dfb86"
 
 [update]
 [update.curseforge]

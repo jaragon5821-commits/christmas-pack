@@ -3,10 +3,9 @@ name = 'Connectivity'
 side = 'server'
 
 [download]
-hash = 'b4900c9a46123e2c7d6bfd653abbced92aab560b'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+url = "https://edge.forgecdn.net/files/9008/904/connectivity-1.21.1-7.7.jar"
+hash-format = "sha512"
+hash = "8ce920ff65bc5b648bbd998e0cffb37a0168ac65c018a41c9c2de4d133e52eb67f3c8cffac1e309d3014d0a865b687468ce9ac01e5a1364d8a59a6eb424fbaad"
 
 [update.curseforge]
 file-id = 9008904

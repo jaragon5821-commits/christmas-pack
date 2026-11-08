@@ -3,9 +3,9 @@ name = "FTB Teams (NeoForge)"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "62b65f752d0326edd13244e58d5f2aec035da4e9"
-mode = "metadata:curseforge"
+url = "https://edge.forgecdn.net/files/8724/782/ftb-teams-neoforge-2101.1.11.jar"
+hash-format = "sha512"
+hash = "21c9350c6c7ec54ee54b74f2bdc0a44f91005bedda3caf27d673b2f2bcad1dbef5aec970201ec8e959db2a1743ceb2e24ae99a9e36744dce740a0ab1dad01c52"
 
 [update]
 [update.curseforge]
