@@ -1,0 +1,8 @@
+name = "MCA-Colony-Integration-0.1.2-chop"
+filename = "MCA-Colony-Integration-0.1.2-chop.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/jaragon5821-commits/christmas-pack/test/patched-jars/MCA-Colony-Integration-0.1.2-chop.jar"
+hash-format = "sha512"
+hash = "5f87cef65cad173918f5d9b1de79dbef7026fad8f8b35dca7c46ca59fb805317f9463fb385881d1a6aaa280e049ba1c9122a9796c0db3cc921a700e1a2a0c831"

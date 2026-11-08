@@ -1,0 +1,14 @@
+filename = "seasonsgreetings-1.0.2+neoforge.1.21.1.jar"
+name = "Season's Greetings"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "ea7b09cd007b238492de319dae62c9d8640be22542f68e3372c449354c1d8315e9b792965751b26730c795243e434c0bea9d04389759c227c874621e7099fb3e"
+mode = "url"
+url = "https://cdn.modrinth.com/data/U1lJiXjU/versions/gdwUMGHA/seasonsgreetings-1.0.2%2Bneoforge.1.21.1.jar"
+
+[update]
+[update.modrinth]
+mod-id = "U1lJiXjU"
+version = "gdwUMGHA"

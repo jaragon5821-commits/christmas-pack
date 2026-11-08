@@ -1,0 +1,6 @@
+{
+  "entities": ["minecraft:endermite"],
+  "items": { "item": "chop:festive_heart" },
+  "chance": 1.0,
+  "required_data": "{Tags:[\"fest_clinker\"]}"
+}

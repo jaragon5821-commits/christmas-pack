@@ -1,0 +1,9 @@
+{
+  "simplifiedLoadingScreen": false,
+  "minimalLoadingScreen": false,
+  "showOtherStopsOnMap": true,
+  "showPlacementPreview": true,
+  "discoveryEffects": true,
+  "placementEffects": true,
+  "discoverySound": true
+}

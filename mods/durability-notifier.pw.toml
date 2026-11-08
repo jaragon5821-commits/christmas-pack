@@ -1,0 +1,15 @@
+filename = "DurabilityNotifier-neoforge-1.21.1-2.1.4.jar"
+name = "Durability Notifier"
+side = "client"
+
+[download]
+hash-format = "sha512"
+hash = "0f5f9eeafd41aa31c3d42ba1ad28b7dbea7bd399cc348bcb9231e5218dda91b9f6b58d0af830fe6645f52290145f44e19f405f9f4ed5da50d57a0f081615c4e8"
+mode = "url"
+url = "https://cdn.modrinth.com/data/yGpT1GvE/versions/Da1dj9qk/DurabilityNotifier-neoforge-1.21.1-2.1.4.jar"
+
+[update]
+[update.modrinth]
+mod-id = "yGpT1GvE"
+version = "Da1dj9qk"
+

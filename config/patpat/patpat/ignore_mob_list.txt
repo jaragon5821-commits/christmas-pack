@@ -1,0 +1,13 @@
+minecraft:player
+minecraft:villager
+minecraft:wandering_trader
+mca:male_villager
+mca:female_villager
+mca:male_zombie_villager
+mca:female_zombie_villager
+mca:grim_reaper
+mca:ancient_cultist
+minecolonies:citizen
+minecolonies:visitor
+minecolonies:mercenary
+minecolonies:cavalry_horse

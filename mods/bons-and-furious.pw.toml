@@ -1,0 +1,15 @@
+filename = "bons_and_furious-neoforge-1.0.47+mc1.21.1.jar"
+name = "Bons and Furious"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "c347977e9625e42f62ebd4e2618ca0c35833b5a5146204bb2f2fab21ebe530b318bb5e47a10cad0615deed7314fda911b0003c695d2ee49b8ada6dc7b9b1092e"
+mode = "url"
+url = "https://cdn.modrinth.com/data/C0dP2Zqn/versions/a88K4jDl/bons_and_furious-neoforge-1.0.47%2Bmc1.21.1.jar"
+
+[update]
+[update.modrinth]
+mod-id = "C0dP2Zqn"
+version = "a88K4jDl"
+

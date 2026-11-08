@@ -1,0 +1,15 @@
+filename = "mcaconversations-neoforge-1.8.0+1.21.1.jar"
+name = "MCA: Conversations"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "08631f51e5dc8164dd6bef7949773b6d69cedce30af5f765320989ccc2db3a68bc869fe6cd3edd9e097c2740bdd9aaa30dfe42daae8ed9e7b57ee5507b37cc83"
+mode = "url"
+url = "https://cdn.modrinth.com/data/8o1RfsQ2/versions/QPRaiELD/mcaconversations-neoforge-1.8.0%2B1.21.1.jar"
+
+[update]
+[update.modrinth]
+mod-id = "8o1RfsQ2"
+version = "QPRaiELD"
+

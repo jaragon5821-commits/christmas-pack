@@ -1,0 +1,14 @@
+{
+  "entity.minecolonies.barbarian": "Sour Elf Raider",
+  "entity.minecolonies.archerbarbarian": "Sour Elf Snowballer",
+  "entity.minecolonies.chiefbarbarian": "Sour Elf Foreman",
+  "entity.minecolonies.campbarbarian": "Sour Elf Raider",
+  "entity.minecolonies.camparcherbarbarian": "Sour Elf Snowballer",
+  "entity.minecolonies.campchiefbarbarian": "Sour Elf Foreman",
+  "event.minecolonies.raidmessage1": "Sour Elves from the Claws Outpost have been spotted %s of %s!",
+  "event.minecolonies.raidmessage2": "Citizens report jingling bells and grumbling %s of %s. Sour Elves are coming!",
+  "event.minecolonies.raidmessage3": "Bar the doors! Santy Claws' Sour Elves march from the %s tonight for %s!",
+  "event.minecolonies.raidmessage4": "A whole workshop of Sour Elves is comin' from %s toward %s, and they want your presents!",
+  "com.minecolonies.coremod.raid.end.barbarian_raid0": "The Sour Elves from the %s were sent packing back to the Claws Outpost.",
+  "com.minecolonies.coremod.raid.end.barbarian_raid1": "The Sour Elves from the %s lost their nerve and fled into the snow."
+}

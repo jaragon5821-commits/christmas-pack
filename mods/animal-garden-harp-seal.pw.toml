@@ -1,0 +1,13 @@
+name = "Animal Garden - Harp Seal"
+filename = "animalgarden-harpseal-1.0.0-neoforge-1.21.1-21.1.219.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NvaiT3Fr/versions/xpZ6BIIW/animalgarden-harpseal-1.0.0-neoforge-1.21.1-21.1.219.jar"
+hash-format = "sha512"
+hash = "c44703f57fbcee6e7ec437a6977fd9cb0326acda308660d1a4de39f7aefad02d017d8b72202556351ea3ee3dcfde8220f53ee63c337051674b873e93d28d6187"
+
+[update]
+[update.modrinth]
+mod-id = "NvaiT3Fr"
+version = "xpZ6BIIW"

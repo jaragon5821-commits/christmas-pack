@@ -1,0 +1,13 @@
+filename = "Stagecoach-neoforge-1.21.1-1.2.1.jar"
+name = "Stagecoach"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8ba1d9f218ab6122004aa9af290a1a997e3a3177"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9234370
+project-id = 1711971

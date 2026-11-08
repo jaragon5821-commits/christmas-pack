@@ -1,0 +1,108 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "festivity_naughty_list"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: {
+		id: "chop:coal_token"
+	}
+	id: "7C0A15F3B1D2E401"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7C0A15F3B1D2E402"
+			rewards: [{
+				id: "7C0A15F3B1D2E403"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "7C0A15F3B1D2E404"
+				item: { count: 1, id: "chop:coal_token" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C0A15F3B1D2E402"]
+			id: "7C0A15F3B1D2E405"
+			rewards: [
+				{
+					id: "7C0A15F3B1D2E406"
+					item: {
+						count: 1
+						id: "minecraft:wither_skeleton_skull"
+					}
+					type: "item"
+				}
+				{
+					command: "festivity add -2 \"a Naughty List deal\""
+					id: "7C0A15F3B1D2E407"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "7C0A15F3B1D2E408"
+				item: { count: 1, id: "chop:coal_token" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C0A15F3B1D2E405"]
+			id: "7C0A15F3B1D2E409"
+			rewards: [
+				{
+					id: "7C0A15F3B1D2E40A"
+					item: {
+						count: 1
+						id: "chop:claws_horn"
+					}
+					type: "item"
+				}
+				{
+					command: "festivity add -3 \"a Naughty List deal\""
+					id: "7C0A15F3B1D2E40B"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7C0A15F3B1D2E40C"
+				item: { count: 1, id: "chop:coal_token" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C0A15F3B1D2E409"]
+			id: "7C0A15F3B1D2E40D"
+			rewards: [{
+				id: "7C0A15F3B1D2E40E"
+				item: {
+					count: 1
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C0A15F3B1D2E40F"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

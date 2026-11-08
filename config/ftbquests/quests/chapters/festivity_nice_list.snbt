@@ -1,0 +1,122 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "festivity_nice_list"
+	group: ""
+	icon: {
+		id: "chop:ribbon_token"
+	}
+	id: "7C0A15F3B1D2E501"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7C0A15F3B1D2E502"
+			rewards: [{
+				count: 8
+				id: "7C0A15F3B1D2E503"
+				item: {
+					count: 1
+					id: "minecraft:cookie"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7C0A15F3B1D2E504"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C0A15F3B1D2E502"]
+			id: "7C0A15F3B1D2E505"
+			rewards: [{
+				id: "7C0A15F3B1D2E506"
+				item: {
+					components: {
+						"ftbquests:missing_item": "4x festive_delight:gingerbread_cookie"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C0A15F3B1D2E507"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C0A15F3B1D2E502"]
+			id: "7C0A15F3B1D2E508"
+			rewards: [
+				{
+					count: 8
+					id: "7C0A15F3B1D2E509"
+					item: {
+						count: 1
+						id: "fairylights:fairy_light"
+					}
+					type: "item"
+				}
+				{
+					command: "festivity add 2 \"a Nice List reward\""
+					id: "7C0A15F3B1D2E50A"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7C0A15F3B1D2E50B"
+				item: { count: 1, id: "chop:ribbon_token" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C0A15F3B1D2E508"]
+			id: "7C0A15F3B1D2E50C"
+			rewards: [{
+				id: "7C0A15F3B1D2E50D"
+				item: {
+					count: 1
+					id: "minecraft:totem_of_undying"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C0A15F3B1D2E50E"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C0A15F3B1D2E508"]
+			id: "7C0A15F3B1D2E50F"
+			rewards: [{
+				count: 2
+				id: "7C0A15F3B1D2E510"
+				item: {
+					count: 1
+					id: "christmas_hearthlight:christmas_gift_box"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C0A15F3B1D2E511"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+	]
+}

@@ -1,0 +1,13 @@
+name = "RideableRavagers"
+filename = "RideableRavagers-1.0.2+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/r6X0NRVv/versions/Lx7w4iWp/RideableRavagers-1.0.2%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "055bdcdfff4467305bed800bf3e6e4615da6d0df4c3e2d5cced92bd9f6cfc3593e702b318c871d6aaa3ddf353a72819346e1e573f2ef3a223e22b1deb8bb5c9f"
+
+[update]
+[update.modrinth]
+mod-id = "r6X0NRVv"
+version = "Lx7w4iWp"

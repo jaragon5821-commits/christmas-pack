@@ -1,0 +1,19 @@
+#Feature switches (restart the game after changing). Server-side gameplay numbers such as the
+#stocking gift chance, the snow budget or Santa are in <world>/serverconfig/christmas_hearthlight-server.toml.
+[features]
+	#Recipes for the Christmas Mailbox, letters, envelopes and gift boxes.
+	mailRecipes = true
+	#Recipes for the tree, wreath, garland, string lights, candy cane and stockings.
+	decorationRecipes = true
+	#Recipes for the gingerbread building blocks.
+	buildingRecipes = true
+	#Recipes for treats: the Gingerbread Man.
+	treatRecipes = true
+	#Recipes that turn iron/diamond armour into the Santa outfit.
+	santaOutfitRecipes = true
+	#Recipes that turn iron/diamond armour into the Elf outfit.
+	elfOutfitRecipes = true
+	#Christmas Stockings can fill up with a small gift after sunrise.
+	stockingGifts = true
+	#Gift boxes can be placed as a block with sneak + right-click.
+	giftBoxPlacing = true

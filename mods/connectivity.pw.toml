@@ -1,0 +1,17 @@
+filename = 'connectivity-1.21.1-7.7.jar'
+name = 'Connectivity'
+side = 'server'
+
+[download]
+hash = 'b4900c9a46123e2c7d6bfd653abbced92aab560b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9008904
+project-id = 470193
+
+[[x-prismlauncher-dependencies]]
+addonId = '326652'
+type = 'REQUIRED'

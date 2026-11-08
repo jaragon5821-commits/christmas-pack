@@ -1,0 +1,13 @@
+filename = "christmassgrandmascabinet-1.1.0-neoforge-1.21.1.jar"
+name = "Christmas Grandma's Cabinet"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "55b7fc1c924b2c5bc147cd38670391c15ea8103d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7761067
+project-id = 1406617

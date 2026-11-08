@@ -1,0 +1,1 @@
+{"parent": "minecraft:block/cube_all", "textures": {"all": "chop:block/red_snowflake_window_2x2"}, "render_type": "minecraft:translucent"}

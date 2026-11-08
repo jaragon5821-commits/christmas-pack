@@ -1,0 +1,142 @@
+{
+ "textureSize": [
+  64,
+  64
+ ],
+ "models": [
+  {
+   "part": "body",
+   "id": "body",
+   "attach": false,
+   "invertAxis": "xy",
+   "translate": [
+    0,
+    -24,
+    0
+   ],
+   "boxes": [
+    {
+     "coordinates": [
+      -2,
+      6,
+      -1,
+      4,
+      4,
+      2
+     ],
+     "textureOffset": [
+      0,
+      32
+     ]
+    },
+    {
+     "coordinates": [
+      -2,
+      2,
+      -1,
+      4,
+      4,
+      2
+     ],
+     "textureOffset": [
+      12,
+      32
+     ]
+    },
+    {
+     "coordinates": [
+      2,
+      4,
+      -1,
+      2,
+      2,
+      2
+     ],
+     "textureOffset": [
+      24,
+      32
+     ]
+    },
+    {
+     "coordinates": [
+      -4,
+      4,
+      -1,
+      2,
+      2,
+      2
+     ],
+     "textureOffset": [
+      32,
+      32
+     ]
+    },
+    {
+     "coordinates": [
+      0,
+      0,
+      -1,
+      2,
+      2,
+      2
+     ],
+     "textureOffset": [
+      40,
+      32
+     ]
+    },
+    {
+     "coordinates": [
+      -2,
+      0,
+      -1,
+      2,
+      2,
+      2
+     ],
+     "textureOffset": [
+      48,
+      32
+     ]
+    },
+    {
+     "coordinates": [
+      -0.5,
+      4,
+      -1.5,
+      1,
+      1,
+      1
+     ],
+     "textureOffset": [
+      56,
+      32
+     ]
+    }
+   ],
+   "animations": [
+    {
+     "body.rz": "sin(age * 0.3) * 0.07"
+    }
+   ]
+  },
+  {
+   "part": "left_eye",
+   "id": "left_eye",
+   "attach": false,
+   "boxes": []
+  },
+  {
+   "part": "right_eye",
+   "id": "right_eye",
+   "attach": false,
+   "boxes": []
+  },
+  {
+   "part": "mouth",
+   "id": "mouth",
+   "attach": false,
+   "boxes": []
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+{"parent": "minecraft:block/orientable", "textures": {"front": "chop:block/advent_calendar_front", "side": "chop:block/advent_calendar_side", "top": "chop:block/advent_calendar_side"}}

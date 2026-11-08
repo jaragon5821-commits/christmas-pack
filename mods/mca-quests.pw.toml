@@ -1,0 +1,15 @@
+filename = "mcaquests-1.7.1.jar"
+name = "MCA: Quests"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "6a580c78fc300d0d0a53aba387a5550930d5d6f8d25fec4b684bae8fea0007e47621a97f2f33d6606aa3b41f3f53a1020371e276f94a3fb60df27a81c4d02625"
+mode = "url"
+url = "https://cdn.modrinth.com/data/7Cq2Y0Rq/versions/yJF5rCzP/mcaquests-1.7.1.jar"
+
+[update]
+[update.modrinth]
+mod-id = "7Cq2Y0Rq"
+version = "yJF5rCzP"
+

@@ -1,0 +1,13 @@
+filename = "christmasmusicdiscs-1.21.1-v1.3.jar"
+name = "Christmas Music Discs"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c41379ba4015a719d578be36f9a195ca8921dd7a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5936162
+project-id = 1135456

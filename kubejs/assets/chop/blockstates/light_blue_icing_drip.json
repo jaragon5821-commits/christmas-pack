@@ -1,0 +1,1 @@
+{"variants": {"facing=north": {"model": "chop:block/light_blue_icing_drip", "y": 0}, "facing=east": {"model": "chop:block/light_blue_icing_drip", "y": 90}, "facing=south": {"model": "chop:block/light_blue_icing_drip", "y": 180}, "facing=west": {"model": "chop:block/light_blue_icing_drip", "y": 270}}}

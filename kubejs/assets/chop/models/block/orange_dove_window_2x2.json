@@ -1,0 +1,1 @@
+{"parent": "minecraft:block/cube_all", "textures": {"all": "chop:block/orange_dove_window_2x2"}, "render_type": "minecraft:translucent"}

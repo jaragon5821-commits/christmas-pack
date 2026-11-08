@@ -1,0 +1,14 @@
+filename = "Bonfire blessings-1.0.0-neoforge-1.21.1.jar"
+name = "Bonfire blessings"
+side = "server"
+
+[download]
+hash-format = "sha512"
+hash = "6723887ec9a1779edbfd417b763e3c0578b47a361d1f9ca7271e78bfd80df5a6b1d93b48fdd5c0d3c4113fccf73d1df959f88378dded6024b2f43dbaff4a66c5"
+mode = "url"
+url = "https://cdn.modrinth.com/data/KuBQUFwO/versions/J5N04Le8/Bonfire%20blessings-1.0.0-neoforge-1.21.1.jar"
+
+[update]
+[update.modrinth]
+mod-id = "KuBQUFwO"
+version = "J5N04Le8"

@@ -1,0 +1,598 @@
+{
+ "textureSize": [
+  128,
+  64
+ ],
+ "models": [
+  {
+   "part": "body",
+   "id": "body",
+   "attach": false,
+   "invertAxis": "xy",
+   "translate": [
+    0,
+    -13,
+    -5
+   ],
+   "boxes": [
+    {
+     "coordinates": [
+      -4.5,
+      11,
+      -11,
+      9,
+      8,
+      20
+     ],
+     "textureOffset": [
+      0,
+      0
+     ]
+    },
+    {
+     "coordinates": [
+      -4,
+      10,
+      -9,
+      8,
+      1,
+      16
+     ],
+     "textureOffset": [
+      80,
+      0
+     ]
+    },
+    {
+     "coordinates": [
+      -5,
+      15,
+      -5,
+      10,
+      5,
+      8
+     ],
+     "textureOffset": [
+      0,
+      28
+     ]
+    },
+    {
+     "coordinates": [
+      -4,
+      12,
+      9,
+      8,
+      6,
+      1
+     ],
+     "textureOffset": [
+      54,
+      41
+     ]
+    },
+    {
+     "coordinates": [
+      -1.5,
+      16,
+      9.5,
+      3,
+      3,
+      2
+     ],
+     "textureOffset": [
+      80,
+      41
+     ]
+    }
+   ]
+  },
+  {
+   "part": "neck",
+   "id": "neck",
+   "attach": false,
+   "invertAxis": "xy",
+   "translate": [
+    0,
+    -20,
+    12
+   ],
+   "boxes": [
+    {
+     "coordinates": [
+      -2.5,
+      14,
+      -14,
+      5,
+      12,
+      6
+     ],
+     "textureOffset": [
+      58,
+      0
+     ]
+    },
+    {
+     "coordinates": [
+      -2,
+      13,
+      -15.5,
+      4,
+      6,
+      2
+     ],
+     "textureOffset": [
+      26,
+      41
+     ]
+    },
+    {
+     "coordinates": [
+      -3,
+      16,
+      -14.5,
+      6,
+      2,
+      7
+     ],
+     "textureOffset": [
+      0,
+      41
+     ]
+    },
+    {
+     "coordinates": [
+      -3,
+      26,
+      -14,
+      6,
+      5,
+      7
+     ],
+     "textureOffset": [
+      84,
+      28
+     ]
+    },
+    {
+     "coordinates": [
+      -2,
+      26,
+      -18,
+      4,
+      4,
+      4
+     ],
+     "textureOffset": [
+      38,
+      41
+     ]
+    },
+    {
+     "coordinates": [
+      -1,
+      28,
+      -18.5,
+      2,
+      2,
+      1
+     ],
+     "textureOffset": [
+      36,
+      50
+     ]
+    },
+    {
+     "coordinates": [
+      2.5,
+      29,
+      -9,
+      2,
+      1,
+      1
+     ],
+     "textureOffset": [
+      54,
+      50
+     ]
+    },
+    {
+     "coordinates": [
+      -4.5,
+      29,
+      -9,
+      2,
+      1,
+      1
+     ],
+     "textureOffset": [
+      60,
+      50
+     ]
+    },
+    {
+     "coordinates": [
+      2,
+      31,
+      -10,
+      1,
+      5,
+      1
+     ],
+     "textureOffset": [
+      72,
+      41
+     ]
+    },
+    {
+     "coordinates": [
+      -3,
+      31,
+      -10,
+      1,
+      5,
+      1
+     ],
+     "textureOffset": [
+      76,
+      41
+     ]
+    },
+    {
+     "coordinates": [
+      3,
+      34,
+      -10,
+      3,
+      1,
+      1
+     ],
+     "textureOffset": [
+      66,
+      50
+     ]
+    },
+    {
+     "coordinates": [
+      -6,
+      34,
+      -10,
+      3,
+      1,
+      1
+     ],
+     "textureOffset": [
+      74,
+      50
+     ]
+    },
+    {
+     "coordinates": [
+      5,
+      35,
+      -10,
+      1,
+      3,
+      1
+     ],
+     "textureOffset": [
+      28,
+      50
+     ]
+    },
+    {
+     "coordinates": [
+      -6,
+      35,
+      -10,
+      1,
+      3,
+      1
+     ],
+     "textureOffset": [
+      32,
+      50
+     ]
+    },
+    {
+     "coordinates": [
+      2,
+      36,
+      -12,
+      1,
+      1,
+      2
+     ],
+     "textureOffset": [
+      42,
+      50
+     ]
+    },
+    {
+     "coordinates": [
+      -3,
+      36,
+      -12,
+      1,
+      1,
+      2
+     ],
+     "textureOffset": [
+      48,
+      50
+     ]
+    },
+    {
+     "coordinates": [
+      6,
+      37,
+      -10,
+      2,
+      1,
+      1
+     ],
+     "textureOffset": [
+      82,
+      50
+     ]
+    },
+    {
+     "coordinates": [
+      -8,
+      37,
+      -10,
+      2,
+      1,
+      1
+     ],
+     "textureOffset": [
+      88,
+      50
+     ]
+    }
+   ]
+  },
+  {
+   "part": "back_left_leg",
+   "id": "back_left_leg",
+   "attach": false,
+   "invertAxis": "xy",
+   "translate": [
+    4,
+    -10,
+    -7
+   ],
+   "boxes": [
+    {
+     "coordinates": [
+      -5.5,
+      1,
+      6,
+      3,
+      10,
+      3
+     ],
+     "textureOffset": [
+      36,
+      28
+     ]
+    },
+    {
+     "coordinates": [
+      -5.5,
+      0,
+      5.5,
+      3,
+      1,
+      4
+     ],
+     "textureOffset": [
+      90,
+      41
+     ]
+    }
+   ]
+  },
+  {
+   "part": "back_right_leg",
+   "id": "back_right_leg",
+   "attach": false,
+   "invertAxis": "xy",
+   "translate": [
+    -4,
+    -10,
+    -7
+   ],
+   "boxes": [
+    {
+     "coordinates": [
+      2.5,
+      1,
+      6,
+      3,
+      10,
+      3
+     ],
+     "textureOffset": [
+      48,
+      28
+     ]
+    },
+    {
+     "coordinates": [
+      2.5,
+      0,
+      5.5,
+      3,
+      1,
+      4
+     ],
+     "textureOffset": [
+      104,
+      41
+     ]
+    }
+   ]
+  },
+  {
+   "part": "front_left_leg",
+   "id": "front_left_leg",
+   "attach": false,
+   "invertAxis": "xy",
+   "translate": [
+    4,
+    -10,
+    10
+   ],
+   "boxes": [
+    {
+     "coordinates": [
+      -5.5,
+      1,
+      -11,
+      3,
+      10,
+      3
+     ],
+     "textureOffset": [
+      60,
+      28
+     ]
+    },
+    {
+     "coordinates": [
+      -5.5,
+      0,
+      -11.5,
+      3,
+      1,
+      4
+     ],
+     "textureOffset": [
+      0,
+      50
+     ]
+    }
+   ]
+  },
+  {
+   "part": "front_right_leg",
+   "id": "front_right_leg",
+   "attach": false,
+   "invertAxis": "xy",
+   "translate": [
+    -4,
+    -10,
+    10
+   ],
+   "boxes": [
+    {
+     "coordinates": [
+      2.5,
+      1,
+      -11,
+      3,
+      10,
+      3
+     ],
+     "textureOffset": [
+      72,
+      28
+     ]
+    },
+    {
+     "coordinates": [
+      2.5,
+      0,
+      -11.5,
+      3,
+      1,
+      4
+     ],
+     "textureOffset": [
+      14,
+      50
+     ]
+    }
+   ]
+  },
+  {
+   "part": "head",
+   "id": "head",
+   "attach": false,
+   "boxes": []
+  },
+  {
+   "part": "mane",
+   "id": "mane",
+   "attach": false,
+   "boxes": []
+  },
+  {
+   "part": "mouth",
+   "id": "mouth",
+   "attach": false,
+   "boxes": []
+  },
+  {
+   "part": "left_ear",
+   "id": "left_ear",
+   "attach": false,
+   "boxes": []
+  },
+  {
+   "part": "right_ear",
+   "id": "right_ear",
+   "attach": false,
+   "boxes": []
+  },
+  {
+   "part": "tail",
+   "id": "tail",
+   "attach": false,
+   "boxes": []
+  },
+  {
+   "part": "saddle",
+   "id": "saddle",
+   "attach": false,
+   "boxes": []
+  },
+  {
+   "part": "left_bit",
+   "id": "left_bit",
+   "attach": false,
+   "boxes": []
+  },
+  {
+   "part": "right_bit",
+   "id": "right_bit",
+   "attach": false,
+   "boxes": []
+  },
+  {
+   "part": "left_rein",
+   "id": "left_rein",
+   "attach": false,
+   "boxes": []
+  },
+  {
+   "part": "right_rein",
+   "id": "right_rein",
+   "attach": false,
+   "boxes": []
+  },
+  {
+   "part": "headpiece",
+   "id": "headpiece",
+   "attach": false,
+   "boxes": []
+  },
+  {
+   "part": "noseband",
+   "id": "noseband",
+   "attach": false,
+   "boxes": []
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+#Music.
+[music]
+	#Replace ALL of Minecraft's music with the Christmas Hearthlight soundtrack:
+	#the main menu plays its own lobby track; the Overworld, Nether, End, underwater, boss and credits
+	#music play our tracks. Music discs (jukebox) are never changed. Volume follows the Music slider.
+	replaceMusic = true
+
+#Title screen.
+[titleScreen]
+	#Show "Merry Christmas!" (in the game's language) as the yellow splash text on the title screen.
+	christmasSplash = true

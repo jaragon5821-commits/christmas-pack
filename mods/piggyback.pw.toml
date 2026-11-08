@@ -1,0 +1,13 @@
+name = "Piggyback"
+filename = "piggyback-neoforge-1.21.1-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yP77bAiA/versions/zBNKQZnP/piggyback-neoforge-1.21.1-1.1.1.jar"
+hash-format = "sha512"
+hash = "5ba29acc66d5782af44d9d4e3807ad249e1c16a33e0be870e194b59f7d9b5d09ca88081585a91be306866ef3e1004adb83fcbe7a062b3fb842c09de6192d8991"
+
+[update]
+[update.modrinth]
+mod-id = "yP77bAiA"
+version = "zBNKQZnP"

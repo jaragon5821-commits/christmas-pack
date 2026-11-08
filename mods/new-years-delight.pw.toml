@@ -1,0 +1,13 @@
+filename = "nydelight-1.21.1-2.0.0.jar"
+name = "New Year's Delight"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9dc3d1204050c009b573910cf6784093b6f6de82"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9276851
+project-id = 1451118

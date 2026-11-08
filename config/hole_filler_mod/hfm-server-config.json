@@ -1,0 +1,87 @@
+{
+  "client_limiters": {
+    "info": "These values allow you to cap a clients max/min values.",
+    "max_diameter": {
+      "value": 32,
+      "info": "The maximum diameter of a hole that can be filled. Min: 3, Max: 48, Default: 32."
+    },
+    "max_volume": {
+      "value": 2000,
+      "info": "The maximum volume of a hole that can be filled. Min: 1, Max: 10000, Default: 2000."
+    },
+    "max_undo_timer": {
+      "value": 120,
+      "info": "The maximum time in seconds that a player has to undo a fill. Min: 1, Max: 120, Default: 120."
+    },
+    "min_fill_speed": {
+      "value": 1,
+      "info": "The minimum speed at which a hole can be filled. (Blocks/Tick) Min: 1, Max: 120, Default: 1."
+    }
+  },
+  "server_enforced": {
+    "info": "These values are specific-to and enforced by the server.",
+    "allow_free_dirt": {
+      "value": true,
+      "info": "Whether or not players can fill holes with dirt for free. Default: true."
+    },
+    "light_sources_per_torch": {
+      "value": 6,
+      "info": "The number of light sources that a torch can provide. Min: 1, Max: 128, Default: 6."
+    },
+    "torch_return_rate": {
+      "value": 0.7,
+      "info": "The rate at which torches return to the player. Min: 0, Max: 1, Default: 0.7."
+    },
+    "log_throws": {
+      "value": true,
+      "info": "Whether or not to log thrown Hole Fillers."
+    },
+    "hole_maker_max_charge": {
+      "value": 8,
+      "info": "The maximum charge that a hole maker can build up. Radius is charge * 2. Min: 1, Max: 8, Default: 8."
+    },
+    "hole_maker_nuke": {
+      "value": true,
+      "info": "Whether or not the hole maker can nuke. (Charge for 10 seconds). Radius is 40. Note: max_charge must also be maxed."
+    },
+    "blacklist": {
+      "info": "Determine who these items are available to. [-1]-Disabled, [0]-All, [1]-OP (requires OP Level 2)",
+      "hf": {
+        "value": 0,
+        "info": "Whether or not to include the hole filler."
+      },
+      "hf_choice": {
+        "value": 0,
+        "info": "Whether or not to include the hole filler choice."
+      },
+      "hf_choice_slice": {
+        "value": 0,
+        "info": "Whether or not to include the hole filler choice slice."
+      },
+      "hf_smart": {
+        "value": 0,
+        "info": "Whether or not to include the hole filler smart."
+      },
+      "hf_water": {
+        "value": 0,
+        "info": "Whether or not to include the hole filler water."
+      },
+      "hf_lava": {
+        "value": 0,
+        "info": "Whether or not to include the hole filler lava."
+      },
+      "hf_light_and_dark": {
+        "value": 0,
+        "info": "Whether or not to include the hole filler light and dark."
+      },
+      "inventory_sync": {
+        "value": 0,
+        "info": "Whether or not to include inventory synchronization."
+      },
+      "hole_maker": {
+        "value": 0,
+        "info": "Whether or not to include the hole maker."
+      }
+    }
+  }
+}

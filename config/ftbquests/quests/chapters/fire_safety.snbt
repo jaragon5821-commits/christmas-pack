@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fire_safety"
+	group: ""
+	icon: {
+		id: "burnt:extinguisher"
+	}
+	id: "4C1A0F15AFE70001"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:flint_and_steel"
+			}
+			id: "4C1A0F15AFE70002"
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "4C1A0F15AFE70003"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C1A0F15AFE70002"]
+			icon: {
+				id: "minecraft:water_bucket"
+			}
+			id: "4C1A0F15AFE70004"
+			rewards: [{
+				id: "4C1A0F15AFE70005"
+				item: {
+					count: 1
+					id: "burnt:extinguisher"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4C1A0F15AFE70006"
+				item: { count: 1, id: "minecraft:water_bucket" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

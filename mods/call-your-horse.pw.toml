@@ -1,0 +1,13 @@
+name = "Call Your Horse"
+filename = "call-your-horse-v1.3.11.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QuDyXDNw/versions/8McTlamo/call-your-horse-v1.3.11.jar"
+hash-format = "sha512"
+hash = "bc957f4a616ac1d6a1c97273d9e46c3298c467c679e65477b16768b0a00d5120dfce7b2c36e4a0f48e4a51b7ae34a18ddb57f7eea03d784a27e3acc1a229b8b4"
+
+[update]
+[update.modrinth]
+mod-id = "QuDyXDNw"
+version = "8McTlamo"

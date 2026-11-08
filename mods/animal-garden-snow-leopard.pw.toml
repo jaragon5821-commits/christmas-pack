@@ -1,0 +1,13 @@
+name = "Animal Garden - Snow Leopard"
+filename = "animalgarden-snowleopard-1.0.0-neoforge-1.21.1-21.1.219.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dC08F5P8/versions/WPVd2uIj/animalgarden-snowleopard-1.0.0-neoforge-1.21.1-21.1.219.jar"
+hash-format = "sha512"
+hash = "3955f962c3ad915cd4bdc0ee358beb182f55da73a3077abf690348bc555706eaeb02d980e67e69f32c3eb0b24a8863e2e68a6444f5e4e9aa4a7a8b9adb6971ca"
+
+[update]
+[update.modrinth]
+mod-id = "dC08F5P8"
+version = "WPVd2uIj"

@@ -1,0 +1,114 @@
+{
+ "textureSize": [
+  64,
+  64
+ ],
+ "models": [
+  {
+   "part": "body",
+   "id": "body",
+   "attach": false,
+   "invertAxis": "xy",
+   "translate": [
+    0,
+    -24,
+    0
+   ],
+   "boxes": [
+    {
+     "coordinates": [
+      -3,
+      0,
+      -1.5,
+      6,
+      7,
+      3
+     ],
+     "textureOffset": [
+      0,
+      32
+     ]
+    },
+    {
+     "coordinates": [
+      3,
+      5,
+      -1.5,
+      1,
+      2,
+      3
+     ],
+     "textureOffset": [
+      18,
+      32
+     ]
+    },
+    {
+     "coordinates": [
+      -4,
+      5,
+      -1.5,
+      1,
+      2,
+      3
+     ],
+     "textureOffset": [
+      26,
+      32
+     ]
+    },
+    {
+     "coordinates": [
+      -0.5,
+      4.5,
+      -2.5,
+      1,
+      1,
+      1
+     ],
+     "textureOffset": [
+      34,
+      32
+     ]
+    },
+    {
+     "coordinates": [
+      -0.5,
+      2,
+      -2.5,
+      1,
+      1,
+      1
+     ],
+     "textureOffset": [
+      38,
+      32
+     ]
+    }
+   ],
+   "animations": [
+    {
+     "body.rz": "sin(age * 0.15) * 0.05"
+    }
+   ]
+  },
+  {
+   "part": "left_eye",
+   "id": "left_eye",
+   "attach": false,
+   "boxes": []
+  },
+  {
+   "part": "right_eye",
+   "id": "right_eye",
+   "attach": false,
+   "boxes": []
+  },
+  {
+   "part": "mouth",
+   "id": "mouth",
+   "attach": false,
+   "boxes": []
+  }
+ ]
+}

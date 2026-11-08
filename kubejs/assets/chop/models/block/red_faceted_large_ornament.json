@@ -1,0 +1,1 @@
+{"parent": "minecraft:block/cube_bottom_top", "textures": {"top": "chop:block/red_faceted_large_ornament_top", "bottom": "chop:block/red_faceted_large_ornament_bottom", "side": "chop:block/red_faceted_large_ornament_side"}}

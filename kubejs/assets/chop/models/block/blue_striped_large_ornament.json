@@ -1,0 +1,1 @@
+{"parent": "minecraft:block/cube_bottom_top", "textures": {"top": "chop:block/blue_striped_large_ornament_top", "bottom": "chop:block/blue_striped_large_ornament_bottom", "side": "chop:block/blue_striped_large_ornament_side"}}

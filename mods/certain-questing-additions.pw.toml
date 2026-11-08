@@ -1,0 +1,14 @@
+filename = "certain_questing_additions-neoforge-1.2.0.5+mc1.21.1.jar"
+name = "Certain Questing Additions"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "928173bc590fad4557f7fe399dc71c16d12acf8ec5c28aab6e1f714c8e79922856df2bdeb17d44f2d7092336c6d19dfee3babad91e38d329e88e168dfad3c774"
+mode = "url"
+url = "https://cdn.modrinth.com/data/5BPpCYUe/versions/SLI6Cs7Q/certain_questing_additions-neoforge-1.2.0.5%2Bmc1.21.1.jar"
+
+[update]
+[update.modrinth]
+mod-id = "5BPpCYUe"
+version = "SLI6Cs7Q"

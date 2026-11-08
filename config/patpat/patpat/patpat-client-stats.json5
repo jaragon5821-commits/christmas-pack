@@ -1,0 +1,10 @@
+{
+  "totalPatsCounter": {
+    "pats": 15
+  },
+  "entities": {
+    "minecraft:horse": {
+      "pats": 14
+    }
+  }
+}

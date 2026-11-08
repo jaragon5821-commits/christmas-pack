@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "hanging=false": {
+   "model": "chop:block/orange_ornament"
+  },
+  "hanging=true": {
+   "model": "chop:block/orange_ornament_hanging"
+  }
+ }
+}

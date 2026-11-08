@@ -1,0 +1,15 @@
+filename = "mca_hat_layer_fix-1.0.0.jar"
+name = "MCA Hat Layer Fix"
+side = "client"
+
+[download]
+hash-format = "sha512"
+hash = "54139872986a6bb279733a2360f0d05608b4729c6f102aef05a1b55c061c43456760ab2babedcba6e50bc6ae2e701204bb5b1d4f7bedfc59bd01d1c0fe81affe"
+mode = "url"
+url = "https://cdn.modrinth.com/data/Rx85niCu/versions/PiKcqWlg/mca_hat_layer_fix-1.0.0.jar"
+
+[update]
+[update.modrinth]
+mod-id = "Rx85niCu"
+version = "PiKcqWlg"
+

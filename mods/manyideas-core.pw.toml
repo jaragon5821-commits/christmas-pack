@@ -1,0 +1,14 @@
+filename = "ManyIdeasCore-1.21.1-3.1.0.jar"
+name = "ManyIdeas Core"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "a9811cd96faf1ce97911ad4dd474e51b63e07ac087984a64b0261dba1b97d2f3ba4b05cba7d5ef0684e5fed3d19dcbaed9fd72e6b6c21ababbbaf99e1742ce9d"
+mode = "url"
+url = "https://cdn.modrinth.com/data/BBY8EPJt/versions/ZTTVaXD7/ManyIdeasCore-1.21.1-3.1.0.jar"
+
+[update]
+[update.modrinth]
+mod-id = "BBY8EPJt"
+version = "ZTTVaXD7"

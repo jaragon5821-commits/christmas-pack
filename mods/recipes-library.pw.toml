@@ -1,0 +1,14 @@
+filename = "RecipesLibrary-1.21.1-4.0.2.jar"
+name = "Recipes Library"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "4ef53b44f0d798b0237866d0159878a806c7017a15222972fb4bd5c95cbc20ba749b112c73e8ef4d0524bd0dca006973f8abf7c3dceecca5159f3047dead5921"
+mode = "url"
+url = "https://cdn.modrinth.com/data/LG8SignH/versions/S1H3kTNa/RecipesLibrary-1.21.1-4.0.2.jar"
+
+[update]
+[update.modrinth]
+mod-id = "LG8SignH"
+version = "S1H3kTNa"

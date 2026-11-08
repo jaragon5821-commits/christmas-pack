@@ -1,0 +1,9 @@
+#When true, every MineColonies colonist that has no stored look gets a random MCA look
+#(same gender as the colonist). When false, only villagers hired from MCA keep their MCA look.
+everyColonistGetsMcaLook = true
+#When true, colonists with a MineColonies custom player-skin texture (supporter skins)
+#keep that skin and are not drawn with an MCA look.
+respectCustomTextures = true
+#Draw colonists that have an MCA look with MineColonies' plain player model (no profession hats/aprons).
+#Off keeps the MineColonies profession models, which show texture artifacts with MCA skins.
+plainModelForMcaLooks = true

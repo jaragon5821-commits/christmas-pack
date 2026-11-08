@@ -1,0 +1,14 @@
+filename = "snowundertrees-1.21.1-1.5.1.jar"
+name = "Snow Under Trees"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "74d00d1671bf15e6f470a032f01b32eb70436860cb1fad4fe94e972b9824d59fe1a445ecf8c0e07d2ff0f2a8596eae46b912b98e8dc51ffcbff55ad119472289"
+mode = "url"
+url = "https://cdn.modrinth.com/data/Q3vyMuj2/versions/MWz6mhd4/snowundertrees-1.21.1-1.5.1.jar"
+
+[update]
+[update.modrinth]
+mod-id = "Q3vyMuj2"
+version = "MWz6mhd4"

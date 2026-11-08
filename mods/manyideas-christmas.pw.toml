@@ -1,0 +1,14 @@
+filename = "ManyIdeasChristmas-1.21.1-2.0.1.jar"
+name = "ManyIdeas Christmas"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "46c66375d5242b50a6da66b7130cd18108e458b4dfce453dc7bedf80f42a22828c632d77ba8d6f63cba7ba74520430f6138846190545a789bbcabfe35b4f7822"
+mode = "url"
+url = "https://cdn.modrinth.com/data/9P4EZygx/versions/8PrRTnEa/ManyIdeasChristmas-1.21.1-2.0.1.jar"
+
+[update]
+[update.modrinth]
+mod-id = "9P4EZygx"
+version = "8PrRTnEa"

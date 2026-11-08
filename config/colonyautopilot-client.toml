@@ -1,0 +1,7 @@
+[chat]
+	#Mute all colony chatter in YOUR chat only: MineColonies announcements (raids, research,
+	#deaths, citizen news), the autopilot's village milestones and its alert horn ('Help your village
+	#defend!', 'Your village is infected!'). Toggled in-game with /colonyautopilot chat on|off. Other
+	#players are unaffected. Three lines still come through, on purpose: the one-time Progression Mode
+	#notice, the rednight countdown and the monster arrivals' countdown (arrivals.*).
+	muteColonyChat = false

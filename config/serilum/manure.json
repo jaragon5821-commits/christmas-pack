@@ -1,0 +1,11 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Manure -> Config",
+	"Enable Manure": {
+		"//": "Whether Manure is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"manureDropDelayTicks": {
+		"//": "How long the delay in ticks is in between loaded animals dropping manure. 20 ticks = 1 second. By default twice a day, every 12000 ticks. min: 0, max: 10,000,000",
+		"value": 12000
+	}
+}

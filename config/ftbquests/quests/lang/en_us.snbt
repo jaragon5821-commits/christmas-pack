@@ -1,0 +1,61 @@
+{
+	chapter.4C1A0F15AFE70001.title: "Fire Safety"
+	chapter.7C0A15F3B1D2E401.title: "Naughty List"
+	chapter.7C0A15F3B1D2E501.title: "Nice List"
+	quest.4C1A0F15AFE70002.quest_desc: [
+		"Fire in this world is &cdangerous&r. Once something catches, the flames &lspread&r to every wooden block next to it."
+		""
+		"Burning wood smoulders, then turns into &8charred&r blocks. A house can burn down to a &8black shell&r in minutes."
+		""
+		"&bRain&r puts fires out. &cSnow won't save your building&r: the fire burns just as fast while it snows. You're the fire brigade."
+		""
+		"Modded furniture, roofs and Christmas decorations don't char, they just &cburn away&r. Keep fires away from your decor!"
+	]
+	quest.4C1A0F15AFE70002.title: "Where There's Smoke..."
+	quest.4C1A0F15AFE70004.quest_desc: [
+		"Water stops any burning block. Grab a &bwater bucket&r and keep it on your hotbar when you light anything."
+		""
+		"Your reward is a &cFire Extinguisher&r: spray it at flames to put out a whole fire quickly."
+		""
+		"&7Colony buildings that burn get rebuilt by your builders, once a day after the fire is out. Your own builds and villager homes are yours to fix.&r"
+		""
+		"&4Careful:&r setting fires that hurt villages costs &cFestivity&r."
+	]
+	quest.4C1A0F15AFE70004.title: "Bucket Brigade"
+	quest.7C0A15F3B1D2E402.quest_desc: [
+		"Festivity has fallen below 50. Sour Elves, Nutcrackers and Coal Gnomes now drop &8Coal Tokens&r."
+		""
+		"Santy Claws keeps a list too. Prove you have been naughty and he pays in kind. Every reward here lowers Festivity for everyone, so the Nice players will not thank you."
+	]
+	quest.7C0A15F3B1D2E402.quest_subtitle: "Pick up your first Coal Token"
+	quest.7C0A15F3B1D2E402.title: "The Naughty List"
+	quest.7C0A15F3B1D2E405.quest_desc: ["Hand over 8 Coal Tokens. Santy Claws leaves you a wither skeleton skull and takes 2 Festivity from the world."]
+	quest.7C0A15F3B1D2E405.quest_subtitle: "Coal for bone"
+	quest.7C0A15F3B1D2E405.title: "A Lump of Coal"
+	quest.7C0A15F3B1D2E409.quest_desc: ["16 Coal Tokens buy a Claws' Horn. Blow it (right-click) at night to call a Sour Elf pack to you. -3 Festivity for the world."]
+	quest.7C0A15F3B1D2E409.quest_subtitle: "Call the pack"
+	quest.7C0A15F3B1D2E409.title: "Santy's Horn"
+	quest.7C0A15F3B1D2E40D.quest_desc: ["Do a Naughty Letter dare (Santy Claws sends them to one random player on quiet Merry days). The ledger remembers. Reward: a Netherite ingot, and the world loses 4 Festivity when you do it."]
+	quest.7C0A15F3B1D2E40D.quest_subtitle: "Festivity scripts complete this one (checkmark task)"
+	quest.7C0A15F3B1D2E40D.title: "Dear S. Claws"
+	quest.7C0A15F3B1D2E502.quest_desc: [
+		"Festivity is the world's shared Christmas spirit, 0 to 100. Festive food, decorations, gifts, growing colonies and helping each other raise it. Hurting villagers, breaking other people's decor and griefing lower it."
+		""
+		"Type &6/festivity&r to see the bar. &dRibbon Tokens&r come from driving off Santy Claws, freeing a kidnapped friend or smashing a Cursed Star."
+	]
+	quest.7C0A15F3B1D2E502.quest_subtitle: "Read me"
+	quest.7C0A15F3B1D2E502.title: "The Nice List"
+	quest.7C0A15F3B1D2E505.quest_desc: ["Eat any festive food while the bar is Merry or better (the Festivity scripts tick this off)."]
+	quest.7C0A15F3B1D2E505.quest_subtitle: "A merry mouthful"
+	quest.7C0A15F3B1D2E505.title: "Festive Feast"
+	quest.7C0A15F3B1D2E508.quest_desc: ["Turn in 3 Ribbon Tokens. Santa sends a string of Fairy Lights and the world gains 2 Festivity."]
+	quest.7C0A15F3B1D2E508.quest_subtitle: "Three ribbons"
+	quest.7C0A15F3B1D2E508.title: "Tied With a Bow"
+	quest.7C0A15F3B1D2E50C.quest_desc: ["Drive Santy Claws off yourself (be one of the players who hit him when he flees). The scripts tick this off and hand you his Horn."]
+	quest.7C0A15F3B1D2E50C.quest_subtitle: "Scripts complete this one"
+	quest.7C0A15F3B1D2E50C.title: "Not Tonight, Claws"
+	quest.7C0A15F3B1D2E50F.quest_desc: ["Free a friend from a Giant Present by breaking the red knot on top. Scripts tick this off."]
+	quest.7C0A15F3B1D2E50F.quest_subtitle: "Scripts complete this one"
+	quest.7C0A15F3B1D2E50F.title: "Unwrapped"
+	task.4C1A0F15AFE70003.title: "I understand: fire spreads"
+}

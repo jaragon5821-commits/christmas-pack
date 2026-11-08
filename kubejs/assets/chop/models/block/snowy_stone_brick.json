@@ -1,0 +1,1 @@
+{"parent": "minecraft:block/cube_bottom_top", "textures": {"side": "chop:block/snowy_stone_brick_side", "top": "chop:block/snow_cap_top", "bottom": "chop:block/snowy_stone_brick_bottom"}}

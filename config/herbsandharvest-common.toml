@@ -1,0 +1,4 @@
+#Whether to add grape trellis structures to villages
+add_trellis = true
+#Whether to add h&h crops to village gardens
+crops_in_gardens = true

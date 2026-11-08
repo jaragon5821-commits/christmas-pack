@@ -1,0 +1,15 @@
+filename = "mcaromanticexpansion-1.1.5-1.21.1.jar"
+name = "MCA: Romantic Expansion"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "8240c19e5c1b64cbcbc42a323173f4674beb5431eb7f1c980c5dd0fbf24aa37fdee7851b1f1ec7533f575c9ecca7bfa98fe827aa09ba2adc5e14285f40d4d18b"
+mode = "url"
+url = "https://cdn.modrinth.com/data/yGNIAsvP/versions/HMP7lMBg/mcaromanticexpansion-1.1.5-1.21.1.jar"
+
+[update]
+[update.modrinth]
+mod-id = "yGNIAsvP"
+version = "HMP7lMBg"
+

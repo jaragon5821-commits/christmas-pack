@@ -1,0 +1,794 @@
+{
+  "config_version": "2.0.43",
+  "config_datetime": "2026-11-05_08-59-19",
+  "general": {
+    "prevent_structure_overlap": true
+  },
+  "structure_namespaces": [
+    {
+      "name": "global",
+      "enable_flatness_check": true,
+      "flatness_check_mode": "AUTO"
+    },
+    {
+      "name": "chop",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "roadweaver",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    }
+  ],
+  "structures": [
+    {
+      "name": "minecraft:village_desert",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "minecraft:village_plains",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "minecraft:village_savanna",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "minecraft:village_snowy",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "minecraft:village_taiga",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_beach",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_christmas",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_dark_forest",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_desert",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_desert_oasis",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_jungle",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_jungle_tree",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_mesa",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_mesa_fortified",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_mountain",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_mountain_alpine",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_mushroom",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_plains",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_plains_fortified",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_savanna",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_savanna_na",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_snowy_igloo",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_swamp",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_swamp_fortified",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_taiga",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_taiga_fortified",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:large/village_underground",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_beach",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_christmas",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_dark_forest",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_desert",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_desert_oasis",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_jungle",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_jungle_tree",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_mesa",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_mesa_fortified",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_mountain",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_mountain_alpine",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_mushroom",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_plains",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_plains_fortified",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_savanna",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_savanna_na",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_snowy_igloo",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_swamp",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_swamp_fortified",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_taiga",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_taiga_fortified",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:medium/village_underground",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_beach",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_christmas",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_dark_forest",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_desert",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_desert_oasis",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_jungle",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_jungle_tree",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_mesa",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_mesa_fortified",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_mountain",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_mountain_alpine",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_mushroom",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_plains",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_plains_fortified",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_savanna",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_savanna_na",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_snowy_igloo",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_swamp",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_swamp_fortified",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_taiga",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_taiga_fortified",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "ctov:small/village_underground",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "biomeswevegone:village/forgotten",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "biomeswevegone:village/pumpkin_patch",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "biomeswevegone:village/red_rock",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "biomeswevegone:village/salem",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "biomeswevegone:village/skyris",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "biomeswevegone:village/swamp",
+      "exclude_from_overlap_prevention": true,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_mode": "MANUAL",
+      "flatness_check_max_height_difference": 10
+    },
+    {
+      "name": "chop:christmas_tree_xl",
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "minecraft:ancient_city",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:trial_chambers",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:stronghold",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:mineshaft",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:mineshaft_mesa",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:buried_treasure",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:monument",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:ocean_ruin_cold",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:ocean_ruin_warm",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:shipwreck",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:shipwreck_beached",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:ruined_portal",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:ruined_portal_desert",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:ruined_portal_jungle",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:ruined_portal_swamp",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:ruined_portal_mountain",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:ruined_portal_ocean",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:ruined_portal_nether",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:trail_ruins",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:fortress",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:bastion_remnant",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:nether_fossil",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecraft:end_city",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "biomeswevegone:large_cold_lake",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "burnt_additions:volcano",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "burnt_additions:geyser",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "minecolonies:ship",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "supplementaries:galleon",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    },
+    {
+      "name": "supplementaries:road_sign",
+      "override_global_flatness_check": true,
+      "enable_flatness_check": false
+    }
+  ],
+  "structure_sets": [],
+  "structure_template_pools": []
+}

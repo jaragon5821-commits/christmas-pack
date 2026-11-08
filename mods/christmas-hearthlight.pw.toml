@@ -1,0 +1,13 @@
+filename = "christmas_hearthlight-neoforge-1.21.1.jar"
+name = "Christmas Hearthlight"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b5f6ba31ddb6f9f0f2a59dde17b8f6571d943097"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9261765
+project-id = 1754197

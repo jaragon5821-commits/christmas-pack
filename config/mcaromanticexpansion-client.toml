@@ -1,0 +1,25 @@
+#HUD Settings
+[hud]
+	#HUD display position
+	#Available values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT, CUSTOM
+	hudPosition = "BOTTOM_CENTER"
+	#Horizontal offset in pixels (applies to all positions)
+	# Default: 0
+	# Range: -500 ~ 500
+	hudOffsetX = 0
+	#Vertical offset in pixels (applies to all positions)
+	# Default: -30
+	# Range: -500 ~ 500
+	hudOffsetY = -30
+	#Custom X position (only used when hudPosition = CUSTOM)
+	#Position relative to top-left corner of the screen
+	# Default: 100
+	# Range: 0 ~ 1920
+	customX = 100
+	#Custom Y position (only used when hudPosition = CUSTOM)
+	#Position relative to top-left corner of the screen
+	# Default: 100
+	# Range: 0 ~ 1080
+	customY = 100
+	#Show debug information
+	showDebug = false

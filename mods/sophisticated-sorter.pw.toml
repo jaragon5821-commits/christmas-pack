@@ -1,0 +1,15 @@
+filename = "SophisticatedSorter-neoforge-1.21.1-1.1.1.jar"
+name = "Sophisticated Sorter"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "09ecb7bfdedfc445eb18768ee969948cbe306483958a996bef9b313b2ddfe318fbb17a6442014d5eb49b9a5bf0318c3a1448f8d25798c1661a0dd39dff6184dd"
+mode = "url"
+url = "https://cdn.modrinth.com/data/2LPywrDb/versions/NBVaQWhY/SophisticatedSorter-neoforge-1.21.1-1.1.1.jar"
+
+[update]
+[update.modrinth]
+mod-id = "2LPywrDb"
+version = "NBVaQWhY"
+

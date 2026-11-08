@@ -1,0 +1,1 @@
+{"variants": {"facing=north": {"model": "chop:block/advent_calendar"}, "facing=east": {"model": "chop:block/advent_calendar", "y": 90}, "facing=south": {"model": "chop:block/advent_calendar", "y": 180}, "facing=west": {"model": "chop:block/advent_calendar", "y": 270}}}

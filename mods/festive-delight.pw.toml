@@ -1,0 +1,13 @@
+filename = "festive_delight-2.0.0-neoforge-1.21.1.jar"
+name = "Festive Delight"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e440a1fe3df842fc198d9ef68f31275d0115d433"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7884696
+project-id = 711672

@@ -1,0 +1,13 @@
+name = "RideablePolarBears"
+filename = "RideablePolarBears-1.0.0+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mfRRGzhA/versions/uiXBateq/RideablePolarBears-1.0.0%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "aa3e6f423acb5ded7c47286840a3dfb6b2c312f9d06c13ab484afe065d5d9482dfa3faad413941deaeea2bb5a4ea8c80a83a57255204678cde6e8ad8423ec479"
+
+[update]
+[update.modrinth]
+mod-id = "mfRRGzhA"
+version = "uiXBateq"

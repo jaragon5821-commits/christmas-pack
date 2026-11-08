@@ -1,0 +1,1233 @@
+{
+  "structures": [
+    {
+      "id": "minecraft:abandoned_camp_meadow",
+      "displayName": "Abandoned Camp Meadow",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:abandoned_camp_old_growth_pine_taiga",
+      "displayName": "Abandoned Camp Old Growth Pine Taiga",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "displayName": "Abandoned Camp Old Growth Spruce Taiga",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:abandoned_camp_pale_garden",
+      "displayName": "Abandoned Camp Pale Garden",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:abandoned_camp_snowy_taiga",
+      "displayName": "Abandoned Camp Snowy Taiga",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:abandoned_camp_taiga",
+      "displayName": "Abandoned Camp Taiga",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:abandoned_camp_windswept_forest",
+      "displayName": "Abandoned Camp Windswept Forest",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:ancient_city",
+      "displayName": "Ancient City",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:buried_treasure",
+      "displayName": "Buried Treasure",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:igloo",
+      "displayName": "Igloo",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:mansion",
+      "displayName": "Mansion",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:mineshaft",
+      "displayName": "Mineshaft",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:monument",
+      "displayName": "Monument",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:ocean_ruin_cold",
+      "displayName": "Ocean Ruin Cold",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:pillager_outpost",
+      "displayName": "Pillager Outpost",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:ruined_portal",
+      "displayName": "Ruined Portal",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:ruined_portal_desert",
+      "displayName": "Ruined Portal Desert",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:ruined_portal_mountain",
+      "displayName": "Ruined Portal Mountain",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:ruined_portal_ocean",
+      "displayName": "Ruined Portal Ocean",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:ruined_portal_swamp",
+      "displayName": "Ruined Portal Swamp",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:shipwreck",
+      "displayName": "Shipwreck",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:shipwreck_beached",
+      "displayName": "Shipwreck Beached",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:stronghold",
+      "displayName": "Stronghold",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:swamp_hut",
+      "displayName": "Swamp Hut",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:trail_ruins",
+      "displayName": "Trail Ruins",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:trial_chambers",
+      "displayName": "Trial Chambers",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:village_plains",
+      "displayName": "Village Plains",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:village_snowy",
+      "displayName": "Village Snowy",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:village_taiga",
+      "displayName": "Village Taiga",
+      "isVanilla": true
+    },
+    {
+      "id": "bakery:bakery",
+      "displayName": "Bakery",
+      "isVanilla": false
+    },
+    {
+      "id": "biomeswevegone:aspen_manor_1",
+      "displayName": "Aspen Manor 1",
+      "isVanilla": false
+    },
+    {
+      "id": "biomeswevegone:aspen_manor_2",
+      "displayName": "Aspen Manor 2",
+      "isVanilla": false
+    },
+    {
+      "id": "biomeswevegone:large_cold_lake",
+      "displayName": "Large Cold Lake",
+      "isVanilla": false
+    },
+    {
+      "id": "biomeswevegone:village/pumpkin_patch",
+      "displayName": "Village/pumpkin Patch",
+      "isVanilla": false
+    },
+    {
+      "id": "biomeswevegone:village/skyris",
+      "displayName": "Village/skyris",
+      "isVanilla": false
+    },
+    {
+      "id": "burnt_additions:geyser",
+      "displayName": "Geyser",
+      "isVanilla": false
+    },
+    {
+      "id": "burnt_additions:volcano",
+      "displayName": "Volcano",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_cave",
+      "displayName": "Christmas Cave",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_dungeon",
+      "displayName": "Christmas Dungeon",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_dungeon_inner",
+      "displayName": "Christmas Dungeon Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_landmark",
+      "displayName": "Christmas Landmark",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_landmark_inner",
+      "displayName": "Christmas Landmark Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_large",
+      "displayName": "Christmas Large",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_large_inner",
+      "displayName": "Christmas Large Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_medium",
+      "displayName": "Christmas Medium",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_medium_inner",
+      "displayName": "Christmas Medium Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_mega",
+      "displayName": "Christmas Mega",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_mega_inner",
+      "displayName": "Christmas Mega Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_small",
+      "displayName": "Christmas Small",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_small_g2",
+      "displayName": "Christmas Small G2",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_small_g2_inner",
+      "displayName": "Christmas Small G2 Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_small_inner",
+      "displayName": "Christmas Small Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_tree",
+      "displayName": "Christmas Tree",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_tree_inner",
+      "displayName": "Christmas Tree Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_tree_xl",
+      "displayName": "Christmas Tree Xl",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_tree_xl_inner",
+      "displayName": "Christmas Tree Xl Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:elf_prison_mines",
+      "displayName": "Elf Prison Mines",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:elf_prison_mines_inner",
+      "displayName": "Elf Prison Mines Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:gingerbread_labyrinth",
+      "displayName": "Gingerbread Labyrinth",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:gingerbread_labyrinth_inner",
+      "displayName": "Gingerbread Labyrinth Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:item/candy_cane",
+      "displayName": "Item/candy Cane",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:item/candy_cane_inner",
+      "displayName": "Item/candy Cane Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:item/christmas_decor",
+      "displayName": "Item/christmas Decor",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:item/christmas_decor_inner",
+      "displayName": "Item/christmas Decor Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:item/giant_item",
+      "displayName": "Item/giant Item",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:item/giant_item_inner",
+      "displayName": "Item/giant Item Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:roadside_xmas_boardwalk_lookout",
+      "displayName": "Roadside Xmas Boardwalk Lookout",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:roadside_xmas_cider_cart",
+      "displayName": "Roadside Xmas Cider Cart",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:roadside_xmas_gingerbread_hut",
+      "displayName": "Roadside Xmas Gingerbread Hut",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:roadside_xmas_hot_spring_shelter",
+      "displayName": "Roadside Xmas Hot Spring Shelter",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:roadside_xmas_ice_fishing_hut",
+      "displayName": "Roadside Xmas Ice Fishing Hut",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:roadside_xmas_mail_post",
+      "displayName": "Roadside Xmas Mail Post",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:roadside_xmas_market_stall",
+      "displayName": "Roadside Xmas Market Stall",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:roadside_xmas_roadside_tree",
+      "displayName": "Roadside Xmas Roadside Tree",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:roadside_xmas_sleigh_rest_stop",
+      "displayName": "Roadside Xmas Sleigh Rest Stop",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:roadside_xmas_snowman_pair",
+      "displayName": "Roadside Xmas Snowman Pair",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:roadside_xmas_wayside_shrine",
+      "displayName": "Roadside Xmas Wayside Shrine",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:roadside_xmas_woodcutter_lean_to",
+      "displayName": "Roadside Xmas Woodcutter Lean To",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:starter_house",
+      "displayName": "Starter House",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:starter_house_inner",
+      "displayName": "Starter House Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:statue/aged",
+      "displayName": "Statue/aged",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:statue/aged_inner",
+      "displayName": "Statue/aged Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:toy_factory",
+      "displayName": "Toy Factory",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:toy_factory_inner",
+      "displayName": "Toy Factory Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:large/village_beach",
+      "displayName": "Large/village Beach",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:large/village_christmas",
+      "displayName": "Large/village Christmas",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:large/village_dark_forest",
+      "displayName": "Large/village Dark Forest",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:large/village_mountain",
+      "displayName": "Large/village Mountain",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:large/village_mountain_alpine",
+      "displayName": "Large/village Mountain Alpine",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:large/village_swamp",
+      "displayName": "Large/village Swamp",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:large/village_swamp_fortified",
+      "displayName": "Large/village Swamp Fortified",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:large/village_underground",
+      "displayName": "Large/village Underground",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:medium/village_beach",
+      "displayName": "Medium/village Beach",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:medium/village_christmas",
+      "displayName": "Medium/village Christmas",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:medium/village_dark_forest",
+      "displayName": "Medium/village Dark Forest",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:medium/village_mountain",
+      "displayName": "Medium/village Mountain",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:medium/village_mountain_alpine",
+      "displayName": "Medium/village Mountain Alpine",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:medium/village_swamp",
+      "displayName": "Medium/village Swamp",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:medium/village_swamp_fortified",
+      "displayName": "Medium/village Swamp Fortified",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:medium/village_underground",
+      "displayName": "Medium/village Underground",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:pillager_outpost_beach",
+      "displayName": "Pillager Outpost Beach",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:pillager_outpost_dark_forest",
+      "displayName": "Pillager Outpost Dark Forest",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:pillager_outpost_mountain",
+      "displayName": "Pillager Outpost Mountain",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:pillager_outpost_plains",
+      "displayName": "Pillager Outpost Plains",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:pillager_outpost_snowy",
+      "displayName": "Pillager Outpost Snowy",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:pillager_outpost_swamp",
+      "displayName": "Pillager Outpost Swamp",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:pillager_outpost_taiga",
+      "displayName": "Pillager Outpost Taiga",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:small/village_beach",
+      "displayName": "Small/village Beach",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:small/village_christmas",
+      "displayName": "Small/village Christmas",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:small/village_dark_forest",
+      "displayName": "Small/village Dark Forest",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:small/village_mountain",
+      "displayName": "Small/village Mountain",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:small/village_mountain_alpine",
+      "displayName": "Small/village Mountain Alpine",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:small/village_swamp",
+      "displayName": "Small/village Swamp",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:small/village_swamp_fortified",
+      "displayName": "Small/village Swamp Fortified",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:small/village_underground",
+      "displayName": "Small/village Underground",
+      "isVanilla": false
+    },
+    {
+      "id": "minecolonies:asian_colony",
+      "displayName": "Asian Colony",
+      "isVanilla": false
+    },
+    {
+      "id": "minecolonies:barbarian_camp",
+      "displayName": "Barbarian Camp",
+      "isVanilla": false
+    },
+    {
+      "id": "minecolonies:caledonia_colony",
+      "displayName": "Caledonia Colony",
+      "isVanilla": false
+    },
+    {
+      "id": "minecolonies:colonial_colony",
+      "displayName": "Colonial Colony",
+      "isVanilla": false
+    },
+    {
+      "id": "minecolonies:incan_colony",
+      "displayName": "Incan Colony",
+      "isVanilla": false
+    },
+    {
+      "id": "minecolonies:medieval_birch_colony",
+      "displayName": "Medieval Birch Colony",
+      "isVanilla": false
+    },
+    {
+      "id": "minecolonies:medieval_dark_oak_colony",
+      "displayName": "Medieval Dark Oak Colony",
+      "isVanilla": false
+    },
+    {
+      "id": "minecolonies:medieval_oak_colony",
+      "displayName": "Medieval Oak Colony",
+      "isVanilla": false
+    },
+    {
+      "id": "minecolonies:medieval_spruce_colony",
+      "displayName": "Medieval Spruce Colony",
+      "isVanilla": false
+    },
+    {
+      "id": "minecolonies:ship",
+      "displayName": "Ship",
+      "isVanilla": false
+    },
+    {
+      "id": "minecolonies:shire_colony",
+      "displayName": "Shire Colony",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:bridge_bridge_0",
+      "displayName": "Bridge Bridge 0",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:bridge_bridge_1",
+      "displayName": "Bridge Bridge 1",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:roadside_bench",
+      "displayName": "Roadside Bench",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:roadside_campfire",
+      "displayName": "Roadside Campfire",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:roadside_campsite_1",
+      "displayName": "Roadside Campsite 1",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:roadside_campsite_2",
+      "displayName": "Roadside Campsite 2",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:roadside_campsite_3",
+      "displayName": "Roadside Campsite 3",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:roadside_grave_easter_egg",
+      "displayName": "Roadside Grave Easter Egg",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:roadside_grave_fogg05",
+      "displayName": "Roadside Grave Fogg05",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:roadside_grave_magic_muggle",
+      "displayName": "Roadside Grave Magic Muggle",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:roadside_grave_notch",
+      "displayName": "Roadside Grave Notch",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:roadside_grave_technoblade",
+      "displayName": "Roadside Grave Technoblade",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:roadside_maid_house",
+      "displayName": "Roadside Maid House",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:roadside_sakura_coffee_house",
+      "displayName": "Roadside Sakura Coffee House",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:roadside_village",
+      "displayName": "Roadside Village",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:spawn_cabin",
+      "displayName": "Spawn Cabin",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:stone_bridge_shiqiao",
+      "displayName": "Stone Bridge Shiqiao",
+      "isVanilla": false
+    },
+    {
+      "id": "seasonsgreetings:witch_house",
+      "displayName": "Witch House",
+      "isVanilla": false
+    },
+    {
+      "id": "snowyspirit:gingerbread_house",
+      "displayName": "Gingerbread House",
+      "isVanilla": false
+    },
+    {
+      "id": "supplementaries:galleon",
+      "displayName": "Galleon",
+      "isVanilla": false
+    },
+    {
+      "id": "supplementaries:road_sign",
+      "displayName": "Road Sign",
+      "isVanilla": false
+    }
+  ],
+  "tags": [
+    {
+      "tagId": "minecraft:abandoned_camp",
+      "displayName": "#Abandoned Camp",
+      "structureIds": [
+        "minecraft:abandoned_camp_meadow",
+        "minecraft:abandoned_camp_old_growth_pine_taiga",
+        "minecraft:abandoned_camp_old_growth_spruce_taiga",
+        "minecraft:abandoned_camp_pale_garden",
+        "minecraft:abandoned_camp_snowy_taiga",
+        "minecraft:abandoned_camp_taiga",
+        "minecraft:abandoned_camp_windswept_forest"
+      ]
+    },
+    {
+      "tagId": "minecraft:ancient_city",
+      "displayName": "#Ancient City",
+      "structureIds": [
+        "minecraft:ancient_city"
+      ]
+    },
+    {
+      "tagId": "minecraft:cats_spawn_as_black",
+      "displayName": "#Cats Spawn As Black",
+      "structureIds": [
+        "minecraft:swamp_hut"
+      ]
+    },
+    {
+      "tagId": "minecraft:cats_spawn_in",
+      "displayName": "#Cats Spawn In",
+      "structureIds": [
+        "minecraft:swamp_hut"
+      ]
+    },
+    {
+      "tagId": "minecraft:dolphin_located",
+      "displayName": "#Dolphin Located",
+      "structureIds": [
+        "minecraft:ocean_ruin_cold",
+        "minecraft:shipwreck",
+        "minecraft:shipwreck_beached"
+      ]
+    },
+    {
+      "tagId": "minecraft:eye_of_ender_located",
+      "displayName": "#Eye Of Ender Located",
+      "structureIds": [
+        "minecraft:stronghold"
+      ]
+    },
+    {
+      "tagId": "minecraft:igloo",
+      "displayName": "#Igloo",
+      "structureIds": [
+        "minecraft:igloo"
+      ]
+    },
+    {
+      "tagId": "minecraft:mineshaft",
+      "displayName": "#Mineshaft",
+      "structureIds": [
+        "minecraft:mineshaft"
+      ]
+    },
+    {
+      "tagId": "minecraft:ocean_ruin",
+      "displayName": "#Ocean Ruin",
+      "structureIds": [
+        "minecraft:ocean_ruin_cold"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_abandoned_camp_pale_garden",
+      "displayName": "#On Abandoned Camp Pale Garden",
+      "structureIds": [
+        "minecraft:abandoned_camp_pale_garden"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_abandoned_camp_windswept_forest",
+      "displayName": "#On Abandoned Camp Windswept Forest",
+      "structureIds": [
+        "minecraft:abandoned_camp_windswept_forest"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_ancient_city_maps",
+      "displayName": "#On Ancient City Maps",
+      "structureIds": [
+        "minecraft:ancient_city"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_mineshaft_maps",
+      "displayName": "#On Mineshaft Maps",
+      "structureIds": [
+        "minecraft:mineshaft"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_ocean_explorer_maps",
+      "displayName": "#On Ocean Explorer Maps",
+      "structureIds": [
+        "minecraft:monument"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_treasure_maps",
+      "displayName": "#On Treasure Maps",
+      "structureIds": [
+        "minecraft:buried_treasure"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_trial_chambers_maps",
+      "displayName": "#On Trial Chambers Maps",
+      "structureIds": [
+        "minecraft:trial_chambers"
+      ]
+    },
+    {
+      "tagId": "minecraft:on_woodland_explorer_maps",
+      "displayName": "#On Woodland Explorer Maps",
+      "structureIds": [
+        "minecraft:mansion"
+      ]
+    },
+    {
+      "tagId": "minecraft:pillager_outpost",
+      "displayName": "#Pillager Outpost",
+      "structureIds": [
+        "minecraft:pillager_outpost"
+      ]
+    },
+    {
+      "tagId": "minecraft:ruined_portal",
+      "displayName": "#Ruined Portal",
+      "structureIds": [
+        "minecraft:ruined_portal",
+        "minecraft:ruined_portal_desert",
+        "minecraft:ruined_portal_mountain",
+        "minecraft:ruined_portal_ocean",
+        "minecraft:ruined_portal_swamp"
+      ]
+    },
+    {
+      "tagId": "minecraft:shipwreck",
+      "displayName": "#Shipwreck",
+      "structureIds": [
+        "minecraft:shipwreck",
+        "minecraft:shipwreck_beached"
+      ]
+    },
+    {
+      "tagId": "minecraft:swamp_hut",
+      "displayName": "#Swamp Hut",
+      "structureIds": [
+        "minecraft:swamp_hut"
+      ]
+    },
+    {
+      "tagId": "minecraft:village",
+      "displayName": "#Village",
+      "structureIds": [
+        "minecraft:village_plains",
+        "minecraft:village_snowy",
+        "minecraft:village_taiga",
+        "biomeswevegone:village/pumpkin_patch",
+        "biomeswevegone:village/skyris",
+        "ctov:large/village_beach",
+        "ctov:large/village_christmas",
+        "ctov:large/village_dark_forest",
+        "ctov:large/village_mountain",
+        "ctov:large/village_mountain_alpine",
+        "ctov:large/village_swamp",
+        "ctov:large/village_swamp_fortified",
+        "ctov:medium/village_beach",
+        "ctov:medium/village_christmas",
+        "ctov:medium/village_dark_forest",
+        "ctov:medium/village_mountain",
+        "ctov:medium/village_mountain_alpine",
+        "ctov:medium/village_swamp",
+        "ctov:medium/village_swamp_fortified",
+        "ctov:small/village_beach",
+        "ctov:small/village_christmas",
+        "ctov:small/village_dark_forest",
+        "ctov:small/village_mountain",
+        "ctov:small/village_mountain_alpine",
+        "ctov:small/village_swamp",
+        "ctov:small/village_swamp_fortified"
+      ]
+    },
+    {
+      "tagId": "amendments:add_potion_cauldron",
+      "displayName": "#Add Potion Cauldron",
+      "structureIds": [
+        "minecraft:swamp_hut",
+        "snowyspirit:gingerbread_house"
+      ]
+    },
+    {
+      "tagId": "supplementaries:adventure_map_destinations",
+      "displayName": "#Adventure Map Destinations",
+      "structureIds": [
+        "minecraft:igloo",
+        "minecraft:mineshaft",
+        "minecraft:ocean_ruin_cold",
+        "minecraft:pillager_outpost",
+        "minecraft:ruined_portal",
+        "minecraft:ruined_portal_desert",
+        "minecraft:ruined_portal_mountain",
+        "minecraft:ruined_portal_ocean",
+        "minecraft:ruined_portal_swamp",
+        "minecraft:shipwreck",
+        "minecraft:shipwreck_beached",
+        "minecraft:swamp_hut",
+        "minecraft:village_plains",
+        "minecraft:village_snowy",
+        "minecraft:village_taiga",
+        "biomeswevegone:village/pumpkin_patch",
+        "biomeswevegone:village/skyris",
+        "ctov:large/village_beach",
+        "ctov:large/village_christmas",
+        "ctov:large/village_dark_forest",
+        "ctov:large/village_mountain",
+        "ctov:large/village_mountain_alpine",
+        "ctov:large/village_swamp",
+        "ctov:large/village_swamp_fortified",
+        "ctov:medium/village_beach",
+        "ctov:medium/village_christmas",
+        "ctov:medium/village_dark_forest",
+        "ctov:medium/village_mountain",
+        "ctov:medium/village_mountain_alpine",
+        "ctov:medium/village_swamp",
+        "ctov:medium/village_swamp_fortified",
+        "ctov:small/village_beach",
+        "ctov:small/village_christmas",
+        "ctov:small/village_dark_forest",
+        "ctov:small/village_mountain",
+        "ctov:small/village_mountain_alpine",
+        "ctov:small/village_swamp",
+        "ctov:small/village_swamp_fortified",
+        "snowyspirit:gingerbread_house",
+        "supplementaries:galleon"
+      ]
+    },
+    {
+      "tagId": "biomeswevegone:aspen_manors",
+      "displayName": "#Aspen Manors",
+      "structureIds": [
+        "biomeswevegone:aspen_manor_1",
+        "biomeswevegone:aspen_manor_2"
+      ]
+    },
+    {
+      "tagId": "ctov:large_village",
+      "displayName": "#Large Village",
+      "structureIds": [
+        "ctov:large/village_beach",
+        "ctov:large/village_christmas",
+        "ctov:large/village_dark_forest",
+        "ctov:large/village_mountain",
+        "ctov:large/village_mountain_alpine",
+        "ctov:large/village_swamp",
+        "ctov:large/village_swamp_fortified"
+      ]
+    },
+    {
+      "tagId": "ctov:medium_village",
+      "displayName": "#Medium Village",
+      "structureIds": [
+        "ctov:medium/village_beach",
+        "ctov:medium/village_christmas",
+        "ctov:medium/village_dark_forest",
+        "ctov:medium/village_mountain",
+        "ctov:medium/village_mountain_alpine",
+        "ctov:medium/village_swamp",
+        "ctov:medium/village_swamp_fortified"
+      ]
+    },
+    {
+      "tagId": "mcaquests:ocean_ruins",
+      "displayName": "#Ocean Ruins",
+      "structureIds": [
+        "minecraft:ocean_ruin_cold"
+      ]
+    },
+    {
+      "tagId": "ctov:pillager_outpost",
+      "displayName": "#Pillager Outpost",
+      "structureIds": [
+        "minecraft:pillager_outpost",
+        "ctov:pillager_outpost_beach",
+        "ctov:pillager_outpost_dark_forest",
+        "ctov:pillager_outpost_mountain",
+        "ctov:pillager_outpost_plains",
+        "ctov:pillager_outpost_snowy",
+        "ctov:pillager_outpost_swamp",
+        "ctov:pillager_outpost_taiga"
+      ]
+    },
+    {
+      "tagId": "supplementaries:road_sign_destinations",
+      "displayName": "#Road Sign Destinations",
+      "structureIds": [
+        "minecraft:village_plains",
+        "minecraft:village_snowy",
+        "minecraft:village_taiga",
+        "biomeswevegone:village/pumpkin_patch",
+        "biomeswevegone:village/skyris",
+        "ctov:large/village_beach",
+        "ctov:large/village_christmas",
+        "ctov:large/village_dark_forest",
+        "ctov:large/village_mountain",
+        "ctov:large/village_mountain_alpine",
+        "ctov:large/village_swamp",
+        "ctov:large/village_swamp_fortified",
+        "ctov:medium/village_beach",
+        "ctov:medium/village_christmas",
+        "ctov:medium/village_dark_forest",
+        "ctov:medium/village_mountain",
+        "ctov:medium/village_mountain_alpine",
+        "ctov:medium/village_swamp",
+        "ctov:medium/village_swamp_fortified",
+        "ctov:small/village_beach",
+        "ctov:small/village_christmas",
+        "ctov:small/village_dark_forest",
+        "ctov:small/village_mountain",
+        "ctov:small/village_mountain_alpine",
+        "ctov:small/village_swamp",
+        "ctov:small/village_swamp_fortified"
+      ]
+    },
+    {
+      "tagId": "ctov:small_village",
+      "displayName": "#Small Village",
+      "structureIds": [
+        "ctov:small/village_beach",
+        "ctov:small/village_christmas",
+        "ctov:small/village_dark_forest",
+        "ctov:small/village_mountain",
+        "ctov:small/village_mountain_alpine",
+        "ctov:small/village_swamp",
+        "ctov:small/village_swamp_fortified"
+      ]
+    },
+    {
+      "tagId": "mcaquests:trail_ruins",
+      "displayName": "#Trail Ruins",
+      "structureIds": [
+        "minecraft:trail_ruins"
+      ]
+    },
+    {
+      "tagId": "biomeswevegone:village",
+      "displayName": "#Village",
+      "structureIds": [
+        "biomeswevegone:village/pumpkin_patch",
+        "biomeswevegone:village/skyris"
+      ]
+    },
+    {
+      "tagId": "ctov:village",
+      "displayName": "#Village",
+      "structureIds": [
+        "ctov:large/village_beach",
+        "ctov:large/village_christmas",
+        "ctov:large/village_dark_forest",
+        "ctov:large/village_mountain",
+        "ctov:large/village_mountain_alpine",
+        "ctov:large/village_swamp",
+        "ctov:large/village_swamp_fortified",
+        "ctov:medium/village_beach",
+        "ctov:medium/village_christmas",
+        "ctov:medium/village_dark_forest",
+        "ctov:medium/village_mountain",
+        "ctov:medium/village_mountain_alpine",
+        "ctov:medium/village_swamp",
+        "ctov:medium/village_swamp_fortified",
+        "ctov:small/village_beach",
+        "ctov:small/village_christmas",
+        "ctov:small/village_dark_forest",
+        "ctov:small/village_mountain",
+        "ctov:small/village_mountain_alpine",
+        "ctov:small/village_swamp",
+        "ctov:small/village_swamp_fortified"
+      ]
+    },
+    {
+      "tagId": "ctov:village_beach",
+      "displayName": "#Village Beach",
+      "structureIds": [
+        "ctov:large/village_beach",
+        "ctov:medium/village_beach",
+        "ctov:small/village_beach"
+      ]
+    },
+    {
+      "tagId": "ctov:village_christmas",
+      "displayName": "#Village Christmas",
+      "structureIds": [
+        "ctov:large/village_christmas",
+        "ctov:medium/village_christmas",
+        "ctov:small/village_christmas"
+      ]
+    },
+    {
+      "tagId": "ctov:village_dark_forest",
+      "displayName": "#Village Dark Forest",
+      "structureIds": [
+        "ctov:large/village_dark_forest",
+        "ctov:medium/village_dark_forest",
+        "ctov:small/village_dark_forest"
+      ]
+    },
+    {
+      "tagId": "ctov:village_mountain",
+      "displayName": "#Village Mountain",
+      "structureIds": [
+        "ctov:large/village_mountain",
+        "ctov:medium/village_mountain",
+        "ctov:small/village_mountain"
+      ]
+    },
+    {
+      "tagId": "ctov:village_mountain_alpine",
+      "displayName": "#Village Mountain Alpine",
+      "structureIds": [
+        "ctov:large/village_mountain_alpine",
+        "ctov:medium/village_mountain_alpine",
+        "ctov:small/village_mountain_alpine"
+      ]
+    },
+    {
+      "tagId": "ctov:village_swamp",
+      "displayName": "#Village Swamp",
+      "structureIds": [
+        "ctov:large/village_swamp",
+        "ctov:medium/village_swamp",
+        "ctov:small/village_swamp"
+      ]
+    },
+    {
+      "tagId": "ctov:village_swamp_fortified",
+      "displayName": "#Village Swamp Fortified",
+      "structureIds": [
+        "ctov:large/village_swamp_fortified",
+        "ctov:medium/village_swamp_fortified",
+        "ctov:small/village_swamp_fortified"
+      ]
+    },
+    {
+      "tagId": "ctov:village_underground",
+      "displayName": "#Village Underground",
+      "structureIds": [
+        "ctov:large/village_underground",
+        "ctov:medium/village_underground",
+        "ctov:small/village_underground"
+      ]
+    },
+    {
+      "tagId": "mcaquests:villages",
+      "displayName": "#Villages",
+      "structureIds": [
+        "minecraft:village_plains",
+        "minecraft:village_snowy",
+        "minecraft:village_taiga",
+        "biomeswevegone:village/pumpkin_patch",
+        "biomeswevegone:village/skyris",
+        "ctov:large/village_beach",
+        "ctov:large/village_christmas",
+        "ctov:large/village_dark_forest",
+        "ctov:large/village_mountain",
+        "ctov:large/village_mountain_alpine",
+        "ctov:large/village_swamp",
+        "ctov:large/village_swamp_fortified",
+        "ctov:medium/village_beach",
+        "ctov:medium/village_christmas",
+        "ctov:medium/village_dark_forest",
+        "ctov:medium/village_mountain",
+        "ctov:medium/village_mountain_alpine",
+        "ctov:medium/village_swamp",
+        "ctov:medium/village_swamp_fortified",
+        "ctov:small/village_beach",
+        "ctov:small/village_christmas",
+        "ctov:small/village_dark_forest",
+        "ctov:small/village_mountain",
+        "ctov:small/village_mountain_alpine",
+        "ctov:small/village_swamp",
+        "ctov:small/village_swamp_fortified"
+      ]
+    }
+  ]
+}

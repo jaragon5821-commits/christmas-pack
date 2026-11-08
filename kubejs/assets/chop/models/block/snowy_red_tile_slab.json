@@ -1,0 +1,1 @@
+{"parent": "minecraft:block/slab", "textures": {"bottom": "chop:block/snowy_red_tile_bottom", "top": "chop:block/snow_cap_top", "side": "chop:block/snowy_red_tile_side"}}

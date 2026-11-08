@@ -1,0 +1,1 @@
+{"athena:loader": "athena:pane_ctm", "ctm_textures": {"center": "chop:block/vglass/glass_ctm_center", "empty": "chop:block/vglass/glass_ctm_center", "horizontal": "chop:block/vglass/glass_ctm_horizontal", "particle": "chop:block/vglass/glass", "vertical": "chop:block/vglass/glass_ctm_vertical"}, "variants": {"": {"model": "chop:block/vglass_glass_pane"}}}

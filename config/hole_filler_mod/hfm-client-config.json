@@ -1,0 +1,10 @@
+{
+  "show_progress_overlay": {
+    "value": true,
+    "info": "Whether or not to show the progress overlay. Default: true."
+  },
+  "show_particles": {
+    "value": true,
+    "info": "Whether or not to show particles. Default: true."
+  }
+}

@@ -1,0 +1,32 @@
+#Count rivers and lakes ABOVE sea level as bridgeable water (RoadWeaver only counts water below sea level).
+highWaterBridges = true
+#Set each bridge's deck height from that crossing's own water level instead of sea level + bridge.deckClearance.
+deckFromWaterLevel = true
+#Crossings this many blocks long or shorter count as small rivers.
+# Default: 16
+# Range: 1 ~ 256
+smallSpanMaxBlocks = 16
+#Open blocks between the water and the deck on small crossings.
+# Default: 1
+# Range: 1 ~ 8
+smallClearance = 1
+#Open blocks between the water and the deck on longer crossings.
+# Default: 4
+# Range: 1 ~ 8
+largeClearance = 4
+#Place RoadWeaver buoys only on ocean water (rivers and lakes get a plain gap).
+oceanOnlyBuoys = true
+#Do not build a road at all if its route crosses ocean: any ocean-biome point, or a stretch of sea-level water at least oceanRunBlocks long.
+dropOceanRoads = true
+#Length of continuous sea-level water that counts as ocean (rivers are usually narrower).
+# Default: 48
+# Range: 8 ~ 1024
+oceanRunBlocks = 48
+#Never place a road block or road slab on water, or on ice that floats on water. The road simply stops at the bank and picks up on the other side.
+neverPaveWater = true
+#Roadside builds: sample the whole footprint (+1 block) and skip spots with any water (frozen lakes too) or a slope over roadsideMaxSlope.
+roadsideLandCheck = true
+#Largest ground height difference allowed under a roadside build.
+# Default: 2
+# Range: 0 ~ 16
+roadsideMaxSlope = 2

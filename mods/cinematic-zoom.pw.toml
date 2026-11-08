@@ -1,0 +1,13 @@
+name = 'Cinematic Zoom'
+filename = 'cinematiczoom-1.0.0-1.21.1.jar'
+side = 'client'
+
+[download]
+url = 'https://cdn.modrinth.com/data/QQssavr9/versions/G8sxo7kj/cinematiczoom-1.0.0-1.21.1.jar'
+hash-format = 'sha512'
+hash = 'fe5f426007ff512f28f95dacac9720bb745c4e82540a8283378645bc6b04d31076be9e796a180fc5f3484dcc9402bfd618cf3c613012292be6b6c7eaeb01ce4c'
+
+[update]
+[update.modrinth]
+mod-id = 'QQssavr9'
+version = 'G8sxo7kj'

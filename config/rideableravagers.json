@@ -1,0 +1,6 @@
+{
+  "spawnInSavannah": false,
+  "spawnWeight": 20,
+  "spawnMinGroupSize": 1,
+  "spawnMaxGroupSize": 1
+}

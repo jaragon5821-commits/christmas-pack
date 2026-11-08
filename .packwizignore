@@ -1,0 +1,4 @@
+# Files packwiz must not index (patched-jars are downloaded through their own .pw.toml)
+patched-jars/
+README.md
+CHANGELOG.md

@@ -1,0 +1,15 @@
+[seiro]
+	#How long the seiro takes to steam a batch of rice, in ticks.
+	# Default: 200
+	# Range: 20 ~ 6000
+	steamTicks = 200
+
+[newYear]
+	#When New Year's Day comes. LUNAR: the dawn after every new moon (every 8 in-game days).
+	#REAL_CALENDAR: the first sunrise you see on 1-3 January of the real calendar. OFF: never.
+	#Allowed Values: LUNAR, REAL_CALENDAR, OFF
+	mode = "LUNAR"
+	#LUNAR mode: a New Year comes after this many moon cycles (1 = every 8 days, 2 = every 16 days...).
+	# Default: 1
+	# Range: 1 ~ 12
+	moonsPerYear = 1

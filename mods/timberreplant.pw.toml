@@ -1,0 +1,14 @@
+filename = "TimberReplant-3.8.0.jar"
+name = "TimberReplant"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "f11ad9ab057aead2cb8f071d8aec8e987f5f72fb3492466f98aec8c9896b2b14e52bec57d8f8fe4bf9ca753fab74eda663e8a0703799855964ac11a4bf8834f7"
+mode = "url"
+url = "https://cdn.modrinth.com/data/nd3r1Uep/versions/JyYE2Ozj/TimberReplant-3.8.0.jar"
+
+[update]
+[update.modrinth]
+mod-id = "nd3r1Uep"
+version = "JyYE2Ozj"
