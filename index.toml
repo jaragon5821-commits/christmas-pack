@@ -78,7 +78,7 @@ hash = "4aa222824c07287a7304e139c10955f45ccb43ded5785efd09419915718536c2"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "ef0ba4df0256d0cc558e6c160a49044027a750c872450392a8ea048c8c5df617"
+hash = "1b65553e14d2da69a0cb71214bf0dd608a3ff8b27e54f2c573306c67932a77c3"
 
 [[files]]
 file = "config/auroral-client.toml"
@@ -438,7 +438,7 @@ hash = "6e4d3448645c4e62185b40df704abe8d15c3c8016e3ed7648e4370d6ac26493a"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "0299090518f7e168fd4ba2f66f9bddde4dbe5dbd13988ae38abcbfc0f256ab48"
+hash = "0e20b6840445c51f17d314c9c558e5f3285ba1541d6a62eb271de2552ec3dbf0"
 
 [[files]]
 file = "config/cinematiczoom-client.toml"
@@ -750,7 +750,7 @@ hash = "955d2c21dd355ea7a311eb3049cc14312891a4cc98e87b8616c5924e0a1784fd"
 
 [[files]]
 file = "config/entity_model_features.json"
-hash = "0a5da8362082e8b775e99020e8e68b0807bf03455eec174d4740c88c56c05eb0"
+hash = "55b2baad55405c98ea29fb9a7cf201063df32dc9a1ebc6097c1c6021e633236f"
 
 [[files]]
 file = "config/entity_texture_features.json"
@@ -790,7 +790,7 @@ hash = "a4e7d2d6bac537024dda0a613d6edfbb114cb4971e692e010cf5a43cb743e675"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "4077332352b0bcdd90f548b9c569fd7103203884f5b9f05ee01f0f172afde539"
+hash = "636fac9404ce67a5361981d6b6b5f0fed13bf81b8102f4afeb07c197d9edeedf"
 
 [[files]]
 file = "config/fairylights-common.toml"
@@ -954,7 +954,7 @@ hash = "440658632c045fbcf64cdf6cbd48a64c46e882e3b6dff6aaff2610fffee564ed"
 
 [[files]]
 file = "config/iris.properties"
-hash = "e5a2a23c5e72ce312fb742c64a57a780b80b7013c1cf049d93e0bf1592b749a0"
+hash = "f591b468f5ea92b79272901a2f5eaf4f3aa4a7f849c91245b56c49ea4f4c7ea5"
 
 [[files]]
 file = "config/iris-excluded.json"
@@ -1637,8 +1637,8 @@ file = "config/openloader/packs/18_Chops_Large_Dungeons_v2.zip"
 hash = "07a6a71cd961ce0fa2313e44db8e746db5c99d0c8a6573926b489f6fbc3c29a2"
 
 [[files]]
-file = "config/openloader/packs/19_Festivity_Anim_Pack_v3.zip"
-hash = "dce75731122681a41cec132c66b90251f17fa0e316a392187714fedd9f66837e"
+file = "config/openloader/packs/19_Festivity_Anim_Pack_v4.zip"
+hash = "2f3fbaf48081c92a3dca2190311ab6dd206ab1a8b08d4fa642bb3209ba2e60ae"
 
 [[files]]
 file = "config/openloader/packs/2_FreshCompats_v1.6.zip"
@@ -1982,7 +1982,7 @@ hash = "50aa30a1d8c6d5c07552b639a63169d7dc34936d84bd8b97af80e0083e851b9d"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "6f4d865015b6897854ac97bf203e472800aced6c1ef8e01ecb331b3727b7dda3"
+hash = "395d9a517f9d003dfefa200a45732545a2d049f215606df301c879e6545b4474"
 
 [[files]]
 file = "config/saturn-optimizations.toml"
@@ -2974,7 +2974,7 @@ hash = "dc3c9f6273f8c4e10cef482cd283d12c5a74ecdadf3f4f7d5e104b324a2b2720"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "9b22a358b31b2441e94c2060a1c8722e844f2a9501d56d4e23a21588675242ab"
+hash = "d7a9d37272d3d95a670dba95c0c74f6b1c7ac0abd7d9f859627ea90752de42a0"
 
 [[files]]
 file = "config/wwoo/config.json5"
@@ -39910,8 +39910,8 @@ hash = "2c86278501e97b07b91640f7163a882a34271654c6832c8055eca7a774deda1d"
 metafile = true
 
 [[files]]
-file = "mods/custom-festivity-0.4.0.pw.toml"
-hash = "6494253522bc2401971123d0c6c1459b46b3d76e03a4fe69f9fe0f1ecbc4aad5"
+file = "mods/custom-festivity-0.4.1.pw.toml"
+hash = "0a91b118947ee167c3c6347d7bffb5f1fa9bb952400c95cbc2c848e665dcc662"
 metafile = true
 
 [[files]]
