@@ -1,6 +1,6 @@
 filename = 'colonyautopilot-1.3.4.jar'
 name = 'ColonyAutopilot - MineColonies Simplified/Automated'
-side = 'server'
+side = "both"
 
 [download]
 url = "https://edge.forgecdn.net/files/9254/554/colonyautopilot-1.3.4.jar"

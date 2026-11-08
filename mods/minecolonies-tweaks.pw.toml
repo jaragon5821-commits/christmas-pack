@@ -3,7 +3,7 @@ name = "Tweaks addon for MineColonies"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/8600/087/MineColonies_Tweaks-1.21.1-3.33.jar"
+url = "https://edge.forgecdn.net/files/8600/87/MineColonies_Tweaks-1.21.1-3.33.jar"
 hash-format = "sha512"
 hash = "2f58628bbb57c8b79ff18587c22f1f3fd443d875f2674f34691b7b325730365984722ab511fbaeed3e10322b4537e9b317eeefa23c58d090aeb8045ab54e9a38"
 

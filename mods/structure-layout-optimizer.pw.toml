@@ -1,6 +1,6 @@
 filename = "structure_layout_optimizer-neoforge-1.0.12.jar"
 name = "Structure Layout Optimizer"
-side = "server"
+side = "both"
 
 [download]
 hash-format = "sha512"

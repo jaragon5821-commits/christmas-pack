@@ -1,6 +1,6 @@
 filename = "Bonfire blessings-1.0.0-neoforge-1.21.1.jar"
 name = "Bonfire blessings"
-side = "server"
+side = "both"
 
 [download]
 hash-format = "sha512"

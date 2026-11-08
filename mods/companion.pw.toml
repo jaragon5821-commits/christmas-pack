@@ -1,6 +1,6 @@
 filename = "Companion-1.21.1-NeoForge-6.2.2.jar"
 name = "Companion ðŸ•"
-side = "server"
+side = "both"
 
 [download]
 hash-format = "sha512"

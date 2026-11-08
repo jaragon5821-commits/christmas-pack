@@ -1,6 +1,6 @@
 filename = 'domum-ornamentum-1.0.236-snapshot-main.jar'
 name = 'Domum Ornamentum'
-side = 'server'
+side = "both"
 
 [download]
 url = "https://edge.forgecdn.net/files/8784/713/domum-ornamentum-1.0.236-snapshot-main.jar"

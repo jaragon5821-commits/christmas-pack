@@ -1,6 +1,6 @@
 filename = 'structurize-1.0.837-1.21.1-snapshot.jar'
 name = 'Structurize'
-side = 'server'
+side = "both"
 
 [download]
 url = "https://edge.forgecdn.net/files/9333/948/structurize-1.0.837-1.21.1-snapshot.jar"

@@ -1,6 +1,6 @@
 filename = 'minecolonies-1.1.1405-1.21.1-snapshot.jar'
 name = 'MineColonies'
-side = 'server'
+side = "both"
 
 [download]
 url = "https://edge.forgecdn.net/files/9276/847/minecolonies-1.1.1405-1.21.1-snapshot.jar"

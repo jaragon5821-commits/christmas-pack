@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.08-4
+- Install fix: all CurseForge mods now use direct download links (no manual downloads); MineColonies-family mods now install on clients
+
 ## 2026.11.08-3
 - update
 

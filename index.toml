@@ -39499,7 +39499,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "28b98b5ca8262c645570c52702660fa2a7cce1c8dc7caef72584575d95750328"
+hash = "606491f1d150214fc1f783d9f9cee9ebec52ff53b7c4d8953688090dc74fb537"
 metafile = true
 
 [[files]]
@@ -39659,7 +39659,7 @@ metafile = true
 
 [[files]]
 file = "mods/biome-replacer.pw.toml"
-hash = "8fde4e363e846d07189cb3d68fbaa6e945c74f067b05a9355599784110a5c2a0"
+hash = "0561785b31075a724066e3bbce75dc1e3206e88bfac191e6857de6928a88dc5b"
 metafile = true
 
 [[files]]
@@ -39669,7 +39669,7 @@ metafile = true
 
 [[files]]
 file = "mods/blockui.pw.toml"
-hash = "58b9ccc4b3083e40510316c81a4b175a8e0521ce23015b177d62581cf5d45673"
+hash = "f73a1f2ec45b5ee50eda4758689998b348b605b2e62b65e9e27af244329901ed"
 metafile = true
 
 [[files]]
@@ -39679,7 +39679,7 @@ metafile = true
 
 [[files]]
 file = "mods/bonfire-blessings.pw.toml"
-hash = "26f4f42c2695f53e9c608fe538c2a213d81f0c1771fc9abb32f0bb3d7414b8fd"
+hash = "98eac8dd980649bd7a53ae7613f7bffa7e00aebc6a861ddad0346e612e6686ec"
 metafile = true
 
 [[files]]
@@ -39764,12 +39764,12 @@ metafile = true
 
 [[files]]
 file = "mods/christmas-grandmas-cabinet.pw.toml"
-hash = "204eab6215fdaade98b598db79a27dac74c51fe0a102550638d6bdebb67861f9"
+hash = "41450d7f95c6023ee15d66d7a70d8819ae9bed52af1ca9cab59b51711f06be4c"
 metafile = true
 
 [[files]]
 file = "mods/christmas-hearthlight.pw.toml"
-hash = "27991f04512e079c3a900ca14d1a79d0c8eeb976e6839a97ed79fbb455fefacf"
+hash = "5af8d1438452c06c0068df7ceea1f44fc8943abe451349ed9b3ac12cdda5253e"
 metafile = true
 
 [[files]]
@@ -39809,12 +39809,12 @@ metafile = true
 
 [[files]]
 file = "mods/colonyautopilot.pw.toml"
-hash = "4f641cceeca03f8c6ff68707ac078b3755d12ec50bb2a482b5138b1a6e9dbc37"
+hash = "1be91148f36e24929878a5539db3a1b5067c434436928ea7e2fb95b6016e4bff"
 metafile = true
 
 [[files]]
 file = "mods/companion.pw.toml"
-hash = "a0e71acaa7430ff21c03761fbd75f0ee3f6b57e24231bd3f4041ba73ca86e595"
+hash = "ba192365cb7d597f418a224c2c23e822d0268a87491766e06337b4d2da7bbabe"
 metafile = true
 
 [[files]]
@@ -39829,7 +39829,7 @@ metafile = true
 
 [[files]]
 file = "mods/connectivity.pw.toml"
-hash = "b70f876f5b92ce774fb630b649baa29d381293a82478521633b608147a40c543"
+hash = "a4a6947945d16ca31b049053a0268d02c7f4d0fda0631e69777aba7da4ffe0bd"
 metafile = true
 
 [[files]]
@@ -39884,7 +39884,7 @@ metafile = true
 
 [[files]]
 file = "mods/ct-overhaul-village.pw.toml"
-hash = "f86855a3645203b1d477cdb6a55b7b1e0bed7cc744207b37bb5d59bc5891af56"
+hash = "8e63fec28c22201636bd56f0170e9b85e26b558c4ec7215e068f53d3518dc5bb"
 metafile = true
 
 [[files]]
@@ -39899,7 +39899,7 @@ metafile = true
 
 [[files]]
 file = "mods/cupboard.pw.toml"
-hash = "9b86635b67d07eeae0d46b63a70f9adab82404e20dac05c0ecda08a7b62ea933"
+hash = "5aafb4ee9880948a14660128075938e0869873ece8b871e5be77d0558d9ed9de"
 metafile = true
 
 [[files]]
@@ -39949,7 +39949,7 @@ metafile = true
 
 [[files]]
 file = "mods/domum-ornamentum.pw.toml"
-hash = "8a356b7f06d5ff03351ac93b97c53beef7d7e1289329b251bbf4336e6029466d"
+hash = "aadbaa1c64adf53928da90590c4f80e36465e0a627ee272024c74cf0f55b47d9"
 metafile = true
 
 [[files]]
@@ -40334,7 +40334,7 @@ metafile = true
 
 [[files]]
 file = "mods/lets-do-addon-compat.pw.toml"
-hash = "2478c8520ff2a5cbf5d4644007c5f751bfbe41a3603352bcb68849e817bbad5f"
+hash = "50fcf316da46ab40812b30013f8427614c41e5778509ed117dcb304c31fc9169"
 metafile = true
 
 [[files]]
@@ -40499,17 +40499,17 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "b867b73167a95f6d121ae4f6e883575c2d3a89e080974808cd4956be7991f2e4"
+hash = "09561e69422a1380134b4120b53e9b60e96527494bae10588ce154e939e807a1"
 metafile = true
 
 [[files]]
 file = "mods/minecolonies-compatibility.pw.toml"
-hash = "15939babe7a7268cd7251d6d2fd5c3319954e7fd29202af6487b2cb83d491115"
+hash = "30c00fe8995599bb50111f939b23a934480248ce409adde1dbf505066a89fb88"
 metafile = true
 
 [[files]]
 file = "mods/minecolonies-tweaks.pw.toml"
-hash = "492c116a74ccfc5946ae2e799b11d33a13c59b007aabb6619a612e8fb6194765"
+hash = "27be90da4733c0b518f462237c749f6f7cec02c98c2190f5b8d6cc97bacc5ad5"
 metafile = true
 
 [[files]]
@@ -40574,7 +40574,7 @@ metafile = true
 
 [[files]]
 file = "mods/new-years-delight.pw.toml"
-hash = "c4cf8bdbbfbfda617ec59bbfa3e8577ed6620d76dd5685714404c425f99a3627"
+hash = "6661643a535a28146c9285bda6528c913aecf4fd19ee25eb967f74bb44ef39b5"
 metafile = true
 
 [[files]]
@@ -40584,7 +40584,7 @@ metafile = true
 
 [[files]]
 file = "mods/noisiumforked.pw.toml"
-hash = "90d5e5011f70235bc6ea93f553ce4ba10cff0b5994821b15565b186daa7f87fb"
+hash = "7e6622f7085fef4669c3eb7eb0599857efee9057373948d22dad718d4027cb46"
 metafile = true
 
 [[files]]
@@ -40619,7 +40619,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "8013ed91185978a9e5db2e0e892d68c6a1d0a8d7bf33a333fcc7b6262a5ddb22"
+hash = "2ed6b1ac983612afdae44e18d976967f28f2c48ed35c8aeec84e824c730faad5"
 metafile = true
 
 [[files]]
@@ -40979,7 +40979,7 @@ metafile = true
 
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
-hash = "afc831ba53592024febef72a5814d710b5be648827d88f68ebc9e1e787b60a25"
+hash = "0ac378932d183ff9cf922e78c51a4ad768a80c9148e2b614ad85faf86f55842e"
 metafile = true
 
 [[files]]
@@ -40989,7 +40989,7 @@ metafile = true
 
 [[files]]
 file = "mods/structurize.pw.toml"
-hash = "e5d746c6619eb3af07fe1478ad92a5de909d7b2d7113c56d2d1d3b253153c46c"
+hash = "5190b5c07217a386528bd4e1491c2ec9bf00603fedd48bda9a39c4b0fc2ad105"
 metafile = true
 
 [[files]]

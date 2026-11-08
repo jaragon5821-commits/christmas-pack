@@ -1,6 +1,6 @@
 filename = 'connectivity-1.21.1-7.7.jar'
 name = 'Connectivity'
-side = 'server'
+side = "both"
 
 [download]
 url = "https://edge.forgecdn.net/files/9008/904/connectivity-1.21.1-7.7.jar"
