@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.09-1
+- Friends' default shader settings: Complementary + Euphoria POTATO preset (only on first install; your own shader changes are kept)
+
 ## 2026.11.08-8
 - Install fix: removed 4 empty config files that GitHub refuses to serve
 

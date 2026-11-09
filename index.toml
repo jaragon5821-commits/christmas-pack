@@ -44096,5 +44096,10 @@ file = "resourcepacks/Winter_Pack_GUI_1.21.x_[All_Langs]_.zip"
 hash = "5540a69b8b97d774987db1637e324e1e2f3addbb191186ecb7e4200ff63e40c3"
 
 [[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.9.3 + EuphoriaPatches_1.10.5.txt"
+hash = "8bdb06fc2444abdb0a7ac2f413875ff2dc342a2603241e7829e3ef6840f7974d"
+preserve = true
+
+[[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.9.3.zip"
 hash = "fed6c879e732cf7fc7bc6570ebb1def43235aa7e96f62859fbdbdbfa0b484b38"
