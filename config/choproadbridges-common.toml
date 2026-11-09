@@ -30,3 +30,11 @@ roadsideLandCheck = true
 # Default: 2
 # Range: 0 ~ 16
 roadsideMaxSlope = 2
+#Never pave a road inside a land_checked (Chop) structure's footprint. RoadWeaver's own structure avoidance skips any piece that reaches below y 63 and misses chunks it has not cached yet, so buildings on low ground got roads through them.
+keepRoadsOutOfChopStructures = true
+#Extra blocks of clearance kept round a Chop structure's footprint.
+# Default: 1
+# Range: 0 ~ 8
+chopRoadMargin = 1
+#After a land_checked (Chop) structure is placed, connect its fences, panes, iron bars and walls to the blocks really next to them (terrain included). Connections are only added, never removed.
+connectStructureFences = true

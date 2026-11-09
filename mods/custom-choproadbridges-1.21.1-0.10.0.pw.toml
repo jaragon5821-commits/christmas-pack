@@ -1,8 +1,0 @@
-name = "choproadbridges-1.21.1-0.10.0"
-filename = "choproadbridges-1.21.1-0.10.0.jar"
-side = "both"
-
-[download]
-url = "https://raw.githubusercontent.com/jaragon5821-commits/christmas-pack/test/patched-jars/choproadbridges-1.21.1-0.10.0.jar"
-hash-format = "sha512"
-hash = "6babc2946eefd2eaa4e3b5a5e7cc58c1ea29374d1401b78f4c656ad29b4c5c7dd419c99b885972b307912d6df2c561da40ec7976ae0b4102c40698056e89fea4"

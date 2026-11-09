@@ -3294,7 +3294,7 @@ hash = "9ca49f856d752022a85e54ccbf1f86ef204f3e65479ed9886de6d4c602f76396"
 
 [[files]]
 file = "config/choproadbridges-common.toml"
-hash = "c2bd64acd6e3b6e4691463d7b1406a598c752cd05bf1f0387be6ea61982266a9"
+hash = "a9b5049708b3b21056e8fefc2b000fcabcdd6bb48b375db1af1e61a38f81994b"
 
 [[files]]
 file = "config/christmas_hearthlight-client.toml"
@@ -4853,8 +4853,8 @@ file = "config/openloader/packs/15_Chops_Roadside_Christmas_v2.zip"
 hash = "2cf765fd5d84a24fceed8b30a844f49c3b5e6069e2d8ffd6d776b27fbf31749c"
 
 [[files]]
-file = "config/openloader/packs/16_Chops_Christmas_Structures_v34.zip"
-hash = "38cc8750e79dee88fa2678f87f9f04f86783673363d575b623465cb65ee6347f"
+file = "config/openloader/packs/16_Chops_Christmas_Structures_v38.zip"
+hash = "77c14909c9dc2c5ca57e9ae29d9deb1ebc2813037db1b006e3afca281ff864a4"
 
 [[files]]
 file = "config/openloader/packs/17_chop_christmas_caves_v1b.zip"
@@ -4903,6 +4903,10 @@ hash = "44e4ca7741cc6449ce93dcd506aa9057c04fcc6eef45ca51e22155a6217519fa"
 [[files]]
 file = "config/openloader/packs/24_Chops_Reindeer_ETF_v1.zip"
 hash = "07593b841ea6642b3f46a9e8c5f4983c529ca46e1e4fb05530815025e2f778cc"
+
+[[files]]
+file = "config/openloader/packs/25_Chops_Loot_Tables_v3.zip"
+hash = "36820f430fca3ee18e312377c661bb78cef194574c4129398045482e5feaa365"
 
 [[files]]
 file = "config/openloader/packs/3_FA+All_Extensions-v1.10.1.zip"
@@ -42904,8 +42908,8 @@ hash = "688d62169a0d9ae61c28499eab8bcb3e4dba9f7ff4bbf36292cc9f44e24246a6"
 metafile = true
 
 [[files]]
-file = "mods/custom-choproadbridges-1.21.1-0.10.0.pw.toml"
-hash = "2c86278501e97b07b91640f7163a882a34271654c6832c8055eca7a774deda1d"
+file = "mods/custom-choproadbridges-1.21.1-0.11.3.pw.toml"
+hash = "cfa695492e3f71018b61ec64065e95e68c7491ac48c02d5e30237ef4a531996b"
 metafile = true
 
 [[files]]
