@@ -315,8 +315,11 @@ e4def('blackice', 'Black Ice', ['low'], 8, server => {
 // 15 gift drop: a present parachutes next to a player; breaking it rolls santa_rare
 e4def('giftdrop', 'Gift Drop', ['high', 'quiet'], 14, server => {
   let s = e4spot(server, 3, 6); if (!s) return null;
-  for (let i = 0; i < 6; i++) server.scheduleInTicks(i * 20, () => e4cmd(server, 'particle minecraft:firework ' + s.x + ' ' + (s.y + 12 - i * 2) + ' ' + s.z + ' 0.5 0.5 0.5 0.02 20 force'));
-  server.scheduleInTicks(120, () => { e4cmd(server, 'setblock ' + s.x + ' ' + s.y + ' ' + s.z + ' ' + presentItem()); e4cmd(server, 'playsound minecraft:entity.chicken.egg master @a ' + s.x + ' ' + s.y + ' ' + s.z + ' 1 0.8'); e4gift(server, s.x, s.y, s.z); });
+  // 0.9.5 (Josh 11-09): Festivity Java does the show: sparks climb for 2 s, the present FALLS from 40 blocks up with a snowflake trail,
+  // lands filled (Festivity Gift Crate + Santa's Sack). The santa_rare roll on break stays (e4gift). Fallback to the old setblock if the command is missing.
+  let r = e4cmd(server, 'festivity skydrop ' + s.x + ' ' + s.y + ' ' + s.z + ' ' + presentItem());
+  if (r === 0 || r === false) server.scheduleInTicks(60, () => e4cmd(server, 'setblock ' + s.x + ' ' + s.y + ' ' + s.z + ' ' + presentItem()));
+  server.scheduleInTicks(70, () => e4gift(server, s.x, s.y, s.z));
   e4cmd(server, 'tellraw ' + s.player.username + ' ' + E4.jsonText('Something is floating down beside you...', 'gold'));
   return {};
 }, null);
@@ -354,14 +357,13 @@ e4def('carolers', 'Carolers', ['high', 'quiet'], 10, server => {
 e4def('aurora', 'Aurora Night', ['high'], 10, server => {
   let a = anchor(server); if (!a) return null;
   e4text(server, 'The sky shimmers tonight. Look up at midnight.', 'aqua');
-  for (let i = 0; i < 12; i++) server.scheduleInTicks(i * 15, () => e4cmd(server, 'summon minecraft:firework_rocket ' + (a.x + e4rnd(-12, 12)).toFixed(1) + ' ' + (a.y + 1) + ' ' + (a.z + e4rnd(-12, 12)).toFixed(1) + ' {LifeTime:40,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"large_ball",colors:[' + e4pick(['65280,16777215', '43775,16711935', '16711680,65280']) + '],has_trail:true}]}}}}'));
+  e4cmd(server, 'festivity fireworks ' + a.x + ' ' + a.y + ' ' + a.z + ' 12 12 15');   // 0.9.5: Java picks OUTDOOR spots only (never inside a house)
   return {};
 }, null);
 
 // 18 cocoa hour: everyone online gets a hot cocoa (or Regeneration if no cocoa item exists)
 e4def('cocoa', 'Cocoa Hour', ['high', 'quiet'], 10, server => {
-  let id = e4first(P4.COCOA);
-  for (let p of e4players(server)) { e4cmd(server, 'give ' + p.username + ' ' + id + ' 1'); e4cmd(server, 'effect give ' + p.username + ' minecraft:regeneration 30 0 true'); }
+  e4cmd(server, 'festivity cocoa 1');   // 0.9.5: Java finds a real hot cocoa item in the pack and hands it to everyone (+ Regeneration 30 s)
   e4title(server, 'Cocoa hour', 'Warm hands, warm hearts.', 'gold');
   return {};
 }, null);

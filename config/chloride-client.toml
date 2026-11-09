@@ -124,8 +124,8 @@ modpackMode = false
 
 [fastBlocks]
   # Renders chests and beds as simple static block models
-  chests = true
-  beds = true
+  chests = false
+  beds = false
 
 [particles]
   # Particle toggles

@@ -1,7 +1,7 @@
 {
   "enabled": true,
   "interval_ticks": 200,
-  "silence_seconds": 10,
+  "silence_seconds": 120,
   "force_newyear": false,
   "claws_night_track": "",
   "durations": {
@@ -27,5 +27,6 @@
     "chop:christmas_tree_xl_inner",
     "chop:giant_ornament_world_tree",
     "chop:giant_ornament_world_tree_inner"
-  ]
+  ],
+  "config_version": 1
 }

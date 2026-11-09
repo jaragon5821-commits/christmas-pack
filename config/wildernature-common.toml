@@ -186,7 +186,7 @@
 	#How often the hippo spawns compared to other animals. 0 = never.
 	# Default: 14
 	# Range: 0 ~ 100
-	hippoSpawnWeight = 14
+	hippoSpawnWeight = 0
 	#Smallest number of hippos that spawn together.
 	# Default: 3
 	# Range: 1 ~ 10

@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.09-2
+- Fix invisible beds/chests (Chloride fast chests+beds off), Festivity 0.9.8b + Iron's Spells set + winter filter v2, structures v34, botany v3, reindeer ETF, 3 quest chapters, biome replacer v2, Iron Furnaces, Music Delay Reducer, music RP rebuild, MoreCulling DEPTH, no hippos; removed PaperDoll, Spice of Life Onion, FastWorkbench
+
 ## 2026.11.09-1
 - Friends' default shader settings: Complementary + Euphoria POTATO preset (only on first install; your own shader changes are kept)
 

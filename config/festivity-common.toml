@@ -2,3 +2,12 @@
 # Default: 40
 # Range: 1 ~ 1200
 washTicks = 40
+#Recolour vanilla strongholds (end stone / purpur), desert pyramids and jungle temples (red + green) as they
+#generate. Deterministic per position; already generated chunks are not changed. Default true.
+vanillaPalettes = true
+#Apply the pack defaults on server start: keepInventory true + playersSleepingPercentage 50 (first load only), team chop_nc with player collision off (every login).
+packRules = true
+#Hearts/sound/action bar for MCA Romantic Expansion baby attempts (success, failure hint, birth). Needs that mod; harmless without it.
+babyVisuals = true
+#Cancel Iron's Spells damage (any school, vanilla or Festivity) to villagers, MCA villagers and MineColonies citizens when the caster is a player or a player's summon. Needs Iron's; harmless without it.
+spellVillagerGuard = true

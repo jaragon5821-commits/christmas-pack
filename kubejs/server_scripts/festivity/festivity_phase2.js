@@ -557,7 +557,7 @@ function runFinale(server, op) {
       Q.cmd(server, 'give ' + p.username + ' minecraft:cookie 16');
       let rare = ['minecraft:music_disc_otherside', 'minecraft:music_disc_pigstep', 'minecraft:enchanted_golden_apple', 'minecraft:totem_of_undying', 'minecraft:nether_star'][Math.floor(Math.random() * 5)];
       Q.cmd(server, 'give ' + p.username + ' ' + rare + ' 1');
-      for (let i = 0; i < 6; i++) Q.cmd(server, 'summon minecraft:firework_rocket ' + (p.x + rnd(-6, 6)).toFixed(1) + ' ' + (p.y + 1) + ' ' + (p.z + rnd(-6, 6)).toFixed(1) + ' {LifeTime:' + (20 + i * 8) + ',FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"large_ball",colors:[' + (i % 2 ? '16711680,16777215' : '65280,16766720') + '],has_trail:true}],flight_duration:1}}}}');
+      Q.cmd(server, 'festivity fireworks ' + Math.floor(p.x) + ' ' + Math.floor(p.y) + ' ' + Math.floor(p.z) + ' 6 6 8');   // 0.9.5: outdoor spots only
     }
     Q.cmd(server, 'weather clear 24000');
     Q.change(server, 15, 'finale', null, null);

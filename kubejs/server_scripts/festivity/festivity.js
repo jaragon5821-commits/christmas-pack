@@ -11,6 +11,8 @@
 //  v0.3.0: HUD scoreboard bridge (fest_hud / fest_tick / fest_tickseq, read by the Festivity jar's client HUD),
 //  boss bar hide no longer cuts a longer show short, one credit per present, Blizzard/Grey Day actually gate good
 //  points, credit mult clamped, ledger lastSeen refreshed while online (crash-safe Welcome Back). See CHANGELOG.md.
+//  v0.4.1: fest_java drain: the Festivity jar's compat bridges (0.8.2, carols in villages, fairy lights) queue x10 bar deltas in the dummy objective
+//          fest_java under the player's name; the script drains it once a second through change() so the bar stays script-owned.
 //  v0.4.0: F10 Claws Night omens: two more fest_hud holders (omen 0..3, corrupt 0..100 creeping) written from hudSync,
 //  and a once-per-day dusk cue (distant sounds, actionbar whisper, ash) while omen >= 1. Pure warning, no gameplay change.
 // ============================================================================================
@@ -19,7 +21,7 @@
 // Design: "Festivity Mechanic - Design v2.2" (Drive). Server script: runs in single player too.
 
 const FEST = {
-  VERSION: '0.4.0',
+  VERSION: '0.4.1',
   START: 55,                 // new world starting value (Josh: 55)
   MIN: 0, MAX: 100,
   HYSTERESIS: 3,             // points past a band edge before the band changes back
@@ -469,6 +471,24 @@ function score(server, player, key, mult, reason) {
   return change(server, pts, key, player, reason || String(key).replace(/_/g, ' '));
 }
 
+// ---------- 0.4.1: fest_java drain (Festivity jar 0.8.2 compat bridges) ----------
+// Java never writes the bar. It adds a x10 delta to dummy objective fest_java (holder = player name) after its own per-day caps.
+// We read it, pass it through change() (which applies MIN/MAX, bands, pops, HUD), and zero the score. All silent, no chat.
+function javaDrain(server) {
+  try {
+    let sb = server.scoreboard; if (!sb) return;
+    let obj = sb.getObjective('fest_java'); if (!obj) return;
+    for (let p of online(server)) {
+      let acc = sb.getOrCreatePlayerScore(p, obj);
+      let v = acc.get();
+      if (v == 0) continue;
+      acc.set(0);
+      v = Math.max(-20, Math.min(20, v));                      // sanity: never more than 2.0 points per drain per player
+      change(server, v / 10, 'java', p, 'bridge');
+    }
+  } catch (e) { console.log('[Festivity] javaDrain: ' + e); }
+}
+
 // ---------- tick: drift, freeze, grace ----------
 var fest_hudInited = false;   // 0.3.0c: ServerEvents.loaded does not fire again on /reload, so init lazily from the first tick too
 ServerEvents.tick(event => {
@@ -485,6 +505,7 @@ ServerEvents.tick(event => {
   }
   d.putLong('lastNonEmptyRealMs', t);
   hudDuskCue(server);                                         // 0.4.0: once per in-game day at dusk while omen >= 1 (players online only)
+  javaDrain(server);                                          // 0.4.1: grant bar points queued by the jar's mod bridges (fest_java)
   if (server.tickCount % F.HUD_SEEN_TICKS == 0) {             // keep lastSeen/leftValue fresh so a crash cannot fake a 12 h absence
     for (let p of online(server)) {
       try { let L = ledgerOf(server, p); L.me.lastSeen = t; L.me.leftValue = getValue(server); saveLedger(server, L.all); } catch (e) {}

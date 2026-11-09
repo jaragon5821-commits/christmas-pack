@@ -1,0 +1,271 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chop_getting_around"
+	group: ""
+	icon: {
+		id: "snowyspirit:sled_spruce"
+	}
+	id: "4CF18885D3604885"
+	images: [ ]
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "01FBCF491FDEEF9D"
+			rewards: [{
+				id: "5A4826A64C0855DD"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: false
+					id: "288E7F3AF3BAEC5F"
+					item: { count: 1, id: "minecraft:compass" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2F598A2EEFC5223D"
+					item: { count: 1, id: "minecraft:map" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "3372B096386B0B31"
+			rewards: [{
+				id: "311391819C2FC5E5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6B46FD030784DEBB"
+				structure: "#minecraft:village"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:spruce_boat"
+			}
+			id: "662E9D09F0746B30"
+			rewards: [{
+				id: "59540B5083B6E9EF"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "551927C5B983BDB8"
+				item: { count: 1, id: "minecraft:spruce_boat" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:saddle"
+			}
+			id: "786C372D3D8A8224"
+			rewards: [{
+				id: "5DFE21283F999210"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "233923C2D28E2E05"
+				item: { count: 1, id: "minecraft:saddle" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "snowyspirit:sled_spruce"
+			}
+			id: "408ABAA7FDB5CE7D"
+			rewards: [{
+				id: "579034BE36B2D3D7"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4E02CE1370F551B1"
+				item: { count: 1, id: "snowyspirit:sled_spruce" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "stagecoach:spruce_stagecoach"
+			}
+			id: "7C2CA09A6F45BE6B"
+			rewards: [{
+				id: "284B94CAF2AC168F"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7972F326FD6FF1F8"
+				item: { count: 1, id: "stagecoach:spruce_stagecoach" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "minecraft:powered_rail"
+			}
+			id: "6CC1BE6A7F7D77F1"
+			rewards: [
+				{
+					id: "588E6106C246218C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "41E6B2C22B7341EB"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "78855652E349124F"
+					item: { count: 1, id: "minecraft:minecart" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "18F6F690786D3CC8"
+					item: { count: 1, id: "minecraft:rail" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "16C6E6CC3622D083"
+					item: { count: 1, id: "minecraft:powered_rail" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:obsidian"
+			}
+			id: "630F70C971E520A9"
+			rewards: [{
+				id: "354E934293708183"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "6D4CD9F1059396B1"
+				type: "dimension"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:recovery_compass"
+			}
+			id: "55F22D8F057A5FF9"
+			optional: true
+			rewards: [{
+				id: "2D531AE9409B5C54"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "53B1185CBC1EEF2A"
+				item: { count: 1, id: "minecraft:recovery_compass" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "42C5C2979469C5AD"
+			rewards: [{
+				id: "7162210743E97FD1"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "11F9E14C35B3EDED"
+				type: "dimension"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:elytra"
+			}
+			id: "08EB363841750EFF"
+			rewards: [
+				{
+					id: "75D197371633058E"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 16
+					id: "47044E108A60D790"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "74298D072E2B459B"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+	]
+}

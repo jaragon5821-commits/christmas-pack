@@ -1,0 +1,669 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chop_kitchen_farm"
+	group: ""
+	icon: {
+		id: "farmersdelight:cooking_pot"
+	}
+	id: "404E8D82CC44BFB6"
+	images: [ ]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "farmersdelight:flint_knife"
+			}
+			id: "3F8F77A04DC3BD28"
+			rewards: [{
+				id: "062D354A0C810008"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "1278D710378576D6"
+				item: { count: 1, id: "farmersdelight:flint_knife" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "farmersdelight:cutting_board"
+			}
+			id: "769343B9F9389B33"
+			rewards: [{
+				id: "20054C62F747258B"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0A5924A63BEFD978"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "farmersdelight:stove"
+			}
+			id: "20D58F67543C78A6"
+			rewards: [{
+				id: "23E67F90B4A5FCE7"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "13D0DC883B098D4B"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "223558D92D008BB5"
+			rewards: [{
+				id: "5402D36FFDCFE23D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "42EBFCBD9E67BB51"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "farmersdelight:skillet"
+			}
+			id: "73FEC5FB13D5BC3E"
+			rewards: [{
+				id: "3F7CC7269DED8D1A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "35CF800430E11A0F"
+				item: { count: 1, id: "farmersdelight:skillet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "farmersdelight:tomato"
+			}
+			id: "5A7CDA5D95E0F5D6"
+			rewards: [{
+				id: "7D955CEAF612B131"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5F41239B5F9408FA"
+				item: { count: 1, id: "farmersdelight:tomato" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "farmersdelight:cabbage"
+			}
+			id: "1F4DAA1E1FF27843"
+			rewards: [{
+				id: "4681C19B38575905"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "23EC40D246F53A52"
+				item: { count: 1, id: "farmersdelight:cabbage" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "farmersdelight:onion"
+			}
+			id: "7EC3B9CB318C8A8A"
+			rewards: [{
+				id: "5EDA0AFA32C21383"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "272A3630956CFFA8"
+				item: { count: 1, id: "farmersdelight:onion" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "farmersdelight:rice"
+			}
+			id: "6D23AE2FBD86FD6D"
+			rewards: [{
+				id: "76D4BCF5541FE621"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "356C8BF3BC3C7BAD"
+				item: { count: 1, id: "farmersdelight:rice" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "farmersdelight:rich_soil"
+			}
+			id: "5BD1DFF736A97117"
+			rewards: [{
+				id: "477C913C2AF529FE"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1A9CD0EB5EFF8B4E"
+				item: { count: 1, id: "farmersdelight:rich_soil" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "farmersdelight:hot_cocoa"
+			}
+			id: "24498DBE8CB2D5D2"
+			rewards: [{
+				id: "4458D8BE838A3E24"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "77BB21EC30E51EC4"
+				item: { count: 1, id: "farmersdelight:hot_cocoa" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "farmersdelight:apple_cider"
+			}
+			id: "69BC1FE49C520ADC"
+			optional: true
+			rewards: [{
+				id: "4A08617E91F792B5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "074B3BF7034A320E"
+				item: { count: 1, id: "farmersdelight:apple_cider" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "festive_delight:rolling_pin"
+			}
+			id: "65AFE2F7DC7DC725"
+			optional: true
+			rewards: [{
+				id: "2615159CA2E5EFA9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1BF18CDED045D161"
+				item: { count: 1, id: "festive_delight:rolling_pin" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "festive_delight:gingerbread_man"
+			}
+			id: "0D011F243249EAAC"
+			optional: true
+			rewards: [{
+				id: "6C5A5286E5189DC5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6A6A74FD89045F25"
+				item: { count: 1, id: "festive_delight:gingerbread_man" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "festive_delight:christmas_tea"
+			}
+			id: "29B05AA51661D1D9"
+			optional: true
+			rewards: [{
+				id: "3E24C1427376C928"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "55D41E232FCDF052"
+				item: { count: 1, id: "festive_delight:christmas_tea" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "festive_delight:cinnamon_sticks"
+			}
+			id: "59448DA9CCBE2F17"
+			optional: true
+			rewards: [{
+				id: "0DC8655F21E3FC3E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0CE46CBC2BB16CEB"
+				item: { count: 1, id: "festive_delight:cinnamon_sticks" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "herbsandharvest:cinnamon_roll"
+			}
+			id: "6CC66BD9250ECF65"
+			optional: true
+			rewards: [{
+				id: "4C23F17FEC01996D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6C527F9854388529"
+				item: { count: 1, id: "herbsandharvest:cinnamon_roll" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "snowyspirit:gingerbread_cookie"
+			}
+			id: "43CDFA0AA06A3706"
+			optional: true
+			rewards: [{
+				id: "2E767DA32704C421"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "73D54F2995C17CF2"
+				item: { count: 1, id: "snowyspirit:gingerbread_cookie" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "snowyspirit:eggnog"
+			}
+			id: "341E64D86C318400"
+			optional: true
+			rewards: [{
+				id: "1EDA217E09783207"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "71D483BCB2C5D31E"
+				item: { count: 1, id: "snowyspirit:eggnog" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "merrymaking:fudge"
+			}
+			id: "4D39527FB6F145E4"
+			optional: true
+			rewards: [{
+				id: "77C00F332C76F133"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7F1AAAC5747DFC10"
+				item: { count: 1, id: "merrymaking:fudge" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "alpinewhispers:cooked_reindeer"
+			}
+			id: "1D68216F7783C1C9"
+			optional: true
+			rewards: [{
+				id: "5577AE38BA982F36"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "47A09D7C8A3385CE"
+				item: { count: 1, id: "alpinewhispers:cooked_reindeer" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "bakery:baker_station"
+			}
+			id: "659A070A3E0E32CA"
+			rewards: [{
+				id: "4BD11E65FCA9518F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2E81ADEBCBABA77E"
+				item: { count: 1, id: "bakery:baker_station" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:missing_item": "bakery:dough"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "57002F8B008AC71D"
+			rewards: [{
+				id: "69F3E277154C8FCD"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4B74DD430941D215"
+				item: { components: { "ftbquests:missing_item": "4x bakery:dough" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "bakery:croissant"
+			}
+			id: "2DE4E0DD2FA32BF4"
+			optional: true
+			rewards: [{
+				id: "3B39A080DFC666CF"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "30464D8951A4CEC5"
+				item: { count: 1, id: "bakery:croissant" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "bakery:strawberry_cake"
+			}
+			id: "46FF26BAEE78F630"
+			optional: true
+			rewards: [{
+				id: "6ED55E4E258B8E5F"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "583CB1CEAA7D4979"
+				item: { count: 1, id: "bakery:strawberry_cake" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "herbalbrews:tea_kettle"
+			}
+			id: "208F625365053422"
+			rewards: [{
+				id: "795BF901DC21A828"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "00CD60610EF6BF63"
+				item: { count: 1, id: "herbalbrews:tea_kettle" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "herbalbrews:dried_green_tea"
+			}
+			id: "2A10EB27BE6039F9"
+			rewards: [{
+				id: "116A2B792084301B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "4E392270444C1985"
+					item: { count: 1, id: "herbalbrews:green_tea_leaf" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3EBC8E0139D1D40E"
+					item: { count: 1, id: "herbalbrews:dried_green_tea" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "farmersdelight:sweet_berry_cheesecake"
+			}
+			id: "7D599F30B63C9769"
+			rewards: [{
+				id: "16C10F569E9E8600"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: false
+					id: "4B27B7DCDFF4F20D"
+					item: { count: 1, id: "farmersdelight:sweet_berry_cheesecake" }
+					type: "item"
+				}
+				{
+					id: "07A8B1AC13BDF185"
+					type: "checkmark"
+				}
+			]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "ironfurnaces:iron_furnace"
+			}
+			id: "3CB2F648AF644AA0"
+			rewards: [{
+				id: "2DA837CE8D1DE693"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "16456AE02E01EAC2"
+				item: { count: 1, id: "ironfurnaces:iron_furnace" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "ironfurnaces:gold_furnace"
+			}
+			id: "5123643062E40A7B"
+			optional: true
+			rewards: [{
+				id: "522EA67BE3ADB2DF"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "78E60236AD2E5E5E"
+				item: { count: 1, id: "ironfurnaces:gold_furnace" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "ironfurnaces:diamond_furnace"
+			}
+			id: "79891DC5E15E4A6B"
+			optional: true
+			rewards: [{
+				id: "15CA1617DEE6C2C7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3B4E365E7AC6A1CF"
+				item: { count: 1, id: "ironfurnaces:diamond_furnace" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				id: "ironfurnaces:item_xmas"
+			}
+			id: "4C12EC1A09B6199B"
+			optional: true
+			rewards: [{
+				id: "1AA6F63330AC2C03"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7C626F5ED9A60D03"
+				item: { count: 1, id: "ironfurnaces:item_xmas" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+	]
+}

@@ -16,6 +16,11 @@
       "isVanilla": true
     },
     {
+      "id": "minecraft:jungle_pyramid",
+      "displayName": "Jungle Pyramid",
+      "isVanilla": true
+    },
+    {
       "id": "minecraft:mansion",
       "displayName": "Mansion",
       "isVanilla": true
@@ -48,6 +53,11 @@
     {
       "id": "minecraft:ruined_portal_desert",
       "displayName": "Ruined Portal Desert",
+      "isVanilla": true
+    },
+    {
+      "id": "minecraft:ruined_portal_jungle",
+      "displayName": "Ruined Portal Jungle",
       "isVanilla": true
     },
     {
@@ -116,6 +126,11 @@
       "isVanilla": false
     },
     {
+      "id": "biomeswevegone:abandoned_prairie_house",
+      "displayName": "Abandoned Prairie House",
+      "isVanilla": false
+    },
+    {
       "id": "biomeswevegone:aspen_manor_1",
       "displayName": "Aspen Manor 1",
       "isVanilla": false
@@ -126,8 +141,23 @@
       "isVanilla": false
     },
     {
+      "id": "biomeswevegone:bog_trial",
+      "displayName": "Bog Trial",
+      "isVanilla": false
+    },
+    {
       "id": "biomeswevegone:large_cold_lake",
       "displayName": "Large Cold Lake",
+      "isVanilla": false
+    },
+    {
+      "id": "biomeswevegone:prairie_house",
+      "displayName": "Prairie House",
+      "isVanilla": false
+    },
+    {
+      "id": "biomeswevegone:village/forgotten",
+      "displayName": "Village/forgotten",
       "isVanilla": false
     },
     {
@@ -136,13 +166,43 @@
       "isVanilla": false
     },
     {
+      "id": "biomeswevegone:village/salem",
+      "displayName": "Village/salem",
+      "isVanilla": false
+    },
+    {
       "id": "biomeswevegone:village/skyris",
       "displayName": "Village/skyris",
       "isVanilla": false
     },
     {
+      "id": "biomeswevegone:village/swamp",
+      "displayName": "Village/swamp",
+      "isVanilla": false
+    },
+    {
+      "id": "burnt_additions:burnt_armorer_house",
+      "displayName": "Burnt Armorer House",
+      "isVanilla": false
+    },
+    {
+      "id": "burnt_additions:burnt_outpost",
+      "displayName": "Burnt Outpost",
+      "isVanilla": false
+    },
+    {
+      "id": "burnt_additions:burnt_plains_house",
+      "displayName": "Burnt Plains House",
+      "isVanilla": false
+    },
+    {
       "id": "burnt_additions:geyser",
       "displayName": "Geyser",
+      "isVanilla": false
+    },
+    {
+      "id": "burnt_additions:soul_clearing",
+      "displayName": "Soul Clearing",
       "isVanilla": false
     },
     {
@@ -196,6 +256,26 @@
       "isVanilla": false
     },
     {
+      "id": "chop:christmas_large_birch",
+      "displayName": "Christmas Large Birch",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_large_birch_inner",
+      "displayName": "Christmas Large Birch Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_large_dark_oak",
+      "displayName": "Christmas Large Dark Oak",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_large_dark_oak_inner",
+      "displayName": "Christmas Large Dark Oak Inner",
+      "isVanilla": false
+    },
+    {
       "id": "chop:christmas_large_inner",
       "displayName": "Christmas Large Inner",
       "isVanilla": false
@@ -213,6 +293,26 @@
     {
       "id": "chop:christmas_medium",
       "displayName": "Christmas Medium",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_medium_birch",
+      "displayName": "Christmas Medium Birch",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_medium_birch_inner",
+      "displayName": "Christmas Medium Birch Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_medium_dark_oak",
+      "displayName": "Christmas Medium Dark Oak",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_medium_dark_oak_inner",
+      "displayName": "Christmas Medium Dark Oak Inner",
       "isVanilla": false
     },
     {
@@ -438,6 +538,11 @@
     {
       "id": "chop:iceberg_outpost",
       "displayName": "Iceberg Outpost",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:igloo_village_inner",
+      "displayName": "Igloo Village Inner",
       "isVanilla": false
     },
     {
@@ -681,6 +786,26 @@
       "isVanilla": false
     },
     {
+      "id": "chop:starter_house_birch",
+      "displayName": "Starter House Birch",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:starter_house_birch_inner",
+      "displayName": "Starter House Birch Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:starter_house_dark_oak",
+      "displayName": "Starter House Dark Oak",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:starter_house_dark_oak_inner",
+      "displayName": "Starter House Dark Oak Inner",
+      "isVanilla": false
+    },
+    {
       "id": "chop:starter_house_inner",
       "displayName": "Starter House Inner",
       "isVanilla": false
@@ -756,6 +881,16 @@
       "isVanilla": false
     },
     {
+      "id": "ctov:large/village_jungle",
+      "displayName": "Large/village Jungle",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:large/village_jungle_tree",
+      "displayName": "Large/village Jungle Tree",
+      "isVanilla": false
+    },
+    {
       "id": "ctov:large/village_mountain",
       "displayName": "Large/village Mountain",
       "isVanilla": false
@@ -796,6 +931,16 @@
       "isVanilla": false
     },
     {
+      "id": "ctov:medium/village_jungle",
+      "displayName": "Medium/village Jungle",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:medium/village_jungle_tree",
+      "displayName": "Medium/village Jungle Tree",
+      "isVanilla": false
+    },
+    {
       "id": "ctov:medium/village_mountain",
       "displayName": "Medium/village Mountain",
       "isVanilla": false
@@ -828,6 +973,11 @@
     {
       "id": "ctov:pillager_outpost_dark_forest",
       "displayName": "Pillager Outpost Dark Forest",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:pillager_outpost_jungle",
+      "displayName": "Pillager Outpost Jungle",
       "isVanilla": false
     },
     {
@@ -871,6 +1021,16 @@
       "isVanilla": false
     },
     {
+      "id": "ctov:small/village_jungle",
+      "displayName": "Small/village Jungle",
+      "isVanilla": false
+    },
+    {
+      "id": "ctov:small/village_jungle_tree",
+      "displayName": "Small/village Jungle Tree",
+      "isVanilla": false
+    },
+    {
       "id": "ctov:small/village_mountain",
       "displayName": "Small/village Mountain",
       "isVanilla": false
@@ -893,6 +1053,46 @@
     {
       "id": "ctov:small/village_underground",
       "displayName": "Small/village Underground",
+      "isVanilla": false
+    },
+    {
+      "id": "irons_spellbooks:catacombs",
+      "displayName": "Catacombs",
+      "isVanilla": false
+    },
+    {
+      "id": "irons_spellbooks:evoker_fort",
+      "displayName": "Evoker Fort",
+      "isVanilla": false
+    },
+    {
+      "id": "irons_spellbooks:ice_spider_den",
+      "displayName": "Ice Spider Den",
+      "isVanilla": false
+    },
+    {
+      "id": "irons_spellbooks:impaled_icebreaker",
+      "displayName": "Impaled Icebreaker",
+      "isVanilla": false
+    },
+    {
+      "id": "irons_spellbooks:mangrove_hut",
+      "displayName": "Mangrove Hut",
+      "isVanilla": false
+    },
+    {
+      "id": "irons_spellbooks:mountain_tower",
+      "displayName": "Mountain Tower",
+      "isVanilla": false
+    },
+    {
+      "id": "irons_spellbooks:pyromancer_tower",
+      "displayName": "Pyromancer Tower",
+      "isVanilla": false
+    },
+    {
+      "id": "minecolonies:amazon_camp",
+      "displayName": "Amazon Camp",
       "isVanilla": false
     },
     {
@@ -1036,6 +1236,21 @@
       "isVanilla": false
     },
     {
+      "id": "roadweaver:wood_bridge_shensexiangmu",
+      "displayName": "Wood Bridge Shensexiangmu",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:wood_bridge_yinghuamu",
+      "displayName": "Wood Bridge Yinghuamu",
+      "isVanilla": false
+    },
+    {
+      "id": "roadweaver:wood_bridge_zhuzi",
+      "displayName": "Wood Bridge Zhuzi",
+      "isVanilla": false
+    },
+    {
       "id": "seasonsgreetings:witch_house",
       "displayName": "Witch House",
       "isVanilla": false
@@ -1102,6 +1317,13 @@
       ]
     },
     {
+      "tagId": "minecraft:jungle_pyramid",
+      "displayName": "#Jungle Pyramid",
+      "structureIds": [
+        "minecraft:jungle_pyramid"
+      ]
+    },
+    {
       "tagId": "minecraft:mineshaft",
       "displayName": "#Mineshaft",
       "structureIds": [
@@ -1156,6 +1378,7 @@
       "structureIds": [
         "minecraft:ruined_portal",
         "minecraft:ruined_portal_desert",
+        "minecraft:ruined_portal_jungle",
         "minecraft:ruined_portal_mountain",
         "minecraft:ruined_portal_ocean",
         "minecraft:ruined_portal_swamp"
@@ -1183,11 +1406,15 @@
         "minecraft:village_plains",
         "minecraft:village_snowy",
         "minecraft:village_taiga",
+        "biomeswevegone:village/forgotten",
         "biomeswevegone:village/pumpkin_patch",
+        "biomeswevegone:village/salem",
         "biomeswevegone:village/skyris",
         "ctov:large/village_beach",
         "ctov:large/village_christmas",
         "ctov:large/village_dark_forest",
+        "ctov:large/village_jungle",
+        "ctov:large/village_jungle_tree",
         "ctov:large/village_mountain",
         "ctov:large/village_mountain_alpine",
         "ctov:large/village_swamp",
@@ -1195,6 +1422,8 @@
         "ctov:medium/village_beach",
         "ctov:medium/village_christmas",
         "ctov:medium/village_dark_forest",
+        "ctov:medium/village_jungle",
+        "ctov:medium/village_jungle_tree",
         "ctov:medium/village_mountain",
         "ctov:medium/village_mountain_alpine",
         "ctov:medium/village_swamp",
@@ -1202,6 +1431,8 @@
         "ctov:small/village_beach",
         "ctov:small/village_christmas",
         "ctov:small/village_dark_forest",
+        "ctov:small/village_jungle",
+        "ctov:small/village_jungle_tree",
         "ctov:small/village_mountain",
         "ctov:small/village_mountain_alpine",
         "ctov:small/village_swamp",
@@ -1221,11 +1452,13 @@
       "displayName": "#Adventure Map Destinations",
       "structureIds": [
         "minecraft:igloo",
+        "minecraft:jungle_pyramid",
         "minecraft:mineshaft",
         "minecraft:ocean_ruin_cold",
         "minecraft:pillager_outpost",
         "minecraft:ruined_portal",
         "minecraft:ruined_portal_desert",
+        "minecraft:ruined_portal_jungle",
         "minecraft:ruined_portal_mountain",
         "minecraft:ruined_portal_ocean",
         "minecraft:ruined_portal_swamp",
@@ -1235,11 +1468,15 @@
         "minecraft:village_plains",
         "minecraft:village_snowy",
         "minecraft:village_taiga",
+        "biomeswevegone:village/forgotten",
         "biomeswevegone:village/pumpkin_patch",
+        "biomeswevegone:village/salem",
         "biomeswevegone:village/skyris",
         "ctov:large/village_beach",
         "ctov:large/village_christmas",
         "ctov:large/village_dark_forest",
+        "ctov:large/village_jungle",
+        "ctov:large/village_jungle_tree",
         "ctov:large/village_mountain",
         "ctov:large/village_mountain_alpine",
         "ctov:large/village_swamp",
@@ -1247,6 +1484,8 @@
         "ctov:medium/village_beach",
         "ctov:medium/village_christmas",
         "ctov:medium/village_dark_forest",
+        "ctov:medium/village_jungle",
+        "ctov:medium/village_jungle_tree",
         "ctov:medium/village_mountain",
         "ctov:medium/village_mountain_alpine",
         "ctov:medium/village_swamp",
@@ -1254,6 +1493,8 @@
         "ctov:small/village_beach",
         "ctov:small/village_christmas",
         "ctov:small/village_dark_forest",
+        "ctov:small/village_jungle",
+        "ctov:small/village_jungle_tree",
         "ctov:small/village_mountain",
         "ctov:small/village_mountain_alpine",
         "ctov:small/village_swamp",
@@ -1268,6 +1509,13 @@
       "structureIds": [
         "biomeswevegone:aspen_manor_1",
         "biomeswevegone:aspen_manor_2"
+      ]
+    },
+    {
+      "tagId": "biomeswevegone:bog_trials",
+      "displayName": "#Bog Trials",
+      "structureIds": [
+        "biomeswevegone:bog_trial"
       ]
     },
     {
@@ -1312,6 +1560,8 @@
         "ctov:large/village_beach",
         "ctov:large/village_christmas",
         "ctov:large/village_dark_forest",
+        "ctov:large/village_jungle",
+        "ctov:large/village_jungle_tree",
         "ctov:large/village_mountain",
         "ctov:large/village_mountain_alpine",
         "ctov:large/village_swamp",
@@ -1325,6 +1575,8 @@
         "ctov:medium/village_beach",
         "ctov:medium/village_christmas",
         "ctov:medium/village_dark_forest",
+        "ctov:medium/village_jungle",
+        "ctov:medium/village_jungle_tree",
         "ctov:medium/village_mountain",
         "ctov:medium/village_mountain_alpine",
         "ctov:medium/village_swamp",
@@ -1345,11 +1597,20 @@
         "minecraft:pillager_outpost",
         "ctov:pillager_outpost_beach",
         "ctov:pillager_outpost_dark_forest",
+        "ctov:pillager_outpost_jungle",
         "ctov:pillager_outpost_mountain",
         "ctov:pillager_outpost_plains",
         "ctov:pillager_outpost_snowy",
         "ctov:pillager_outpost_swamp",
         "ctov:pillager_outpost_taiga"
+      ]
+    },
+    {
+      "tagId": "biomeswevegone:prairie_houses",
+      "displayName": "#Prairie Houses",
+      "structureIds": [
+        "biomeswevegone:abandoned_prairie_house",
+        "biomeswevegone:prairie_house"
       ]
     },
     {
@@ -1359,11 +1620,15 @@
         "minecraft:village_plains",
         "minecraft:village_snowy",
         "minecraft:village_taiga",
+        "biomeswevegone:village/forgotten",
         "biomeswevegone:village/pumpkin_patch",
+        "biomeswevegone:village/salem",
         "biomeswevegone:village/skyris",
         "ctov:large/village_beach",
         "ctov:large/village_christmas",
         "ctov:large/village_dark_forest",
+        "ctov:large/village_jungle",
+        "ctov:large/village_jungle_tree",
         "ctov:large/village_mountain",
         "ctov:large/village_mountain_alpine",
         "ctov:large/village_swamp",
@@ -1371,6 +1636,8 @@
         "ctov:medium/village_beach",
         "ctov:medium/village_christmas",
         "ctov:medium/village_dark_forest",
+        "ctov:medium/village_jungle",
+        "ctov:medium/village_jungle_tree",
         "ctov:medium/village_mountain",
         "ctov:medium/village_mountain_alpine",
         "ctov:medium/village_swamp",
@@ -1378,6 +1645,8 @@
         "ctov:small/village_beach",
         "ctov:small/village_christmas",
         "ctov:small/village_dark_forest",
+        "ctov:small/village_jungle",
+        "ctov:small/village_jungle_tree",
         "ctov:small/village_mountain",
         "ctov:small/village_mountain_alpine",
         "ctov:small/village_swamp",
@@ -1391,6 +1660,8 @@
         "ctov:small/village_beach",
         "ctov:small/village_christmas",
         "ctov:small/village_dark_forest",
+        "ctov:small/village_jungle",
+        "ctov:small/village_jungle_tree",
         "ctov:small/village_mountain",
         "ctov:small/village_mountain_alpine",
         "ctov:small/village_swamp",
@@ -1408,7 +1679,9 @@
       "tagId": "biomeswevegone:village",
       "displayName": "#Village",
       "structureIds": [
+        "biomeswevegone:village/forgotten",
         "biomeswevegone:village/pumpkin_patch",
+        "biomeswevegone:village/salem",
         "biomeswevegone:village/skyris"
       ]
     },
@@ -1419,6 +1692,8 @@
         "ctov:large/village_beach",
         "ctov:large/village_christmas",
         "ctov:large/village_dark_forest",
+        "ctov:large/village_jungle",
+        "ctov:large/village_jungle_tree",
         "ctov:large/village_mountain",
         "ctov:large/village_mountain_alpine",
         "ctov:large/village_swamp",
@@ -1426,6 +1701,8 @@
         "ctov:medium/village_beach",
         "ctov:medium/village_christmas",
         "ctov:medium/village_dark_forest",
+        "ctov:medium/village_jungle",
+        "ctov:medium/village_jungle_tree",
         "ctov:medium/village_mountain",
         "ctov:medium/village_mountain_alpine",
         "ctov:medium/village_swamp",
@@ -1433,6 +1710,8 @@
         "ctov:small/village_beach",
         "ctov:small/village_christmas",
         "ctov:small/village_dark_forest",
+        "ctov:small/village_jungle",
+        "ctov:small/village_jungle_tree",
         "ctov:small/village_mountain",
         "ctov:small/village_mountain_alpine",
         "ctov:small/village_swamp",
@@ -1464,6 +1743,24 @@
         "ctov:large/village_dark_forest",
         "ctov:medium/village_dark_forest",
         "ctov:small/village_dark_forest"
+      ]
+    },
+    {
+      "tagId": "ctov:village_jungle",
+      "displayName": "#Village Jungle",
+      "structureIds": [
+        "ctov:large/village_jungle",
+        "ctov:medium/village_jungle",
+        "ctov:small/village_jungle"
+      ]
+    },
+    {
+      "tagId": "ctov:village_jungle_tree",
+      "displayName": "#Village Jungle Tree",
+      "structureIds": [
+        "ctov:large/village_jungle_tree",
+        "ctov:medium/village_jungle_tree",
+        "ctov:small/village_jungle_tree"
       ]
     },
     {
@@ -1518,11 +1815,15 @@
         "minecraft:village_plains",
         "minecraft:village_snowy",
         "minecraft:village_taiga",
+        "biomeswevegone:village/forgotten",
         "biomeswevegone:village/pumpkin_patch",
+        "biomeswevegone:village/salem",
         "biomeswevegone:village/skyris",
         "ctov:large/village_beach",
         "ctov:large/village_christmas",
         "ctov:large/village_dark_forest",
+        "ctov:large/village_jungle",
+        "ctov:large/village_jungle_tree",
         "ctov:large/village_mountain",
         "ctov:large/village_mountain_alpine",
         "ctov:large/village_swamp",
@@ -1530,6 +1831,8 @@
         "ctov:medium/village_beach",
         "ctov:medium/village_christmas",
         "ctov:medium/village_dark_forest",
+        "ctov:medium/village_jungle",
+        "ctov:medium/village_jungle_tree",
         "ctov:medium/village_mountain",
         "ctov:medium/village_mountain_alpine",
         "ctov:medium/village_swamp",
@@ -1537,10 +1840,19 @@
         "ctov:small/village_beach",
         "ctov:small/village_christmas",
         "ctov:small/village_dark_forest",
+        "ctov:small/village_jungle",
+        "ctov:small/village_jungle_tree",
         "ctov:small/village_mountain",
         "ctov:small/village_mountain_alpine",
         "ctov:small/village_swamp",
         "ctov:small/village_swamp_fortified"
+      ]
+    },
+    {
+      "tagId": "irons_spellbooks:wayward_compass_locator",
+      "displayName": "#Wayward Compass Locator",
+      "structureIds": [
+        "irons_spellbooks:catacombs"
       ]
     }
   ]

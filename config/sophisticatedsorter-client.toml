@@ -1,6 +1,6 @@
 [Setting]
 	#name, mod, count, tags
-	SortBy = "name"
+	SortBy = "tags"
 	#Only valid for containers with more than 10 slots if true.
 	Filter1 = true
 	#Only valid for containers without invalid slot such as recipe result slot if true.

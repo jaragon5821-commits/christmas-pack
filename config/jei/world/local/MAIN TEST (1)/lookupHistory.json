@@ -1,0 +1,9 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"wildernature:thick_leather"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:pumpkin_slice"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"aquaculture:wooden_fillet_knife"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:cutting_board"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:pumpkin"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:snowball"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

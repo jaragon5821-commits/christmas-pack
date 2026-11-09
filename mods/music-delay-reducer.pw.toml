@@ -1,0 +1,13 @@
+name = "Music Delay Reducer"
+filename = "music_delay_reducer-neoforge-2.1.1+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/CTJn5mVm/versions/PWPuVZKd/music_delay_reducer-neoforge-2.1.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "44dfacf0c82a40e7aec3ef3e7b4429e16d02741f9dfd850e64506097fd1fc171e2f2c8704dee7636e1019b93ba8952f06ce4c4de6710e6722667adbb577c3f7e"
+
+[update]
+[update.modrinth]
+mod-id = "CTJn5mVm"
+version = "PWPuVZKd"
