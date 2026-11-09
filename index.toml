@@ -2985,10 +2985,6 @@ file = "config/betteradvancements-client.toml"
 hash = "38e88509078026a5a660e00947e5a6db74a3c374c8c7978ef64c360167f84db9"
 
 [[files]]
-file = "config/betterclouds-v1.json"
-hash = "bd3384450610908718ae7986fc246576765668640f64461b3f4e89629ad5fe14"
-
-[[files]]
 file = "config/betterdays-client.toml"
 hash = "730b13a15e01a03825fc40477758799ed8801c783d9cf829867c43c1b08f7ad9"
 
@@ -42603,11 +42599,6 @@ metafile = true
 [[files]]
 file = "mods/better-block-entities.pw.toml"
 hash = "fb1ce0c24f15ebf7035737b5b5dab5b32bd001124a134f63b970da17c1d6bd0e"
-metafile = true
-
-[[files]]
-file = "mods/better-clouds.pw.toml"
-hash = "a8cf4aeacd8f7c0e5ba4e3c2e2b6a050c269322aeffb8ee74a4dc7648598fa1c"
 metafile = true
 
 [[files]]
