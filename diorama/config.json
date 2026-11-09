@@ -44,7 +44,7 @@
   "roundedFog": true,
   "alwaysFogOfWar": false,
   "mapSavedChunks": true,
-  "quality": "FANCY",
+  "quality": "FAST",
   "gpuBaking": false,
   "defaultsMoved": 1,
   "chunkGrid": false,

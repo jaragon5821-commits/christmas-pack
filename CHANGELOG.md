@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.09-4
+- Performance: Diorama map quality FAST, MoreCulling leaves culling amount 1, LambDynamicLights fast mode
+
 ## 2026.11.09-3
 - Iron's Spells now from Modrinth (same 3.16.3, no longer hosted); colony auto-building (expansion) on; old unused Festivity jars removed from the repo
 
