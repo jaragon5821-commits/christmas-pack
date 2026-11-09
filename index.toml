@@ -4046,7 +4046,7 @@ hash = "5369346e99dc684898a20bbf08791a940f55c9e70e4ed0b0fa8af9e04091dc78"
 
 [[files]]
 file = "config/immediatelyfast.json"
-hash = "030d7c2c4b33a367d6e0ac009e0c47523c61d38ccb9fb68ea920f773645d6f19"
+hash = "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a"
 
 [[files]]
 file = "config/immersive_melodies.json"
@@ -4067,6 +4067,7 @@ hash = "ddbba37f738df9ca656dad8528dbe84c9a645ccde966b7172dffb05dfb0b757f"
 [[files]]
 file = "config/iris.properties"
 hash = "bbe5c75e8e677df9d322f1b33f6f5fcbe311470c373e1cf08a17e2fc085a1efd"
+preserve = true
 
 [[files]]
 file = "config/iris-excluded.json"
@@ -43414,11 +43415,6 @@ hash = "abd10ac40f48de18718d8caf910364b077f0e41bf45f041e2303127c37e41a1c"
 metafile = true
 
 [[files]]
-file = "mods/lightspeedre.pw.toml"
-hash = "955f3eca2f9af3e8568b8cc1108773819c37a9ba3c2f48ca0a7d3a7a80979895"
-metafile = true
-
-[[files]]
 file = "mods/lithium.pw.toml"
 hash = "2a1968e88df3ba5b88153701d67b6c2a9063a3db1f8fb5b5944aeb4686a54a96"
 metafile = true
@@ -44190,3 +44186,12 @@ preserve = true
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.9.3.zip"
 hash = "fed6c879e732cf7fc7bc6570ebb1def43235aa7e96f62859fbdbdbfa0b484b38"
+
+[[files]]
+file = "config/openloader/packs/29_Chops_No_Day_Frost_Hounds_v1.zip"
+hash = "ca534d58c7db3896b39292f0c544c910b14f9fb260e835299fb8f8056b07381d"
+
+[[files]]
+file = "options.txt"
+hash = "efac3921e521b6127afb58dcc8c7c68b7216bbf277d68f054f9ca42fb54b6f12"
+preserve = true
