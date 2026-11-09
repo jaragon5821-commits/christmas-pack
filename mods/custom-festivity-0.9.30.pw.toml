@@ -1,8 +1,0 @@
-name = "festivity-0.9.30"
-filename = "festivity-0.9.30.jar"
-side = "both"
-
-[download]
-url = "https://raw.githubusercontent.com/jaragon5821-commits/christmas-pack/test/patched-jars/festivity-0.9.30.jar"
-hash-format = "sha512"
-hash = "4918826780db3e3bdec794c8c5fc29bc034ca7e69d68d44cff2521c2315eb85a14d117418d90db4f3499ba88877035e0cab6ea6d1b7f7e14c26b881bcb9bdf08"

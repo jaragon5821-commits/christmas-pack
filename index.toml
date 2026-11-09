@@ -42335,7 +42335,7 @@ hash = "16a24cb34aa0c102ce2a8a135e2d02dd40311e88b1dacea54fa0ddf6ba7bd6eb"
 
 [[files]]
 file = "kubejs/server_scripts/chop_ornament_recipes.js"
-hash = "ba0442486b6e273ff17b1c92d039971c7b51fa871d775f6fab052523aa6e1c2e"
+hash = "1039ec68ab9f09478eb37ead09593fe08a17a7ce463866b334acd35cca50a34a"
 
 [[files]]
 file = "kubejs/server_scripts/chop_presents_loot.js"
@@ -42888,11 +42888,6 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "c38a1257e028370f0312aee8b3bad6e87bc7ec6e84559cc9051e5770e2a9f16d"
-metafile = true
-
-[[files]]
-file = "mods/custom-chop-autopilot-1.3.4-chop.5.pw.toml"
-hash = "1811d491b97c3ef83b2494cdaaf144ab7785f42789d332f09340e9c3ddb27673"
 metafile = true
 
 [[files]]
@@ -44584,6 +44579,11 @@ file = "kubejs/removed/chop_advent_calendar.js"
 hash = "7e31bce5a2a96f3d31a42e1d73a45e88fc3089bc485e1ceaddc228893d801f1d"
 
 [[files]]
-file = "mods/custom-festivity-0.9.30.pw.toml"
-hash = "a31e5851b167db6fcdeb5a685b976cec6dd0fa0ca7161117be036d3c14ed251a"
+file = "mods/custom-chop-autopilot-1.3.4-chop.28.pw.toml"
+hash = "60d7705cac2bae96b0edacf9c5b4e196ef0b5eb69e0e77453458ed9b6e73978c"
+metafile = true
+
+[[files]]
+file = "mods/custom-festivity-0.9.34.pw.toml"
+hash = "0bf1023399eaadc16396bd44cfce99c2df602936fdd87ff851a198fef2901864"
 metafile = true
