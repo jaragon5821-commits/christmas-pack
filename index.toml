@@ -2946,7 +2946,7 @@ hash = "4aa222824c07287a7304e139c10955f45ccb43ded5785efd09419915718536c2"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "ec6da2313ea7c2f00a8554a8e2f38bae9c446470d70f2e06578b39f96fd023ec"
+hash = "e4c14bd5ed97a0900b5fc5324e7fe48a603c8b99ef1639da69bf416b3b6f4ef3"
 
 [[files]]
 file = "config/auroral-client.toml"
@@ -3030,7 +3030,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "6fb6ff3e2cb4d1c47431b2e9fb48090fd985e0b43777949ec0c346cda85e532d"
+hash = "4e644f8324221022aed71d39b3d56a6cd189d5bd3f67c4aa72b889fb208421da"
 
 [[files]]
 file = "config/boatiview-client.toml"
@@ -3314,7 +3314,7 @@ hash = "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8"
 
 [[files]]
 file = "config/cinematic_respawn.properties"
-hash = "2d89793fa831baf85e25b8801803436c32128791b8336f62e20bd6a0c404c3b8"
+hash = "609c32f8008d0e994ded408beeae55783bfdfdffbdfb0a23417448cbef8cd996"
 
 [[files]]
 file = "config/cinematiczoom-client.toml"
@@ -3334,7 +3334,7 @@ hash = "9d7e2db3fb92440a7acb2b9af73f7b2e01817b6ee07d306edf929040b967680a"
 
 [[files]]
 file = "config/colonyautopilot-server.toml"
-hash = "8d0b320d9a0de67e58a7bb574c424ab051a4fa4a9522f52b94e0dbc70128097e"
+hash = "8eec9b6ebfefc6d42152993ec821f58019d336842799dce11b10422467212f65"
 
 [[files]]
 file = "config/comforts-common.toml"
@@ -3694,7 +3694,7 @@ hash = "a4e7d2d6bac537024dda0a613d6edfbb114cb4971e692e010cf5a43cb743e675"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "9ecfe3f56a8854e0292ba8adcc82866a11b73909ed6122ba0d3db289c40e8cbb"
+hash = "9e91fa130d7a3816598e08502f8fbf1adb29d70f50f128e8ec49d6c901f02af3"
 
 [[files]]
 file = "config/fairylights-common.toml"
@@ -4066,7 +4066,7 @@ hash = "ddbba37f738df9ca656dad8528dbe84c9a645ccde966b7172dffb05dfb0b757f"
 
 [[files]]
 file = "config/iris.properties"
-hash = "b2d18d81b642490dafdd473638a06245b74139b8ea6d7355562ce5eb06de6a0b"
+hash = "bbe5c75e8e677df9d322f1b33f6f5fcbe311470c373e1cf08a17e2fc085a1efd"
 
 [[files]]
 file = "config/iris-excluded.json"
@@ -4245,6 +4245,10 @@ file = "config/jei/world/local/MAIN TEST (1)/lookupHistory.json"
 hash = "448fee05750b30ba3281171a453739b076986b4783cd3f882b51a60f0bd8bbec"
 
 [[files]]
+file = "config/jei/world/local/MAIN TEST 2/lookupHistory.json"
+hash = "1d0e1bcfb94b112eb34eba57f4eb5778f7b35af18b737270fa10df42786ab0c0"
+
+[[files]]
 file = "config/jei/world/local/New World (2)/lookupHistory.json"
 hash = "7240a7682b0c499faaf8011736bfd18a5772bbfcae376cf796a6015b9bcb7d34"
 
@@ -4395,6 +4399,14 @@ hash = "12174fd2e7b7105aa4aa98a486df7baa470fd770ff30a731cf314c4fd571701a"
 [[files]]
 file = "config/litematica/litematica_Large_1105_dim_minecraft_overworld.json"
 hash = "adcadb841e38244e0121845e5c11366cb7fca48d1e6518db75eb8369eb9cc582"
+
+[[files]]
+file = "config/litematica/litematica_MAIN TEST 2.json"
+hash = "12174fd2e7b7105aa4aa98a486df7baa470fd770ff30a731cf314c4fd571701a"
+
+[[files]]
+file = "config/litematica/litematica_MAIN TEST 2_dim_minecraft_overworld.json"
+hash = "438b0ed10eb01b8f5da12fe2dfa7dfa116aea720513ce17bcd49080d9c0a00bf"
 
 [[files]]
 file = "config/litematica/litematica_MAIN TEST.json"
@@ -5230,7 +5242,7 @@ hash = "50aa30a1d8c6d5c07552b639a63169d7dc34936d84bd8b97af80e0083e851b9d"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "24201e52a488354edeb711a1c67756c8ad50ad770f3bd213a831d20302b70578"
+hash = "7a62bdfe7ee815f0769452cfba3b89ab4a095a854b5e2bc65ed2fa9b2629e66a"
 
 [[files]]
 file = "config/saturn-optimizations.toml"
@@ -5686,7 +5698,7 @@ hash = "68a4cd85265d4d38a621d2be0351b56e0c8aaa41c3db6de72d8f6398a4814786"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "0e949f02a460a97067d641494f69eff367bb156afbcec5a1e5e23460acb84e0b"
+hash = "c240355f19b203a477f8c3280a59bd693a14a30d1f30f8e0ff25daeb3ee526ac"
 
 [[files]]
 file = "config/wwoo/config.json5"
@@ -42902,11 +42914,6 @@ hash = "111853ab9eee016c4414a3b09103ee8eeca9cf2120647593f3b6554656d18043"
 metafile = true
 
 [[files]]
-file = "mods/custom-irons_spellbooks-1.21.1-3.16.3.pw.toml"
-hash = "7039766930f7c23b0c678ee910c842cab45430bfe5f7e90010392d67b0c1f1a4"
-metafile = true
-
-[[files]]
 file = "mods/custom-MCA-Colony-Integration-0.1.2-chop.pw.toml"
 hash = "832d9618d08a29831988c90e0cf9b7d24508e4ac6a126cc5ae07cd138a16f5c6"
 metafile = true
@@ -43244,6 +43251,11 @@ metafile = true
 [[files]]
 file = "mods/irons-lib.pw.toml"
 hash = "8941da7290825037921249274369a39440567f667df2eead412cf54423168f7e"
+metafile = true
+
+[[files]]
+file = "mods/irons-spells-n-spellbooks.pw.toml"
+hash = "4623bbc102dd3b7648a96569a1ab49b868774d46355b305ac40c4c79ad1c74e2"
 metafile = true
 
 [[files]]

@@ -201,7 +201,7 @@
 	#sprawling — no more production buildings, homes or decorations — while defense stays
 	#covered (guard towers still rise where citizens work unguarded) and everything already
 	#standing keeps getting upgraded, repaired and outfitted.
-	expansion = false
+	expansion = true
 	#Minimum game-time minutes (scales with /tick rate) between two automatic building placements per colony — the village's growth pace.
 	# Default: 10
 	# Range: 1 ~ 1440

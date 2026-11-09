@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.09-3
+- Iron's Spells now from Modrinth (same 3.16.3, no longer hosted); colony auto-building (expansion) on; old unused Festivity jars removed from the repo
+
 ## 2026.11.09-2
 - Fix invisible beds/chests (Chloride fast chests+beds off), Festivity 0.9.8b + Iron's Spells set + winter filter v2, structures v34, botany v3, reindeer ETF, 3 quest chapters, biome replacer v2, Iron Furnaces, Music Delay Reducer, music RP rebuild, MoreCulling DEPTH, no hippos; removed PaperDoll, Spice of Life Onion, FastWorkbench
 
