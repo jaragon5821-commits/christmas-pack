@@ -5701,10 +5701,6 @@ file = "config/winterly.json"
 hash = "68a4cd85265d4d38a621d2be0351b56e0c8aaa41c3db6de72d8f6398a4814786"
 
 [[files]]
-file = "config/worldedit/worldedit.properties"
-hash = "c240355f19b203a477f8c3280a59bd693a14a30d1f30f8e0ff25daeb3ee526ac"
-
-[[files]]
 file = "config/wwoo/config.json5"
 hash = "dfa7452700005bcfd764bbb793128533a24083adc9a29bdd4df70ff8b65c3a1e"
 
@@ -44145,11 +44141,6 @@ metafile = true
 [[files]]
 file = "mods/winterly.pw.toml"
 hash = "ea587de172cf7e88582a563b4a429ff60e32e259293a306f977340760ae7e443"
-metafile = true
-
-[[files]]
-file = "mods/worldedit.pw.toml"
-hash = "03f528a40f95d700a7634847c925fd1589ea767eef0d2facb2bd1c34e8e97b26"
 metafile = true
 
 [[files]]
