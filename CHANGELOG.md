@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.08-8
+- Install fix: removed 4 empty config files that GitHub refuses to serve
+
 ## 2026.11.08-7
 - Install fix: FerriteCore and Multi-Piston had a blank side and failed to download
 

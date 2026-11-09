@@ -2,3 +2,7 @@
 patched-jars/
 README.md
 CHANGELOG.md
+config/worldedit/.archive-unpack/
+config/catalogue_favourites.txt
+config/jamlib/known_suspicious_jars.txt
+config/patpat/patpat/player-list.txt

@@ -1,12 +1,12 @@
 name = "Chop's Christmas Special"
 author = "Josh"
-version = "2026.11.08-7"
+version = "2026.11.08-8"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e0a99f15ee945ce9f77ba3d41e9211af9ab0f091d6e86504824ba2851bcd5766"
+hash = "5d4d51cabafda5870e1f94e9101603e73b0e1438767cae33f34b9f0cec220108"
 
 [versions]
 minecraft = "1.21.1"
