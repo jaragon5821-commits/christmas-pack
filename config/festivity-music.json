@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "interval_ticks": 200,
+  "silence_seconds": 10,
+  "force_newyear": false,
+  "claws_night_track": "",
+  "durations": {
+    "menu": 180,
+    "home": 180,
+    "newyear": 180,
+    "snow": 180,
+    "village": 180,
+    "xltree": 180,
+    "dungeon": 180,
+    "toyfactory": 180
+  },
+  "dungeon_structures": [
+    "chop:gingerbread_labyrinth",
+    "chop:elf_prison_mines",
+    "chop:claws_coal_furnace",
+    "chop:frozen_reindeer_stables",
+    "chop:sunken_snow_globe",
+    "chop:naughty_citadel"
+  ],
+  "xltree_structures": [
+    "chop:christmas_tree_xl",
+    "chop:christmas_tree_xl_inner",
+    "chop:giant_ornament_world_tree",
+    "chop:giant_ornament_world_tree_inner"
+  ]
+}

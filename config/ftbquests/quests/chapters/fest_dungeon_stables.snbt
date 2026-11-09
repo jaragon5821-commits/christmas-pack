@@ -1,0 +1,167 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fest_dungeon_stables"
+	group: ""
+	icon: {
+		id: "festivity:hound_masters_horn"
+	}
+	id: "317BA12BCD1F6748"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "0A9BFA4B00A5303A"
+			rewards: [{
+				id: "2215EF211036DD19"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4F525D0BE75BF478"
+				structure: "chop:frozen_reindeer_stables"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:festive_lasso"
+			}
+			id: "1DFAD3D9A998A217"
+			optional: true
+			rewards: [{
+				id: "7D5411C26F1AFC1C"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6A2321B75591D9B2"
+				item: { count: 1, id: "festivity:festive_lasso" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:sleigh_bells"
+			}
+			id: "64B856C161BE8C0E"
+			optional: true
+			rewards: [{
+				id: "31C0BE642A970C6F"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2E6266A910D78899"
+				item: { count: 1, id: "festivity:sleigh_bells" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.2d
+		}
+		{
+			icon: {
+				id: "festivity:frostbitten_saddle"
+			}
+			id: "5482DB3C78172BE3"
+			optional: true
+			rewards: [{
+				id: "1C5BFF5085DAFE1C"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "195F7ACC6576C9AD"
+				item: { count: 1, id: "festivity:frostbitten_saddle" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			icon: {
+				id: "festivity:tracking_collar"
+			}
+			id: "030E0540A7D41FAE"
+			optional: true
+			rewards: [{
+				id: "2AE78F428E397B88"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2670142ECDBF9988"
+				item: { count: 1, id: "festivity:tracking_collar" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			icon: {
+				id: "festivity:reindeer_harness"
+			}
+			id: "226095EDCE9A7A9D"
+			optional: true
+			rewards: [{
+				id: "6F954B0AA2756A8E"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "731068C238C6A5A0"
+				item: { count: 1, id: "festivity:reindeer_harness" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.2d
+		}
+		{
+			icon: {
+				id: "festivity:hound_masters_horn"
+			}
+			id: "51DA7BCB2D21F5E5"
+			rewards: [
+				{
+					count: 2
+					id: "51F6C8678FB94F8C"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "6FB8D147A128E52E"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: false
+				id: "0D37AFBE82D0EF0A"
+				item: { count: 1, id: "festivity:hound_masters_horn" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+	]
+}

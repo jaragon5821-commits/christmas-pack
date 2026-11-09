@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "sophisticatedbackpacks:backpack"
+    },
+    "title": [
+      "Backpack: open with ",
+      {
+        "keybind": "key.sophisticatedbackpacks.open_backpack",
+        "color": "gold"
+      }
+    ],
+    "description": {
+      "text": "Wear it, then use the key. No key? Set one from the Handbook."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "got": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "sophisticatedbackpacks:backpack"
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "parent": "chopxmas:tips/root"
+}

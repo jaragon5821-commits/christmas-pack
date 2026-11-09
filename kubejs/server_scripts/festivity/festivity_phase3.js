@@ -1,5 +1,5 @@
 // priority: 30
-// FESTIVITY PHASE 3 (DRAFT v3, 2026-11-05, TEST fixes: present item fallback + scripted drop, multi-page letter without \n, non-silent debug commands) - Sour Elf heist, Naughty Letter, Santa sleigh fly-by, Town Hall anchor.
+// FESTIVITY PHASE 3 (DRAFT v4, 2026-11-08: dawn sleigh window widened, thieves without helmet items; v3 2026-11-05 TEST fixes: present item fallback + scripted drop, multi-page letter without \n, non-silent debug commands) - Sour Elf heist, Naughty Letter, Santa sleigh fly-by, Town Hall anchor.
 // Needs festivity.js 0.2.10+ (Phase 1: action keys + fest_lastDecorBreakKey stamp) and festivity_phase2.js loaded first. Design: doc v2.2 sections 7, 15, 18.
 // Everything here is villager-safe: our mobs are separate tagged entities; nothing touches villager or citizen data.
 
@@ -55,7 +55,7 @@ ServerEvents.tick(event => {
   if (d.contains('sleigh')) sleighTick(server);
   // dawn: sleigh fly-by in Merry+
   let t = R.dayTime(server) % 24000;
-  if (t >= 0 && t < 100 && !d.getBoolean('p3_sleighToday') && (R.band(server).id == 'merry' || R.band(server).id == 'jolly')) { d.putBoolean('p3_sleighToday', true); startSleigh(server); }
+  if (t >= 0 && t < 600 && !d.getBoolean('p3_sleighToday') && (R.band(server).id == 'merry' || R.band(server).id == 'jolly')) { d.putBoolean('p3_sleighToday', true); startSleigh(server); }
   if (t > 6000 && d.getBoolean('p3_sleighToday')) d.putBoolean('p3_sleighToday', false);
   // roll
   if (day == p3_lastRollDay || v < 60 || p3isNight(server) || d.contains('heist') || d.contains('letter') || d.contains('event')) return;
@@ -71,7 +71,7 @@ function startHeist(server) {
   let x = Math.floor(a.x + Math.cos(ang) * P3.HEIST_RADIUS), z = Math.floor(a.z + Math.sin(ang) * P3.HEIST_RADIUS), y = p3surface(server.overworld(), x, z);
   for (let i = 0; i < P3.HEIST_ELVES; i++) {
     // stray holding the present in the MAIN hand (visible, never a bow); the death handler below drops the present itself
-    R.cmd(server, 'summon ' + fid('minecraft:stray') + ' ' + (x + i) + ' ' + y + ' ' + z + ' {PersistenceRequired:1b,Tags:["fest_minion","fest_heist"],HandItems:[{id:"' + presentItem() + '",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",count:1,components:{"minecraft:dyed_color":{rgb:2263842}}}],active_effects:[{id:"minecraft:speed",amplifier:1,duration:-1,show_particles:0b}]}');
+    R.cmd(server, 'summon ' + fid('minecraft:stray') + ' ' + (x + i) + ' ' + y + ' ' + z + ' {PersistenceRequired:1b,Tags:["fest_minion","fest_heist"],HandItems:[{id:"' + presentItem() + '",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:"minecraft:speed",amplifier:1,duration:-1,show_particles:0b}]}');   // v4: no helmet item (Looks v3 / jar elf model carries the hat)
   }
   R.change(server, -P3.HEIST_ELVES, 'event', null, null);
   p3save(server, 'heist', { started: Date.now(), x: x, y: y, z: z, stolen: P3.HEIST_ELVES, recovered: 0 });
@@ -190,4 +190,4 @@ ServerEvents.commandRegistry(event => {
   );
 });
 
-console.log('[Festivity] phase 3 draft v3 loaded');
+console.log('[Festivity] phase 3 draft v4 loaded (dawn sleigh window 600, thieves hatless; Phase 5 redefines startSleigh when loaded)');

@@ -1,0 +1,30 @@
+{
+  "icon": "christmas_village.png",
+  "name": "Chop's Christmas Village",
+  "authors": [
+    "Chop"
+  ],
+  "desc": "A snowy ceramic Christmas village: cabins that grow into plastered, lit-up shops and houses with red, green and blue tiled roofs, wreath doors, picture windows, plus roads, parks and a Christmas market. Six residence designs, and Birch Meadow, Dark Forest, Mountain Stone, Hillside and Lakeside variants of the busiest huts. Needs Chop's Christmas Blocks (KubeJS).",
+  "mods": [
+    "another_furniture",
+    "candlelight",
+    "christmas_hearthlight",
+    "furniture",
+    "handcrafted",
+    "hearth_and_timber",
+    "mcwholidays",
+    "mcwlights",
+    "mcwpaths",
+    "mcwroofs",
+    "merrymaking",
+    "minecolonies",
+    "seasonsgreetings",
+    "snowyspirit",
+    "stoneworks",
+    "structurize",
+    "supplementaries",
+    "winterly"
+  ],
+  "version": "3",
+  "pack-format": "1"
+}

@@ -1,0 +1,264 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fest_endgame"
+	group: ""
+	icon: {
+		id: "festivity:heart_of_winter"
+	}
+	id: "5F574D9E58929D70"
+	images: [ ]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "festivity:toymakers_ticket"
+			}
+			id: "6F69115F5FA8C5EC"
+			rewards: [{
+				id: "5B789FBD81FD0934"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "1F4F2B2675C355DC"
+				item: { count: 1, id: "festivity:toymakers_ticket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:coal_heart"
+			}
+			id: "68C74ABC472EAD02"
+			rewards: [
+				{
+					count: 3
+					id: "1CEEDE51B66DE5C6"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "5E68E0980227E453"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "festivity:twisted_toymaster"
+				id: "70C193B9700D7CA0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:clockwork_crown"
+			}
+			id: "053CEA6015F58AE1"
+			optional: true
+			rewards: [{
+				id: "3CB56B31635FC438"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7DC0F0E982DF2A24"
+				item: { count: 1, id: "festivity:clockwork_crown" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "festivity:forge_ember"
+			}
+			id: "039FD10FA92A2903"
+			rewards: [{
+				id: "4163C7D67D3E1AFE"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "41C5E65D32B7C9AF"
+					item: { count: 1, id: "festivity:forge_ember" }
+					type: "item"
+				}
+				{
+					dimension: "minecraft:the_nether"
+					id: "5B5223230BC304A5"
+					type: "dimension"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:clinker_core"
+			}
+			id: "392B9C20B2AE16BE"
+			rewards: [
+				{
+					count: 4
+					id: "2D71A755C4FA61EB"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "63DFE724E1862B25"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "festivity:clinker_forgemaster"
+				id: "5B8FAC19DC3C0D6A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:naughty_compass"
+			}
+			id: "15DBE31B95D0A49C"
+			rewards: [{
+				id: "108D3DF2686564A8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "3BB49ADF410D6345"
+					item: { count: 1, id: "festivity:naughty_compass" }
+					type: "item"
+				}
+				{
+					dimension: "minecraft:the_end"
+					id: "7519A0B5269B39E7"
+					type: "dimension"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:heart_of_winter"
+			}
+			id: "4D3E91A1498D9092"
+			rewards: [
+				{
+					id: "16BBEE8C66E9D4B4"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "0B5FC8A8549FA17A"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [{
+				entity: "festivity:claws_ascendant"
+				id: "2294AC56F3BD79C2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:carol_book"
+			}
+			id: "415079BBA55B7B46"
+			optional: true
+			rewards: [{
+				id: "6464A1AE12F1BB85"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2DBB521FEDF2ED75"
+				item: { count: 1, id: "festivity:carol_book" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "festivity:elf_charm_pouch"
+			}
+			id: "7D0C998914EF6BB2"
+			optional: true
+			rewards: [{
+				id: "37559BDE62429144"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "43EFB0804DC0BA30"
+				item: { count: 1, id: "festivity:elf_charm_pouch" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "festivity:gift_crate"
+			}
+			id: "045E309442620EE8"
+			optional: true
+			rewards: [{
+				id: "768E8058FFCDF8D4"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4EB2BC657DF8F582"
+				item: { count: 1, id: "festivity:gift_crate" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+	]
+}

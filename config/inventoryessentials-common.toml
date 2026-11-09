@@ -2,7 +2,7 @@
 enableShiftDrag = true
 #Choose how middle-click inventory sorting should behave.
 #Allowed Values: CONSOLIDATE_ONLY, RETAIN_ORDER, ALPHABETICAL, CREATIVE
-inventorySorting = "CREATIVE"
+inventorySorting = "CONSOLIDATE_ONLY"
 #Should space-clicking an item move all items from that inventory at once?
 enableBulkTransferAll = true
 #Should ctrl-clicking only move one item at a time instead of the full stack?

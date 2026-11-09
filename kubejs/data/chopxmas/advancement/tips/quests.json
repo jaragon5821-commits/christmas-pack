@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      "Quests: press ",
+      {
+        "keybind": "key.ftbquests.quests",
+        "color": "gold"
+      }
+    ],
+    "description": {
+      "text": "The quest book has a Christmas chapter."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "got": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:writable_book",
+              "minecraft:book"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "parent": "chopxmas:tips/root"
+}

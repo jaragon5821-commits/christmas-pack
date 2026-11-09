@@ -5,10 +5,14 @@
     "predictRadiusChunks": 1024,
     "biomePrefilter": false,
     "structureWhitelist": [
-      "#minecraft:village",
+      "#minecraft:village"
+    ],
+    "structureBlacklist": [
+      "biomeswevegone:village/forgotten",
+      "biomeswevegone:village/red_rock",
+      "biomeswevegone:village/salem",
       "biomeswevegone:village/swamp"
     ],
-    "structureBlacklist": [],
     "villageRoadOffset": 60,
     "otherStructureRoadOffset": 15
   },

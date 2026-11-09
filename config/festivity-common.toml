@@ -1,0 +1,4 @@
+#Ticks per washed item for the Concrete Washer (20 ticks = 1 second). Default 40 = slow.
+# Default: 40
+# Range: 1 ~ 1200
+washTicks = 40

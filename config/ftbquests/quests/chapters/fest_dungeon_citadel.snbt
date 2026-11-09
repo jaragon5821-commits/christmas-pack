@@ -1,0 +1,135 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fest_dungeon_citadel"
+	group: ""
+	icon: {
+		id: "festivity:nice_list_quill"
+	}
+	id: "4359586307706BDD"
+	images: [ ]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "6A6A74D65F02B4E5"
+			rewards: [{
+				id: "2A2F35FA8D87D5E6"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "03638685A68E812E"
+				structure: "chop:naughty_citadel"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:naughty_list_page"
+			}
+			id: "27BD0BB60E8EE61E"
+			optional: true
+			rewards: [{
+				id: "01CF85199E48F71B"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "11A4A783EF3B2739"
+				item: { count: 1, id: "festivity:naughty_list_page" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:nice_list_quill"
+			}
+			id: "173BB01D220B7A87"
+			optional: true
+			rewards: [{
+				id: "5F7A787AD4A3E5B3"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2BB8D8ED0F9E9F76"
+				item: { count: 1, id: "festivity:nice_list_quill" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			icon: {
+				id: "festivity:candle_of_vigil"
+			}
+			id: "2B515835609527B5"
+			optional: true
+			rewards: [{
+				id: "1B29CE47739F91DA"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1EAB2E318785630E"
+				item: { count: 1, id: "festivity:candle_of_vigil" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			icon: {
+				id: "festivity:nice_list_quill"
+			}
+			id: "0BB8EB9998EE097E"
+			rewards: [
+				{
+					count: 2
+					id: "405007E42ACE3945"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "3F2A5E3A7517E446"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: false
+					id: "751B1E4C2FD6E2C3"
+					item: { count: 1, id: "festivity:nice_list_quill" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7ECBF4A9B6D2E101"
+					item: { count: 1, id: "festivity:candle_of_vigil" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.0d
+		}
+	]
+}

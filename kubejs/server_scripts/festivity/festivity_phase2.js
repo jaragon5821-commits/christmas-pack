@@ -1,14 +1,18 @@
 // priority: 40
 // ============================================================================================
-//  FESTIVITY Phase 2  v0.2.1  - minions, Santy Claws (kidnapper), Giant Present, Claws Outpost,
+//  FESTIVITY Phase 2  v0.3.0  - minions, Santy Claws (kidnapper), Giant Present, Claws Outpost,
 //  colony raids, knock-down events, tokens, finale. Needs festivity.js (Phase 1) loaded first.
 //  TEST ONLY. VILLAGER SAFETY: every minion is a mob type that never targets villagers (strays,
 //  wither skeletons, endermites, bow-less skeletons, wolves, polar bear). No zombies, illagers or
 //  ravagers anywhere, and nothing here writes to a villager or colonist.
+//  v0.3.0: no CustomName on summons (NO NAMES rule), Cursed Star cleanup kills minions around the Outpost (not around
+//  world spawn), a daytime Giant Present no longer pops open as "dawn" on its first tick, Grey Day meals null-safe.
+//  v0.3.1: dawn sweep also runs the jar's `festivity clawsheal` (mod 0.7.0; silent Unknown command on older jars).
 // ============================================================================================
 if (typeof Fest == 'undefined') console.error('[Festivity] phase2 loaded before festivity.js; check script priorities');
 
 const P2 = {
+  VERSION: '0.3.1',
   MINION_INTERVAL_S: 120,         // seconds between spawn waves per player at night
   MINION_RADIUS: 24,              // spawn distance from the player
   MINION_CAP: 8,                  // our mobs alive within 48 blocks of a player
@@ -51,12 +55,13 @@ function surfaceY(level, x, z) {
   return 70;
 }
 function dist(a, b) { let dx = a.x - b.x, dy = a.y - b.y, dz = a.z - b.z; return Math.sqrt(dx * dx + dy * dy + dz * dz); }
-function nameJson(n) { return JSON.stringify(JSON.stringify({ text: n, color: 'red' })); }
+// NO NAMES rule: no CustomName on any mob (skins key on Tags / synced Variant NBT). `name` stays in the signature because
+// every caller and Phase 5's redefinition pass it; it is only a label for the code reader now.
 function summon(server, id, x, y, z, name, tags, nbt) {
   let extra = nbt && nbt.length > 2 ? nbt.substring(1, nbt.length - 1) : '';
   let tagList = ('fest_minion ' + (tags || '')).trim().split(' ').map(t => '"' + t + '"').join(',');
-  let full = '{CustomName:' + nameJson(name) + ',PersistenceRequired:1b,Tags:[' + tagList + ']' + (extra ? ',' + extra : '') + '}';
-  return Q.cmd(server, 'summon ' + id + ' ' + Math.floor(x) + ' ' + Math.floor(y) + ' ' + Math.floor(z) + ' ' + full);
+  let full = '{PersistenceRequired:1b,Tags:[' + tagList + ']' + (extra ? ',' + extra : '') + '}';
+  return Q.cmd(server, 'summon ' + fid(id) + ' ' + Math.floor(x) + ' ' + Math.floor(y) + ' ' + Math.floor(z) + ' ' + full);
 }
 function ourMobsNear(p, r) {
   let n = 0;
@@ -92,6 +97,8 @@ ServerEvents.tick(event => {
     Q.cmd(server, 'kill @e[tag=fest_minion,tag=!fest_claws]');
     clawsLeave(server, 'dawn');
     d.putBoolean('p2_clawsTonight', false);
+    // mod 0.7.0 command; harmless Unknown command on older jars (silent)
+    try { server.runCommandSilent('festivity clawsheal'); } catch (e) {}
   }
   if (night && !d.getBoolean('p2_night')) d.putBoolean('p2_night', true);
   if (!night || Q.inGrace(server) || d.getBoolean('frozen')) return;
@@ -305,7 +312,7 @@ function boxTick(server) {
     Q.cmd(server, 'tp ' + b.victim + ' ' + b.bx + ' ' + (b.by - 1) + ' ' + b.bz);
     victim.persistentData.putBoolean('fest_trapped', true);
     victim.persistentData.putInt('fest_wriggle', 0);
-    p2save(server, 'box', { victim: b.victim, bx: b.bx, by: b.by, bz: b.bz, since: Q.nowMs(), soloSince: 0, knot: (b.bx + ',' + (b.by + 3) + ',' + b.bz) });
+    p2save(server, 'box', { victim: b.victim, bx: b.bx, by: b.by, bz: b.bz, since: Q.nowMs(), soloSince: 0, knot: (b.bx + ',' + (b.by + 3) + ',' + b.bz), nightBox: isNight(server) });
     c.carrying = null; p2save(server, 'claws', c);
     Q.cmd(server, 'tp @e[tag=fest_claws,limit=1] ' + (b.bx + 6) + ' ' + (b.by - 2) + ' ' + (b.bz + 6));
     Q.cmd(server, 'title ' + b.victim + ' title ' + Q.jsonText('Wrapped up!', 'dark_red'));
@@ -325,7 +332,8 @@ function boxTick(server) {
     if (!avail) Q.cmd(server, 'title ' + b.victim + ' actionbar ' + Q.jsonText('Nobody near. Jump to wriggle free: ' + victim.persistentData.getInt('fest_wriggle') + '/' + P2.WRIGGLE_JUMPS, 'yellow'));
     else if (server.tickCount % 100 == 0) Q.cmd(server, 'title ' + b.victim + ' actionbar ' + Q.jsonText('Help is within reach. Hold on!', 'yellow'));
   }
-  if (!isNight(server)) { release(server, b, 'dawn'); return; }
+  // dawn opens a present that was wrapped at night; a daytime box (Phase 5 daytime Claws, op tests) waits for the solo / hold timers
+  if (b.nightBox !== false && !isNight(server)) { release(server, b, 'dawn'); return; }
   if (!avail && now - b.soloSince > P2.SOLO_OPEN_S * 1000) { release(server, b, 'solo'); return; }
   if (now - b.since > P2.RESCUER_HOLD_S * 1000) { release(server, b, 'timer'); return; }
   p2save(server, 'box', b);
@@ -443,7 +451,8 @@ BlockEvents.broken(event => {
   let key = event.block.x + ',' + event.block.y + ',' + event.block.z;
   if (key != o.star) return;
   p2data(server).remove('outpost');
-  Q.cmd(server, 'kill @e[tag=fest_minion,tag=!fest_claws,distance=..40]');
+  // the server command source sits at world spawn: anchor the radius on the Outpost, not on the source
+  Q.cmd(server, 'kill @e[tag=fest_minion,tag=!fest_claws,x=' + o.x + ',y=' + o.y + ',z=' + o.z + ',distance=..40]');
   Q.cmd(server, 'particle minecraft:explosion ' + o.x + ' ' + (o.y + 7) + ' ' + o.z + ' 1 1 1 0 10');
   Q.cmd(server, 'playsound minecraft:entity.generic.explode master @a ' + o.x + ' ' + o.y + ' ' + o.z + ' 1 0.7');
   Q.score(server, p, 'cursed_star', 1, 'broke the Cursed Star');
@@ -509,6 +518,7 @@ function endEvent(server, ev, text) { p2data(server).remove('event'); Q.announce
 ItemEvents.foodEaten(event => {
   let p = event.player; if (!p || !event.item.hasTag('chop:festive_food')) return;
   let server = p.server, ev = p2json(server, 'event', null); if (!ev || ev.type != 'greyday') return;
+  if (!ev.meals) ev.meals = {};
   ev.meals[p.username] = Q.nowMs();
   let n = 0; for (let k in ev.meals) if (Q.nowMs() - ev.meals[k] < 120000) n++;
   let need = Q.onlineCount(server) >= 3 ? 3 : 1;
@@ -571,6 +581,8 @@ function runFinale(server, op) {
     });
   }
 }
+ServerEvents.loaded(event => { console.log('[Festivity] phase2 ' + P2.VERSION + ' loaded (dawn clawsheal hook)'); });
+
 // finale redemption: driving him off during the finale night is worth +25 and Santa's drop
 const p2_origLeave = clawsLeave;
 clawsLeave = function (server, why) {

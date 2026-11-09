@@ -1,0 +1,13 @@
+name = "Keybind Atlas"
+filename = "keybind_atlas-2.3.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/fokFjwwh/versions/K68qjYLd/KeybindAtlas-v2.3.0-mc1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "826808a5820a918056c089219b2cbca69118d4f775a9996047fce18b3c49b8bdacbc10ba39964aca57d3562265d4f1af67cf988ade3438b337eae4ae2968d261"
+
+[update]
+[update.modrinth]
+mod-id = "fokFjwwh"
+version = "K68qjYLd"

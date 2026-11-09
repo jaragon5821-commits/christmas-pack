@@ -1,0 +1,167 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fest_dungeon_snowglobe"
+	group: ""
+	icon: {
+		id: "festivity:snow_globe"
+	}
+	id: "3257F28295F39567"
+	images: [ ]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "6FAB609FB90E358E"
+			rewards: [{
+				id: "50A0F57DDFBCFACD"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7F5E7B3A9EAF13F1"
+				structure: "chop:sunken_snow_globe"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:frozen_lure"
+			}
+			id: "6A621F2B9F6AA762"
+			optional: true
+			rewards: [{
+				id: "2342FC7516171FA8"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6E7BE468CAF56D66"
+				item: { count: 1, id: "festivity:frozen_lure" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.8d
+		}
+		{
+			icon: {
+				id: "festivity:globe_keepers_hat"
+			}
+			id: "3F5CFBC6DE09EFF9"
+			optional: true
+			rewards: [{
+				id: "0CBDD832A7E46FBD"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6EF10D031A8FAAAA"
+				item: { count: 1, id: "festivity:globe_keepers_hat" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.8d
+		}
+		{
+			icon: {
+				id: "festivity:glass_bell_helm"
+			}
+			id: "05FED01396D7B45D"
+			optional: true
+			rewards: [{
+				id: "10C9561C77520209"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7969165D57FB1328"
+				item: { count: 1, id: "festivity:glass_bell_helm" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "festivity:snowball_cannon"
+			}
+			id: "42FE26CC526FB3F1"
+			optional: true
+			rewards: [{
+				id: "6D7312C46B4D1D02"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2C14A50224B7FA39"
+				item: { count: 1, id: "festivity:snowball_cannon" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:snowman_core"
+			}
+			id: "4A61FA92A5CAD3D6"
+			optional: true
+			rewards: [{
+				id: "2E1C5F6A4E17C46E"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2ACD0717433A1C8E"
+				item: { count: 1, id: "festivity:snowman_core" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "festivity:snow_globe"
+			}
+			id: "6A3A83015EC46B62"
+			rewards: [
+				{
+					count: 2
+					id: "54B7F25DD60B77BA"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "09462F7CADD4C4E3"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: false
+				id: "4558ACF62214480E"
+				item: { count: 1, id: "festivity:snow_globe" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+	]
+}

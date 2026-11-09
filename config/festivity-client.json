@@ -1,0 +1,7 @@
+{
+  "hud": "auto",
+  "layout": "top",
+  "corner": "top_right",
+  "offset_x": 140,
+  "offset_y": 12
+}

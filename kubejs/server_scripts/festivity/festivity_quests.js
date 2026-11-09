@@ -1,11 +1,19 @@
 // priority: 25
-// FESTIVITY QUEST HOOKS (DRAFT) - completes the FTB Quests checkmark quests in the Naughty / Nice List chapters.
-// FTB XMod Compat is NOT in the pack, so we drive FTB Quests through its command: /ftbquests change_progress <player> complete <quest id>
-// (VERIFY the exact syntax in TEST with tab-complete: FTB Quests 2101.x). Quest ids match phase3_draft/config/ftbquests/quests/chapters/*.snbt.
+// FESTIVITY QUEST HOOKS (DRAFT v6, 2026-11-08: command syntax verified against FTB Quests 2101.1.23 source; v5 silent command per the CLEAN JOIN rule)
+// - completes the FTB Quests checkmark quests in the Naughty / Nice List chapters.
+// FTB XMod Compat is NOT in the pack, so we drive FTB Quests through its command. VERIFIED (FTBTeam/FTB-Quests tag v2101.1.23, MC 1.21.1,
+// common/.../ftbquests/command/FTBQuestsCommands.java): /ftbquests change_progress <players> (reset|complete) <quest_object> and
+// /ftbquests change_progress <players> (reset-all|complete-all). <players> = EntityArgument.players() (a name or selector), <quest_object> =
+// StringArgumentType.string(): a hex quest id (Long.parseLong(id, 16), case-insensitive, unquoted is fine) or '#<tag>' for the first quest object
+// carrying that tag. Needs permission level 2 on the source (server.runCommandSilent runs as the server: ok). Unknown id -> 'No quest object found
+// for ID ...' (swallowed by the silent run, so the line is logged below for a manual check).
+// REQUIRED QUEST IDS (must exist in config/ftbquests/quests/chapters/*.snbt, field id: of the quest, exactly these hex values, or the hooks do nothing):
+//   7C0A15F3B1D2E505 festive_feast | 7C0A15F3B1D2E50C drive_off_claws | 7C0A15F3B1D2E50F unwrapped | 7C0A15F3B1D2E40D naughty_dare
+//   (alternative: give the quests tags: ["festivity_festive_feast"] etc. in the .snbt and use '#festivity_festive_feast' as the id here: survives re-creating a quest).
 // Villager-safe: read-only hooks, nothing touches villagers or citizens.
 
 const FQ = {
-  CMD: 'ftbquests change_progress {player} complete {quest}',   // VERIFY
+  CMD: 'ftbquests change_progress {player} complete {quest}',   // verified v6: literal 'change_progress' > players > literal 'complete' > string quest_object
   QUESTS: {
     festive_feast:   '7C0A15F3B1D2E505',   // Nice: ate festive food while Merry+
     drive_off_claws: '7C0A15F3B1D2E50C',   // Nice: among the hitters when Santy Claws fled
@@ -24,8 +32,9 @@ function fqComplete(server, playerName, key) {
   }
   let c = FQ.CMD.replace('{player}', playerName).replace('{quest}', id);
   console.log('[Festivity] quest ' + key + ' for ' + playerName + ': /' + c);
-  // non-silent so a wrong FTB Quests syntax shows in the log (runCommandSilent returns nothing in KubeJS 2101)
-  try { server.runCommand(c); } catch (e) { console.warn('[Festivity] quest command failed: ' + e); FQ_F.cmd(server, c); }
+  // v5: silent (rule: every script command via runCommandSilent; a non-silent console command echoes "[Server: ...]" to ops).
+  // The command line is logged above so a wrong FTB Quests syntax can still be checked by running it by hand.
+  FQ_F.cmd(server, c);
 }
 
 // Nice: Festive Feast (festive food eaten while Merry or Jolly)
@@ -66,7 +75,7 @@ ItemEvents.foodEaten(event => {
   };
 })();
 
-// /festivity quest reset : clears the once-per-player flags so the hooks fire again (TEST only; FTB progress itself: /ftbquests change_progress <player> reset <id>)
+// /festivity quest reset : clears the once-per-player flags so the hooks fire again (TEST only; FTB progress itself: /ftbquests change_progress <player> reset <id>, verified v2101.1.23)
 ServerEvents.commandRegistry(event => {
   const { commands: Commands } = event;
   event.register(Commands.literal('festivity')
@@ -79,4 +88,4 @@ ServerEvents.commandRegistry(event => {
   );
 });
 
-console.log('[Festivity] quest hooks draft v4 loaded');
+console.log('[Festivity] quest hooks draft v6 loaded (ftbquests change_progress syntax verified against 2101.1.23, silent)');

@@ -1,12 +1,12 @@
 // priority: 20
-// FESTIVITY LOOT (DRAFT v4, 2026-11-05) - LootJS 3.7.0 for KubeJS 2101. Doc v2.2 section 15 "Presents and loot".
+// FESTIVITY LOOT (DRAFT v5, 2026-11-08: FL_LOG off for promotion; v4 2026-11-05) - LootJS 3.7.0 for KubeJS 2101. Doc v2.2 section 15 "Presents and loot".
 // v3 TEST: the santa_rare table works; the LootJS block modifier on present blocks did nothing (Supplementaries presents drop themselves
 // from the block entity, so the band additions never landed). v4: the band drops are spawned by our own BlockEvents.broken handler
 // (same event Phase 1 already uses for presents), which works no matter how the present mod drops its block. LootJS only builds the table.
 // Bands: <=24 coal + a poisonous potato appear with the present | 25-39 half the time one coal | 40-79 nothing extra | 80-89 cookies 60% | 90+ cookies + 15% rare gift.
 
 const FL = Fest;
-const FL_LOG = true;   // TEST: log every present break with the value and what was added. Set false before promotion.
+const FL_LOG = false;  // TEST: log every present break with the value and what was added. false for promotion (v5).
 
 // 1) Santa's rare gift table (festivity.js dawn gift at 90+: /loot give <p> loot chop:santa_rare). TEST round 3: PASS.
 LootJS.lootTables(event => {
@@ -42,4 +42,4 @@ BlockEvents.broken(event => {
   } catch (e) { console.warn('[Festivity] present extras skipped: ' + e); }
 });
 
-console.log('[Festivity] loot draft v4 loaded');
+console.log('[Festivity] loot draft v5 loaded (log ' + FL_LOG + ')');

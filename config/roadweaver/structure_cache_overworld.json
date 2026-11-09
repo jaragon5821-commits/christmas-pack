@@ -1,41 +1,6 @@
 {
   "structures": [
     {
-      "id": "minecraft:abandoned_camp_meadow",
-      "displayName": "Abandoned Camp Meadow",
-      "isVanilla": true
-    },
-    {
-      "id": "minecraft:abandoned_camp_old_growth_pine_taiga",
-      "displayName": "Abandoned Camp Old Growth Pine Taiga",
-      "isVanilla": true
-    },
-    {
-      "id": "minecraft:abandoned_camp_old_growth_spruce_taiga",
-      "displayName": "Abandoned Camp Old Growth Spruce Taiga",
-      "isVanilla": true
-    },
-    {
-      "id": "minecraft:abandoned_camp_pale_garden",
-      "displayName": "Abandoned Camp Pale Garden",
-      "isVanilla": true
-    },
-    {
-      "id": "minecraft:abandoned_camp_snowy_taiga",
-      "displayName": "Abandoned Camp Snowy Taiga",
-      "isVanilla": true
-    },
-    {
-      "id": "minecraft:abandoned_camp_taiga",
-      "displayName": "Abandoned Camp Taiga",
-      "isVanilla": true
-    },
-    {
-      "id": "minecraft:abandoned_camp_windswept_forest",
-      "displayName": "Abandoned Camp Windswept Forest",
-      "isVanilla": true
-    },
-    {
       "id": "minecraft:ancient_city",
       "displayName": "Ancient City",
       "isVanilla": true
@@ -186,6 +151,21 @@
       "isVanilla": false
     },
     {
+      "id": "chop:beach_snow_sculptures",
+      "displayName": "Beach Snow Sculptures",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:beach_snow_sculptures_inner",
+      "displayName": "Beach Snow Sculptures Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:bog_witch_cottage",
+      "displayName": "Bog Witch Cottage",
+      "isVanilla": false
+    },
+    {
       "id": "chop:christmas_cave",
       "displayName": "Christmas Cave",
       "isVanilla": false
@@ -221,6 +201,16 @@
       "isVanilla": false
     },
     {
+      "id": "chop:christmas_large_oak",
+      "displayName": "Christmas Large Oak",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_large_oak_inner",
+      "displayName": "Christmas Large Oak Inner",
+      "isVanilla": false
+    },
+    {
       "id": "chop:christmas_medium",
       "displayName": "Christmas Medium",
       "isVanilla": false
@@ -228,6 +218,16 @@
     {
       "id": "chop:christmas_medium_inner",
       "displayName": "Christmas Medium Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_medium_oak",
+      "displayName": "Christmas Medium Oak",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:christmas_medium_oak_inner",
+      "displayName": "Christmas Medium Oak Inner",
       "isVanilla": false
     },
     {
@@ -281,6 +281,31 @@
       "isVanilla": false
     },
     {
+      "id": "chop:claws_coal_furnace",
+      "displayName": "Claws Coal Furnace",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:claws_coal_furnace_inner",
+      "displayName": "Claws Coal Furnace Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:claws_listening_post",
+      "displayName": "Claws Listening Post",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:drowned_toy_freighter",
+      "displayName": "Drowned Toy Freighter",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:drowned_workshop",
+      "displayName": "Drowned Workshop",
+      "isVanilla": false
+    },
+    {
       "id": "chop:elf_prison_mines",
       "displayName": "Elf Prison Mines",
       "isVanilla": false
@@ -291,6 +316,96 @@
       "isVanilla": false
     },
     {
+      "id": "chop:frozen_reindeer_stables",
+      "displayName": "Frozen Reindeer Stables",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:frozen_reindeer_stables_inner",
+      "displayName": "Frozen Reindeer Stables Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:frozen_waterwheel_mill",
+      "displayName": "Frozen Waterwheel Mill",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:giant_claws_hand",
+      "displayName": "Giant Claws Hand",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:giant_claws_hand_inner",
+      "displayName": "Giant Claws Hand Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:giant_crooked_santa_colossus",
+      "displayName": "Giant Crooked Santa Colossus",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:giant_crooked_santa_colossus_inner",
+      "displayName": "Giant Crooked Santa Colossus Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:giant_frozen_titan_elf",
+      "displayName": "Giant Frozen Titan Elf",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:giant_frozen_titan_elf_inner",
+      "displayName": "Giant Frozen Titan Elf Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:giant_last_reindeer_arch",
+      "displayName": "Giant Last Reindeer Arch",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:giant_last_reindeer_arch_inner",
+      "displayName": "Giant Last Reindeer Arch Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:giant_nutcracker_sentinel",
+      "displayName": "Giant Nutcracker Sentinel",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:giant_ornament_world_tree",
+      "displayName": "Giant Ornament World Tree",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:giant_ornament_world_tree_inner",
+      "displayName": "Giant Ornament World Tree Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:giant_sleeping_snow_giant",
+      "displayName": "Giant Sleeping Snow Giant",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:giant_sleeping_snow_giant_inner",
+      "displayName": "Giant Sleeping Snow Giant Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:gingerbread_house",
+      "displayName": "Gingerbread House",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:gingerbread_house_inner",
+      "displayName": "Gingerbread House Inner",
+      "isVanilla": false
+    },
+    {
       "id": "chop:gingerbread_labyrinth",
       "displayName": "Gingerbread Labyrinth",
       "isVanilla": false
@@ -298,6 +413,31 @@
     {
       "id": "chop:gingerbread_labyrinth_inner",
       "displayName": "Gingerbread Labyrinth Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:glowberry_elf_hideout",
+      "displayName": "Glowberry Elf Hideout",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:hoarfrost_labyrinth",
+      "displayName": "Hoarfrost Labyrinth",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:hoarfrost_labyrinth_inner",
+      "displayName": "Hoarfrost Labyrinth Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:ice_fishing_camp",
+      "displayName": "Ice Fishing Camp",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:iceberg_outpost",
+      "displayName": "Iceberg Outpost",
       "isVanilla": false
     },
     {
@@ -328,6 +468,146 @@
     {
       "id": "chop:item/giant_item_inner",
       "displayName": "Item/giant Item Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:jack_breath_of_winter",
+      "displayName": "Jack Breath Of Winter",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:jack_breath_of_winter_inner",
+      "displayName": "Jack Breath Of Winter Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:jack_frost_spire",
+      "displayName": "Jack Frost Spire",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:jack_frost_spire_inner",
+      "displayName": "Jack Frost Spire Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:jack_frostbitten_village",
+      "displayName": "Jack Frostbitten Village",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:jack_frostbitten_village_inner",
+      "displayName": "Jack Frostbitten Village Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:jack_frozen_galleon",
+      "displayName": "Jack Frozen Galleon",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:jack_frozen_waterfall_grotto",
+      "displayName": "Jack Frozen Waterfall Grotto",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:jack_frozen_waterfall_grotto_inner",
+      "displayName": "Jack Frozen Waterfall Grotto Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:jack_icicle_cathedral",
+      "displayName": "Jack Icicle Cathedral",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:jack_icicle_cathedral_inner",
+      "displayName": "Jack Icicle Cathedral Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:jack_jack_frost_workshop",
+      "displayName": "Jack Jack Frost Workshop",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:jack_jack_frost_workshop_inner",
+      "displayName": "Jack Jack Frost Workshop Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:jack_rime_gardens",
+      "displayName": "Jack Rime Gardens",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:jack_rime_gardens_inner",
+      "displayName": "Jack Rime Gardens Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:jack_snowflake_monoliths",
+      "displayName": "Jack Snowflake Monoliths",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:jack_snowflake_monoliths_inner",
+      "displayName": "Jack Snowflake Monoliths Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:letters_to_santa",
+      "displayName": "Letters To Santa",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:letters_to_santa_inner",
+      "displayName": "Letters To Santa Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:naughty_citadel",
+      "displayName": "Naughty Citadel",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:naughty_citadel_inner",
+      "displayName": "Naughty Citadel Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:north_star_lighthouse",
+      "displayName": "North Star Lighthouse",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:north_star_lighthouse_inner",
+      "displayName": "North Star Lighthouse Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:ornament_buoy",
+      "displayName": "Ornament Buoy",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:penguin_colony_statue",
+      "displayName": "Penguin Colony Statue",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:penguin_colony_statue_inner",
+      "displayName": "Penguin Colony Statue Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:polar_plunge_hut",
+      "displayName": "Polar Plunge Hut",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:polar_plunge_hut_inner",
+      "displayName": "Polar Plunge Hut Inner",
       "isVanilla": false
     },
     {
@@ -391,6 +671,11 @@
       "isVanilla": false
     },
     {
+      "id": "chop:sea_serpent_sculpture",
+      "displayName": "Sea Serpent Sculpture",
+      "isVanilla": false
+    },
+    {
       "id": "chop:starter_house",
       "displayName": "Starter House",
       "isVanilla": false
@@ -401,6 +686,16 @@
       "isVanilla": false
     },
     {
+      "id": "chop:starter_house_oak",
+      "displayName": "Starter House Oak",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:starter_house_oak_inner",
+      "displayName": "Starter House Oak Inner",
+      "isVanilla": false
+    },
+    {
       "id": "chop:statue/aged",
       "displayName": "Statue/aged",
       "isVanilla": false
@@ -408,6 +703,31 @@
     {
       "id": "chop:statue/aged_inner",
       "displayName": "Statue/aged Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:sunken_sleigh",
+      "displayName": "Sunken Sleigh",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:sunken_snow_globe",
+      "displayName": "Sunken Snow Globe",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:sunken_snow_globe_inner",
+      "displayName": "Sunken Snow Globe Inner",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:toadstool_hamlet",
+      "displayName": "Toadstool Hamlet",
+      "isVanilla": false
+    },
+    {
+      "id": "chop:toadstool_hamlet_inner",
+      "displayName": "Toadstool Hamlet Inner",
       "isVanilla": false
     },
     {
@@ -738,19 +1058,6 @@
   ],
   "tags": [
     {
-      "tagId": "minecraft:abandoned_camp",
-      "displayName": "#Abandoned Camp",
-      "structureIds": [
-        "minecraft:abandoned_camp_meadow",
-        "minecraft:abandoned_camp_old_growth_pine_taiga",
-        "minecraft:abandoned_camp_old_growth_spruce_taiga",
-        "minecraft:abandoned_camp_pale_garden",
-        "minecraft:abandoned_camp_snowy_taiga",
-        "minecraft:abandoned_camp_taiga",
-        "minecraft:abandoned_camp_windswept_forest"
-      ]
-    },
-    {
       "tagId": "minecraft:ancient_city",
       "displayName": "#Ancient City",
       "structureIds": [
@@ -806,34 +1113,6 @@
       "displayName": "#Ocean Ruin",
       "structureIds": [
         "minecraft:ocean_ruin_cold"
-      ]
-    },
-    {
-      "tagId": "minecraft:on_abandoned_camp_pale_garden",
-      "displayName": "#On Abandoned Camp Pale Garden",
-      "structureIds": [
-        "minecraft:abandoned_camp_pale_garden"
-      ]
-    },
-    {
-      "tagId": "minecraft:on_abandoned_camp_windswept_forest",
-      "displayName": "#On Abandoned Camp Windswept Forest",
-      "structureIds": [
-        "minecraft:abandoned_camp_windswept_forest"
-      ]
-    },
-    {
-      "tagId": "minecraft:on_ancient_city_maps",
-      "displayName": "#On Ancient City Maps",
-      "structureIds": [
-        "minecraft:ancient_city"
-      ]
-    },
-    {
-      "tagId": "minecraft:on_mineshaft_maps",
-      "displayName": "#On Mineshaft Maps",
-      "structureIds": [
-        "minecraft:mineshaft"
       ]
     },
     {
@@ -989,6 +1268,41 @@
       "structureIds": [
         "biomeswevegone:aspen_manor_1",
         "biomeswevegone:aspen_manor_2"
+      ]
+    },
+    {
+      "tagId": "chop:boss_structures",
+      "displayName": "#Boss Structures",
+      "structureIds": [
+        "chop:naughty_citadel"
+      ]
+    },
+    {
+      "tagId": "chop:giants",
+      "displayName": "#Giants",
+      "structureIds": [
+        "chop:giant_claws_hand",
+        "chop:giant_crooked_santa_colossus",
+        "chop:giant_frozen_titan_elf",
+        "chop:giant_last_reindeer_arch",
+        "chop:giant_nutcracker_sentinel",
+        "chop:giant_ornament_world_tree",
+        "chop:giant_sleeping_snow_giant"
+      ]
+    },
+    {
+      "tagId": "chop:jack_frost",
+      "displayName": "#Jack Frost",
+      "structureIds": [
+        "chop:jack_breath_of_winter",
+        "chop:jack_frost_spire",
+        "chop:jack_frostbitten_village",
+        "chop:jack_frozen_galleon",
+        "chop:jack_frozen_waterfall_grotto",
+        "chop:jack_icicle_cathedral",
+        "chop:jack_jack_frost_workshop",
+        "chop:jack_rime_gardens",
+        "chop:jack_snowflake_monoliths"
       ]
     },
     {

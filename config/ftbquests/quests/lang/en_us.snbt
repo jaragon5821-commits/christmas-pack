@@ -1,7 +1,176 @@
 {
+	chapter.29FCF0FFCC91E147.title: "Chop's Christmas Special"
+	chapter.2BCFC14E03202CC5.title: "The Toy Factory"
+	chapter.317BA12BCD1F6748.title: "The Frozen Reindeer Stables"
+	chapter.3257F28295F39567.title: "The Sunken Snow Globe"
+	chapter.4359586307706BDD.title: "The Naughty Citadel"
 	chapter.4C1A0F15AFE70001.title: "Fire Safety"
+	chapter.57D2508BA57D5D5F.title: "The Gingerbread Labyrinth"
+	chapter.5F574D9E58929D70.title: "Claws' Endgame"
+	chapter.68D8EF95BBD7947C.title: "Claws' Coal Furnace"
+	chapter.7A86640812C1EC81.title: "The Elf Prison Mines"
 	chapter.7C0A15F3B1D2E401.title: "Naughty List"
 	chapter.7C0A15F3B1D2E501.title: "Nice List"
+	quest.01B50F5E6733E669.quest_desc: ["&fSnowy roofs&r come in blocks, stairs and slabs: snowballs on top of bricks, stone or spruce. Instant winter village."]
+	quest.01B50F5E6733E669.title: "Snow on the Roof"
+	quest.030E0540A7D41FAE.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.030E0540A7D41FAE.title: "Tracking Collar"
+	quest.039FD10FA92A2903.quest_desc: ["Coal Heart + blaze powder + compass makes a &6Forge Ember&r. It only burns in the &cNether&r, where its trail leads to the Clinker Forge."]
+	quest.039FD10FA92A2903.title: "Follow the Ember"
+	quest.03DB65DB715F1C1F.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.03DB65DB715F1C1F.title: "Icing Piper"
+	quest.0451B265D4848AAE.quest_desc: [
+		"Something is out there that hates Christmas. When &4Santy Claws&r comes for your town, rally your colony and drive him off."
+		""
+		"&7Naughty players beware: he remembers who's on his side.&r"
+	]
+	quest.0451B265D4848AAE.title: "Santy Claws"
+	quest.045E309442620EE8.quest_desc: ["Small chests in any dungeon sometimes hold one."]
+	quest.045E309442620EE8.title: "Gift Crate"
+	quest.053CEA6015F58AE1.quest_desc: ["The Nutcracker King's crown. Trophy, nothing more. Probably."]
+	quest.053CEA6015F58AE1.title: "Clockwork Crown"
+	quest.057E4C2037C4B1AF.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.057E4C2037C4B1AF.title: "Chain Gang Lantern"
+	quest.05FED01396D7B45D.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.05FED01396D7B45D.title: "Glass Bell Helm"
+	quest.0A9BFA4B00A5303A.quest_desc: [
+		"The reindeer were never meant to stay frozen. Their hounds disagree."
+		""
+		"&7Each dungeon hides treasure found nowhere else. Common finds are in its chests; rare ones in its vaults; the best one comes from its boss.&r"
+	]
+	quest.0A9BFA4B00A5303A.title: "Find the Frozen Reindeer Stables"
+	quest.0BB8EB9998EE097E.quest_desc: ["Carry both the &aNice List Quill&r and the &6Candle of Vigil&r out of the Citadel."]
+	quest.0BB8EB9998EE097E.title: "Rewrite the List"
+	quest.0C6E03ED204771AE.quest_desc: ["Keep giving, decorating and helping. A town that loves you is a town that throws a &aparty&r."]
+	quest.0C6E03ED204771AE.title: "On the Nice List"
+	quest.0D419B1BAB41DB90.quest_desc: ["The dungeon's guardian always carries this. Clear the &cboss trial&r to claim it."]
+	quest.0D419B1BAB41DB90.title: "Rolling Pin"
+	quest.0F9EBC2267755F33.quest_desc: [
+		"Drop items or &6Colony Bucks&r into the &cDonation Kettle&r. Your colony puts them to use, and generosity raises your Festivity."
+		""
+		"&7Bucks and materials count about the same, so give whatever you have spare.&r"
+	]
+	quest.0F9EBC2267755F33.title: "The Donation Kettle"
+	quest.1138382B2D7A6CD6.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.1138382B2D7A6CD6.title: "Sugarplum Charm"
+	quest.1200DA1932ED9F77.quest_desc: [
+		"Every lump of naughty-list coal starts here. Bring fire resistance."
+		""
+		"&7Each dungeon hides treasure found nowhere else. Common finds are in its chests; rare ones in its vaults; the best one comes from its boss.&r"
+	]
+	quest.1200DA1932ED9F77.title: "Find Claws' Coal Furnace"
+	quest.13432A8D800CCA1A.quest_desc: ["Builders build everything else. Look out for the &cChristmas styles&r when you pick a building style."]
+	quest.13432A8D800CCA1A.title: "Hire a Builder"
+	quest.14044D534DA9A96A.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.14044D534DA9A96A.title: "Clockwork Drummer"
+	quest.15DBE31B95D0A49C.quest_desc: ["Coal Heart + Clinker Core + dragon's breath + 4 ender pearls. It only points in &5the End&r, to the cold between the islands."]
+	quest.15DBE31B95D0A49C.title: "The Naughty Compass"
+	quest.168C3F6F12D5E797.quest_desc: [
+		"Where Claws keeps the elves who said no. Pickaxes, chains and a warden who never sleeps."
+		""
+		"&7Each dungeon hides treasure found nowhere else. Common finds are in its chests; rare ones in its vaults; the best one comes from its boss.&r"
+	]
+	quest.168C3F6F12D5E797.title: "Find the Elf Prison Mines"
+	quest.16E750E10C5C7844.quest_desc: ["A common find in this dungeon's chests."]
+	quest.16E750E10C5C7844.title: "Elf Lockpick"
+	quest.172176007669D401.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.172176007669D401.title: "Crucible Helm"
+	quest.173BB01D220B7A87.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.173BB01D220B7A87.title: "Nice List Quill"
+	quest.1754F854F9B8637A.quest_desc: [
+		"A maze of iced walls and sugar traps. The gingerbread inside did not bake itself."
+		""
+		"&7Each dungeon hides treasure found nowhere else. Common finds are in its chests; rare ones in its vaults; the best one comes from its boss.&r"
+	]
+	quest.1754F854F9B8637A.title: "Find the Gingerbread Labyrinth"
+	quest.178EE23444BCC392.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.178EE23444BCC392.title: "Gnome Muzzle"
+	quest.1B8AD3B5745CCF22.quest_desc: [
+		"Your colonists post what they need on the &6Requests Board&r. Fill requests to keep them happy and earn Festivity."
+		""
+		"&7Right-click the board to see what's wanted.&r"
+	]
+	quest.1B8AD3B5745CCF22.title: "The Requests Board"
+	quest.1DFAD3D9A998A217.quest_desc: ["A common find in this dungeon's chests."]
+	quest.1DFAD3D9A998A217.title: "Festive Lasso"
+	quest.21C75B4E8A4B069C.quest_desc: ["Put an ornament in a &6Glassblower&r to swap it between &b8 styles&r: candy stripe, snowflake, glitter, ribbed, mercury glass, faceted, jeweled and painted scene."]
+	quest.21C75B4E8A4B069C.title: "The Glassblower"
+	quest.226095EDCE9A7A9D.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.226095EDCE9A7A9D.title: "Reindeer Harness"
+	quest.2280AD84E37C1EDA.quest_desc: [
+		"The toys still roll off the line. Somebody wound them up wrong."
+		""
+		"&7Each dungeon hides treasure found nowhere else. Common finds are in its chests; rare ones in its vaults; the best one comes from its boss.&r"
+	]
+	quest.2280AD84E37C1EDA.title: "Find the Toy Factory"
+	quest.26AF58C8DE1CA6FC.quest_desc: ["The dungeon's guardian always carries this. Clear the &cboss trial&r to claim it."]
+	quest.26AF58C8DE1CA6FC.title: "Warden's Keyring"
+	quest.27BD0BB60E8EE61E.quest_desc: ["A common find in this dungeon's chests."]
+	quest.27BD0BB60E8EE61E.title: "Naughty List Page"
+	quest.2904D4631C1CD998.quest_desc: [
+		"It's always nearly Christmas here. &bSnow&r, &ccolonies&r and a town that remembers how you treat it."
+		""
+		"Your &6Festivity&r score tracks whether you're on the &anice&r or &cnaughty&r list. Helping villagers, decorating and giving raise it; hurting villagers, griefing and stealing lower it."
+		""
+		"&7New players get a short grace period before anything counts against them.&r"
+	]
+	quest.2904D4631C1CD998.title: "Welcome to Chop's Christmas"
+	quest.2ADE34407E989A9F.quest_desc: ["A common find in this dungeon's chests."]
+	quest.2ADE34407E989A9F.title: "Candy Cane Grapple"
+	quest.2B515835609527B5.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.2B515835609527B5.title: "Candle Of Vigil"
+	quest.2B7CFDA435474D81.quest_desc: ["A common find in this dungeon's chests."]
+	quest.2B7CFDA435474D81.title: "Mine Cart Charm"
+	quest.2D181E621D93B5E3.quest_desc: ["A common find in this dungeon's chests."]
+	quest.2D181E621D93B5E3.title: "Coal Heart Shard"
+	quest.2E1076248D3705B2.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.2E1076248D3705B2.title: "Ember Walker Boots"
+	quest.30C17DDFB4D46937.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.30C17DDFB4D46937.title: "Conveyor Greaves"
+	quest.32CF06A344E6243D.quest_desc: ["Add &eglowstone dust&r to any ornament and it lights up. Small ones work as Christmas lanterns."]
+	quest.32CF06A344E6243D.title: "Make It Glow"
+	quest.350ED68F4D3729FA.quest_desc: ["The &62x2&r and &63x3&r picture windows show one big picture across the whole square. They line up to the world grid, so shuffle your square a block if the picture looks cut."]
+	quest.350ED68F4D3729FA.title: "Cathedral Glass"
+	quest.369075A72095C2DE.quest_desc: ["Plain glass, stained glass and panes connect too. Build a 3x3 and watch the inner lines disappear."]
+	quest.369075A72095C2DE.title: "Seamless Glass"
+	quest.36DC7DDF932F9FDD.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.36DC7DDF932F9FDD.title: "Wind Up Key"
+	quest.392B9C20B2AE16BE.quest_desc: [
+		"A gnome the size of a house, walking on lava and throwing clinker bombs. Bring fire resistance."
+		""
+		"&7He drops a &6Clinker Core&r.&r"
+	]
+	quest.392B9C20B2AE16BE.title: "The Clinker Forgemaster"
+	quest.3ADA85706D398A24.quest_desc: [
+		"Craft an &cAdvent Calendar&r. From &6December 1st&r you can open one door a day for a small gift, plus a little Festivity."
+		""
+		"&7Door 24 is worth double.&r"
+	]
+	quest.3ADA85706D398A24.title: "The Advent Calendar"
+	quest.3BED91A3FC2CAADB.quest_desc: ["The dungeon's guardian always carries this. Clear the &cboss trial&r to claim it."]
+	quest.3BED91A3FC2CAADB.title: "Shadow Cloak"
+	quest.3C168D98CCC87C13.quest_desc: ["A common find in this dungeon's chests."]
+	quest.3C168D98CCC87C13.title: "Gift Wrap Bandolier"
+	quest.3D86A1F2F923B432.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.3D86A1F2F923B432.title: "Ember Pick"
+	quest.3F5CFBC6DE09EFF9.quest_desc: ["A common find in this dungeon's chests."]
+	quest.3F5CFBC6DE09EFF9.title: "Globe Keeper's Hat"
+	quest.40F9DB57DD089F7E.quest_desc: ["Craft a plain &7silver ornament&r. Dye it any colour, or hang the small one under a ledge like a lantern."]
+	quest.40F9DB57DD089F7E.title: "Your First Ornament"
+	quest.415079BBA55B7B46.quest_desc: ["Found in any dungeon. Sing to a village."]
+	quest.415079BBA55B7B46.title: "Carol Book"
+	quest.42FE26CC526FB3F1.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.42FE26CC526FB3F1.title: "Snowball Cannon"
+	quest.44AAB9911D351DEE.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.44AAB9911D351DEE.title: "Gumdrop Boots"
+	quest.46B8E2F17C2DA0DA.quest_desc: ["Winter is long here: the seasons spend most of their time in &bwinter&r. Get a fire going and find some food."]
+	quest.46B8E2F17C2DA0DA.title: "Warm Hands"
+	quest.489C90EB0327ABE1.quest_desc: ["Craft 8 paper with a dye to make wrapping paper, then swap patterns at the Loom Table. Finish it off with a &cgift bow&r."]
+	quest.489C90EB0327ABE1.title: "Wrap It Up"
+	quest.4941CAB3DC5977F4.quest_desc: ["A common find in this dungeon's chests."]
+	quest.4941CAB3DC5977F4.title: "Tin Soldier Box"
+	quest.4A61FA92A5CAD3D6.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.4A61FA92A5CAD3D6.title: "Snowman Core"
 	quest.4C1A0F15AFE70002.quest_desc: [
 		"Fire in this world is &cdangerous&r. Once something catches, the flames &lspread&r to every wooden block next to it."
 		""
@@ -22,6 +191,78 @@
 		"&4Careful:&r setting fires that hurt villages costs &cFestivity&r."
 	]
 	quest.4C1A0F15AFE70004.title: "Bucket Brigade"
+	quest.4D3E91A1498D9092.quest_desc: [
+		"Claws was born in the End, and this is where he comes back to full size. Bring friends: he's built for four."
+		""
+		"Break his &bFrost Pillars&r or he heals. A &6Lantern Gnome&r near him stuns him for a moment."
+		""
+		"&7Everyone nearby gets a &bHeart of Winter&r.&r"
+	]
+	quest.4D3E91A1498D9092.title: "Santy Claws, Ascendant"
+	quest.4EBA7E4DDE58B17C.quest_desc: ["A common find in this dungeon's chests."]
+	quest.4EBA7E4DDE58B17C.title: "Toy Soldier Banner"
+	quest.50FED7AF37E9824B.quest_desc: [
+		"Every colony starts somewhere. Place a &6Supply Camp&r (or Supply Ship) to begin your MineColonies town."
+		""
+		"&7Colonists are MCA villagers too: they have names, moods and families.&r"
+	]
+	quest.50FED7AF37E9824B.title: "Pitch the Supply Camp"
+	quest.51DA7BCB2D21F5E5.quest_desc: ["The Hound Master's horn. It's somewhere in the biggest chests of the stables."]
+	quest.51DA7BCB2D21F5E5.title: "Hound Master's Horn"
+	quest.52A5CFFD451AECD6.quest_desc: ["Wool makes beds, banners and the &cChristmas sweater wool&r you'll find later on the Loom Table."]
+	quest.52A5CFFD451AECD6.title: "Wool Socks"
+	quest.5482DB3C78172BE3.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.5482DB3C78172BE3.title: "Frostbitten Saddle"
+	quest.5521D254E8414BD8.quest_desc: ["Sugar plus a snowball makes &ficing&r. Add sprinkles, slabs and &fdrips&r that hang off your gingerbread rooftops."]
+	quest.5521D254E8414BD8.title: "Gingerbread Architecture"
+	quest.55A05692393FD551.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.55A05692393FD551.title: "Cookie Cutter Shield"
+	quest.56FBF7F544C4DC9F.quest_desc: ["Build your &6Town Hall&r. Your colony is now on the map, and Festivity starts counting what it does."]
+	quest.56FBF7F544C4DC9F.title: "Town Hall"
+	quest.60CEEFC024E0A4BA.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.60CEEFC024E0A4BA.title: "Freed Elf Whistle"
+	quest.64B856C161BE8C0E.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
+	quest.64B856C161BE8C0E.title: "Sleigh Bells"
+	quest.68C74ABC472EAD02.quest_desc: [
+		"He hides behind waves of tin soldiers and a giant &cNutcracker King&r. Beat the king first or he can't be touched."
+		""
+		"&7He drops a &6Coal Heart&r.&r"
+	]
+	quest.68C74ABC472EAD02.title: "The Twisted Toymaster"
+	quest.6A3A83015EC46B62.quest_desc: ["The dungeon's guardian always carries this. Clear the &cboss trial&r to claim it."]
+	quest.6A3A83015EC46B62.title: "Snow Globe"
+	quest.6A621F2B9F6AA762.quest_desc: ["A common find in this dungeon's chests."]
+	quest.6A621F2B9F6AA762.title: "Frozen Lure"
+	quest.6A6892A5D8F03CB1.quest_desc: ["A common find in this dungeon's chests."]
+	quest.6A6892A5D8F03CB1.title: "Jingle Boots"
+	quest.6A6A74D65F02B4E5.quest_desc: [
+		"Claws' own fortress, where the Naughty List is written. Read it, then rewrite it."
+		""
+		"&7Each dungeon hides treasure found nowhere else. Common finds are in its chests; rare ones in its vaults; the best one comes from its boss.&r"
+	]
+	quest.6A6A74D65F02B4E5.title: "Find the Naughty Citadel"
+	quest.6B424FC2A81A5ADA.quest_desc: ["The dungeon's guardian always carries this. Clear the &cboss trial&r to claim it."]
+	quest.6B424FC2A81A5ADA.title: "Drum Major's Baton"
+	quest.6C046614E90DB8DA.quest_desc: ["The &6Loom Table&r turns wool into &cFair Isle sweater wool&r and paper into &cwrapping paper&r (stripes, dots, snowflakes and plaid)."]
+	quest.6C046614E90DB8DA.title: "The Loom Table"
+	quest.6F69115F5FA8C5EC.quest_desc: ["Clear any dungeon, then craft a &6Toymaker's Ticket&r (paper + compass + coal). Use it to learn where the &eTwisted Toymaster&r waits."]
+	quest.6F69115F5FA8C5EC.title: "Admit One"
+	quest.6FAB609FB90E358E.quest_desc: [
+		"A whole town under glass, at the bottom of the sea. Hold your breath."
+		""
+		"&7Each dungeon hides treasure found nowhere else. Common finds are in its chests; rare ones in its vaults; the best one comes from its boss.&r"
+	]
+	quest.6FAB609FB90E358E.title: "Find the Sunken Snow Globe"
+	quest.74D099FD565F65B2.quest_desc: ["&cLarge ornaments&r are full blocks, perfect for town squares and giant trees."]
+	quest.74D099FD565F65B2.title: "Go Big"
+	quest.75A83F9ACBA99D8A.quest_desc: ["Carved ice (snowflake, swirl, star), clear ice bricks and &bglowing ice&r. Find them all at the Glassblower from packed ice."]
+	quest.75A83F9ACBA99D8A.title: "Ice Palace"
+	quest.79DEAAB57D31BFEF.quest_desc: [
+		"Christmas windows come in &b13 designs&r and 18 colours, all from the Glassblower using matching stained glass."
+		""
+		"Place them next to each other and they &aconnect&r: picture walls go clear in the middle with a festive border, and patterns flow across the whole wall."
+	]
+	quest.79DEAAB57D31BFEF.title: "Stained Glass Windows"
 	quest.7C0A15F3B1D2E402.quest_desc: [
 		"Festivity has fallen below 50. Sour Elves, Nutcrackers and Coal Gnomes now drop &8Coal Tokens&r."
 		""
@@ -57,5 +298,15 @@
 	quest.7C0A15F3B1D2E50F.quest_desc: ["Free a friend from a Giant Present by breaking the red knot on top. Scripts tick this off."]
 	quest.7C0A15F3B1D2E50F.quest_subtitle: "Scripts complete this one"
 	quest.7C0A15F3B1D2E50F.title: "Unwrapped"
+	quest.7CB757564A9B681C.quest_desc: ["A common find in this dungeon's chests."]
+	quest.7CB757564A9B681C.title: "Clinker Lantern"
+	quest.7D0C998914EF6BB2.quest_desc: ["A very rare find in any dungeon."]
+	quest.7D0C998914EF6BB2.title: "Elf Charm Pouch"
+	task.03DBAEFBC3800C57.title: "Santy Claws was driven off"
+	task.46D5C33595D8E442.title: "Let's go"
 	task.4C1A0F15AFE70003.title: "I understand: fire spreads"
+	task.57A28E1AD049FA3B.title: "I've donated"
+	task.60046A666A27F184.title: "Built a snowy roof"
+	task.6446FCD5E35EF8C3.title: "I'm being nice"
+	task.648656B85BB6E0AC.title: "I found the Requests Board"
 }

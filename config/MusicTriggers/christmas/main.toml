@@ -1,0 +1,81 @@
+# Chop's Christmas Special - Christmas soundtrack (Research, 2026-11-08)
+# Higher priority wins. ticks_between_audio keeps short tracks from looping nonstop (6000 ticks = 5 min).
+
+[triggers.menu]
+
+[triggers.snowing]
+priority = 300
+fade_in = 60
+fade_out = 100
+ticks_between_audio = 6000
+
+[triggers.home]
+# within 48 blocks of your bed (MineColonies homes / your house)
+priority = 400
+detection_range = 48
+fade_in = 60
+fade_out = 100
+ticks_between_audio = 6000
+
+[[triggers.structure]]
+identifier = "village"
+resource_matcher = "partial"
+resource_name = ["village"]
+priority = 600
+fade_in = 60
+fade_out = 100
+ticks_between_audio = 3600
+
+[[triggers.structure]]
+identifier = "xltree"
+resource_matcher = "partial"
+resource_name = ["chop:christmas_tree_xl"]
+priority = 700
+fade_in = 60
+fade_out = 100
+
+[[triggers.structure]]
+identifier = "dungeon"
+resource_matcher = "partial"
+resource_name = ["chop:christmas_dungeon", "chop:gingerbread_labyrinth", "chop:elf_prison_mines", "chop:christmas_nether_claws", "chop:christmas_cave"]
+priority = 800
+fade_in = 40
+fade_out = 80
+
+[[triggers.structure]]
+identifier = "toyfactory"
+resource_matcher = "partial"
+resource_name = ["chop:toy_factory"]
+priority = 900
+fade_in = 40
+fade_out = 80
+
+[[triggers.command]]
+# New Year's Eve: run `/musictriggers trigger newyear` (admin or a Dec 31 KubeJS hook)
+identifier = "newyear"
+persistence = 2800
+priority = 1000
+
+[songs.wish_you_a_merry_christmas_marine_band]
+triggers = ["menu"]
+
+[songs.away_in_a_manger_marine_band]
+triggers = ["home"]
+
+[songs.auld_lang_syne_marine_band]
+triggers = ["command-newyear"]
+
+[songs.chasing_snowflakes_geoff_harvey]
+triggers = ["snowing"]
+
+[songs.deck_the_halls_usaf_band]
+triggers = ["structure-village"]
+
+[songs.o_holy_night_usaf_band]
+triggers = ["structure-xltree"]
+
+[songs.dungeon_dark_kevin_macleod]
+triggers = ["structure-dungeon"]
+
+[songs.sugar_plum_fairy]
+triggers = ["structure-toyfactory"]

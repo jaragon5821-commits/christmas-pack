@@ -1,0 +1,549 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chops_christmas"
+	group: ""
+	icon: {
+		id: "chop:red_large_ornament"
+	}
+	id: "29FCF0FFCC91E147"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:spruce_sapling"
+			}
+			id: "2904D4631C1CD998"
+			rewards: [{
+				count: 4
+				id: "1C6AB1DE7E4B8606"
+				item: {
+					count: 1
+					id: "minecraft:cookie"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "46D5C33595D8E442"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:campfire"
+			}
+			id: "46B8E2F17C2DA0DA"
+			rewards: [{
+				count: 8
+				id: "470CA0A165874529"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4C0BFAE8A969CC83"
+				item: { count: 1, id: "minecraft:campfire" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:white_wool"
+			}
+			id: "52A5CFFD451AECD6"
+			rewards: [{
+				count: 4
+				id: "24CC1C4D2815D971"
+				item: {
+					count: 1
+					id: "minecraft:red_wool"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4EBA6B896AC6890F"
+				item: { count: 1, id: "minecraft:white_wool" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecolonies:supplycampdeployer"
+			}
+			id: "50FED7AF37E9824B"
+			rewards: [{
+				count: 8
+				id: "47106DD4BA1AB89B"
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4F0E7A17DD1B88A5"
+				item: { count: 1, id: "minecolonies:supplycampdeployer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecolonies:blockhuttownhall"
+			}
+			id: "56FBF7F544C4DC9F"
+			rewards: [{
+				count: 3
+				id: "2645F2E6205AEB1E"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "50510E9A84AC76EF"
+				item: { count: 1, id: "minecolonies:blockhuttownhall" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecolonies:blockhutbuilder"
+			}
+			id: "13432A8D800CCA1A"
+			rewards: [{
+				id: "14A231C8653859E8"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "09CE32C5CEA7F543"
+				item: { count: 1, id: "minecolonies:blockhutbuilder" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:oak_sign"
+			}
+			id: "1B8AD3B5745CCF22"
+			rewards: [{
+				count: 2
+				id: "2788920DA798EEDB"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "648656B85BB6E0AC"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:cauldron"
+			}
+			id: "0F9EBC2267755F33"
+			rewards: [{
+				id: "1CE2F59089CBBB59"
+				item: {
+					count: 1
+					id: "chop:ribbon_token"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57A28E1AD049FA3B"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "chop:ornament"
+			}
+			id: "40F9DB57DD089F7E"
+			rewards: [{
+				count: 8
+				id: "3B14BC9BCAC00372"
+				item: {
+					count: 1
+					id: "minecraft:glass"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "17BE231F856BE5E8"
+				item: { count: 1, id: "chop:ornament" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "chipped:glassblower"
+			}
+			id: "21C75B4E8A4B069C"
+			rewards: [{
+				count: 2
+				id: "1BA141B2503859F4"
+				item: {
+					count: 1
+					id: "chop:red_ornament"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "14504401E9CD7E54"
+				item: { count: 1, id: "chipped:glassblower" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "chop:red_large_ornament"
+			}
+			id: "74D099FD565F65B2"
+			rewards: [{
+				count: 4
+				id: "6719A4952D595078"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "594909822A641A4F"
+				item: { count: 1, id: "chop:red_large_ornament" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "chop:glowing_red_ornament"
+			}
+			id: "32CF06A344E6243D"
+			rewards: [{
+				count: 8
+				id: "6AC8E666F820A3DF"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7A4DC2D564EFA191"
+				item: { count: 1, id: "chop:glowing_red_ornament" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "chop:red_star_window"
+			}
+			id: "79DEAAB57D31BFEF"
+			rewards: [{
+				count: 8
+				id: "7C3095EF78A1D837"
+				item: {
+					count: 1
+					id: "minecraft:red_stained_glass"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "06A1AB2BBBB56EF8"
+				item: { count: 1, id: "chop:red_star_window" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "chop:red_star_window_2x2"
+			}
+			id: "350ED68F4D3729FA"
+			rewards: [{
+				id: "222A242B0173ACEB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "62E5E0A0ECB78D2D"
+				item: { count: 1, id: "chop:red_star_window_2x2" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "minecraft:glass"
+			}
+			id: "369075A72095C2DE"
+			rewards: [{
+				count: 16
+				id: "788024B5ED127090"
+				item: {
+					count: 1
+					id: "minecraft:glass_pane"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "065435C9213D5C20"
+				item: { count: 1, id: "minecraft:glass" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				id: "chipped:loom_table"
+			}
+			id: "6C046614E90DB8DA"
+			rewards: [{
+				count: 16
+				id: "4C572824E0CBAA02"
+				item: {
+					count: 1
+					id: "minecraft:paper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0BC541C7B34DDA97"
+				item: { count: 1, id: "chipped:loom_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "chop:red_stripes_wrapping_paper"
+			}
+			id: "489C90EB0327ABE1"
+			rewards: [{
+				count: 2
+				id: "3355D4B5BCC9A2CB"
+				item: {
+					count: 1
+					id: "chop:white_gift_bow"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "387348FE71CCA618"
+					item: { count: 1, id: "chop:red_stripes_wrapping_paper" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2C6DA5396502F7E9"
+					item: { count: 1, id: "chop:red_gift_bow" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "chop:white_icing_block"
+			}
+			id: "5521D254E8414BD8"
+			rewards: [{
+				count: 16
+				id: "0CC3F039AD75404A"
+				item: {
+					count: 1
+					id: "minecraft:sugar"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "6E7648797C8B715E"
+					item: { count: 1, id: "chop:white_icing_block" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "49C076E6B7DCBFE6"
+					item: { count: 1, id: "chop:white_icing_drip" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "chop:snowy_spruce_siding"
+			}
+			id: "01B50F5E6733E669"
+			rewards: [{
+				count: 16
+				id: "6F2F4F573B87651C"
+				item: {
+					count: 1
+					id: "minecraft:snowball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60046A666A27F184"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "chop:glowing_ice"
+			}
+			id: "75A83F9ACBA99D8A"
+			rewards: [{
+				count: 16
+				id: "327845DA704944D1"
+				item: {
+					count: 1
+					id: "minecraft:packed_ice"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "51FA7A6064ADC3D4"
+				item: { count: 1, id: "chop:glowing_ice" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				id: "chop:advent_calendar"
+			}
+			id: "3ADA85706D398A24"
+			rewards: [{
+				count: 3
+				id: "790F64B4A8988A11"
+				item: {
+					count: 1
+					id: "minecraft:cookie"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3DB43942ECFA7827"
+				item: { count: 1, id: "chop:advent_calendar" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			icon: {
+				id: "minecraft:golden_apple"
+			}
+			id: "0C6E03ED204771AE"
+			rewards: [{
+				id: "2032205C444BA1C8"
+				item: {
+					count: 1
+					id: "chop:ribbon_token"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6446FCD5E35EF8C3"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "0451B265D4848AAE"
+			rewards: [
+				{
+					count: 2
+					id: "1A08145C31F79F04"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "7973604C2202F5A1"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "03DBAEFBC3800C57"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+	]
+}

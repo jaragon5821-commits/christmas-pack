@@ -1,0 +1,15 @@
+# Chop's Christmas Special - Music Triggers 7.x global config (Research, 2026-11-08)
+toggles_path = "toggles"
+
+[channels.christmas]
+sound_category = "music"
+overrides_music = true
+paused_by_jukebox = true
+local_folder = "config/MusicTriggers/songs"
+
+[debug]
+# Let vanilla/C418 music keep playing when none of our triggers is active.
+play_normal_music = true
+blocked_sound_categories = []
+enable_debug_info = false
+pause_unless_focused = true

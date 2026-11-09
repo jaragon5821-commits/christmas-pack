@@ -68,12 +68,8 @@
     "ctov:small/village_swamp_fortified",
     "ctov:small/village_taiga",
     "ctov:small/village_taiga_fortified",
-    "biomeswevegone:village/forgotten",
     "biomeswevegone:village/pumpkin_patch",
-    "biomeswevegone:village/red_rock",
-    "biomeswevegone:village/salem",
-    "biomeswevegone:village/skyris",
-    "biomeswevegone:village/swamp"
+    "biomeswevegone:village/skyris"
   ],
   "enabledTags": [
     "minecraft:village"

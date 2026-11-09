@@ -1,5 +1,9 @@
 // priority: 26
-// FESTIVITY PETS (DRAFT v5, 2026-11-07) - pet Coal Gnome (Josh 17:00 UTC 11-06, card "Build it as proposed" 17:11 UTC).
+// FESTIVITY PETS (DRAFT v10, 2026-11-08: BUDDY SUMMON - ptSummonBuddy(): the Gingerbread Friend is the jar 0.8.0 entity festivity:gingerbread_buddy
+// with NBT fest_owner:"<player uuid>"; summon result 0 (older jar, no such entity) -> caller falls back to gingerbread_part Variant 4;
+// v9 LANTERN GNOME - lantern on a tamed gnome -> Variant 3 (jar 0.6.0: light 11, scares elves), sneak + empty hand undoes it;
+// v8: Blaze Heart revive finished in script - Variant/Pose/tags/AI/owner set by the script whether or not
+// Redomesticate's taming handler matched; clinker summons carry Variant 2 + Pose; chip drop coords fixed; LOG off. v5 2026-11-07) - pet Coal Gnome (Josh 17:00 UTC 11-06, card "Build it as proposed" 17:11 UTC).
 // Needs festivity.js 0.2.10+, festivity_phase2.js (summon, surfaceY, dropItem, findByTag), Redomesticate (TEST) and the taming JSON
 // kubejs/data/chop/redomesticate/taming/clinker_gnome.json + startup item chop:festive_heart.
 // 1) CLINKER GNOMES: burnt-out Coal Gnomes (NoAI, grey, one of PET.POSES frozen poses via tags fest_pose1..N). Found: a dusk roll near a
@@ -21,7 +25,7 @@ const PET = {
   CHIP_MIN: 4, CHIP_MAX: 10, CHIP_CHANCE: 0.10, CHIP_SPEED: 0.9,     // per gnome per second while in range
   PET_HP: 20, DROP_MIN: 1, DROP_MAX: 2, PET_CHIP_RANGE: 8, PET_CHIP_CHANCE: 0.5, NETHER_CLINKER_CHANCE: 0.15,
   CANDY: ['snowyspirit:candy_cane', 'seasonsgreetings:candy_cane', 'festive_delight:candy_cane', 'minecraft:cookie'],
-  LOG: true, DEBUG_CMDS: false
+  LOG: false, DEBUG_CMDS: false   // both false for promotion (v8)
 };
 const PT = Fest;
 function ptcmd(server, s) { if (PET.DEBUG_CMDS) { try { return server.runCommand(s); } catch (e) { console.warn('[FestivityPets] cmd fallback: ' + e); } } return PT.cmd(server, s); }
@@ -39,9 +43,11 @@ ServerEvents.recipes(event => {
 });
 
 // ---------- Clinker Gnomes ----------
+// v8: one NBT builder for every clinker summon. Variant 2 = clinker, Pose = frozen pose on festivity:coal_gnome (ignored by a vanilla endermite).
+function ptClinkerNbt(pose, yaw) { return '{NoAI:1b,Silent:1b,PersistenceRequired:1b,Invulnerable:1b,Lifetime:0,Variant:2b,Pose:' + pose + 'b,Rotation:[' + yaw + 'f,0f],Tags:["fest_clinker","fest_pose' + pose + '"]}'; }
 function spawnClinker(server, x, y, z) {
   let pose = 1 + Math.floor(Math.random() * PET.POSES), yaw = Math.floor(Math.random() * 360);
-  ptcmd(server, 'summon ' + fid('minecraft:endermite') + ' ' + Math.floor(x) + ' ' + Math.floor(y) + ' ' + Math.floor(z) + ' {NoAI:1b,Silent:1b,PersistenceRequired:1b,Invulnerable:1b,Lifetime:0,Rotation:[' + yaw + 'f,0f],Tags:["fest_clinker","fest_pose' + pose + '"]}');
+  ptcmd(server, 'summon ' + fid('minecraft:endermite') + ' ' + Math.floor(x) + ' ' + Math.floor(y) + ' ' + Math.floor(z) + ' ' + ptClinkerNbt(pose, yaw));
   ptlog('clinker gnome (pose ' + pose + ') at ' + Math.floor(x) + ' ' + Math.floor(y) + ' ' + Math.floor(z));
 }
 function ptGroundNear(level, x, z, yc) {   // first air-over-solid column near yc (works in the Nether; surfaceY does not)
@@ -72,27 +78,39 @@ function netherClinkerRoll(server) {
   if (!ps.length || Math.random() > PET.NETHER_CLINKER_CHANCE) return;
   let p = ps[Math.floor(Math.random() * ps.length)], s = ptClinkerSpot(server, p); if (!s) return;
   let pose = 1 + Math.floor(Math.random() * PET.POSES), yaw = Math.floor(Math.random() * 360);
-  ptcmd(server, 'execute in minecraft:the_nether run summon ' + fid('minecraft:endermite') + ' ' + s.x + ' ' + s.y + ' ' + s.z + ' {NoAI:1b,Silent:1b,PersistenceRequired:1b,Invulnerable:1b,Lifetime:0,Rotation:[' + yaw + 'f,0f],Tags:["fest_clinker","fest_pose' + pose + '"]}');
+  ptcmd(server, 'execute in minecraft:the_nether run summon ' + fid('minecraft:endermite') + ' ' + s.x + ' ' + s.y + ' ' + s.z + ' ' + ptClinkerNbt(pose, yaw));
   ptlog('nether clinker (pose ' + pose + ') at ' + s.x + ' ' + s.y + ' ' + s.z + (s.struct ? ' near a structure' : ''));
 }
 
-// ---------- taming: Redomesticate tames, we relight ----------
+// ---------- taming: Redomesticate may tame first; the script ALWAYS finishes the revive (v8, after the v3 round-1 failure) ----------
 var pt_tameApi = null, pt_tameApiTried = false;
-function ptIsTamed(e) {
-  if (!pt_tameApiTried) { pt_tameApiTried = true; try { pt_tameApi = Java.loadClass('com.evandev.redomesticate.util.TameableUtils'); ptlog('Redomesticate TameableUtils reachable'); } catch (x) { ptlog('Redomesticate TameableUtils not reachable (' + x + '); assuming the heart tamed it'); } }
-  if (!pt_tameApi) return true;
-  try { return !!pt_tameApi.isTamed(e); } catch (x) { return true; }
+function ptIsTamed(e) {   // true only when the Redomesticate API confirms it (v8: an unreachable API no longer counts as tamed)
+  if (!pt_tameApiTried) { pt_tameApiTried = true; try { pt_tameApi = Java.loadClass('com.evandev.redomesticate.util.TameableUtils'); ptlog('Redomesticate TameableUtils reachable'); } catch (x) { ptlog('Redomesticate TameableUtils not reachable (' + x + ')'); } }
+  if (!pt_tameApi) return false;
+  try { return !!pt_tameApi.isTamed(e); } catch (x) { return false; }
 }
-function relight(server, e, owner) {
+function ptVariant(e) { try { return Number(e.nbt.getByte('Variant')); } catch (x) { return -1; } }
+// a Clinker: tag fest_clinker, or the jar's festivity:coal_gnome with Variant 2 (e.g. placed by Assets' structures without our tag)
+function ptIsClinker(e) {
+  if (!e) return false;
+  if (f5has_pet(e, 'fest_clinker')) return true;
+  return f5isType(e, 'minecraft:endermite') && String(e.type).indexOf('festivity:') == 0 && ptVariant(e) == 2;
+}
+function f5has_pet(e, t) { try { return !!(e.tags && e.tags.contains(t)); } catch (x) { return false; } }
+function relight(server, e, owner, ownerUuid) {
   try {
     let tags = []; try { for (let t of e.tags) tags.push(String(t)); } catch (x) {}
     for (let t of tags) if (t == 'fest_clinker' || t.indexOf('fest_pose') == 0) e.removeTag(t);
     e.addTag('fest_pet');
-    try { e.setNoAi(false); } catch (x) { ptcmd(server, 'data merge entity ' + e.uuid + ' {NoAI:0b}'); }
-    try { e.setInvulnerable(false); } catch (x) { ptcmd(server, 'data merge entity ' + e.uuid + ' {Invulnerable:0b}'); }
-    ptcmd(server, 'data merge entity ' + e.uuid + ' {Silent:0b}');
+    try { e.setNoAi(false); } catch (x) {}
+    try { e.setInvulnerable(false); } catch (x) {}
+    // one merge sets everything the skin and the AI key on: Variant 1 = tamed Coal Gnome, Pose 0 = standing, AI on, mortal, audible
+    ptcmd(server, 'data merge entity ' + e.uuid + ' {Variant:1b,Pose:0b,NoAI:0b,Invulnerable:0b,Silent:0b}');
+    try { e.persistentData.putString('fest_varkey', 'fest_pet'); } catch (x) {}   // keeps Phase 5's variant sync from re-merging
+    if (ownerUuid) { try { e.persistentData.putString('fest_owner', String(ownerUuid)); e.persistentData.putString('fest_ownerName', String(owner || '')); e.persistentData.putLong('fest_relitMs', PT.nowMs()); } catch (x) {} }
     ptcmd(server, 'attribute ' + e.uuid + ' minecraft:generic.max_health base set ' + PET.PET_HP);
     ptcmd(server, 'effect give ' + e.uuid + ' minecraft:instant_health 1 5 true');
+    ptcmd(server, 'data merge entity ' + e.uuid + ' {Health:' + PET.PET_HP + 'f}');
     let pos = e.x.toFixed(1) + ' ' + (e.y + 0.3).toFixed(1) + ' ' + e.z.toFixed(1);
     ptcmd(server, 'particle minecraft:flame ' + pos + ' 0.4 0.3 0.4 0.05 25');
     ptcmd(server, 'particle minecraft:heart ' + pos + ' 0.5 0.5 0.5 0 5');
@@ -115,22 +133,89 @@ function ptForceTame(server, e, p) {
   ptlog('force-tamed clinker via API, ok=' + ok);
   return ok;
 }
+// v8 flow: right-click a Clinker with the Blaze Heart -> Redomesticate's data-driven handler gets first go (if its JSON loaded). Two ticks
+// later the script checks: not tamed by the mod -> tame through the mod API (guarded; the pet still gets relit if even that fails),
+// heart not consumed by the mod -> shrink it in survival, then relight (Variant 1, Pose 0, tags, AI, HP, owner). Never depends on the mod.
 ItemEvents.entityInteracted(event => {
   try {
-    let e = event.target, p = event.player; if (!e || !p || !e.tags || !e.tags.contains('fest_clinker')) return;
-    if (String(event.item.id) != 'chop:festive_heart') return;
-    let server = p.server, name = p.username, hand = event.hand;
+    let e = event.target, p = event.player; if (!e || !p || !ptIsClinker(e)) return;
+    if (!event.item || String(event.item.id) != 'chop:festive_heart') return;
+    if (event.hand && String(event.hand) != 'MAIN_HAND') return;   // one revive per click, not per hand
+    let server = p.server, name = p.username, uuid = String(p.uuid), hand = event.hand, creative = false;
+    try { creative = p.isCreative(); } catch (x) {}
+    let before = 0; try { before = Number(event.item.count); } catch (x) {}
+    if (e.persistentData.getBoolean('fest_reviving')) return;
+    e.persistentData.putBoolean('fest_reviving', true);
+    if (!f5has_pet(e, 'fest_clinker')) { try { e.addTag('fest_clinker'); } catch (x) {} }   // jar Variant-2 gnome without our tag: normalise
     server.scheduleInTicks(2, () => {
       try {
-        if (!e.isAlive() || !e.tags.contains('fest_clinker')) return;
-        if (ptIsTamed(e)) { relight(server, e, name); return; }
-        ptlog('heart used but Redomesticate did not tame it; forcing via API');
-        if (!ptForceTame(server, e, p)) return;
-        try { if (!p.isCreative()) { let st = p.getItemInHand(hand); if (String(st.id) == 'chop:festive_heart') st.shrink(1); } } catch (x) {}
-        relight(server, e, name);
-      } catch (x) { console.warn('[FestivityPets] heart: ' + x); }
+        if (!e.isAlive()) return;
+        let tamed = ptIsTamed(e);
+        if (!tamed) { ptlog('heart used; Redomesticate did not tame it (or its API is unreachable), script finishes the revive'); try { tamed = ptForceTame(server, e, p); } catch (x) { ptlog('force tame threw: ' + x); } }
+        else ptlog('Redomesticate tamed the clinker; script relights');
+        // consume the heart only when the mod has not: same stack still in that hand with the same count
+        if (!creative) { try { let st = p.getItemInHand(hand); if (st && String(st.id) == 'chop:festive_heart' && Number(st.count) == before) st.shrink(1); } catch (x) {} }
+        relight(server, e, name, uuid);
+        if (!tamed) ptlog('relit without a confirmed tame: the gnome has AI + Variant 1 but no mod follow/stay (check Redomesticate API names)');
+      } catch (x) { console.warn('[FestivityPets] heart: ' + x); try { e.persistentData.putBoolean('fest_reviving', false); } catch (q) {} }
     });
   } catch (x) {}
+});
+
+// ---------- v10 BUDDY SUMMON (jar 0.8.0): the player's Gingerbread Friend as festivity:gingerbread_buddy ----------
+// Called by Phase 5 section E (friend item) instead of the gingerbread_part Variant 4 summon. Returns true when the buddy entity was
+// summoned, false when it was not (older jar without the entity type: the summon fails, runCommandSilent returns 0 / throws) so the caller
+// runs its old summon. fest_owner is the player's UUID as a string (the Java side reads a string UUID); the old tags ride along.
+// Nothing is cached: an unknown entity id is a cheap failed command, and a cache would hide a jar swapped in by /reload.
+function ptSummonBuddy(server, p, x, y, z, tags) {
+  let r = 0;
+  try {
+    let uuid = String(p.uuid), list = (tags || ['fest_pet', 'fest_gbfriend']).map(t => '"' + t + '"').join(',');
+    r = server.runCommandSilent('summon festivity:gingerbread_buddy ' + x + ' ' + y + ' ' + z + ' {PersistenceRequired:1b,fest_owner:"' + uuid + '",Tags:[' + list + ']}');
+  } catch (e) { ptlog('buddy summon threw: ' + e); r = 0; }
+  r = Number(r) || 0;
+  ptlog('buddy summon result ' + r + (r > 0 ? '' : ' -> gingerbread_part fallback'));
+  return r > 0;
+}
+
+// ---------- v9 LANTERN GNOME (Josh 20:09 UTC 11-08): right-click YOUR tamed gnome with a lantern -> it carries it (Variant 3, tag fest_lantern) ----------
+function ptIsPetGnome(e) { return f5isType(e, 'minecraft:endermite') && f5has_pet(e, 'fest_pet'); }
+function ptOwnedBy(e, p) {   // the pet records its owner at revive (fest_owner); a pet without a record belongs to whoever asks
+  let o = ''; try { o = String(e.persistentData.getString('fest_owner') || ''); } catch (x) {}
+  return !o || o == String(p.uuid);
+}
+ItemEvents.entityInteracted(event => {
+  try {
+    let e = event.target, p = event.player; if (!e || !p || !ptIsPetGnome(e)) return;
+    if (event.hand && String(event.hand) != 'MAIN_HAND') return;
+    let server = p.server, id = event.item ? String(event.item.id) : 'minecraft:air', lantern = f5has_pet(e, 'fest_lantern');
+    if (!lantern && (id == 'minecraft:lantern' || id == 'minecraft:soul_lantern')) {
+      if (!ptOwnedBy(e, p)) { ptcmd(server, 'title ' + p.username + ' actionbar ' + PT.jsonText('This gnome is not yours.', 'gray')); event.cancel(); return; }
+      let creative = false; try { creative = p.isCreative(); } catch (x) {}
+      if (!creative) event.item.shrink(1);
+      e.addTag('fest_lantern');
+      try { e.persistentData.putString('fest_lanternItem', id); e.persistentData.putString('fest_varkey', ''); } catch (x) {}   // Phase 5's sync re-reads the tags (fest_lantern -> 3)
+      ptcmd(server, 'data merge entity ' + e.uuid + ' {Variant:3b}');
+      let pos = e.x.toFixed(1) + ' ' + (e.y + 0.4).toFixed(1) + ' ' + e.z.toFixed(1);
+      ptcmd(server, 'particle minecraft:flame ' + pos + ' 0.3 0.3 0.3 0.02 12');
+      ptcmd(server, 'particle minecraft:happy_villager ' + pos + ' 0.5 0.5 0.5 0 10');
+      ptcmd(server, 'playsound minecraft:block.lantern.place master @a ' + pos + ' 1 1');
+      ptcmd(server, 'title ' + p.username + ' actionbar ' + PT.jsonText('Your gnome lifts the lantern.', 'gold'));
+      ptlog('lantern gnome for ' + p.username);
+      event.cancel(); return;
+    }
+    if (lantern && id == 'minecraft:air' && p.isCrouching()) {   // reverse: sneak + empty hand
+      if (!ptOwnedBy(e, p)) return;
+      let back = 'minecraft:lantern'; try { back = String(e.persistentData.getString('fest_lanternItem') || back) || back; } catch (x) {}
+      e.removeTag('fest_lantern');
+      try { e.persistentData.putString('fest_varkey', ''); e.persistentData.remove('fest_lanternItem'); } catch (x) {}
+      ptcmd(server, 'data merge entity ' + e.uuid + ' {Variant:1b}');
+      dropItem(server, e.x, e.y, e.z, back, 1);
+      ptcmd(server, 'playsound minecraft:block.lantern.break master @a ' + e.x.toFixed(1) + ' ' + e.y.toFixed(1) + ' ' + e.z.toFixed(1) + ' 1 1');
+      ptcmd(server, 'title ' + p.username + ' actionbar ' + PT.jsonText('Your gnome sets the lantern down.', 'gray'));
+      event.cancel();
+    }
+  } catch (x) { console.warn('[FestivityPets] lantern: ' + x); }
 });
 
 // ---------- wild Coal Gnome ranged: a chipped-off coal bit ----------
@@ -163,7 +248,7 @@ EntityEvents.death(event => {
   try {
     let e = event.entity; if (!ptIsWildGnome(e)) return;
     let n = PET.DROP_MIN + Math.floor(Math.random() * (PET.DROP_MAX - PET.DROP_MIN + 1));
-    dropItem(e.server, e.x.toFixed(1), e.y.toFixed(1), e.z.toFixed(1), 'chop:coal_chip', n);
+    dropItem(e.server, Number(e.x.toFixed(1)), Number(e.y.toFixed(1)), Number(e.z.toFixed(1)), 'chop:coal_chip', n);   // v8: numbers (dropItem adds 0.5 to y; strings concatenated to '12.00.5' and the summon failed)
     ptlog('coal gnome died -> ' + n + ' coal chip(s)');
   } catch (x) { console.warn('[FestivityPets] death drop: ' + x); }
 });
@@ -204,10 +289,11 @@ ServerEvents.commandRegistry(event => {
     .then(Commands.literal('heart').executes(ctx => { let p = ctx.source.player; if (!p) return 0; ptcmd(ctx.source.server, 'give ' + p.username + ' chop:festive_heart 1'); return 1; }))
     .then(Commands.literal('chip').executes(ctx => { let p = ctx.source.player; if (!p) return 0; let list = findByTag(ctx.source.server, 'fest_minion', { x: p.x, z: p.z }, 16), n = 0; for (let e of list) if (f5isType(e, 'minecraft:endermite') && !e.tags.contains('fest_pet')) { coalChip(ctx.source.server, e, p); n++; } ctx.source.sendSuccess(Text.of('[Festivity] ' + n + ' coal gnome(s) spat'), true); return 1; }))
     .then(Commands.literal('chips').executes(ctx => { let p = ctx.source.player; if (!p) return 0; ptcmd(ctx.source.server, 'give ' + p.username + ' chop:coal_chip 9'); return 1; }))
-    .then(Commands.literal('netherclinker').executes(ctx => { let p = ctx.source.player; if (!p) return 0; let s = ctx.source.server, sp = ptClinkerSpot(s, p); if (!sp) { ctx.source.sendSuccess(Text.of('[Festivity] no ground found'), true); return 0; } ptcmd(s, 'execute in ' + String(p.level.dimension) + ' run summon ' + fid('minecraft:endermite') + ' ' + sp.x + ' ' + sp.y + ' ' + sp.z + ' {NoAI:1b,Silent:1b,PersistenceRequired:1b,Invulnerable:1b,Lifetime:0,Tags:["fest_clinker","fest_pose2"]}'); ctx.source.sendSuccess(Text.of('[Festivity] clinker at ' + sp.x + ' ' + sp.y + ' ' + sp.z + (sp.struct ? ' (structure chunk)' : '')), true); return 1; }))
+    .then(Commands.literal('netherclinker').executes(ctx => { let p = ctx.source.player; if (!p) return 0; let s = ctx.source.server, sp = ptClinkerSpot(s, p); if (!sp) { ctx.source.sendSuccess(Text.of('[Festivity] no ground found'), true); return 0; } ptcmd(s, 'execute in ' + String(p.level.dimension) + ' run summon ' + fid('minecraft:endermite') + ' ' + sp.x + ' ' + sp.y + ' ' + sp.z + ' ' + ptClinkerNbt(2, 0)); ctx.source.sendSuccess(Text.of('[Festivity] clinker at ' + sp.x + ' ' + sp.y + ' ' + sp.z + (sp.struct ? ' (structure chunk)' : '')), true); return 1; }))
+    .then(Commands.literal('lantern').executes(ctx => { let p = ctx.source.player; if (!p) return 0; ptcmd(ctx.source.server, 'summon ' + fid('minecraft:endermite') + ' ' + Math.floor(p.x + 2) + ' ' + Math.floor(p.y) + ' ' + Math.floor(p.z) + ' {PersistenceRequired:1b,Variant:3b,Tags:["fest_pet","fest_lantern"]}'); ctx.source.sendSuccess(Text.of('[Festivity] lantern gnome (Variant 3) placed; sneak + empty hand takes the lantern back'), true); return 1; }))
     .then(Commands.literal('tamedefs').executes(ctx => { let s = ctx.source.server, out = 'none'; try { let K = Java.loadClass('com.evandev.redomesticate.api.taming.TamingDefinition').REGISTRY_KEY; let keys = []; for (let k of s.registryAccess().registryOrThrow(K).keySet()) keys.push(String(k)); out = keys.length + ': ' + keys.join(', '); } catch (x) { out = 'error ' + x; } ctx.source.sendSuccess(Text.of('[Festivity] taming defs ' + out), true); ptlog('taming defs ' + out); return 1; }))
     .then(Commands.literal('info').executes(ctx => { let s = ctx.source.server, c = findByTag(s, 'fest_clinker', null).length, q = findByTag(s, 'fest_pet', null).length; ctx.source.sendSuccess(Text.of('[Festivity] clinkers ' + c + ', pet coal gnomes ' + q), true); return 1; }));
   event.register(Commands.literal('festivity').then(root));
 });
 
-console.log('[Festivity] Pets draft v7 loaded (mod bridge via fid/f5isType): clinker chance ' + PET.CLINKER_CHANCE + ', poses ' + PET.POSES + ', coal chip ' + PET.CHIP_CHANCE + '/s at ' + PET.CHIP_MIN + '-' + PET.CHIP_MAX + ', drops ' + PET.DROP_MIN + '-' + PET.DROP_MAX + ' chips');
+console.log('[Festivity] Pets draft v10 loaded (buddy summon, lantern gnome Variant 3, script-finished Blaze Heart revive, Variant 2 clinkers, log ' + PET.LOG + '): clinker chance ' + PET.CLINKER_CHANCE + ', poses ' + PET.POSES + ', coal chip ' + PET.CHIP_CHANCE + '/s at ' + PET.CHIP_MIN + '-' + PET.CHIP_MAX + ', drops ' + PET.DROP_MIN + '-' + PET.DROP_MAX + ' chips');

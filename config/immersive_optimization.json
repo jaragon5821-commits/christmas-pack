@@ -27,6 +27,7 @@
     "minecraft:player": false,
     "valkyrienskies": false,
     "create": false,
+    "minecolonies:citizen": false,
     "*": true,
     "minecraft:ender_dragon": false
   },

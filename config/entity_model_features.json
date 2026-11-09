@@ -13,7 +13,7 @@
   "entityVanillaHologramOverrides": {},
   "modelsNamesDisabled": [],
   "allowEBEModConfigModify": true,
-  "animationLODDistance": 0,
+  "animationLODDistance": 20,
   "retainDetailOnLowFps": false,
   "retainDetailOnLargerMobs": true,
   "animationFrameSkipDuringIrisShadowPass": false,

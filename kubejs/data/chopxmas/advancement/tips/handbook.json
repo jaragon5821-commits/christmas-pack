@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "guideme:guide"
+    },
+    "title": [
+      "Handbook: ",
+      {
+        "text": "right-click to read",
+        "color": "gold"
+      }
+    ],
+    "description": [
+      "Chop's Christmas Handbook explains the keys. Open Keybind Atlas with ",
+      {
+        "keybind": "key.keybindatlas.open_keyboard",
+        "color": "gold"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "got": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "guideme:guide"
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "parent": "chopxmas:tips/root"
+}

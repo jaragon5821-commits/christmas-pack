@@ -1,4 +1,4 @@
-// chop_xmas_chest_loot.js v0.1.1 (Scripts thread, 2026-11-08) - server script, LootJS 3.7.0.
+// chop_xmas_chest_loot.js v0.1.3 (Scripts thread, 2026-11-08) - server script, LootJS 3.7.0.
 // Josh 05:42 UTC Nov 8: Christmas structure chests were overloaded with cookies/candy. Big varied pool, ~5-8 filled slots.
 // Rewrites POOL 0 (the main pool) of every chop:chests/* structure + roadside table. Pools 1+ are kept untouched
 // (rare bonus pool + Assets' Santy Claws / Nether / End lore-book pools). chop:chests/folklore is NOT touched.
@@ -32,7 +32,7 @@
       ['minecraft:bow', 2, 1, 1], ['minecraft:crossbow', 1, 1, 1], ['minecraft:brush', 1, 1, 1],
       ['farmersdelight:flint_knife', 2, 1, 1], ['farmersdelight:iron_knife', 2, 1, 1], ['farmersdelight:skillet', 1, 1, 1],
       ['supplementaries:slingshot', 1, 1, 1], ['supplementaries:wrench', 1, 1, 1], ['supplementaries:key', 1, 1, 1],
-      ['constructionsticks:stone_stick', 1, 1, 1], ['constructionsticks:iron_stick', 1, 1, 1]
+      ['comforts:sleeping_bag_red', 2, 1, 1], ['comforts:sleeping_bag_green', 1, 1, 1], ['comforts:sleeping_bag_white', 1, 1, 1], ['comforts:hammock_red', 1, 1, 1]
     ],
     gear: [
       ['minecraft:iron_sword', 3, 1, 1, 'ench'], ['minecraft:iron_pickaxe', 2, 1, 1, 'ench'], ['minecraft:diamond_sword', 1, 1, 1, 'ench'],

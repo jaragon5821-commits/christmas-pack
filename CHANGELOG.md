@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026.11.08-5
+- Festivity 0.9.1b, Christmas Structures v30, Large Dungeons v4, Botany Pots crops v1, quests v0.1.1, Colony Autopilot fork chop.5, Christmas music at half volume
+- Removed: VanillaBackport, AmbientSounds, TownTalk, Iron Jetpacks, Cucumber, Music Triggers, TIL
+
 ## 2026.11.08-4
 - Install fix: all CurseForge mods now use direct download links (no manual downloads); MineColonies-family mods now install on clients
 

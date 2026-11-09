@@ -1,0 +1,187 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fest_dungeon_toyfactory"
+	group: ""
+	icon: {
+		id: "festivity:drum_majors_baton"
+	}
+	id: "2BCFC14E03202CC5"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "2280AD84E37C1EDA"
+			rewards: [{
+				id: "2BAA70BA28F50D78"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "10291B513CC94020"
+				structure: "chop:toy_factory"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:tin_soldier_box"
+			}
+			id: "4941CAB3DC5977F4"
+			optional: true
+			rewards: [{
+				id: "739B4039A4EBE868"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0472C46F37B1C546"
+				item: { count: 1, id: "festivity:tin_soldier_box" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "festivity:gift_wrap_bandolier"
+			}
+			id: "3C168D98CCC87C13"
+			optional: true
+			rewards: [{
+				id: "1A1B071DE6E33710"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "173A6C1513FDF83F"
+				item: { count: 1, id: "festivity:gift_wrap_bandolier" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:toy_soldier_banner"
+			}
+			id: "4EBA7E4DDE58B17C"
+			optional: true
+			rewards: [{
+				id: "42EB869FD7C5037E"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "468E70FE637C2348"
+				item: { count: 1, id: "festivity:toy_soldier_banner" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "festivity:wind_up_key"
+			}
+			id: "36DC7DDF932F9FDD"
+			optional: true
+			rewards: [{
+				id: "75B7D7734AF9BCB4"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4CC993AE8BBB4EDD"
+				item: { count: 1, id: "festivity:wind_up_key" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "festivity:conveyor_greaves"
+			}
+			id: "30C17DDFB4D46937"
+			optional: true
+			rewards: [{
+				id: "266B7C6AC1C03BDD"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "36F8C9C6F1A9DA58"
+				item: { count: 1, id: "festivity:conveyor_greaves" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:clockwork_drummer"
+			}
+			id: "14044D534DA9A96A"
+			optional: true
+			rewards: [{
+				id: "24F924AF096DE64C"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7B47C6E844247F6A"
+				item: { count: 1, id: "festivity:clockwork_drummer" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "festivity:drum_majors_baton"
+			}
+			id: "6B424FC2A81A5ADA"
+			rewards: [
+				{
+					count: 2
+					id: "0C0CCA4C29A6AD5F"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "2AF0BC6C6D1B437A"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: false
+				id: "33C08C97EBAF6131"
+				item: { count: 1, id: "festivity:drum_majors_baton" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+	]
+}

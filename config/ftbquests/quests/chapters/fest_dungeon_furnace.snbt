@@ -1,0 +1,187 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fest_dungeon_furnace"
+	group: ""
+	icon: {
+		id: "festivity:shadow_cloak"
+	}
+	id: "68D8EF95BBD7947C"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "1200DA1932ED9F77"
+			rewards: [{
+				id: "71BD813DF8553ACC"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2C3F01B723225EFD"
+				structure: "chop:claws_coal_furnace"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:coal_heart_shard"
+			}
+			id: "2D181E621D93B5E3"
+			optional: true
+			rewards: [{
+				id: "56140A630F707937"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3DBD2FEA513C5475"
+				item: { count: 1, id: "festivity:coal_heart_shard" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.8d
+		}
+		{
+			icon: {
+				id: "festivity:clinker_lantern"
+			}
+			id: "7CB757564A9B681C"
+			optional: true
+			rewards: [{
+				id: "34C2F49646BD5FA6"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "54A6DDB0F999B458"
+				item: { count: 1, id: "festivity:clinker_lantern" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.8d
+		}
+		{
+			icon: {
+				id: "festivity:ember_pick"
+			}
+			id: "3D86A1F2F923B432"
+			optional: true
+			rewards: [{
+				id: "4E7A2ABB31743351"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1773F7794945886E"
+				item: { count: 1, id: "festivity:ember_pick" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.2d
+		}
+		{
+			icon: {
+				id: "festivity:gnome_muzzle"
+			}
+			id: "178EE23444BCC392"
+			optional: true
+			rewards: [{
+				id: "07D32B7AA52FE85D"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "03B32AC5577F7E93"
+				item: { count: 1, id: "festivity:gnome_muzzle" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			icon: {
+				id: "festivity:ember_walker_boots"
+			}
+			id: "2E1076248D3705B2"
+			optional: true
+			rewards: [{
+				id: "2E844A947D84479C"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "02C7641052ADE13D"
+				item: { count: 1, id: "festivity:ember_walker_boots" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			icon: {
+				id: "festivity:crucible_helm"
+			}
+			id: "172176007669D401"
+			optional: true
+			rewards: [{
+				id: "749ACDA6CABB84AA"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "71D4A0E2D2610564"
+				item: { count: 1, id: "festivity:crucible_helm" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.2d
+		}
+		{
+			icon: {
+				id: "festivity:shadow_cloak"
+			}
+			id: "3BED91A3FC2CAADB"
+			rewards: [
+				{
+					count: 2
+					id: "2D2AD13AFCC8759F"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "75A6141B59D35283"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: false
+				id: "70C8027695279B2A"
+				item: { count: 1, id: "festivity:shadow_cloak" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+	]
+}

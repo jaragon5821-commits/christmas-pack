@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
+    },
+    "title": [
+      "Ultimine: hold ",
+      {
+        "keybind": "key.ftbultimine",
+        "color": "gold"
+      }
+    ],
+    "description": {
+      "text": "Hold it while mining to break a whole vein or tree at once."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "got": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:pickaxes"
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "parent": "chopxmas:tips/root"
+}

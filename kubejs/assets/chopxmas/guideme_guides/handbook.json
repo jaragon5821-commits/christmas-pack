@@ -1,0 +1,19 @@
+{
+  "item_settings": {
+    "display_name": {
+      "text": "Chop's Christmas Handbook",
+      "color": "#E8C15A"
+    },
+    "tooltip_lines": [
+      {
+        "text": "Controls, keys and tips for the pack",
+        "color": "gray"
+      },
+      {
+        "text": "Right-click to read",
+        "color": "dark_gray"
+      }
+    ]
+  },
+  "default_language": "en_us"
+}

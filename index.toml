@@ -1,6 +1,2870 @@
 hash-format = "sha256"
 
 [[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/birchfarmer1.blueprint"
+hash = "1d5fc0d36e3923487995a01a76bf0cbbf1286ebd1ae6850d7f58e72db660a6ec"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/birchfarmer2.blueprint"
+hash = "c3eb444ff4072a9ca7d3dff7caab9ab8c801dcea2a411d63c386c539a8e96b7a"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/birchfarmer3.blueprint"
+hash = "6ffe85c49e16c5df948210b0c7e8a2a439613d23d055c536478ece68b8363261"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/birchfarmer4.blueprint"
+hash = "64e8350270c2275ce384bb2a310f3f09dcaf979e81aed18f65e2bfba298c2e0e"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/birchfarmer5.blueprint"
+hash = "145ef49d13158f560c2e35c18cfb28ad61fc188cc4db04e3a168ba398df05f5f"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/composter1.blueprint"
+hash = "98d37aa1da3083b50de154081db1b6dd561805998742791431dd94ff78c2c468"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/composter2.blueprint"
+hash = "0d6b393e750895a2a314532320fa9a39afc920a7d7911af38a374c513fd1acd3"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/composter3.blueprint"
+hash = "fae1e26ad0d212d01e4be42c072111d51614438cb44ef6d6a425da7c35faf25f"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/composter4.blueprint"
+hash = "5c30fe030269f94bced235acb8cf05e8d8565706ffba6e96e4a967476fd34e4d"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/composter5.blueprint"
+hash = "8ec0c4999984e5da037c1545e46be7db999c3302973bef34412c3ec10a793664"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/darkwoodfarmer1.blueprint"
+hash = "b85069d3cb9eca7162a1eb91913d9d3b42f5ea0e6bfe63c0348884f1512d0abf"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/darkwoodfarmer2.blueprint"
+hash = "d76c9e330d97875d8c73fc67c2599860858f58fbc6c28016a4fb19b4cf548fb5"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/darkwoodfarmer3.blueprint"
+hash = "0d210b9540b4a2dfa2b1a023027e6c3f33a86180bf2a3df87ef3ee8b6c3371c7"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/darkwoodfarmer4.blueprint"
+hash = "814271c9b60cef4d61f314f867691619f30021008cbbf06bf716fa62c713a522"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/darkwoodfarmer5.blueprint"
+hash = "15cee7a367ebd81195fbe5c148b887b5bf9f06c85f451cf57483101c06ddbd77"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/farmer1.blueprint"
+hash = "ba3fa40dc2ac0447dc864516a68c855e4996a316d8ae029343d8d1bc323d6a2f"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/farmer2.blueprint"
+hash = "54353c5fc9f9c7980aaebd25cec1dea2f622448ff2ccfcee16356592deaa83ab"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/farmer3.blueprint"
+hash = "304f2fb76042929b6578ba6c31f1b66e6e31864a60ffd2038f26bd51f9a4db6d"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/farmer4.blueprint"
+hash = "ce608362545ca01b1d4e2678c2df1f091c174fbed5f205da5b5458e220e8e3f1"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/farmer5.blueprint"
+hash = "2e1d0d7ead437c81f0275b77ad2c74f7b1e01048d2d4d506ad06e02d7056d752"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/florist1.blueprint"
+hash = "9202cb0ef4ea332c0ae6bc2591bfb64b1adf54f524cc5fc930a9fbc77effc971"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/florist2.blueprint"
+hash = "6a288488de3105b2b5db9913ba39232ed7564bc36147e3a88786f6939ceb742f"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/florist3.blueprint"
+hash = "da69a04f6990554c5bcd948612de116122dd817f827e07f0644f378effe2c3bb"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/florist4.blueprint"
+hash = "ee7962afe5902f19cd7ca785a957ea8c6b333e5f9a92fa211df0a2e1dc5da360"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/florist5.blueprint"
+hash = "79aec4d42b98e5da91613d0a1b89ddce3914382c2ea7ac44a4407c882352d2c3"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/hillsidefarmer1.blueprint"
+hash = "39d638ecf5aaa71902b40ad764032e5e956f10be7b76927beb8c44cc14f391d6"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/hillsidefarmer2.blueprint"
+hash = "e2d0665cb8566dc73ad495d2a964b47c208614665c74aa6ff053e7cab1ebe32a"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/hillsidefarmer3.blueprint"
+hash = "c3350569842948ead5a4f74223ce84ff5c86d46e3280ad9094c11d531c59f558"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/hillsidefarmer4.blueprint"
+hash = "e1f0555cd52ccf762af6cde747b518469ca9b47981517a52beebc6141fe299ab"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/hillsidefarmer5.blueprint"
+hash = "412623fddc9af849fc143516f8f5502f4e006f07e14f32a3619379d9ce8c2324"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/icon.png"
+hash = "95a2816092bbdb45f4cf642d6b3c16e2de9d4eb099c96a1379b658fea4ed834f"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/icon_disabled.png"
+hash = "66134d711462101270754897c6995b9a32af4f4f46ff03c21a8efced80163d52"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/lakesidefarmer1.blueprint"
+hash = "ca039a92f13d6645c5dc7c149b5cafbfae1bdaabe36857a2c059025b88fcbb7a"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/lakesidefarmer2.blueprint"
+hash = "1fe1d62b50cc73f13db31a4535426afe3b489b9a8431d375250fac29c32456c6"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/lakesidefarmer3.blueprint"
+hash = "ffb994813a5d928f9597df4329aaf19e9edde2f1c9b8d9bf10cff3fd55580491"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/lakesidefarmer4.blueprint"
+hash = "d61caa9270b23e3bd93b2b10e79063be59fdeda4d8819793e5804106f606bded"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/lakesidefarmer5.blueprint"
+hash = "34960bb060a9b2deb4f8f1b3463de567aa9a47bc1904b074677e5c81022b45c9"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/mountainfarmer1.blueprint"
+hash = "c6de29de4c35f659a6d5b22fa2b1d65f7881d1e3a22d4446b9b825a75e2c28da"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/mountainfarmer2.blueprint"
+hash = "73c05aa9b274da2d46e44c5d5f5d2efcb5d3149a1de17f1c991356a3d4b8010c"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/mountainfarmer3.blueprint"
+hash = "4efe0d1e5bd1f057608ddd0fe27e874c5cc61185cfef8037c564e84b657cbbd0"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/mountainfarmer4.blueprint"
+hash = "3a164e2786cb7dc12d520ef6c64159324a17d67be23b20b82a8eaeab22592884"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/mountainfarmer5.blueprint"
+hash = "19573e05bae24a3378489a39219bdd90166343f3d8ad7c42a5cfcac35ece79a4"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/plantation1.blueprint"
+hash = "32d2a7efb5cd33a6aa29549dd7cbb54026b3d58ea784ef03ab43e836dfbbf564"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/plantation2.blueprint"
+hash = "9f2edd630ab0eb2fa2e48f963f5b74c8846bc9299b7ca2286b6b9ed5fe515963"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/plantation3.blueprint"
+hash = "d87a7858cfb230f7bd689e706ace8a42112906146c65c4b7bc347a2d8ecf46e5"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/plantation4.blueprint"
+hash = "95056d7bfcbcbbfa2d2f0df7ec08ea2bac0667b75bc75846a10aae6a144c6efd"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/horticulture/plantation5.blueprint"
+hash = "aa0cb80b9b7de0986dab03a120aebef07c2ef0496f37d2838c1d91fad783c387"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/beekeeper1.blueprint"
+hash = "3fa26db399b7283ec2da7845c9229b035be303d41a2a71e7d1c6d76278b77269"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/beekeeper2.blueprint"
+hash = "aeb153ac16d83416c7abad21e43065a76c5a4555d56cc66f7eafca86daa619a9"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/beekeeper3.blueprint"
+hash = "bb88d00a78d5fc3da63ce5bedbd01d6adc39bc4729096a87f7512d4abefc4451"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/beekeeper4.blueprint"
+hash = "db8442afea6ffcc7622251df49b80b36be3704fddabd74fabefd426b1b252a83"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/beekeeper5.blueprint"
+hash = "b49cb7854edc1ff2579b76f4645f2667ea610ad53c9cebd3a72cb4768e8252f0"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/birchfisherman1.blueprint"
+hash = "04e953dfe56130cc48614e7270d8e651d63655f3fa5918b437c066c8ccfc706b"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/birchfisherman2.blueprint"
+hash = "c33a3704bffe3010cda8a8e159532d20476c6b2ead45bc03bd97b74327349891"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/birchfisherman3.blueprint"
+hash = "0cc9ce89552cc6593ccdfbabf1417982ac37d09b5a2893bda1d0e7a5dde9446e"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/birchfisherman4.blueprint"
+hash = "1143aff80c0f4e361d4b53da93b9131b8dc9e309ddd614f78f4551fb9cc26834"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/birchfisherman5.blueprint"
+hash = "dc9859320ca2078ce4c9e34186dd22732a1f51d2e7e3be4526e6fab82e976a11"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/chickenherder1.blueprint"
+hash = "1093712ca1e6e10c88617a78c299d7feb1a48a88edffb872bba91bd8fa2dfd1e"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/chickenherder2.blueprint"
+hash = "a0e4874910f1097e5d47ec34b2b1cfbfdae92a1bc0e98d0d52c8a597f3b7a419"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/chickenherder3.blueprint"
+hash = "305f40a7998c618e52ea44267afb1f00f128b3e9f2b9914708a5d87870a3a142"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/chickenherder4.blueprint"
+hash = "2c5eb9da4299fdb4ca45a3bc94c48c8434fbdf9b3a506a8c8b19f69d77c97ad0"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/chickenherder5.blueprint"
+hash = "fdf023a206861b4db202c5cfa3915fd7d70eec596745bd986c8226abfba8a0b7"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/cowboy1.blueprint"
+hash = "0dc2a0d2cf638224828dd9c027843758e47c9255d733b138d87fff1c58cf3b00"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/cowboy2.blueprint"
+hash = "d048f33e7df090be0a4d5bb66485b0d6492f08c822ebba90209041d4ebbe5862"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/cowboy3.blueprint"
+hash = "e88941ea2f74daa07fd68f5c68b994ae47a52ded25b11125710ac03fc57689fd"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/cowboy4.blueprint"
+hash = "3f8fc2604a9123c0985a64c16289b6899615f291f6afd322e8ab288c298a0f87"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/cowboy5.blueprint"
+hash = "bd7410ca6d16a133d8b541ef4c94b6698088bdb04c9bcae09e8dae45ae850c84"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/darkwoodfisherman1.blueprint"
+hash = "2c884b7183ef15f36c070820a5ad857c921ac86cdf0b5e75ceae07f3f5f7ef56"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/darkwoodfisherman2.blueprint"
+hash = "ce583c9f8259703a8a17516bd0eca917f759eea102371574b1718b80c02e0059"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/darkwoodfisherman3.blueprint"
+hash = "446d3c751bd828ae7a5f19ca66e6768fac2c8238b5d55d6ca3912e10506a85ce"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/darkwoodfisherman4.blueprint"
+hash = "d56cb5f47f94180a585280625c47d42d96e2d6012c811e4bb9d3f09d9a5e1224"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/darkwoodfisherman5.blueprint"
+hash = "b1d3efac4bd95ab66bfa1bd06667a79f17b7f43936673958df0cd62f3c8db1d7"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/fisherman1.blueprint"
+hash = "5a2caa046987c7432a547cb8300893e89e1bd5e15e830fd055f27bea8bccf978"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/fisherman2.blueprint"
+hash = "c231d6d991fb6ca5236ffddc20ad1d564b5d2a9dff485968c1f7a8f5081e1e3a"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/fisherman3.blueprint"
+hash = "6590024ce63e8fddc14b700362f162e350ba405a32cda5e47789bac1a13cb490"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/fisherman4.blueprint"
+hash = "5bf7a5c589025aafb13751c6800553d267be8c3a088b581cca13d265ff8669c2"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/fisherman5.blueprint"
+hash = "04ec207cd3cc4b22198c7fc1d55be990d3309c4b3d9999372edddf138c2a4d0c"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/icon.png"
+hash = "95a2816092bbdb45f4cf642d6b3c16e2de9d4eb099c96a1379b658fea4ed834f"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/icon_disabled.png"
+hash = "66134d711462101270754897c6995b9a32af4f4f46ff03c21a8efced80163d52"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/mountainfisherman1.blueprint"
+hash = "7caa8099576663039fb1ee0a086292a6baeebdbae906a8e650c65b8492807097"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/mountainfisherman2.blueprint"
+hash = "64223796cf4091c01a865e195d6538228e67106fd9b2120d11b0d4c4c4b2531c"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/mountainfisherman3.blueprint"
+hash = "88a77f834ee0389ba32a5783a98686ae154522388686da568c2f78a04a3163fd"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/mountainfisherman4.blueprint"
+hash = "303acfd067a21c626bb66646b47edf1512e7b2a69842bd5eac5d9ffc5b152329"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/mountainfisherman5.blueprint"
+hash = "8d1c0f9fa53d24116984660f734ff10d596e2b402fe023d86fc371b8f86dd98e"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/rabbithutch1.blueprint"
+hash = "fe7a18f4996b4496e4159db6d6eea2777ade89e06c5f45f961c05b4becd87191"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/rabbithutch2.blueprint"
+hash = "781726b4f5ac1a437da946178edee4ce30675451bb7063e1718ded2c49f61d43"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/rabbithutch3.blueprint"
+hash = "2611f597e5ed8a4960946cd87e763821c4c1ca7094bcd1e9cf380fa744c410a6"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/rabbithutch4.blueprint"
+hash = "d8f6ddf9996dbd05be3531f894fb53bad9fa38eb7f4d65942cbc462e5a93a4ea"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/rabbithutch5.blueprint"
+hash = "2559a9893e01704dea00c96bb371a014377415389dacad3366c9e5c93a291c2d"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/shepherd1.blueprint"
+hash = "dcc5117f1e440e169c4b7b6a0c28469e5d59f7dc640299e82ef34d2e01db9914"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/shepherd2.blueprint"
+hash = "284722a4e826f9974d2ed450102d01828b4928cb3333e3e779d041bf72d837b3"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/shepherd3.blueprint"
+hash = "3fffd86040383eafe11397d242e1a71fcbd3c82d0aa1427c31abbe6428553268"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/shepherd4.blueprint"
+hash = "4f36340838148da183b82397955295bca9559d227825c65a22f478abdec6681f"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/shepherd5.blueprint"
+hash = "6e32a23b2828d6fa6095793de6c1a792a33755d3d81fab1e0ab1f6af2b244428"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/swineherder1.blueprint"
+hash = "526273d32a754b0f691500b91cb1c6786d0ced54e05bb18735b2044a16d35306"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/swineherder2.blueprint"
+hash = "500292f166fdda3b33219ee94f8b725bcaf8b5c0155bd509dae7739eb2221562"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/swineherder3.blueprint"
+hash = "1a32cde3136157fb83dffb26ff77fd6163cf5943d73e98b688afb7daed7f992e"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/swineherder4.blueprint"
+hash = "5a79ca1bfeb668d61d9f4b2f2b2b04cec3ebd28746be825a7360a3a5f874b7b0"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/husbandry/swineherder5.blueprint"
+hash = "63681b270d6d3e096121da5f955ae546bcde8acf38e1da8e44750873768a72cd"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/icon.png"
+hash = "65d475315f6592053576c32e43b571561e9e02d3a05ff79747096207f2f2d758"
+
+[[files]]
+file = "blueprints/christmas_village/agriculture/icon_disabled.png"
+hash = "48a76d8379b9331f0e4b03c16a7677feb32411468a4c04fd15d46b6cad91eb65"
+
+[[files]]
+file = "blueprints/christmas_village/christmas_village.png"
+hash = "b2fd3828fbca53f0586ed43ae3999543801571a39f8194b730694c16d8d8f7dc"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/carpentry/fletcher1.blueprint"
+hash = "bb0687b830842a7c554b59afb106869aae30891b2e9c3cf6d3526c2fca277efe"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/carpentry/fletcher2.blueprint"
+hash = "d89837d7597a36665ed2c7cccbc841cabbb69beba1cfa00bb74e1499ae32eff2"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/carpentry/fletcher3.blueprint"
+hash = "446b00918ae4656c989b8d4f027ec38b6114144c5aba5c3b9e4ce8191a25c101"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/carpentry/fletcher4.blueprint"
+hash = "83dd9f822a18cf2a2431591b733e36a6f7895fbfa90b9690437d4a83198aa838"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/carpentry/fletcher5.blueprint"
+hash = "519073315d40d2d08730ee15c0a8dbd46ff4811f1b2c70412068fc17e8d41bc6"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/carpentry/icon.png"
+hash = "ae916d7a94c29d6ff800fd56046d6ae339a210448f92e03275f97840e44a7fcc"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/carpentry/icon_disabled.png"
+hash = "c69abcdccb1bfaca8f3c6502bd22bb574db594154282688d8038b2567f007b3c"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/carpentry/sawmill1.blueprint"
+hash = "64a0c56cb6041afd6a515f0982e2bcf00f47721c2ebff1d0852fe462159438da"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/carpentry/sawmill2.blueprint"
+hash = "f7be864179dc7175c74b36051bbd215aa936446b71393e2ffd59ee018be75b86"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/carpentry/sawmill3.blueprint"
+hash = "aa69931e7830276aff2b5a7b36520249b183a4fe712f5b3ac58201a4aab107d1"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/carpentry/sawmill4.blueprint"
+hash = "68769475b8134d4c93a4a96186f022c8a7c8fd43a4cf05863ad86d4d9bb38060"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/carpentry/sawmill5.blueprint"
+hash = "35f2a6502adb188aa527063755c17f7aef04a8c12eb0953ae549dfb4058d3050"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/icon.png"
+hash = "ae916d7a94c29d6ff800fd56046d6ae339a210448f92e03275f97840e44a7fcc"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/icon_disabled.png"
+hash = "c69abcdccb1bfaca8f3c6502bd22bb574db594154282688d8038b2567f007b3c"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/alchemist1.blueprint"
+hash = "c7d6bd708267a47fbff30a60700c401e156ce3ec62cdf8defc14a8fb8387d08e"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/alchemist2.blueprint"
+hash = "4820a722393a2fab874d170b393609afb266ca0b6d0bf8eb299b13a5ef603c5f"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/alchemist3.blueprint"
+hash = "c2249c5d44f17873ec6f1a784353f1ec0265f4756fcc37fa1bb75580fca2a6ac"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/alchemist4.blueprint"
+hash = "9a5aa271ceaf92a08066166a79c33549562b01561912f9d91610a39239135d10"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/alchemist5.blueprint"
+hash = "541587a78178cb4eae94093ed68d1de75a0cf1d64829be8db4e574c5e27eab92"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/baker1.blueprint"
+hash = "4cff0344a2e6447140749b147ed8e41ed9578bff0e81392d87fb3c65898aee23"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/baker2.blueprint"
+hash = "8884cd8781faac6f95d17255d2869c25efa2ec015b5747d0209c4eab74dfdf69"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/baker3.blueprint"
+hash = "42922e83d4be7dcaaacfca2b9f61afd65e36c8084e810341129e51009c19bf10"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/baker4.blueprint"
+hash = "4c30f0d3b80f77afd28926d5ed5b71e834e26a93d1f4c5f5ba42c5771b615740"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/baker5.blueprint"
+hash = "fd4eed0867f50b04dc5f4b5cc7207b714332a24e9181c0a2150e4a9a95e8bc31"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/concretemixer1.blueprint"
+hash = "1111172577625dfbcab264f3970404ea944cf65ac8d65aafd87aff082c09d4d5"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/concretemixer2.blueprint"
+hash = "64b7a2073ce4f454f648076523fc0f8a4f34ca3e07164f8cd7a57cea0efcbd43"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/concretemixer3.blueprint"
+hash = "8c0bdc69b83aaa563eae8f4a333ba6786e6deecb27c3ad57a9f40d7a20d018fd"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/concretemixer4.blueprint"
+hash = "562acd553273d6d04d37fc90956c7b5d86e89913a26cbbba3f510b0454e2c204"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/concretemixer5.blueprint"
+hash = "8ca22a7965290d5566000e81bc4f87aeb3e18a79c7881f257e83a9eb5ce66da5"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/cookery1.blueprint"
+hash = "ee778462d9fd95f661d46c3947a64ab25ed3db7856787792c12e119177602d1b"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/cookery2.blueprint"
+hash = "9b61b8e273f69347db92431a6424a45b8a8d5bb1f3d3b5cd43595db0d6b6aec1"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/cookery3.blueprint"
+hash = "306dbae40c0dde03517a68f5989106b2cfa6a8cee7cdf35bf980afbc2c6bdfcf"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/cookery4.blueprint"
+hash = "470453a8d006ae654bc2a8bf9ffe11fc03fa6f225221e10a20338f053d8fbf39"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/cookery5.blueprint"
+hash = "eaaf4c6901563ed8be220d01f485e25c8c115ae93b9908dba84bb46716f4e584"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/dyer1.blueprint"
+hash = "05e8cb118d6bb05a674715a691ab760fd9dabf60fafa3cf757bc4899d8895d77"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/dyer2.blueprint"
+hash = "9031f71c565bedcb07d9e6ac6f79d286afa16b457eacfe77d2fe8206b623d18b"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/dyer3.blueprint"
+hash = "5baa16c23699eace2138cb0a7b8bc975eb8b0a139bc4f1fadfcfde0de15f2daa"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/dyer4.blueprint"
+hash = "f1c824fef2331ceb6570dcb35f4e9dd35aa7e53a8eca03320fd293cc6d58a4d3"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/dyer5.blueprint"
+hash = "866c0851b36a35521662212adfa3f7ed868d957c05638d857090e3c1817480a6"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/glassblower1.blueprint"
+hash = "24f1fa15be28044fb7fbd429be2c1394239d7713f5c7d52b0567f2a3debec58e"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/glassblower2.blueprint"
+hash = "b204db3639c76737623a54ad9b893cc28657082c55381ea378e19efcffebe9cb"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/glassblower3.blueprint"
+hash = "41781ca0095edfb111fd388b7e522835c23f5402fcf05f7e90168931ced94e2d"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/glassblower4.blueprint"
+hash = "e86e0e5e4dc2393931c031d12d606b045244f2e37be497dc6f389f59ce7cf901"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/glassblower5.blueprint"
+hash = "3233e1c417633fe883e19658b163dff642a09abf3224f9ec65ad949b951abc0f"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/icon.png"
+hash = "2c7fe83c6825bfa9888f470d7d8bc3ce16f8094f0ac68157e677b38568bf876a"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/luxury/icon_disabled.png"
+hash = "d9b96d36d2d61dd9e45753a3aa57955e5af1d138b09ab4ce857174bcfafb4d84"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/crusher1.blueprint"
+hash = "bd1a636ff3ac51057d9c1deec7718330838118d1e38bd9f681bba2c828ebc500"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/crusher2.blueprint"
+hash = "dc207955fbcb5185745cafecec39fec5d7c1cbe07c241a5d60711c55c24e2a20"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/crusher3.blueprint"
+hash = "60ba586a980d019aa9dade39b0b8b9225bb68771c333fc1b8cb0dc1853fa3fe5"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/crusher4.blueprint"
+hash = "a0bb388fb9f4cbb1be27c417d1958b22fd16c32f3e3ce3f8775a3937c8b26897"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/crusher5.blueprint"
+hash = "69d5a9e64d6bb07583ef96b06ba290e1387dda78443150aa7df97ff9e4835985"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/icon.png"
+hash = "50d5823ecb15fc4eaf0123c3d740c9a8e96d2b57677f88485917f24d61a270c8"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/icon_disabled.png"
+hash = "ffb56d64aa3174af25f9b1ce3b6f6cef1712e62b4554bea0454dcaca1df30ed8"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/sifter1.blueprint"
+hash = "3f7c9f9bd8d1d2f9a22dac687a9acbb6d8c35e0ef377d36f992d171a99828a23"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/sifter2.blueprint"
+hash = "091f5979b0c716ae6c663ec91df9fbe071b948a86b2718d287a0afc955ec1018"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/sifter3.blueprint"
+hash = "2d2322be50e3ba24bb8dc504d9935b941e03cffa02d62e94569e1dafc2a96f30"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/sifter4.blueprint"
+hash = "593b84b6f272c612fa923bf986061adcab9ba9551128c9e7e16a0a3d19eeafc5"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/sifter5.blueprint"
+hash = "7f28633607dc3c70870d27d609e532c9da5f9cad1c9a0a48e02bab74afe6d684"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/stonemason1.blueprint"
+hash = "2bff43cba25afeb11c80164e53d0574b2b59a2e07af4921fda4d52d16f68ecc1"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/stonemason2.blueprint"
+hash = "cd3f46fd53f0f2ab16aa5900258ddaa01fb43823c86b0861bee3c80fd0664978"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/stonemason3.blueprint"
+hash = "4d20c72c1a1e4d8f34b77d5ea800dd530ab489965025f4e9fade912bbf56c1d4"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/stonemason4.blueprint"
+hash = "a245c0a113a9a41df7a582b36cb615187d49b0520ef6d5bf1cdc71bbf7a8d19b"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/stonemason5.blueprint"
+hash = "847f45967995b265db4db6352412b964cd2fea0f4c73b731a8f9fba20f24fd5a"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/stonesmeltery1.blueprint"
+hash = "b2f730a8900cb151fb379a5c1ba0f5d4ad806cb0ed86805c26086fbebc788768"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/stonesmeltery2.blueprint"
+hash = "f052ef3c67c37d89b5b62fdadeb834f2ff8932963b5245feaf72bd04cfa095d7"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/stonesmeltery3.blueprint"
+hash = "ff7c8763d38bbd3fedca9da06eb940fe7a13547d46ec7929f3de4256db281af8"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/stonesmeltery4.blueprint"
+hash = "f1273bc385f1c8232027db22237abb6c246e6d4a965ae2e4a16bc58f911faa3f"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/masonry/stonesmeltery5.blueprint"
+hash = "00bbd906174217a2b6a2050b18092865e93abaea46160c3680815a27436e8223"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/metallurgy/blacksmith1.blueprint"
+hash = "e9a96c6ac4d79aa778f09624a5396c528ebd741de5d0cbdb1750dd589dab8f2c"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/metallurgy/blacksmith2.blueprint"
+hash = "3275d79b957e18ec17f9c88f6e76ee58925ddc37c3f57323c7837e8618cf00be"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/metallurgy/blacksmith3.blueprint"
+hash = "cfd40001e2aff97c897a1efe2be8e898d098f6bb465a8b3c4010959b17607187"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/metallurgy/blacksmith4.blueprint"
+hash = "5b2c6897afd1721dba1b2eaccae41327b830b7772daa069967c459bd4db50544"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/metallurgy/blacksmith5.blueprint"
+hash = "121e984d32fd6162422d0b6137e94b7a7ecad8bd870ad18f3362b679e2c998b9"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/metallurgy/icon.png"
+hash = "50d5823ecb15fc4eaf0123c3d740c9a8e96d2b57677f88485917f24d61a270c8"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/metallurgy/icon_disabled.png"
+hash = "ffb56d64aa3174af25f9b1ce3b6f6cef1712e62b4554bea0454dcaca1df30ed8"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/metallurgy/mechanic1.blueprint"
+hash = "8613cc127ab7edcfbfc0576f61f51fe784cce98d7daa225ffe2b469aa0318d51"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/metallurgy/mechanic2.blueprint"
+hash = "574f22c7e364f28f2ba2c2858211722685958fc92da2506cda22caf24f0b5177"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/metallurgy/mechanic3.blueprint"
+hash = "ac5d7bea0a7fa6cbbba7303618756aef036bbcb52f4d5af9d1dbfa63f6009098"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/metallurgy/mechanic4.blueprint"
+hash = "75aa41c79eaae0bc7cfce051165d256224972cb10c6e7321531852d1cc066fc9"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/metallurgy/mechanic5.blueprint"
+hash = "0fa5091213c8c78ff4b431c3ca24cf505c95d6c7be436cddf1af1c93cbfde7a0"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/metallurgy/smeltery1.blueprint"
+hash = "9ea40e3728f5bfcbad55799af409f4e15f7e0a1041e9336eadcee716a5f66d1f"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/metallurgy/smeltery2.blueprint"
+hash = "cae4e2f5986d92b95c1c790a4182d0c22191a4ccef3b23e38c18801ee1733759"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/metallurgy/smeltery3.blueprint"
+hash = "02621922c927f33548fb48f3225905c12303c645e2fcd7174f74a0c0d3a976db"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/metallurgy/smeltery4.blueprint"
+hash = "3d7a6f0ee0fb2c34102aa82fec33eb6ab951f292f75d5b4d4f996ee012865b48"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/metallurgy/smeltery5.blueprint"
+hash = "ad5051467a2e48bdad485ace20861c4bb43c13bf4401acb28ed7f7d7b1c5a631"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/birchwarehouse1.blueprint"
+hash = "f022b858168269b2d54a5393c57812611538346bcb32a2248cced29f41680b31"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/birchwarehouse2.blueprint"
+hash = "9250a591f972141febc3924bfad8267cac70dcc450126114387a105468829e1c"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/birchwarehouse3.blueprint"
+hash = "ddcaccdf4345ec0440fd88afdbb07ac5f5a698676625e21adad864ccb083d2ab"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/birchwarehouse4.blueprint"
+hash = "54a797abc05ab646472bb8128baf9252d80469f8f0156195fd3f3a37e5d64667"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/birchwarehouse5.blueprint"
+hash = "df2afd3960cdfcefd8a0f6817337001409486377ce02d17f04909a419dd87139"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/darkwoodwarehouse1.blueprint"
+hash = "e836cc7670df035cad19685afd456e7e06dcee555796afc045db5b738cb58297"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/darkwoodwarehouse2.blueprint"
+hash = "b858c19ebaff463c837c5762f7e921ac5609e22e9522a371a871943dd126ef65"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/darkwoodwarehouse3.blueprint"
+hash = "6a0b9c21c8ab8b74dc1e64278396f14a09f19063b0ce434f7377fed1bd8e0d7d"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/darkwoodwarehouse4.blueprint"
+hash = "5341acc81186458624ce5da29f28d7e885df87cd3c1d187a4657902cd8898b15"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/darkwoodwarehouse5.blueprint"
+hash = "0df8e222f6931535108760b1c0a8eae3cf2d794cc7fe0dd0211cb60b336f2710"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/deliveryman1.blueprint"
+hash = "99b91a5dbe2a4cf6d4f229059f26a5d0aaa4253b188b12c44c492864ee043d0f"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/deliveryman2.blueprint"
+hash = "f84fa7f87640317dd4dca0dbd99879d551df5d988763967c52c56d1bb41d229f"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/deliveryman3.blueprint"
+hash = "d0c3536d8ba67bbef3a1e827fe66bf67d7402859998eab60b2ef72bcdf80ad6f"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/deliveryman4.blueprint"
+hash = "fa29806dfedac4982dd80c25b67650304c8ffff9812b05de3d8049e9f4cd611c"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/deliveryman5.blueprint"
+hash = "92bb271759f7dc62eccf557dc73832f39af045f9089ac3fcc200f61743c14213"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/hillsidewarehouse1.blueprint"
+hash = "5f43ad876c3a6b13e468c0837ce46da7440c49edc60e95ec81ae74d430125be8"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/hillsidewarehouse2.blueprint"
+hash = "90507117ae29272f79a17f6cd0ef7a087a83ec13b29773291e1b4a9277305987"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/hillsidewarehouse3.blueprint"
+hash = "09df016044db06edd99c1c9d072a4b733edccfd646750fcd2316c810c77b6c89"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/hillsidewarehouse4.blueprint"
+hash = "4b4a2c326cc561bcabc06198067f1bdd0da5856b0207b91d812c30154ce0b7a2"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/hillsidewarehouse5.blueprint"
+hash = "0716ab46014601228c4126076fb6423e1c80d6613add6ed699823da735396058"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/icon.png"
+hash = "a672ecba375afc0bb706278e3d55c52d6cda12db2a2c406651efe867c9fcb738"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/icon_disabled.png"
+hash = "515846f040e14a8ee4bdc7a411b2843fcc3a9b95fb788a217fd968f2f006d883"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/lakesidewarehouse1.blueprint"
+hash = "b817933d78b5ab2df30313cfcc2e0e700bc5441026062e15f0c541782008abe0"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/lakesidewarehouse2.blueprint"
+hash = "74c66d67194a4f35d2a023d309d756238d98598b6b3a76dfece5148ad50aac27"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/lakesidewarehouse3.blueprint"
+hash = "a2bc410e67aa9e8fd3c79c29ea4b742ea05785253c86857283611a9bdcfc9451"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/lakesidewarehouse4.blueprint"
+hash = "5fb41f7ef8cc120d5e66ffe0260cfd7883e621bd7622a0a70da9f50771119029"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/lakesidewarehouse5.blueprint"
+hash = "1fcc71f57176d8e2f9104672e8b31ba69f969ea4e3e6c043801316ff827d76f2"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/mountainwarehouse1.blueprint"
+hash = "32dc4fb5ab7ff58b7c69824771bc6802e5a65ef90efca952c74f76d0b634a5fc"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/mountainwarehouse2.blueprint"
+hash = "1029536db7e21341c2fe19e8551ba321db5bee2e788889735daa44430c420358"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/mountainwarehouse3.blueprint"
+hash = "80673074699f1cb25e4e093d90b59535007f2107e6d5db30b60f901b77c99169"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/mountainwarehouse4.blueprint"
+hash = "49eb88375342d76d329ff721b172c175335f03be0dea1ecbcfd459356979da2f"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/mountainwarehouse5.blueprint"
+hash = "b288ef27ca3d0b78bea89c599d143c9a95fdd34f8ab7b0acc4d916d2039459fe"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/warehouse1.blueprint"
+hash = "d517e29ac0c1ade5d49a722e2ca83f2f54d4588d8b158c0d6d6a7a3f732a8075"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/warehouse2.blueprint"
+hash = "2441f0a756056e60786cb7d05a49619f0868aa433d15c9394f2a6e9c836b1ca1"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/warehouse3.blueprint"
+hash = "bec7392ee37ab2d15c04ee9c37becdbe480fc3205e66e75931dc4724e34d0132"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/warehouse4.blueprint"
+hash = "137a140689f9231564b2ebb7b5ffeb6398393fee92ac84e4bc06837aeb9ead05"
+
+[[files]]
+file = "blueprints/christmas_village/craftsmanship/storage/warehouse5.blueprint"
+hash = "5212338a19ede59ef9844694a8dc3642f4917e1ff475ee8c32ae856a2c6c912f"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/festive/candy_arch.blueprint"
+hash = "13864de699e1fc1ebff6a4b63b93da88b04bbb6515f37e9d161127c23f0f69ff"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/festive/icon.png"
+hash = "502543dc05cf44448877426a51bbbf077eb647a235d6927bff231eb1b9749e96"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/festive/icon_disabled.png"
+hash = "af3041f266f0040428f2eaadf1d864321bb3dd6061c6779aa149dd547e28837c"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/festive/santa_mailbox.blueprint"
+hash = "3f21c637806a46ec6a8c69a10f97694e402e9c12c3244d13cd2ed3315cacdcc4"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/festive/skating_rink.blueprint"
+hash = "43bfcbf3ea8348e5d3466d871d222ba24de40d8591a121e5cdce90031072dfbb"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/festive/sleigh_display.blueprint"
+hash = "5409e218e3a04c37a1f95fda0693537685d079cde733ff2213ed60591d7060a9"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/icon.png"
+hash = "be7dca32ab4339f1d47156c58b7f6ed75331c87f6f23cc46a3107685f3aa19aa"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/icon_disabled.png"
+hash = "dd0af6401ef211f0750d32141290f08e75047465bdde830207e8369f6dd2e33d"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/market/icon.png"
+hash = "c5aa9ad86c2f5ab2b8501a821d52f55af12c9e6c251f46bf1770de353147bc03"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/market/icon_disabled.png"
+hash = "ffb56d64aa3174af25f9b1ce3b6f6cef1712e62b4554bea0454dcaca1df30ed8"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/market/market_hall.blueprint"
+hash = "003a3811d2718c833565a37c5ca847a2ec36ca1adc533ff58e551e0d45760a2b"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/market/market_row.blueprint"
+hash = "0030c9fdaa905e6e9d89143891ba0d7db765339737626929ee3b6492f8a1c339"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/market/stall_chestnuts.blueprint"
+hash = "f42ff6a7b39f30111a746e654f75c1cd76977b41344df2da0ab776a6d5e71465"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/market/stall_gingerbread.blueprint"
+hash = "a4253f7e450c30b5fb76dcc06c44fb1304c74aad7141b3e1bd117bbe65e37fb7"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/market/stall_hot_cocoa.blueprint"
+hash = "b71ca9bbf96781864709349de5e766ed31bc25c488baf181d0708568e3913068"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/market/stall_knitwear.blueprint"
+hash = "e19762b2d4db8a53a53aa7c4dc469349ab0c2efa09813af4e0eb7be039ce573b"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/market/stall_ornaments.blueprint"
+hash = "cd8745fb1f2b733403825f8b460d456fcfe7b0a6c027a3c5e8efa475b5457cee"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/market/stall_toys.blueprint"
+hash = "8dbb4c76306d4a9655af6c976fcce2f38116409143078cd4468ffa931fdfa227"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/parks/bandstand.blueprint"
+hash = "4bde1b3f517efbd3e5a6a86ae14cf6d976bff5038320e442a8c331b77c638dcc"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/parks/bench_nook.blueprint"
+hash = "bed82a4227171e4831af3edd32e6c3cd970b175eb9d1ff42ed82d3a3d72d5f26"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/parks/icon.png"
+hash = "f95fcd86af090259dbf23508925ce5e9afd8569949dd4520b61c11f5c7499383"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/parks/icon_disabled.png"
+hash = "973d897c72e2c9a85c79d5143946312f08da3af26e4586bf9f3380e175150aeb"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/parks/pocket_park_large.blueprint"
+hash = "f995c2bd0187adc5c24b01964bba37153e32f1d4eb5f1123dd64256bc05fa06c"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/parks/pocket_park_medium.blueprint"
+hash = "6d8dbfd95861b93ddf6715be62e7055733d9f40eac5844cead12e02dbc5eef5f"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/parks/pocket_park_small.blueprint"
+hash = "92533dd8dfbdc5dca6b633380129376fe857bb1cae1133d9db0715040b6d8bbf"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/parks/snowman_park.blueprint"
+hash = "8a782ee34884ad944b9d1f7c3fca7eb109d033fc5fa9613694000f17a40cbe56"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/parks/winter_garden.blueprint"
+hash = "9ede543aa65e21b53e9c3be75c1b73db122dbd42efdad8738aad359772016b81"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/parks/wishing_well.blueprint"
+hash = "b11929e02e946a2f363f5837af75710ddedd88c722bdd9f79d575d85e6ebab83"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/plazas/frozen_fountain.blueprint"
+hash = "4795d40e41f0bd18525f2c573dfa1ccc49e2e753e9417bf67ff5fe7f842c13e5"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/plazas/icon.png"
+hash = "f95fcd86af090259dbf23508925ce5e9afd8569949dd4520b61c11f5c7499383"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/plazas/icon_disabled.png"
+hash = "973d897c72e2c9a85c79d5143946312f08da3af26e4586bf9f3380e175150aeb"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/plazas/north_pole.blueprint"
+hash = "7d5a3cf5ad833c573add950f96fea91e7fa3e543b3ae96f0139b29fb844f596d"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/plazas/tree_plaza.blueprint"
+hash = "e1688c16aa20de0c3778396ec9d09b7893cf54eecfb4e12d6106ec34be670ad5"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/street/carol_stage.blueprint"
+hash = "756348065ab1532012c379469280b8d869cfc30a3f705d748049dbcbf7e8dab8"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/street/icon.png"
+hash = "f1ff2b9b9e18e8d244ab241836748271ff04e246ca4ee46d165d5c7309436ba6"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/street/icon_disabled.png"
+hash = "515846f040e14a8ee4bdc7a411b2843fcc3a9b95fb788a217fd968f2f006d883"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/street/market_cart.blueprint"
+hash = "da2ad28009c19916efd3b5c058fa98d8c34525e56c5561c344d0a73c82432ba2"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/street/post_corner.blueprint"
+hash = "50552e1f226485f2a533939c24a351c682cabe8c963ab36e6e59c24d9d42fe15"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/street/sleigh_stop.blueprint"
+hash = "6b7c42501775f270acc465bef5b591e471206d908f5b07594ca4365a8dad156e"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/street/street_set.blueprint"
+hash = "c834f5df7d0e8ecd4374cb0259efc50f5423a446253d5b473115bf40b5dbf876"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/street/train_station.blueprint"
+hash = "3a40d27afcbf6b0946de799658f926f2e7ce44487b137e47ca3a6aacc406c473"
+
+[[files]]
+file = "blueprints/christmas_village/decorations/street/woodpile.blueprint"
+hash = "dd93abdb2b8dbd0f1706884741691d1fed50cd37a53a6cf4f72863b542244b0f"
+
+[[files]]
+file = "blueprints/christmas_village/education/icon.png"
+hash = "fd1b0779eeb2cbcfd432b2051dc4a0e0d45ba6a9737559153e052878ca6eccb2"
+
+[[files]]
+file = "blueprints/christmas_village/education/icon_disabled.png"
+hash = "f094103824fca88ff28f12c9532793966e84957cbece6d247e584d5916860ae5"
+
+[[files]]
+file = "blueprints/christmas_village/education/library1.blueprint"
+hash = "782edbb96ca196be6a3793baf0ae1ac0260399a4aa0b298cf0b1e31b97244a50"
+
+[[files]]
+file = "blueprints/christmas_village/education/library2.blueprint"
+hash = "db52d8070cd655ad6f0e0c2d008d11980717b785ed899d788e54ad25d154358e"
+
+[[files]]
+file = "blueprints/christmas_village/education/library3.blueprint"
+hash = "1e8c93c4aa3ffbfa73c2ed56c303591af6426bb9b77e84c4ca8e4ef3b755d8e7"
+
+[[files]]
+file = "blueprints/christmas_village/education/library4.blueprint"
+hash = "8c87f86f821099c089dcacdaecc14d411611396a07b422d245db1b86bad58626"
+
+[[files]]
+file = "blueprints/christmas_village/education/library5.blueprint"
+hash = "25b8546669103dc279c981d9cecfdca1f3cec69d03b60f3f8006fca44f1c8aea"
+
+[[files]]
+file = "blueprints/christmas_village/education/school1.blueprint"
+hash = "3db01b14f1b4307febce4b0431d7f765c2b9f30476875b53db3a2239b829b692"
+
+[[files]]
+file = "blueprints/christmas_village/education/school2.blueprint"
+hash = "4091a407e208fdecf7743118bd01993078603deca8d2d3d7dd5abe27354625e4"
+
+[[files]]
+file = "blueprints/christmas_village/education/school3.blueprint"
+hash = "b6b06ec1f8b09e57ac3cd78eb12892bb73d41624ab1b60868c312a433df39184"
+
+[[files]]
+file = "blueprints/christmas_village/education/school4.blueprint"
+hash = "e06c60351ab53623a4b5007e5319108694be33274e855a837ca231529b898cd0"
+
+[[files]]
+file = "blueprints/christmas_village/education/school5.blueprint"
+hash = "afdc9e75fdbadefe3f6cbd7de67f0fa056b2b34178212ff0b592f1b79300b355"
+
+[[files]]
+file = "blueprints/christmas_village/education/university1.blueprint"
+hash = "f035d900c167d673ef51a195df314e07fd405af736a654ffb80fe4275e8dc86e"
+
+[[files]]
+file = "blueprints/christmas_village/education/university2.blueprint"
+hash = "1dc4fbe4029017c65ca448994e50c6f348089369ff0d922b7faa0e68998037ff"
+
+[[files]]
+file = "blueprints/christmas_village/education/university3.blueprint"
+hash = "90ad1bbe8d281ce5a41d252835ce4bb59cb88107277a81f3df959947dbf4f563"
+
+[[files]]
+file = "blueprints/christmas_village/education/university4.blueprint"
+hash = "79b445c25be9d6d74efb89c21b05333fdb28d4c4e2cfaaa1b7fdfa71463fd91c"
+
+[[files]]
+file = "blueprints/christmas_village/education/university5.blueprint"
+hash = "f1e1ddfe7a174cf5324652ccdf9e6b63feeef0bae01b6fafe5bfd03c73fd6817"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchbuilder1.blueprint"
+hash = "157d46ea45ab5b3474b5f9314fe64353b081e98af5913cf9c6bb3209ca46b908"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchbuilder2.blueprint"
+hash = "6e5870d310906fb3c6dae14039f5ecdaaaf13cb7329103b2e73fb45973c4f5f7"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchbuilder3.blueprint"
+hash = "d64115e54d147491531bdc6f997a9f4f6738047f6de4167b8e7564744d4df7da"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchbuilder4.blueprint"
+hash = "43917c46bcda5c70580cc4f0b4f057efa3d9cc2b3703f9a227467dc5f08b6544"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchbuilder5.blueprint"
+hash = "8e36e223bc2503c7f00fad0030437cbf842c28c2efb98ced08d96f12be0ae107"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchcandyrow1.blueprint"
+hash = "396c43746d16c4e3dfbbc035e73f25d3a9526be48d5ef63ce3f755803ba1932e"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchcandyrow2.blueprint"
+hash = "ba20aa1a858fba3cf3993a47e532bea1f3933306c4ca783f8face88ee11ed4fd"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchcandyrow3.blueprint"
+hash = "8e0d66e8e882477426cb1ab41cd279a41b2af8e9e8d96c08139015e53bef3667"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchcandyrow4.blueprint"
+hash = "7a5c3ef8fcc2c393385d1dde892a52c467e3cd358159a939f7f9defc04d468f3"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchcandyrow5.blueprint"
+hash = "e00f9e97291eee6341400a228015e9d98e1535efdc085904ae4c95be8b3bb074"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchchalet1.blueprint"
+hash = "4358a8e184ce44644265d564fdeea634b0b120feae6fa2f06e22e442dea426f5"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchchalet2.blueprint"
+hash = "09d5d81d3e4249b1c3f320b8d5a1cc0b3f38b1104fb57a249fe0d353723bd53f"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchchalet3.blueprint"
+hash = "6200e5d27d8147ce17e9e3011727089d558a9e7d68936a501250df3d77e60536"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchchalet4.blueprint"
+hash = "ce1fb8a6dbad2a7d83706e583aa3559bf27c5c26e5b0e6aaf5b5eb8ab3696c43"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchchalet5.blueprint"
+hash = "f2e52d178df2607bdffc793fd1885c8b785131ab25caec9a7df0f1a1666b1140"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchcook1.blueprint"
+hash = "2930ecbc6fad17f744d14628ec6c2cd473bd87c7338a0c06c68aba2352a5e33a"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchcook2.blueprint"
+hash = "46054ba61f2f4cb6633786c8cbd71727715f64aff871f1f0af1ae15256e456e5"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchcook3.blueprint"
+hash = "ae8c29d2e533c8d5ff5a5a5d0ba6a91b30450551b1b96fcdbae1d97c3ed64994"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchcook4.blueprint"
+hash = "bda6590bb31c5f348c57cacf8ba678978ba44f8297c6b1db73850f42d46ae53e"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchcook5.blueprint"
+hash = "bc0279e5b19aa358d85cf4944be5e881b2f36bc0d6655f71a301ffe9c5d96bbd"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchlogcabin1.blueprint"
+hash = "837f19a46a8d2990b63159d57b02273404b6bae1873670158b652be16a8825b9"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchlogcabin2.blueprint"
+hash = "4c640a1d10cd1522e949352f64662bedc3309aa01b27bf0682eec95f98491e17"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchlogcabin3.blueprint"
+hash = "31901a0124027379edf210398dc66def3fa51b068953deeff2dbd8d4a229212e"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchlogcabin4.blueprint"
+hash = "3a12ed3aba61f83025038b4710fedd9db94685dcab965e1754bd29897c6087e1"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchlogcabin5.blueprint"
+hash = "b0f829992738e80664c00784f515492d1af5f46c4d5eda755c33d3e376826ba3"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchlumberjack1.blueprint"
+hash = "d480d33bc9dfcd7f1e66584f2458306e29d70430fbadf266242d69e3167f6369"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchlumberjack2.blueprint"
+hash = "1cab6508d376d2a1cde6e841b809d15b6678c100820a01eec757e1a0908f8639"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchlumberjack3.blueprint"
+hash = "9c09f850369cf8a588641a4ddd7612cc975a2a4e47f51aff05b0fd74ce2c0c87"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchlumberjack4.blueprint"
+hash = "3eca2b34a980b9f182b714ed672d8233fbb1f43892d6991e8348fa373da6e9f8"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchlumberjack5.blueprint"
+hash = "d3f86c26b68da9ee9b7e669ab0c662a95f7a8f7843016d2f97dd812a937dbbe1"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchresidence1.blueprint"
+hash = "19c8d7f1d089c9d465e9875fe6ce4f501993df97584090e5d3ffe22ee88d57b1"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchresidence2.blueprint"
+hash = "a52cbd434dff6a10c74d20833bc24655f08a4399a172dca3adc0d90043851aea"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchresidence3.blueprint"
+hash = "676a1fb826a4eb7f6a0dc3de5ab9ecbaf6f711777cff85cb6308611d4dfa6b0f"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchresidence4.blueprint"
+hash = "af9f2256a5da0ff666bd78b9cc1e71af26907f4af0d0f3d0e00d5c3f65073def"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchresidence5.blueprint"
+hash = "a3b4f42e454db9927dfa41a857d4b41ae2a5badb08ae0dd0ca7d38d5ecff11d8"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchresidencealt1.blueprint"
+hash = "2a0300969188347e7ba2dfa11e736125d8f8f72d5b3bd9f7abc0ed0b05166e06"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchresidencealt2.blueprint"
+hash = "a7252ca180edc37fccfde890a8598ab14dc3271a80b716ce011c7e12622265a0"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchresidencealt3.blueprint"
+hash = "fe12b7f5fef5f57c8fdcb6f94afff623057b33ae4ed54ca9be776ea5d6496e19"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchresidencealt4.blueprint"
+hash = "86b4e4b001d12498d1fc7c24d33591b082f4fe2fe4695a53ac89b12c86ba17f8"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchresidencealt5.blueprint"
+hash = "c802e5f617080892f6cf869d8e9a64231f84cee5b6724822d96467b7593d34b8"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchstonecottage1.blueprint"
+hash = "a95e2d11a1a89b83640f465c555f80458f839d50a40111017063bb11009d72ac"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchstonecottage2.blueprint"
+hash = "6c75a1ba7ec492c712f4a5279489b52d691fc557c4150bd1bd16130fda94998e"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchstonecottage3.blueprint"
+hash = "ccb8e237a576284cc56f730cc2cf21467cdc17961095be3ec4d5507f1dd1f7ad"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchstonecottage4.blueprint"
+hash = "380ea570c17cdfc77b6c72cc136b496ef292ca864507d2b370d810a48f898796"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchstonecottage5.blueprint"
+hash = "f312f329f34861e6083238374abbb57ecbe01a7ad48af46afe5884bcf31d2463"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchtavern1.blueprint"
+hash = "426c17318b325b9413838ec109f463113010332d4fc13be7f147bdd64f6098ef"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchtavern2.blueprint"
+hash = "bb247d8cefe825dd9fb3baf2ec7953f291030a7a45fe32ed779dacb81c39308a"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/birchtavern3.blueprint"
+hash = "d7125172c2db1954709d5fceeff3ba679068c40277f061c34affb574eb93c171"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/builder1.blueprint"
+hash = "081a3b800a38dcc93126fa692e8de40fd57e421ff7c139ffb96576f189a3f15c"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/builder2.blueprint"
+hash = "80b8ff06515e4e795456ab9edc3cb6adc7db7dbd4b640a4682950f519e6dfb0a"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/builder3.blueprint"
+hash = "e6505cdf637c9e8a6ca4b5d74b7a9eba62a619d6dfb39a46a0e43bb0bb740c5d"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/builder4.blueprint"
+hash = "74ae6f09911a55086f6db6554cc12fceac4cf02cc7fe4eae95e5cce1d9b60edd"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/builder5.blueprint"
+hash = "c8fc42bdbc2be4da88857032febe735f7b62f35227e007e3c7649e7c09995eba"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/candyrow1.blueprint"
+hash = "e1343de1447c77b7b8375d7f0accfd47e395d341184d1311eda9633196e51271"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/candyrow2.blueprint"
+hash = "53acfd54db2325645654857ebd7a6c225d973e25649180b30b2ad31daec1bcfc"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/candyrow3.blueprint"
+hash = "1da2223abec6804cfb4edbc3193ba9f813288f716f234fc6d4d9be4193284f7b"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/candyrow4.blueprint"
+hash = "0da0506b5065092b373651b1cd170403115ef23d87228bde70d488649dbda986"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/candyrow5.blueprint"
+hash = "dfa060abf7e4d2e50f96deb5e5edef94d8b5c224fa578c95475e9510b67189c6"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/chalet1.blueprint"
+hash = "2cc240ae76f461f0bf33f21c9055870d851118cea89b0043dd3d16357d3f9dc2"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/chalet2.blueprint"
+hash = "ab6d1f2ea3cf8a2e433516b08f3ce5bd5884dbaace010314ab2f9e55ff4ef39e"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/chalet3.blueprint"
+hash = "5cc04ea454ada38c411f17642e48147530543dcbbf393cd691a109d9686d5348"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/chalet4.blueprint"
+hash = "9c088c97ff58437fa519a3a9bec6d48c9dcb58088a9342f2107297dda029738f"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/chalet5.blueprint"
+hash = "72ad40ef29f4b6b29e6f0d57643259b9ffba5668d93eda8b1386de209665d230"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/cook1.blueprint"
+hash = "f988dc00897a38078bfb1ad6ef38b14f835bb51e8254f7986a74a2d7843327f7"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/cook2.blueprint"
+hash = "c2f23781864cd09fce963c4b82cf8992f3e5f093f0b7d91b3464a517b1716dd3"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/cook3.blueprint"
+hash = "88ef014587986117977e31bba1a61452391e1051f7279bc7fc29f5c7f85b12d2"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/cook4.blueprint"
+hash = "3b42249c16d80debda9a0a58212990e8e4c2a28fed161c243ea8afa543f31544"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/cook5.blueprint"
+hash = "830984a68fb4afb24be5cc6592bb6b5077e7ab942f9ff642c73e46d66a6c72fe"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodbuilder1.blueprint"
+hash = "bf8a57d61d522be14a7506630f82e2495a059c034352f7bacd74d87aef3a68af"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodbuilder2.blueprint"
+hash = "99e6a6378b0c3c0e6f623dcc966255ff1c9528d30ee760d722af53f25adf3d25"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodbuilder3.blueprint"
+hash = "ae7e7af7e3555dd99385fd578af0ccad2ccc7193384ffa2d2d8e3a201f098d36"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodbuilder4.blueprint"
+hash = "6e64d8193c512264a86bc06e19b6bcb4c62270ead04f09a3eb5d6a6ed8c845db"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodbuilder5.blueprint"
+hash = "97b8dcb99fad2d88632bc0bc1d803b08d10a009675d929469d0c757919a1a7ed"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodcandyrow1.blueprint"
+hash = "6e40d0b65b2db406fcd27297c38526722fd2c6b5006e2245a6091852d751ec71"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodcandyrow2.blueprint"
+hash = "d96d1624bb5076dd5bb379c8934bcc4ca829d589b638723be9768d80ae9382d7"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodcandyrow3.blueprint"
+hash = "d47e3739ace3ba8880805f241a1be6c9ae1766a9377ff166ff2939b0ebf02f4e"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodcandyrow4.blueprint"
+hash = "4e644aae94c11481fe5fd2e56348443c91e2886dfbee08df2af58a753c0f7734"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodcandyrow5.blueprint"
+hash = "d067322b2acff81607dde9d5a26d594def9e003dce51d1554bb89906c108fcea"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodchalet1.blueprint"
+hash = "f10fa3c58c18b8c658295f83dc7ce521a32681e3ddabb6e992705e591ee90a57"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodchalet2.blueprint"
+hash = "7b6c8c269da312fbecb1d3fbaa7cc9718328c4122ed8822a052c9b03655eb5c1"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodchalet3.blueprint"
+hash = "4e568cce6c7f2c6f1fad2a05317cf583a85e76d6685b921b3a444f9482d8af8d"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodchalet4.blueprint"
+hash = "15a8eb95e4534ed0d3af74d0c124ccd75050b5e30afedf353d2b76a75a3da343"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodchalet5.blueprint"
+hash = "654529814af68ca77b77c570c8ff163f547867c3ae244df1dad55733e552a61d"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodcook1.blueprint"
+hash = "7f3ea43f54d66fbe151ea4001720ad62f9ee297a2bf0175c802fab6b82e06e8b"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodcook2.blueprint"
+hash = "6583bd6aa53297334f7a612bb74cf3e3bfda79ef994647ee3a102fefae03eec7"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodcook3.blueprint"
+hash = "54ca4e7bcc329b9e79cbaf8d4cdfda318033c80b102b2add8f513abac2088897"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodcook4.blueprint"
+hash = "0700a25f8a5e58f7706c5f010135afc13437e101dd3c825d524c2f1cf8b7d1d6"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodcook5.blueprint"
+hash = "2a98d55c8926071cca0e2a5a348f1e040dbba38268af81c98fee15bfabdd1b4c"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodlogcabin1.blueprint"
+hash = "49b0c0a6bccddaba8e3dccfd4b3681bd5c1946bf02a2562ba0b851371919417e"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodlogcabin2.blueprint"
+hash = "0b44ac1e3024d260a5da9f18e5fc140752febc71fe817c46c8b0bf4e4905b61a"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodlogcabin3.blueprint"
+hash = "85f21c3f16ea825873d9f94cff57309f494cff54d806ea4c71126bf021acb0aa"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodlogcabin4.blueprint"
+hash = "70527006d52842ca58c546f8320847b7db337053ae85cd7d3deae4e7f8ae3263"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodlogcabin5.blueprint"
+hash = "462196cc016e87663282c50a0dc03d2d04247e343bd38fbae69c8123f30e588b"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodlumberjack1.blueprint"
+hash = "4a6f1d363bf5345b737803008287f34170d3d1d582a283a8424066ef58f2b9a6"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodlumberjack2.blueprint"
+hash = "c5debad231d1d99722f12805a42da57626f9bce4bf8ffee013b986461698637f"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodlumberjack3.blueprint"
+hash = "e86dc6754d986e3e62bfbacf123adcf20d3e25c2a5f2dcd45b8fddf85f36818b"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodlumberjack4.blueprint"
+hash = "3810bfe1a5b7a4851316e16f424cf207f57de556c9e9f5939bfd852c1c71fc6a"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodlumberjack5.blueprint"
+hash = "96cd1ef39104ae961d863c2e84d830d40007c8e8f57dbd84bcd64178bd750c22"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodresidence1.blueprint"
+hash = "d209a381edb87ae3a1e1fb3a92d25c0b5dfda7d21b2dfe194f6375c58adebf41"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodresidence2.blueprint"
+hash = "e5fbc7d599b5ed0b17b59c5a2185ebe487c7ba7837608bcf9a5fcd5ea42c5349"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodresidence3.blueprint"
+hash = "16385257214d516bd2916a5159c46675837e38c0c716d0656593405434550868"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodresidence4.blueprint"
+hash = "34d30846402a65285372eb9021ec2f6a232a47d488ef92703bcb0a28abce12a8"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodresidence5.blueprint"
+hash = "cc3f32ac130c5525ca1dd66902dae8ca00c8e3ecbd3fa38f1a001491785529ca"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodresidencealt1.blueprint"
+hash = "4e33f2476110a514a6b7a4ae85442a5da09137a3126d3d5a16544e058b9e59e3"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodresidencealt2.blueprint"
+hash = "b69ee8a7c2b3cc84099d2d622a83c0a30e5362a870d4a1b5e571d449ee744bc6"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodresidencealt3.blueprint"
+hash = "3363befea9a101ad49f9a72983dc2b20f708eb4f074212f4b3d1380bbfe6c6d5"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodresidencealt4.blueprint"
+hash = "5cb553830c40e49332c1dc78eb378e7f17b03d0dd5e3a0fa94debfafee0e1dce"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodresidencealt5.blueprint"
+hash = "db6f9c788b7ef9f62148cf718599c81479474836cba848655b640fa714413d2e"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodstonecottage1.blueprint"
+hash = "6695ea251d1c34491619a29d775891158dc1bbcc486eaa3d9847de136e3e3895"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodstonecottage2.blueprint"
+hash = "e0975b93fc2d21d1230c8b2091c7c428bd8a0e0b5dbcea1add36d4e6eff3053c"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodstonecottage3.blueprint"
+hash = "c4b435f009acdc200df91997df80967efd56a05547e0f6d45b8990a352d7d41e"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodstonecottage4.blueprint"
+hash = "659d015fb851807ccb7d2cbfb9f67fa39c807b8977900a60a406e162e9c9a0bb"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodstonecottage5.blueprint"
+hash = "a8a8627da73bbbc9e5587bb5d5efa172b5affb3c1d84613c1fb3c99c43ac9e4f"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodtavern1.blueprint"
+hash = "913c4ef941e00727fbd1c68b6d51c0cca0dd57ab780cd6381d4444a1536d2952"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodtavern2.blueprint"
+hash = "6e91cafd3b6403f890be497d8c51805b1be1c6d15e059971e91dcb883a5269de"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/darkwoodtavern3.blueprint"
+hash = "e7f686b1d4e4381d896a09deb0c892f86b6705f55439646fb7c0cf74846cd3c4"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidebuilder1.blueprint"
+hash = "48dae82b066f8b64547ed8f8f5583a788199f69a0df82d66d753eabab5b44d68"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidebuilder2.blueprint"
+hash = "e24a48d4b364a5a27dafe08f6629bba14bb5d937ff5fce68b89783368896db56"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidebuilder3.blueprint"
+hash = "1313584327f6b5287a89d7ead9c57a19dfdb432252e4ec4c14ddb2cb2e61ad53"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidebuilder4.blueprint"
+hash = "ea2d1bd1ed353d052152ad002739a2a6a45477f2290ce77b8bde9d6aa3c92528"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidebuilder5.blueprint"
+hash = "c155d59f1a34bfbf0a97b21373c18bd5f2aa31ff58cbc9dae7cfac4d52e652ab"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidecandyrow1.blueprint"
+hash = "96e77bfd3d8959aa8f4460858920e782c7786e5d40b05f60aecc1c94b68dc1a1"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidecandyrow2.blueprint"
+hash = "b83d1f4555dc67ab0174b57c17acb95127fbe51886e967f47883f4eb0d7a45aa"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidecandyrow3.blueprint"
+hash = "cba318871d4c809eb3ddf8bb9688896f8971bc5941ce6b39bdcde7cfdcc822c1"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidecandyrow4.blueprint"
+hash = "0796e8b52557a944d5cbc424d08176135d3eeb11b8e7ac8f8d8a9c9c7b398153"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidecandyrow5.blueprint"
+hash = "5d3616e09c7de9e58fe317a46786caf9a22aa96ff19c5331876f5e6968255013"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidechalet1.blueprint"
+hash = "ec75d7cc7fd9a94893052d3d7ac9e6f35cc5e8020286a25ec5f690e60b827e3d"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidechalet2.blueprint"
+hash = "4529a7bd0313a969901c8781f708eefb5f2fbc2f43ad1f1579482f984b3dfe27"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidechalet3.blueprint"
+hash = "0e599d644b109df3722c19e2d9848d4f26c8dad5b372830ff33929ca413ae0cf"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidechalet4.blueprint"
+hash = "e7ada19e2c0ee3451c599942850609dca04c0b717e1afae2073a4f3c2ea6a34a"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidechalet5.blueprint"
+hash = "34391461830243fc77653cce8731873b7cffa0bb50ac328e424285fbf3713880"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidecook1.blueprint"
+hash = "3cc110936c34f0f9f597ef8c245da9d51a9ef019dd515db36599734b1b05e421"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidecook2.blueprint"
+hash = "82d5fcaed92171c718f900a68e810d3cf106665a4656d7b6ad1842494dfdcfbd"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidecook3.blueprint"
+hash = "0f7843a9631e84cb22ce0d3dc41799d97f7d813c254d19faf0334767d7d53cb9"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidecook4.blueprint"
+hash = "d28bfcb232802997870adf180e31c3be2e9d417ef802d95218636c9e34a0a160"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidecook5.blueprint"
+hash = "66218e8306b6252379ef0adb95995f2929db7b1992796f2742a3ad601b0aa54d"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidelogcabin1.blueprint"
+hash = "37c7239156dbaa8f88e0de43de2e343b2ccb1bcba76b6989ff455f75e437ab08"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidelogcabin2.blueprint"
+hash = "27949b72a1bdb65bfa44fa35d15838b0996e68c90b1788ccb1f148dbfa29045b"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidelogcabin3.blueprint"
+hash = "315a205796fbd1a88f16c357b963b6626eb87075f9c949ad7b2185fc8683c390"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidelogcabin4.blueprint"
+hash = "9d59ebf7f586c56b1b2379e50ed631622e397e13350e2a65467d12285c396515"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidelogcabin5.blueprint"
+hash = "b5c17309c2bbee197bf2b4b4aa77df9558b46791ac839466e89edfc6b5799f73"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidelumberjack1.blueprint"
+hash = "0f95870253406930e8549cd7cb1bba878712a57ca10f63c75dd7d266d168c265"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidelumberjack2.blueprint"
+hash = "a7c68e2ef7939986f1181d729a691719c97219022fe57881d005ffe3de7bf1c0"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidelumberjack3.blueprint"
+hash = "24320abab44fb56250e8aa3b94b99eaf597e43ca7a524ace4d2d280953095b6c"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidelumberjack4.blueprint"
+hash = "a7632786b4980d5885b74cf6ef58c3f10074f07e476d9abd26257a5f50819bd4"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidelumberjack5.blueprint"
+hash = "8b5d722a1b4679ae2ee71749d27df3811223d67a9d9f60d1de309fd58fa23c96"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsideresidence1.blueprint"
+hash = "cb898314fb982973de3ca268968ecd215705b90900a7bd124ed9029bf84b7eb8"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsideresidence2.blueprint"
+hash = "2a9c16f5e7f018f1fdf8c7ba8560bf7ae7f5b6b4febfcf5ab0daf0146a15a356"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsideresidence3.blueprint"
+hash = "afdb11321ff727333bda2b36a28179197770f4711519635cbdae740d06f11164"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsideresidence4.blueprint"
+hash = "e33f0061833d01db29e135dc6aeb3cf9625ed5bdd9253a925affb729341e51a0"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsideresidence5.blueprint"
+hash = "09a892a866a9dcd85f98565b0e798b5168f7b0e657119aca35bdc075bc1bab72"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsideresidencealt1.blueprint"
+hash = "66d2d36d8e646b4c7f8cd9603a6bb6e341e72042f2da6be77fa76d1f35a1d9d9"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsideresidencealt2.blueprint"
+hash = "3868a6639e21a2faa71262f84aa3177a11b084384459ab6c131a92625aafe985"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsideresidencealt3.blueprint"
+hash = "b64d2422df737f0b04776f496a81e1636bc21428d1b3da91720a8a369da17c68"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsideresidencealt4.blueprint"
+hash = "3e346a0febe239081522c2655f46156cb149c9f29e5018ecb31d963f1484c70a"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsideresidencealt5.blueprint"
+hash = "3643be8db3bd81c671b8cbfbe9017d6ef2068bb510d2215abaf1441849c4898a"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidestonecottage1.blueprint"
+hash = "7f8973aa678a106d60e6d995c44c21e2736c12a59bb79ae63f8ddb3dfcecf556"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidestonecottage2.blueprint"
+hash = "a3237d4383feae684cbed8c2a51091846265eda18aa0c98c34d2e054efdc838e"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidestonecottage3.blueprint"
+hash = "ab6bc74fc30d48ef9e775f9e495ec299942bf14c9a53eac8222a2a4c33dc3e9f"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidestonecottage4.blueprint"
+hash = "9a7d84bbd869881d04afe7d9f7e42d85cc0844dbaa16f57d0b66122ba37671fb"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidestonecottage5.blueprint"
+hash = "0d0396e69a750b3df2ed531f883dde33f568728edfb3447d8691cd4e800deab7"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidetavern1.blueprint"
+hash = "37545e4ccce19764e8a51c73a50cc62ca74343b0406bddc7b4d316c7d79a8ed7"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidetavern2.blueprint"
+hash = "14611ec2fafe737154170b309a99f76086a9436f40830365454a7125d26be806"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hillsidetavern3.blueprint"
+hash = "3c9b849fd05012d528121d7644118fc3aa51d6709e2b5ce3bacbfb2e8496a677"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hospital1.blueprint"
+hash = "7fde01763aa4777cf0bd6423a0145812a7c55b3f262a50c01cf331b729442dda"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hospital2.blueprint"
+hash = "9a48fe42bd9b699662b231de82390d6f02da276af574ae91de7176f1c551aebb"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hospital3.blueprint"
+hash = "b5e217b53e90b0c303d6de86ae8e0480b3993238e804c83e0e2d4da0dd1e296c"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hospital4.blueprint"
+hash = "194892fa688e4a3f3f63017ecb6f25a4c73bc3476e236b7f3165e4c47f7fec3b"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/hospital5.blueprint"
+hash = "95320af78451e2623dea8bf2ed41d2c57fb5b9f63784939710ebd4d1138104c7"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/icon.png"
+hash = "89c73e4c78c67e16b36526e0ba24b5cd013bffc3a5159bdc40e8ebca2b94bcfe"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/icon_disabled.png"
+hash = "af3041f266f0040428f2eaadf1d864321bb3dd6061c6779aa149dd547e28837c"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidebuilder1.blueprint"
+hash = "08cee5f13fe42f28e2840238aaf10efca689361270306ce04da46c871e7ec818"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidebuilder2.blueprint"
+hash = "794b4670a9814d098b031c03f6e5e34642fd3f30df320fe2d8011e59615779ab"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidebuilder3.blueprint"
+hash = "5d232944e76e6eb9bc8160182b9d4bac26d6588b0f5ea4e9a8b74078cf6fa431"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidebuilder4.blueprint"
+hash = "ee924a3f212b75a4951737488a1b77122c3c7f895caa00cf95deb7727302d1ba"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidebuilder5.blueprint"
+hash = "7196d5eadc0ce5bceaeee22d8dedf38641baacf101cf401a08cced3f22ed2b84"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidecandyrow1.blueprint"
+hash = "cad39f472f34fb8df453d92b4c2554d9ba6174b374413cace1446e7d75ccbd74"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidecandyrow2.blueprint"
+hash = "d1e67811cd122d0b57dbaf966087d7d02c07b53b9cfe32bf7477ac76a413d80f"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidecandyrow3.blueprint"
+hash = "1da8a0df83b63841456a4faca9b6d7ce317662728bcc33baa6d677eaa75879c0"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidecandyrow4.blueprint"
+hash = "c0c620597c6d55abe92f010e5659dd1a216685df327524cea284faad95f8d5f1"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidecandyrow5.blueprint"
+hash = "50885681cc2dd750788b8c4a1b28a4c452d6a59ea1674cfdef41bf9f74f1d518"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidechalet1.blueprint"
+hash = "0f96f3c4d8d8e0229dde77c5e89965a2134db6e2b25439c258de62059b26e763"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidechalet2.blueprint"
+hash = "09a51e914b683c9282d7c590078c6fd73b9f966a9e525cc5d7e23025fa0ddda5"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidechalet3.blueprint"
+hash = "acf033140e21fafd4633aa994e8b7094efe4609a0948ffbbd2fb913767302fb3"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidechalet4.blueprint"
+hash = "97b8855b680762db907e8403e96e18ef02bdbc42bfcfd737062aaa0aae90c16a"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidechalet5.blueprint"
+hash = "bd2f6ec049f14374ff2af9350a42fedc26fe41e284384734085cfa45e46c0d96"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidecook1.blueprint"
+hash = "b575506ce2ad8eed62ecb8702c2981f966d631e1719745a9553f831a97d88d0a"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidecook2.blueprint"
+hash = "8c0e8c90661a180cdbb292a6663ed5aa8d2e6dd56396586b32743822421263f9"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidecook3.blueprint"
+hash = "b54c0bf6e78d5949cb010b717541e90d3f68b1729c94bec0321e1a554686c078"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidecook4.blueprint"
+hash = "73e933412445a5442eb2a7ccccefe0da33e01dac943d7864239282aaff05135d"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidecook5.blueprint"
+hash = "acd4e4f5197f30b5e1161c720e094c56e36539781b3000c25f86aa0f66cfbc7c"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidelogcabin1.blueprint"
+hash = "979d45685d311b6b39e4e1a695952fc59702c66bb4d35ea9d0ce06ae5ec3e279"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidelogcabin2.blueprint"
+hash = "23c322a81ca4f856538f76b57f692e091d0ee5dd17e7fffc7338a6b212b44282"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidelogcabin3.blueprint"
+hash = "795365dd0c1af0b8e3ff5432814ba238ea8cc423d637392bddfeb274ff829df0"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidelogcabin4.blueprint"
+hash = "6a4accf9b88c819293255abb3f3af730b68bf2eb4764b7d578f9b4ac84e115a3"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidelogcabin5.blueprint"
+hash = "ec33114201b2d13c9bd9ab4299299938eb6558dcca6748f3b2318fde92909179"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidelumberjack1.blueprint"
+hash = "ccb36397e707b5c48422679d09757bac3a9bbdd4cf458a130a7e160a8bdff0e6"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidelumberjack2.blueprint"
+hash = "23e80349b4b1a7c51c0246efac512f00484d0b7b5e4dd2b04618e9d28009e51c"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidelumberjack3.blueprint"
+hash = "be0b03b2d3aba510b8da42e18415c96170a1ccad9e36bf17aa9f9726c1fcfb19"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidelumberjack4.blueprint"
+hash = "09d596dc53463053add8d992925af38be5e725cb7fa60db454880a1c4e579d78"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidelumberjack5.blueprint"
+hash = "305c1871dd0643cccd8631f861754b503d6380d2e1e169700c66ab6b600260f1"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesideresidence1.blueprint"
+hash = "d6ef5eb841221450a0be14c678351acc4d0b05e112e27ea2cc4591da4e885bd6"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesideresidence2.blueprint"
+hash = "c70327b3615a79c4274c3edd62c2aebc3e0a7f9c5dad2bf8a4f4647c325620b7"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesideresidence3.blueprint"
+hash = "d8c6de9061c8e28463ba9a733bed703b4f322962e375176a44a702a033232bfc"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesideresidence4.blueprint"
+hash = "677fd3dabd2cc38047f25e7b8b1849ac22f91820c8c9ae50ed7c96ff17199a5f"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesideresidence5.blueprint"
+hash = "34f110e580bdc6d8264d9637f84fc0b1e13023cfe3d78d49702658e74c1eec38"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesideresidencealt1.blueprint"
+hash = "71f566b5bb0251423e2015d2a818dd7ebfd5c6132551aaf07cb0375a4fc7983f"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesideresidencealt2.blueprint"
+hash = "efae0629b1b376911fb38cdc68c467be7e6d57b93a8e7fdc39ad100e078e5d60"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesideresidencealt3.blueprint"
+hash = "024b42f3dca15dd0947c9191ad9ee03a31dd3ea779d6b4579b8523b1ad2b79cd"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesideresidencealt4.blueprint"
+hash = "809f76a2d4241f5584229e4adbc7bf850efb570d635ef0f61910e031b232c7fa"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesideresidencealt5.blueprint"
+hash = "7ca5abc3a4b77cd9c62cc1e548eeed1c6bcbc34c3a1e7f2937d414bf65ddf2bd"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidestonecottage1.blueprint"
+hash = "0d22344839b55a6a9b470a0ffb28a4614cc804baefc3a777da16c290a38e9234"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidestonecottage2.blueprint"
+hash = "88b46417e97b59a33d1975ff16b61862d2d31533c90dd5d969df1c21e7b5f76f"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidestonecottage3.blueprint"
+hash = "908956df80f61f59ad8e837118c9e31bb9dabca95a1ed214d95fee4c7cbf0acb"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidestonecottage4.blueprint"
+hash = "94c37627ffbc31b4212a13341dc05b4c6b5fe88c5dbcc4dce8443adf11330703"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidestonecottage5.blueprint"
+hash = "f888876ffc1728d6a6fc0e81d27b9711b038cb2a2e2d490b03733d20c3d04717"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidetavern1.blueprint"
+hash = "d22bbea9c3d9bd9f5f51dcf7625831bf346eada4ba22bd010236c6ba083c6009"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidetavern2.blueprint"
+hash = "f8b1ab6624fbe0d0b35775945805dba669b84fd4f84f8fbcbbdc48215f1b3112"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lakesidetavern3.blueprint"
+hash = "0920a22fba62e27009577e6c9bd445aaed8a1694461c59ce5b7bda2543488eda"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/logcabin1.blueprint"
+hash = "c564667622ceb4052e5367ba5ab4e37e3d4207582bf8b44702b1c50883cb2516"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/logcabin2.blueprint"
+hash = "776ec6bfab5980e132ff62d40f57edab95bd2521d7fcae2f43ec81aacd3fb64c"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/logcabin3.blueprint"
+hash = "333cbdffcd2c69efc5ec527ce53df48db0b57d75f24458ca3c0c2bc505825d4f"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/logcabin4.blueprint"
+hash = "7587178018a7804ed71161b05ff1830d181e30e7235e86c81d6b2f471745f243"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/logcabin5.blueprint"
+hash = "2669810fae59e3c8c56bb1f07cd9df3a51091f8e965fa0d4f7f7f6705c2e6a8d"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lumberjack1.blueprint"
+hash = "fdde5e8f4383c0cd8e87e38adaed4cabc512444916f8c4b0bc56379f96dc0c0e"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lumberjack2.blueprint"
+hash = "73d364b4ce4f74535fd929f3da1e70d81fe77b18812bcc1a107bb4a9c67689a9"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lumberjack3.blueprint"
+hash = "723bf7244174abbba003539d665ea5900328dbf25ad1aa7a7cbd393072875a8d"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lumberjack4.blueprint"
+hash = "ddd20d1e906e4e57d448f835d5936284cf1d7cebfddf4abb7122e328aa53612c"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/lumberjack5.blueprint"
+hash = "859408d2713faa46b8d9b163c9d460b18ff55ceba2f457ef19c52556cd23e5c2"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/miner1.blueprint"
+hash = "e597a3b0a9e5d0fb7777fb846bac1f8d0e03154a90d124f5fbb00d83d44e66ce"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/miner2.blueprint"
+hash = "a3d0f28d221692940358ff07fc054d95ce00f8cbf8324355cd53ea559f6a2b74"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/miner3.blueprint"
+hash = "e4598dc8935b7d3e980f62fc1dda2ce9f938548d6289f77a1ba29115e694cb0f"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/miner4.blueprint"
+hash = "348731608d10b3b1dfdd54f637432ecf5e77a6cc747f5f649e4c7f81badf67c1"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/miner5.blueprint"
+hash = "a11050355ee2473e0936c3366afc5fd428f852bfa8e550b864bdbabb84aded86"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainbuilder1.blueprint"
+hash = "32ff96e0b35e6650b158fda31da997a832395d08aba5b55fc23e14165cb8bccb"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainbuilder2.blueprint"
+hash = "d5cd6b2ca139d015c0fb9465a9c4e8f07d666a1cc89ec3f1a8ccdade08d6abdf"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainbuilder3.blueprint"
+hash = "753f8d96f79d0165bcc55cde99ae3d50d183f92d4c41ac819cff4cafd7afdddf"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainbuilder4.blueprint"
+hash = "489d6b06692e7e81b29b824f14f2ca0eaafef68eec85fe256e62e4ec9d3346cb"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainbuilder5.blueprint"
+hash = "c74388d8f79d8a5babde819dac615efaa3867d54b2a918511a6e1f27fdeca318"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountaincandyrow1.blueprint"
+hash = "baafb47ab14d2a6bd9cf15fd88b51bdc77f0b7893ba949092ac06a0e4c72c629"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountaincandyrow2.blueprint"
+hash = "8e5e964bfaab74116097c7e6fbd8f398ac338ae7adc62c403f0afc77681101fe"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountaincandyrow3.blueprint"
+hash = "d1469548c18e678f3c04f5effa41c285a667070b6394fc14370c272e6f87f103"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountaincandyrow4.blueprint"
+hash = "870b9795c1548f8b5bb52e3c82b483139e774c724cbd6113903bff99464b91e0"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountaincandyrow5.blueprint"
+hash = "39556534a9a99fb2ca1bf772b16d093b7798803849b07b086bf8a5c30c2b84e0"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainchalet1.blueprint"
+hash = "a92e16c0149622a6552cd08f631b4efb1b4fe7dbac26cfdd7525646c2d4edf28"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainchalet2.blueprint"
+hash = "fac5d91c976a4efdf9630e94509998598c5ef9a70e304a212ad7caa06d8717cd"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainchalet3.blueprint"
+hash = "384c448dadf0f20fcca4b85308a1f98e7ba0e36769e88adc0b419ed3bc010446"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainchalet4.blueprint"
+hash = "5f9398fdd6a69d2ad664f88ceca37b7540910db6d2f734bff27c90d2e7ecd111"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainchalet5.blueprint"
+hash = "460158207e85acd1806e56a2b77dde1e0be888400d3e10d76b9df8a1acf58ef7"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountaincook1.blueprint"
+hash = "56c2b856f91d9d73dcc122c77308804c74778cc53b362c7865e191f2a211cb92"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountaincook2.blueprint"
+hash = "81dfb3914d14e3638179c76539e1d4ecaac0c1dcec5b3d6ccf08b89bd0c99251"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountaincook3.blueprint"
+hash = "4a44e6a210904ee49c6f74086cfb7f83e9479921d6f1f4d31b42de5153564bf4"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountaincook4.blueprint"
+hash = "fdbdc32651212f2c748469e57ab6fccf5e68e3c4fc6d7288337eaf5c4fcd1a45"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountaincook5.blueprint"
+hash = "aab95fe20c481a9badbfce39d689b0c85f32b9c804b67bbf5313be2a4ea45ee2"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainlogcabin1.blueprint"
+hash = "6325c8b95f2d26b05b036c8549ccfba22af6051e83025214416b6cbd0400566d"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainlogcabin2.blueprint"
+hash = "cd91f25e38fbd807d4d43a96af96e950e4711e2dbd286333265bcfd48f8c0766"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainlogcabin3.blueprint"
+hash = "b880f0beb8e4500990f9e8ecbb030a10c010df86ae8b6f2e3d99b0c8f9067fc6"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainlogcabin4.blueprint"
+hash = "99672cc45ac36b9775c4c6ad4551a374c99c40b389931a94d805f5f19b1f0c20"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainlogcabin5.blueprint"
+hash = "d281f1429933a0a54e4018739838aea1cce3146496a9c5bbeed70cdda187b0aa"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainlumberjack1.blueprint"
+hash = "9928ae9c2b7647a0adff2204379535cd49fa94c88f57deb00ce017a916f2a22c"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainlumberjack2.blueprint"
+hash = "6881bbd4d793c02b7cb87a6e11dcff8b2ef2fd66deb59a3bcd2dbce1119acf92"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainlumberjack3.blueprint"
+hash = "21c66785337f8eff37f6ab4c108e2b29b81ac3f65034e15063f331e10b4b2c9e"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainlumberjack4.blueprint"
+hash = "55f03c2513f757e5d7cefd20a17cdd79fd8ef25e3196818f2be774c2ef28dcd6"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainlumberjack5.blueprint"
+hash = "d9c53288e05e6501399a223a60f8423f1f9bda0d0fa01c82ec0d8e9f6a723bd9"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainresidence1.blueprint"
+hash = "be239e08add2c4f8c9cb449d4c9b030aed4a6301ea1d23433a6254de1bc99bd3"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainresidence2.blueprint"
+hash = "36b037cccf16b43aa9661cdab33999c1241b8c7bff7fca7f79d438a0505dd768"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainresidence3.blueprint"
+hash = "761a422a71cfeef98903db226a30082cbb8e36daedc2104efcde9a5e36ceda03"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainresidence4.blueprint"
+hash = "4e6c5d9f0d8eaff4aac76c18ac9b14d207d5e47c3632c7468202ff98b87f405b"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainresidence5.blueprint"
+hash = "b891d175fd3dce563860743370018c0d1aa0442afbde227aeb506092dccde2ad"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainresidencealt1.blueprint"
+hash = "bff318a8fb22425762f722bafc75108d2127ef4153062d2bfaac09be84e1e523"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainresidencealt2.blueprint"
+hash = "d9f69559e208ad16e433fc6fb928b9a01dbfd8927a21bde620f9633ab682a557"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainresidencealt3.blueprint"
+hash = "5792d1017db6bb0816e712e7227ca08ecfb4eb2a28b549ffe55b8623b853f4ba"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainresidencealt4.blueprint"
+hash = "8cb63c73bd7f2c9b3bcab7b14e935be8d22800565f278cdda80bd5928b8728ef"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainresidencealt5.blueprint"
+hash = "90862b7f66b88a658c1eb699f592d2dd9cf9e9e60f882b225a426e23f3a9a9ab"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainstonecottage1.blueprint"
+hash = "ef01f3877dce1a098141254d7f7de3e26093a9f3974e0a58e6d2b84276a525b7"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainstonecottage2.blueprint"
+hash = "3b6e8546c7dcb47840aee323fa45a78139c78b91683fa7b4b69c63f4ce1443af"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainstonecottage3.blueprint"
+hash = "cd423da9c7f84b5a37456353d1a80104eb9813b8599813d2362efbdc68acbf2f"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainstonecottage4.blueprint"
+hash = "1951a114debc809149d7f60968decf11931421e74f3f10d81bd8681d8d985058"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountainstonecottage5.blueprint"
+hash = "123ba3f426764b6aa8302ed645e95f100f5ba0af41542a1182b07a3bf3aa68ca"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountaintavern1.blueprint"
+hash = "97f367fec38afc4787e7db827a9718f64d19ed70c66e54416e46d43d9dea29fe"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountaintavern2.blueprint"
+hash = "4d25ece89be47bf41f6ca33ad7e57bffc56c208979a8b1b62f157640232984a9"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/mountaintavern3.blueprint"
+hash = "2cbeb7fe83d900407297b420aa5d3f1f9efc376a4098bb2459967d4d72e09e45"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/residence1.blueprint"
+hash = "79c40fc5b7f463898ece6272fd7f3d3b0b73a17a3743d447be23a8abc87c8d9e"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/residence2.blueprint"
+hash = "b4e04351c904297ed52b6bf4257263d0115e58dd071b40cff9603f9c04cd61ac"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/residence3.blueprint"
+hash = "e0b89271811bb5c4d81603751199478451cebabad25c705fac42dfc7ddedb5c6"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/residence4.blueprint"
+hash = "35b070cf65acc5c48966004acda890ae09502c947185aa6bc7b054ca606945d8"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/residence5.blueprint"
+hash = "6a87ae5455015b6bf2dbf143cc3ec3570c79a42ab8c8eb09a364fc5f73191730"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/residencealt1.blueprint"
+hash = "01a4ab07fe138f0399c3be70d0caecc9e97a2fdf10714b9e9900fec7653a859f"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/residencealt2.blueprint"
+hash = "e69d30489410a36680f4f21b9a05363a879df80b4b76cd2be76bd06a32e777d5"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/residencealt3.blueprint"
+hash = "59036035159d0c5238b316226add683c09a233c2492c258771228a4eed6c54de"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/residencealt4.blueprint"
+hash = "caadac96c1df2656d7100644a84b10cda562cd9417965cd8af1bcba4cdefd121"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/residencealt5.blueprint"
+hash = "bc6c519d4baf5c53a36af7b8608ef64f543d709475dcfdf6526e50d8b900795a"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/stonecottage1.blueprint"
+hash = "90c0501eaf30b8c0dd9af14617a3ebc5d8fed30f8f4098fd9318dfe7401a010e"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/stonecottage2.blueprint"
+hash = "5a7c97be7491c231ccb51800f77d3c3e93b39f5fc5868c6333c3eefc56997ad9"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/stonecottage3.blueprint"
+hash = "99ccb89bb56a0004ce8c06c8a6b8c6c3eb0c707ef26ca46479410c646075029b"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/stonecottage4.blueprint"
+hash = "e4c0bd15501e0b662a8d01c848240bb465c43b42dc5c1933e7bb935add7f0eb4"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/stonecottage5.blueprint"
+hash = "c20d06b365162dad83aec7f89ec637fe035b3ddabea1c75b78985346c8d789f1"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/tavern1.blueprint"
+hash = "68830e9efaf47b0b73e6e3f741892cca5f84c6fc5e75af755e4d310b29ec8dc6"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/tavern2.blueprint"
+hash = "5696da87cbdc93af1b02db0db0f65fa69c02f7ed2c5c2751ceb05aaf384efc0b"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/tavern3.blueprint"
+hash = "a996dcb887120c32805768f2b9215a4b0e04f8fde3564e0ac37748104dff100a"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/townhall1.blueprint"
+hash = "16c9ba53fc0378ac70beb89a14aeb1497f99105f410e912e8cf95bd8c47db551"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/townhall2.blueprint"
+hash = "c80edd0e783da4d9cdb2a486306cfb78df7a4c2104a39dfc297d6cec42da9f48"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/townhall3.blueprint"
+hash = "4f0f8bb272afd530a915054766da7e6a8c1da8d432e0d0a78bf8ed0e3ff24248"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/townhall4.blueprint"
+hash = "a557f060cddaa72ba11343adda4fc294a2548fc815409fa96b9502ff324c694e"
+
+[[files]]
+file = "blueprints/christmas_village/fundamentals/townhall5.blueprint"
+hash = "bfbe6909f56aed720c4dfb0e417b0a1ae46349d95046b6ad14da4ed0132759b4"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/icon.png"
+hash = "7fd23a6311b9aa7a5d4f191d6782297dd159fc70b4bae3d064988d1706ca1b6b"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/icon_disabled.png"
+hash = "635158ff6abe84f565d6d2e81bc6e59e253ec404901d0d598253f3438d0a821d"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/lamps/candy_cane_lamp.blueprint"
+hash = "cd14123941fcb2d5e958253d7d44205d9e37d3e4f6a907af1da2165ceb13318a"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/lamps/double_lamp_post.blueprint"
+hash = "3edf9b88d0244227c1dee3d84f13507fa5c13469dc5c22b32b39662f097bb609"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/lamps/ice_lantern_post.blueprint"
+hash = "87bea6ddbf95ae9b8d7a381139354b5a985a30502163447e8a63f11b49cfa16e"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/lamps/icon.png"
+hash = "acb7a0c8ce4853987f29ddc535d002a83bdf4691edd7ad23ad2ccc4dcd2b49c2"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/lamps/icon_disabled.png"
+hash = "d9b96d36d2d61dd9e45753a3aa57955e5af1d138b09ab4ce857174bcfafb4d84"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/lamps/lamp_post.blueprint"
+hash = "4f1d51af83b92f1e03e96498dc82e33defd2218b3683a546b0998e2a842fe005"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/mineshafts/icon.png"
+hash = "dc296d1c1c93b12c45bbd9c0251d2ac6b5b5bf83b3661daa96bd9e8d57d3616d"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/mineshafts/icon_disabled.png"
+hash = "ffb56d64aa3174af25f9b1ce3b6f6cef1712e62b4554bea0454dcaca1df30ed8"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/mineshafts/minermainshaft.blueprint"
+hash = "31b73868495c2dee0d55316fe7880f78752bc817baaff1671ed641c64ddf0fa6"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/mineshafts/minerx2left.blueprint"
+hash = "112f73010043393436a6d36b9654b7936fcdbbd6de538b9c77fa317c61089df1"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/mineshafts/minerx2right.blueprint"
+hash = "3edf9dd30b0fffdd892281bacf113b4c83a37040ab232f484850dcf9db37aa82"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/mineshafts/minerx2top.blueprint"
+hash = "3d0c22fc4b98e031742d84008f127a9892000f4dc32d957e2678ce8a6b3cc964"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/mineshafts/minerx3leftright.blueprint"
+hash = "a0ad152f0999e45f105e2a5fd60714799c73b4eb320bb96c7d548777c65a2ce3"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/mineshafts/minerx3topleft.blueprint"
+hash = "e318b33e2fa5139ed1590c9f783749f7a32ce859efd6e5898bcdacb118e18a5a"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/mineshafts/minerx3topright.blueprint"
+hash = "737793f969c44da4abd792a118afcc4e2ed2197cf1ec44e0d9efa7fcd4403c82"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/mineshafts/minerx4.blueprint"
+hash = "d3ff6935156a8300240aab00d9e09edb1a089960bbe80af4ba17583406789ed2"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/candy_boulevard/candy_boulevard_corner.blueprint"
+hash = "826a72496913a06306975d86c77411349a86f5c2912710bba73ca6bc01fbd473"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/candy_boulevard/candy_boulevard_crossroads.blueprint"
+hash = "d9b18580c78d1c2e98f053fb83274146e924afc733b96701682c6ee6c5d4e006"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/candy_boulevard/candy_boulevard_cul_de_sac.blueprint"
+hash = "7fff820b458349fc1af18b972860f5a8d07eb376ce47011cdc1a9ca00a6ab323"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/candy_boulevard/candy_boulevard_long_straight.blueprint"
+hash = "93f604a59ec51b2e390234049c1305b13613ab6c0d3d7197d86e35308fc91450"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/candy_boulevard/candy_boulevard_short_straight.blueprint"
+hash = "af4899b7e57704481c5b398dfec5df5090a3c60caf37757b2bdc5e32f6949ef1"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/candy_boulevard/candy_boulevard_t_junction.blueprint"
+hash = "9b2a8691594c3b9adfae8d0a75c094791a9728b100c39f086d8b9629b1846dc7"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/candy_boulevard/icon.png"
+hash = "0c8695b56cccb08913337e178ab3619a0f808b58a9383888fdc95c6e45091145"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/candy_boulevard/icon_disabled.png"
+hash = "c69abcdccb1bfaca8f3c6502bd22bb574db594154282688d8038b2567f007b3c"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/icon.png"
+hash = "3660db5701f1398a0a387a57a37cc4ee5dfc088f5ab451e82792c7cf93b5af34"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/icon_disabled.png"
+hash = "213581445ac8adb06115bd68ccd74fe2c494667b3fa5c25e7ed52f6ab879f14c"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/market_square/icon.png"
+hash = "dc296d1c1c93b12c45bbd9c0251d2ac6b5b5bf83b3661daa96bd9e8d57d3616d"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/market_square/icon_disabled.png"
+hash = "ffb56d64aa3174af25f9b1ce3b6f6cef1712e62b4554bea0454dcaca1df30ed8"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/market_square/market_square_corner.blueprint"
+hash = "df8cf0ba3449567afb5275a84140709e45608f87be9027731af0a18150d16c9f"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/market_square/market_square_crossroads.blueprint"
+hash = "f92601a84a5908577d76983c77e5357f4d8f1b9f54b713a0cc570fad080bb4d5"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/market_square/market_square_cul_de_sac.blueprint"
+hash = "db4e561b3b7b47a8ba2bdf423841c3fab8154dd1be69aa7696bf551208b42ead"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/market_square/market_square_long_straight.blueprint"
+hash = "1e5fa0c1e6ad703b812bba973af079aba46c415aa076eea88657a85b782bffc9"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/market_square/market_square_short_straight.blueprint"
+hash = "6490841a4be5959fa8f473d8d1504bb25f3f2e38e89d57958e24723919c840e9"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/market_square/market_square_t_junction.blueprint"
+hash = "2fd1ef6c1778eddfea3af1af547cdee95bfcf8ec6f25d59314441f8ad58d985b"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/village_lane/icon.png"
+hash = "1e9fc34507d344719e26b8a03bb4c6c38e591aabc1e23499745b3caf9e9081f9"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/village_lane/icon_disabled.png"
+hash = "35eb66ea199cf0900c5f5e612f994861de9b3cee6bb71f43eb8c885bb9039c42"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/village_lane/village_lane_bridge.blueprint"
+hash = "10a2885db7ad66e43d94a32cd031520953dc35f25efaedd05e04697fff5ad383"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/village_lane/village_lane_corner.blueprint"
+hash = "f4e6272a353908a6b9112cc1ca6ff1f7a5e281c74c3c19bf06ad6ff155105a44"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/village_lane/village_lane_crossroads.blueprint"
+hash = "36d73b1162b184fa07b3da073358864807206b813e23d45ed7a62af984626a51"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/village_lane/village_lane_cul_de_sac.blueprint"
+hash = "b6a15ba2f9edc38c1c7495d7f8a0bfda8c7162587cc21ded098361d2446b140e"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/village_lane/village_lane_long_straight.blueprint"
+hash = "b8e32f730ea1d10e0453ffca8b0de42d42e15b0102a292954d8339510942583a"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/village_lane/village_lane_short_straight.blueprint"
+hash = "5c37ec1d6471118b0da9f1444d9ac590e4b61d6f27fb1104cc9658fc4926e327"
+
+[[files]]
+file = "blueprints/christmas_village/infrastructure/roads/village_lane/village_lane_t_junction.blueprint"
+hash = "0fbe4ef0ded50ade3bcbdb71e20c6d8be23f4cd77e244b898897d4c8ac917eef"
+
+[[files]]
+file = "blueprints/christmas_village/military/archery1.blueprint"
+hash = "6904e6b46fd5528974e8ac2d2a20efaf72877c478a545127d39333108364388b"
+
+[[files]]
+file = "blueprints/christmas_village/military/archery2.blueprint"
+hash = "5869beff8fa4794e479ab9a859b034b957be15450e5bd26f995565f55de74bf1"
+
+[[files]]
+file = "blueprints/christmas_village/military/archery3.blueprint"
+hash = "7867917d9b54344e506b94262274838f5eab3994c6f5cef399b377867fb81be2"
+
+[[files]]
+file = "blueprints/christmas_village/military/archery4.blueprint"
+hash = "9fcea72bc20261dbd66bf90437f21c45963588e4cb41a90f23d981e8ba22baad"
+
+[[files]]
+file = "blueprints/christmas_village/military/archery5.blueprint"
+hash = "2cdee7470d1e674386abbbb8c9ff65ba0e6cc99fd9827723275457c212dd21d9"
+
+[[files]]
+file = "blueprints/christmas_village/military/barracks1.blueprint"
+hash = "6c435efa5c328fb2787ca604a5ca44827fd9fa07adb8fcfbc5bd5be0581167e9"
+
+[[files]]
+file = "blueprints/christmas_village/military/barracks2.blueprint"
+hash = "8dd4a8d291976cd126d8fdf7d845f4f37ff062cae0ab82b60a6a9cc5cd0e9017"
+
+[[files]]
+file = "blueprints/christmas_village/military/barracks3.blueprint"
+hash = "aff79d455991e1bb52dc7f7042b610e6acf21756c1a9decef1d124caed83d34e"
+
+[[files]]
+file = "blueprints/christmas_village/military/barracks4.blueprint"
+hash = "fdcd59a59bfef0166581a221a0388912ce6a1fb378a8f524d8522f9ee606fa3a"
+
+[[files]]
+file = "blueprints/christmas_village/military/barracks5.blueprint"
+hash = "038f44ba7c169cf1a3ed22463aff98cb5c9638f9a17c2041f6f13ba978fd5b54"
+
+[[files]]
+file = "blueprints/christmas_village/military/barrackstower1.blueprint"
+hash = "8f17b8de57f4bdb98aac5d7941755118b5c36d1affa9beb4757b319ac0b49e9a"
+
+[[files]]
+file = "blueprints/christmas_village/military/barrackstower2.blueprint"
+hash = "704c57fc2af7ead6f21e4f41d7ca97bc064fbdcf9e708192b12b1233b687ffa9"
+
+[[files]]
+file = "blueprints/christmas_village/military/barrackstower3.blueprint"
+hash = "ad5dc431845aab2887cadc71f07517ca693a20da90124312d744a8edd13ca859"
+
+[[files]]
+file = "blueprints/christmas_village/military/barrackstower4.blueprint"
+hash = "7c1664ada12a5a79247f038b29a7e096d36a8183bc52fcadadb2a9a7fdcf9b93"
+
+[[files]]
+file = "blueprints/christmas_village/military/barrackstower5.blueprint"
+hash = "265cccbc500946b078730171c3c4e69fef9d1ceac37607b99b09ae868f0c5854"
+
+[[files]]
+file = "blueprints/christmas_village/military/birchguardtower1.blueprint"
+hash = "91f7570bbbc176055b0d82df307a0c40982f297fc7699db7132dc2caa58bd1df"
+
+[[files]]
+file = "blueprints/christmas_village/military/birchguardtower2.blueprint"
+hash = "d69000c55a1f738156b859cc061d7788d6d31f20f8668cac3edc82c325853b22"
+
+[[files]]
+file = "blueprints/christmas_village/military/birchguardtower3.blueprint"
+hash = "fec654b7f125ca99277b5fc858082e2559c7b597012b1b94e4d3c3bd3ce9075a"
+
+[[files]]
+file = "blueprints/christmas_village/military/birchguardtower4.blueprint"
+hash = "05f842d800a52f6994d823cefd58db6fe28131804e827b8f0dce0f9c5a3e775e"
+
+[[files]]
+file = "blueprints/christmas_village/military/birchguardtower5.blueprint"
+hash = "4b852adcb5a705ef94046742897fc6a6316f37d31cfaba0f8461f31dbf3b2a2c"
+
+[[files]]
+file = "blueprints/christmas_village/military/combatacademy1.blueprint"
+hash = "65525e7113e1a0c9e61963d1ff9c11ca1bb9bf1cf9263417e571e26e2d42ab39"
+
+[[files]]
+file = "blueprints/christmas_village/military/combatacademy2.blueprint"
+hash = "e588e0d504559497527db80b3c105dd09107f09f895faeaf8d27e4e437eedd98"
+
+[[files]]
+file = "blueprints/christmas_village/military/combatacademy3.blueprint"
+hash = "c362de758b06e83c3bdf7d58ed91f742baae52ae4139809e2bc7008c2dd4a869"
+
+[[files]]
+file = "blueprints/christmas_village/military/combatacademy4.blueprint"
+hash = "baa8ba5a8a2a4c0f597ec5d7e093c45b416e030e927d3ee4bda17e767af9b8a3"
+
+[[files]]
+file = "blueprints/christmas_village/military/combatacademy5.blueprint"
+hash = "d5daf320de5b0358bba50c40e049fbe28afe796edfa98d3b056978a56f4bf3fe"
+
+[[files]]
+file = "blueprints/christmas_village/military/darkwoodguardtower1.blueprint"
+hash = "8e15df821a869de6cf85f99fe2503cefc3f1473e8c44c574f6c11f4e7b7eee08"
+
+[[files]]
+file = "blueprints/christmas_village/military/darkwoodguardtower2.blueprint"
+hash = "9aa19ff0b303e3b6e8335ee3f3d8ba777bab026a529d707f33c9b7dec37c31a0"
+
+[[files]]
+file = "blueprints/christmas_village/military/darkwoodguardtower3.blueprint"
+hash = "732a7af74fef1c5d677eaaa5823dafa4a8f72371eca0e5ad230c744afea861e1"
+
+[[files]]
+file = "blueprints/christmas_village/military/darkwoodguardtower4.blueprint"
+hash = "673ee671334dd08e6999d5c962f9e6b41a97369a946a6a3224d6bfbbd3bcb6a8"
+
+[[files]]
+file = "blueprints/christmas_village/military/darkwoodguardtower5.blueprint"
+hash = "e0202f1258f775493639daf81851253382ed85041fcf3db1769166aa5ee01018"
+
+[[files]]
+file = "blueprints/christmas_village/military/gatehouse1.blueprint"
+hash = "0e7bf83d9cdeb5c6848997b75d7f0685e561bb5db859b80aca77c40a1b7e40c6"
+
+[[files]]
+file = "blueprints/christmas_village/military/gatehouse2.blueprint"
+hash = "70b0ce7c18ccff04f6fc6cb8827c319bcc59474ec08a849686855bb8697fd436"
+
+[[files]]
+file = "blueprints/christmas_village/military/gatehouse3.blueprint"
+hash = "24f54b055687126454f38b75f34494f53c36ec5978358517a3f4be5d510933a3"
+
+[[files]]
+file = "blueprints/christmas_village/military/guardtower1.blueprint"
+hash = "a912627f577fbb6e3a9aa249c8cca65696bed7c7f4f2d836be8768377cc10bd1"
+
+[[files]]
+file = "blueprints/christmas_village/military/guardtower2.blueprint"
+hash = "baeefc22067b12b87777ee02f27927e7bc3567bfb0100d43ee6846dd4dfacf6d"
+
+[[files]]
+file = "blueprints/christmas_village/military/guardtower3.blueprint"
+hash = "c2470f05ed89f5e72622c7277c776b7849ac7288e6ae9a05ad03f7190169d1eb"
+
+[[files]]
+file = "blueprints/christmas_village/military/guardtower4.blueprint"
+hash = "140d56a55f767eee6e6493c89d46ebc9b2f2a18160b2ccf08a8980c8f307d639"
+
+[[files]]
+file = "blueprints/christmas_village/military/guardtower5.blueprint"
+hash = "c31d0605b5fbea5211e90385337bac70a227d78d88165caba4786e252bb6bb29"
+
+[[files]]
+file = "blueprints/christmas_village/military/hillsideguardtower1.blueprint"
+hash = "e5553fd610f3d2487a980035a6277a2a32d1e7cd235dfe9b57328cdb23079da2"
+
+[[files]]
+file = "blueprints/christmas_village/military/hillsideguardtower2.blueprint"
+hash = "8a1f6f13c2d78b4c1c089f2fc2c7e6e168f3ef38f16309d4c913aaf5b03714df"
+
+[[files]]
+file = "blueprints/christmas_village/military/hillsideguardtower3.blueprint"
+hash = "379d3dbbf74b3516a44b325eafddcff1efb66fffea134f500df9f3ed0686cf91"
+
+[[files]]
+file = "blueprints/christmas_village/military/hillsideguardtower4.blueprint"
+hash = "d2371b14a0b39c78babe874f617883bab4f2cd0a65c52a82df1286008a4ab689"
+
+[[files]]
+file = "blueprints/christmas_village/military/hillsideguardtower5.blueprint"
+hash = "a813cad0c4e668282f58dfd3cdea4587878ad73e25584c3fca2d7eab1e385f2c"
+
+[[files]]
+file = "blueprints/christmas_village/military/icon.png"
+hash = "d639a815fd860a3dbc496259d0c0204498b39d737e36284655c14997925593ba"
+
+[[files]]
+file = "blueprints/christmas_village/military/icon_disabled.png"
+hash = "ffb56d64aa3174af25f9b1ce3b6f6cef1712e62b4554bea0454dcaca1df30ed8"
+
+[[files]]
+file = "blueprints/christmas_village/military/lakesideguardtower1.blueprint"
+hash = "df334ea4f16b0f5ffabf225c1d7b96e606ef00eb3b8bdf81d0b15df09a711e3c"
+
+[[files]]
+file = "blueprints/christmas_village/military/lakesideguardtower2.blueprint"
+hash = "f47134382d869917fb87badf22b2f8f3ff8c42735265094641c23cf91fe1e139"
+
+[[files]]
+file = "blueprints/christmas_village/military/lakesideguardtower3.blueprint"
+hash = "167033bd6c3f4cdd76f393ce6b53284b786c616bf1cf2f657d74673f7e15efae"
+
+[[files]]
+file = "blueprints/christmas_village/military/lakesideguardtower4.blueprint"
+hash = "bd18cb0ca01499f46bab9b9066341689fbfeca93a0194fed9e9e1a2291e907fb"
+
+[[files]]
+file = "blueprints/christmas_village/military/lakesideguardtower5.blueprint"
+hash = "4ba401ac9bf62314b4ab033f6a0dc12806d2709ff11987790cf4f718eb561d47"
+
+[[files]]
+file = "blueprints/christmas_village/military/mountainguardtower1.blueprint"
+hash = "ee5723db490fc29160c17b9500e22a6f41ad95d0bdd702ddd8a3e7e19d216335"
+
+[[files]]
+file = "blueprints/christmas_village/military/mountainguardtower2.blueprint"
+hash = "94d36a1a7d7ef3ce0ef34695cc356c507230d660ed04eee2497556474a74f3f5"
+
+[[files]]
+file = "blueprints/christmas_village/military/mountainguardtower3.blueprint"
+hash = "a1b9066656226c398bcc13a6aad52dd60617ef72cc67ff325417a6922f337843"
+
+[[files]]
+file = "blueprints/christmas_village/military/mountainguardtower4.blueprint"
+hash = "a6077e501e219ad2b6ea6032d0b5eac11a7a5850feccbc9a72ee6f27100d1ebb"
+
+[[files]]
+file = "blueprints/christmas_village/military/mountainguardtower5.blueprint"
+hash = "fc031c63c2d30426b6012f6d93df1ce6bfb147226b5341a4b3f21f1a30ad38c8"
+
+[[files]]
+file = "blueprints/christmas_village/military/stable1.blueprint"
+hash = "06496c2cb8bce3a3051ca4d9aa495689452ff2df7f678e99178fa19f9c179659"
+
+[[files]]
+file = "blueprints/christmas_village/military/stable2.blueprint"
+hash = "1b11171bea9eae10cb95fd693e568864463a7aeaa106e2a0e3dda4c16bdc9bef"
+
+[[files]]
+file = "blueprints/christmas_village/military/stable3.blueprint"
+hash = "7d041e672b78216aac50bd2438fb555c9d1907d625702d7d83faf33b705e0d26"
+
+[[files]]
+file = "blueprints/christmas_village/military/stable4.blueprint"
+hash = "61ecebb12a4b13237959c2dfddf2aad269001103ccc5a8c77cf0d782351d80d1"
+
+[[files]]
+file = "blueprints/christmas_village/military/stable5.blueprint"
+hash = "e38f6133ff2e83eb548439aa42a8f39d20d5b204b5c267c13beffafaaeacc3a1"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/enchanter1.blueprint"
+hash = "2aaf919b63c0f3dee85a9e43db000a0bfb39ca7be7393db2ee4ef6a19706f8bf"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/enchanter2.blueprint"
+hash = "266849b729640d6482a72296d158e43bd714f5dd5bcf6e5971e16a0cef65435a"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/enchanter3.blueprint"
+hash = "b805dd14375e7b0119cd2badd3dca7ea0d1119d6b840759871b5ea047d27e7d6"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/enchanter4.blueprint"
+hash = "decd0d8000bbcaed3e5bc1767eebf697e58789e82ce49024bbf37e968358dc3f"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/enchanter5.blueprint"
+hash = "c5d8dab594567c08ea12730343f8eb28712f2f9aba35bb772a8ac4329f491f79"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/graveyard1.blueprint"
+hash = "0159c101d46935eac1f3bda42f3d32dabe11543bc53ff856972addcb4760050f"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/graveyard2.blueprint"
+hash = "8b0d6b059380316c1c883c604ff8a9b8062046b2af77f8557cc6d294be9d72eb"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/graveyard3.blueprint"
+hash = "55e34698c758c072d77fc7bc4295e8c00b64c7d3dcb1373d580bd4ffcce586a1"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/graveyard4.blueprint"
+hash = "a1c2bcb59b343dbc736e31f15e5fb4f2a07cb0840ceecbe557587d02c0769ee7"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/graveyard5.blueprint"
+hash = "7d9290e821413d07fb4759bc72c966d9cb172773bc05b9b1bb6924d3aff42132"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/icon.png"
+hash = "06d3d5b166f918c9136f14ffb5ec12170306ec1a34dc9a209ded09f50dd482cd"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/icon_disabled.png"
+hash = "ffb56d64aa3174af25f9b1ce3b6f6cef1712e62b4554bea0454dcaca1df30ed8"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/mysticalsite1.blueprint"
+hash = "c93170f9619e5350355379a2b1c14bbc3abf966c448423763da00acb579e3327"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/mysticalsite2.blueprint"
+hash = "0df1d898d2103a736f68c4b13d3c60169280857d54f7e784656b476ba4698937"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/mysticalsite3.blueprint"
+hash = "92b24bc9b68a7693563487bfe11a6d6f86ba7155d2c8589bbf2ff7ee81cc7c81"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/mysticalsite4.blueprint"
+hash = "ae3bf14c3139ed291b29763090d897845ecc0dd254f198acfdbd82e4ebaf70c4"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/mysticalsite5.blueprint"
+hash = "4ba0bffcbc76d9a4457b4ddd07884b34b539771c7073bd111a805b689ae877c8"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/netherworker1.blueprint"
+hash = "a6c19aad2c5593e6bccdc1215d1fb37012b6833fe40f8a8df3d033537b01cecb"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/netherworker2.blueprint"
+hash = "47eafd0ec261dad463c3fce9471f73573800a13eab641b103485731a852d902e"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/netherworker3.blueprint"
+hash = "3aac84c4e8477326345da2ef71b79c05ed4d5d22a908bc4fbbfe999826ba8e85"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/netherworker4.blueprint"
+hash = "9b461ce7543575b9d7b64367238a32aff7cd742cbdbb1a97906323cca39a196d"
+
+[[files]]
+file = "blueprints/christmas_village/mystic/netherworker5.blueprint"
+hash = "76ef0cee3be5535d662db7891139cea06168e1739ae2f16740c4adadb293f392"
+
+[[files]]
+file = "blueprints/christmas_village/pack.json"
+hash = "49f3d588cbe2c7c21a79c7b5d758fb01b608b5f4080a7a8e4aacc282fee998f0"
+
+[[files]]
 file = "blueprints/loreichop/pack.json"
 hash = "80d01eb6bbb96822c63e37525af4b0b6f2b86d3188c2cfdba4823829d3441249"
 
@@ -45,6 +2909,10 @@ file = "config/animalgarden_narwhalconfig.properties"
 hash = "41c2d74a7500883010e4ccf1b03082031888377fa83b0e35064fae62bf0a9cba"
 
 [[files]]
+file = "config/animalgarden_seaotterconfig.properties"
+hash = "e32a60f77091a1711fb376b2d17d59bfd8a3f349668ad451441e19c86779cc2b"
+
+[[files]]
 file = "config/animalgarden_snowleopardconfig.properties"
 hash = "8a0241c874efd403d4b18744880191c0fbd3ec12d4e9d7a1671bfea86ef2f9d0"
 
@@ -78,7 +2946,7 @@ hash = "4aa222824c07287a7304e139c10955f45ccb43ded5785efd09419915718536c2"
 
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
-hash = "c5720502dda0a9abe43988fc3f8b85acffcf8c13e01e18255e209ccea789fd97"
+hash = "c9a6773c731f3a3fc6f33282652be0cbe1e4e1c207e58a2901378971ceba119b"
 
 [[files]]
 file = "config/auroral-client.toml"
@@ -171,6 +3039,10 @@ hash = "0f77a8f879355f4115a894acb56161a164d826ce8af335f0522cdd0f8d0d9a52"
 [[files]]
 file = "config/bons_and_furious.properties"
 hash = "9aa74ecad3cd0b9edd5407dd272bc0a3c116cf429c33a20de90fbbdf5cc4257d"
+
+[[files]]
+file = "config/botanypots.json"
+hash = "4c2c8d447ff50ed3de32aaff6d16fc4cdbca4b4d9cb090b0c9795be1c327f124"
 
 [[files]]
 file = "config/brewinandchewin-client.toml"
@@ -417,6 +3289,10 @@ file = "config/chloride-client.toml"
 hash = "06dac7e23ea67a2017c8c05c588de9c42ba78adc791d4ee4ebb355b3c61b2a5e"
 
 [[files]]
+file = "config/chopautopilot-variants.json"
+hash = "8845bc40616b505fcfef66d72e8a4604176578485af3e1f9e48e6f057fa9ffc8"
+
+[[files]]
 file = "config/chopcolonylooks-common.toml"
 hash = "9ca49f856d752022a85e54ccbf1f86ef204f3e65479ed9886de6d4c602f76396"
 
@@ -426,7 +3302,7 @@ hash = "c2bd64acd6e3b6e4691463d7b1406a598c752cd05bf1f0387be6ea61982266a9"
 
 [[files]]
 file = "config/christmas_hearthlight-client.toml"
-hash = "17829884de771b370d1b3edb7c255345f41a77c45057d31d8b5549869335f34b"
+hash = "560c67a99dde6efef0564cca4409e3c4866f034190994f0c90097da5d306fcf1"
 
 [[files]]
 file = "config/christmas_hearthlight-common.toml"
@@ -437,8 +3313,12 @@ file = "config/christmas_hearthlight-server.toml"
 hash = "6e4d3448645c4e62185b40df704abe8d15c3c8016e3ed7648e4370d6ac26493a"
 
 [[files]]
+file = "config/chunky/config.json"
+hash = "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8"
+
+[[files]]
 file = "config/cinematic_respawn.properties"
-hash = "93c3148c893420d569d4c07f98e76c5bfa987cf7f49ab372840f2d0428def0a9"
+hash = "c3a5adedf40ad1d686d87d16bd94708774f819fcc121c2c92af6330b31054bda"
 
 [[files]]
 file = "config/cinematiczoom-client.toml"
@@ -458,7 +3338,15 @@ hash = "9d7e2db3fb92440a7acb2b9af73f7b2e01817b6ee07d306edf929040b967680a"
 
 [[files]]
 file = "config/colonyautopilot-server.toml"
-hash = "8eec9b6ebfefc6d42152993ec821f58019d336842799dce11b10422467212f65"
+hash = "8d0b320d9a0de67e58a7bb574c424ab051a4fa4a9522f52b94e0dbc70128097e"
+
+[[files]]
+file = "config/comforts-common.toml"
+hash = "1f21c10bfce9cd25aea641046a79df88867f68ba8ba3838a5e1662521f9f06a2"
+
+[[files]]
+file = "config/comforts-server.toml"
+hash = "f6df47d3f1002fde8d9e59c8068acbc39e976b3392e8fd528dc9b38b2856c5a0"
 
 [[files]]
 file = "config/companion-common.yaml"
@@ -645,12 +3533,24 @@ file = "config/curios-server.toml"
 hash = "1a3bee95a96f082b8e97cccbce30c1efe1352b616c78e06d5884fd4475668add"
 
 [[files]]
+file = "config/customwindowtitle-client.toml"
+hash = "e47f7829f82e946b709bad79161ec682f0b03b4b4f00df795c5184179833d85c"
+
+[[files]]
 file = "config/cutthrough-client.toml"
 hash = "0f1e7df65dc4fcff84594a708ebed689598dd05dec4cfca38e9f807ca817c5c0"
 
 [[files]]
 file = "config/cwb.json"
 hash = "59df651d6ab8a40b5bd3311a1a588429148ed13926b5f8e0ea3e5e8b437ff983"
+
+[[files]]
+file = "config/defaultoptions-common.toml"
+hash = "a1d7ce1bf07d787b9468423697c89a096ed7198d2b74dd55f47b709adf76352a"
+
+[[files]]
+file = "config/ding.toml"
+hash = "9e1ea835cd114044e51fdaf6f79422bdf092e0616556b820abee46eee06f2785"
 
 [[files]]
 file = "config/distantfriends-common.toml"
@@ -750,7 +3650,7 @@ hash = "955d2c21dd355ea7a311eb3049cc14312891a4cc98e87b8616c5924e0a1784fd"
 
 [[files]]
 file = "config/entity_model_features.json"
-hash = "55b2baad55405c98ea29fb9a7cf201063df32dc9a1ebc6097c1c6021e633236f"
+hash = "b5d7f03531377adb66ecf394c47a519325c96490c7feaa7214f06599dff1c540"
 
 [[files]]
 file = "config/entity_texture_features.json"
@@ -790,11 +3690,107 @@ hash = "a4e7d2d6bac537024dda0a613d6edfbb114cb4971e692e010cf5a43cb743e675"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "91534815dd95c9d71f9a7b431b2ee6adb514e1e9b9e1f07522b72805eef6daea"
+hash = "de4bda730932adb2749d3158b98c6d8517087f225b8a410fa2780e20b78ea0a8"
 
 [[files]]
 file = "config/fairylights-common.toml"
 hash = "c32262e467c4b0c06967e05f18e8db999425eae5ef1318a48e0c23d22cba519e"
+
+[[files]]
+file = "config/fancymenu/assets/chop/chops_christmas_logo_small.png"
+hash = "1bde4b704790785c58c423acb2b194018f7e1ddf10682abcb5f707143f2f288a"
+
+[[files]]
+file = "config/fancymenu/assets/chop/icon_128.png"
+hash = "27ffb41c6e1ecc3e8e484daef76d9a30e6b053f49e6c7fe2859e9a28091f3d00"
+
+[[files]]
+file = "config/fancymenu/assets/chop/icon_16.png"
+hash = "a6df76cd0b7c86ea087f98e6ed5f77e82c2bf1840931dd879ea7a05d8030a7f4"
+
+[[files]]
+file = "config/fancymenu/assets/chop/icon_256.png"
+hash = "9e373210a42f54ba2714b62756562abb31ab6eddd4805965207e088cea1daa00"
+
+[[files]]
+file = "config/fancymenu/assets/chop/icon_32.png"
+hash = "72bbdc2f6272ccfcfeb2d955d434605b3a1afbf1287ef62e2ed89fdf9e919a00"
+
+[[files]]
+file = "config/fancymenu/assets/chop/icon_64.png"
+hash = "d69cc1a6165fe27bd8b5bef37b7fd6797bce67060b02441ab6eb3628b16535a7"
+
+[[files]]
+file = "config/fancymenu/assets/chop/title_background_1920x1080.png"
+hash = "6888646c1ce6aadc2295e155b3b4f51d7b411edccf44de2513fab0a4f30f0779"
+
+[[files]]
+file = "config/fancymenu/assets/chop/xmas_title_bg.png"
+hash = "aa3bb4a4ebc35b949b8adb593a7058bcba95978dd6e94a5e93b073b07d8e56fa"
+
+[[files]]
+file = "config/fancymenu/assets/chop/xmas_title_logo.png"
+hash = "ba7fd234d8d3eba9d840acb9012604d9c3b62f742476c9dc2ffff894ba8d19ed"
+
+[[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
+
+[[files]]
+file = "config/fancymenu/customization/chop_xmas_title.txt"
+hash = "5a95fca087e3378171b0b972c37a96be0f95a224abe2662777b22be813552384"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "6df834ff0756d1d57f5ff20abcc8d5e716f7736fe38f83f390d5b4f539b407ab"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cherry_blossom.json"
+hash = "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cozy_campfire.json"
+hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark_high_contrast.json"
+hash = "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light_high_contrast.json"
+hash = "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a"
+
+[[files]]
+file = "config/fancymenu/ui_themes/pumpkin_soup.json"
+hash = "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311"
+
+[[files]]
+file = "config/fancymenu/ui_themes/purple_void.json"
+hash = "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0"
+
+[[files]]
+file = "config/fancymenu/ui_themes/spooky_season.json"
+hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/farm_and_charm-common.toml"
@@ -829,6 +3825,18 @@ file = "config/ferritecore-mixin.toml"
 hash = "d1403e0740a32154a671d919d03674b27168b3d37353a5c1e365c7069808f920"
 
 [[files]]
+file = "config/festivity-client.json"
+hash = "f0c8757ec9ea7047e0f84a7b17fb77dc5e84e0efa15c3864fbbd57e741965f2b"
+
+[[files]]
+file = "config/festivity-common.toml"
+hash = "0c1b2e3f9c7b0900fb958a931d0c2bb0c0d343475d3b0f212f1e4399e87acf37"
+
+[[files]]
+file = "config/festivity-music.json"
+hash = "e688ba7390fe2de5e86509608ab42759ff79a4925b61701c0adb0ce7856879c4"
+
+[[files]]
 file = "config/flywheel-client.toml"
 hash = "398730a2a216dfdae9aa7e2a8f54040f85e2a7f8faaedf9db09c28914555df5a"
 
@@ -849,16 +3857,52 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/chops_christmas.snbt"
+hash = "88dfd5419af94e3c8e75e462c054c6048a89146bb54bda2bdd99b5f3307f3fd1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/fest_dungeon_citadel.snbt"
+hash = "ee4360fdfc9fcdc817f6a495740adac4233d9f3e3bf1ad711b46b4344d8855c1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/fest_dungeon_furnace.snbt"
+hash = "8d95adcac58fb9c49e8b212ac5e518a203518ad1038e45eefcd3d130506cee65"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/fest_dungeon_labyrinth.snbt"
+hash = "11e273b7b6f0f4cba278cfe1dd0938df50f5e36fd8cf3c7125c9cff654b935fa"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/fest_dungeon_prison.snbt"
+hash = "e08ae30f98068986fd3abcffba98915fd16cd1f0584d9b870e080b94515408f9"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/fest_dungeon_snowglobe.snbt"
+hash = "4dec605a36849655918daaa4ca759ca83f0be6f3bd9e4e05b7d56fd9fcf3fbc1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/fest_dungeon_stables.snbt"
+hash = "d3c51b3591ae8cb7aec0b0678327b93f7862a0b4431c0c65d323ebe7af05d7e1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/fest_dungeon_toyfactory.snbt"
+hash = "843cdda9c096120d86bf78385ba8c67c3cf2c782e72f3ba64ab0c1e4f7494402"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/fest_endgame.snbt"
+hash = "7df03ea6241b204e38ee07393fdb0046c7655998c7d486060c6b8fe19f48fef3"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/festivity_naughty_list.snbt"
-hash = "c5fba399c57aecd746b1ec8d5dcd795b1e3d149985fb55c7601d8d0fc5148928"
+hash = "5017d070aa8a041ce3268ce3d63ac4fa904522fd537164530423e825f0b9eedf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/festivity_nice_list.snbt"
-hash = "72b773091f1dfbc8043e6579b39abe2823bcfe961188747ff6d9548e278aefa2"
+hash = "8adbab3ec192eb2583452de1f9ff873a380ab3438b2311bd994e5d300cedd9a7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fire_safety.snbt"
-hash = "fbde41d60f65e52ae160bf04df0d546bd54dd74216db79df220a3d62e6c5e53e"
+hash = "923cf215ec30f088e8b5524bf940da4b519792a5721be4dbbefbe85fc06b8942"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -866,7 +3910,7 @@ hash = "29d47ae6d733546ee2443b53597cb260bc70327d34cc7ef8491e66d3cb5500e0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "fb02d81093304f3cfcd98fe8709e814e194deee5caea4e979db97d37aa73027a"
+hash = "7cde2529e72c8fc26e2c9bb2940eaee9e535e7b3c1d946e355eb94a6e5508fd5"
 
 [[files]]
 file = "config/ftbquests-client.snbt"
@@ -933,6 +3977,58 @@ file = "config/horseman-server.toml"
 hash = "89f779a0828a0740dccbdb9a9d00a09029d56e6f26698c1590e4ca5a37b21967"
 
 [[files]]
+file = "config/ichunutil/ichunutil-client.toml"
+hash = "11b2d0505495ddeacbaeaf6f6b4f1431b36c6f81fa99f3bef3e8adfdab691225"
+
+[[files]]
+file = "config/ichunutil/themes/aztec.json"
+hash = "e649c0232e3b952d3c1cb9739e8823d998a8d8ea7013cf04825f2e7deaba228f"
+
+[[files]]
+file = "config/ichunutil/themes/blue&black.json"
+hash = "737f04c71b43552e74bf0426d7a973d7d55a73659de32673714b9a8a5acc5f62"
+
+[[files]]
+file = "config/ichunutil/themes/blue&orange.json"
+hash = "feb283d9d1f9cc25f4bb1e568649ed3e6537c9a9ee63fea3506c3683948a7e0f"
+
+[[files]]
+file = "config/ichunutil/themes/default.json"
+hash = "9f8d09018b881b6d4c6840c0bc81004840b0b723dde94fc0f224383e17bb8090"
+
+[[files]]
+file = "config/ichunutil/themes/grassgreen.json"
+hash = "1a9600633ee83e932c38442c34720a0ff659b70b4c304522d784a93766db0a9c"
+
+[[files]]
+file = "config/ichunutil/themes/green&black.json"
+hash = "c147b5c7b1af5bb58134c7d6c96c5941fd3d4cbcfef70f58c2cc151ed70bfb67"
+
+[[files]]
+file = "config/ichunutil/themes/lazygray.json"
+hash = "61096ad80c1aa88ae1caaa774b28d3c8f2dd670fcdf861e549f8d3e19c8c31d6"
+
+[[files]]
+file = "config/ichunutil/themes/monogeneric.json"
+hash = "ed1ce4ab67241147f28878514110ed44882fcd8b598a7f7b7d3986119f9aa14f"
+
+[[files]]
+file = "config/ichunutil/themes/nightblack.json"
+hash = "6e3dbd564f58d51ba79465157b2e6214b31910d7fbc07969bd9afbe2c296f65b"
+
+[[files]]
+file = "config/ichunutil/themes/red&black.json"
+hash = "d75c059cca81b4bd6e365614e10db45d3f16247ea0319ccb2b20a0a3f76b45dd"
+
+[[files]]
+file = "config/ichunutil/themes/skyblue.json"
+hash = "1327fd9384d4d487552f153358d3062adfb156b4b69929de32a83426841ec258"
+
+[[files]]
+file = "config/ichunutil/themes/whitelight.json"
+hash = "5369346e99dc684898a20bbf08791a940f55c9e70e4ed0b0fa8af9e04091dc78"
+
+[[files]]
 file = "config/immediatelyfast.json"
 hash = "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a"
 
@@ -942,7 +4038,7 @@ hash = "500a25894da7e973ca30987b10b52c21962a16cc1b7e09323ebd2e0ab03dc060"
 
 [[files]]
 file = "config/immersive_optimization.json"
-hash = "72c171bed9d554dfa0a3d7af64c39194b95feaf3f787c1219603181c1316e58f"
+hash = "a492ebff7f1dc52862e70a60892ee2e44d827903b22315a5780fe6d7ab9293d1"
 
 [[files]]
 file = "config/immersiveoverlays.json"
@@ -950,11 +4046,11 @@ hash = "3826b8194178be63494585a155157030b568798ef3751109ae9148ba30171fbb"
 
 [[files]]
 file = "config/inventoryessentials-common.toml"
-hash = "440658632c045fbcf64cdf6cbd48a64c46e882e3b6dff6aaff2610fffee564ed"
+hash = "ddbba37f738df9ca656dad8528dbe84c9a645ccde966b7172dffb05dfb0b757f"
 
 [[files]]
 file = "config/iris.properties"
-hash = "1e61490cd0ddd48889bc1c8b655ef90336a8f5f0d48c53dfa352e9cb53306637"
+hash = "53cf7ae808589b65dc12e2fa42519b67a007fcc1482011d8562500526a419202"
 
 [[files]]
 file = "config/iris-excluded.json"
@@ -1094,7 +4190,7 @@ hash = "2e5119684366f75bc8a6df871381c6094a812cadd0d5ed0547405b5f1353f9e1"
 
 [[files]]
 file = "config/jei/client/ingredient-list-mod-sort-order.ini"
-hash = "c039c57175d1d061d634b61213c06fc13df5ea5aaa8e62cb0c0c01ea6a55d159"
+hash = "b52367a50cc6e277f2576356381d998c6f4825e2e0fd1f316cc7d4879a211758"
 
 [[files]]
 file = "config/jei/client/ingredient-list-type-sort-order.ini"
@@ -1102,7 +4198,7 @@ hash = "ef2a24df1678ebb39b6c3605e790795b42135fae91e4c2bc59ed649f80a7d8f8"
 
 [[files]]
 file = "config/jei/client/recipe-category-sort-order.ini"
-hash = "ef4b745e823140d7bf6b075331a1f1aaf0c3547a088a1e93481f579b96696ef0"
+hash = "19f4d6151f2be3738df403e2a1499aa3cd0b67370d6486b2b60c7efaf29cf460"
 
 [[files]]
 file = "config/jei/server/world/default/jei-server.ini"
@@ -1125,12 +4221,32 @@ file = "config/jeresources-common.toml"
 hash = "99cb20d7cd33b3b8cbf747fb026a02f11cec5d14463bd0e6cfa68f37526430f5"
 
 [[files]]
+file = "config/keybindatlas-client.toml"
+hash = "e58a2317b8a912f4b793c3d4a5e64e6c9a1cca97f0aa86940158d93a4b7033a7"
+
+[[files]]
 file = "config/kiwi-client.yaml"
 hash = "6578bc417fc04cc6e57b330bf139a6d48ab5fc9de95638ae283f14975178ac3d"
 
 [[files]]
 file = "config/kiwi-common.yaml"
 hash = "202b5a7ab19c1cfff344bd6546be24f8c10a3e92632551ca83ab636016e9d72f"
+
+[[files]]
+file = "config/konkrete/locals/de_de.local"
+hash = "79a34cfd15c2d9c06498dc221be79279507d9b57666cd44f8d2c2cf95d3582ef"
+
+[[files]]
+file = "config/konkrete/locals/en_us.local"
+hash = "fdf1864fd049b3f1b9af1f8db6c5125a627be7d06a451c778da3329843d3c39a"
+
+[[files]]
+file = "config/konkrete/locals/pl_pl.local"
+hash = "d38a7776e362e4de6082078d803c1c9358d9d40526edfe4bdfd29c552aef76d8"
+
+[[files]]
+file = "config/konkrete/locals/pt_br.local"
+hash = "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c"
 
 [[files]]
 file = "config/krypton_fnp.yaml"
@@ -1310,6 +4426,14 @@ hash = "12174fd2e7b7105aa4aa98a486df7baa470fd770ff30a731cf314c4fd571701a"
 
 [[files]]
 file = "config/litematica/litematica_OceanFix_1105_dim_minecraft_overworld.json"
+hash = "adcadb841e38244e0121845e5c11366cb7fca48d1e6518db75eb8369eb9cc582"
+
+[[files]]
+file = "config/litematica/litematica_Proof_NoVB_1108.json"
+hash = "12174fd2e7b7105aa4aa98a486df7baa470fd770ff30a731cf314c4fd571701a"
+
+[[files]]
+file = "config/litematica/litematica_Proof_NoVB_1108_dim_minecraft_overworld.json"
 hash = "adcadb841e38244e0121845e5c11366cb7fca48d1e6518db75eb8369eb9cc582"
 
 [[files]]
@@ -1533,6 +4657,50 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
+file = "config/MusicTriggers/christmas/main.toml"
+hash = "e0ed3ff484bdedc8490f9d851435ad4a7b276a7ffcfda4902164cd88ae447f03"
+
+[[files]]
+file = "config/MusicTriggers/CREDITS.txt"
+hash = "ddd9ea822f2d4357a4e1b3a4164976844b92990315235f3016692cd284aff5c2"
+
+[[files]]
+file = "config/MusicTriggers/global.toml"
+hash = "67b1349c80c4c541665877720ea609151bc319ff67e37d6bbf6919918b557ab2"
+
+[[files]]
+file = "config/MusicTriggers/songs/auld_lang_syne_marine_band.mp3"
+hash = "3addeac1c6d36fc26759c4464ecf66004e35aefa789b345b12e0a8a463d5f123"
+
+[[files]]
+file = "config/MusicTriggers/songs/away_in_a_manger_marine_band.mp3"
+hash = "b094ad8feed16344e6529dc5917359d56a434efab379326226464dd02585ee08"
+
+[[files]]
+file = "config/MusicTriggers/songs/chasing_snowflakes_geoff_harvey.mp3"
+hash = "856fa39fd4d99e1848a40fc1e87b6fab0fb7439f30c5a2692a5dd02fc12aa33b"
+
+[[files]]
+file = "config/MusicTriggers/songs/deck_the_halls_usaf_band.ogg"
+hash = "9476dd5917b2bae3c932acd444a4bb6648648b7fce9b0136abad93d3c52bbb2f"
+
+[[files]]
+file = "config/MusicTriggers/songs/dungeon_dark_kevin_macleod.mp3"
+hash = "62d9f8a01262f351a7f02c32fae217a9cb32dd5aa1fc85c0bcb8c325a2663970"
+
+[[files]]
+file = "config/MusicTriggers/songs/o_holy_night_usaf_band.mp3"
+hash = "4b7f485346459ba18414007c5ba441c7c6ddc275facd507f531799b6e3cd1d85"
+
+[[files]]
+file = "config/MusicTriggers/songs/sugar_plum_fairy.mp3"
+hash = "e8e7797dcb7ac80431a4615c2598cf4532f76c4cc054b88a0ec3707ec857c5b1"
+
+[[files]]
+file = "config/MusicTriggers/songs/wish_you_a_merry_christmas_marine_band.mp3"
+hash = "5bc1a44e22ddd443aac207165cac57a8a64a0f1a8310a60c08f3b53a565c9e03"
+
+[[files]]
 file = "config/naturescompass-client.toml"
 hash = "a5d664ed8aeecd77bd09611cba93d5f8e3194da8140666d3e97a0c4973dd0981"
 
@@ -1629,8 +4797,8 @@ file = "config/openloader/packs/15_Chops_Roadside_Christmas_v2.zip"
 hash = "2cf765fd5d84a24fceed8b30a844f49c3b5e6069e2d8ffd6d776b27fbf31749c"
 
 [[files]]
-file = "config/openloader/packs/16_Chops_Christmas_Structures_v28.zip"
-hash = "71ee6b2980271221e33d10f26dafdb77c81e844bf26176973d184f5d27fbebc6"
+file = "config/openloader/packs/16_Chops_Christmas_Structures_v30.zip"
+hash = "58015d0c4e79353a633fb56d3341fa3e855208896aee09034cb223cbb943d891"
 
 [[files]]
 file = "config/openloader/packs/17_chop_christmas_caves_v1b.zip"
@@ -1641,16 +4809,36 @@ file = "config/openloader/packs/18_chop_festivity_pets.zip"
 hash = "bf52e19d3e73f7b32dfbb820eee7df8bc170f38cef760e0dbb86ddd103c25e3b"
 
 [[files]]
-file = "config/openloader/packs/18_Chops_Large_Dungeons_v2.zip"
-hash = "07a6a71cd961ce0fa2313e44db8e746db5c99d0c8a6573926b489f6fbc3c29a2"
+file = "config/openloader/packs/18_Chops_Large_Dungeons_v4.zip"
+hash = "378a960bcf450308c6ed1c8835f8d4b11870a0dcd9bdaaf9fbdf43d60e58c3c1"
 
 [[files]]
-file = "config/openloader/packs/19_Festivity_Anim_Pack_v4.zip"
-hash = "2f3fbaf48081c92a3dca2190311ab6dd206ab1a8b08d4fa642bb3209ba2e60ae"
+file = "config/openloader/packs/19_chop_wild_reindeer_v1.zip"
+hash = "440cb71a1bdfaaf6fc233373971ece028b38ad023529a710857bbed41e7bcd64"
 
 [[files]]
 file = "config/openloader/packs/2_FreshCompats_v1.6.zip"
 hash = "0fe5e8edb0d7806fe8aa703ce61a6f2f2ec6ed0dd2e1afbf7ee617a33321445f"
+
+[[files]]
+file = "config/openloader/packs/20_Chops_Winter_Critters_Spread_v1b.zip"
+hash = "c42e88638688ad33eeeafd2419831e81d56bfe9dc54c5e481613456651b7af2e"
+
+[[files]]
+file = "config/openloader/packs/21_Chops_Christmas_Music_RP.zip"
+hash = "5c1b7531647817e5e44f78ca6512969f706324a6ddb582da60504a10831e0d62"
+
+[[files]]
+file = "config/openloader/packs/22_Chops_Botany_Pots_Crops_v1.zip"
+hash = "26853f86ebf2996d6cc74911267a78b3320d5641c1e8141837cde2d951ab112b"
+
+[[files]]
+file = "config/openloader/packs/22_Chops_Extra_Curio_Slots_v1.zip"
+hash = "9e0bb8a791d450ff80a8e2a0c57709977c2f0bd79194d3b155400ce98cf88b80"
+
+[[files]]
+file = "config/openloader/packs/23_Chops_UI_Tweaks_v1.zip"
+hash = "44e4ca7741cc6449ce93dcd506aa9057c04fcc6eef45ca51e22155a6217519fa"
 
 [[files]]
 file = "config/openloader/packs/3_FA+All_Extensions-v1.10.1.zip"
@@ -1699,6 +4887,10 @@ hash = "7539e26029e3c10b415cf7a656bd3740cbf5c2e857efa333515821b92aa8a6b8"
 [[files]]
 file = "config/particle_core_disabled_optimizations_v2.json"
 hash = "7189bb61c58cb1030b8ee486e66abf694d257192248b9b3ac4978df2b1366f7d"
+
+[[files]]
+file = "config/particlerain/config.json"
+hash = "10f75ef386c1ecb715cb6e1bf98c4804f834b5d266af95ee112b9a4866ad4631"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -1974,15 +5166,15 @@ hash = "d953af1457a8cb242fa5cde67a51ce0ce8717031c4adc786b522118c2cc573c5"
 
 [[files]]
 file = "config/roadweaver/roadweaver.json"
-hash = "51bff7ef0f007cd08ea10e693042c83b7a537e37ebdf4fa9476a74be1d040126"
+hash = "f5c168dc6fb0b1da1ffb4f537f04430828de111251eaaaae424eca2057d1e549"
 
 [[files]]
 file = "config/roadweaver/structure_cache_overworld.json"
-hash = "e1fdc5b09000faaf6db74b73e4d03abc429e8893e663b132e03407c1d0403552"
+hash = "d95c9d852de2a09d7b2bf32a5f594a37fab7b14a3151e604520cfd22eb9a14d6"
 
 [[files]]
 file = "config/roadweaver/structure_selection.json"
-hash = "00f96684747c5afe2302b36d470f19da2cc5c80f9d29c0fd38d75dd0dc10d6af"
+hash = "fb8164589bc3db463b2d856f2877d87a76696fe7b166eb72bbfa0c4971f1092a"
 
 [[files]]
 file = "config/rrls.toml"
@@ -1990,7 +5182,7 @@ hash = "50aa30a1d8c6d5c07552b639a63169d7dc34936d84bd8b97af80e0083e851b9d"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "71f3f654eb466efb64f94be7f7cfbdecf6aa677a62c88468111e1e2858f081a7"
+hash = "88782770641d14dae33214febc0d21efb298cb2b0d73a7a9547da2fedc7435b9"
 
 [[files]]
 file = "config/saturn-optimizations.toml"
@@ -2050,7 +5242,7 @@ hash = "fb5ea0772bce767c93b7024027f87ad4461c46422f323cf8530fb09e4d32b174"
 
 [[files]]
 file = "config/simplehats.json"
-hash = "ef023c7f0d6c273b463f595c62145afab8f3b65b43b0b3304e3da5e9355cb5dc"
+hash = "0de93efc5067afd7f8939c576707de28dba169b5245e4a38f3a372948a2030c8"
 
 [[files]]
 file = "config/simplehats.json5"
@@ -2101,6 +5293,14 @@ file = "config/softimprints/softimprints-client.toml"
 hash = "539c95ae0d21bbbb041c570a92141794d451d3da8a7b5e77a1f4f67d0bab18c1"
 
 [[files]]
+file = "config/solonion.json"
+hash = "105d00b0b515d8fff493d00768d95cc41d35d4ac24e08b075eebe2fae16b8f9f"
+
+[[files]]
+file = "config/solonion-client.json"
+hash = "3b25083488df1b392b417e202ade95037aee601ff4a564067c2b1d67fff60aa0"
+
+[[files]]
 file = "config/sophisticatedbackpacks-common.toml"
 hash = "390cb983090cdc5ba9013c0551fcde8ecf579040f970e33de5ecfc500841cb7f"
 
@@ -2135,6 +5335,22 @@ hash = "0c721ecf8a9a6fba8402b7ce73bf8580acdd078e9ac9c3b37c42245ca6d8c4b0"
 [[files]]
 file = "config/sophisticatedstorage-server.toml"
 hash = "0829ac7bfb386cee8c51fca99d0eeddd9e5cca1885398eae6594d45215ae21ad"
+
+[[files]]
+file = "config/sound_physics_remastered/occlusion.properties"
+hash = "ebbac45fbb3ca01487b85ffee9601b213b71896e6606fb297bcb0f3ac9c30ffb"
+
+[[files]]
+file = "config/sound_physics_remastered/reflectivity.properties"
+hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
+
+[[files]]
+file = "config/sound_physics_remastered/sound_rates.properties"
+hash = "f60a62a7de4fd82d3fcd3a1d25116cefad85f263c5d5b0e336c37ae387d51ccf"
+
+[[files]]
+file = "config/sound_physics_remastered/soundphysics.properties"
+hash = "d29dede3f214ee4b1aa03314f92c3f973c21ee6e26d173eba3d01a2083237b6d"
 
 [[files]]
 file = "config/spark/activity.json"
@@ -2326,7 +5542,7 @@ hash = "291729a416d9c1799744e535611bf96fb776e9f60ef46aba8e46574af9b62147"
 
 [[files]]
 file = "config/tipsmod.json"
-hash = "2e5e6b293b2251a6acdc55a9e5210c6a78b7fc176b0504f042d106c9350dfca1"
+hash = "b37446981c838fef7626f851b2527612b24ea62f8d3d8f2098d24c2d640776b2"
 
 [[files]]
 file = "config/toastcontrol-client.toml"
@@ -2394,7 +5610,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
-hash = "070162c58940b1c563adee2e1b0b260a2c1f7229d432da6ce725c355aba9edd3"
+hash = "3ee85cb90ef8c968c87bfe0d423b2344632235a12c8b5a7edfc82c582902fad8"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
@@ -2407,6 +5623,10 @@ hash = "e5806ca350b26f9c299c7b75728f3f9c0664c286470daa027e4ce547097b90a5"
 [[files]]
 file = "config/whitenoise-client.toml"
 hash = "00c6e34f0adbb41db954d296fd7c55dc3412463a38038dc836626433dd7f6d92"
+
+[[files]]
+file = "config/wildernature-common.toml"
+hash = "a439cd6c416bd441f8b9d14a7e91391c9527def44a5460cabe56c07db253b34f"
 
 [[files]]
 file = "config/windy-config.json"
@@ -2982,7 +6202,7 @@ hash = "dc3c9f6273f8c4e10cef482cd283d12c5a74ecdadf3f4f7d5e104b324a2b2720"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "bcc130a3a36220a2a1ca358001df33ac7a6b4240d3f34be0a38a61fb8b1176c7"
+hash = "fc41781af5cc671e8feda1c9b7c0660b0bf68b23283e8c4b15514afef396d965"
 
 [[files]]
 file = "config/wwoo/config.json5"
@@ -38721,6 +41941,222 @@ file = "kubejs/assets/chop/textures/item/sour_candy.png"
 hash = "05b1c3658242c06563b14b30cf0bd1762b48e7417a5feb9ae7250003461ec138"
 
 [[files]]
+file = "kubejs/assets/chopxmas/guideme_guides/handbook.json"
+hash = "c923cd9a989886b287a62a516b12675a902ed6ae8d399485c684b305caacd726"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/index.md"
+hash = "c6d3da671117ccd8032b70830312068db4185645ba006b9715a9766314bceefe"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/backpacks.md"
+hash = "eb3dd8ebcc872a50dd5ca6dbf41c149aff013afebe030def5d4338d58095d676"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/camera.md"
+hash = "2f94217d016816bf9ba5d8907c99a43bf73f19d1ef6d31e7c356bf6b212039aa"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/graphics.md"
+hash = "7f1e2232cd02c71b8e3165516d26202c8836489a68fc29551eead0502f1bf2b1"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/index.md"
+hash = "23b42b0a02c38fd3370eb84a2de073c8a6be79a5087a83671461c387e81e0e79"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/info.md"
+hash = "9e8ebbbeaae8ff1b5e56cbf2ff786a6d9432519e443133c6afbce5b3a4ab7751"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/inventory.md"
+hash = "d0ac15c4788282a4ddfaddd9c22193ee6fe48740a619bfd07ec7264d9904163b"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/map.md"
+hash = "28a11987fd8e3346a76513ab6a749f564e457d9516c9d541f2bf01928c686f80"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/mining.md"
+hash = "53e22985f9da9b5716f76a28e6c8092d6c4a866eddf7e9b6ac3f4730e9c4951d"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/quests.md"
+hash = "cba475f099dd4bc7f247f56cbd9b82c070a5a70ea78245763eb88e29a8cf670a"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/voice.md"
+hash = "6d9e6581d71dae5634b7f01c1d3395fda33f516f7bc55663ec855a616c08c12b"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_01.json"
+hash = "4e62168d025b61b4c4221c2e9d080b734b0437d9b578b1ba03761cc9f15f9316"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_02.json"
+hash = "8d339fad71e9b174bb197f615aa6a16504275069f96d3413b51db46f3a2fe521"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_03.json"
+hash = "175dd53f6324811cf90c978b0ef44a2f60ed3be989032e3c8c4778b388195773"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_04.json"
+hash = "9bfe3cadca1b92b59fa2da5de2da82f1c5b34db7d2950af49ee0bd3ff7a24e39"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_05.json"
+hash = "09e5824ab4c76314db278c89cc848529aeded001042f63f9e94356090534ead5"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_06.json"
+hash = "6881a88ff3585584f3f561d5f7c99b7e31c720930ee169049c50ba81328d9e19"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_07.json"
+hash = "8be315c4c744eec5f6403aa5515f0e0b3b64f8da325cfe8c307418e70f4e3545"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_08.json"
+hash = "bed993ccdcd00cad4456707f78afb0f7cc3d1c3e81a3d6238941de4b0b9e344f"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_09.json"
+hash = "9493dc7322c1aa31e2164df4ff04cae231c55cc7f978c4bb56cd90387b44d492"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_10.json"
+hash = "70d939afe7aa4a189413118b986c5625f39124ce8d0bad76ce84e60e4ac9e627"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_11.json"
+hash = "ceaa7e08c843f12f698377ad9508c8ba2b5b3a84154dfb7095d7c2220ed00d13"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_12.json"
+hash = "74e49a6297e54f28a6a03d3034568dac8284d89a235b8212ef48f3b5b26f8925"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_13.json"
+hash = "476b0c24812e107459e63ab02e88f7c36c81829bf8076ce9e09e7a808a0639e4"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_14.json"
+hash = "d1438df992bd08440a74614d2d05c95bc593b4243152453c425077ad23c10f86"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_15.json"
+hash = "7643a2e280ced850b1b146786d9571e9a0a004da960fad8c145b10df01e2ba27"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_16.json"
+hash = "1948f02ffc47fb17e69e2ca6882dcadf6e82c0154c78e731c0a97285801cfd15"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_17.json"
+hash = "9607e646b6d2df6fbe02f078a981a738777d76dbd8b8b600b43687274fe15c80"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_18.json"
+hash = "9d3ab7fe92828dbfd71acbe0c49082e96c3bdfcea75f61f89acb5e7563f215a4"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_19.json"
+hash = "3099cf4fe0acd2789417b13ec7cdc690322ce279e8b8b5f5ba7800caa3097aae"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_20.json"
+hash = "c84bd32a69b45964005b0172189776ad74b6bd6e574a6b72bb7c89c7a76c7538"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_21.json"
+hash = "c78bb3f747fb73755cc85dfe9340dcb01a4132dc54943fbfc45d798123b3f126"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_22.json"
+hash = "7be00bafba0a9b10dd0512577d90f4da987ad48045fd7ce058ef77d7a7a5f824"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_23.json"
+hash = "f086892d2b397bc6c2567d095553204cf5532f2b18614d05eed2d03140f73ed5"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_24.json"
+hash = "e5b1be410767e7d83044b08550c16bb10ae1b9592ea8c480a4256ceacb4a6eda"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_25.json"
+hash = "3ec6c62192fc273a98817b13024fbebfc79198bccc702b9f18bebb9bf0bc5914"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_26.json"
+hash = "1268ebb61a5384b4dd1613aad8061a9274647f10ce57eeae5a2dabec7bb09980"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_27.json"
+hash = "58f44e7df7ce7adcf18554016ff535658161b0cfeda5383de54c84587c26e2c0"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_28.json"
+hash = "151b80cabdc7c878ccb579f3a165a21c5cfa83df30cbdf233dadb599f3e33160"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_29.json"
+hash = "cf17510ea41672cb1f7a14f9f476c3b16b0d7745b197cd50064a3f813d165980"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_30.json"
+hash = "46db9c45ea37f0715e1d72dd9ba132a47ca888a463de19f2d2bfd9b1b6305c0e"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_31.json"
+hash = "cfa10054700d2a2bfa128c8bde75fb7e062a44c8072c23585152c2e797c096d0"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_32.json"
+hash = "f96ef014427011c29f26e06aa8c748ad887d1572230f6867f8a8bbc274f1dbd8"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_33.json"
+hash = "d534227d2db90a7fa8f83c16adf2a357c0212d03398134a4a1046ecfc11052d7"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_34.json"
+hash = "c73bbb9f8e4d29cc9458f35614b31e880298e141357deb4fcd454f5d91c45406"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_35.json"
+hash = "f7aa6c4b6bb0006d16337a7aec70451bd714530aeb29ab4bc8082ccc1f2a8ed1"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_36.json"
+hash = "fc5bf379447929362494f6aa61d4dc0360a1b610ca45b29b6fdc1bada2afae30"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_37.json"
+hash = "7d048d4916b5aac7e4def30b295fe1b6c5064dbb836dd0ea6fce4a2baadb0af7"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_38.json"
+hash = "fffafd2036423fb4fa7970480010441c09453202817f9fa1c9d50b7b700a50df"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_39.json"
+hash = "41f1f297b4327961374112555d56b3bd3d1f5176235e7ce642c618657fe6c534"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_40.json"
+hash = "831ca91a34eca3bb2aca7d31c54a6e8bcf861a5d62b5ed505c78b7205a86a4ad"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_41.json"
+hash = "f0238dabc0a3ea51bbee7225ea16e6d92281c01ba53620691d794eca7ef3a06b"
+
+[[files]]
+file = "kubejs/assets/chopxmas/tips/tip_42.json"
+hash = "ad87aa88991fc2db26844106c9ffa5bcb5e1299d975ca9885bde6aaf00a20022"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
@@ -39309,6 +42745,14 @@ file = "kubejs/client_scripts/chop_hide_items.js"
 hash = "c76266c51aa474d50292e4edbbcf2a8500f676e7309e58a9a4eaca70f014c123"
 
 [[files]]
+file = "kubejs/client_scripts/chop_keys_atlas.js"
+hash = "d24f2f2a37740f7e91b9aad53c282178cf8742d742a9991768076ee80d80ed7e"
+
+[[files]]
+file = "kubejs/client_scripts/chop_xmas_tooltips.js"
+hash = "134af9ec31e8ed6247e0039813f6390c43658787168b0d76f0f48246c4ab2f24"
+
+[[files]]
 file = "kubejs/client_scripts/main.js"
 hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
 
@@ -39331,6 +42775,30 @@ hash = "9871c937da8721b805e7f096a46a2f535e1ff7088cd43ec1876de1d836ac842b"
 [[files]]
 file = "kubejs/data/chop/redomesticate/taming/clinker_gnome.json"
 hash = "6c7f3b22ff5d87943b33785892ed4fee64670ceebbc94ed4f2a964e20daadb38"
+
+[[files]]
+file = "kubejs/data/chopxmas/advancement/tips/backpack.json"
+hash = "8bcdf78d5516809ae8ec1bba7c945171cb273e84e5677116b80a8fb9f12c4b74"
+
+[[files]]
+file = "kubejs/data/chopxmas/advancement/tips/handbook.json"
+hash = "2359e429f093d18a6e48e06e5825c815cdca0f7aa0273165cb97acb0057cb60a"
+
+[[files]]
+file = "kubejs/data/chopxmas/advancement/tips/map.json"
+hash = "9c19ce7967e63c57e2b0553512600f5dc3136b4841cfdafd45fada1fbdbb4052"
+
+[[files]]
+file = "kubejs/data/chopxmas/advancement/tips/quests.json"
+hash = "c8cf6c019bfd8cc868083d4ef467ced0a55f90dc58a3328e429bda088ca66668"
+
+[[files]]
+file = "kubejs/data/chopxmas/advancement/tips/root.json"
+hash = "e050d0aed10f1af2444106632fc6486aa58d242fea87a30ccb76adb750b72af6"
+
+[[files]]
+file = "kubejs/data/chopxmas/advancement/tips/ultimine.json"
+hash = "2fc48550e9b9a2c3ae2abef9db9f04be0a9597ed774c676e81e0881716ddd658"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -39365,6 +42833,10 @@ file = "kubejs/server_scripts/chop_holemaker_guard.js"
 hash = "d43937904c50ed7c2b4c7fa08ea0b0bf18c151352cbe34634a607ad121d6c1b0"
 
 [[files]]
+file = "kubejs/server_scripts/chop_keys_cmd.js"
+hash = "19a2be13a966fc095d095a8d21e11299ef9173f9d85e2b712316fbbcb117bd9b"
+
+[[files]]
 file = "kubejs/server_scripts/chop_no_autopilot_guide.js"
 hash = "16a24cb34aa0c102ce2a8a135e2d02dd40311e88b1dacea54fa0ddf6ba7bd6eb"
 
@@ -39387,6 +42859,10 @@ hash = "0d6e2ec3db2889c50448b1e791231773b687d3348e1fa6979ac8b31db774c413"
 [[files]]
 file = "kubejs/server_scripts/chop_stagecoach_recipe.js"
 hash = "88e3d258fa6e259c18b25755bb3a61f43b47bc1fb75962b80c953baa07cf9b29"
+
+[[files]]
+file = "kubejs/server_scripts/chop_starter_kit.js"
+hash = "7bf70b926c45c057554fa2dbc167183705f75baf9dc1b85b37833a0ba8f951c5"
 
 [[files]]
 file = "kubejs/server_scripts/chop_synergy_critters.js"
@@ -39418,7 +42894,7 @@ hash = "7d7d657846adb80c8eb483cda0ffcd517e9c13b0594e70e7be7ae57e490f8aea"
 
 [[files]]
 file = "kubejs/server_scripts/chop_xmas_chest_loot.js"
-hash = "ac719a15cee420ff3432a218e44de22ef99d01a49bf04d3cdf4491e4b36c47d9"
+hash = "589c20fcaaa3129f62380bbefae47164e674002c3f62c097be74491bea9c5cad"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/05_tags.js"
@@ -39426,35 +42902,39 @@ hash = "cdf4aa0c2f71ee334b4401cf504716b66017121d9c92c83762fe315f3ed7f9aa"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity.js"
-hash = "495ae16a6bab4cc94b0358be6f1ad2f7c25938c028305f451696fff804385c8f"
+hash = "c1a7ebeaf7f9211785e9b131458f95c8ffff9c4bfab2651ef4f1967cfa754704"
+
+[[files]]
+file = "kubejs/server_scripts/festivity/festivity_gbhouse_loot.js"
+hash = "fc972b29714acf12f8198d8fbb32a1b90652ca3c63e11a1ffc72c0fe539a7dbc"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_loot.js"
-hash = "593f429431ca0cefb1c71cab9c11f96c3eead5565af784c0f90353a20cff6416"
+hash = "546d54d075e95b8f4504eeaf0e714b881f9c8ab658a0da87f23e88f7bfb75958"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_pets.js"
-hash = "28455b1d0d30c5504cab804b3a3536ec50927105fee807af0fc39ca6900e0325"
+hash = "72fcc827e728fb25e8bbbf57f7bd3bb05c15baaa6b4dfdd7d4009ad13075dbf8"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase2.js"
-hash = "f374ea6b5ac0a14d9c4f1136dfff8e726c8590a91e8ec7148a8e1696d7fcf425"
+hash = "ffdb60518acb8579a886ba5bbf4c66555f912750793407d390462aadc14813c5"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase3.js"
-hash = "3ab316133cf163bfbdbe114b3636f33a88415e4fd5f700039c0df2fb275cd316"
+hash = "6af44b501a6a366fed45bf62b42807fd193c8d5f4b6fe9a6d5b8b84250ce4017"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase4.js"
-hash = "a226f8567a1dd83293fe280cacabcc63488da259dab4f4d169a0c614ea2483be"
+hash = "f2999f1e4b8e8994265d1620effc164243d4f21dc92f9287b7e15e938cfc8703"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase5.js"
-hash = "2b019ddd4213b8424433a9d75995ae7394bc1ce5ba754b761efcfcf4c884bca2"
+hash = "108b98b82f7e8bb8b9b6fd57a6ff3ae956ae8dba745cc19bc788d08a12bdb77a"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_quests.js"
-hash = "0dfadcd9ff6745dba1acb5ab57e30570fa02b9b8c98302df1353662c70067b15"
+hash = "5af4e7628f5ccbee93cede6fca8adc180acfec56e0fad538614ebd3e0bb11cce"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -39482,11 +42962,11 @@ hash = "3299a6b21039796a0eec75fd297e774a7cdd13f3433b6c443ddaed662b595375"
 
 [[files]]
 file = "kubejs/startup_scripts/festivity_items_pets.js"
-hash = "a011963a6fb05207d2f019f724c054b5617f854cf56aa66ddacd3592a05eafba"
+hash = "2ddf98b62a83597f2d474aabbc4cca16691443f83462a1e4cca6c401289e05b1"
 
 [[files]]
 file = "kubejs/startup_scripts/festivity_items_phase5.js"
-hash = "dc0ea5c68575bc3ee8cf4b6489547b5e37a0cf6f32ccd566ee29bc3fe6729f95"
+hash = "31586f42651913802aed4fc818d3b445544e68725732c6a0120c670ff4fda955"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -39500,11 +42980,6 @@ metafile = true
 [[files]]
 file = "mods/alltheleaks.pw.toml"
 hash = "606491f1d150214fc1f783d9f9cee9ebec52ff53b7c4d8953688090dc74fb537"
-metafile = true
-
-[[files]]
-file = "mods/ambientsounds.pw.toml"
-hash = "359e6770d884a324218583710e8d59f050aa8d26c65ccbc89b0dba23337bab4d"
 metafile = true
 
 [[files]]
@@ -39525,6 +43000,11 @@ metafile = true
 [[files]]
 file = "mods/animal-garden-narwhal.pw.toml"
 hash = "01582be6063d52fe699360fc548a4d823f6e8a7e7acda3571de6c9c060ec34f7"
+metafile = true
+
+[[files]]
+file = "mods/animal-garden-sea-otter.pw.toml"
+hash = "6f4c0c2ab5c1e4d7f9ee3caddaead42c4ed41aa9a6dd732708b3d5528cec5437"
 metafile = true
 
 [[files]]
@@ -39693,6 +43173,11 @@ hash = "27c76250fab71f97f8e58bec4220401762b2b1281840b03dd356e87c6a93d0fa"
 metafile = true
 
 [[files]]
+file = "mods/botany-pots.pw.toml"
+hash = "da045434a9f317ecfef588e409566b6679c76eed01ddc3a0652edce203113a68"
+metafile = true
+
+[[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "c73ddd4db40a84ffeb866d7d2a5cbcf5e8ae6a8ce7435c438c08d9831cbf856e"
 metafile = true
@@ -39778,6 +43263,11 @@ hash = "1581859ff073df443841d41cf67f64191d3ba0ee724d0e397777de452dda3233"
 metafile = true
 
 [[files]]
+file = "mods/chunky.pw.toml"
+hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
+metafile = true
+
+[[files]]
 file = "mods/cinematic-respawn.pw.toml"
 hash = "f6f5c9011ce60384eb129a735eac81f67850019b02c7678d1e98141cb5c67421"
 metafile = true
@@ -39808,8 +43298,8 @@ hash = "f363fb72c202d516cd04ea8aaecbee38b66e32e7660a16fb18a963244142c1d1"
 metafile = true
 
 [[files]]
-file = "mods/colonyautopilot.pw.toml"
-hash = "1be91148f36e24929878a5539db3a1b5067c434436928ea7e2fb95b6016e4bff"
+file = "mods/comforts.pw.toml"
+hash = "36f2f6e74b7dbeccb504572d47006582207544fa234a095093b97adfc7ecd5ac"
 metafile = true
 
 [[files]]
@@ -39893,11 +43383,6 @@ hash = "11582edc31239bff5a773938f3d98da7db77277c2f6afe5ffe91880a5a61f7cb"
 metafile = true
 
 [[files]]
-file = "mods/cucumber.pw.toml"
-hash = "be931a9d43d2fedf798b575999d228c587444a54feb5ae049dcdfb8bff0a4672"
-metafile = true
-
-[[files]]
 file = "mods/cupboard.pw.toml"
 hash = "5aafb4ee9880948a14660128075938e0869873ece8b871e5be77d0558d9ed9de"
 metafile = true
@@ -39905,6 +43390,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "c38a1257e028370f0312aee8b3bad6e87bc7ec6e84559cc9051e5770e2a9f16d"
+metafile = true
+
+[[files]]
+file = "mods/custom-chop-autopilot-1.3.4-chop.5.pw.toml"
+hash = "1811d491b97c3ef83b2494cdaaf144ab7785f42789d332f09340e9c3ddb27673"
 metafile = true
 
 [[files]]
@@ -39918,13 +43408,18 @@ hash = "2c86278501e97b07b91640f7163a882a34271654c6832c8055eca7a774deda1d"
 metafile = true
 
 [[files]]
-file = "mods/custom-festivity-0.4.1.pw.toml"
-hash = "0a91b118947ee167c3c6347d7bffb5f1fa9bb952400c95cbc2c848e665dcc662"
+file = "mods/custom-festivity-0.9.1.pw.toml"
+hash = "0408e3a4d6702396fcdd220b8fd546641a19389cb2c5a331cfbb85c48cb6fea1"
 metafile = true
 
 [[files]]
 file = "mods/custom-MCA-Colony-Integration-0.1.2-chop.pw.toml"
 hash = "832d9618d08a29831988c90e0cf9b7d24508e4ac6a126cc5ae07cd138a16f5c6"
+metafile = true
+
+[[files]]
+file = "mods/custom-window-title.pw.toml"
+hash = "09d3121e0f62df0f7543ec669a7d2465ccc257f8ece46eaa37c0d8597ec36c15"
 metafile = true
 
 [[files]]
@@ -39935,6 +43430,16 @@ metafile = true
 [[files]]
 file = "mods/data-anchor.pw.toml"
 hash = "0e026ad639d6cd8a46724651b4dd764e775ee1772ead68754e404cad18dd8f13"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "a6967d761dde867ccc1af53dc9f4e530eb9917a9cb21d0fc15708e8cd2c0f2ba"
+metafile = true
+
+[[files]]
+file = "mods/ding.pw.toml"
+hash = "54c0985498a40c7b9c63e336c11c1c48770dbfdf50c07dff988c1b086d26ba2f"
 metafile = true
 
 [[files]]
@@ -40060,6 +43565,11 @@ metafile = true
 [[files]]
 file = "mods/fairylights.pw.toml"
 hash = "80a4e5212a00a542ae8a5c1b0379f447afb8aa14dc7d21319c0c73dd4f4d8958"
+metafile = true
+
+[[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "26975365054fadd972780c02ec9c5e7b394abcf3fc9f75d59ed3f7e5ead8f3e7"
 metafile = true
 
 [[files]]
@@ -40198,6 +43708,11 @@ hash = "44f4b3264ab6de7c4b783030df792c7e71dbe5ccdf2402ce1904fe68d7add849"
 metafile = true
 
 [[files]]
+file = "mods/ichunutil.pw.toml"
+hash = "bc4949b9e39e7baab6c5caed75dd61c3e1effc37bc434c8517bea4bcb49ddfb5"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "12ef1de81a69d71bc50b84bfed92b41b3d3cc9f91f31436a0a0622ed19f8e03c"
 metafile = true
@@ -40225,11 +43740,6 @@ metafile = true
 [[files]]
 file = "mods/iris.pw.toml"
 hash = "b240d764aa89848eb8d05719653d9a6b04b6e03790bfd9c33af6c4d5d16c9548"
-metafile = true
-
-[[files]]
-file = "mods/iron-jetpacks.pw.toml"
-hash = "c793145eb601569b52a01c29ce9cc85aefb209d09d4cc7fab20f89f36db0631d"
 metafile = true
 
 [[files]]
@@ -40293,8 +43803,18 @@ hash = "ac98913d798603d5aa69c2e4dfcb26f6729bfec83b94812c9be485094b16280a"
 metafile = true
 
 [[files]]
+file = "mods/keybind-atlas.pw.toml"
+hash = "05e0b64b18e5dffb026c877cd89c472313800c8c76358134b6e855609680e7aa"
+metafile = true
+
+[[files]]
 file = "mods/kiwi.pw.toml"
 hash = "0fe5720c40fac6e4e7b7aa26fe434970cc0d21615797ea39e2a09605927bf4b6"
+metafile = true
+
+[[files]]
+file = "mods/konkrete.pw.toml"
+hash = "054a1887da4f14b791910660a2a7a2035ac1382461b881a65fe07b224c03735f"
 metafile = true
 
 [[files]]
@@ -40370,6 +43890,11 @@ metafile = true
 [[files]]
 file = "mods/lets-do-herbalbrews.pw.toml"
 hash = "4b9615192f59c2c77291e11c1fba829d94866758816424c8c3ac072d89c875bc"
+metafile = true
+
+[[files]]
+file = "mods/lets-do-wildernature.pw.toml"
+hash = "abd10ac40f48de18718d8caf910364b077f0e41bf45f041e2303127c37e41a1c"
 metafile = true
 
 [[files]]
@@ -40480,6 +44005,11 @@ metafile = true
 [[files]]
 file = "mods/mca-romantic-expansion.pw.toml"
 hash = "4e2208d8041c8c8b1a5ba81c6904f821ed62969bd1b6e3558b2d7bd57e43d14d"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "d7ff27bf5e0c0bd5ede8303d5a41cec193f700292c78c86ad6812a5193f013d9"
 metafile = true
 
 [[files]]
@@ -40650,6 +44180,11 @@ metafile = true
 [[files]]
 file = "mods/particle-core.pw.toml"
 hash = "9b445bfbb6110fb77020de8eb2f1221e050ef5cf5ce05085b6db5e3d9222c654"
+metafile = true
+
+[[files]]
+file = "mods/particle-rain.pw.toml"
+hash = "8e6f8f654070a950fc5051a2942887d024b583cee4717b1b9636bedfde4190a9"
 metafile = true
 
 [[files]]
@@ -40943,8 +44478,18 @@ hash = "7794fba3390ece1c68e89fff5406e6ded79498397e87663bfe05cb5892c3628f"
 metafile = true
 
 [[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "6727704e22c27be46fc08859f94dd0061cecf27ed2a7451c5bc1a0bdf50edbe5"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 hash = "689dfbea1f05cddd4da242ae5728c3ec63838fc9975710d9d4967323725f8cc7"
+metafile = true
+
+[[files]]
+file = "mods/spice-of-life-onion.pw.toml"
+hash = "6d22056366c7d5e3a8a79a8549a4b7209702d021590d8b3003de525f1bf29a63"
 metafile = true
 
 [[files]]
@@ -41043,11 +44588,6 @@ hash = "2cd3dc71e7b90d61080a1d5d387abc5958da09beeccb97bf4e1b1f679c1af62f"
 metafile = true
 
 [[files]]
-file = "mods/towntalk.pw.toml"
-hash = "f2a1f3b49561ffd088bbe538319990346be9cce3d88cbc1865926f064804c99d"
-metafile = true
-
-[[files]]
 file = "mods/trade-cycling.pw.toml"
 hash = "2028f6e44a53e614517b3435e71f621bfc009fe1e74435539acb329a88349baf"
 metafile = true
@@ -41070,11 +44610,6 @@ metafile = true
 [[files]]
 file = "mods/untitled-penguin-mod.pw.toml"
 hash = "58faf290c17633e2f74ea4f90faa7019fbec285ab77d801c1822a03b9516a76c"
-metafile = true
-
-[[files]]
-file = "mods/vanillabackport.pw.toml"
-hash = "204c58beb1c2d099fad24c75fc4dccb40416ce87c727d807cb4fda3ff28124a9"
 metafile = true
 
 [[files]]

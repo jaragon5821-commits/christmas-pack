@@ -1,0 +1,147 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fest_dungeon_prison"
+	group: ""
+	icon: {
+		id: "festivity:wardens_keyring"
+	}
+	id: "7A86640812C1EC81"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "168C3F6F12D5E797"
+			rewards: [{
+				id: "3412F132DB388CA7"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7D0AF3096D164BD6"
+				structure: "chop:elf_prison_mines"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:mine_cart_charm"
+			}
+			id: "2B7CFDA435474D81"
+			optional: true
+			rewards: [{
+				id: "18B37B150B05F868"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4A534C9D97952777"
+				item: { count: 1, id: "festivity:mine_cart_charm" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.8d
+		}
+		{
+			icon: {
+				id: "festivity:elf_lockpick"
+			}
+			id: "16E750E10C5C7844"
+			optional: true
+			rewards: [{
+				id: "604866FD02C601FF"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2AF8002D735EE051"
+				item: { count: 1, id: "festivity:elf_lockpick" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.8d
+		}
+		{
+			icon: {
+				id: "festivity:chain_gang_lantern"
+			}
+			id: "057E4C2037C4B1AF"
+			optional: true
+			rewards: [{
+				id: "61E3445D56443AB6"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3E32AABE9C25B2F9"
+				item: { count: 1, id: "festivity:chain_gang_lantern" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			icon: {
+				id: "festivity:freed_elf_whistle"
+			}
+			id: "60CEEFC024E0A4BA"
+			optional: true
+			rewards: [{
+				id: "05BE696D1132212E"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5A7E385D6390F7E1"
+				item: { count: 1, id: "festivity:freed_elf_whistle" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			icon: {
+				id: "festivity:wardens_keyring"
+			}
+			id: "26AF58C8DE1CA6FC"
+			rewards: [
+				{
+					count: 2
+					id: "236D0ED71C3E366F"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "71336ABB6C12DA8F"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: false
+				id: "47E3289660F2DB96"
+				item: { count: 1, id: "festivity:wardens_keyring" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+	]
+}

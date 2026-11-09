@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:map"
+    },
+    "title": [
+      "Map: press ",
+      {
+        "keybind": "key.diorama.open_map",
+        "color": "gold"
+      }
+    ],
+    "description": {
+      "text": "Your world map and waypoints."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "got": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:map",
+              "minecraft:filled_map",
+              "minecraft:compass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "parent": "chopxmas:tips/root"
+}

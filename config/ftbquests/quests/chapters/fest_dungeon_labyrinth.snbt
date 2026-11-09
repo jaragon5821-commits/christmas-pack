@@ -1,0 +1,187 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fest_dungeon_labyrinth"
+	group: ""
+	icon: {
+		id: "festivity:rolling_pin"
+	}
+	id: "57D2508BA57D5D5F"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "1754F854F9B8637A"
+			rewards: [{
+				id: "206F9D6A661501FD"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0E9CCBACB1B325A0"
+				structure: "chop:gingerbread_labyrinth"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:candy_cane_grapple"
+			}
+			id: "2ADE34407E989A9F"
+			optional: true
+			rewards: [{
+				id: "1A95AB7BD4006076"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "12626AA0D13B6A93"
+				item: { count: 1, id: "festivity:candy_cane_grapple" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.8d
+		}
+		{
+			icon: {
+				id: "festivity:jingle_boots"
+			}
+			id: "6A6892A5D8F03CB1"
+			optional: true
+			rewards: [{
+				id: "196A8236C7B7ED32"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5AA12CAB68D671E7"
+				item: { count: 1, id: "festivity:jingle_boots" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.8d
+		}
+		{
+			icon: {
+				id: "festivity:gumdrop_boots"
+			}
+			id: "44AAB9911D351DEE"
+			optional: true
+			rewards: [{
+				id: "6ACAAC606C029198"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6B94F946DE7E18FB"
+				item: { count: 1, id: "festivity:gumdrop_boots" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.2d
+		}
+		{
+			icon: {
+				id: "festivity:icing_piper"
+			}
+			id: "03DB65DB715F1C1F"
+			optional: true
+			rewards: [{
+				id: "725DD359DF6E1185"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0B930A4E599B1E36"
+				item: { count: 1, id: "festivity:icing_piper" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			icon: {
+				id: "festivity:cookie_cutter_shield"
+			}
+			id: "55A05692393FD551"
+			optional: true
+			rewards: [{
+				id: "4835CFC0714BDE7D"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4C722ADAE6573DC7"
+				item: { count: 1, id: "festivity:cookie_cutter_shield" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			icon: {
+				id: "festivity:sugarplum_charm"
+			}
+			id: "1138382B2D7A6CD6"
+			optional: true
+			rewards: [{
+				id: "481D4DB58603E84E"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "00BE938AF0BE3841"
+				item: { count: 1, id: "festivity:sugarplum_charm" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.2d
+		}
+		{
+			icon: {
+				id: "festivity:rolling_pin"
+			}
+			id: "0D419B1BAB41DB90"
+			rewards: [
+				{
+					count: 2
+					id: "4B31763D9F754FFB"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "1F4003A240D4B99C"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: false
+				id: "4DE7AB6BAB4859C6"
+				item: { count: 1, id: "festivity:rolling_pin" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+	]
+}

@@ -8,13 +8,18 @@
 //  ItemEvents.entityInteracted (the only ones that exist in this build), robust advancement id reading.
 //  v0.1.4: checkSpawn uses entity coordinates (event.position() does not exist); no ticker on op set/add.
 //  v0.2.0: phase 2 hooks (minion kills skip the animal rule, our spawners are never cancelled, new action keys).
+//  v0.3.0: HUD scoreboard bridge (fest_hud / fest_tick / fest_tickseq, read by the Festivity jar's client HUD),
+//  boss bar hide no longer cuts a longer show short, one credit per present, Blizzard/Grey Day actually gate good
+//  points, credit mult clamped, ledger lastSeen refreshed while online (crash-safe Welcome Back). See CHANGELOG.md.
+//  v0.4.0: F10 Claws Night omens: two more fest_hud holders (omen 0..3, corrupt 0..100 creeping) written from hudSync,
+//  and a once-per-day dusk cue (distant sounds, actionbar whisper, ash) while omen >= 1. Pure warning, no gameplay change.
 // ============================================================================================
 
 // ===== CONFIG: edit numbers here, then /reload. =====
 // Design: "Festivity Mechanic - Design v2.2" (Drive). Server script: runs in single player too.
 
 const FEST = {
-  VERSION: '0.2.10',
+  VERSION: '0.4.0',
   START: 55,                 // new world starting value (Josh: 55)
   MIN: 0, MAX: 100,
   HYSTERESIS: 3,             // points past a band edge before the band changes back
@@ -36,6 +41,12 @@ const FEST = {
   MILESTONE_SHOW_TICKS: 160, // boss bar visible 8 s on a 5-point milestone
   BAND_SHOW_TICKS: 300,      // 15 s on a band change
   TICKER_PRIVATE: true,
+  HUD_SYNC_TICKS: 100,       // scoreboard HUD bridge is re-written at least this often (and on every value change)
+  HUD_SEEN_TICKS: 6000,      // ledger lastSeen/leftValue refresh for everyone online (crash-safe Welcome Back)
+  OMEN_FALL_EPS: 0.5,        // 0.4.0: band 2 counts as "falling" when the bar is this much below its sample from ~1 in-game day earlier
+  OMEN_SAMPLE_TICKS: 24000,  // 0.4.0: the omen sample is refreshed once per in-game day (game time, immune to /time set)
+  CORRUPT_STEP: 2,           // 0.4.0: corrupt moves at most this much per hudSync toward its target (creep)
+  DUSK_CUE_FROM: 12500, DUSK_CUE_TO: 12700,   // 0.4.0: dayTime window of the once-per-day dusk omen cue
 
   // name, low, high, bossbar colour, pop title. Order high -> low.
   BANDS: [
@@ -210,10 +221,16 @@ function refreshBossbar(server) {
   cmd(server, 'bossbar set chop:festivity color ' + b.color);
   cmd(server, 'bossbar set chop:festivity name ' + jsonText('Festivity ' + Math.round(v) + ' - ' + b.name, 'white'));
 }
-function showBossbar(server, ticks, who) {
+// popKind (optional) feeds the HUD pop counter: 1 milestone up, 2 milestone down, 3 band up, 4 band down, 5 command.
+// The hide is guarded so a shorter show scheduled later cannot cut a longer one short.
+let fest_barHideAt = 0;
+function showBossbar(server, ticks, who, popKind) {
   refreshBossbar(server);
   cmd(server, 'bossbar set chop:festivity players ' + (who || '@a'));
-  server.scheduleInTicks(ticks, () => { cmd(server, 'bossbar set chop:festivity players'); });
+  let hideAt = Number(server.tickCount) + ticks;
+  if (hideAt > fest_barHideAt) fest_barHideAt = hideAt;
+  if (popKind) hudPop(server, popKind);
+  server.scheduleInTicks(ticks, () => { if (Number(server.tickCount) >= fest_barHideAt) cmd(server, 'bossbar set chop:festivity players'); });
 }
 function ticker(server, player, delta, reason) {
   if (!player) return;
@@ -222,6 +239,110 @@ function ticker(server, player, delta, reason) {
   let color = delta >= 0 ? 'green' : 'red';
   let txt = sign + (Math.round(delta * 10) / 10) + ' Festivity' + face + (reason ? '  (' + reason + ')' : '');
   cmd(server, 'title ' + player.username + ' actionbar ' + jsonText(txt, color));
+  hudTick(server, player, delta);
+}
+
+// ---------- HUD bridge: vanilla-synced scoreboard scores read by the Festivity jar's client HUD ----------
+// fest_hud (dummy): bar = round(value*10) 0..1000, band = 0 Claws Night .. 6 Jolly, pop = +1 per boss-bar moment,
+// popkind = 1 milestone up / 2 milestone down / 3 band up / 4 band down / 5 command, frozen = 1 while the bar is frozen
+// (nobody online, grace, or /festivity freeze on). fest_tick (dummy): <player> = round(delta*10) of their last private
+// ticker, fest_tickseq (dummy): <player> +1 per ticker. Never put in a display slot. All writes are silent.
+// 0.4.0 (F10 omens): omen = 3 while Santy Claws is out or band == 0 (Claws Night), 2 when band == 1 (Claws' Eve),
+// 1 when band == 2 (Bleak) AND the bar is falling (below its sample from ~1 in-game day earlier by OMEN_FALL_EPS), else 0.
+// corrupt = 0..100, target 100 - bar while band <= 2 (else 0), moved at most CORRUPT_STEP per hudSync so it creeps;
+// the current corrupt and the omen samples live in the festivity compound (persist across restarts and /reload).
+let fest_hudLast = { bar: -1, band: -1, frozen: -1, omen: -1, corrupt: -1 };
+function hudInit(server) {
+  cmd(server, 'scoreboard objectives add fest_hud dummy');          // no-op (silent error) when it already exists
+  cmd(server, 'scoreboard objectives add fest_tick dummy');
+  cmd(server, 'scoreboard objectives add fest_tickseq dummy');
+  fest_hudLast = { bar: -1, band: -1, frozen: -1, omen: -1, corrupt: -1 };
+  hudSync(server, true);
+  try {   // 0.3.0b: proof line for the log (HUD jar reads these objectives client-side)
+    var sb = server.scoreboard, has = sb && sb.getObjective('fest_hud') != null;
+    console.log('[Festivity] HUD scoreboard bridge ' + (has ? 'ready' : 'MISSING fest_hud objective') + ' (omen+corrupt) (bar=' + Math.round(getValue(server) * 10) + ', band=' + hudBandIndex(currentBand(server)) + ', omen=' + fest_hudLast.omen + ', corrupt=' + fest_hudLast.corrupt + ')');
+  } catch (e) { console.log('[Festivity] HUD bridge check: ' + e); }
+}
+function hudBandIndex(band) { return (F.BANDS.length - 1) - F.BANDS.indexOf(band); }   // BANDS runs Jolly -> Claws Night; HUD counts the other way
+function hudFrozen(server) {
+  try { if (onlineCount(server) == 0 || fdata(server).getBoolean('frozen') || inGrace(server)) return 1; } catch (e) {}
+  return 0;
+}
+function hudSync(server, force) {
+  try {
+    let bar = Math.round(getValue(server) * 10), band = hudBandIndex(currentBand(server)), frozen = hudFrozen(server);
+    if (force || bar != fest_hudLast.bar) cmd(server, 'scoreboard players set bar fest_hud ' + bar);
+    if (force || band != fest_hudLast.band) cmd(server, 'scoreboard players set band fest_hud ' + band);
+    if (force || frozen != fest_hudLast.frozen) cmd(server, 'scoreboard players set frozen fest_hud ' + frozen);
+    fest_hudLast = { bar: bar, band: band, frozen: frozen, omen: fest_hudLast.omen, corrupt: fest_hudLast.corrupt };
+  } catch (e) { console.warn('[Festivity] hud sync skipped: ' + e); }
+  hudOmen(server, force);   // 0.4.0: same cadence as the other holders
+}
+// 0.4.0 F10: omen / corrupt holders. Pure derivation from existing state; never changes the bar.
+function hudOmenLevel(server, bar, band) {
+  let d = fdata(server);
+  if (d.contains('claws') || band == 0) return 3;              // Phase 2 keeps its 'claws' json in the same compound while he is out
+  if (band == 1) return 2;
+  if (band == 2) {
+    // one sample per in-game day (game time: /time set does not move it). prev = the sample before the current one, so it is
+    // 1..2 days old; current one is 0..1 days old. Compare with the older sample when there is one.
+    let gt = gameTime(server);
+    if (!d.contains('omenSampleTime') || gt - d.getLong('omenSampleTime') >= F.OMEN_SAMPLE_TICKS || gt < d.getLong('omenSampleTime')) {
+      if (d.contains('omenSampleValue')) d.putDouble('omenPrevValue', d.getDouble('omenSampleValue'));
+      d.putDouble('omenSampleValue', bar);
+      d.putLong('omenSampleTime', gt);
+    }
+    let ref = d.contains('omenPrevValue') ? d.getDouble('omenPrevValue') : d.getDouble('omenSampleValue');
+    return bar < ref - F.OMEN_FALL_EPS ? 1 : 0;
+  }
+  return 0;
+}
+function hudOmen(server, force) {
+  try {
+    let d = fdata(server);
+    let bar = getValue(server), band = hudBandIndex(currentBand(server));
+    let omen = hudOmenLevel(server, bar, band);
+    let target = band <= 2 ? Math.max(0, Math.min(100, 100 - bar)) : 0;
+    let cur = d.contains('corrupt') ? d.getInt('corrupt') : 0;
+    let step = Math.max(-F.CORRUPT_STEP, Math.min(F.CORRUPT_STEP, target - cur));
+    let corrupt = Math.max(0, Math.min(100, Math.round(cur + step)));
+    if (corrupt != cur) d.putInt('corrupt', corrupt);
+    if (force || omen != fest_hudLast.omen) cmd(server, 'scoreboard players set omen fest_hud ' + omen);
+    if (force || corrupt != fest_hudLast.corrupt) cmd(server, 'scoreboard players set corrupt fest_hud ' + corrupt);
+    fest_hudLast.omen = omen; fest_hudLast.corrupt = corrupt;
+  } catch (e) { console.warn('[Festivity] hud omen skipped: ' + e); }
+}
+// 0.4.0 F10: dusk cue, once per in-game day while omen >= 1. Sounds + actionbar + ash only; no chat (CLEAN JOIN), all silent.
+let FEST_OMEN_LINES = { 1: ['You hear sleigh bells, far off.', 'gray'], 2: ['Something heavy is pacing in the snow.', 'gray'], 3: ['He knows where you live.', 'dark_purple'] };
+function hudDuskCue(server) {
+  try {
+    let t = dayTime(server) % 24000;
+    if (t < F.DUSK_CUE_FROM || t > F.DUSK_CUE_TO) return;
+    let d = fdata(server), day = dayCount(server);
+    if (d.contains('omenCueDay') && d.getLong('omenCueDay') == day) return;   // per-day flag
+    d.putLong('omenCueDay', day);
+    let omen = fest_hudLast.omen;
+    if (omen < 1) return;
+    let line = FEST_OMEN_LINES[omen] || FEST_OMEN_LINES[1];
+    for (let p of online(server)) {
+      let n = p.username;
+      cmd(server, 'execute at ' + n + ' run playsound minecraft:block.bell.use ambient ' + n + ' ~ ~ ~ 0.3 0.5');
+      if (omen >= 2) cmd(server, 'execute at ' + n + ' run playsound minecraft:entity.polar_bear.warning ambient ' + n + ' ~ ~ ~ 0.5 0.6');
+      if (omen >= 3) cmd(server, 'execute at ' + n + ' run playsound minecraft:entity.warden.heartbeat ambient ' + n + ' ~ ~ ~ 0.6 0.5');
+      if (omen >= 2) cmd(server, 'execute at ' + n + ' run particle minecraft:ash ~ ~1 ~ 6 3 6 0 40');
+      cmd(server, 'title ' + n + ' actionbar ' + jsonText(line[0], line[1]));
+    }
+  } catch (e) { console.warn('[Festivity] dusk cue skipped: ' + e); }
+}
+function hudPop(server, kind) {
+  cmd(server, 'scoreboard players set popkind fest_hud ' + kind);
+  cmd(server, 'scoreboard players add pop fest_hud 1');
+}
+function hudTick(server, player, delta) {
+  try {
+    cmd(server, 'scoreboard players set ' + player.username + ' fest_tick ' + Math.round(delta * 10));
+    cmd(server, 'scoreboard players add ' + player.username + ' fest_tickseq 1');
+  } catch (e) {}
 }
 function announce(server, text, color) { cmd(server, 'tellraw @a ' + jsonText(text, color || 'gold')); }
 
@@ -241,19 +362,18 @@ function change(server, delta, kind, player, reason) {
     fdata(server).putString('band', newBand.id);
     onBandChange(server, oldBand, newBand, after > before);
   } else if (m0 != m1 && kind != 'drift-silent') {
-    refreshBossbar(server);
-    showBossbar(server, F.MILESTONE_SHOW_TICKS, '@a');
+    showBossbar(server, F.MILESTONE_SHOW_TICKS, '@a', after > before ? 1 : 2);
     announce(server, 'Festivity ' + (after > before ? 'reached ' : 'fell to ') + (m1 * 5), after > before ? 'green' : 'red');
   } else {
     refreshBossbar(server);
   }
+  hudSync(server, false);
   if (player && F.TICKER_PRIVATE && kind != 'command') ticker(server, player, after - before, reason);   // no ticker for op set
   return after - before;
 }
 
 function onBandChange(server, oldBand, newBand, up) {
-  refreshBossbar(server);
-  showBossbar(server, F.BAND_SHOW_TICKS, '@a');
+  showBossbar(server, F.BAND_SHOW_TICKS, '@a', up ? 3 : 4);
   cmd(server, 'title @a title ' + jsonText(newBand.title, newBand.color == 'red' ? 'dark_red' : (newBand.color == 'green' ? 'green' : 'white')));
   cmd(server, 'title @a subtitle ' + jsonText('Festivity ' + Math.round(getValue(server)), 'gray'));
   cmd(server, 'playsound ' + (up ? 'minecraft:block.note_block.chime' : 'minecraft:entity.wither.ambient') + ' master @a ~ ~ ~ 0.6 1');
@@ -296,6 +416,12 @@ function score(server, player, key, mult, reason) {
   let L = ledgerOf(server, player), me = L.me, t = nowMs();
 
   if (pts > 0) {
+    // knock-down events (phase 2 'event' record): Blizzard of Doubt = good deeds count for nothing, Grey Day = half
+    try {
+      let ev = readJson(server, 'event', null);
+      if (ev && ev.type == 'blizzard') return 0;
+      if (ev && ev.type == 'greyday') pts *= 0.5;
+    } catch (e) {}
     if (isDec2425()) pts *= 2;
     // diminishing repeats
     let last = me.lastAction[key];
@@ -344,17 +470,26 @@ function score(server, player, key, mult, reason) {
 }
 
 // ---------- tick: drift, freeze, grace ----------
+var fest_hudInited = false;   // 0.3.0c: ServerEvents.loaded does not fire again on /reload, so init lazily from the first tick too
 ServerEvents.tick(event => {
   let server = event.server;
+  if (!fest_hudInited) { fest_hudInited = true; try { bossbarInit(server); hudInit(server); } catch (e) { console.log('[Festivity] HUD init on tick failed: ' + e); } }
   if (server.tickCount % 20 != 0) return;                     // once a second
   let d = fdata(server);
   let n = onlineCount(server);
   let t = nowMs();
+  if (server.tickCount % F.HUD_SYNC_TICKS == 0) hudSync(server, true);   // HUD bridge heartbeat (also flips frozen on/off)
   if (n == 0) {                                               // FROZEN while empty (Josh: absence is never punished)
     d.putLong('lastEmptyRealMs', t);
     return;
   }
   d.putLong('lastNonEmptyRealMs', t);
+  hudDuskCue(server);                                         // 0.4.0: once per in-game day at dusk while omen >= 1 (players online only)
+  if (server.tickCount % F.HUD_SEEN_TICKS == 0) {             // keep lastSeen/leftValue fresh so a crash cannot fake a 12 h absence
+    for (let p of online(server)) {
+      try { let L = ledgerOf(server, p); L.me.lastSeen = t; L.me.leftValue = getValue(server); saveLedger(server, L.all); } catch (e) {}
+    }
+  }
   if (d.getBoolean('frozen')) return;                          // /festivity freeze on
   let hour = Math.floor(gameTime(server) / 1000);
   if (hour != d.getLong('lastHourTick')) {
@@ -379,15 +514,18 @@ function inGrace(server) {
 ServerEvents.loaded(event => {
   let server = event.server;
   fdata(server);
+  fest_hudInited = true;
   bossbarInit(server);
-  console.log('[Festivity] ' + F.VERSION + ' loaded. Value ' + getValue(server) + ' (' + currentBand(server).name + ')');
+  hudInit(server);
+  console.log('[Festivity] ' + F.VERSION + ' loaded (HUD bridge on, omens on). Value ' + getValue(server) + ' (' + currentBand(server).name + ')');
 });
 
 // shared table used by the sections below
 const Fest = {
   data: fdata, value: getValue, band: currentBand, bandFor: bandFor, change: change, score: score,
   ledgerOf: ledgerOf, saveLedger: saveLedger, badScore: badScore, logEvent: logEvent, readJson: readJson,
-  showBossbar: showBossbar, announce: announce, ticker: ticker, syncStages: syncStages, inGrace: inGrace,
+  showBossbar: showBossbar, refreshBossbar: refreshBossbar, hudSync: hudSync, hudPop: hudPop, hudInit: hudInit,
+  announce: announce, ticker: ticker, syncStages: syncStages, inGrace: inGrace,
   cmd: cmd, online: online, onlineCount: onlineCount, jsonText: jsonText, nowMs: nowMs,
   gameTime: gameTime, dayTime: dayTime, dayCount: dayCount
 };
@@ -445,6 +583,7 @@ BlockEvents.rightClicked(event => {
     let giver = findPlayer(p.server, placer);
     if (giver) G.score(p.server, giver, 'give_present', 1, p.username + ' opened your present');
     G.score(p.server, p, 'give_present', 0.5, 'opened a present');
+    try { event.block.mergeEntityData({ fest_placer: '' }); } catch (e) {}   // one present = one gift (no re-click farming up to the cap)
   }
 });
 // remember who placed a present block (NBT on the block entity, our own key only)
@@ -498,9 +637,10 @@ EntityEvents.death(event => {
   if (!p || !p.isPlayer()) return;
   let e = event.entity, server = p.server;
   try { if (e.tags && e.tags.contains('fest_minion')) return; } catch (x) {}      // our own mobs: handled in phase 2
-  if (e.isPlayer()) { if (e.uuid != p.uuid) G.score(server, p, 'kill_player', 1, 'killed ' + e.username); return; }
+  if (e.isPlayer()) { if (String(e.uuid) != String(p.uuid)) G.score(server, p, 'kill_player', 1, 'killed ' + e.username); return; }   // Java UUIDs: compare as strings, not by reference
   if (e.type.startsWith('minecolonies:') || e.type.startsWith('mca:') || e.type == 'minecraft:villager') { G.score(server, p, 'kill_villager', 1, 'killed a villager'); return; }
-  if (e.type.startsWith('snuffles:') || e.type.includes('reindeer') || e.type.includes('golem')) { G.score(server, p, 'kill_festive', 1, 'killed a festive creature'); return; }
+  // festive creatures per 05_tags.js chop:festive_creatures: Snuffles, reindeer, snow / Snowy Spirit golems. Iron golems are not festive.
+  if (e.type.startsWith('snuffles:') || e.type.includes('reindeer') || (e.type.includes('golem') && e.type != 'minecraft:iron_golem')) { G.score(server, p, 'kill_festive', 1, 'killed a festive creature'); return; }
   if (e.isAnimal && e.isAnimal()) {                               // VERIFY: EntityKJS.isAnimal()
     let tamed = false; try { tamed = (typeof e.isTame == 'function') ? e.isTame() : false; } catch (x) {}
     let named = false; try { named = e.hasCustomName(); } catch (x) {}
@@ -595,7 +735,7 @@ ServerEvents.commandRegistry(event => {
     let v = G3.value(server), b = G3.band(server);
     ctx.source.sendSuccess(Text.of('Festivity ' + (Math.round(v * 10) / 10) + '  -  ' + b.name).gold(), false);
     if (p) {
-      G3.showBossbar(server, 200, p.username);
+      G3.showBossbar(server, 200, p.username, 5);                 // HUD pop kind 5 = command
       let L = G3.ledgerOf(server, p);
       ctx.source.sendSuccess(Text.of('You today: +' + (Math.round(L.me.good * 10) / 10) + ' good, -' + (Math.round(L.me.bad * 10) / 10) + ' bad (lifetime). Bad score (7 days): ' + (Math.round(G3.badScore(L.me) * 10) / 10)).gray(), false);
     }
@@ -604,6 +744,7 @@ ServerEvents.commandRegistry(event => {
 
   event.register(Commands.literal('festivity')
     .executes(ctx => show(ctx))
+    .then(Commands.literal('show').executes(ctx => show(ctx)))      // everyone: same as bare /festivity (HUD spec name)
     .then(Commands.literal('log').executes(ctx => {
       let log = G3.readJson(ctx.source.server, 'log', []);
       if (log.length == 0) { ctx.source.sendSuccess(Text.of('Nothing has happened yet.').gray(), false); return 1; }
@@ -640,6 +781,7 @@ ServerEvents.commandRegistry(event => {
           })
           .then(Commands.argument('mult', Arguments.DOUBLE.create(event)).executes(ctx => {
             let p = Arguments.PLAYER.getResult(ctx, 'player'), a = String(Arguments.STRING.getResult(ctx, 'action')), m = Arguments.DOUBLE.getResult(ctx, 'mult');
+            m = Math.max(0, Math.min(10, Number(m)));                   // hut levels go to 5; a typo in a reward function must not flood the bar
             let d = G3.score(ctx.source.server, p, a, m, a.replace(/_/g, ' '));
             console.log('[Festivity] credit ' + p.username + ' ' + a + ' x' + m + ' -> ' + (Math.round(d * 100) / 100)); return 1;
           })))))
@@ -650,11 +792,12 @@ ServerEvents.commandRegistry(event => {
         return 1;
       })))
     .then(Commands.literal('freeze').requires(src => src.hasPermission(2))
-      .then(Commands.literal('on').executes(ctx => { G3.data(ctx.source.server).putBoolean('frozen', true); ctx.source.sendSuccess(Text.of('Festivity frozen'), true); return 1; }))
-      .then(Commands.literal('off').executes(ctx => { G3.data(ctx.source.server).putBoolean('frozen', false); ctx.source.sendSuccess(Text.of('Festivity unfrozen'), true); return 1; })))
+      .then(Commands.literal('on').executes(ctx => { G3.data(ctx.source.server).putBoolean('frozen', true); G3.hudSync(ctx.source.server, true); ctx.source.sendSuccess(Text.of('Festivity frozen'), true); return 1; }))
+      .then(Commands.literal('off').executes(ctx => { G3.data(ctx.source.server).putBoolean('frozen', false); G3.hudSync(ctx.source.server, true); ctx.source.sendSuccess(Text.of('Festivity unfrozen'), true); return 1; })))
     .then(Commands.literal('reset').requires(src => src.hasPermission(2)).executes(ctx => {
       ctx.source.server.persistentData.remove('festivity');
       G3.data(ctx.source.server);
+      G3.refreshBossbar(ctx.source.server); G3.hudSync(ctx.source.server, true);
       ctx.source.sendSuccess(Text.of('Festivity data reset to ' + F3.START), true); return 1;
     }))
   );

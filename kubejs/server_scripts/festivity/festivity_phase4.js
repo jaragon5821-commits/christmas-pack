@@ -1,5 +1,6 @@
 // priority: 28
-// FESTIVITY PHASE 4 (DRAFT v10, 2026-11-06) - the EVENT POOL Josh picked (EVENTS_BRAINSTORM.md, all but 21),
+// FESTIVITY PHASE 4 (DRAFT v11, 2026-11-08: quality pass - reindeer-sighting cleanup no longer kills tamed reindeer, thief drop coords,
+// secret santa capped, hunt elves hatless, no stall-steer with the jar, LOG off; v10 2026-11-06) - the EVENT POOL Josh picked (EVENTS_BRAINSTORM.md, all but 21),
 // staged Claws Outpost / Claws Spire templates (Assets structures v17c), Santy Claws smashing doors + glass,
 // FREED ELVES (Josh 05:47 UTC 11-06): breaking the Cursed Star frees up to 2 nearby Sour Elves (allay 'Freed Elf', gift, fly off).
 // Needs festivity.js 0.2.10+, festivity_phase2.js, festivity_phase3.js (presentItem, startLetter, anchor), loot draft4.
@@ -23,7 +24,8 @@ const P4 = {
   CLAWS_SMASH: true,           // Santy Claws breaks doors, trapdoors, fence gates and glass between him and his target
   CANDY: ['snowyspirit:candy_cane', 'seasonsgreetings:candy_cane', 'festive_delight:candy_cane', 'minecraft:cookie'],
   COCOA: ['festive_delight:hot_cocoa', 'farm_and_charm:hot_cocoa', 'candlelight:hot_cocoa', 'bakery:hot_cocoa', 'minecraft:mushroom_stew'],
-  LOG: true, DEBUG_CMDS: false  // DEBUG_CMDS: non-silent commands so errors show in the log (set false before promotion)
+  SECRET_CAP: 4,                // (v11) Secret Santa: at most this much Festivity per event (+2 per credited gift -> 2 gifts), no uncapped source
+  LOG: false, DEBUG_CMDS: false // both false for promotion (v11). LOG true = [Festivity4] console diagnostics, DEBUG_CMDS true = non-silent commands
 };
 const E4 = Fest;
 function e4cmd(server, s) { if (P4.DEBUG_CMDS) { try { return server.runCommand(s); } catch (e) { console.warn('[Festivity] e4cmd fallback: ' + e); } } return E4.cmd(server, s); }
@@ -263,7 +265,7 @@ EntityEvents.death(event => {
   try {
     let e = event.entity; if (!e.tags || !e.tags.contains('fest_e4thief')) return;
     let server = e.server, t = e4json(server, 'p4_thief', null); if (!t) return;
-    dropItem(server, e.x.toFixed(1), (e.y + 0.5).toFixed(1), e.z.toFixed(1), t.loot, 2);
+    dropItem(server, Number(e.x.toFixed(1)), Number(e.y.toFixed(1)), Number(e.z.toFixed(1)), t.loot, 2);   // v11: numbers (dropItem adds 0.5 to y)
     E4.data(server).remove('p4_thief');
   } catch (x) {}
 });
@@ -371,7 +373,7 @@ e4def('reindeer', 'Reindeer Sighting', ['high'], 10, server => {
   e4cmd(server, 'summon ' + fid('minecraft:horse') + ' ' + s.x + ' ' + s.y + ' ' + s.z + ' {NoAI:1b,Silent:1b,Variant:0,Tags:["fest_e4","fest_reindeer"]}');
   e4cmd(server, 'setblock ' + (s.x + 1) + ' ' + s.y + ' ' + (s.z + 1) + ' ' + presentItem()); e4gift(server, s.x + 1, s.y, s.z + 1);
   for (let i = 0; i < 9; i++) server.scheduleInTicks(i * 200, () => e4cmd(server, 'playsound minecraft:block.bell.use master @a ' + s.x + ' ' + s.y + ' ' + s.z + ' 3 1.5'));
-  server.scheduleInTicks(1800, () => e4cmd(server, 'kill @e[tag=fest_reindeer]'));
+  server.scheduleInTicks(1800, () => e4cmd(server, 'kill @e[tag=fest_reindeer,tag=fest_e4]'));   // v11: only the event reindeer (Phase 5 wild/tamed reindeer carry fest_reindeer too)
   let dx = s.x - s.player.x, dz = s.z - s.player.z, dir = Math.abs(dx) > Math.abs(dz) ? (dx > 0 ? 'east' : 'west') : (dz > 0 ? 'south' : 'north');
   e4cmd(server, 'tellraw ' + s.player.username + ' ' + E4.jsonText('Bells to the ' + dir + '. A reindeer? Follow it before it bolts.', 'gold'));
   return {};
@@ -393,7 +395,9 @@ ItemEvents.pickedUp(event => {
     try { owner = ie.owner ? ie.owner.username : null; } catch (e) {}
     if (!owner) { try { let th = ie.nbt.getUUID('Thrower'); for (let q of server.players) if (String(q.uuid) == String(th)) owner = q.username; } catch (e) {} }
     if (!owner || owner == p.username || map[owner] != p.username || map['done_' + owner]) return;
-    map['done_' + owner] = true; e4save(server, 'p4_secret', map);
+    map['done_' + owner] = true;
+    let total = Number(map['_total'] || 0); if (total + 2 > P4.SECRET_CAP) { e4save(server, 'p4_secret', map); return; }   // v11: capped per event
+    map['_total'] = total + 2; e4save(server, 'p4_secret', map);
     E4.change(server, 2, 'event', null, 'secret santa');
     e4text(server, owner + ' gave ' + p.username + ' a Secret Santa gift! +2 Festivity.', 'light_purple');
   } catch (e) {}
@@ -477,7 +481,7 @@ function outpostHunt(server, o) {
     let t = e4rotate(server, 'p4_rot_hunt', near); if (!t) return;
     let ang = Math.random() * Math.PI * 2, hx = t.x + Math.cos(ang) * P4.HUNT_DIST, hz = t.z + Math.sin(ang) * P4.HUNT_DIST, lvl = server.overworld();
     for (let i = 0; i < P4.HUNT_GNOMES; i++) summon(server, 'minecraft:endermite', hx + e4rnd(-2, 2), e4surface(lvl, Math.floor(hx), Math.floor(hz)), hz + e4rnd(-2, 2), 'Coal Gnome', 'fest_t2 fest_e4 fest_hunt', '{Lifetime:0,active_effects:[{id:"minecraft:speed",amplifier:1,duration:-1}]}');
-    for (let i = 0; i < P4.HUNT_ELVES; i++) summon(server, 'minecraft:stray', hx + e4rnd(-2, 2), e4surface(lvl, Math.floor(hx), Math.floor(hz)), hz + e4rnd(-2, 2), 'Sour Elf', 'fest_t1 fest_e4 fest_hunt', '{HandItems:[{id:"minecraft:stick",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",count:1,components:{"minecraft:dyed_color":{rgb:2263842}}}],active_effects:[{id:"minecraft:speed",amplifier:1,duration:-1}]}');
+    for (let i = 0; i < P4.HUNT_ELVES; i++) summon(server, 'minecraft:stray', hx + e4rnd(-2, 2), e4surface(lvl, Math.floor(hx), Math.floor(hz)), hz + e4rnd(-2, 2), 'Sour Elf', 'fest_t1 fest_e4 fest_hunt', '{HandItems:[{id:"minecraft:stick",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:"minecraft:speed",amplifier:1,duration:-1}]}');   // v11: no helmet item (hat is in the model)
     e4cmd(server, 'tellraw ' + t.username + ' ' + E4.jsonText('The Outpost has sent hunters after you. Break its Cursed Star to end this.', 'dark_red'));
     e4cmd(server, 'playsound minecraft:entity.wolf.howl master ' + t.username + ' ' + Math.floor(hx) + ' ' + Math.floor(t.y) + ' ' + Math.floor(hz) + ' 1 0.5');
     E4.logEvent(server, 'The Claws Outpost sent a hunting band after ' + t.username);
@@ -621,7 +625,7 @@ function clawsSmash(server) {
     let now = server.tickCount, lp = e4_clawsLast;
     if (lp && Math.abs(lp.x - bear.x) + Math.abs(lp.z - bear.z) > 0.5) { e4_clawsLast = { x: bear.x, z: bear.z, t: now }; }
     else if (!lp) e4_clawsLast = { x: bear.x, z: bear.z, t: now };
-    else if (now - lp.t >= 100 && h > 2.2) {
+    else if (now - lp.t >= 100 && h > 2.2 && !(typeof F5_MOD != 'undefined' && F5_MOD)) {   // v11: with the Festivity jar the Java chase goal moves him; no tp fights
       if (!e4_steerSeen) { e4_steerSeen = true; e4log('claws stalled ' + Math.round(h) + ' blocks from ' + t.username + ' (Phase 2 tick gated?), Phase 4 steering'); }
       let step = Math.min(P2.CLAWS_SPEED, h - 1.5), nx = bear.x + dx / h * step, nz = bear.z + dz / h * step;
       let ny = e4surface(server.overworld(), Math.floor(nx), Math.floor(nz)); if (Math.abs(ny - bear.y) > 6) ny = bear.y;
@@ -721,4 +725,4 @@ ServerEvents.commandRegistry(event => {
   event.register(Commands.literal('festivity').then(root));
 });
 
-console.log('[Festivity] Phase 4 draft v10 loaded: ' + Object.keys(E4_POOL).length + ' events, staged outpost/spire, claws smash ' + P4.CLAWS_SMASH + ', freed elves ' + P4.FREED_ELVES + ', P2 auto-tower off (OUTPOST_AT ' + P2.OUTPOST_AT + ')');
+console.log('[Festivity] Phase 4 draft v11 loaded (secret santa cap ' + P4.SECRET_CAP + ', log ' + P4.LOG + '): ' + Object.keys(E4_POOL).length + ' events, staged outpost/spire, claws smash ' + P4.CLAWS_SMASH + ', freed elves ' + P4.FREED_ELVES + ', P2 auto-tower off (OUTPOST_AT ' + P2.OUTPOST_AT + ')');

@@ -1,0 +1,84 @@
+{
+  "enabled": true,
+  "shapeVariety": true,
+  "waterRadius": 6,
+  "themes": [
+    {
+      "prefix": "lakeside",
+      "biomeWords": [],
+      "biomeTags": [],
+      "nearWater": true,
+      "minSlope": 0,
+      "minAboveSea": 0
+    },
+    {
+      "prefix": "hillside",
+      "biomeWords": [],
+      "biomeTags": [],
+      "nearWater": false,
+      "minSlope": 3,
+      "minAboveSea": 0
+    },
+    {
+      "prefix": "mountain",
+      "biomeWords": [
+        "peak",
+        "slope",
+        "alpine",
+        "mountain",
+        "highland",
+        "crag"
+      ],
+      "biomeTags": [
+        "minecraft:is_mountain",
+        "c:is_mountain"
+      ],
+      "nearWater": false,
+      "minSlope": 0,
+      "minAboveSea": 45
+    },
+    {
+      "prefix": "darkwood",
+      "biomeWords": [
+        "dark_forest",
+        "taiga",
+        "spruce",
+        "pine",
+        "old_growth",
+        "grove",
+        "coniferous",
+        "redwood",
+        "fir"
+      ],
+      "biomeTags": [],
+      "nearWater": false,
+      "minSlope": 0,
+      "minAboveSea": 0
+    },
+    {
+      "prefix": "birch",
+      "biomeWords": [
+        "birch",
+        "aspen"
+      ],
+      "biomeTags": [],
+      "nearWater": false,
+      "minSlope": 0,
+      "minAboveSea": 0
+    }
+  ],
+  "retainingWalls": true,
+  "retainingWall": {
+    "": "minecraft:stone_bricks",
+    "lakeside": "minecraft:stone_bricks",
+    "mountain": "minecraft:cobblestone",
+    "hillside": "minecraft:stone_bricks",
+    "darkwood": "minecraft:mossy_stone_bricks",
+    "birch": "minecraft:stone_bricks"
+  },
+  "wallCap": "minecraft:stone_brick_wall",
+  "wallMinHeight": 2,
+  "capFromHeight": 3,
+  "wallMaxHeight": 10,
+  "wallRings": 6
+}
