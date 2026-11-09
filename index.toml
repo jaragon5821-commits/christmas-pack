@@ -3334,7 +3334,7 @@ hash = "9d7e2db3fb92440a7acb2b9af73f7b2e01817b6ee07d306edf929040b967680a"
 
 [[files]]
 file = "config/colonyautopilot-server.toml"
-hash = "8eec9b6ebfefc6d42152993ec821f58019d336842799dce11b10422467212f65"
+hash = "bec3ea5a08371b2893806a3a8f3e24a4d5b2cc1e19497e6ae4c06f57ca4dd97a"
 
 [[files]]
 file = "config/comforts-common.toml"

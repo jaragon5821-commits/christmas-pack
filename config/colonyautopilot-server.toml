@@ -958,7 +958,7 @@
 	#no longer escalates even with this ground loaded: loaded ground is necessary, not sufficient.
 	# Default: 10
 	# Range: 0 ~ 32
-	spawnChunkRadius = 10
+	spawnChunkRadius = 0
 	#Block reads and writes per server tick shared by every land-work drain of the autopilot
 	#(terraforming, grounds sweeps, ravine surveys, damage scans). A colony's terraforming and sweeps
 	#stay well under it. A damage scan of a large building (a footprint over about 500 cells: many town
