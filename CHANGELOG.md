@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.08-7
+- Install fix: FerriteCore and Multi-Piston had a blank side and failed to download
+
 ## 2026.11.08-6
 - friend-kit overrides: voice chat on, title-screen join buttons blank
 

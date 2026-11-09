@@ -1,6 +1,6 @@
 filename = 'ferritecore-7.0.3-neoforge.jar'
 name = 'FerriteCore ((Neo)Forge)'
-side = ''
+side = "both"
 
 [download]
 url = "https://edge.forgecdn.net/files/7524/151/ferritecore-7.0.3-neoforge.jar"

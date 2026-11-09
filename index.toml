@@ -43614,7 +43614,7 @@ metafile = true
 
 [[files]]
 file = "mods/ferritecore.pw.toml"
-hash = "63a719465d967755c62d603b861c93d61a022d27e780cfafabe9e58da1f91f1e"
+hash = "c34c16870bc4fa41cefa8197c1727f210c05a2e5995c4a0f359c0713ea542719"
 metafile = true
 
 [[files]]
@@ -44084,7 +44084,7 @@ metafile = true
 
 [[files]]
 file = "mods/multi-piston.pw.toml"
-hash = "63bf8811cdea5253a2358abaeb7ffe830047830c94dfeaf80f36cd88254f59a9"
+hash = "8f183f58dc3f956ef3d5dbdd710c2925ffcd698a5c7926bcfb2245a9184ffd37"
 metafile = true
 
 [[files]]

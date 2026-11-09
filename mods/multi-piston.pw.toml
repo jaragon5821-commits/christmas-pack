@@ -1,6 +1,6 @@
 filename = 'multipiston-1.2.58-1.21.1.jar'
 name = 'Multi-Piston'
-side = ''
+side = "both"
 
 [download]
 url = "https://edge.forgecdn.net/files/7097/877/multipiston-1.2.58-1.21.1.jar"
