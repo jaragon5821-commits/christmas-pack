@@ -44195,3 +44195,39 @@ hash = "ca534d58c7db3896b39292f0c544c910b14f9fb260e835299fb8f8056b07381d"
 file = "options.txt"
 hash = "efac3921e521b6127afb58dcc8c7c68b7216bbf277d68f054f9ca42fb54b6f12"
 preserve = true
+
+[[files]]
+file = "kubejs/client_scripts/chop_item_tooltips.js"
+hash = "f94e806121bc0a957aec927610f5ab24f3d6ce6275736268fadac0081c15cf18"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/buddies.md"
+hash = "05cd4e29609f68133ed14f2952cdde37a716d16e7f916ac0ca3441f43a799208"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/candle_of_vigil.md"
+hash = "d1ecd95cb987b50e1342010773b8815d6fea49730e14432878e9fcd16770f021"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/colonybucks.md"
+hash = "6ea07bdf93093a7c587f306c80aa52c8e6981bbaeb61060dc1d0e6f12d55346f"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/festivity.md"
+hash = "6bf0dc67f9982a20f29861f0d3c28e0ddfeb4ad7683fe3c26e9a8897febaba96"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/index.md"
+hash = "2fe3e328662eae0ee7d0fce695e7292a149078c7093f93e6da705e83a700dd70"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/santy_claws.md"
+hash = "18812abf288b6585c1a8f729211119989d115493a67473bb3c92e1aa898f4717"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/spell_schools.md"
+hash = "3cd3d7013fecf7c9e4724241ead1448af562c576f86f3151533123dac8332054"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/town_planner.md"
+hash = "908f34467a3d4d710767b76bb6b09ccc18a745a0bc00300252baf3997da797d9"
