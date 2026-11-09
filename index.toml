@@ -3742,7 +3742,7 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/chop_xmas_title.txt"
-hash = "5a95fca087e3378171b0b972c37a96be0f95a224abe2662777b22be813552384"
+hash = "0c57fcf738a0a5ab1b87e1eea04c4c162387278af4f2c1b7a778fb9bc55628aa"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -5610,7 +5610,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
-hash = "3ee85cb90ef8c968c87bfe0d423b2344632235a12c8b5a7edfc82c582902fad8"
+hash = "de4d9aea37029e68ce03354ac8de5f41116bd21061ac42cbdfcc91ca2fd897ee"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"

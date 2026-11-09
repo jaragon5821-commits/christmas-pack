@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.08-6
+- friend-kit overrides: voice chat on, title-screen join buttons blank
+
 ## 2026.11.08-5
 - Festivity 0.9.1b, Christmas Structures v30, Large Dungeons v4, Botany Pots crops v1, quests v0.1.1, Colony Autopilot fork chop.5, Christmas music at half volume
 - Removed: VanillaBackport, AmbientSounds, TownTalk, Iron Jetpacks, Cucumber, Music Triggers, TIL

@@ -49,7 +49,7 @@ element {
 element {
   button_element_executable_block_identifier = chopxmas-exec-0001
   [executable_block:chopxmas-exec-0001][type:generic] = [executables:chopxmas-act-0001;]
-  [executable_action_instance:chopxmas-act-0001][action_type:joinserver] = EXTERNAL_ADDRESS_HERE
+  [executable_action_instance:chopxmas-act-0001][action_type:joinserver] = 
   restartbackgroundanimations = true
   loopbackgroundanimations = true
   nine_slice_custom_background = false
@@ -80,7 +80,7 @@ element {
 element {
   button_element_executable_block_identifier = chopxmas-exec-0002
   [executable_block:chopxmas-exec-0002][type:generic] = [executables:chopxmas-act-0002;]
-  [executable_action_instance:chopxmas-act-0002][action_type:joinserver] = LAN_ADDRESS_HERE
+  [executable_action_instance:chopxmas-act-0002][action_type:joinserver] = 
   restartbackgroundanimations = true
   loopbackgroundanimations = true
   nine_slice_custom_background = false
