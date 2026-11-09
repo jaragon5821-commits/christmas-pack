@@ -41443,7 +41443,7 @@ hash = "c923cd9a989886b287a62a516b12675a902ed6ae8d399485c684b305caacd726"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/index.md"
-hash = "c6d3da671117ccd8032b70830312068db4185645ba006b9715a9766314bceefe"
+hash = "0aa2a7573632e2ec0edaab74c38a9156124c503dfecb8a2512bb2b27a5054b50"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/backpacks.md"
@@ -41475,7 +41475,7 @@ hash = "28a11987fd8e3346a76513ab6a749f564e457d9516c9d541f2bf01928c686f80"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/mining.md"
-hash = "53e22985f9da9b5716f76a28e6c8092d6c4a866eddf7e9b6ac3f4730e9c4951d"
+hash = "91d5aba6a502a48c7ff12943a05dfb4a28940084f13735c1a5a08471d7153831"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/quests.md"
@@ -44231,3 +44231,35 @@ hash = "3cd3d7013fecf7c9e4724241ead1448af562c576f86f3151533123dac8332054"
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/town_planner.md"
 hash = "908f34467a3d4d710767b76bb6b09ccc18a745a0bc00300252baf3997da797d9"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/colony.md"
+hash = "cd800d1df53ec000bb944de0cc5c05f292ce55d5f9aec6b7a3acd39a79359f25"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/decorating.md"
+hash = "ba20212f8ed52137c61eb4b67bedcd90ff6abe8d805e6a4c40e8e93855d90661"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/festivity.md"
+hash = "164b8f6a602716eaffc60fa04c31a6de1257f4f404333936b794b1c545e6fb9b"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/giving.md"
+hash = "70048eefa75df5e84bc121dcbd815bf18d48d5bc8e5936e7dbda0d4e0b732d89"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/handy.md"
+hash = "dcb0dbdf8a55f8a575eaab9d8f64de4b463ae61b495753cb5dcaf94b6b3a0aff"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/index.md"
+hash = "4d51545116b5984b082108738110411cb8d47539e33f4ac5dade574c22a62a27"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/magic.md"
+hash = "92f017f8c3c7512e53c5e7405331a0bc9417cb29d6516637858d5485efe14450"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/travel.md"
+hash = "f534beb0140be080618c3a57d290f16940f56b7964ac0d209b7d18b93152968c"

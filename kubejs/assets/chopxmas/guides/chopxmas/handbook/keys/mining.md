@@ -8,7 +8,9 @@ navigation:
 
 # Mining & Building
 
-Hold the Ultimine key while mining to break a whole vein, tree or patch at once.
+Hold the Ultimine key while mining to break a whole vein, tree or patch at once: up to **128 blocks** in one go.
+
+**Trees:** there's no automatic tree-feller. Hold Ultimine and break one log to take the whole tree, even the big ones.
 
 **Your keys right now** (says *Not bound* if it has no key yet):
 
