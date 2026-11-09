@@ -13,6 +13,9 @@
 //  points, credit mult clamped, ledger lastSeen refreshed while online (crash-safe Welcome Back). See CHANGELOG.md.
 //  v0.4.1: fest_java drain: the Festivity jar's compat bridges (0.8.2, carols in villages, fairy lights) queue x10 bar deltas in the dummy objective
 //          fest_java under the player's name; the script drains it once a second through change() so the bar stays script-owned.
+//  v0.4.2 (A8, Josh-approved 2026-11-09): colony mood. Festivity jar 0.9.18 writes fest_ext holder colony_mood (0-100, -1 = nobody in a
+//          colony) every 5 min. Every 5 min (game ticks, players online, not frozen): 75+ = +0.3, 50-74 = +0.1, under 25 = -0.1, else none.
+//          A missing score counts as -1 (no change). Normal bar change through change(): milestones/bands/HUD as usual, no player ticker.
 //  v0.4.0: F10 Claws Night omens: two more fest_hud holders (omen 0..3, corrupt 0..100 creeping) written from hudSync,
 //  and a once-per-day dusk cue (distant sounds, actionbar whisper, ash) while omen >= 1. Pure warning, no gameplay change.
 // ============================================================================================
@@ -21,7 +24,7 @@
 // Design: "Festivity Mechanic - Design v2.2" (Drive). Server script: runs in single player too.
 
 const FEST = {
-  VERSION: '0.4.1',
+  VERSION: '0.4.3',
   START: 55,                 // new world starting value (Josh: 55)
   MIN: 0, MAX: 100,
   HYSTERESIS: 3,             // points past a band edge before the band changes back
@@ -489,6 +492,29 @@ function javaDrain(server) {
   } catch (e) { console.log('[Festivity] javaDrain: ' + e); }
 }
 
+// ---------- 0.4.2: colony mood (A8) ----------
+// Reads fest_ext / colony_mood WITHOUT creating it (a created 0 would read as a miserable colony). -1 or missing = no change.
+const FEST_MOOD = { EVERY_TICKS: 6000, HIGH: 75, MID: 50, LOW: 25, HIGH_PTS: 0.3, MID_PTS: 0.1, LOW_PTS: -0.1 };
+var fest_ScoreHolder = null;
+function colonyMood(server) {
+  try {
+    let sb = server.scoreboard; if (!sb) return -1;
+    let obj = sb.getObjective('fest_ext'); if (!obj) return -1;
+    if (!fest_ScoreHolder) fest_ScoreHolder = Java.loadClass('net.minecraft.world.scores.ScoreHolder');
+    let info = sb.getPlayerScoreInfo(fest_ScoreHolder.forNameOnly('colony_mood'), obj);
+    if (info == null) return -1;
+    return Number(info.value());
+  } catch (e) { console.log('[Festivity] colonyMood: ' + e); return -1; }
+}
+function colonyMoodTick(server) {
+  let m = colonyMood(server);
+  console.info('[Festivity] colony mood ' + m);   // 0.4.3: one line per 5-min read
+  if (m < 0) return;
+  let M = FEST_MOOD, d = 0;
+  if (m >= M.HIGH) d = M.HIGH_PTS; else if (m >= M.MID) d = M.MID_PTS; else if (m < M.LOW) d = M.LOW_PTS;
+  if (d != 0) change(server, d, 'colony_mood', null, 'colony mood ' + m);
+}
+
 // ---------- tick: drift, freeze, grace ----------
 var fest_hudInited = false;   // 0.3.0c: ServerEvents.loaded does not fire again on /reload, so init lazily from the first tick too
 ServerEvents.tick(event => {
@@ -512,6 +538,7 @@ ServerEvents.tick(event => {
     }
   }
   if (d.getBoolean('frozen')) return;                          // /festivity freeze on
+  if (server.tickCount % FEST_MOOD.EVERY_TICKS == 0) colonyMoodTick(server);   // 0.4.2 A8: every 5 min
   let hour = Math.floor(gameTime(server) / 1000);
   if (hour != d.getLong('lastHourTick')) {
     d.putLong('lastHourTick', hour);
@@ -732,6 +759,8 @@ EntityEvents.checkSpawn(event => {
   if (b.id != 'jolly' && b.id != 'merry') return;
   if (!event.entity.isMonster()) return;
   try { if (event.entity.tags && event.entity.tags.contains('fest_minion')) return; } catch (x) {}   // never cancel our own spawners
+  try { if (String(event.entity.type).indexOf('festivity:') == 0) return; } catch (x) {}   // 0.4.3: never Festivity's own mobs (e.g. /summon festivity:santy_claws)
+  try { let st = String(event.type || event.spawnType || '').toUpperCase(); if (st && ['NATURAL', 'CHUNK_GENERATION', 'SPAWNER', 'TRIAL_SPAWNER', 'REINFORCEMENT', 'PATROL', 'EVENT'].indexOf(st) < 0) return; } catch (x) {}   // 0.4.3: commands / spawn eggs / buckets are never blocked
   if (String(event.level.dimension) != 'minecraft:overworld') return;
   if (G.inGrace(server)) return;
   let e = event.entity, near = false;

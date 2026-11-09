@@ -1,0 +1,718 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chopq_friends_family"
+	group: ""
+	icon: {
+		id: "mca:bouquet"
+	}
+	id: "34057A5E57000000"
+	images: [ ]
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:poppy"
+			}
+			id: "34057A5E57E4796D"
+			rewards: [
+				{
+					id: "34057A5E578F7036"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "34057A5E57806473"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "34057A5E57F91622"
+			rewards: [
+				{
+					id: "34057A5E57DB77F0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E57EB1909"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34057A5E57F91622"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "34057A5E57E6BD4C"
+			rewards: [
+				{
+					id: "34057A5E57040282"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E57529805"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34057A5E57E6BD4C"]
+			icon: {
+				id: "mca:bouquet"
+			}
+			id: "34057A5E57EFDC57"
+			rewards: [
+				{
+					id: "34057A5E570CE8E6"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E57779961"
+					item: { count: 1, id: "mca:bouquet" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34057A5E57EFDC57"]
+			icon: {
+				id: "mca:engagement_ring"
+			}
+			id: "34057A5E576E21A8"
+			rewards: [
+				{
+					id: "34057A5E57E662E8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E57A01E1A"
+					item: { count: 1, id: "mca:engagement_ring" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34057A5E576E21A8"]
+			icon: {
+				id: "mca:wedding_ring"
+			}
+			id: "34057A5E573FB6F7"
+			rewards: [
+				{
+					id: "34057A5E57776197"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5799ADD5"
+					item: { count: 1, id: "mca:wedding_ring" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34057A5E57F91622"]
+			icon: {
+				id: "mca:family_tree"
+			}
+			id: "34057A5E57C3C45B"
+			rewards: [
+				{
+					id: "34057A5E57EC6A86"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5701D261"
+					item: { count: 1, id: "mca:family_tree" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34057A5E573FB6F7"]
+			icon: {
+				id: "mca:baby_boy"
+			}
+			id: "34057A5E57DE494A"
+			optional: true
+			rewards: [
+				{
+					id: "34057A5E570ED8BC"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E57AF8DB0"
+					type: "checkmark"
+				}
+			]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "doggytalents:training_treat"
+			}
+			id: "34057A5E57F78FFC"
+			rewards: [
+				{
+					id: "34057A5E57982D82"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E578CD60C"
+					item: { count: 1, id: "doggytalents:training_treat" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34057A5E57F78FFC"]
+			icon: {
+				id: "doggytalents:food_bowl"
+			}
+			id: "34057A5E57013119"
+			rewards: [
+				{
+					id: "34057A5E576F49F3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E57F498B3"
+					item: { count: 1, id: "doggytalents:food_bowl" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34057A5E57F78FFC"]
+			icon: {
+				id: "doggytalents:dog_bed"
+			}
+			id: "34057A5E57A04EA8"
+			rewards: [
+				{
+					id: "34057A5E57FD79BD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E576FFE3B"
+					item: { count: 1, id: "doggytalents:dog_bed" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34057A5E57F78FFC"]
+			icon: {
+				id: "doggytalents:whistle"
+			}
+			id: "34057A5E57384754"
+			rewards: [
+				{
+					id: "34057A5E57BF3094"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5707B929"
+					item: { count: 1, id: "doggytalents:whistle" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34057A5E57F78FFC"]
+			icon: {
+				id: "doggytalents:super_treat"
+			}
+			id: "34057A5E57CD48D7"
+			rewards: [
+				{
+					id: "34057A5E575682E0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E574281BA"
+					item: { count: 1, id: "doggytalents:super_treat" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34057A5E57CD48D7"]
+			icon: {
+				id: "doggytalents:master_treat"
+			}
+			id: "34057A5E576111DC"
+			rewards: [
+				{
+					id: "34057A5E57906717"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E571C32F5"
+					item: { count: 1, id: "doggytalents:master_treat" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "moblassos:golden_lasso"
+			}
+			id: "34057A5E57F86520"
+			rewards: [
+				{
+					id: "34057A5E570EEC07"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E57A0DB0B"
+					item: { count: 1, id: "moblassos:golden_lasso" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "animal_pen:animal_pen_spruce"
+			}
+			id: "34057A5E572830EC"
+			rewards: [
+				{
+					id: "34057A5E57E1EB77"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E573CA915"
+					item: { count: 1, id: "animal_pen:animal_pen_spruce" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "animal_feeding_trough:feeding_trough"
+			}
+			id: "34057A5E57E6F745"
+			rewards: [
+				{
+					id: "34057A5E57C4415A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E574E4DC3"
+					item: { count: 1, id: "animal_feeding_trough:feeding_trough" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "astikorcartsredux:spruce_supply_cart"
+			}
+			id: "34057A5E579653CC"
+			rewards: [
+				{
+					id: "34057A5E5783E225"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E57D2EB67"
+					item: { count: 1, id: "astikorcartsredux:spruce_supply_cart" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34057A5E579653CC"]
+			icon: {
+				id: "astikorcartsredux:spruce_plow"
+			}
+			id: "34057A5E5737AA82"
+			rewards: [
+				{
+					id: "34057A5E573D70AC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E57A53765"
+					item: { count: 1, id: "astikorcartsredux:spruce_plow" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "minecraft:saddle"
+			}
+			id: "34057A5E57F546A9"
+			rewards: [
+				{
+					id: "34057A5E57D20DDE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E579E59DA"
+					item: { count: 1, id: "minecraft:saddle" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "festivity:reindeer_harness"
+			}
+			id: "34057A5E57A1B09B"
+			optional: true
+			rewards: [
+				{
+					id: "34057A5E57CF30F1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E573931EC"
+					item: { count: 1, id: "festivity:reindeer_harness" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "minecraft:snowball"
+			}
+			id: "34057A5E577D4EF0"
+			rewards: [
+				{
+					id: "34057A5E57AB842B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5762832B"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "minecraft:cod"
+			}
+			id: "34057A5E5725A5EC"
+			rewards: [
+				{
+					id: "34057A5E5715BB4A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5716A88B"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "minecraft:cod"
+			}
+			id: "34057A5E578554C9"
+			rewards: [
+				{
+					id: "34057A5E57B699D6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5735C2DC"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "minecraft:kelp"
+			}
+			id: "34057A5E57AED816"
+			rewards: [
+				{
+					id: "34057A5E571306FE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E57DA053D"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "minecraft:white_wool"
+			}
+			id: "34057A5E57C4C424"
+			rewards: [
+				{
+					id: "34057A5E578B8D46"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5707CFF9"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "minecraft:trident"
+			}
+			id: "34057A5E57B07B8B"
+			rewards: [
+				{
+					id: "34057A5E5746C93D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E57CA3232"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "snuffles:frosty_fluff"
+			}
+			id: "34057A5E57C036A6"
+			rewards: [
+				{
+					id: "34057A5E57B48AF7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E57ACD556"
+					item: { count: 1, id: "snuffles:frosty_fluff" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "redomesticate:deed_of_ownership"
+			}
+			id: "34057A5E571C6AA1"
+			rewards: [
+				{
+					id: "34057A5E576678CE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5746A5EA"
+					item: { count: 1, id: "redomesticate:deed_of_ownership" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "redomesticate:pet_bed_red"
+			}
+			id: "34057A5E57B9FAA1"
+			rewards: [
+				{
+					id: "34057A5E571BA090"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E57DFC9FC"
+					item: { count: 1, id: "redomesticate:pet_bed_red" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 5.0d
+		}
+	]
+}

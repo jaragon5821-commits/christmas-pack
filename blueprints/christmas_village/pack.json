@@ -4,7 +4,7 @@
   "authors": [
     "Chop"
   ],
-  "desc": "A snowy ceramic Christmas village: cabins that grow into plastered, lit-up shops and houses with red, green and blue tiled roofs, wreath doors, picture windows, plus roads, parks and a Christmas market. Six residence designs, and Birch Meadow, Dark Forest, Mountain Stone, Hillside and Lakeside variants of the busiest huts. Needs Chop's Christmas Blocks (KubeJS).",
+  "desc": "A snowy ceramic Christmas village: cabins that grow into plastered, lit-up shops and houses with red, green and blue tiled roofs, wreath doors, picture windows, plus roads, parks and a Christmas market. Six residence designs, and Birch Meadow, Dark Forest, Mountain Stone, Hillside and Lakeside variants of the busiest huts, plus six Family Homes from the world-gen starter houses, and an upgradable town wall (segments, corners, towers, gates). Needs Chop's Christmas Blocks (KubeJS).",
   "mods": [
     "another_furniture",
     "candlelight",
@@ -25,6 +25,6 @@
     "supplementaries",
     "winterly"
   ],
-  "version": "3",
+  "version": "3.6",
   "pack-format": "1"
 }

@@ -1,0 +1,647 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chopq_fishing"
+	group: ""
+	icon: {
+		id: "aquaculture:iron_fishing_rod"
+	}
+	id: "34057A5E58000000"
+	images: [ ]
+	order_index: 21
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:fishing_rod"
+			}
+			id: "34057A5E58452E65"
+			rewards: [
+				{
+					id: "34057A5E580F40A8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E58141AD7"
+					item: { count: 1, id: "minecraft:fishing_rod" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34057A5E58452E65"]
+			icon: {
+				id: "aquaculture:iron_fishing_rod"
+			}
+			id: "34057A5E5873C698"
+			rewards: [
+				{
+					id: "34057A5E58440EAE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E58EED8C7"
+					item: { count: 1, id: "aquaculture:iron_fishing_rod" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34057A5E5873C698"]
+			icon: {
+				id: "aquaculture:worm"
+			}
+			id: "34057A5E58D5ADBE"
+			rewards: [
+				{
+					id: "34057A5E58D96970"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "34057A5E5833A20B"
+					item: { count: 1, id: "aquaculture:worm" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34057A5E5873C698"]
+			icon: {
+				id: "aquaculture:gold_hook"
+			}
+			id: "34057A5E5820A479"
+			rewards: [
+				{
+					id: "34057A5E588F8D42"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E585F638C"
+					item: { count: 1, id: "aquaculture:gold_hook" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34057A5E5873C698"]
+			icon: {
+				id: "aquaculture:fishing_line"
+			}
+			id: "34057A5E58A8B5DB"
+			rewards: [
+				{
+					id: "34057A5E586EE0C8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E58BDCA7D"
+					item: { count: 1, id: "aquaculture:fishing_line" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34057A5E5873C698"]
+			icon: {
+				id: "aquaculture:tackle_box"
+			}
+			id: "34057A5E58607EF1"
+			rewards: [
+				{
+					id: "34057A5E5879685D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5899265D"
+					item: { count: 1, id: "aquaculture:tackle_box" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34057A5E5873C698"]
+			icon: {
+				id: "aquaculture:diamond_fishing_rod"
+			}
+			id: "34057A5E58392468"
+			rewards: [
+				{
+					id: "34057A5E58001FCE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E58D2D271"
+					item: { count: 1, id: "aquaculture:diamond_fishing_rod" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34057A5E58452E65"]
+			icon: {
+				id: "aquaculture:iron_fillet_knife"
+			}
+			id: "34057A5E58A33A76"
+			rewards: [
+				{
+					id: "34057A5E58AF60EC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E58D99C4A"
+					item: { count: 1, id: "aquaculture:iron_fillet_knife" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34057A5E58A33A76"]
+			icon: {
+				id: "aquaculture:fish_fillet_cooked"
+			}
+			id: "34057A5E58153FDE"
+			rewards: [
+				{
+					id: "34057A5E588B964D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "34057A5E5834A833"
+					item: { count: 1, id: "aquaculture:fish_fillet_cooked" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34057A5E58452E65"]
+			icon: {
+				id: "aquaculture:treasure_chest"
+			}
+			id: "34057A5E589F57B3"
+			rewards: [
+				{
+					id: "34057A5E5839718B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E58528B2E"
+					item: { count: 1, id: "aquaculture:treasure_chest" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34057A5E58452E65"]
+			icon: {
+				id: "aquaculture:neptunes_bounty"
+			}
+			id: "34057A5E583355F1"
+			rewards: [
+				{
+					id: "34057A5E589C1A45"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E584A6983"
+					item: { count: 1, id: "aquaculture:neptunes_bounty" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34057A5E583355F1"]
+			icon: {
+				id: "aquaculture:neptunium_ingot"
+			}
+			id: "34057A5E58ED33B1"
+			rewards: [
+				{
+					id: "34057A5E5851108B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5844A454"
+					item: { count: 1, id: "aquaculture:neptunium_ingot" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34057A5E58452E65"]
+			icon: {
+				id: "stardew_fishing:quality_bobber"
+			}
+			id: "34057A5E58A5304C"
+			rewards: [
+				{
+					id: "34057A5E585AC38B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5892F47F"
+					item: { count: 1, id: "stardew_fishing:quality_bobber" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34057A5E58452E65"]
+			icon: {
+				id: "stardew_fishing:treasure_bobber"
+			}
+			id: "34057A5E58B17ABB"
+			rewards: [
+				{
+					id: "34057A5E586824C9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E587E6A75"
+					item: { count: 1, id: "stardew_fishing:treasure_bobber" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34057A5E58452E65"]
+			icon: {
+				id: "stardew_fishing:goliath_grouper"
+			}
+			id: "34057A5E58809B0E"
+			optional: true
+			rewards: [
+				{
+					id: "34057A5E5892AEE8"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E588B482F"
+					item: { count: 1, id: "stardew_fishing:goliath_grouper" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34057A5E58452E65"]
+			icon: {
+				id: "stardew_fishing:fish_display"
+			}
+			id: "34057A5E58FB6ED5"
+			rewards: [
+				{
+					id: "34057A5E585DA6AE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5857CA32"
+					item: { count: 1, id: "stardew_fishing:fish_display" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34057A5E58452E65"]
+			icon: {
+				id: "minecraft:ice"
+			}
+			id: "34057A5E58E17857"
+			rewards: [
+				{
+					id: "34057A5E58BEAC73"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5862BD86"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["34057A5E58452E65"]
+			icon: {
+				id: "festivity:frozen_lure"
+			}
+			id: "34057A5E58419E30"
+			optional: true
+			rewards: [
+				{
+					id: "34057A5E58125F69"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E58A81E1B"
+					item: { count: 1, id: "festivity:frozen_lure" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["34057A5E58809B0E"]
+			icon: {
+				id: "stardew_fishing:storm_tarpon"
+			}
+			id: "34057A5E58266163"
+			optional: true
+			rewards: [
+				{
+					id: "34057A5E58DAB92E"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E58C3717C"
+					item: { count: 1, id: "stardew_fishing:storm_tarpon" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["34057A5E58809B0E"]
+			icon: {
+				id: "stardew_fishing:cyclops_mahimahi"
+			}
+			id: "34057A5E582E34C5"
+			optional: true
+			rewards: [
+				{
+					id: "34057A5E58BD245B"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5829D36D"
+					item: { count: 1, id: "stardew_fishing:cyclops_mahimahi" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["34057A5E58809B0E"]
+			icon: {
+				id: "stardew_fishing:chromatic_arapaima"
+			}
+			id: "34057A5E5805196C"
+			optional: true
+			rewards: [
+				{
+					id: "34057A5E58D5B394"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E58C9104A"
+					item: { count: 1, id: "stardew_fishing:chromatic_arapaima" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["34057A5E58809B0E"]
+			icon: {
+				id: "stardew_fishing:crystalline_snakehead"
+			}
+			id: "34057A5E580F5688"
+			optional: true
+			rewards: [
+				{
+					id: "34057A5E5865E8C7"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5811CFC5"
+					item: { count: 1, id: "stardew_fishing:crystalline_snakehead" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["34057A5E58452E65"]
+			icon: {
+				id: "oceansdelight:stuffed_cod"
+			}
+			id: "34057A5E58DBA0BA"
+			rewards: [
+				{
+					id: "34057A5E582A7264"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E58A9736A"
+					item: { count: 1, id: "oceansdelight:stuffed_cod" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["34057A5E58452E65"]
+			icon: {
+				id: "oceansdelight:squid_rings"
+			}
+			id: "34057A5E58C9439E"
+			rewards: [
+				{
+					id: "34057A5E58BB6BC3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E58E28512"
+					item: { count: 1, id: "oceansdelight:squid_rings" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["34057A5E58452E65"]
+			icon: {
+				id: "oceansdelight:fugu_roll"
+			}
+			id: "34057A5E5858C41E"
+			rewards: [
+				{
+					id: "34057A5E58A3A2B0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5807DC37"
+					item: { count: 1, id: "oceansdelight:fugu_roll" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["34057A5E58452E65"]
+			icon: {
+				id: "oceansdelight:guardian_soup"
+			}
+			id: "34057A5E58454370"
+			optional: true
+			rewards: [
+				{
+					id: "34057A5E5863526C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E58B431BA"
+					item: { count: 1, id: "oceansdelight:guardian_soup" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 7.5d
+		}
+	]
+}

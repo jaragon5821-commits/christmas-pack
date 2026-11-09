@@ -1,0 +1,594 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chopq_relics"
+	group: ""
+	icon: {
+		id: "artifacts:cloud_in_a_bottle"
+	}
+	id: "34057A5E59000000"
+	images: [ ]
+	order_index: 22
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:gold_nugget"
+			}
+			id: "34057A5E591FD2CC"
+			rewards: [
+				{
+					id: "34057A5E5914EF3D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "34057A5E591D25A6"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "artifacts:cloud_in_a_bottle"
+			}
+			id: "34057A5E590685C4"
+			rewards: [
+				{
+					id: "34057A5E59E2EF47"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E592531E6"
+					item: { count: 1, id: "artifacts:cloud_in_a_bottle" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "artifacts:snowshoes"
+			}
+			id: "34057A5E5968A787"
+			rewards: [
+				{
+					id: "34057A5E597AFF40"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E590F9739"
+					item: { count: 1, id: "artifacts:snowshoes" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "artifacts:running_shoes"
+			}
+			id: "34057A5E59410BA4"
+			rewards: [
+				{
+					id: "34057A5E59238A30"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E598B4325"
+					item: { count: 1, id: "artifacts:running_shoes" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "artifacts:lucky_scarf"
+			}
+			id: "34057A5E5937D723"
+			rewards: [
+				{
+					id: "34057A5E5924B1AD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5994624A"
+					item: { count: 1, id: "artifacts:lucky_scarf" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "34057A5E59F4CCA7"
+			optional: true
+			rewards: [
+				{
+					id: "34057A5E59A817A2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "artifacts:mimic"
+					id: "34057A5E591C8D60"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "relics:researching_table"
+			}
+			id: "34057A5E59A108B5"
+			rewards: [
+				{
+					id: "34057A5E59A17B4F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E597983A0"
+					item: { count: 1, id: "relics:researching_table" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "relics:wool_mitten"
+			}
+			id: "34057A5E593C1E49"
+			rewards: [
+				{
+					id: "34057A5E59B5CD74"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E59184F87"
+					item: { count: 1, id: "relics:wool_mitten" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "relics:ice_skates"
+			}
+			id: "34057A5E59FCD11F"
+			rewards: [
+				{
+					id: "34057A5E594EAF46"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E59B942E1"
+					item: { count: 1, id: "relics:ice_skates" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "relics:ice_breaker"
+			}
+			id: "34057A5E59619AA5"
+			rewards: [
+				{
+					id: "34057A5E59AE0D4A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E590DCD8F"
+					item: { count: 1, id: "relics:ice_breaker" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "relics:magic_mirror"
+			}
+			id: "34057A5E59792CFA"
+			rewards: [
+				{
+					id: "34057A5E59FEA1F9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5994CFA5"
+					item: { count: 1, id: "relics:magic_mirror" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "irons_jewelry:jewelcrafting_station"
+			}
+			id: "34057A5E59C7F54B"
+			rewards: [
+				{
+					id: "34057A5E59A4E1CE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E59C66A0A"
+					item: { count: 1, id: "irons_jewelry:jewelcrafting_station" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["34057A5E59C7F54B"]
+			icon: {
+				id: "irons_jewelry:ring"
+			}
+			id: "34057A5E5968B2F7"
+			rewards: [
+				{
+					id: "34057A5E5920010A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E59DB7145"
+					item: { count: 1, id: "irons_jewelry:ring" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["34057A5E59C7F54B"]
+			icon: {
+				id: "irons_jewelry:necklace"
+			}
+			id: "34057A5E594019D3"
+			rewards: [
+				{
+					id: "34057A5E59E7330C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E59CD2FCF"
+					item: { count: 1, id: "irons_jewelry:necklace" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["34057A5E59C7F54B"]
+			icon: {
+				id: "irons_jewelry:ruby"
+			}
+			id: "34057A5E59811BAE"
+			rewards: [
+				{
+					id: "34057A5E5994D852"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E59F5447D"
+					item: { count: 1, id: "irons_jewelry:ruby" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "festivity:sugarplum_charm"
+			}
+			id: "34057A5E59C5A53D"
+			optional: true
+			rewards: [
+				{
+					id: "34057A5E59AD926E"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E597112BA"
+					item: { count: 1, id: "festivity:sugarplum_charm" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "festivity:elf_charm_pouch"
+			}
+			id: "34057A5E59BA548D"
+			optional: true
+			rewards: [
+				{
+					id: "34057A5E59D9AF71"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E599AF903"
+					item: { count: 1, id: "festivity:elf_charm_pouch" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "festivity:wish_jar"
+			}
+			id: "34057A5E591C1D6D"
+			optional: true
+			rewards: [
+				{
+					id: "34057A5E597CD222"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E595929D0"
+					item: { count: 1, id: "festivity:wish_jar" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "artifacts:flippers"
+			}
+			id: "34057A5E597E1C7C"
+			rewards: [
+				{
+					id: "34057A5E59C1B20C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E591FA4DE"
+					item: { count: 1, id: "artifacts:flippers" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "artifacts:night_vision_goggles"
+			}
+			id: "34057A5E59B96366"
+			rewards: [
+				{
+					id: "34057A5E59D75C96"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E594B4208"
+					item: { count: 1, id: "artifacts:night_vision_goggles" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "artifacts:crystal_heart"
+			}
+			id: "34057A5E59BECCD8"
+			rewards: [
+				{
+					id: "34057A5E59E30837"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E595512CA"
+					item: { count: 1, id: "artifacts:crystal_heart" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "artifacts:digging_claws"
+			}
+			id: "34057A5E5985607D"
+			rewards: [
+				{
+					id: "34057A5E5974DDB9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E59A54901"
+					item: { count: 1, id: "artifacts:digging_claws" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "relics:horse_flute"
+			}
+			id: "34057A5E5988F815"
+			rewards: [
+				{
+					id: "34057A5E5910527F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E594758C4"
+					item: { count: 1, id: "relics:horse_flute" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["34057A5E591FD2CC"]
+			icon: {
+				id: "relics:roller_skates"
+			}
+			id: "34057A5E59865D65"
+			rewards: [
+				{
+					id: "34057A5E59872DA7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E590EBD6B"
+					item: { count: 1, id: "relics:roller_skates" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 5.5d
+		}
+	]
+}

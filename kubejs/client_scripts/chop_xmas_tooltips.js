@@ -12,7 +12,7 @@
     [/^chop:.*_gift_bow$/, ['Put one on a present.']],
     [/^chop:(carved_ice_.*|clear_ice_bricks|glowing_ice)$/, ['Swap styles at the Glassblower.']],
     [/^chop:.*icing_drip$/, ['Hangs off the side of a block.']],
-    [/^chop:advent_calendar$/, ['Dec 1-24: open one door a day for a gift.', 'Door 24 counts double for Festivity.']]
+    [/^chop:advent_calendar$/, ['Old decoration only. The working Advent Calendar is', "Festivity's town calendar."]]
   ];
   ItemEvents.modifyTooltips(event => {
     HINTS.forEach(h => {

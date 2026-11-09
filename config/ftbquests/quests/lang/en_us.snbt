@@ -216,11 +216,11 @@
 	]
 	quest.392B9C20B2AE16BE.title: "The Clinker Forgemaster"
 	quest.3ADA85706D398A24.quest_desc: [
-		"Craft an &cAdvent Calendar&r. From &6December 1st&r you can open one door a day for a small gift, plus a little Festivity."
+		"From &6December 1st&r, open today's door on the town &cAdvent Calendar&r for a small gift. Tick this off once you have."
 		""
-		"&7Door 24 is worth double.&r"
+		"&7Come back every day: there are 24 doors.&r"
 	]
-	quest.3ADA85706D398A24.title: "The Advent Calendar"
+	quest.3ADA85706D398A24.title: "Open Today's Door"
 	quest.3BED91A3FC2CAADB.quest_desc: ["The dungeon's guardian always carries this. Clear the &cboss trial&r to claim it."]
 	quest.3BED91A3FC2CAADB.title: "Shadow Cloak"
 	quest.3C168D98CCC87C13.quest_desc: ["A common find in this dungeon's chests."]
@@ -470,4 +470,1168 @@
 	task.60046A666A27F184.title: "Built a snowy roof"
 	task.6446FCD5E35EF8C3.title: "I'm being nice"
 	task.648656B85BB6E0AC.title: "I found the Requests Board"
+	chapter.34057A5E50000000.chapter_subtitle: ["How the pack works: keys, tools and the handy mods. Every quest here gives a little XP."]
+	chapter.34057A5E50000000.title: "Start Here"
+	chapter.34057A5E51000000.chapter_subtitle: ["The main story. Each step stays hidden until you finish the one before it."]
+	chapter.34057A5E51000000.title: "The Long Winter"
+	chapter.34057A5E52000000.chapter_subtitle: ["Everything about growing your MineColonies town: every hut, every level, the autopilot and the treasury."]
+	chapter.34057A5E52000000.title: "Town Builder"
+	chapter.34057A5E53000000.chapter_subtitle: ["Flour, dough, cookies, cakes and a gingerbread house. Use the recipe viewer for every recipe."]
+	chapter.34057A5E53000000.title: "Christmas Baking"
+	chapter.34057A5E54000000.chapter_subtitle: ["Hidden discoveries. Each one appears here the moment you find it."]
+	chapter.34057A5E54000000.title: "Secrets Under the Snow"
+	chapter.34057A5E55000000.chapter_subtitle: ["Bigger chests, better backpacks, pipes, and a full Refined Storage network."]
+	chapter.34057A5E55000000.title: "Storage & Logistics"
+	chapter.34057A5E56000000.chapter_subtitle: ["Power for your machines: from a starter generator to a reactor."]
+	chapter.34057A5E56000000.title: "Powah!"
+	chapter.34057A5E57000000.chapter_subtitle: ["Villagers with lives of their own, loyal dogs, horses and other animal friends."]
+	chapter.34057A5E57000000.title: "Friends & Family"
+	chapter.34057A5E58000000.chapter_subtitle: ["Better rods, hooks and bait, legendary fish, and a little ice fishing."]
+	chapter.34057A5E58000000.title: "Fishing & the Sea"
+	chapter.34057A5E59000000.chapter_subtitle: ["Accessories with real powers: artifacts, relics and jewelry."]
+	chapter.34057A5E59000000.title: "Relics & Trinkets"
+	quest.34057A5E50031F98.quest_desc: ["Via Romana lets you travel quickly along roads between places you have charted. The charting map shows them."]
+	quest.34057A5E50031F98.title: "Charting the Roads"
+	quest.34057A5E50097C56.quest_desc: [
+		"[\"\",\"Open the big map with \",{\"keybind\":\"key.diorama.open_map\",\"color\":\"gold\"},\".\"]"
+		"[\"\",\"Make a waypoint with \",{\"keybind\":\"key.diorama.new_waypoint\",\"color\":\"gold\"},\" and list them with \",{\"keybind\":\"key.diorama.waypoints\",\"color\":\"gold\"},\".\"]"
+		"[\"\",\"Show or hide the minimap with \",{\"keybind\":\"key.diorama.toggle_minimap\",\"color\":\"gold\"},\".\"]"
+	]
+	quest.34057A5E50097C56.title: "Map and Waypoints"
+	quest.34057A5E500C40BD.quest_desc: [
+		"[\"\",\"The trash slot deletes junk: \",{\"keybind\":\"key.trashslot.toggle\",\"color\":\"gold\"},\" shows it.\"]"
+		"[\"\",\"Crafting grid helpers: \",{\"keybind\":\"key.craftingtweaks.balance\",\"color\":\"gold\"},\" balances, \",{\"keybind\":\"key.craftingtweaks.clear\",\"color\":\"gold\"},\" clears.\"]"
+	]
+	quest.34057A5E500C40BD.title: "Tidy Inventory"
+	quest.34057A5E502F7069.quest_desc: [
+		"[\"\",\"Rings, necklaces, belts and charms go in the accessory slots. Open them with \",{\"keybind\":\"key.curios.open.desc\",\"color\":\"gold\"},\".\"]"
+		"[\"\",\"Cosmetic armor slots let you wear a look over your real armor: \",{\"keybind\":\"cos.key.opencosarmorinventory\",\"color\":\"gold\"},\".\"]"
+	]
+	quest.34057A5E502F7069.title: "Trinket Slots"
+	quest.34057A5E504FD079.quest_desc: [
+		"[\"\",\"Hold \",{\"keybind\":\"key.ftbultimine\",\"color\":\"gold\"},\" while mining to break a whole vein of ore or a whole tree at once.\"]"
+		"[\"\",\"Change the shape with \",{\"keybind\":\"ftbultimine.change_shape.next\",\"color\":\"gold\"},\".\"]"
+	]
+	quest.34057A5E504FD079.title: "Mine the Whole Vein"
+	quest.34057A5E50608C5F.quest_desc: [
+		"Holds several kinds of arrows."
+		"[\"\",\"Pick which arrow to shoot with \",{\"keybind\":\"supplementaries.keybind.quiver\",\"color\":\"gold\"},\".\"]"
+	]
+	quest.34057A5E50608C5F.title: "A Quiver"
+	quest.34057A5E5073623B.quest_desc: ["Pick a biome and the compass points to the nearest one."]
+	quest.34057A5E5073623B.title: "Find a Biome"
+	quest.34057A5E50815B49.quest_desc: ["Instruments play real songs. Play together with friends for a Christmas concert."]
+	quest.34057A5E50815B49.title: "Make Some Music"
+	quest.34057A5E508A5B1B.quest_desc: [
+		"Cameras take real photos you can develop, frame and hang on the wall."
+		"&7Load film, take the picture, then develop it in a Lightroom.&r"
+	]
+	quest.34057A5E508A5B1B.title: "Say Cheese"
+	quest.34057A5E5099F180.quest_desc: [
+		"Lots of mods start with no key set so nothing clashes."
+		"[\"\",\"Open \",{\"keybind\":\"key.keybindatlas.open_keyboard\",\"color\":\"gold\"},\" (Keybind Atlas) to see every key, and click &fUnassigned&r to bind the ones you want.\"]"
+		"&7The Chop's Christmas Handbook has a page per mod with its keys.&r"
+	]
+	quest.34057A5E5099F180.title: "Every Key on One Keyboard"
+	quest.34057A5E50A4D6C4.quest_desc: ["Climb down holes and lower yourself into caves. Much safer than jumping."]
+	quest.34057A5E50A4D6C4.title: "Rope"
+	quest.34057A5E50B10980.quest_desc: [
+		"The item list on the right side of your inventory shows every item in the pack."
+		"[\"\",\"Hover an item and press \",{\"keybind\":\"key.jei.showRecipe\",\"color\":\"gold\"},\" to see how to make it.\"]"
+		"[\"\",\"Press \",{\"keybind\":\"key.jei.showUses\",\"color\":\"gold\"},\" to see what it is used for.\"]"
+		"[\"\",\"Press \",{\"keybind\":\"key.jei.bookmark\",\"color\":\"gold\"},\" to bookmark it for later.\"]"
+	]
+	quest.34057A5E50B10980.title: "Look It Up"
+	quest.34057A5E50B2D55A.quest_desc: [
+		"Seasons change over time and change which crops grow well."
+		"A calendar tells you the season and how long until the next."
+	]
+	quest.34057A5E50B2D55A.title: "What Season Is It?"
+	quest.34057A5E50B41AD8.quest_desc: [
+		"Backpacks hold a lot and take upgrades."
+		"[\"\",\"Wear it on your back, then open it with \",{\"keybind\":\"key.sophisticatedbackpacks.open_backpack\",\"color\":\"gold\"},\".\"]"
+		"&7The Storage & Logistics chapter covers upgrades.&r"
+	]
+	quest.34057A5E50B41AD8.title: "A Bag for Everything"
+	quest.34057A5E50BCB532.quest_desc: [
+		"A construction stick places a whole row or wall of the block you point at, using blocks from your inventory."
+		"Better sticks (iron, diamond, netherite) place more at once."
+	]
+	quest.34057A5E50BCB532.title: "Build Faster"
+	quest.34057A5E50C05383.quest_desc: [
+		"Welcome to &cChop's Christmas Special&r!"
+		""
+		"Quests are optional guides. Tick this one and the next ones open up."
+		"[\"\",\"Open the quest book any time with \",{\"keybind\":\"key.ftbquests.quests\",\"color\":\"gold\"},\".\"]"
+		"&7Chapters on the left: &fThe Long Winter&7 is the main story, &fChop's Christmas&7 is the festive side, and the rest are guides for each big mod.&r"
+	]
+	quest.34057A5E50C05383.quest_subtitle: "Read me first"
+	quest.34057A5E50C05383.title: "Welcome, Friend!"
+	quest.34057A5E50C40A26.quest_desc: [
+		"A lasso picks up a friendly animal so you can carry it home."
+		"Let it go by using the lasso on a block."
+	]
+	quest.34057A5E50C40A26.title: "Bring Them Home"
+	quest.34057A5E50C6E6C8.quest_desc: [
+		"A Megatorch stops hostile mobs from spawning naturally in a wide area around it."
+		"&7Mobs from spawners and dungeons still come.&r"
+	]
+	quest.34057A5E50C6E6C8.title: "A Safe Base"
+	quest.34057A5E50E474E9.quest_desc: ["Use it from your hand to open a crafting grid anywhere."]
+	quest.34057A5E50E474E9.title: "A Crafting Table in Your Pocket"
+	quest.34057A5E50E837C2.quest_desc: [
+		"A sleeping bag lets you sleep through the night far from home. Great for trips."
+		"&7Half the players asleep is enough to skip the night.&r"
+	]
+	quest.34057A5E50E837C2.title: "Sleep Anywhere"
+	quest.34057A5E50EA68C2.quest_desc: [
+		"The little box at the top of your screen names whatever block or mob you are looking at, and which mod it comes from."
+		"[\"\",\"Toggle it with \",{\"keybind\":\"key.jade.show_overlay\",\"color\":\"gold\"},\".\"]"
+	]
+	quest.34057A5E50EA68C2.title: "What Am I Looking At?"
+	quest.34057A5E50EC0F24.quest_desc: [
+		"[\"\",\"Open the team menu with \",{\"keybind\":\"key.ftbteams.open_gui\",\"color\":\"gold\"},\" and invite your friends.\"]"
+		"Quest progress is shared by the whole team, so you work through the book together."
+	]
+	quest.34057A5E50EC0F24.title: "Bring Your Friends"
+	quest.34057A5E50F4F4FB.quest_desc: [
+		"You started with &fChop's Christmas Handbook&r. It explains the pack, the Festivity meter and every mod's keys."
+		"Lost it? Ask an op for another copy."
+	]
+	quest.34057A5E50F4F4FB.title: "The Handbook"
+	quest.34057A5E50F7ECF0.quest_desc: [
+		"Proximity voice chat is built in: people nearby hear you."
+		"[\"\",\"Pick your microphone in \",{\"keybind\":\"key.voice_chat_settings\",\"color\":\"gold\"},\". Mute with \",{\"keybind\":\"key.mute_microphone\",\"color\":\"gold\"},\".\"]"
+		"[\"\",\"Make a group call with \",{\"keybind\":\"key.voice_chat_group\",\"color\":\"gold\"},\".\"]"
+	]
+	quest.34057A5E50F7ECF0.title: "Talk to Each Other"
+	quest.34057A5E50F9C41F.quest_desc: ["That's the basics. Head to &fThe Long Winter&r chapter for the main story, or &fChop's Christmas&r to start decorating."]
+	quest.34057A5E50F9C41F.title: "Ready for Winter"
+	quest.34057A5E50FA785C.quest_desc: [
+		"Open Parties and Claims lets you claim chunks so nobody else can break or take things there."
+		"Find its keys in Keybind Atlas (search &fparties&r), open the claims map and click chunks to claim them."
+	]
+	quest.34057A5E50FA785C.title: "Claim Your Land"
+	quest.34057A5E50FE014F.quest_desc: ["Hang it between two posts. It lets you nap through the day instead of the night."]
+	quest.34057A5E50FE014F.title: "A Hammock"
+	quest.34057A5E51026026.quest_desc: ["Explore the Nether until you walk into a fortress. Blazes and wither skeletons live there."]
+	quest.34057A5E51026026.title: "A Nether Fortress"
+	quest.34057A5E510BAD83.quest_desc: [
+		"The &aFestivity&r meter on your screen shows how merry the world is: Jolly, Merry, Quiet, Grumbling, Bleak... and worse."
+		"Decorating, feasting, giving gifts and helping your town raise it. When it sinks too low, &4Claws&r comes calling."
+		"&7The Chop's Christmas chapter is all about raising it.&r"
+	]
+	quest.34057A5E510BAD83.title: "Keep the World Jolly"
+	quest.34057A5E5111DAA5.quest_desc: ["A rare dungeon find. Light it in your house and Claws cannot break in."]
+	quest.34057A5E5111DAA5.title: "Candle of Vigil"
+	quest.34057A5E511A2274.quest_desc: ["Punch a tree, make planks, make a crafting table."]
+	quest.34057A5E511A2274.title: "Wood and a Workbench"
+	quest.34057A5E511B1B4B.quest_desc: ["Coal Heart, Clinker Core, dragon's breath and four ender pearls. The needle points to Claws' Citadel in the End."]
+	quest.34057A5E511B1B4B.title: "The Naughty Compass"
+	quest.34057A5E511D6FFC.quest_desc: ["Throw one to see which way the stronghold lies."]
+	quest.34057A5E511D6FFC.title: "Eyes of Ender"
+	quest.34057A5E511F3AF5.quest_desc: ["Sleep through the night and set your spawn. Half of the players need to sleep to skip the night."]
+	quest.34057A5E511F3AF5.title: "A Warm Bed"
+	quest.34057A5E512BF608.quest_desc: ["Build a portal from obsidian, light it, and step through."]
+	quest.34057A5E512BF608.title: "Through the Portal"
+	quest.34057A5E512C29D0.quest_desc: ["Water puts out fires (there are a lot of candles in this pack). Lava fuels furnaces."]
+	quest.34057A5E512C29D0.title: "Bucket"
+	quest.34057A5E512C4CA1.quest_desc: ["This is where it ends. Bring everyone."]
+	quest.34057A5E512C4CA1.title: "Santy Claws, Ascendant"
+	quest.34057A5E512C7480.quest_desc: [
+		"Write a letter to the real Santa and post it in a Christmas mailbox. He still reads them, even now."
+		"&7Ask for something nice.&r"
+	]
+	quest.34057A5E512C7480.title: "Dear Santa"
+	quest.34057A5E51325FC5.quest_desc: ["The Forgemaster's core still glows. With the Coal Heart, it can point the way to Claws himself."]
+	quest.34057A5E51325FC5.title: "The Clinker Core"
+	quest.34057A5E51359D97.quest_desc: ["Cook food, smelt ore, make glass. The &fKitchen & Farm&r chapter has bigger furnaces."]
+	quest.34057A5E51359D97.title: "Smelting"
+	quest.34057A5E51382C42.quest_desc: [
+		"Coal Heart, blaze powder, a magma block and paper. Use it inside the Clinker Forge you already cleared to call the Forgemaster back for an encore."
+		"&7Encore bosses drop extra loot. Using your Toymaker's Ticket in the Toymaster's beaten lair works the same way.&r"
+	]
+	quest.34057A5E51382C42.title: "Encore: Smoldering Summons"
+	quest.34057A5E513C384C.quest_desc: ["Fire resistance and healing potions make the rest of the story much easier."]
+	quest.34057A5E513C384C.title: "Brewing"
+	quest.34057A5E513E2C8C.quest_desc: ["Paper, a compass and a lump of coal make a &6Toymaker's Ticket&r. Right-click it to read where the show is."]
+	quest.34057A5E513E2C8C.title: "Admit One"
+	quest.34057A5E513ED795.quest_desc: ["Bread, stew, roast anything. The &fKitchen & Farm&r and &fChristmas Baking&r chapters have hundreds more recipes."]
+	quest.34057A5E513ED795.title: "Something Hot to Eat"
+	quest.34057A5E5148E0BE.quest_desc: ["Winter is long here. A campfire cooks food and makes a cosy spot to come back to."]
+	quest.34057A5E5148E0BE.title: "Keep Warm"
+	quest.34057A5E514A2688.quest_desc: [
+		"The Toymaster's grandest toy was never a weapon. It was a countdown."
+		"Craft the &6Advent Calendar&r and hang it on a free wall 5 wide and 5 tall, somewhere the whole town will pass."
+		"One door a day for everyone, and the big one on the 25th."
+	]
+	quest.34057A5E514A2688.title: "One Door a Day"
+	quest.34057A5E5152933F.quest_desc: [
+		"The Nether is where Claws grew from a hunger into a monster. His forges still burn there."
+		"Light a portal and step through. Bring fire resistance if you can."
+	]
+	quest.34057A5E5152933F.quest_subtitle: "The Nether"
+	quest.34057A5E5152933F.title: "Act V: The Burning Below"
+	quest.34057A5E5155DFD0.quest_desc: [
+		"With the Toymaster gone, his workshop secrets are loose. One of them is the &bForecast Globe&r."
+		"Shake it to see where tonight is heading."
+	]
+	quest.34057A5E5155DFD0.title: "Tonight's Forecast"
+	quest.34057A5E51586E36.quest_desc: ["Fill the portal frame with eyes and jump in."]
+	quest.34057A5E51586E36.title: "The Edge of the World"
+	quest.34057A5E51591E5E.quest_desc: ["Follow the eyes underground to the stronghold and its portal room."]
+	quest.34057A5E51591E5E.title: "The Stronghold"
+	quest.34057A5E515C9B33.quest_desc: ["Surround it with bookshelves for better enchantments."]
+	quest.34057A5E515C9B33.title: "Enchanting"
+	quest.34057A5E51623538.quest_desc: [
+		"Claws' first captain waits in the Naughty Citadel. Bring friends."
+		"When he falls, his &cNaughty/Nice Ledger&r falls with him. From then on, anyone in this world can craft one."
+	]
+	quest.34057A5E51623538.title: "The Twisted Toymaster"
+	quest.34057A5E5166A5A4.quest_desc: [
+		"The richest ores are deep underground. So are the &8coal gnomes&r, who swore themselves to Claws for a pocketful of coal."
+		"&7Dig carefully. They hear the pickaxe long before they see you.&r"
+	]
+	quest.34057A5E5166A5A4.quest_subtitle: "Diamonds and magic"
+	quest.34057A5E5166A5A4.title: "Act III: Deeper"
+	quest.34057A5E516E1EB3.quest_desc: [
+		"Claws was born in the End, out where the stars are cold. His Citadel waits there for him to come home."
+		"To finish this, you have to go first."
+	]
+	quest.34057A5E516E1EB3.quest_subtitle: "The End"
+	quest.34057A5E516E1EB3.title: "Act VI: The Frozen Star"
+	quest.34057A5E517A7D2C.quest_desc: ["Find an End City ship and claim its elytra."]
+	quest.34057A5E517A7D2C.title: "Wings"
+	quest.34057A5E518C5BBE.quest_desc: ["Water on lava makes obsidian. You need ten for a portal."]
+	quest.34057A5E518C5BBE.title: "Obsidian"
+	quest.34057A5E51936704.quest_desc: ["Defeat the Ender Dragon. Bring friends, beds are not a good idea."]
+	quest.34057A5E51936704.title: "Free the End"
+	quest.34057A5E51958054.quest_desc: ["Block arrows and the odd thrown snowball."]
+	quest.34057A5E51958054.title: "Hold the Line"
+	quest.34057A5E51983A22.quest_desc: ["Mines obsidian."]
+	quest.34057A5E51983A22.title: "Diamond Pickaxe"
+	quest.34057A5E51A184F5.quest_desc: [
+		"Santy Claws is beaten and the Heart of Winter is yours. The old stories said that if the world stayed jolly, Santa could finish him for good. You made sure it did."
+		"The long winter can finally be a merry one. Go home, light the tree, and throw the biggest Christmas party the world has seen."
+	]
+	quest.34057A5E51A184F5.quest_subtitle: "Christmas is saved"
+	quest.34057A5E51A184F5.title: "The Heart of Winter"
+	quest.34057A5E51A69715.quest_desc: ["Blazes drop them. You need them for brewing and for Eyes of Ender."]
+	quest.34057A5E51A69715.title: "Blaze Rods"
+	quest.34057A5E51AC56B0.quest_desc: ["Look deep, below layer 0."]
+	quest.34057A5E51AC56B0.title: "Diamonds!"
+	quest.34057A5E51B51E5F.quest_desc: ["Claws doesn't come back. But a &bRemnant&r of him can: use this at his fallen throne for one more (weaker) fight and more loot."]
+	quest.34057A5E51B51E5F.title: "Encore: Frozen Remnant"
+	quest.34057A5E51BACAC4.quest_desc: ["Mines diamonds, gold and redstone."]
+	quest.34057A5E51BACAC4.title: "Iron Pickaxe"
+	quest.34057A5E51BB97D1.quest_desc: ["Optional and dangerous: summon and defeat the Wither for a nether star."]
+	quest.34057A5E51BB97D1.title: "The Wither"
+	quest.34057A5E51BDF2B5.quest_desc: [
+		"You survived the first nights. Now make a proper start: iron gear and a place to call home."
+		"&7Claws hates a happy town. That's a very good reason to build one.&r"
+	]
+	quest.34057A5E51BDF2B5.quest_subtitle: "Iron, armor and a town"
+	quest.34057A5E51BDF2B5.title: "Act II: Settle Down"
+	quest.34057A5E51BF3261.quest_desc: [
+		"Every great Christmas village starts with a Town Hall. Place one (see &fColony Life&r) and your colonists will build the rest."
+		"&7Town Builder is the full guide.&r"
+	]
+	quest.34057A5E51BF3261.title: "Found a Town"
+	quest.34057A5E51C05EFB.quest_desc: ["Coal Heart + blaze powder + compass makes a &6Forge Ember&r. It only burns in the &cNether&r, where its trail leads to the Clinker Forge."]
+	quest.34057A5E51C05EFB.title: "Follow the Ember"
+	quest.34057A5E51C46803.quest_desc: [
+		"Claws corrupted Santa's elves into &cSour Elves&r and set the &6Toymaster&r to building an army of nutcrackers."
+		"His servants have built strongholds all over the world: toy factories, prison mines, labyrinths, frozen stables."
+		"Each dungeon chapter on the left tells you what to look for. They are rare, so explore: by boat, by sled, by stagecoach."
+	]
+	quest.34057A5E51C46803.quest_subtitle: "The Naughty side of the North Pole"
+	quest.34057A5E51C46803.title: "Act IV: Christmas Gone Wrong"
+	quest.34057A5E51CC9891.quest_desc: [
+		"Nutcrackers, coal gnomes and sour elves only live in Claws' dungeons and hideouts."
+		"Find a dungeon and defeat one of each."
+	]
+	quest.34057A5E51CC9891.title: "Know Your Enemy"
+	quest.34057A5E51CF97E9.quest_desc: [
+		"Find and clear any of Claws' dungeons. Look in the dungeon chapters for hints on where each one hides."
+		"&7Dungeons hold loot found nowhere else. Common finds are in chests, rare ones in vaults.&r"
+	]
+	quest.34057A5E51CF97E9.title: "Into the Dungeon"
+	quest.34057A5E51D94714.quest_desc: [
+		"Long ago, something hungry crawled out of the End. It learned to wear a red coat and a white beard, and it called itself &4Santy Claws&r."
+		"It wants every Christmas to be its Christmas. Now the elves have turned sour, the toys have turned mean, and a long winter has fallen over the world."
+		""
+		"First things first: stay warm and stay fed."
+	]
+	quest.34057A5E51D94714.quest_subtitle: "Survive the first night"
+	quest.34057A5E51D94714.title: "Act I: The Cold"
+	quest.34057A5E51DC92C6.quest_desc: ["The Toymaster's heart is a lump of burning coal. Keep it: it leads the way to the next of Claws' captains."]
+	quest.34057A5E51DC92C6.title: "The Coal Heart"
+	quest.34057A5E51E0E25B.quest_desc: ["Smelt raw iron in a furnace."]
+	quest.34057A5E51E0E25B.title: "Iron!"
+	quest.34057A5E51E22DF9.quest_desc: ["Iron armor. The things in the dungeons hit hard."]
+	quest.34057A5E51E22DF9.title: "Suit Up"
+	quest.34057A5E51E431FF.quest_desc: ["Claws' second captain works the Clinker Forge. It is very hot in there."]
+	quest.34057A5E51E431FF.title: "The Clinker Forgemaster"
+	quest.34057A5E51FE46D9.quest_desc: ["Stone tools last longer and mine iron."]
+	quest.34057A5E51FE46D9.title: "Stone Age"
+	quest.34057A5E52005C65.quest_desc: ["A small town!"]
+	quest.34057A5E52005C65.title: "50 Citizens"
+	quest.34057A5E52008507.quest_desc: ["Nearly a city."]
+	quest.34057A5E52008507.title: "Town Hall IV"
+	quest.34057A5E5204F7D7.quest_desc: ["Sends a brave citizen through a portal to bring back Nether goods. Craft the hut block and place it."]
+	quest.34057A5E5204F7D7.title: "The Nether Worker"
+	quest.34057A5E5205A54B.quest_desc: ["Citizens study here to raise their skills."]
+	quest.34057A5E5205A54B.title: "Library III"
+	quest.34057A5E520F42DB.quest_desc: ["A better fisher brings home more (and sometimes treasure)."]
+	quest.34057A5E520F42DB.title: "Fisher III"
+	quest.34057A5E520FDED7.quest_desc: [
+		"Town Hall V, fifty citizens, a master builder, a great warehouse and a town that's fed, armed and clever."
+		"Light it all up and invite everyone over. Merry Christmas, mayor!"
+	]
+	quest.34057A5E520FDED7.quest_subtitle: "The finest town in the north"
+	quest.34057A5E520FDED7.title: "A Christmas Wonderland"
+	quest.34057A5E52126CC4.quest_desc: ["A postbox lets you order things from the warehouse. A stash sends things to it."]
+	quest.34057A5E52126CC4.title: "Post and Stash"
+	quest.34057A5E5214B0EF.quest_desc: ["Glass and panes for all those windows. Craft the hut block and place it."]
+	quest.34057A5E5214B0EF.title: "The Glassblower"
+	quest.34057A5E5217884D.quest_desc: ["Upgrade the Town Hall. More huts unlock as it grows."]
+	quest.34057A5E5217884D.title: "Town Hall II"
+	quest.34057A5E52194E09.quest_desc: ["The pack has its own &cChop's Christmas Village&r building style. Pick it in the build tool when you place your first hut and the whole town matches."]
+	quest.34057A5E52194E09.title: "The Christmas Village Style"
+	quest.34057A5E521C0180.quest_desc: ["The biggest Town Hall there is."]
+	quest.34057A5E521C0180.title: "Town Hall V"
+	quest.34057A5E522001A2.quest_desc: ["Forty citizens."]
+	quest.34057A5E522001A2.title: "40 Citizens"
+	quest.34057A5E522CE65B.quest_desc: ["Give a farmer as many fields as it can handle."]
+	quest.34057A5E522CE65B.title: "Fields Everywhere"
+	quest.34057A5E522E922F.quest_desc: ["The barracks and its towers hold many guards at once."]
+	quest.34057A5E522E922F.title: "The Barracks"
+	quest.34057A5E522F579D.quest_desc: ["More travelers stop by, and some of them stay."]
+	quest.34057A5E522F579D.title: "Tavern III"
+	quest.34057A5E52327F27.quest_desc: [
+		"Your colony buys what it can't make itself with &6ColonyBucks&r: building materials, guard gear, research, cures."
+		"You find bucks in dungeon and structure chests, and the colony earns some from kills and raids."
+		"Sneak-right-click the Town Hall with bucks in hand to pay them in."
+	]
+	quest.34057A5E52327F27.title: "ColonyBucks"
+	quest.34057A5E52365E38.quest_desc: ["A citizen comes back to life at the graveyard."]
+	quest.34057A5E52365E38.title: "Back From the Grave"
+	quest.34057A5E523792AE.quest_desc: ["Sifts gravel and sand for ores and other goodies."]
+	quest.34057A5E523792AE.title: "The Sifter"
+	quest.34057A5E523BDD0A.quest_desc: ["A proper town now."]
+	quest.34057A5E523BDD0A.title: "Town Hall III"
+	quest.34057A5E523CBB1D.quest_desc: ["Whole forests, replanted as fast as they fall."]
+	quest.34057A5E523CBB1D.title: "Forester V"
+	quest.34057A5E523D0324.quest_desc: ["Twenty people and counting."]
+	quest.34057A5E523D0324.title: "20 Citizens"
+	quest.34057A5E5242B52B.quest_desc: ["A level 5 house. Someone's living well."]
+	quest.34057A5E5242B52B.title: "Grand Homes"
+	quest.34057A5E524438D1.quest_desc: ["Turns citizens' experience into enchanted books."]
+	quest.34057A5E524438D1.title: "The Enchanter"
+	quest.34057A5E52490700.quest_desc: ["The undertaker earns a totem. Sometimes the dead come back."]
+	quest.34057A5E52490700.title: "Undertaker's Totem"
+	quest.34057A5E524B9F4C.quest_desc: ["Redstone parts, rails and gadgets."]
+	quest.34057A5E524B9F4C.title: "The Mechanic"
+	quest.34057A5E524FCCA0.quest_desc: ["Thirty guards. Nobody is getting in."]
+	quest.34057A5E524FCCA0.title: "The Town Watch"
+	quest.34057A5E5250F611.quest_desc: ["When a ravine or river cuts through town, builders can span it with a bridge deck."]
+	quest.34057A5E5250F611.title: "Mind the Gap"
+	quest.34057A5E525238B4.quest_desc: [
+		"Short on bucks? The Town Hall's &fExchange&r tab buys diamonds, gold, ancient debris and netherite for ColonyBucks."
+		"&7Or run /colonyautopilot exchange while standing in your colony. It only buys; bucks never come back out.&r"
+	]
+	quest.34057A5E525238B4.title: "The Exchange"
+	quest.34057A5E5258DEB7.quest_desc: ["A bigger restaurant feeds more people faster."]
+	quest.34057A5E5258DEB7.title: "Restaurant III"
+	quest.34057A5E52602968.quest_desc: ["Pork for the Christmas ham."]
+	quest.34057A5E52602968.title: "The Swineherd"
+	quest.34057A5E526091DA.quest_desc: ["Fifteen. The town might start thinking about a wall."]
+	quest.34057A5E526091DA.title: "15 Citizens"
+	quest.34057A5E526478FC.quest_desc: ["Digs deeper levels of the mine."]
+	quest.34057A5E526478FC.title: "Miner III"
+	quest.34057A5E526CE086.quest_desc: ["Diamond gear for the guards."]
+	quest.34057A5E526CE086.title: "Blacksmith V"
+	quest.34057A5E52721B10.quest_desc: ["A hundred people. Santa would be proud."]
+	quest.34057A5E52721B10.title: "100 Citizens"
+	quest.34057A5E5275BC51.quest_desc: ["Milk and beef."]
+	quest.34057A5E5275BC51.title: "The Cowhand"
+	quest.34057A5E52771508.quest_desc: ["The whole town is learning."]
+	quest.34057A5E52771508.title: "Library V"
+	quest.34057A5E52785988.quest_desc: ["The tallest watchtower."]
+	quest.34057A5E52785988.title: "Guard Tower V"
+	quest.34057A5E527AEA66.quest_desc: ["Level 5 is the top for every hut. These are the long-haul goals."]
+	quest.34057A5E527AEA66.title: "Mastery"
+	quest.34057A5E527AFA07.quest_desc: ["Level 5 can sort and hold almost everything the town owns."]
+	quest.34057A5E527AFA07.title: "The Great Warehouse"
+	quest.34057A5E527D6C20.quest_desc: ["More fields, more crops."]
+	quest.34057A5E527D6C20.title: "Farmer III"
+	quest.34057A5E527EBC90.quest_desc: ["Now that's a Christmas town."]
+	quest.34057A5E527EBC90.title: "75 Citizens"
+	quest.34057A5E52830FF8.quest_desc: ["Ten citizens. Travelers at the tavern can be hired too."]
+	quest.34057A5E52830FF8.title: "10 Citizens"
+	quest.34057A5E52850ADA.quest_desc: ["Stone bricks, stairs and walls."]
+	quest.34057A5E52850ADA.title: "The Stonemason"
+	quest.34057A5E5286D6F2.quest_desc: ["Trains knights."]
+	quest.34057A5E5286D6F2.title: "The Combat Academy"
+	quest.34057A5E5288AEE5.quest_desc: ["Places blueprints for huts and decorations. Pick a style, rotate, and confirm."]
+	quest.34057A5E5288AEE5.title: "The Build Tool"
+	quest.34057A5E528BE4AF.quest_desc: ["The best farm in the north."]
+	quest.34057A5E528BE4AF.title: "Farmer V"
+	quest.34057A5E528FEED4.quest_desc: ["Once the town is big enough it raises a wall. The gatehouse is its front door."]
+	quest.34057A5E528FEED4.title: "The Gatehouse"
+	quest.34057A5E52904074.quest_desc: ["Your miner reaches the deep levels."]
+	quest.34057A5E52904074.title: "Deep Mine"
+	quest.34057A5E5290F271.quest_desc: ["Trains ranged guards."]
+	quest.34057A5E5290F271.title: "The Archery"
+	quest.34057A5E5293BF28.quest_desc: ["Hungry citizens are unhappy citizens. These huts keep the pantry full."]
+	quest.34057A5E5293BF28.title: "Feeding the Town"
+	quest.34057A5E529660F1.quest_desc: ["Five people call your town home. Build houses to make room for more."]
+	quest.34057A5E529660F1.title: "5 Citizens"
+	quest.34057A5E5296C388.quest_desc: ["Your builder finishes the Town Hall."]
+	quest.34057A5E5296C388.title: "Town Hall I"
+	quest.34057A5E52980560.quest_desc: ["Each barracks tower adds more guards."]
+	quest.34057A5E52980560.title: "Barracks Tower"
+	quest.34057A5E529C801E.quest_desc: [
+		"/colonyautopilot treasury shows the balance, what the town is waiting to pay for, and today's income and spending."
+		"If builds seem stuck, /colonyautopilot problems lists anything that needs a human."
+	]
+	quest.34057A5E529C801E.title: "Check the Books"
+	quest.34057A5E529DB77A.quest_desc: ["A level 5 builder can build anything."]
+	quest.34057A5E529DB77A.title: "Grand Architect"
+	quest.34057A5E529DCE50.quest_desc: ["Bows, arrows and string for the guards."]
+	quest.34057A5E529DCE50.title: "The Fletcher"
+	quest.34057A5E52A12ADA.quest_desc: ["The deepest mine levels."]
+	quest.34057A5E52A12ADA.title: "Miner V"
+	quest.34057A5E52A13F88.quest_desc: ["Eggs and feathers."]
+	quest.34057A5E52A13F88.title: "The Chicken Herder"
+	quest.34057A5E52A3C8D7.quest_desc: ["Builders need a lot of stuff. These huts make it so you don't have to."]
+	quest.34057A5E52A3C8D7.title: "Materials and Industry"
+	quest.34057A5E52A52AE7.quest_desc: ["A busy village."]
+	quest.34057A5E52A52AE7.title: "25 Citizens"
+	quest.34057A5E52A887EC.quest_desc: ["Better guards with better gear."]
+	quest.34057A5E52A887EC.title: "Guard Tower III"
+	quest.34057A5E52AB9100.quest_desc: ["More wood, faster."]
+	quest.34057A5E52AB9100.title: "Forester III"
+	quest.34057A5E52ACFA60.quest_desc: ["Smeltery level 3."]
+	quest.34057A5E52ACFA60.title: "Hot Work"
+	quest.34057A5E52AE88AD.quest_desc: ["Smooth stone, glass and bricks."]
+	quest.34057A5E52AE88AD.title: "The Stone Smeltery"
+	quest.34057A5E52AF46AB.quest_desc: ["A restaurant fit for a Christmas feast."]
+	quest.34057A5E52AF46AB.title: "Restaurant V"
+	quest.34057A5E52AF698D.quest_desc: ["The coziest inn anywhere."]
+	quest.34057A5E52AF698D.title: "Tavern V"
+	quest.34057A5E52AFE594.quest_desc: ["Makes planks, stairs, slabs and other wooden parts."]
+	quest.34057A5E52AFE594.title: "The Sawmill"
+	quest.34057A5E52B2F0E5.quest_desc: ["Concrete in every colour."]
+	quest.34057A5E52B2F0E5.title: "The Concrete Mixer"
+	quest.34057A5E52B42B3D.quest_desc: ["Build every animal herder hut."]
+	quest.34057A5E52B42B3D.title: "All the Herders"
+	quest.34057A5E52B686D1.quest_desc: ["Raiders come for growing towns, and Santy Claws comes for festive ones. Guards keep everyone safe."]
+	quest.34057A5E52B686D1.title: "Defending the Town"
+	quest.34057A5E52BCEE1A.quest_desc: ["Honey and wax. Craft the hut block and place it."]
+	quest.34057A5E52BCEE1A.title: "The Beekeeper"
+	quest.34057A5E52C0966E.quest_desc: ["A strange old place that makes the whole town happier."]
+	quest.34057A5E52C0966E.title: "The Mystical Site"
+	quest.34057A5E52C48AEA.quest_desc: ["Wool for blankets, beds and Christmas jumpers."]
+	quest.34057A5E52C48AEA.title: "The Shepherd"
+	quest.34057A5E52C88C0D.quest_desc: ["A level 3 builder's hut can build and upgrade bigger buildings."]
+	quest.34057A5E52C88C0D.title: "Master Builder"
+	quest.34057A5E52CD6838.quest_desc: ["The chef cooks fancier meals from the farm's food. Craft the hut block and place it."]
+	quest.34057A5E52CD6838.title: "The Kitchen"
+	quest.34057A5E52CDC530.quest_desc: [
+		"The autopilot plays town planner: it picks where buildings go, levels the land and lays lit roads. Your citizens still do the building."
+		"Right-click the &fTown Planner&r for the town's options and its plan board."
+		"The plan board lists what the town wants to build next. The owner or an officer accepts or skips each idea."
+	]
+	quest.34057A5E52CDC530.title: "The Town Planner"
+	quest.34057A5E52CE5544.quest_desc: ["A citizen drinks hot cocoa."]
+	quest.34057A5E52CE5544.title: "Cocoa for Everyone"
+	quest.34057A5E52D012C0.quest_desc: [
+		"Workers ask for things they can't get. Bring one of them what it asked for."
+		"&7A clipboard shows every open request in town.&r"
+	]
+	quest.34057A5E52D012C0.title: "Lend a Hand"
+	quest.34057A5E52D143C6.quest_desc: [
+		"Right-click two corners with a &fZone Marker&r to fence off an area. The colony will not build, dig, pave or chop inside it."
+		"Mark your own house before the town grows into it. &7Lost it? /colonyautopilot zone wand&r"
+	]
+	quest.34057A5E52D143C6.title: "Keep Out of My Base"
+	quest.34057A5E52D335DA.quest_desc: ["Crushes cobble into gravel and sand."]
+	quest.34057A5E52D335DA.title: "The Crusher"
+	quest.34057A5E52DA06A6.quest_desc: ["A citizen drinks eggnog. Stock it in the warehouse or restaurant."]
+	quest.34057A5E52DA06A6.title: "Eggnog for Everyone"
+	quest.34057A5E52DBDE03.quest_desc: ["Shows every open request in the colony, so you know what workers are waiting for."]
+	quest.34057A5E52DBDE03.title: "The Clipboard"
+	quest.34057A5E52DBE866.quest_desc: ["The autopilot lays lit roads between huts. You can pick the road style on the Town Planner."]
+	quest.34057A5E52DBE866.title: "Paved With Good Intentions"
+	quest.34057A5E52DD281F.quest_desc: ["The Mystical Site at level 5."]
+	quest.34057A5E52DD281F.title: "Ancient Magic"
+	quest.34057A5E52DF0F63.quest_desc: ["Eight guards on duty."]
+	quest.34057A5E52DF0F63.title: "A Small Army"
+	quest.34057A5E52E17EF7.quest_desc: ["Research and a little magic make the whole town better."]
+	quest.34057A5E52E17EF7.title: "Knowledge and Magic"
+	quest.34057A5E52E40AC1.quest_desc: ["More racks, more room. Couriers fetch from here."]
+	quest.34057A5E52E40AC1.title: "A Bigger Warehouse"
+	quest.34057A5E52E83898.quest_desc: ["Grows sugar cane, cactus, bamboo and more. Craft the hut block and place it."]
+	quest.34057A5E52E83898.title: "The Plantation"
+	quest.34057A5E52E83ECE.quest_desc: ["Turns scraps into compost for the farms."]
+	quest.34057A5E52E83ECE.title: "The Composter"
+	quest.34057A5E52E92D42.quest_desc: ["Smelts ore so the town has ingots."]
+	quest.34057A5E52E92D42.title: "The Smeltery"
+	quest.34057A5E52EA8428.quest_desc: ["Grows flowers on compost. Pretty and useful for dyes."]
+	quest.34057A5E52EA8428.title: "The Florist"
+	quest.34057A5E52EB4F87.quest_desc: ["Better tools and armor for your workers and guards."]
+	quest.34057A5E52EB4F87.title: "Blacksmith III"
+	quest.34057A5E52EB7FA2.quest_desc: ["A citizen eats a gingerbread cookie."]
+	quest.34057A5E52EB7FA2.title: "Cookies for Everyone"
+	quest.34057A5E52F314AA.quest_desc: ["Brews potions for the town. Craft the hut block and place it."]
+	quest.34057A5E52F314AA.title: "The Alchemist"
+	quest.34057A5E52F3461A.quest_desc: ["A town is its people. Keep them happy and festive."]
+	quest.34057A5E52F3461A.title: "Town Life"
+	quest.34057A5E52F90BE5.quest_desc: ["Rabbit stew, anyone?"]
+	quest.34057A5E52F90BE5.title: "The Rabbit Hutch"
+	quest.34057A5E52F981FA.quest_desc: ["Dyes wool and more. Red and green, obviously."]
+	quest.34057A5E52F981FA.title: "The Dyer"
+	quest.34057A5E52FD9A9C.quest_desc: ["Thirty! Better build more houses."]
+	quest.34057A5E52FD9A9C.title: "30 Citizens"
+	quest.34057A5E52FE816C.quest_desc: ["Upgrade a house to level 3. Bigger homes fit more citizens and make them happier."]
+	quest.34057A5E52FE816C.title: "Cosy Homes"
+	quest.34057A5E530440DF.quest_desc: ["Upgrade your colony's bakery to level 3 and let the baker do the work."]
+	quest.34057A5E530440DF.title: "The Town Bakery"
+	quest.34057A5E5306B999.quest_desc: ["Use the flake cutter."]
+	quest.34057A5E5306B999.title: "Snowflake Cookies"
+	quest.34057A5E53081E46.quest_desc: ["Snowy Spirit's gingerbread cookies. Your citizens eat these too."]
+	quest.34057A5E53081E46.title: "Snowy Spirit Gingerbread"
+	quest.34057A5E53097F4F.quest_desc: ["Keeps the bread fresh."]
+	quest.34057A5E53097F4F.title: "Bread Box"
+	quest.34057A5E5309E9B1.quest_desc: ["Sweetened dough for buns, cookies and tarts."]
+	quest.34057A5E5309E9B1.title: "Sweet Dough"
+	quest.34057A5E530AB507.quest_desc: ["Bake enough and you can build with it."]
+	quest.34057A5E530AB507.title: "Build a Gingerbread House"
+	quest.34057A5E530ACE7D.quest_desc: ["Set a table with ham, poultry, the festive chicken and figgy pudding, and eat together with your friends. Feasting keeps the world jolly."]
+	quest.34057A5E530ACE7D.title: "A Feast for Everyone"
+	quest.34057A5E530BE4DA.quest_desc: ["New Year's morning soup with mochi."]
+	quest.34057A5E530BE4DA.title: "Ozoni"
+	quest.34057A5E530F1020.quest_desc: ["Candy, chocolates and little bites."]
+	quest.34057A5E530F1020.title: "Sweet Treats"
+	quest.34057A5E531AC4F0.quest_desc: ["Mama's Merrymaking hot cocoa."]
+	quest.34057A5E531AC4F0.title: "Mug of Cocoa"
+	quest.34057A5E531AE883.quest_desc: ["One of your citizens eats a gingerbread cookie. Put some in the warehouse."]
+	quest.34057A5E531AE883.title: "Cookies for the Town"
+	quest.34057A5E531C3B1A.quest_desc: ["Pretty enough for the Christmas table."]
+	quest.34057A5E531C3B1A.title: "Braided Bread"
+	quest.34057A5E531F3A5A.quest_desc: ["Every house needs a door."]
+	quest.34057A5E531F3A5A.title: "A Gingerbread Door"
+	quest.34057A5E5323794E.quest_desc: ["Nobody admits to liking it. Everybody eats it."]
+	quest.34057A5E5323794E.title: "Fruitcake"
+	quest.34057A5E5325581E.quest_desc: ["Cookies need something to go with them."]
+	quest.34057A5E5325581E.title: "Something Warm to Drink"
+	quest.34057A5E53271698.quest_desc: ["Waffles and pancakes for breakfast."]
+	quest.34057A5E53271698.title: "Christmas Morning"
+	quest.34057A5E5329B487.quest_desc: ["A full plate."]
+	quest.34057A5E5329B487.title: "Ham Dinner"
+	quest.34057A5E532B065B.quest_desc: ["Dough is the start of almost every bake."]
+	quest.34057A5E532B065B.title: "Dough"
+	quest.34057A5E532CFCA0.quest_desc: ["Strawberry and chocolate glazed cookies."]
+	quest.34057A5E532CFCA0.title: "Glazed Cookies"
+	quest.34057A5E53300D7C.quest_desc: ["Toast with strawberry, sweet berry or chocolate jam."]
+	quest.34057A5E53300D7C.title: "Toast and Jam"
+	quest.34057A5E53344873.quest_desc: ["The usu (mortar) and kine (mallet) turn steamed rice into mochi."]
+	quest.34057A5E53344873.title: "Mortar and Mallet"
+	quest.34057A5E5335E360.quest_desc: ["The bird with all the trimmings."]
+	quest.34057A5E5335E360.title: "Stuffed Poultry Dinner"
+	quest.34057A5E53369CF3.quest_desc: [
+		"Every recipe in this chapter is in the recipe viewer: hover the item and check how it's made."
+		"&7Kitchen & Farm covers the cooking basics. This chapter is all about the sweet stuff.&r"
+	]
+	quest.34057A5E53369CF3.quest_subtitle: "Christmas is for baking"
+	quest.34057A5E53369CF3.title: "Grandma's Kitchen"
+	quest.34057A5E5336A1CF.quest_desc: ["A jam tart with a lattice top."]
+	quest.34057A5E5336A1CF.title: "Linzer Tart"
+	quest.34057A5E5340A503.quest_desc: ["The Let's Do baker's station is where most cakes and pastries are put together."]
+	quest.34057A5E5340A503.title: "The Baker's Station"
+	quest.34057A5E53421ADE.quest_desc: ["The showstoppers. Most cakes start with cake dough and a blank cake."]
+	quest.34057A5E53421ADE.title: "Cakes and Pies"
+	quest.34057A5E5342BF9C.quest_desc: ["Put them out on a tray for the party."]
+	quest.34057A5E5342BF9C.title: "A Tray of Cookies"
+	quest.34057A5E534362C5.quest_desc: ["Tear and share."]
+	quest.34057A5E534362C5.title: "Crusty Bread"
+	quest.34057A5E53455187.quest_desc: ["The base for every cake."]
+	quest.34057A5E53455187.title: "Cake Dough"
+	quest.34057A5E534875AA.quest_desc: ["Let's Do's roast chicken."]
+	quest.34057A5E534875AA.title: "Roast Chicken"
+	quest.34057A5E534D1F23.quest_desc: ["Most cakes are built on a blank cake."]
+	quest.34057A5E534D1F23.title: "A Blank Cake"
+	quest.34057A5E535397EB.quest_desc: ["Fancy."]
+	quest.34057A5E535397EB.title: "Chocolate Gateau"
+	quest.34057A5E5353B7CF.quest_desc: ["Crispy potato pancakes for Hanukkah."]
+	quest.34057A5E5353B7CF.title: "Latkes"
+	quest.34057A5E53578559.quest_desc: ["For the cupcakes."]
+	quest.34057A5E53578559.title: "Cupcake Display"
+	quest.34057A5E535981A0.quest_desc: ["The one with the hole in the middle."]
+	quest.34057A5E535981A0.title: "Bundt Cake"
+	quest.34057A5E535F18C7.quest_desc: ["Shaped like a Christmas tree."]
+	quest.34057A5E535F18C7.title: "Tree Cookies"
+	quest.34057A5E53638082.quest_desc: ["Rolled pastries for Hanukkah."]
+	quest.34057A5E53638082.title: "Rugelach"
+	quest.34057A5E53697919.quest_desc: ["Cocoa with a candy cane twist."]
+	quest.34057A5E53697919.title: "Peppermint Cocoa"
+	quest.34057A5E537720E9.quest_desc: ["Breads, cookies, cakes, sweets, drinks and a whole gingerbread house. Grandma would be proud."]
+	quest.34057A5E537720E9.quest_subtitle: "The best baker in the north"
+	quest.34057A5E537720E9.title: "Master Baker"
+	quest.34057A5E53792264.quest_desc: ["Festive Delight's centrepiece. Place it on the table and serve slices."]
+	quest.34057A5E53792264.title: "The Festive Chicken"
+	quest.34057A5E537A4369.quest_desc: ["Made with sweet berries from the snowy woods."]
+	quest.34057A5E537A4369.title: "Sweet Berry Cake"
+	quest.34057A5E537DD39E.quest_desc: ["Every bake starts with flour. The recipe viewer shows how to make it from grain."]
+	quest.34057A5E537DD39E.title: "Flour"
+	quest.34057A5E53802EC3.quest_desc: ["Long, crusty, French."]
+	quest.34057A5E53802EC3.title: "Baguette"
+	quest.34057A5E5382CCE4.quest_desc: ["Build a gingerbread house big enough to stand in. Show it off to your friends, then tick this."]
+	quest.34057A5E5382CCE4.title: "Home Sweet Home"
+	quest.34057A5E53902AAA.quest_desc: ["Sugar icing blocks for snow on the roof."]
+	quest.34057A5E53902AAA.title: "Icing"
+	quest.34057A5E53915B3B.quest_desc: ["Eaten on New Year's Eve for a long life."]
+	quest.34057A5E53915B3B.title: "Year-Crossing Soba"
+	quest.34057A5E5393D7B9.quest_desc: ["A holiday classic."]
+	quest.34057A5E5393D7B9.title: "Sweet Potato Pie"
+	quest.34057A5E5394D323.quest_desc: ["Mama's Merrymaking cookie dough."]
+	quest.34057A5E5394D323.title: "Cookie Dough"
+	quest.34057A5E5394DA92.quest_desc: ["Fried and sugared."]
+	quest.34057A5E5394DA92.title: "Donuts"
+	quest.34057A5E5394EC1F.quest_desc: ["Pastry, cookies and cakes all want butter."]
+	quest.34057A5E5394EC1F.title: "Butter"
+	quest.34057A5E539D3A65.quest_desc: ["Cake stands, cupcake displays and bread crates make a proper bakery counter."]
+	quest.34057A5E539D3A65.title: "Show It Off"
+	quest.34057A5E539F9E25.quest_desc: ["Festive Delight gingerbread bricks."]
+	quest.34057A5E539F9E25.title: "Gingerbread Bricks"
+	quest.34057A5E53A2E69A.quest_desc: ["Warm apple pie on a cold night."]
+	quest.34057A5E53A2E69A.title: "Apple Pie"
+	quest.34057A5E53A5CAD3.quest_desc: ["Red and white stripes."]
+	quest.34057A5E53A5CAD3.title: "Candy Canes"
+	quest.34057A5E53A9D7F1.quest_desc: ["Rolled by hand."]
+	quest.34057A5E53A9D7F1.title: "Chocolate Truffles"
+	quest.34057A5E53AE9A89.quest_desc: ["You are going to need a lot of sugar. Plant sugar cane!"]
+	quest.34057A5E53AE9A89.title: "Sugar Rush"
+	quest.34057A5E53B183B0.quest_desc: ["Shaped like a stocking."]
+	quest.34057A5E53B183B0.title: "Stocking Cookies"
+	quest.34057A5E53B9EF0F.quest_desc: ["Run, run, as fast as you can."]
+	quest.34057A5E53B9EF0F.title: "Gingerbread Men"
+	quest.34057A5E53C454E4.quest_desc: ["Shaped like a mitten."]
+	quest.34057A5E53C454E4.title: "Mitten Cookies"
+	quest.34057A5E53CE7D11.quest_desc: ["Fresh-pounded mochi."]
+	quest.34057A5E53CE7D11.title: "Mochi"
+	quest.34057A5E53CF8CED.quest_desc: ["After Christmas comes the New Year. New Year's Delight brings Japanese New Year food."]
+	quest.34057A5E53CF8CED.title: "A New Year's Feast"
+	quest.34057A5E53D21DC3.quest_desc: ["Rich and dark."]
+	quest.34057A5E53D21DC3.title: "Chocolate Cake"
+	quest.34057A5E53DE659B.quest_desc: ["Soft little rolls."]
+	quest.34057A5E53DE659B.title: "Buns"
+	quest.34057A5E53E2D899.quest_desc: ["Creamy and spiced."]
+	quest.34057A5E53E2D899.title: "Egg Nog"
+	quest.34057A5E53E54F57.quest_desc: ["\"Now bring us some figgy pudding!\" Heavy, sticky, and it mends what the cold cracked."]
+	quest.34057A5E53E54F57.title: "Figgy Pudding"
+	quest.34057A5E53E5E35A.quest_desc: ["No Christmas without cookies. Leave a plate out for Santa (the real one)."]
+	quest.34057A5E53E5E35A.title: "Cookie Time"
+	quest.34057A5E53EBB683.quest_desc: ["Mochi with sweet bean paste inside."]
+	quest.34057A5E53EBB683.title: "Daifuku"
+	quest.34057A5E53EC0F37.quest_desc: ["The family recipe."]
+	quest.34057A5E53EC0F37.title: "Grandmother's Strawberry Cake"
+	quest.34057A5E53EEB611.quest_desc: ["Some breads need yeast to rise."]
+	quest.34057A5E53EEB611.title: "Yeast"
+	quest.34057A5E53F05D04.quest_desc: ["The main event. Lay the table, call everyone in, and don't let Claws smell it."]
+	quest.34057A5E53F05D04.title: "Christmas Dinner"
+	quest.34057A5E53F1E591.quest_desc: ["Snowy Spirit frosted gingerbread blocks for the trim."]
+	quest.34057A5E53F1E591.title: "Frosted Gingerbread"
+	quest.34057A5E53F21331.quest_desc: ["Candy-striped and sparkling. Quick feet for a minute."]
+	quest.34057A5E53F21331.title: "Peppermint Fizz"
+	quest.34057A5E53F57F80.quest_desc: ["Festive Delight gingerbread dough, for cookies and building blocks."]
+	quest.34057A5E53F57F80.title: "Gingerbread Dough"
+	quest.34057A5E53F67FC1.quest_desc: ["One of each flavour."]
+	quest.34057A5E53F67FC1.title: "Cupcakes"
+	quest.34057A5E53F720C8.quest_desc: ["Chewy and bright."]
+	quest.34057A5E53F720C8.title: "Gumdrops"
+	quest.34057A5E53FE675F.quest_desc: ["Glazed and roasted."]
+	quest.34057A5E53FE675F.title: "The Christmas Ham"
+	quest.34057A5E53FFE77D.quest_desc: ["Warm enough that Claws' footsteps stop sounding so loud."]
+	quest.34057A5E53FFE77D.title: "Cocoa of Courage"
+	quest.34057A5E540D2581.quest_desc: ["Cosy. Is there a basement?"]
+	quest.34057A5E540D2581.title: "An Igloo"
+	quest.34057A5E5412C0DA.quest_desc: ["Someone lives here. Someone grumpy."]
+	quest.34057A5E5412C0DA.title: "A Witch's Hut"
+	quest.34057A5E542158E9.quest_desc: ["A trial deep in the bog."]
+	quest.34057A5E542158E9.title: "The Bog Trial"
+	quest.34057A5E5424CD66.quest_desc: [
+		"Someone tried to build a town here before you. What happened to them?"
+		"&7Check the chests. They left things behind.&r"
+	]
+	quest.34057A5E5424CD66.title: "A Lost Colony"
+	quest.34057A5E54262BB2.quest_desc: ["Guardians and gold. Bring water breathing."]
+	quest.34057A5E54262BB2.title: "Ocean Monument"
+	quest.34057A5E54275580.quest_desc: ["A raider camp in the sand."]
+	quest.34057A5E54275580.title: "Desert Raider Camp"
+	quest.34057A5E54280791.quest_desc: ["You found one of the small dungeons Claws' servants dug into the snow."]
+	quest.34057A5E54280791.title: "A Christmas Dungeon"
+	quest.34057A5E5436DEF3.quest_desc: ["Someone tried to leave in a hurry."]
+	quest.34057A5E5436DEF3.title: "A Ruined Portal"
+	quest.34057A5E5436F446.quest_desc: ["Something magic is buried here."]
+	quest.34057A5E5436F446.title: "The Catacombs"
+	quest.34057A5E544192E5.quest_desc: ["A raider camp deep in the jungle."]
+	quest.34057A5E544192E5.title: "Amazon Camp"
+	quest.34057A5E5448D3E4.quest_desc: ["Something big and festive, standing alone in the snow."]
+	quest.34057A5E5448D3E4.title: "A Christmas Landmark"
+	quest.34057A5E544A1CCF.quest_desc: ["An evoker, beaten. Did it drop a totem?"]
+	quest.34057A5E544A1CCF.title: "No More Fangs"
+	quest.34057A5E544B5809.quest_desc: ["You caught the gingerbread man."]
+	quest.34057A5E544B5809.title: "Run, Run!"
+	quest.34057A5E544BE7CE.quest_desc: ["Pirates! Aboard the ship, the loot is good and the welcome is not."]
+	quest.34057A5E544BE7CE.title: "A Pirate Ship"
+	quest.34057A5E544FFF3F.quest_desc: ["Bring a brush."]
+	quest.34057A5E544FFF3F.title: "Trail Ruins"
+	quest.34057A5E5452C1E6.quest_desc: ["Quiet. Too quiet."]
+	quest.34057A5E5452C1E6.title: "The Deep Dark"
+	quest.34057A5E54565CF6.quest_desc: ["Don't stand on the pressure plate."]
+	quest.34057A5E54565CF6.title: "Desert Temple"
+	quest.34057A5E54585A08.quest_desc: ["Piglins and gold. Wear something gold."]
+	quest.34057A5E54585A08.title: "Bastion Remnant"
+	quest.34057A5E54609E82.quest_desc: ["A maze of ice, cold all the way down."]
+	quest.34057A5E54609E82.title: "The Hoarfrost Labyrinth"
+	quest.34057A5E5462FF66.quest_desc: ["The rarest house in the world. Evokers inside."]
+	quest.34057A5E5462FF66.title: "Woodland Mansion"
+	quest.34057A5E546406D5.quest_desc: ["An old stone that hums when you get close."]
+	quest.34057A5E546406D5.title: "Bloodstone Obelisk"
+	quest.34057A5E5464F681.quest_desc: ["Towers of packed ice. Claws would love it here."]
+	quest.34057A5E5464F681.title: "Ice Spikes"
+	quest.34057A5E5468487D.quest_desc: ["Look for the map chest."]
+	quest.34057A5E5468487D.title: "Shipwreck"
+	quest.34057A5E5468795A.quest_desc: ["Wind and wolves."]
+	quest.34057A5E5468795A.title: "Howling Peaks"
+	quest.34057A5E546881AB.quest_desc: ["One of the biggest things anyone ever built for Christmas."]
+	quest.34057A5E546881AB.title: "Something Enormous"
+	quest.34057A5E5471DAD7.quest_desc: ["Trial spawners and vaults. Keys from the spawners open the vaults."]
+	quest.34057A5E5471DAD7.title: "Trial Chambers"
+	quest.34057A5E5474EF97.quest_desc: ["A grand old house among the aspens."]
+	quest.34057A5E5474EF97.title: "An Aspen Manor"
+	quest.34057A5E5477F3DB.quest_desc: [
+		"This chapter starts empty on purpose. You do not need to tick this quest first: discoveries count any time."
+		"The world is full of dungeons, ruins and lost places. Walk into one and its quest appears here, already finished, with a reward."
+		"&7No maps, no hints. Just explore.&r"
+	]
+	quest.34057A5E5477F3DB.title: "Secrets Under the Snow"
+	quest.34057A5E54820903.quest_desc: ["Shulkers, purpur and maybe a ship with wings in it."]
+	quest.34057A5E54820903.title: "End City"
+	quest.34057A5E548D47E1.quest_desc: ["A valley from before the world was finished, now under snow."]
+	quest.34057A5E548D47E1.title: "Wintry Origin Valley"
+	quest.34057A5E548D4EEC.quest_desc: ["Very quiet. Stay that way."]
+	quest.34057A5E548D4EEC.title: "Ancient City"
+	quest.34057A5E54933E64.quest_desc: ["A gingerbread house in the woods. Don't nibble the walls."]
+	quest.34057A5E54933E64.title: "The Other Gingerbread House"
+	quest.34057A5E5498D27D.quest_desc: ["Smoke from the chimney. Somebody's home."]
+	quest.34057A5E5498D27D.title: "The Winter Witch's House"
+	quest.34057A5E54995A95.quest_desc: ["Smells like fresh bread."]
+	quest.34057A5E54995A95.title: "A Village Bakery"
+	quest.34057A5E549BF121.quest_desc: ["These are the raiders who visit towns. Now you know where they live."]
+	quest.34057A5E549BF121.title: "Barbarian Camp"
+	quest.34057A5E549D0BFA.quest_desc: ["Old rails and cobwebs. Watch for cave spiders."]
+	quest.34057A5E549D0BFA.title: "Abandoned Mineshaft"
+	quest.34057A5E549E6379.quest_desc: ["A frost hound, beaten."]
+	quest.34057A5E549E6379.title: "Down, Boy"
+	quest.34057A5E54AA6D84.quest_desc: ["A whole ship, lost at sea."]
+	quest.34057A5E54AA6D84.title: "A Lost Galleon"
+	quest.34057A5E54AB29F7.quest_desc: ["The old fish is gone. You can mine in peace."]
+	quest.34057A5E54AB29F7.title: "Elder Guardian"
+	quest.34057A5E54B8E995.quest_desc: ["Pillagers. Not on the Nice List."]
+	quest.34057A5E54B8E995.title: "Pillager Outpost"
+	quest.34057A5E54BBD2A0.quest_desc: ["A ship speared by a mountain of ice."]
+	quest.34057A5E54BBD2A0.title: "The Impaled Icebreaker"
+	quest.34057A5E54C27BF9.quest_desc: ["A cave decorated for Christmas, deep underground. Who decorated it?"]
+	quest.34057A5E54C27BF9.title: "The Glittering Cave"
+	quest.34057A5E54C9FAAC.quest_desc: ["Tripwires and arrows. Classic."]
+	quest.34057A5E54C9FAAC.title: "Jungle Temple"
+	quest.34057A5E54CC1D82.quest_desc: ["You drove off Santy Claws himself. For now."]
+	quest.34057A5E54CC1D82.title: "Not Tonight, Claws"
+	quest.34057A5E54D5652A.quest_desc: ["A lonely farmhouse on the prairie."]
+	quest.34057A5E54D5652A.title: "A Prairie House"
+	quest.34057A5E54D779D2.quest_desc: ["Webs, frost and a lot of legs."]
+	quest.34057A5E54D779D2.title: "Ice Spider Den"
+	quest.34057A5E54E1A8E4.quest_desc: ["You beat the Warden. Most people just run."]
+	quest.34057A5E54E1A8E4.title: "Shhh"
+	quest.34057A5E54EC64FC.quest_desc: ["Deep in the dark, Claws' servants listen. For what?"]
+	quest.34057A5E54EC64FC.title: "Claws' Listening Post"
+	quest.34057A5E54F0C82B.quest_desc: ["Stone ruins under the cold sea."]
+	quest.34057A5E54F0C82B.title: "Cold Ocean Ruins"
+	quest.34057A5E54F2183A.quest_desc: ["Even after the end, something of Claws lingered. Not any more."]
+	quest.34057A5E54F2183A.title: "What Remains"
+	quest.34057A5E54F72D1C.quest_desc: ["A warm, green cave in a frozen world."]
+	quest.34057A5E54F72D1C.title: "Lush Caves"
+	quest.34057A5E54FEDE9C.quest_desc: ["The highest, coldest peaks."]
+	quest.34057A5E54FEDE9C.title: "Top of the World"
+	quest.34057A5E550BEE3D.quest_desc: ["Pulls items from a chest or machine into the network."]
+	quest.34057A5E550BEE3D.title: "Importer"
+	quest.34057A5E550CF67E.quest_desc: ["Keep it anywhere in your inventory: Festivity drops near you tumble in on their own."]
+	quest.34057A5E550CF67E.title: "Santa's Sack"
+	quest.34057A5E5510027E.quest_desc: ["Shows a normal chest's contents in the grid."]
+	quest.34057A5E5510027E.title: "External Storage"
+	quest.34057A5E55174F70.quest_desc: ["The metal most Refined Storage parts are made of."]
+	quest.34057A5E55174F70.title: "Quartz Enriched Iron"
+	quest.34057A5E55218131.quest_desc: ["Even more slots."]
+	quest.34057A5E55218131.title: "Diamond Chest"
+	quest.34057A5E5527F63D.quest_desc: ["The screen where you see and take everything in the network."]
+	quest.34057A5E5527F63D.title: "The Grid"
+	quest.34057A5E552AE8F3.quest_desc: ["Pipes move items between inventories. Use the wrench to set which side pulls."]
+	quest.34057A5E552AE8F3.title: "Item Pipes"
+	quest.34057A5E552D5AC9.quest_desc: ["Items you walk over go straight into the backpack."]
+	quest.34057A5E552D5AC9.title: "Pickup Upgrade"
+	quest.34057A5E5544367C.quest_desc: ["The fastest pipes there are."]
+	quest.34057A5E5544367C.title: "Ultimate Upgrade"
+	quest.34057A5E55447C29.quest_desc: ["Smelt quartz to get silicon."]
+	quest.34057A5E55447C29.title: "Silicon"
+	quest.34057A5E554968D1.quest_desc: ["Keeps your hotbar topped up from the backpack (torches, food, blocks)."]
+	quest.34057A5E554968D1.title: "Refill Upgrade"
+	quest.34057A5E55550748.quest_desc: ["Pulls nearby items toward you."]
+	quest.34057A5E55550748.title: "Magnet Upgrade"
+	quest.34057A5E5557E175.quest_desc: ["Upgrade a chest's tier with a tier upgrade item; check the recipe viewer."]
+	quest.34057A5E5557E175.title: "Iron Chest"
+	quest.34057A5E5562B279.quest_desc: ["Raw processors get smelted into working ones."]
+	quest.34057A5E5562B279.title: "Processors"
+	quest.34057A5E5564F267.quest_desc: ["Christmas means presents, and presents mean stuff. This chapter goes from a better chest to a whole storage computer."]
+	quest.34057A5E5564F267.title: "Where Do I Put It All?"
+	quest.34057A5E55699B6A.quest_desc: ["Holds storage disks."]
+	quest.34057A5E55699B6A.title: "Disk Drive"
+	quest.34057A5E557351D9.quest_desc: ["A pattern remembers a recipe so the network can craft it on request."]
+	quest.34057A5E557351D9.title: "Patterns"
+	quest.34057A5E5573A4A9.quest_desc: ["More slots."]
+	quest.34057A5E5573A4A9.title: "Gold Chest"
+	quest.34057A5E557DB106.quest_desc: ["The last backpack tier. Doesn't burn in lava."]
+	quest.34057A5E557DB106.title: "Netherite Backpack"
+	quest.34057A5E55859078.quest_desc: ["Sixty-four thousand items per disk."]
+	quest.34057A5E55859078.title: "Huge Disks"
+	quest.34057A5E558C0761.quest_desc: ["Sophisticated chests and barrels can be upgraded in place without emptying them."]
+	quest.34057A5E558C0761.title: "A Better Chest"
+	quest.34057A5E55922BC9.quest_desc: ["The starting part for chest upgrades: stack, pickup, smelting, compacting, void and more."]
+	quest.34057A5E55922BC9.title: "Upgrade Base"
+	quest.34057A5E55947EB9.quest_desc: ["Same idea, for water, lava and other fluids."]
+	quest.34057A5E55947EB9.title: "Fluid Pipes"
+	quest.34057A5E559604FB.quest_desc: ["Pushes chosen items out of the network into a chest or machine."]
+	quest.34057A5E559604FB.title: "Exporter"
+	quest.34057A5E559BD126.quest_desc: ["Link chests and barrels next to it so they act like one big storage. Add storage links to reach further."]
+	quest.34057A5E559BD126.title: "Storage Controller"
+	quest.34057A5E55A553B3.quest_desc: ["Bigger again."]
+	quest.34057A5E55A553B3.title: "Gold Backpack"
+	quest.34057A5E55A8712A.quest_desc: ["Connects every part of the network to the controller."]
+	quest.34057A5E55A8712A.title: "Cable"
+	quest.34057A5E55AAD470.quest_desc: ["Your whole storage in your pocket, near a wireless transmitter."]
+	quest.34057A5E55AAD470.title: "Wireless Grid"
+	quest.34057A5E55AD0B86.quest_desc: ["Holds processors together."]
+	quest.34057A5E55AD0B86.title: "Processor Binding"
+	quest.34057A5E55AF7279.quest_desc: ["Wear it, open it with a key, and keep adding upgrades."]
+	quest.34057A5E55AF7279.title: "Backpack"
+	quest.34057A5E55B70D1F.quest_desc: ["Everything you own, in one place, on demand. The elves would be jealous."]
+	quest.34057A5E55B70D1F.title: "Santa's Workshop Inventory"
+	quest.34057A5E55B8ED83.quest_desc: ["Upgrades make pipes faster and let you filter what goes through."]
+	quest.34057A5E55B8ED83.title: "Basic Pipe Upgrade"
+	quest.34057A5E55BC2861.quest_desc: ["Huge."]
+	quest.34057A5E55BC2861.title: "Diamond Backpack"
+	quest.34057A5E55BC80B2.quest_desc: ["Sixteen thousand items per disk."]
+	quest.34057A5E55BC80B2.title: "Bigger Disks"
+	quest.34057A5E55CC6441.quest_desc: ["Bigger, with more upgrade slots."]
+	quest.34057A5E55CC6441.title: "Iron Backpack"
+	quest.34057A5E55D32DEC.quest_desc: ["The biggest chest there is."]
+	quest.34057A5E55D32DEC.title: "Netherite Chest"
+	quest.34057A5E55D40243.quest_desc: ["The frame for every machine."]
+	quest.34057A5E55D40243.title: "Machine Casing"
+	quest.34057A5E55D4DD50.quest_desc: ["A grid with a crafting table built in, pulling ingredients straight from storage."]
+	quest.34057A5E55D4DD50.title: "Crafting Grid"
+	quest.34057A5E55D774E6.quest_desc: ["Turns nuggets into ingots and ingots into blocks automatically."]
+	quest.34057A5E55D774E6.title: "Compacting Upgrade"
+	quest.34057A5E55DFF4E4.quest_desc: ["Gives the network a wireless range for wireless grids."]
+	quest.34057A5E55DFF4E4.title: "Wireless Transmitter"
+	quest.34057A5E55E6D9CA.quest_desc: ["A crafting grid inside your backpack."]
+	quest.34057A5E55E6D9CA.title: "Crafting Upgrade"
+	quest.34057A5E55ED4FCA.quest_desc: ["Packing tape lets you pick up a full chest without spilling it."]
+	quest.34057A5E55ED4FCA.title: "Moving Day"
+	quest.34057A5E55F078BF.quest_desc: ["A 1k disk holds a thousand items. Bigger disks come later."]
+	quest.34057A5E55F078BF.title: "Your First Disk"
+	quest.34057A5E55F12468.quest_desc: ["Right-click a pipe end to turn extracting on or off."]
+	quest.34057A5E55F12468.title: "Pipe Wrench"
+	quest.34057A5E55F42DB8.quest_desc: ["The heart of the network. It needs power (Powah works) to run."]
+	quest.34057A5E55F42DB8.title: "The Controller"
+	quest.34057A5E55FD0782.quest_desc: ["Put patterns in it and ask the grid for something. It crafts it for you."]
+	quest.34057A5E55FD0782.title: "Autocrafter"
+	quest.34057A5E55FEBEEE.quest_desc: [
+		"A storage computer: every item in one searchable screen."
+		"This is a bigger project. Work through it step by step."
+	]
+	quest.34057A5E55FEBEEE.title: "Refined Storage"
+	quest.34057A5E56152479.quest_desc: ["Energize four blaze powder (or a blaze rod). Needed for blazing tier parts."]
+	quest.34057A5E56152479.title: "Blazing Crystal"
+	quest.34057A5E5619BBE6.quest_desc: ["Powah makes energy (FE) and stores it. Refined Storage and other machines run on it."]
+	quest.34057A5E5619BBE6.title: "Power Up"
+	quest.34057A5E561AE1CA.quest_desc: ["Burns lava (and other hot fluids) for power."]
+	quest.34057A5E561AE1CA.title: "Magmator"
+	quest.34057A5E561DC5E5.quest_desc: ["Charges the items in your inventory wirelessly."]
+	quest.34057A5E561DC5E5.title: "Player Transmitter"
+	quest.34057A5E561FB6CB.quest_desc: ["The sticky stuff in most Powah parts."]
+	quest.34057A5E561FB6CB.title: "Dielectric Paste"
+	quest.34057A5E562086BC.quest_desc: ["Put items in the orb, surround it with energizing rods and give the rods power. It fuses them into new materials."]
+	quest.34057A5E562086BC.title: "Energizing Orb"
+	quest.34057A5E56406031.quest_desc: ["Energize a diamond."]
+	quest.34057A5E56406031.title: "Niotic Crystal"
+	quest.34057A5E56541AB5.quest_desc: ["Burns fuel like coal to make power. The easiest first generator."]
+	quest.34057A5E56541AB5.title: "Starter Furnator"
+	quest.34057A5E565BECBD.quest_desc: ["The biggest battery in the pack."]
+	quest.34057A5E565BECBD.title: "Nitro Energy Cell"
+	quest.34057A5E565EF456.quest_desc: ["Makes power from heat sources underneath it, cooled with water."]
+	quest.34057A5E565EF456.title: "Thermo Generator"
+	quest.34057A5E5689440D.quest_desc: ["Energize a snowball. Throw it at something. Very Christmas."]
+	quest.34057A5E5689440D.title: "Charged Snowball"
+	quest.34057A5E569721EB.quest_desc: ["Carries power to your machines."]
+	quest.34057A5E569721EB.title: "Energy Cable"
+	quest.34057A5E5698108B.quest_desc: ["An iron ingot and a gold ingot, energized together in the orb."]
+	quest.34057A5E5698108B.title: "Energized Steel"
+	quest.34057A5E569D84FB.quest_desc: ["Place rods within a few blocks of the orb and power them."]
+	quest.34057A5E569D84FB.title: "Energizing Rods"
+	quest.34057A5E56C21D85.quest_desc: ["Reactor blocks build into one big multiblock reactor; the recipe viewer and the Powah book show how. Feed it uraninite and keep it cool."]
+	quest.34057A5E56C21D85.title: "A Reactor"
+	quest.34057A5E56CE6F59.quest_desc: ["A nether star, two redstone blocks and a blazing crystal block. The top tier."]
+	quest.34057A5E56CE6F59.title: "Nitro Crystal"
+	quest.34057A5E56CEF71D.quest_desc: ["The next tier of furnator: more power from the same fuel."]
+	quest.34057A5E56CEF71D.title: "Basic Furnator"
+	quest.34057A5E56D563B4.quest_desc: ["A bigger battery."]
+	quest.34057A5E56D563B4.title: "Basic Energy Cell"
+	quest.34057A5E56D77355.quest_desc: ["Faster rods make the orb work faster."]
+	quest.34057A5E56D77355.title: "Basic Energizing Rod"
+	quest.34057A5E56DA0D35.quest_desc: ["Free power while the sun is up."]
+	quest.34057A5E56DA0D35.title: "Solar Panel"
+	quest.34057A5E56DE868F.quest_desc: ["Energize an emerald."]
+	quest.34057A5E56DE868F.title: "Spirited Crystal"
+	quest.34057A5E56E7824C.quest_desc: ["Mine uraninite ore and energize it (or smelt the raw ore). Reactors burn it."]
+	quest.34057A5E56E7824C.title: "Uraninite"
+	quest.34057A5E56EF4DC2.quest_desc: ["Stores power for later."]
+	quest.34057A5E56EF4DC2.title: "Energy Cell"
+	quest.34057A5E57013119.quest_desc: ["Dogs eat from their bowl while you are away."]
+	quest.34057A5E57013119.title: "Food Bowl"
+	quest.34057A5E571C6AA1.quest_desc: ["Hand a pet over to a friend, properly."]
+	quest.34057A5E571C6AA1.title: "Deed of Ownership"
+	quest.34057A5E5725A5EC.quest_desc: ["Find a penguin. They live where it's coldest."]
+	quest.34057A5E5725A5EC.title: "Penguins!"
+	quest.34057A5E572830EC.quest_desc: ["Keep animals in a pen block instead of a big field."]
+	quest.34057A5E572830EC.title: "Animal Pen"
+	quest.34057A5E5737AA82.quest_desc: ["Pull it behind a horse to till whole fields at once."]
+	quest.34057A5E5737AA82.title: "A Plow"
+	quest.34057A5E57384754.quest_desc: ["Call your dogs, tell them to stay, or send them to attack."]
+	quest.34057A5E57384754.title: "Whistle"
+	quest.34057A5E573FB6F7.quest_desc: ["Then get married."]
+	quest.34057A5E573FB6F7.title: "Wedding Ring"
+	quest.34057A5E576111DC.quest_desc: ["The final level. A very good dog."]
+	quest.34057A5E576111DC.title: "Master Treat"
+	quest.34057A5E576E21A8.quest_desc: ["When they like you enough, propose."]
+	quest.34057A5E576E21A8.title: "Engagement Ring"
+	quest.34057A5E577D4EF0.quest_desc: ["Polar bears can be ridden in this pack."]
+	quest.34057A5E577D4EF0.title: "Ride a Polar Bear"
+	quest.34057A5E578554C9.quest_desc: ["Fluffy white seals live on cold beaches and ice."]
+	quest.34057A5E578554C9.title: "Harp Seals"
+	quest.34057A5E579653CC.quest_desc: ["Hitch a cart to a horse to carry loads of stuff."]
+	quest.34057A5E579653CC.title: "A Supply Cart"
+	quest.34057A5E57A04EA8.quest_desc: ["Dogs sleep in their bed and come back to it."]
+	quest.34057A5E57A04EA8.title: "A Dog Bed"
+	quest.34057A5E57A1B09B.quest_desc: ["A rare find in the Frozen Reindeer Stables."]
+	quest.34057A5E57A1B09B.title: "A Reindeer of Your Own"
+	quest.34057A5E57AED816.quest_desc: ["Look along cold coasts and kelp forests."]
+	quest.34057A5E57AED816.title: "Sea Otters"
+	quest.34057A5E57B07B8B.quest_desc: ["The unicorns of the frozen sea."]
+	quest.34057A5E57B07B8B.title: "Narwhals"
+	quest.34057A5E57B9FAA1.quest_desc: ["Somewhere cosy for the cat (or dog) to sleep."]
+	quest.34057A5E57B9FAA1.title: "A Pet Bed"
+	quest.34057A5E57C036A6.quest_desc: ["Snuffles are fluffy little snow creatures. Some of them are frosty."]
+	quest.34057A5E57C036A6.title: "Frosty Fluff"
+	quest.34057A5E57C3C45B.quest_desc: ["Keep track of who is related to whom."]
+	quest.34057A5E57C3C45B.title: "The Family Tree"
+	quest.34057A5E57C4C424.quest_desc: ["Shy big cats of the snowy mountains."]
+	quest.34057A5E57C4C424.title: "Snow Leopards"
+	quest.34057A5E57CD48D7.quest_desc: ["Levels a dog up further so it can learn more talents."]
+	quest.34057A5E57CD48D7.title: "Super Treat"
+	quest.34057A5E57DE494A.quest_desc: [
+		"Married couples can have children. Babies grow up into villagers of their own."
+		"&7In this pack you need to be married first.&r"
+	]
+	quest.34057A5E57DE494A.title: "A New Arrival"
+	quest.34057A5E57E4796D.quest_desc: ["The villagers in this pack talk, have jobs and families, and can become yours."]
+	quest.34057A5E57E4796D.title: "Not Alone Out Here"
+	quest.34057A5E57E6BD4C.quest_desc: [
+		"Villagers sometimes have little jobs for you."
+		"[\"\",\"Open the villager quest log with \",{\"keybind\":\"key.mcaquests.quest_log\",\"color\":\"gold\"},\".\"]"
+	]
+	quest.34057A5E57E6BD4C.title: "Villager Quests"
+	quest.34057A5E57E6F745.quest_desc: ["Fill it with food and animals nearby feed and breed themselves."]
+	quest.34057A5E57E6F745.title: "Feeding Trough"
+	quest.34057A5E57EFDC57.quest_desc: ["Give one to a villager you like to show it."]
+	quest.34057A5E57EFDC57.title: "A Bouquet"
+	quest.34057A5E57F546A9.quest_desc: ["Tame a horse. Once it's yours you can call it to you from far away (see Keybind Atlas for the key)."]
+	quest.34057A5E57F546A9.title: "Your Own Horse"
+	quest.34057A5E57F78FFC.quest_desc: ["Give a tamed wolf a training treat to turn it into a Doggy Talents dog."]
+	quest.34057A5E57F78FFC.title: "Training Treat"
+	quest.34057A5E57F86520.quest_desc: ["Carry animals home."]
+	quest.34057A5E57F86520.title: "Lasso"
+	quest.34057A5E57F91622.quest_desc: ["Right-click a villager to talk. Chat, joke, give gifts. Their mood toward you goes up (or down)."]
+	quest.34057A5E57F91622.title: "Say Hello"
+	quest.34057A5E5805196C.quest_desc: ["Every colour at once."]
+	quest.34057A5E5805196C.title: "Chromatic Arapaima"
+	quest.34057A5E580F5688.quest_desc: ["It glitters."]
+	quest.34057A5E580F5688.title: "Crystalline Snakehead"
+	quest.34057A5E58153FDE.quest_desc: ["Cooked fillets, a good snack."]
+	quest.34057A5E58153FDE.title: "Fish Fillets"
+	quest.34057A5E5820A479.quest_desc: ["Hooks change your luck and what you catch."]
+	quest.34057A5E5820A479.title: "A Better Hook"
+	quest.34057A5E58266163.quest_desc: ["Bites best in bad weather, they say."]
+	quest.34057A5E58266163.title: "Storm Tarpon"
+	quest.34057A5E582E34C5.quest_desc: ["One eye, lots of fight."]
+	quest.34057A5E582E34C5.title: "Cyclops Mahi-Mahi"
+	quest.34057A5E583355F1.quest_desc: ["A rare catch full of Neptunium."]
+	quest.34057A5E583355F1.title: "Neptune's Bounty"
+	quest.34057A5E58392468.quest_desc: ["A rod for serious anglers."]
+	quest.34057A5E58392468.title: "Diamond Fishing Rod"
+	quest.34057A5E58419E30.quest_desc: ["A rare find in the Sunken Snow Globe."]
+	quest.34057A5E58419E30.title: "The Frozen Lure"
+	quest.34057A5E58452E65.quest_desc: ["Fishing in this pack is a mini-game: keep the fish in the bar to reel it in."]
+	quest.34057A5E58452E65.title: "Gone Fishing"
+	quest.34057A5E58454370.quest_desc: ["Made from a guardian. Don't ask."]
+	quest.34057A5E58454370.title: "Guardian Soup"
+	quest.34057A5E5858C41E.quest_desc: ["Pufferfish, carefully prepared. Very carefully."]
+	quest.34057A5E5858C41E.title: "Fugu Roll"
+	quest.34057A5E58607EF1.quest_desc: ["Swap hooks, line and bait on your rod."]
+	quest.34057A5E58607EF1.title: "Tackle Box"
+	quest.34057A5E5873C698.quest_desc: ["Aquaculture rods take hooks, line and bait."]
+	quest.34057A5E5873C698.title: "Iron Fishing Rod"
+	quest.34057A5E58809B0E.quest_desc: ["Some fish are legendary. This one is enormous."]
+	quest.34057A5E58809B0E.title: "A Legendary Fish"
+	quest.34057A5E589F57B3.quest_desc: ["Sometimes you pull up a treasure chest."]
+	quest.34057A5E589F57B3.title: "Treasure!"
+	quest.34057A5E58A33A76.quest_desc: ["Cut fish into fillets for more food."]
+	quest.34057A5E58A33A76.title: "Fillet Knife"
+	quest.34057A5E58A5304C.quest_desc: ["Bobbers change how the fishing mini-game plays."]
+	quest.34057A5E58A5304C.title: "Quality Bobber"
+	quest.34057A5E58A8B5DB.quest_desc: ["Dye it for style."]
+	quest.34057A5E58A8B5DB.title: "Fishing Line"
+	quest.34057A5E58B17ABB.quest_desc: ["More treasure in the mini-game."]
+	quest.34057A5E58B17ABB.title: "Treasure Bobber"
+	quest.34057A5E58C9439E.quest_desc: ["Crunchy."]
+	quest.34057A5E58C9439E.title: "Squid Rings"
+	quest.34057A5E58D5ADBE.quest_desc: ["Bait makes fish bite faster. A worm farm makes worms; check the recipe viewer."]
+	quest.34057A5E58D5ADBE.title: "Bait"
+	quest.34057A5E58DBA0BA.quest_desc: ["Ocean's Delight: seafood dinners."]
+	quest.34057A5E58DBA0BA.title: "Stuffed Cod"
+	quest.34057A5E58E17857.quest_desc: ["Cut a hole in a frozen lake and fish through it. Very Christmas."]
+	quest.34057A5E58E17857.title: "Ice Fishing"
+	quest.34057A5E58ED33B1.quest_desc: ["Sea metal for the best fishing gear."]
+	quest.34057A5E58ED33B1.title: "Neptunium"
+	quest.34057A5E58FB6ED5.quest_desc: ["Show off your best catch."]
+	quest.34057A5E58FB6ED5.title: "Mount It"
+	quest.34057A5E590685C4.quest_desc: ["Double jump! Artifacts turn up in chests and from mimics."]
+	quest.34057A5E590685C4.title: "Your First Artifact"
+	quest.34057A5E591C1D6D.quest_desc: ["Sneak-use to bottle up to 10 levels; use it to share them with friends nearby."]
+	quest.34057A5E591C1D6D.title: "Wish Jar"
+	quest.34057A5E591FD2CC.quest_desc: ["[\"\",\"Trinkets go in your accessory slots (\",{\"keybind\":\"key.curios.open.desc\",\"color\":\"gold\"},\"). Most are found, not crafted.\"]"]
+	quest.34057A5E591FD2CC.title: "Shiny Things"
+	quest.34057A5E5937D723.quest_desc: ["A little extra luck, and very festive."]
+	quest.34057A5E5937D723.title: "Lucky Scarf"
+	quest.34057A5E593C1E49.quest_desc: ["Warm hands. Check the researching table to see what it does."]
+	quest.34057A5E593C1E49.title: "Wool Mitten"
+	quest.34057A5E594019D3.quest_desc: ["Necklaces too."]
+	quest.34057A5E594019D3.title: "A Necklace"
+	quest.34057A5E59410BA4.quest_desc: ["Run faster and step up blocks."]
+	quest.34057A5E59410BA4.title: "Running Shoes"
+	quest.34057A5E59619AA5.quest_desc: ["Check the researching table to see what it does."]
+	quest.34057A5E59619AA5.title: "Ice Breaker"
+	quest.34057A5E5968A787.quest_desc: ["Walk on powder snow without sinking. Very handy here."]
+	quest.34057A5E5968A787.title: "Snowshoes"
+	quest.34057A5E5968B2F7.quest_desc: ["Rings give small bonuses depending on their gem."]
+	quest.34057A5E5968B2F7.title: "A Ring"
+	quest.34057A5E59792CFA.quest_desc: ["Teleports you home."]
+	quest.34057A5E59792CFA.title: "Magic Mirror"
+	quest.34057A5E597E1C7C.quest_desc: ["Swim much faster."]
+	quest.34057A5E597E1C7C.title: "Flippers"
+	quest.34057A5E59811BAE.quest_desc: ["A Christmas-red gem."]
+	quest.34057A5E59811BAE.title: "Ruby"
+	quest.34057A5E5985607D.quest_desc: ["Dig faster with your bare hands."]
+	quest.34057A5E5985607D.title: "Digging Claws"
+	quest.34057A5E59865D65.quest_desc: ["Speed on flat ground."]
+	quest.34057A5E59865D65.title: "Roller Skates"
+	quest.34057A5E5988F815.quest_desc: ["A relic for riders. Check the researching table."]
+	quest.34057A5E5988F815.title: "Horse Flute"
+	quest.34057A5E59A108B5.quest_desc: ["Relics level up as you use them. The researching table shows what each one does."]
+	quest.34057A5E59A108B5.title: "Researching Table"
+	quest.34057A5E59B96366.quest_desc: ["See in the dark."]
+	quest.34057A5E59B96366.title: "Night Vision Goggles"
+	quest.34057A5E59BA548D.quest_desc: ["Can turn up in any of Claws' dungeons."]
+	quest.34057A5E59BA548D.title: "Elf Charm Pouch"
+	quest.34057A5E59BECCD8.quest_desc: ["More hearts."]
+	quest.34057A5E59BECCD8.title: "Crystal Heart"
+	quest.34057A5E59C5A53D.quest_desc: ["A rare find in the Gingerbread Labyrinth."]
+	quest.34057A5E59C5A53D.title: "Sugarplum Charm"
+	quest.34057A5E59C7F54B.quest_desc: ["Make rings and necklaces from metal and gems."]
+	quest.34057A5E59C7F54B.title: "Jewelcrafting Station"
+	quest.34057A5E59F4CCA7.quest_desc: ["Some chests are mimics. Beat one."]
+	quest.34057A5E59F4CCA7.title: "That Chest Bit Me"
+	quest.34057A5E59FCD11F.quest_desc: ["Glide across ice."]
+	quest.34057A5E59FCD11F.title: "Ice Skates"
+	task.34057A5E502FC46B.title: "Let's go"
+	task.34057A5E504A780D.title: "Got it"
+	task.34057A5E505D79BC.title: "Got it"
+	task.34057A5E5064D2F5.title: "Got it"
+	task.34057A5E506EE836.title: "I'm ready"
+	task.34057A5E507616E7.title: "Got it"
+	task.34057A5E5092DB46.title: "Got it"
+	task.34057A5E509B9F7E.title: "Got it"
+	task.34057A5E50BA9B11.title: "Got it"
+	task.34057A5E50DD77CA.title: "Got it"
+	task.34057A5E50E9F41D.title: "Got it"
+	task.34057A5E5102714B.title: "Begin"
+	task.34057A5E5128B44F.title: "Onward"
+	task.34057A5E512C0901.title: "Onward"
+	task.34057A5E5143387C.title: "I'll keep it merry"
+	task.34057A5E51480054.title: "I found one"
+	task.34057A5E51633CD9.title: "Onward"
+	task.34057A5E5169B3AF.title: "Onward"
+	task.34057A5E51B1276D.title: "Onward"
+	task.34057A5E5200EB9E.title: "Done"
+	task.34057A5E5232162E.title: "Ho ho ho!"
+	task.34057A5E52555C29.title: "Onward"
+	task.34057A5E52745122.title: "Done"
+	task.34057A5E527FCF97.title: "Onward"
+	task.34057A5E52815441.title: "Done"
+	task.34057A5E52849F49.title: "Onward"
+	task.34057A5E52B40308.title: "Done"
+	task.34057A5E52B4A210.title: "Opened it"
+	task.34057A5E52E631B0.title: "Onward"
+	task.34057A5E52E8200C.title: "Onward"
+	task.34057A5E52FCA0F6.title: "Onward"
+	task.34057A5E53032F6D.title: "Onward"
+	task.34057A5E5306C6FE.title: "Onward"
+	task.34057A5E5313173B.title: "Onward"
+	task.34057A5E5365D9DB.title: "I'm stuffed"
+	task.34057A5E536D2458.title: "Dinner is served"
+	task.34057A5E5380409B.title: "Onward"
+	task.34057A5E538872B1.title: "Onward"
+	task.34057A5E53A73850.title: "Built it!"
+	task.34057A5E53BCE73D.title: "Onward"
+	task.34057A5E53EE6847.title: "Let's bake"
+	task.34057A5E53FD8C73.title: "Onward"
+	task.34057A5E54352521.title: "I'll keep my eyes open"
+	task.34057A5E553C36CE.title: "Onward"
+	task.34057A5E558AFE18.title: "Onward"
+	task.34057A5E55C1D112.title: "All sorted"
+	task.34057A5E56D99EF9.title: "Onward"
+	task.34057A5E5707CFF9.title: "Spotted one"
+	task.34057A5E5716A88B.title: "Done"
+	task.34057A5E5735C2DC.title: "Spotted one"
+	task.34057A5E57529805.title: "Done"
+	task.34057A5E5762832B.title: "Done"
+	task.34057A5E57806473.title: "Onward"
+	task.34057A5E57AF8DB0.title: "Done"
+	task.34057A5E57CA3232.title: "Spotted one"
+	task.34057A5E57DA053D.title: "Spotted one"
+	task.34057A5E57EB1909.title: "Done"
+	task.34057A5E5862BD86.title: "Done"
+	task.34057A5E591D25A6.title: "Onward"
 }

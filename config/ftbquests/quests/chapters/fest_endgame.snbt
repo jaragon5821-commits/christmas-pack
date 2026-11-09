@@ -34,6 +34,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6F69115F5FA8C5EC"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "festivity:coal_heart"
 			}
@@ -66,6 +68,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["68C74ABC472EAD02"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "festivity:clockwork_crown"
 			}
@@ -86,6 +90,8 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["68C74ABC472EAD02"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "festivity:forge_ember"
 			}
@@ -112,6 +118,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["039FD10FA92A2903"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "festivity:clinker_core"
 			}
@@ -144,6 +152,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["392B9C20B2AE16BE"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "festivity:naughty_compass"
 			}
@@ -170,6 +180,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["15DBE31B95D0A49C"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "festivity:heart_of_winter"
 			}

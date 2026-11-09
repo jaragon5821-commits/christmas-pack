@@ -474,8 +474,10 @@
 		}
 		{
 			icon: {
-				id: "chop:advent_calendar"
+				id: "festivity:advent_calendar"
 			}
+			dependencies: ["34057A5E514A2688"]
+			hide_until_deps_complete: true
 			id: "3ADA85706D398A24"
 			rewards: [{
 				count: 3
@@ -487,10 +489,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: false
 				id: "3DB43942ECFA7827"
-				item: { count: 1, id: "chop:advent_calendar" }
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 2.0d
 			y: 10.0d

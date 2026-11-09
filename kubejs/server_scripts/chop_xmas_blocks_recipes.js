@@ -70,7 +70,8 @@
       event.shaped(Item.of(b + '_slab', 6), ['BBB'], { B: b }).id('chop:xmas/snowy_' + m + '_slab');
     });
     // D117 advent calendar
-    event.shaped('chop:advent_calendar', ['PRP', 'RCR', 'PRP'], { P: 'minecraft:paper', R: '#c:dyes/red', C: '#c:chests/wooden' }).id('chop:xmas/advent_calendar');
+    // retired 2026-11-09: Festivity's Java advent calendar replaces it
+    if (false) event.shaped('chop:advent_calendar', ['PRP', 'RCR', 'PRP'], { P: 'minecraft:paper', R: '#c:dyes/red', C: '#c:chests/wooden' }).id('chop:xmas/advent_calendar');
   });
   ServerEvents.tags('item', event => DYES.forEach(c => event.add('chop:ribbon_blocks', 'chop:' + c + '_ribbon_block')));
 })();

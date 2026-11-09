@@ -119,7 +119,18 @@ function e4star(server, x, y, z, tag) {
 
 // (Josh 2026-11-06 05:20) targeting rotation: naughtiest first, but nobody is picked twice until every candidate has had a turn.
 // key = persistent list of usernames already picked in this cycle; resets when all current candidates are in it.
-function e4bad(server, p) { try { return E4.badScore(E4.ledgerOf(server, p).me); } catch (e) { return 0; } }
+// (F4, Josh-approved 2026-11-09) Festivity jar 0.9.18 mirrors fest_naughty <player> (x10, naughty minus nice). Claws spawns, hound packs and
+// outpost hunts all pick through e4rotate, so the naughtier player (ledger bad score + fest_naughty/10, nice balance ignored below 0) goes first.
+// The rotation still gives everyone a turn. Reads without creating a score.
+function e4naughty(server, p) {
+  try {
+    let sb = server.scoreboard; if (!sb) return 0;
+    let obj = sb.getObjective('fest_naughty'); if (!obj) return 0;
+    let info = sb.getPlayerScoreInfo(p, obj); if (info == null) return 0;
+    return Math.max(0, Number(info.value()) / 10);
+  } catch (e) { return 0; }
+}
+function e4bad(server, p) { let b = 0; try { b = E4.badScore(E4.ledgerOf(server, p).me); } catch (e) {} return b + e4naughty(server, p); }
 function e4rotate(server, key, cands) {
   if (!cands.length) return null;
   let done = e4json(server, key, []), left = cands.filter(p => done.indexOf(p.username) < 0);
@@ -338,8 +349,19 @@ BlockEvents.broken(event => {
 });
 
 // 16 carolers: three snow golems sing at the town hall; +0.5 if 2+ players listen
+// 0.9.9 (Josh): town-hall events need a REAL town hall: the op-set anchor or a MineColonies Town Hall block found by the Festivity jar
+// (read-only scan). No player fallback, so the carolers never pop up in the wilderness.
+function e4townHall(server) {
+  try { let th = Fest.readJson(server, 'townhall', null); if (th) return th; } catch (e) {}
+  try {
+    let pos = Java.loadClass('com.chop.festivity.compat.TownHallFinder').find(server);
+    if (pos) return { x: pos[0] + 2, y: pos[1], z: pos[2] + 2 };
+  } catch (e) { console.warn('[Festivity] town hall finder unavailable: ' + e); }
+  return null;
+}
+
 e4def('carolers', 'Carolers', ['high', 'quiet'], 10, server => {
-  let a = anchor(server); if (!a) return null;
+  let a = e4townHall(server); if (!a) return null;
   let x = a.x + 3, z = a.z + 3, y = e4surface(server.overworld(), x, z);
   for (let i = 0; i < 3; i++) e4cmd(server, 'summon minecraft:snow_golem ' + (x + i) + ' ' + y + ' ' + z + ' {NoAI:1b,Silent:1b,Pumpkin:0b,Tags:["fest_e4","fest_caroler"]}');
   let notes = [0.8, 1.0, 1.2, 1.0, 0.8, 0.9, 1.2, 1.5];
