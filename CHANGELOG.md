@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026.11.09-21b
+- Road crew in towns now shows as Christmas elves (Townwright roadCrewSkin = elf)
+- RoadWeaver road planning settings now match TEST (KNN planning, bidirectional A*, stronger water avoidance; bridges up to 100 blocks, no bridge lamps)
+
 ## 2026.11.09-21
 - Festivity 0.9.48 -> 0.9.57 (bigger Grand Fireplace with real flames, chimneys that link through floors + 30 toppers, new small Hearths, festive GUI that follows the Festivity bar, Farmer's Delight cooking pot makes 4 per batch). PASS; not tested: Chipped swaps, hitboxes, fireplace burn-out
 - Main menu v3 (option A) + festive buttons v3.1 (23_Chops_Festive_Buttons_v3_1). PASS; not tested: button hover effects

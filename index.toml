@@ -3330,7 +3330,7 @@ hash = "9d7e2db3fb92440a7acb2b9af73f7b2e01817b6ee07d306edf929040b967680a"
 
 [[files]]
 file = "config/colonyautopilot-server.toml"
-hash = "3c3290322d1e2d5d5b0bebc87e3356c8ad4a8de0fd77cef9931d55ba59ad5693"
+hash = "dd71ccc808b651535db42d07857a1f34bdef4997772bf901ba2df99f0237c950"
 
 [[files]]
 file = "config/comforts-common.toml"
@@ -5223,7 +5223,7 @@ hash = "d953af1457a8cb242fa5cde67a51ce0ce8717031c4adc786b522118c2cc573c5"
 
 [[files]]
 file = "config/roadweaver/roadweaver.json"
-hash = "7fb076e88aaab960a91e09edad305ea90602fd04eb0d840d2cc9535dd3049bd5"
+hash = "fb76ff23ef6819398aed4aa3ab8d1ec5d7ee52778c6230f41e95418c48777abb"
 
 [[files]]
 file = "config/roadweaver/structure_cache_overworld.json"

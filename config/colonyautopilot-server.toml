@@ -363,6 +363,11 @@
 	# Default: 4
 	# Range: 0 ~ 32
 	decorationsTarget = 4
+	#chop.50: the look of the road crew that walks out from the town hall and lays main roads, plaza streets
+	#and road upgrades block by block. worker = a plain road labourer (default); elf = Christmas elves all year;
+	#seasonal = elves in December, labourers the rest of the year. Each town can turn the crew off on the
+	#Planning Board (Roads: Road crew), and then those roads appear at once as before.
+	roadCrewSkin = "elf"
 
 [zones]
 	#Protected zones: areas the player marks with the Zone Marker wand (get one with '/colonyautopilot
