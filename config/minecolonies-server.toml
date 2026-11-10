@@ -121,7 +121,7 @@
 	#The maximum amount of raiders spawned per raid [Default: 80, min: 6, max: 400]
 	# Default: 80
 	# Range: 6 ~ 400
-	maxRaiders = 80
+	maxRaiders = 40
 	#Whether or not raiders are able to break through blocks [Default: true]
 	raidersbreakblocks = true
 	#The average number of nights between raids. [Default: 14, min: 1, max: 50]

@@ -87,6 +87,8 @@ function f5syncVariants(server) {
 function f5name(e) { try { return e.customName ? String(e.customName.string) : ''; } catch (x) { return ''; } }
 function f5pos(e) { return Math.floor(e.x) + ' ' + Math.floor(e.y) + ' ' + Math.floor(e.z); }
 function f5over(p) { try { return String(p.level.dimension) == 'minecraft:overworld'; } catch (e) { return true; } }
+// D142 Candle of Vigil (jar 0.9.35): the jar tags players near a lit candle; Claws never targets or grabs them.
+function f5safe(p) { try { return !!(p && p.tags && p.tags.contains('fest_candle_safe')); } catch (e) { return false; } }
 function f5players(server) { let out = []; for (let p of F5.online(server)) if (f5over(p)) out.push(p); return out; }
 function f5nearest(list, x, z) { let best = null, bd = 1e9; for (let p of list) { let dx = p.x - x, dz = p.z - z, d = dx * dx + dz * dz; if (d < bd) { bd = d; best = p; } } return best; }
 function f5scale(server, e, s) { if (f5type(e) == 'festivity:sour_elf') s = Math.round(s * 0.75 * 1000) / 1000; f5cmd(server, 'attribute ' + e.uuid + ' minecraft:generic.scale base set ' + s); }   // jar elf base is 0.75
@@ -129,7 +131,7 @@ function f5stripNames(server) {   // Phase 3/4 raw summons still set names: drop
 // step-up; guaranteed grab -> carried 200-300 blocks and wrapped in the Phase 2 Giant Present; rotates through all players.
 P2.BOX_MIN_DIST = P5.BOX_MIN; P2.BOX_MAX_DIST = P5.BOX_MAX; P2.CARRY_SECONDS = P5.CARRY_SECONDS;
 function worstOnline(server) {   // Phase 2 picked the naughtiest; Phase 5 rotates through everyone online (naughtiest first within a rotation)
-  let cands = []; for (let p of f5players(server)) if (!p.persistentData.getBoolean('fest_kidnappedLastNight')) cands.push(p);
+  let cands = []; for (let p of f5players(server)) if (!p.persistentData.getBoolean('fest_kidnappedLastNight') && !f5safe(p)) cands.push(p);
   if (!cands.length) return null;
   try { return e4rotate(server, 'p5_rot_claws', cands); } catch (e) { return f5pick(cands); }
 }
@@ -166,7 +168,7 @@ function clawsTick(server) {
   }
   if (F5_MOD && server.tickCount % 40 == 0) { try { if (bear.nbt.getIntArray('CarryTarget').length) f5carryClear(server); } catch (q) {} }   // v13: a leftover target never drives him
   let target = findPlayer(server, c.target);
-  if (!target || !f5over(target)) { target = worstOnline(server); if (!target) { clawsLeave(server, 'nobody'); return; } c.target = target.username; }
+  if (!target || !f5over(target) || f5safe(target)) { target = worstOnline(server); if (!target) { clawsLeave(server, 'nobody'); return; } c.target = target.username; }
   let dx = target.x - bear.x, dz = target.z - bear.z, h = Math.sqrt(dx * dx + dz * dz);
   let onGround = true; try { onGround = bear.onGround(); } catch (e) { try { onGround = bear.isOnGround(); } catch (x) {} }
   if (c.airborne && onGround) { c.airborne = false; clawsLand(server, bear); }
@@ -187,7 +189,8 @@ function clawsTick(server) {
       f5cmd(server, 'tp @e[tag=fest_claws,limit=1] ' + nx.toFixed(2) + ' ' + bear.y.toFixed(2) + ' ' + nz.toFixed(2));
     }
   } else {
-    if (!c.finaleDone) startKidnap(server, c, target, bear);   // guaranteed ride (Josh 20:05); Phase 2 startKidnap mounts the player
+    if (f5safe(target)) { /* D142: candle-safe, no grab and no strike on contact */ }
+    else if (!c.finaleDone) startKidnap(server, c, target, bear);   // guaranteed ride (Josh 20:05); Phase 2 startKidnap mounts the player
     else { f5cmd(server, 'damage ' + target.username + ' 6 minecraft:mob_attack by @e[tag=fest_claws,limit=1]'); }
     c.warned = false;
   }

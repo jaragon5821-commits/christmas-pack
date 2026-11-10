@@ -30,7 +30,7 @@
 	#How often the scorpion spawns compared to other animals. 0 = never.
 	# Default: 8
 	# Range: 0 ~ 100
-	scorpionSpawnWeight = 8
+	scorpionSpawnWeight = 0
 	#Smallest number of scorpions that spawn together.
 	# Default: 1
 	# Range: 1 ~ 10
@@ -42,7 +42,7 @@
 	#How often the giraffe spawns compared to other animals. 0 = never.
 	# Default: 13
 	# Range: 0 ~ 100
-	giraffeSpawnWeight = 13
+	giraffeSpawnWeight = 0
 	#Smallest number of giraffes that spawn together.
 	# Default: 2
 	# Range: 1 ~ 10
@@ -162,7 +162,7 @@
 	#How often the cassowary spawns compared to other animals. 0 = never.
 	# Default: 7
 	# Range: 0 ~ 100
-	cassowarySpawnWeight = 7
+	cassowarySpawnWeight = 0
 	#Smallest number of cassowaries that spawn together.
 	# Default: 3
 	# Range: 1 ~ 10
@@ -198,7 +198,7 @@
 	#How often the elephant spawns compared to other animals. 0 = never.
 	# Default: 10
 	# Range: 0 ~ 100
-	elephantSpawnWeight = 10
+	elephantSpawnWeight = 0
 	#Smallest number of elephants that spawn together.
 	# Default: 3
 	# Range: 1 ~ 10
@@ -222,7 +222,7 @@
 	#How often the lion spawns compared to other animals. 0 = never.
 	# Default: 12
 	# Range: 0 ~ 100
-	lionSpawnWeight = 12
+	lionSpawnWeight = 0
 	#Smallest number of lions that spawn together.
 	# Default: 3
 	# Range: 1 ~ 10

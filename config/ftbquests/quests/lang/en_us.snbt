@@ -219,6 +219,7 @@
 		"From &6December 1st&r, open today's door on the town &cAdvent Calendar&r for a small gift. Tick this off once you have."
 		""
 		"&7Come back every day: there are 24 doors.&r"
+		"&7Doors open from December 1 (real date), one per day.&r"
 	]
 	quest.3ADA85706D398A24.title: "Open Today's Door"
 	quest.3BED91A3FC2CAADB.quest_desc: ["The dungeon's guardian always carries this. Clear the &cboss trial&r to claim it."]

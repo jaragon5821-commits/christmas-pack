@@ -3922,7 +3922,7 @@ hash = "29d47ae6d733546ee2443b53597cb260bc70327d34cc7ef8491e66d3cb5500e0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "b2b4b38d64d96fd97ecc977087caeed0aa26fcd2b317841df38a6581713fd37b"
+hash = "da924e56cdd7890429b43da73065a3829bebfe4559ecc350965f3a82b44a0547"
 
 [[files]]
 file = "config/ftbquests-client.snbt"
@@ -4671,7 +4671,7 @@ hash = "b7308712fbb5044fff1f8354302921fad9e19b053da60d5c0c69f4c4c819a37a"
 
 [[files]]
 file = "config/minecolonies-server.toml"
-hash = "0d013f744f5eb147b24a75f2ed5fd9420983be4d0c161aac1c52a163b573bb63"
+hash = "b8bf4f8cabc38ad7633c64ccc71558477fa9a504a867883fd6af7a19f425fc70"
 
 [[files]]
 file = "config/moblassos-server.toml"
@@ -4951,7 +4951,7 @@ hash = "7189bb61c58cb1030b8ee486e66abf694d257192248b9b3ac4978df2b1366f7d"
 
 [[files]]
 file = "config/particlerain/config.json"
-hash = "10f75ef386c1ecb715cb6e1bf98c4804f834b5d266af95ee112b9a4866ad4631"
+hash = "575e361fca1d5a0cc84fc3b67bdf6a5d385e29aa0d2dbe1f4e7e343fc2783b86"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -5559,7 +5559,7 @@ hash = "52289b88d7f9891b47ac21551fef6481345d5e695ddbf348f0a9f3304bf136cc"
 
 [[files]]
 file = "config/subtle_effects/blocks.toml"
-hash = "e4553c4913c0655ae10736be8f86d40598ed51a1c67e7d359c221fd209e4340d"
+hash = "a23f489cb44bde8417823dc4283428adaef3ec40950747c76fa6c3d4becd2539"
 
 [[files]]
 file = "config/subtle_effects/entities.toml"
@@ -5567,7 +5567,7 @@ hash = "213479a3849d344309a756e2c099eda45dc121062ed4a4aaa10becc73ffa0e6f"
 
 [[files]]
 file = "config/subtle_effects/environment.toml"
-hash = "c9590ef4b1d42e6c7b5dc6feb83450f5aeabc562e9d3af68291b4c8af2e89841"
+hash = "02c649f2e6e6075c981ce94320cde55ff253468380bc69aeb6ceeee492e41b77"
 
 [[files]]
 file = "config/subtle_effects/general.toml"
@@ -5683,7 +5683,7 @@ hash = "00c6e34f0adbb41db954d296fd7c55dc3412463a38038dc836626433dd7f6d92"
 
 [[files]]
 file = "config/wildernature-common.toml"
-hash = "7e260290b48bff57677240e54eb34d0ae0e2389bd3e3951dba17eb578428ae86"
+hash = "e94f2c88e7c85fa4e200970d4bfbb6a6851043ef568035f99d51483722c9704a"
 
 [[files]]
 file = "config/windy-config.json"
@@ -42415,7 +42415,7 @@ hash = "20633b6d0baf7b6451467e17a86c2a889e321d124efac28d1865c65bfb259664"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase5.js"
-hash = "108b98b82f7e8bb8b9b6fd57a6ff3ae956ae8dba745cc19bc788d08a12bdb77a"
+hash = "0174bf1d07e05cbe45411558adf580f45c25b8b892e9eef1ff0b6cfb6f4505ef"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_quests.js"
@@ -44566,16 +44566,6 @@ file = "kubejs/removed/chop_advent_calendar.js"
 hash = "7e31bce5a2a96f3d31a42e1d73a45e88fc3089bc485e1ceaddc228893d801f1d"
 
 [[files]]
-file = "mods/custom-festivity-0.9.34.pw.toml"
-hash = "0bf1023399eaadc16396bd44cfce99c2df602936fdd87ff851a198fef2901864"
-metafile = true
-
-[[files]]
-file = "mods/custom-chop-autopilot-1.3.4-chop.31.pw.toml"
-hash = "803d066f72efdc042a1050fe482f2f100ccb19926608af9f4ca4871f3cf03865"
-metafile = true
-
-[[files]]
 file = "kubejs/server_scripts/chop_audit_fixes.js"
 hash = "01d8239af91ae82a3b5dd9a7a19d2ae46a83b1f64d794b4675e74ca17bc0e352"
 
@@ -44598,3 +44588,13 @@ hash = "3a1d5282bc6198910fccc132b3ce670b3f90fa5b4772b6afb945d1005121c3bd"
 [[files]]
 file = "config/openloader/packs/28_Chops_Quest_Structure_Tags_v1.zip"
 hash = "43fb432b21fcd38c746a133226b3b5e2fd8a917b22ab05426fd26bc20fecb741"
+
+[[files]]
+file = "mods/custom-chop-autopilot-1.3.4-chop.35.pw.toml"
+hash = "83cee1b4726fbbe75ba472f01fb2c8f042ae7d8f7f115a5d854c91d6bf3f41d7"
+metafile = true
+
+[[files]]
+file = "mods/custom-festivity-0.9.35.pw.toml"
+hash = "1764f4a85c5234976264f28f5c737f223432b8418f3ad420f6c1b264eeaa29d4"
+metafile = true
