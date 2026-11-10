@@ -2,7 +2,7 @@ type = fancymenu_layout
 
 layout-meta {
   identifier = title_screen
-  render_custom_elements_behind_vanilla = false
+  render_custom_elements_behind_vanilla = true
   last_edited_time = 1794240000000
   is_enabled = true
   randommode = false
@@ -13,7 +13,7 @@ layout-meta {
 }
 
 menu_background {
-  image_path = [source:local]/config/fancymenu/assets/chop/xmas_title_bg.png
+  image_path = [source:local]/config/fancymenu/assets/chop/xmas_title_bg_v2.png
   slide = false
   repeat_texture = false
   background_type = image
@@ -25,25 +25,93 @@ customization {
 }
 
 element {
-  source = [source:local]/config/fancymenu/assets/chop/xmas_title_logo.png
+  source = [source:local]/config/fancymenu/assets/chop/xmas_title_garland_v3.apng
   repeat_texture = false
   nine_slice_texture = false
   element_type = image
-  instance_identifier = chopxmas-logo-0001
+  instance_identifier = chopxmas-garland-0003
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -116
+  y = -53
+  width = 232
+  height = 160
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = chopxmas-req-0010
+  [loading_requirement_container_meta:chopxmas-req-0010] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/chop/xmas_title_logo_v4.apng
+  repeat_texture = false
+  nine_slice_texture = false
+  element_type = image
+  instance_identifier = chopxmas-logo-0004
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in = false
   fade_in_speed = 1.0
   anchor_point = top-centered
-  x = -260
-  y = 12
-  width = 520
-  height = 72
+  x = -118
+  y = 5
+  width = 236
+  height = 74
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
-  element_loading_requirement_container_identifier = chopxmas-req-0001
-  [loading_requirement_container_meta:chopxmas-req-0001] = [groups:][instances:]
+  element_loading_requirement_container_identifier = chopxmas-req-0011
+  [loading_requirement_container_meta:chopxmas-req-0011] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = chopxmas-vexec-0010
+  [executable_block:chopxmas-vexec-0010][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = chopxmas-vact-req-0010
+  [loading_requirement_container_meta:chopxmas-vact-req-0010] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_singleplayer_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -100
+  y = -39
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = chopxmas-vreq-0010
+  [loading_requirement_container_meta:chopxmas-vreq-0010] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
 }
 
 element {
@@ -65,16 +133,16 @@ element {
   appearance_delay_seconds = 1.0
   fade_in = false
   fade_in_speed = 1.0
-  anchor_point = bottom-centered
-  x = -110
-  y = -62
-  width = 220
+  anchor_point = mid-centered
+  x = -100
+  y = -15
+  width = 200
   height = 20
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
-  element_loading_requirement_container_identifier = chopxmas-req-0002
-  [loading_requirement_container_meta:chopxmas-req-0002] = [groups:][instances:]
+  element_loading_requirement_container_identifier = chopxmas-req-0001
+  [loading_requirement_container_meta:chopxmas-req-0001] = [groups:][instances:]
 }
 
 element {
@@ -96,16 +164,246 @@ element {
   appearance_delay_seconds = 1.0
   fade_in = false
   fade_in_speed = 1.0
-  anchor_point = bottom-centered
-  x = -110
-  y = -38
-  width = 220
+  anchor_point = mid-centered
+  x = -100
+  y = 9
+  width = 200
   height = 20
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
-  element_loading_requirement_container_identifier = chopxmas-req-0003
-  [loading_requirement_container_meta:chopxmas-req-0003] = [groups:][instances:]
+  element_loading_requirement_container_identifier = chopxmas-req-0002
+  [loading_requirement_container_meta:chopxmas-req-0002] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = chopxmas-vexec-0011
+  [executable_block:chopxmas-vexec-0011][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = chopxmas-vact-req-0011
+  [loading_requirement_container_meta:chopxmas-vact-req-0011] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  element_type = vanilla_button
+  instance_identifier = forge_titlescreen_mods_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -100
+  y = 33
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = chopxmas-vreq-0011
+  [loading_requirement_container_meta:chopxmas-vreq-0011] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = chopxmas-vexec-0012
+  [executable_block:chopxmas-vexec-0012][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = chopxmas-vact-req-0012
+  [loading_requirement_container_meta:chopxmas-vact-req-0012] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_options_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -100
+  y = 57
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = chopxmas-vreq-0012
+  [loading_requirement_container_meta:chopxmas-vreq-0012] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = chopxmas-vexec-0013
+  [executable_block:chopxmas-vexec-0013][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = chopxmas-vact-req-0013
+  [loading_requirement_container_meta:chopxmas-vact-req-0013] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_quit_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -100
+  y = 81
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = chopxmas-vreq-0013
+  [loading_requirement_container_meta:chopxmas-vreq-0013] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = chopxmas-vexec-0014
+  [executable_block:chopxmas-vexec-0014][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = chopxmas-vact-req-0014
+  [loading_requirement_container_meta:chopxmas-vact-req-0014] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_multiplayer_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = chopxmas-vreq-0014
+  [loading_requirement_container_meta:chopxmas-vreq-0014] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = chopxmas-vexec-0015
+  [executable_block:chopxmas-vexec-0015][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = chopxmas-vact-req-0015
+  [loading_requirement_container_meta:chopxmas-vact-req-0015] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_realms_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = chopxmas-vreq-0015
+  [loading_requirement_container_meta:chopxmas-vreq-0015] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
 }
 
 vanilla_button {

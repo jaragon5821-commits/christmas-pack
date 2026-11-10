@@ -3742,7 +3742,7 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/chop_xmas_title.txt"
-hash = "0c57fcf738a0a5ab1b87e1eea04c4c162387278af4f2c1b7a778fb9bc55628aa"
+hash = "f43400fff47974f93bf45e3fe648eef61aa3fb6f76d9d2e2a0bb6942d6177c0f"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -4875,7 +4875,7 @@ hash = "c42e88638688ad33eeeafd2419831e81d56bfe9dc54c5e481613456651b7af2e"
 
 [[files]]
 file = "config/openloader/packs/21_Chops_Christmas_Music_RP.zip"
-hash = "4986b94a0395c7b257239735b09cc941d85661e64d30d6c4a3afa14d02befb61"
+hash = "c1d19114a549e49550a6b6f843e5aab2c752af66af14d906dd3a605b46dd7e7c"
 
 [[files]]
 file = "config/openloader/packs/22_Chops_Botany_Pots_Crops_v3.zip"
@@ -5223,7 +5223,7 @@ hash = "d953af1457a8cb242fa5cde67a51ce0ce8717031c4adc786b522118c2cc573c5"
 
 [[files]]
 file = "config/roadweaver/roadweaver.json"
-hash = "f5c168dc6fb0b1da1ffb4f537f04430828de111251eaaaae424eca2057d1e549"
+hash = "7fb076e88aaab960a91e09edad305ea90602fd04eb0d840d2cc9535dd3049bd5"
 
 [[files]]
 file = "config/roadweaver/structure_cache_overworld.json"
@@ -6739,7 +6739,7 @@ hash = "bdcfbfb56ee555b2019c8dce5981fe4192c0647be186e95c76734cfa48f9eb92"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_black_faceted_ornament.json"
-hash = "3a1558778503a2f21ba3e942065afa8363a6ceb1843c51489a37a983fb8177fd"
+hash = "8bb60405bb48b219c842142b7d7e007b5d95f56d47f2e2166ddec4696eb4a394"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_black_glitter_large_ornament.json"
@@ -6747,7 +6747,7 @@ hash = "ffe0bd2157f04ad7c61879b484e9d4cfbb29967281472027ccad7ee5718dc989"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_black_glitter_ornament.json"
-hash = "c584f29c198594be35d9fa118edd97416ee846ca7d93c8e547a62abb9e6390fb"
+hash = "0666985e564bb2afe5cc43fd790543bce84768021c321efe8ee79708a48a416b"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_black_jeweled_large_ornament.json"
@@ -6755,7 +6755,7 @@ hash = "45fff7c1b37099fade6259c7ff9e1344b240db406c02c4be244f2b257d65ecd8"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_black_jeweled_ornament.json"
-hash = "4c6563bd71e9a674bf1dfae11e9b882f245f411bf89c75e47fd6a9bfbed452f6"
+hash = "28d92ba2fd927a023aadb3324d6afae7488e66e7b7dd54c8e6d7a3374eb0e8a4"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_black_large_ornament.json"
@@ -6767,11 +6767,11 @@ hash = "cdac506e906a7fcdad6c1bb63a8f36040aa20f83732ebb7102694fa133e0de90"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_black_mercury_ornament.json"
-hash = "3cbafbfc4b6cbd742f57ac9ec0f4655c5b5da7a5b69b378b41a921ad8de71a1a"
+hash = "a5d6cb038c7c3e4322b386cb07a0ed8e4dc36c787b40873c051c8b0c8f41f1ae"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_black_ornament.json"
-hash = "d87a7bdc0865a1d2c90dcdb7f34270d7eb85d4f4b27ed7f9ed5b8903b690bfcf"
+hash = "6fd990b6fa76e2a2a315fef14a82f8c7424403c2cdd4aab3f36065acfbdd483b"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_black_painted_large_ornament.json"
@@ -6779,7 +6779,7 @@ hash = "1955aeb43f9ac09504054ec1f6e6d79a0b9388c060d0c402d96df9eacc7c700a"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_black_painted_ornament.json"
-hash = "b2248c56009e321db5376d8ff7f180d3ac3a06e1042e5c72fe89fb893112adba"
+hash = "0cafda105357724fdbf2a648a39c5d9b26006140aeac6697ffeef28e3b9540cc"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_black_ribbed_large_ornament.json"
@@ -6787,7 +6787,7 @@ hash = "a1fcd3b296a56aec044cf02ca212feacff47f2c1b782d1f66bc99086de8bdb2c"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_black_ribbed_ornament.json"
-hash = "85b7476d46494e4b9d79f0169a68447a573e386b15ee309dc7ef6dfaa6fe47b1"
+hash = "06748d5724b47d9300e3546024f791d375d00aa768e8f90eab168fe739cb71e3"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_black_snowflake_large_ornament.json"
@@ -6795,7 +6795,7 @@ hash = "af63e5e3edc12d9f364063afd2228a5b08ddea8c56fa61fc305f84633ac06ce8"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_black_snowflake_ornament.json"
-hash = "8b22dec1a28d20030a5219d837fbb4a4cfb357a6bbdfd5ee52f469d93b3d00cf"
+hash = "410c3f6f822f8de7b07842c33567ddac6e24c847764faea85ed00f182b906ffd"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_black_striped_large_ornament.json"
@@ -6803,7 +6803,7 @@ hash = "17fbfd8591f3f389613a5e73cc7b523d5d3fb1e29e8ad6bf2e037a0aa590de97"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_black_striped_ornament.json"
-hash = "c14992e6aa5583ff3ceb8eaf0861e1f4aaeeeb156e2b10e7cfdcc6d667fcc4be"
+hash = "834b6e8f2c61f7d020ef1886d5c8767cc3f6718d64c3f7a3c76c077a95392963"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_blue_faceted_large_ornament.json"
@@ -6811,7 +6811,7 @@ hash = "aa3980f3c7a44cd20020610755ca923855b19fbaa5b675b23c7f8cbff23a70f9"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_blue_faceted_ornament.json"
-hash = "b7f2d62b872ae4bc827342ab47f7887043a511e59589a0722538ed92a3e2fb3a"
+hash = "e04d848261fd0f05541edc968a22b1df1468750a6590a0a04200179b6a18684b"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_blue_glitter_large_ornament.json"
@@ -6819,7 +6819,7 @@ hash = "3f0477ac352136969da4771fe335711ef86d82ad8de6d2ce17b36594044ef970"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_blue_glitter_ornament.json"
-hash = "61113eed9c87f84c19f1d4e11aa6afe84fa0d7ecaa787d6c74f5ec9fb99946f7"
+hash = "e8ae55c50b447dded8c7f4ac75e95e737c933998b6348ccbc13f4bbd796ff479"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_blue_jeweled_large_ornament.json"
@@ -6827,7 +6827,7 @@ hash = "3195258bace7da0a27d56294915bf9a280ef21304ee960d9446fde7711cf0d4d"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_blue_jeweled_ornament.json"
-hash = "6b8e63e47cffbda6d0a8114979c0c8945a3b2a40df14f5d26e9f53bcd8eccade"
+hash = "5cc2730bb3239c4a29fcdd26d7d5f23ca2357076e9364691e7fb616ff25caa10"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_blue_large_ornament.json"
@@ -6839,11 +6839,11 @@ hash = "314844432d01d49c60588b84c3de4c3d495aa5307e2e9a4a5ea484d35cc01a7b"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_blue_mercury_ornament.json"
-hash = "10ecdc8f468c16a846e24418222f35a8f78c281c8c200067da4fd2b7c58172e7"
+hash = "fa3aa062fea573030f77561ca4e77642a024cc4d3d0b17ce88e46523d028c159"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_blue_ornament.json"
-hash = "0d68c108841cec1b89954a25b8a77645c50331ca35072c2f6be570e61a74bd51"
+hash = "b3b3a5e39385c3ff7fe93a1def965c380e1ebee89e87d2dbd4d404f0b51696a7"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_blue_painted_large_ornament.json"
@@ -6851,7 +6851,7 @@ hash = "4ae79c1305cc76ed493345b15d11d2c1ce3641ac1ac2398eb810ca4558172416"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_blue_painted_ornament.json"
-hash = "550016f4a06f3a41d20075521988e38218736680fa6d1d7ca427795de3bfb16d"
+hash = "a97ad3eb4c3a3852a6c7f7b8c54a759f4b780cba2456782ccfea4155c1bb2a60"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_blue_ribbed_large_ornament.json"
@@ -6859,7 +6859,7 @@ hash = "c933c0a73ede35d378e896b3712b44f70493e5b3f537f30be1628c087143bc2a"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_blue_ribbed_ornament.json"
-hash = "e97844e5c18f4daa023154e442fb6b399d53ec773d540fb1e4078b7a50162682"
+hash = "241bfd75def53616f6c8dfb304577b08ceb2f9d0babd921838a0202e631c86f6"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_blue_snowflake_large_ornament.json"
@@ -6867,7 +6867,7 @@ hash = "35de9f4bd633f18d8b61f4c204ea08f996feff971b503c364b5410569413538d"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_blue_snowflake_ornament.json"
-hash = "5a3cbeeb6d231c81f57f0f4c1d41a7984c3743a6a73a91a5e90fa73a32d9d501"
+hash = "774d32c086e618c4227563c5f3068d13cee8d56c7167692c762703b3d27346a0"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_blue_striped_large_ornament.json"
@@ -6875,7 +6875,7 @@ hash = "0f3b3d2cd5465aca3e66c178606c586ca79a961b86013ac4b76bd0f2233bd52c"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_blue_striped_ornament.json"
-hash = "b2b912f7d319dc88156fc15bc6043ad0cf1ab8577536bd77a40d70e002188647"
+hash = "de5d44eab0db66737c10b81874156c009509623c05e6faf40983990cfaba346e"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_brown_faceted_large_ornament.json"
@@ -6883,7 +6883,7 @@ hash = "40582a436ef57d8d7bffc9d3e30fe6947f8c72bcc8972773f50c60f0ee58a0d3"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_brown_faceted_ornament.json"
-hash = "7777e5ed9ece3ce4da05bdd7cfb2f429188042a87e4bd498a28abebfc8d58370"
+hash = "551f2ea4c16463f39063a55ea940538d65887278e440ecc37d25589eac6d612a"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_brown_glitter_large_ornament.json"
@@ -6891,7 +6891,7 @@ hash = "b1d20812d865f6288c02993212f65d047bab9bdd10e77d3a31ea288cd8f63a55"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_brown_glitter_ornament.json"
-hash = "9f0a8372eae07cc63140fbac844018d5d9f3a22141550d19d766fed2708c76c8"
+hash = "d8666a01c2e3929b6322a8b3a5f6b53ead18de4a00f72f6957c63c092360e946"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_brown_jeweled_large_ornament.json"
@@ -6899,7 +6899,7 @@ hash = "495920cd4f3c279643369d5842b0235d98c044501ef0ebf3fe70705584637bc1"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_brown_jeweled_ornament.json"
-hash = "9011178cb8669041eae684ef4b6732b5413d4240eef0db671669645d6e17ce33"
+hash = "d49e1014adccf3db9e549479809a5ccd484bbb6853c59f7e93bc0d6280d211eb"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_brown_large_ornament.json"
@@ -6911,11 +6911,11 @@ hash = "1d5d54c05b99658d1653e42c485573641a6183af7ceef732d5c68944d15d96f6"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_brown_mercury_ornament.json"
-hash = "4fdca29e67c5a0d3ef0eedaad23b686f15be46025d9418e4867470feb47dc501"
+hash = "fbf67635dd06e4a32c54074307d2fd8ec397a5b4b9528169f85e0380e1146233"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_brown_ornament.json"
-hash = "3c733af3bd2d298f2800b56a1662ba1771ebdcc7c4d70cbc4725d2a08ee5eed9"
+hash = "7114a94e5b1e6e11d7acd54a358bad4d0b6385b31bcf468d82cb6af80a548e93"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_brown_painted_large_ornament.json"
@@ -6923,7 +6923,7 @@ hash = "55c54693bb2dd8559e584437f88056dcc52bd6db1b0ec2cced16178fe2bcdbb4"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_brown_painted_ornament.json"
-hash = "425fb5d615d41c0854bbe1c7007b8fd49cc0a15709daa4186d791583d6c1a78b"
+hash = "b21d15620dea63cbd78e9d01eab1326490bb9ea0e12cb6954ee25274425be13c"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_brown_ribbed_large_ornament.json"
@@ -6931,7 +6931,7 @@ hash = "cfbba3eae773255f5e747f5c82f9a03e46506227f3418c7a862288a2838c874f"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_brown_ribbed_ornament.json"
-hash = "7e9bc5c37361f28e512d831910e640e33275d3593acc90d47596f2b3f0a05824"
+hash = "8fec46d622f18bed5fbdaa36e63da0586fda0aee684cd2eb8e2b014aeb503faf"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_brown_snowflake_large_ornament.json"
@@ -6939,7 +6939,7 @@ hash = "fbd1f7d9d5afc31588e2061b8579f5c398f52be31ea43eaea1efc13482d70d14"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_brown_snowflake_ornament.json"
-hash = "7df6ee9dc48b2d08daf1411d1ff4bc4b47cf6664f20408563e9c5201595372e3"
+hash = "b4042ac04b96abd3070a40be8aeba96ba589d41bee63fc3cc526451c53397759"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_brown_striped_large_ornament.json"
@@ -6947,7 +6947,7 @@ hash = "227d32bcc78a9c2ad8e1c48d2e91cfb5e0126f67ebb963ca8b80e284ce496928"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_brown_striped_ornament.json"
-hash = "60293984994e5fc60d56c7e4ff4ba8cedd65e243073e49c25af9fd225570fce5"
+hash = "3d5d738097113d0b13e331797fc17454b958480993be1c94c58a592e8de102fa"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_cyan_faceted_large_ornament.json"
@@ -6955,7 +6955,7 @@ hash = "29aefff1e2901b4662732cc8f3923020806724aa4f8af6939f9591bd6120a488"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_cyan_faceted_ornament.json"
-hash = "8977187f278cb08dea82209b24409f0e68bd37ec1e964b211e734dc6dc36c12c"
+hash = "72fa49c2b38e1e53203d77208a4d55a554c49046c1bbc00a2e2944ef401d4826"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_cyan_glitter_large_ornament.json"
@@ -6963,7 +6963,7 @@ hash = "bcedf34e6fd5fa6f6cbb056fbb717e60d8ef85ebc357178645c4039868dcea3f"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_cyan_glitter_ornament.json"
-hash = "cbf82480d843f4ed621b11e9fb31bb792b623fa9204ce3632c94d47db712d210"
+hash = "14f935f6fb2a404c9cbdd8009cdf635f843555e5df920a92aa3642f937ba44fa"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_cyan_jeweled_large_ornament.json"
@@ -6971,7 +6971,7 @@ hash = "41de05fbe7324be00801ba7b06b2dedd8f89324da413192e6cb6ca01161fda30"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_cyan_jeweled_ornament.json"
-hash = "241fe14cb5282c854600413340cf367cb1a4c4a76b1ae5dd945e10cba2ced9e1"
+hash = "e1d086b971e26b792ac3ba3d7600affc00c1a11cc205b7741aca670d3c8be804"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_cyan_large_ornament.json"
@@ -6983,11 +6983,11 @@ hash = "0f7b4a7d427fbb30cd050385ceb59dec78068aeb5357d6a30f1102ac31a0bded"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_cyan_mercury_ornament.json"
-hash = "fcebdbd86652761e6ad2686bf5bc22918e56ec2044235ff589877a7c026802c3"
+hash = "4424934e34a7170160f9e9e5237a98339f8dc5fbd261516d544be935e13eb2ed"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_cyan_ornament.json"
-hash = "de37639960e798cc213910d557538f6df7a8c2a6e4d590fcb251193d460ae2c0"
+hash = "15aa4efa2d1a1c1d84619bb5537046df348512cdda61e43a95841239ec4aed6b"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_cyan_painted_large_ornament.json"
@@ -6995,7 +6995,7 @@ hash = "fdf8ca76f63f1d814ee8c6672d45597ab40c77c1f4d3abb5fda050646fe1062f"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_cyan_painted_ornament.json"
-hash = "22c463d6b15532388c419ace51af308946502ee971c4e70c98da39b2e6a915ff"
+hash = "c9177fb557ffe3b08f1e7e5d95b7e248c9ec514c29597fee1ab45dedc45022a7"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_cyan_ribbed_large_ornament.json"
@@ -7003,7 +7003,7 @@ hash = "11c04e7b7a7d35a1c0cd147149c0ab467f10f39b753d0477a3e9d28f04a64422"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_cyan_ribbed_ornament.json"
-hash = "e0fa8db6e2604c88898216ab00fd9ecb96472a8a6bfa0cecf362230ab4c3dbf5"
+hash = "244a70335faacb0d64accea93bb6bfb6481289de4d9319a5f1bc6798d5be5c30"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_cyan_snowflake_large_ornament.json"
@@ -7011,7 +7011,7 @@ hash = "8c15e263284c677cabcd87c0582607c8fe67cf20694f7f649c392e2157004db0"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_cyan_snowflake_ornament.json"
-hash = "225ce0b937b33c6d7dd6d8a8d4c9db6005bcbaadd7430d4843324b4c4092cc00"
+hash = "1587547a768a7c1e86e7548b38757ed796cfe47946bb434cb84aaa0fe75edaa6"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_cyan_striped_large_ornament.json"
@@ -7019,7 +7019,7 @@ hash = "a4a2fa9eb4442ee0bee320aa79c3232765e57b5fe03b418fb50865143d828727"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_cyan_striped_ornament.json"
-hash = "09daadcedd615eb313872c46b844ecad89d702e0046149f337d93bee2da210c6"
+hash = "c9f99aa91a1a464e9064311a425a1d2234b533f4b1e47e273bc6544ee0823146"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_faceted_large_ornament.json"
@@ -7027,7 +7027,7 @@ hash = "4a68a2577c49075c6b186d94370d565428d03abe8ee9fbc2fcd86b81aaaed8fc"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_faceted_ornament.json"
-hash = "be022f1e45d34b55315c868232925788247831f25d0a5b1e1fe4495acde63af0"
+hash = "4f816223e59177d0f5125cddb8d7e3572a4e7356d29c5970ff3dd5ff50b825b7"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_glitter_large_ornament.json"
@@ -7035,7 +7035,7 @@ hash = "a8ecaacf6d7ca15903dd98df09a3cc60453f5a8f13ec964fcec0592566b8af92"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_glitter_ornament.json"
-hash = "b826aa8658e1e05dcb673f1ba3125fe20c5ce61d7d26e6eadf3e21863fa0930b"
+hash = "47ce725938b0a865a76e3502c4b61864121f7382e0aa753f0e94fbd94999bc25"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gold_faceted_large_ornament.json"
@@ -7043,7 +7043,7 @@ hash = "4c35801a5d30ef7ce08400fab32e1a242bcb464baa2ac2ba518dcebb06814d0d"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gold_faceted_ornament.json"
-hash = "4fef2e5739f81804e585fbcbbc2e7af99ffca6033d4df09880cb5ae5d3b3a420"
+hash = "663b871062cfdd39c51e1b272fece2e2c59573c3a9775dc44e13168f878b0ca6"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gold_glitter_large_ornament.json"
@@ -7051,7 +7051,7 @@ hash = "14e04c5882425e88a6be1f9a37b22577ca8dd0020ee1c99b0fbc914c9d6c673f"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gold_glitter_ornament.json"
-hash = "4113b47e0e8c5d6c7ee131048e7742e0a24010f7bcede69468719834f7e7d583"
+hash = "b7a03030b5568dce92ffd8876857b93d92881ad6cac1c6a01fa7b2dc13faf7fa"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gold_jeweled_large_ornament.json"
@@ -7059,7 +7059,7 @@ hash = "59f16d588a6c599faa874258ebb9a1fab58c735135f8e32e00005826344608f8"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gold_jeweled_ornament.json"
-hash = "0b3aa93f47e64ffd63f02e96ba240d72de81e5d44d79b483810f2cbf2a6b9593"
+hash = "18bad9f11707dce522f1a2a0cff8d40be908cfa6d64ccb27a398726b41a7eed5"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gold_large_ornament.json"
@@ -7071,11 +7071,11 @@ hash = "a326bb9115dc524bbb735cf7e7bcadfa292ec4f21bedc489971aaa8857a2039c"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gold_mercury_ornament.json"
-hash = "1da3561790cb8495db9016a532fc22131fa90c531af8a56accb97c0e3af226bb"
+hash = "a43b07cbe36f5e6953f3d95561c784315d45173fc3bee455d37bdc9e285e6640"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gold_ornament.json"
-hash = "7084c0b4a7d1d9881b4f347d6c86846d2ec747f45271d35332c34e73fce53660"
+hash = "4a129827160ff3c75fb6b1882dadd3cc6698117ebeb570d8864430dc69f8e867"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gold_painted_large_ornament.json"
@@ -7083,7 +7083,7 @@ hash = "64726155ac2c60489c4153ccbd33efd7f6e398b35b81daf9c83f13840dfddf7b"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gold_painted_ornament.json"
-hash = "bc46ec92d4b9e7f043429e579ba102766b6fee76c76d1cc0b43f4e161da513c8"
+hash = "173cb42ce811ada942c304f14c855d0c9f7d4f8423c3c53a620659c3bb7ee546"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gold_ribbed_large_ornament.json"
@@ -7091,7 +7091,7 @@ hash = "5b24a421caa78a15a06151efc33febed7756116205d06552f0f56fb05d96c757"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gold_ribbed_ornament.json"
-hash = "b0fd36fdee2300e92d67af6f1f7009a07a68f72d552cc583517a3797645326ba"
+hash = "ce70af03bff5ace16f1fd138c14935df2a6637ec24f83ad78341f096a4df06f0"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gold_snowflake_large_ornament.json"
@@ -7099,7 +7099,7 @@ hash = "b36d0dc4891dbd61c1ecace200b8bd50e318f37ce26fa98bb6decf54c1789a82"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gold_snowflake_ornament.json"
-hash = "6f8ef13d22f7d17fe262cc39ab3e988a061845f3a5169c8551b1ad44cfc4a237"
+hash = "5307a2f84dde1733d84f3c9e8b0a08776a3d29a0cf328d528627cdd5b3bcf0f0"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gold_striped_large_ornament.json"
@@ -7107,7 +7107,7 @@ hash = "cb259703bbe6a070fec3dd3cc9f4ff471b26b71f958f13b0fe1afca32c109d4b"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gold_striped_ornament.json"
-hash = "27205e3b3113f68f59665fa8d3bafcb0d9fa8591c54d0d0b862a70cb0c0909b4"
+hash = "38013372a0f33416656735eae51125a109a0d1146a8dd7fdf18b36cb1355f896"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gray_faceted_large_ornament.json"
@@ -7115,7 +7115,7 @@ hash = "51181af77c2adcd13a397c4aff93d95273a9dc5d17a51e8fcd79c96500c02047"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gray_faceted_ornament.json"
-hash = "7c2b3055d53a08026c676caf51ec27d08857f4e52612b183d0fb9f3c60bcbc33"
+hash = "3784282db7ebe9d2ac2ac8550eb1fef954ac8023e610ced6f37a4ec79fb6988e"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gray_glitter_large_ornament.json"
@@ -7123,7 +7123,7 @@ hash = "d9bff56a264ca2229bffffde0817ea4829f3c3fd0d46c83ab984d948da24bd55"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gray_glitter_ornament.json"
-hash = "701167d7ffe228b5c932873623378a8782eba479dd9dd7227e4f2e1979e926cd"
+hash = "4e132196db24e6e8897816c38e92520010235a3fbd4d4861cc76865816af0d5c"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gray_jeweled_large_ornament.json"
@@ -7131,7 +7131,7 @@ hash = "1432dde31d87faf962739e08eac1ad41770e779ac889dd826dfacab995cbd2fd"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gray_jeweled_ornament.json"
-hash = "e87c03a1efde9c7c1458774da462f7d11ed96fba2c53d3a851c03da2cc0440c1"
+hash = "4f6729c9517b8ee17343b1f6bd8eab2d307445c8853bde0f037ec7d32da9ed0a"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gray_large_ornament.json"
@@ -7143,11 +7143,11 @@ hash = "cc20cd24f0b5fe779e9d7db8530529bbdbc48c4dc9757a339439d697f01b554a"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gray_mercury_ornament.json"
-hash = "d430924fc86f4c60ad4707c4fc37cf28b09c227534427e66ed34f574aa7c37cb"
+hash = "f2834c7528b928719d0377c44b0395824cafa026245a7938baa5875769b718e5"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gray_ornament.json"
-hash = "c76941235b6e3c51bb9f1dba9d1b69c7dff2870f2e898014c571cdbe713875c7"
+hash = "8d0cb00565d03f64692aad540841c19e73908e9f4b4649d7c418362db33e72ba"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gray_painted_large_ornament.json"
@@ -7155,7 +7155,7 @@ hash = "cabb7eac7ce59d785b31d6fc4e0af953f8ba6d3dcb32fd21aea3f56761f64edc"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gray_painted_ornament.json"
-hash = "f9bae79d0317a62d429c33c89284df5e012f738ed260018a2025fb7acfb611bd"
+hash = "d4b78eb6583f6fdc1c17897885ea6407614a5aeff4b07198c621b837b1c4cab5"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gray_ribbed_large_ornament.json"
@@ -7163,7 +7163,7 @@ hash = "bfd0bbffa68c0cba10d623ca410303e94cc3a9199675f240d97aa9d77f589f46"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gray_ribbed_ornament.json"
-hash = "b69d2a1482abec819ebd262abe10d6a81498286cd92f5ef99d7fd4eb66ab726f"
+hash = "70774ebf5bf3d55beffb0eada0826bcac7a481e983889e3929b88f8fd28232d1"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gray_snowflake_large_ornament.json"
@@ -7171,7 +7171,7 @@ hash = "64fc655a2590753fbdd3b9479b3926ea095467b5beda021dc36ab2b0907e67b7"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gray_snowflake_ornament.json"
-hash = "b953cba5f688dbfb9bd7c91bed6fd6087bf7bd4145f0a9b82ee50ecbd0f933b5"
+hash = "0cfbd1f872aa910cc51c0217ef0b9680a66544cdb41f2c471a146d32a06efe76"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gray_striped_large_ornament.json"
@@ -7179,7 +7179,7 @@ hash = "b784c08d918a20b15b07ff6718de664ba3c17c1d04a3f48cf23d9f4c7deecb2e"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_gray_striped_ornament.json"
-hash = "a8ef93c68adb7bf4fa985a5babc6ed2d822b5947ece4b08df223df7d6894d160"
+hash = "4053138384df084ba1910f069c4aaf97324a1296b58c7c81c3e33a32e50bdff8"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_green_faceted_large_ornament.json"
@@ -7187,7 +7187,7 @@ hash = "e2603d5c01b28b64113ec89082e1072b3de40b2027334239c0250f904fece688"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_green_faceted_ornament.json"
-hash = "770bcdc48a74648fa2f45e8c506c8c693fcdfc8d407d152ef87bdba213fd7278"
+hash = "0ae4913d0fa7ff6204420cd9d2ef53d62188720aaa56b18ce40d3ae61e12fae6"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_green_glitter_large_ornament.json"
@@ -7195,7 +7195,7 @@ hash = "ba8c0ed58cda0a24f701c25136d724ec2c1260336e66ae622da6dba8d84ce821"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_green_glitter_ornament.json"
-hash = "e2f32c6bbaf19932db5d71caf5032596240c49b460f0d75f3bab311ecaf4847d"
+hash = "1fcc227b8de3e5271816f28da99be5a1d1fbdf35140b02f729341351df18c463"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_green_jeweled_large_ornament.json"
@@ -7203,7 +7203,7 @@ hash = "b0665fed1caf2faf3e094966ef68fa838f23ae9f7d23066de925ff4d4e3648eb"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_green_jeweled_ornament.json"
-hash = "7db5b3e2b68fbb11859ef26a935ece8cb120727ebb3e26c8547becb538db30e4"
+hash = "c4b17cbc5ce269cd805f965f8780b1c529a6c3797bb12905698a6cd20aee87ab"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_green_large_ornament.json"
@@ -7215,11 +7215,11 @@ hash = "d0558ad54b0ae3d367380bba52e366717cff4b9898f52381ee9c8bc4e049b172"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_green_mercury_ornament.json"
-hash = "c9c9ab9e89bc285480f97dff70ff04c19bc390c95e87b03144556c52ad7b1fb5"
+hash = "6a31275f756f726c24937ffb7fd08e9cdabf34a2222f0ffa875f3f296f8c95cd"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_green_ornament.json"
-hash = "df06a84a0fa8f1b9657c4fb75f6e498ef5aa9cd37c605908be455556a80d5408"
+hash = "2f5f29253247fd46f8a357a6084b2380893a78084947530101975c6486c61966"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_green_painted_large_ornament.json"
@@ -7227,7 +7227,7 @@ hash = "57f91783211c35232a839a85f04b342cac29cf2dc57e4f3ac24eeed488792358"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_green_painted_ornament.json"
-hash = "f9a0abc25dfb974b0a27017b99596dfb173b022d0452474ac8f582a33c51f2fa"
+hash = "627ebe0095b884ab714933241ef832e9bca432da1259e31e1240b08470474277"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_green_ribbed_large_ornament.json"
@@ -7235,7 +7235,7 @@ hash = "522780f749c28f85c6c9e4d8d111558f088ebcffcecba43ac883059a618752f4"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_green_ribbed_ornament.json"
-hash = "12493b6faaaafe570c4b0acd8982e7e14befe7e021758302758f753421ff4fff"
+hash = "7fae3b4bd0112e8b78d7b6bf618fb3f49ccfbc73f6394012cd7273f156b621ba"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_green_snowflake_large_ornament.json"
@@ -7243,7 +7243,7 @@ hash = "bf5e107ba13d9c58ed229ec60e57b62af7baede5f71d2bca992cef48d648f5f3"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_green_snowflake_ornament.json"
-hash = "9c9aa2a227a69575bd655fc76c355773adfab3a010c089d5dffef09c0d96c454"
+hash = "f1a2cd92784b619ae2cf64074adfe1011acbf4ffad2ecf920db9b589f4917111"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_green_striped_large_ornament.json"
@@ -7251,7 +7251,7 @@ hash = "8fbdf8866ad354dd7925cba06df0a337d0d5124f01d1716b963c4b8d219c2b24"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_green_striped_ornament.json"
-hash = "74a584cbc357ef0f1bda955e7eecd96641d0a92f72e957f455987346927d2f7b"
+hash = "c3dac43ecbf6b2f55dc5b98848513b33bdbec59cf18070bc11d24d1d3dc851cd"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_ice.json"
@@ -7263,7 +7263,7 @@ hash = "32b671049fb931a0d7f01c3fcef4fc2272ec9081874bc09d635d54f083bcdccf"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_jeweled_ornament.json"
-hash = "09276314a31a3d2363309c4ac5123eb981810480735eef93ed0b161bc78a50b5"
+hash = "214365ca41dd968072ff237a6d57b51fcb1f7849f2bb60981222b1858bb06b50"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_large_ornament.json"
@@ -7275,7 +7275,7 @@ hash = "1c5469523404a1a0cb59963f94a0237183808792dcb50696276a96e230d06195"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_blue_faceted_ornament.json"
-hash = "f189f8016ea741906fe41b7b9b41a9a719c165a67399639589edcf2df004260d"
+hash = "9273c31cd1457ff27b9a4f46a3d9da9a60954e01b31d7a78e08b5b9baccc8d78"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_blue_glitter_large_ornament.json"
@@ -7283,7 +7283,7 @@ hash = "eb8172f16e568e1274c822f1769ab14a7bff91abc5d71ba0cb7cd6a2793787e0"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_blue_glitter_ornament.json"
-hash = "fcd9802f73144165be83a83422048d1dee7c3d3e2c1a7129b1750650755bc9cc"
+hash = "cef5a7facb1601710f40343f998fb0eadd1f45d1187649f695161dee26b91d38"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_blue_jeweled_large_ornament.json"
@@ -7291,7 +7291,7 @@ hash = "915e2bf592d21920d2a41312a0430edbea4c0fc1ea0785caaf194f23d7ae307c"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_blue_jeweled_ornament.json"
-hash = "fd09689e5f6ae4a4b7182288a1e3e0659937af7af53ecc4f73bf6767e126510c"
+hash = "97ee8496879713d58b0ad45c9be6753f0e4ee352b33a9b2b5500d2781bacc844"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_blue_large_ornament.json"
@@ -7303,11 +7303,11 @@ hash = "823641ece7d60c83949f4c3cb6036524f99cf8641ced3e684a53e1ec06c65211"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_blue_mercury_ornament.json"
-hash = "7be150aa3f5d668fe7182a19f0d29a43221c9ee7201b67c3325e249d317775cb"
+hash = "2c1de9f6b6d5428ac2bfa914e095635e76dd155f1c5df9f83535abdbb45dd021"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_blue_ornament.json"
-hash = "47852d1a4f687d6badd8a7809d013270dc69ed91e7a246e1ea059db5cac78ce1"
+hash = "9a2ef82b462612da958738eeab70ea3b543c8be05f44e407a39d2602955a539a"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_blue_painted_large_ornament.json"
@@ -7315,7 +7315,7 @@ hash = "5cca74e072c0ed7d3413b3902025c63c768908f26873c6c8f3067c871eea18ee"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_blue_painted_ornament.json"
-hash = "ad1244fd29c3b9b70068240c09554ed80807eaaad6c50ce56572e9ddc9ef190f"
+hash = "93eaf44b89bd6b5075f48dbb4ecc494a0cc51d102fbd673c2c540ababe56cf8a"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_blue_ribbed_large_ornament.json"
@@ -7323,7 +7323,7 @@ hash = "9b9613a16be1047ce99dc675aa7fb767b6a728d7f61900f24ff3afd1f3d2b82f"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_blue_ribbed_ornament.json"
-hash = "87874ef6207be27d2581762a05ee8ba7bdb8a2bebb82b59f2ebb0a6aef94ea04"
+hash = "a45f8c42def98ab21e8683e7c2f6bf239beb6140e44e5c61fe05c035904d944b"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_blue_snowflake_large_ornament.json"
@@ -7331,7 +7331,7 @@ hash = "fc25e3e21041e7fe12aa28cef079c0eb69d9665d9501884364b9c84e44ef5efd"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_blue_snowflake_ornament.json"
-hash = "0432df5a0cc288304691647195adb517733234c0d17f74b20023f2baf7571765"
+hash = "02bb8cf95db86c63bd5daa36ba3f4d80dd30b013326ad12471425a59d2292811"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_blue_striped_large_ornament.json"
@@ -7339,7 +7339,7 @@ hash = "32f0b14cd6a599e7d583e6d66e8bbc892f815d91da3ef6b57f1df6395fdb9c25"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_blue_striped_ornament.json"
-hash = "efc7ea3aaae38f9665c03501ec41d63ffc7eda93ff55b4261463568bb96fb62e"
+hash = "813891dc1332414cc6197fe65b85247adb88590bc16ad548bc4f6db3657c6926"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_gray_faceted_large_ornament.json"
@@ -7347,7 +7347,7 @@ hash = "c573963ddff402fe04b6e2c4f5c4c86e3f62c474a8253c428e04d1ffd3d31ac1"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_gray_faceted_ornament.json"
-hash = "45c059a399a6b18ef0bf196197d110353cd439d3a49696435791bf1c616cf03d"
+hash = "ae38f7fcfbb368ae589bb9bda01cd05d46f28f3fdfbcfc28404fe4c2fe19fb8c"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_gray_glitter_large_ornament.json"
@@ -7355,7 +7355,7 @@ hash = "65b0d383332c1555f7aa2e01997697e9b05f8b6bca3b868e47eb0b3d1176796c"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_gray_glitter_ornament.json"
-hash = "259f80c73251b5ad59051c66aba27db572cbea5329db2d53a7da6f80299da896"
+hash = "2fd9f3ea862c112b0988b4bb70d5fda6a9a0ff36de0aa1fed602de4339af3cc7"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_gray_jeweled_large_ornament.json"
@@ -7363,7 +7363,7 @@ hash = "ace388fd985a8711cfcd60a4532fb513ea37ef3e07531e1be281be7de7ca4e65"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_gray_jeweled_ornament.json"
-hash = "85e0cabf12305432d171a87eed70e9d7d0bc926fe9de327706dfe89a2900333a"
+hash = "6f3129689e2e7cd34d6219cac6f64542b02f8ea9a5a58d02ddf8eb752a44dd2c"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_gray_large_ornament.json"
@@ -7375,11 +7375,11 @@ hash = "7c866cb36300712567f721fcb206dcb802ee536768fdbb5658c96420ff42a6fb"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_gray_mercury_ornament.json"
-hash = "9f1b4eaa7eccb3985265c58317a532e0b944ab3b7bd84807d84d575d4169745d"
+hash = "fef0607608ca0b7475836295de9da58fbd67d881493b445ada7a7b93622be52e"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_gray_ornament.json"
-hash = "d7e8e513b1ee8e7224d87d84654f379d49acd36409ab1ee1286c67dbf1353a17"
+hash = "68c81ec23ded56e6aaf2e6b577bc326d8d0a5f28f0be8df60df8f59134d347b7"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_gray_painted_large_ornament.json"
@@ -7387,7 +7387,7 @@ hash = "af1e9d9220967b85c3f7f61358f24c7ca14c28c2a039fbb6b3b01645f6704f3b"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_gray_painted_ornament.json"
-hash = "4d23074b770c3ad68f57f90213988ee2104d883926a4ebd255b63170565eb88f"
+hash = "5036733b5800f69367a461a507234219cf05feb9d8d278b492d4456284156639"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_gray_ribbed_large_ornament.json"
@@ -7395,7 +7395,7 @@ hash = "9a4eff4a52e8b33f3a8a13732757326c265a6b9fb3b33ec0f41ca7eee58a252f"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_gray_ribbed_ornament.json"
-hash = "d22f60b0bdea576f2f2da1546ba924526bbf4a62c8e17ba80d0283b160889817"
+hash = "f3ffa4cda59c27e535acf3f7879e515bd5c1c2ade07b6cc3275dd8d133396ec2"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_gray_snowflake_large_ornament.json"
@@ -7403,7 +7403,7 @@ hash = "f3eb64c8945fd91cc367ea155b30a4608728e71e30cd623e21ab2784790da611"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_gray_snowflake_ornament.json"
-hash = "08eea6fee67e5004f02e6762dccb3aea59540ac45c0e4f5638143c901ed9b020"
+hash = "4f36ada7cb13b64d6911ffd0fcb0db4a3a8749b2ef1c179e1a3c13b4d7fecdd7"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_gray_striped_large_ornament.json"
@@ -7411,7 +7411,7 @@ hash = "c0d66c0344ff5a5d3c03af4804f290ad33082e4f7fa9049ad34c8835e823fab7"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_light_gray_striped_ornament.json"
-hash = "3a986bab54a056ecd27d5a40e3cbb0cf4369ac3844d52ee2807aa8adf6a43320"
+hash = "125c7db938df66b1c90d4aa7b791a562c6ebb3d52e46e30ab20cc6ba39164c83"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_lime_faceted_large_ornament.json"
@@ -7419,7 +7419,7 @@ hash = "47a1ef39a4f1c9a71f2d2bc8cf01c4b796ff75a1e2a4dd4a086e9e2e5f3a44be"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_lime_faceted_ornament.json"
-hash = "ed728afae2685d91d9cbc68540daa0198b9e774779bbcc6f4516bbbd0aeaa2f0"
+hash = "76c5e6c7149fd8cbbdd9b515fa198dd67b509dec9b916288a68c05bd5cedf085"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_lime_glitter_large_ornament.json"
@@ -7427,7 +7427,7 @@ hash = "2241b50607b16014cdd1f75e62728390826750274db2e310d1e64402d31ef486"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_lime_glitter_ornament.json"
-hash = "9aa1e1dd9f035741a27112ea0d8451c67c5577b7e2fcf5d9c2b40a7be2268532"
+hash = "b101acd918d9ea8073a4039a492e9db1e0c7f5829dbc80ce784632e83e767c7d"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_lime_jeweled_large_ornament.json"
@@ -7435,7 +7435,7 @@ hash = "19a9227fc7749f94f4a40bc5254dcdedd1cc556d5309e98911d45120c9b7e6fa"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_lime_jeweled_ornament.json"
-hash = "31944dae97139a8e99a2ddde1c95b0b3227979319e9f0410a20c28fccd25308d"
+hash = "2744c31f031eddbacd48bab5f2d13715de097b23b1f96c95a36be52f2de46dc8"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_lime_large_ornament.json"
@@ -7447,11 +7447,11 @@ hash = "fbdf9f69cc59e40a8d58829d1668a3d3b42e49db17bf85494693dc83dede176c"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_lime_mercury_ornament.json"
-hash = "d8b5f0c07023c9907ad214911550dd950637b9da114a16fd57a58b353effc243"
+hash = "3ecf66f52dccb3278960a7758bee28687ce20a234ad6478dd97a4e853518eb79"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_lime_ornament.json"
-hash = "7054dac30cf7a954c26adf02565a4a6178a4eee32e6e4b018e4bfe6acf5b8874"
+hash = "989a15fe364c14b68a70a2371712a9a8dfdf5a34a10992ad27f25751ad73022e"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_lime_painted_large_ornament.json"
@@ -7459,7 +7459,7 @@ hash = "9a1e392d639ef8a78c311fcc0472a58d54b9e121a783b8d0f0e87359d8917db0"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_lime_painted_ornament.json"
-hash = "9513b3c681af820d26afe6a3228332ef64a25f67da23b943a6eaba0a96bca31e"
+hash = "cb551fc65306bbdfa7c2a70aa74788b24b4a404db19b1d136b029b91b7c6e0f7"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_lime_ribbed_large_ornament.json"
@@ -7467,7 +7467,7 @@ hash = "bb001d05861898efe18de4c26d0b754f6c0356b83cead8124863efed06fe9950"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_lime_ribbed_ornament.json"
-hash = "adedb3957068428f8a207c1529c5e1fc612659177064658cb092dda108d4a7af"
+hash = "562387b0c649d23243970e56a567f623f3db424bbc029857195a5d8cb848ea9d"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_lime_snowflake_large_ornament.json"
@@ -7475,7 +7475,7 @@ hash = "94b9128a7bf2232abda724b9246dd0fa8d68960bea78cefe3577b77296aff861"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_lime_snowflake_ornament.json"
-hash = "1f7af89988b194e4e40c37ec79b61f67ddf29c2a484006de9ea5fa7111f54e7a"
+hash = "93b821bf56a1962b95abe7c0d183db3dab48a8b9ffcf803bb905c89c728f482b"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_lime_striped_large_ornament.json"
@@ -7483,7 +7483,7 @@ hash = "38b8a48d6ea2f39dccb7f0c0d6869d617de9d0b9393d68d3a819c200f13d4259"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_lime_striped_ornament.json"
-hash = "4534e63a8372070dc44ee25c8c100bb7b158e2c5d0d571f26fc03459bcb627b8"
+hash = "0a56dc9937cd4404fb97dedfb6dd6c652f6b6a089b07a63fbfb26fe8d8e5a127"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_magenta_faceted_large_ornament.json"
@@ -7491,7 +7491,7 @@ hash = "b185bd5853f17891ca8ce936cc4a1d919a5945aad3e392df6d48177fac99ecc2"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_magenta_faceted_ornament.json"
-hash = "73acb8148bcb6885de6b586a0e3fc5835b9b33fb4c60ff69ae85f95f31d15c39"
+hash = "0e4c02ecb7bf801dfc0d9bf8944f85cb461aa7ee2e95f4a6d45b24b9df14d2c1"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_magenta_glitter_large_ornament.json"
@@ -7499,7 +7499,7 @@ hash = "41a5bfbac71d9492babf32e7f27ea2ab230325bd10f9d266e4b29a42a7ec8e55"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_magenta_glitter_ornament.json"
-hash = "d10111ffcb7296048ef1e78df0ed08cb04c186beb19c48dcf1cf95200a9f9095"
+hash = "7cd4eba7d147ff8332bc50d9c07e6c3c4ccb185df2839c3a458e0b56987e1394"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_magenta_jeweled_large_ornament.json"
@@ -7507,7 +7507,7 @@ hash = "d88199f68ca4ca2f3a26e85172209a854dc330d8a45db479386c8ce780d03598"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_magenta_jeweled_ornament.json"
-hash = "3624c8ca14c668ea255ac4ad317bd7c31208b26a92f4bb8be4b6d7d30ebd4c31"
+hash = "291522f12d3a890482a0e63c545a15073416661313cebdd301a2e4e6710306aa"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_magenta_large_ornament.json"
@@ -7519,11 +7519,11 @@ hash = "a87d8360c33fd45ca2c16967781058b22e0be8ad1498be7f3fd836f9a4cdab6d"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_magenta_mercury_ornament.json"
-hash = "7fc33303061d8508cc7417ca1cc9c097aaf69bc07671717fe8882d976b4f6f1e"
+hash = "96ae04db7b830996cfcc4a0564e3f605cf2160df23baace7d6fe6921a998081f"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_magenta_ornament.json"
-hash = "855a03432015fc44a95df96ff50eee12577a950535268373de77aa039c5c64cd"
+hash = "be4b6a2cd76a539fabf0ade2498115f83e851068e80fd45b402fca11169a9c14"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_magenta_painted_large_ornament.json"
@@ -7531,7 +7531,7 @@ hash = "dd0bb643df9454c1a2710877e3ed5dab166fb3cf77aecf3964366edefcab4fa7"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_magenta_painted_ornament.json"
-hash = "5ca0611d5952adad4aa37614bfefc6875551635b40c8c487becba61f4d50b15c"
+hash = "d5f69dd57756e736a0039ae2da1a92a4bde64f978badcb1eae97ee622bbe6175"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_magenta_ribbed_large_ornament.json"
@@ -7539,7 +7539,7 @@ hash = "43f04899153766c412adda707f8c2684319ff6824251af5efdc2237ebb38a9e5"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_magenta_ribbed_ornament.json"
-hash = "64215bbedb00cd9cd36a5a411c4fbf166f64b34dc016339b6fcd1236c5fc838d"
+hash = "b4b8c26cdeb34a2d3c3d7e9f93b23fc049a5d27ac89f40690c9cc7a4df94ffe2"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_magenta_snowflake_large_ornament.json"
@@ -7547,7 +7547,7 @@ hash = "a72151cee6503360c4588abe20e107aed5fb1dde9cb75e843453fb0bab329588"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_magenta_snowflake_ornament.json"
-hash = "632bd21ab007efe9dbd501ce51f7bc344d4802657af7cca3c28c3323ef5b9eff"
+hash = "8314e571ed75b071128d1800c627ff6185b81ff5ea40d0cf0670b7503ef2714d"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_magenta_striped_large_ornament.json"
@@ -7555,7 +7555,7 @@ hash = "3d1b13c16738537fa566828329496e04ca662a7229350caba620f56650ef1f35"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_magenta_striped_ornament.json"
-hash = "82c1c05ac26a53a6a07d922d32281d4c8efeef2dc7032af75a654a8501b9a25f"
+hash = "795772fd61eb0976e4a5c90d0fcd8fef5767008f50cd9bf6a52fd1b02293108c"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_mercury_large_ornament.json"
@@ -7563,7 +7563,7 @@ hash = "d2c46491534f9bde1a35f86c5edd7d0b0129a99a065894b899a09072f85ce214"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_mercury_ornament.json"
-hash = "5eba3f87e6d1fff58749565e4c1a74531b5e2918ec9856b88a32369e4e03cd28"
+hash = "330c6e5756fdb7e6b104954fa1d5ded016c2b5ff727d75368e7485b265c75647"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_orange_faceted_large_ornament.json"
@@ -7571,7 +7571,7 @@ hash = "5d281acec54cc0b8473c96054a146ab2cba4a581627121931d6b4d1a6f0052ee"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_orange_faceted_ornament.json"
-hash = "6dd0e7b22b3be835efba64b921ca6b64579a8853db6e354df13937defa6f0f8e"
+hash = "02fc3ca1f1b51ab21c0d0dd3c100b4ade6bdb8aa64b0d20557567bf967250ed4"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_orange_glitter_large_ornament.json"
@@ -7579,7 +7579,7 @@ hash = "1504b944f55b020489c7b17cd65c7c9b40f1982d31bb244ca707c93bac0fc530"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_orange_glitter_ornament.json"
-hash = "8a1a8e14c3e28030f50a5caa1a2435e09c3167f37ca4f8d22b08b4818c8a9de0"
+hash = "5dbbd48915bef8e06ef4b9b7829cffeaed13c129116d309651308454ff64f044"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_orange_jeweled_large_ornament.json"
@@ -7587,7 +7587,7 @@ hash = "4c562923352dbddecab41563c3a1ddf6ece4d604ccae2b8ee26a3da16a2cbb81"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_orange_jeweled_ornament.json"
-hash = "e7e5f47b3671a8b6c0dfb70fe2d9b0bda21082a63f6813e9874e7aaa887e2734"
+hash = "a49baee5f233e4b60e89436a2c3aa497b68ee214617f58acd6e8f26f9b3494ac"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_orange_large_ornament.json"
@@ -7599,11 +7599,11 @@ hash = "428d3cdf997bb7cefdcf83a8b0f1e132a81901d4104068622550f45130b93759"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_orange_mercury_ornament.json"
-hash = "192b25699a75f4956cefceb377b6fa3a07fd0c9a9d019385dbda5992347d19e3"
+hash = "363856972e6109f7bb791d5c76ec7b02c0be35c16b6bb16c443b587d19c6fe96"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_orange_ornament.json"
-hash = "881ea23454613374d8b333f75a4fc67ff7a07e1d0f7404f9b415d13acbb8caed"
+hash = "52b5e5049a7c34833f41569710135a4588f398698105626b201df378ec82a664"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_orange_painted_large_ornament.json"
@@ -7611,7 +7611,7 @@ hash = "3af5f3967f8150cea3a4fbbe150e8ec6daef6fb61b426694721b9f4a54cc019b"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_orange_painted_ornament.json"
-hash = "e8f77a93fe26d0f4b4cfcc379538cf6d55070a96acf9077d7fdb872d0278f4f9"
+hash = "ab3eea65bd8280ba51115408102c416c22f7b2a4b1f0a9b427f591e95cba51df"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_orange_ribbed_large_ornament.json"
@@ -7619,7 +7619,7 @@ hash = "d044bea7709acf3298914ea85fc13e529bccf2893d104aec799e86cf819ae550"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_orange_ribbed_ornament.json"
-hash = "f2c8a3e1434b9b4d2e42c73f3601e86946b230a1eb2ce20aeba4279a93f14b60"
+hash = "cea2c5b75bc2a25cfcf9ad0167e56a22cd17ae36abee2784d580894afbbd2e69"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_orange_snowflake_large_ornament.json"
@@ -7627,7 +7627,7 @@ hash = "16e72b548bc1e50c4d39604d5841db6312462a8746440d4506281630f53865e6"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_orange_snowflake_ornament.json"
-hash = "24422808bcf96b9d1a9c43c1b3b3146ab7fbf4cc8682e0d3bcf24de4aab8a86b"
+hash = "fe1b3b081f91325df0eb7fdafbcdb07f4a77a916b596931d5ac9db4404e782de"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_orange_striped_large_ornament.json"
@@ -7635,11 +7635,11 @@ hash = "0b477134c6d6382cf8a3caaa9f844306f53e86fae36a412027be4b905ec77e87"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_orange_striped_ornament.json"
-hash = "8553666b054a7340be5a25945944d6a78366cce8e81b9769901e58b436f610ac"
+hash = "76a2609ca688e783f4c1acffae3d3e5a33bc1e31c0998a3ddaa688e1ab5dc1b1"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_ornament.json"
-hash = "ebdb72de0b4c958c9190a37f94e330de0d00f4340b6beed962444d1e10850faa"
+hash = "498dbb7ae96ad73d9fe86b54bd86356b28021971e2e45ad16691351291762662"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_painted_large_ornament.json"
@@ -7647,7 +7647,7 @@ hash = "5e2fa72177c78c44b824be16a8412c3a15ab1d624321607a55d3e1aec05a6484"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_painted_ornament.json"
-hash = "8e6fedafa732324c0c28b98bd52ce4b25de4325a086777c756a0912df20e5db4"
+hash = "a53eca5036dc94f45335892e66d32be1835ef2f09d24c87d89287a364a96e088"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_pink_faceted_large_ornament.json"
@@ -7655,7 +7655,7 @@ hash = "ced792ec31942d7af8a8d06db3a6a86b3e8662908bcf9ee74e55f37e0f8a808b"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_pink_faceted_ornament.json"
-hash = "090c546bd915ed0d6af958ed03bedf21db4a594b4f47ee742aacb90328992bc2"
+hash = "45223c8fe9135fa83069c4d0c2bc075092349f8bcefeb3aaa08f55a90134aabf"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_pink_glitter_large_ornament.json"
@@ -7663,7 +7663,7 @@ hash = "b238752aafa5d040ff1083766861f773fb4bcefcecc6b32e79ea516909bcb92b"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_pink_glitter_ornament.json"
-hash = "faf4b931c7b537305c05dc739f27537c14997593a01b8762da6d1fa1a40d9d66"
+hash = "acbbb1f899015fcfd44ddb577052c5c5061934ec549291f8f316e33ea8341ef7"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_pink_jeweled_large_ornament.json"
@@ -7671,7 +7671,7 @@ hash = "c6038d1d9eb31ee7a5d359331b292322c076858bfdafd85855861ebf627ea419"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_pink_jeweled_ornament.json"
-hash = "e5808448b030e0f7ea5129effc6e7f7cbcfd13b3be3bf69741f2883da2f9e01b"
+hash = "cfc732654d93fff858f14ad96679944238236f3cbd1eeed130a2af47de58c38f"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_pink_large_ornament.json"
@@ -7683,11 +7683,11 @@ hash = "39dbdade62cb3c2ab2a3cf4e0a34f30ddaba4e9e6e4124cd93f528d28e362335"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_pink_mercury_ornament.json"
-hash = "a7f0c73fc582ddb13b59f843fb0883d9f056dad0086f7395869425c641909d8a"
+hash = "5d82328ea4e2a9ea3fa55907dd582d1f96fdbc599eae1cad9c1a83b64e8c16be"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_pink_ornament.json"
-hash = "4dbe55a956ecdd82d3b0fca00ac1946c4ede42164564f7b36c9e6caef4bc44e1"
+hash = "89fad52633b4ba95ccc923b327b9f0a13adf91e57259e975b5b918aee9841c2e"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_pink_painted_large_ornament.json"
@@ -7695,7 +7695,7 @@ hash = "585fffc11e9dce4c71228a9255dca76c315c5c2f01e365375ca1dc57dd335c9b"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_pink_painted_ornament.json"
-hash = "410d9822228801c9be9b7b2c7a6dd63672ddc1801705426a65e22a7d1550c2c1"
+hash = "71fa405eda76c360d0c4461e2267d32ec14fb639b89c6a43a1ae38caf5a6de7a"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_pink_ribbed_large_ornament.json"
@@ -7703,7 +7703,7 @@ hash = "1386fe42a2d05546e409ef97af633758bee3484f915df9212e002d092e2adf9d"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_pink_ribbed_ornament.json"
-hash = "b097da81171331ff68240c4396e80b4baedbd808e0c4ebeebc44f81c02673292"
+hash = "302211d45ef60dfa7fed943cae393f0dd880bef84ae2697412be92054075fa5b"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_pink_snowflake_large_ornament.json"
@@ -7711,7 +7711,7 @@ hash = "6ea55d71681c62b570ece9bf5392854268e3b50799037c5fa728e9e34500d439"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_pink_snowflake_ornament.json"
-hash = "a9ec2420fff8a12f0420c9d0415101978f415b98c2bc316e6ac5cbad220e9bee"
+hash = "1bee443eb997cc15fadad8b55f7d175a6de20b90bf07598e76723e59fd99723a"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_pink_striped_large_ornament.json"
@@ -7719,7 +7719,7 @@ hash = "45fcc81c920484e1799e642aec0455808ddda24fe508a242c028f431be3cd9bc"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_pink_striped_ornament.json"
-hash = "182be70a74a56ac13701391052c6691002d8c3cc2df60760db4e876ede0f8098"
+hash = "0b02a864f1ceb8a446055efd4c7e7438bf3c4975653daa8c37fe34092670614a"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_purple_faceted_large_ornament.json"
@@ -7727,7 +7727,7 @@ hash = "c1b2c6cca518fe481faedc66a73d5aa83792782fd445c228916d5104d31b9430"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_purple_faceted_ornament.json"
-hash = "2a9cf01e5f1306e376de124574c11e2479c3ccc47e3b5bfed05f87bb90fe23f1"
+hash = "e6b88a8346c02b485d8520f1401f184b77f42d026ce4d806797006ea0e215dc1"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_purple_glitter_large_ornament.json"
@@ -7735,7 +7735,7 @@ hash = "8f91f5a33f434cdf7731e47a8c656ac3dccec69af16ad464d8726640483ed728"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_purple_glitter_ornament.json"
-hash = "2923cd6b00c4caf8ad6c60d1f749579ede9ca62d2bd46787fdc190774d02ed00"
+hash = "c12df628482dbda212965cd3693fb908378ffddfcfb117d2cd156d4de0d5345e"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_purple_jeweled_large_ornament.json"
@@ -7743,7 +7743,7 @@ hash = "df8a72a7812b464fbf9921307e7cfac7ee820dc3e29395d1f16692e71a261887"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_purple_jeweled_ornament.json"
-hash = "dec1fba908529581300ffc156734ace2d0d93926033f09d87dbc5ec650a46ba6"
+hash = "ab7c4b6010708bc71ac6e58e9f90bd2706eeb2b29d942730acdc90b1cc66d2d2"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_purple_large_ornament.json"
@@ -7755,11 +7755,11 @@ hash = "f340d04a4edfce2b43491a0e3de769ef0e304644c94f31651e65270c8e7f9b16"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_purple_mercury_ornament.json"
-hash = "83b18ea8911ef6aaffaa51d69542f10c087061d01ac238b8860cfcfc87523d7d"
+hash = "7dfe1422be7e054183b1df2b3a06d0c19b99d291cf925d785c24ed5fb01d9a8d"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_purple_ornament.json"
-hash = "3fd3d58ec67935bb4db8a75b1d3842daa9fd33d4dcf5d121f51478a1ea11fcaf"
+hash = "fe383e720315094019499c58c7b07b8d0fcb0bc8f2c317b71271ffb999a4aad1"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_purple_painted_large_ornament.json"
@@ -7767,7 +7767,7 @@ hash = "cdd0a956ee241ba6b2d1f85cb7ae5daa40456d26c52d0699af28c7ba46fe92bf"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_purple_painted_ornament.json"
-hash = "531f9a6e47743695a5732bce36c473427b4a4e7b14809744d3ec78576b85b568"
+hash = "9dd7316f43bac9c46c5912a22fec3a38bbe3645a0f0f31344a1e2bfda69a2b1a"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_purple_ribbed_large_ornament.json"
@@ -7775,7 +7775,7 @@ hash = "987c7cc9e42c87704c7359827d667c138b81cf0ca0560de7d4cfcb3b818c7634"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_purple_ribbed_ornament.json"
-hash = "92708a6442d5e80bb363ed4fdee730819f0b98b500a3632febdf8a4fbdef4ea3"
+hash = "b1997d54b7cff83e3c62a4b5df56c669412d672d4a3d93e9713508c3cf11f5e5"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_purple_snowflake_large_ornament.json"
@@ -7783,7 +7783,7 @@ hash = "3df272613fbe9dc7afeed744a99720fcd4bd9d5cff2e50e31691ba831d1932e7"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_purple_snowflake_ornament.json"
-hash = "ebb46b2c550749ba7661a9418aa4469b1c8e583ab95f0e53a28071547241a172"
+hash = "631fb96646387a8778cd9696e0028e3ad68c696f87d3cc6682723c08e83930d9"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_purple_striped_large_ornament.json"
@@ -7791,7 +7791,7 @@ hash = "ac3a6238ae05c4b7e80be7a7c3d78078d32de2decce535eac8b2ea19caaf5d51"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_purple_striped_ornament.json"
-hash = "e412d43161f212407f0f751a6ef4fcc5bdc19b9a521126a55bdbf6570a426535"
+hash = "aebb3fdc9b44f70c9e2e87e4cbd71024f81c4c700a739ddeecd97822ac9003e4"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_red_faceted_large_ornament.json"
@@ -7799,7 +7799,7 @@ hash = "b59537c9e3208b14becee4f4ec5026d17f1e934447061305fe7c8f99e91714c9"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_red_faceted_ornament.json"
-hash = "adaeb83c5fe4ac052f985d44ed913c0e82141d550ea31aecfced0a5c6bc446a4"
+hash = "082386ea7d27bb30467e36d5142b02ee9c05eebd43243f7890c4480b64f44fc7"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_red_glitter_large_ornament.json"
@@ -7807,7 +7807,7 @@ hash = "5039b7d9238c7e07b84d99ab8043ee90d957e5216a0e694d29b41f07351336fc"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_red_glitter_ornament.json"
-hash = "9c283d4b224de87df83cf3fc6c19a92ae3d13c19feba4ffdb590641c0f606fad"
+hash = "b7ece4df657bbe22881003be7243f753452a64cacf5e2e5fa792ba21818060e8"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_red_jeweled_large_ornament.json"
@@ -7815,7 +7815,7 @@ hash = "3f7cd1146dfd155572148fb38766541c99bc282194e6e852336cc853f0cbf006"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_red_jeweled_ornament.json"
-hash = "4e7a20decbf641e2517dd426de123745f0064a86faad183ae03a2edde7279312"
+hash = "e0debef0049ab0b4eee05646ee88885389a2de51d7053f88e639aa99732888a9"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_red_large_ornament.json"
@@ -7827,11 +7827,11 @@ hash = "60c5b897144418e9c24c200cd52428d5e8bb6557b37f5adcdf0a59aed1cdecfc"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_red_mercury_ornament.json"
-hash = "2067e546fe63aa8a0ad64194b06f0d9c8223f74b88925dd87f89823c301b25e0"
+hash = "6ab6f047fcde7ca840aaee4f7265ec1ea6f98ed5c99f308d0896270f2455478b"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_red_ornament.json"
-hash = "c8c63873e010ca5f63d6be698950238fca38291610f7a7af6a084b885bd1d419"
+hash = "e16f871093bd7f17fe7e55042b3fa8b06ec65d966f040369aab51649eabbc0c9"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_red_painted_large_ornament.json"
@@ -7839,7 +7839,7 @@ hash = "06375037842a1bcc95521ec201a7ef67fdb151df6dd78c99e3fbc51cfaa730da"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_red_painted_ornament.json"
-hash = "be3426c14408f7ed33f650b8066b22f3caee3f87fb120c737420b35951576e36"
+hash = "33d078d54374fb5fa2b6870189a9b70b7d2e2532cb6fde445e2a56b2d2d2c02f"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_red_ribbed_large_ornament.json"
@@ -7847,7 +7847,7 @@ hash = "0bbd258e276be12e3fbc2f1b2156086cbd3481cde5187753671cc1e22c43875c"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_red_ribbed_ornament.json"
-hash = "2e9719e37de40d42f54abe9b7c6869646b876a9e3d1bdc7a7e12644e3913728e"
+hash = "74ce39544d85a3058754f9081a1ce044378f3e57ab3e025b610b6d927cdf4c44"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_red_snowflake_large_ornament.json"
@@ -7855,7 +7855,7 @@ hash = "eb3cd588be1f924767153fe853765080e4a0675884c5b67eff6d8df533e6ebed"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_red_snowflake_ornament.json"
-hash = "aeb2cfa04d9834bf6aaebe64f6eb601caa853ef523e8ab1ad9421cfd3b9f4c04"
+hash = "8e91b97ed8f4a8232c5a7b210eb3d6cbbb753b68d46fe66835fb13a3fc1ea32e"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_red_striped_large_ornament.json"
@@ -7863,7 +7863,7 @@ hash = "55e31b7cf4a229c6f5638b9eea1035c71babcaf309c7b9f2a77ebba2bbc30076"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_red_striped_ornament.json"
-hash = "154579caf261e2c39cb340203ca6d458be9f5b80345be730461267818274af37"
+hash = "3e26ba0e3a79ca3a124f9cee9898e05364cc18e20934c1be8b3ffb694233bab1"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_ribbed_large_ornament.json"
@@ -7871,7 +7871,7 @@ hash = "eb062dcae595982844d8e786c4b69d8b831722efa95bd5063f2f82929e0f8bde"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_ribbed_ornament.json"
-hash = "84a4623ac1f3ff13e57c8a3524ce07a5806cb1524fce41eec1fabba317638520"
+hash = "4b812fd639853249977f5c261aaf36395485ec93dc6416cf60569e806860853a"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_snowflake_large_ornament.json"
@@ -7879,7 +7879,7 @@ hash = "bb17050c81418d94d075c1e1af1c8e32a79ffd3c37f58aac40d0eb50c76bacfc"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_snowflake_ornament.json"
-hash = "a181d4a5ae0b27a41919253eb27bb2e36052ab97d86070dc8a521aa14c61582f"
+hash = "f2ebeb56a5adce5c3b32455fbad8fe59d0535515c600484c734baafef7568997"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_striped_large_ornament.json"
@@ -7887,7 +7887,7 @@ hash = "081cfd44b754695f7fd1c7a7131b80a64c2198a35a3d95397a9315ffea1b19ea"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_striped_ornament.json"
-hash = "596eef755795867c7a608a8577cf19361c78374cd6376e8c39f593fa99b1aabb"
+hash = "c7ed838447c01458eea99623ce4cc1cf843dee138a94a8df694820a5e2f1ace7"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_white_faceted_large_ornament.json"
@@ -7895,7 +7895,7 @@ hash = "425c9b63804ce8e8c43a85e1e749c00560ec34a1f5ff3086deaa5273616923eb"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_white_faceted_ornament.json"
-hash = "172a8f1e402cc617334c5fd0a332eb055298ff1d1e26bb3cdd52fb6d8936e0f7"
+hash = "6b4d24fe6dc31cc4a57d0cb58e9f9a0af20c0aaf0a316f98a1871648f36893d3"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_white_glitter_large_ornament.json"
@@ -7903,7 +7903,7 @@ hash = "1c5a4292d7228e9febaf1a72b04e50eac1aa797a67d0fa9a84c608d8878425c6"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_white_glitter_ornament.json"
-hash = "bae61c1f75d9e5e2c6a7bd1934f331fde62dc550ce183b8c1025795cf024272d"
+hash = "8885d9c61430583ea3e3cff1e8f1b3ffc27025518a0b98c269c1d35432a96c6c"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_white_jeweled_large_ornament.json"
@@ -7911,7 +7911,7 @@ hash = "43a00c3dd9b8f5110b221e071c52297bd4644304dcc63d25ed396dfb9575b07a"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_white_jeweled_ornament.json"
-hash = "85b932c9a5a63797214604d3b2e6daa226c412a22b5093cbcfb0e1f6724d0d43"
+hash = "72851b42cc7160dfaea49277e1e21b922f5cc7796ba0c9c86207e0b314693a51"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_white_large_ornament.json"
@@ -7923,11 +7923,11 @@ hash = "cda655b01c405a48fddbea8ec0d5312c1c8b936a785ad8af8963234e92a40f31"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_white_mercury_ornament.json"
-hash = "87b6554aead4ff7e9e00d473bec3755f3237a9f6cdd2b02e9f26fdc144cec514"
+hash = "7c9cdcc7339594ed95c55f2c6756c2814fbf98dbd30edbf9bc207e725c64fec0"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_white_ornament.json"
-hash = "810d762f7bd98b27011b02778f8971fcf4ef22460f62eabdca7cef9809bd8299"
+hash = "0dc67dc9d4e2f735d218716d5708efb3bfa5d06de86ddd03349e5f2fb71363ae"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_white_painted_large_ornament.json"
@@ -7935,7 +7935,7 @@ hash = "2d3c56f8129606a9a71a45c68f9a04ab4cd650555e7c6f590eb1c02b175ceab8"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_white_painted_ornament.json"
-hash = "6daa61b863e6838799583ce6828d727d14b7cc5001d5324d4420aa2fb7ab4e47"
+hash = "bad0fb35ab6f2a6eefaf8b47258d4ce2c8f525f0d0d8e3a77aaa90563bb03fbe"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_white_ribbed_large_ornament.json"
@@ -7943,7 +7943,7 @@ hash = "a50f83375ef6d76669d31cb8d99b98f89cdb4e310ecb5d6d487f6ba8939d367d"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_white_ribbed_ornament.json"
-hash = "e2c7744eb5d371cabef2e8fe351a6ce941a602374bc1b6acff119c41d3ea9243"
+hash = "b75057dcf5d447f4a7f42c3117821a3ddd066e421d4624ef29e563777c316754"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_white_snowflake_large_ornament.json"
@@ -7951,7 +7951,7 @@ hash = "df35fdf44210b6df6a7ad50f5f094fcaffaf55b02e163a7dd50e0f5fbd3f2cf2"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_white_snowflake_ornament.json"
-hash = "3ee80829d1bbbc5d5dfcfb4082963d81a64cd656336deef33021b9cce66675b8"
+hash = "dd93cf2466865660bd1327356469eb1f76eeb29f5243c566e0970f5faf5283b3"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_white_striped_large_ornament.json"
@@ -7959,7 +7959,7 @@ hash = "166e12658ac78edad001e0d574b5d82c11ba584f53d6684981cdccd18f27883d"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_white_striped_ornament.json"
-hash = "b43ff0646cb74bac370c82a6177af2d5884ce74021bb5842e4fc79a2aa028047"
+hash = "9fad7b6e6b00b5da2451716ba7d971fa582c7c4a898cb7ad69263c74bbf4ac4e"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_yellow_faceted_large_ornament.json"
@@ -7967,7 +7967,7 @@ hash = "23a116f89304668afa926b0429382cd05557663d3ae17dcad4fbdc6987e6e2a7"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_yellow_faceted_ornament.json"
-hash = "4a2038f5d58a1d056adddca5be55c1b16ef92bc91a307363698387a00083d983"
+hash = "48369b948a83a4992b5ed95ac2ac99075305bf704b34078ba1e0bebf62e478cf"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_yellow_glitter_large_ornament.json"
@@ -7975,7 +7975,7 @@ hash = "f819ca445f8d49c14218c225d2532a69d36c5f7e61a6d94d60264fc2c0c34cf4"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_yellow_glitter_ornament.json"
-hash = "a265d427cbbac513a0dfe221c073f3c419e2664d3e84580e9c6fcd263cdbed1f"
+hash = "442b37fb3b901a97eeb8ad118764d4523dac8b3e8350ecb8a9672b4dcdb4102f"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_yellow_jeweled_large_ornament.json"
@@ -7983,7 +7983,7 @@ hash = "d50c79560bfde491e5eec9ead8af43ce8e1a32f81c2975fdec6a40bf665e42ea"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_yellow_jeweled_ornament.json"
-hash = "d81990953fbfd18fd4f6561749083a7865dba014751979997d46f6635eeb5e7a"
+hash = "edb5be9833a29eef6bfd5c2dcd52657ca70044f2436cc34a5b3db0dbcb6d1320"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_yellow_large_ornament.json"
@@ -7995,11 +7995,11 @@ hash = "64c2db85099877a1058f1b3ea090c04a789d48fba9eb4638f0087c54ff9f5f14"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_yellow_mercury_ornament.json"
-hash = "22c5d041ac75dfc813113430e10c9bfc16dae6b1d13a9a2ce8a0f46220bfaa7b"
+hash = "c90b004597ad796398919f07441eeac4c566825688a8811f8cc48c29a6dfb128"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_yellow_ornament.json"
-hash = "c2654b3adc9ee804c9865611bf5f041e0741eb8906a2377366bc8b3883ae2f5f"
+hash = "c75341070a7dece25b1b7a74265a0ee3bb2f7da4101f6104cc2a6bec95699b06"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_yellow_painted_large_ornament.json"
@@ -8007,7 +8007,7 @@ hash = "558286450d9d6a132ba1b6bf020585d21dbb0536fae90aed572ed6e857dce2fd"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_yellow_painted_ornament.json"
-hash = "861e77a3ad214fc66add022abd5a7bf593b55cfcdfede839f13ee97b7471062c"
+hash = "a958755294934b8f6441208ff542d1b6749606ba8842150031e5a59f0b0aa2a3"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_yellow_ribbed_large_ornament.json"
@@ -8015,7 +8015,7 @@ hash = "36b9adc1eb3a289a6c81c7b807673958afbb1082ee587ed7191c300490850279"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_yellow_ribbed_ornament.json"
-hash = "f2bb9f5d2018548fcc77465939e7d0b113db8e366b4237af7948718d54dc8fcd"
+hash = "2f6fb407c8562a9afb23ec6157b23c043d752206fa8a6329f4d2474e99cebeb6"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_yellow_snowflake_large_ornament.json"
@@ -8023,7 +8023,7 @@ hash = "ad8d235916540cc861d135950a10618a28df5925b5897332872199d2e0da7a6f"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_yellow_snowflake_ornament.json"
-hash = "554f1de70ead6847023f26f4cca31df27d021f6af2af2f1067e9313808bfd5bc"
+hash = "97d766fe6ca3b9107570ba1b73c69b40393403db925220b7dfecc2d85bea753e"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_yellow_striped_large_ornament.json"
@@ -8031,7 +8031,7 @@ hash = "93648ff5f1408d85b49f51db1f1635c50a4a6f6701b893ef3d2bc4c3cead26b9"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/glowing_yellow_striped_ornament.json"
-hash = "68eacc1bc9cbc83aa6408579c18401fce59df7901facf145777ddb335610ce25"
+hash = "5e499449b5f59453af49e2e24a0eae89076fa08e3ff9e2658cb7bc0465418f13"
 
 [[files]]
 file = "kubejs/assets/chop/blockstates/gold_bell_window.json"
@@ -42295,7 +42295,7 @@ hash = "35c68ed96e24575104f29c6a13d8085aa719845297d23532e4e61d395461f307"
 
 [[files]]
 file = "kubejs/server_scripts/chop_donation_bucket.js"
-hash = "cec0154c7f9195b4440580bc99a0a791d853e4d602fb1cb99c328738cc3e1492"
+hash = "b77674dc2daf54dbe41d8e9069b8b3362c7250ea20954a3dec7c1038a4cea70c"
 
 [[files]]
 file = "kubejs/server_scripts/chop_festivity_fire.js"
@@ -42431,7 +42431,7 @@ hash = "3fa299c1fc4ccb2ed4fc82caef547f1fd0be53498dee7e1f76a68afbb91cbb31"
 
 [[files]]
 file = "kubejs/startup_scripts/chop_xmas_blocks.js"
-hash = "d85b949e6907eaa5bc84d1f952c3af86f46566b46c36ecef65778fcbc9c8e99d"
+hash = "f53d62b8b44805eca57cb97518059e9f15cf9e2710210e94fa5c54636cc84999"
 
 [[files]]
 file = "kubejs/startup_scripts/festivity_items.js"
@@ -45251,17 +45251,8 @@ file = "blueprints/christmas_village/decorations/supplies/supplycamp.blueprint"
 hash = "77a7232b011e3f56ac157e0fd60de635cdfa410ef2547151b7b9a0fb72b3398e"
 
 [[files]]
-file = "config/openloader/packs/16_Chops_Christmas_Structures_v42.zip"
-hash = "11951990bf6b913260f787b3625992d4ca818ef66abd13ecc3db6b26f80ae19f"
-
-[[files]]
 file = "config/openloader/packs/30_Chops_Minimap_Faces_v2.zip"
 hash = "c60b07f462468f0fff9ef34ca8db9657fae5dfe0156e96b0f02db9b5e9262241"
-
-[[files]]
-file = "mods/custom-choproadbridges-1.21.1-0.12.0.pw.toml"
-hash = "291c30d517e19386e7523e3a4f0ffbdae349e352fe3dcc9daa9b77a876cb9273"
-metafile = true
 
 [[files]]
 file = "blueprints/christmas_village/decorations/supplies/supplyship.blueprint"
@@ -45272,16 +45263,49 @@ file = "config/openloader/packs/22_Chops_Snowy_Bushy_Leaves_v3.zip"
 hash = "e0a983365da7938ae2e79d517ecb32a3f5a25fec7da4a0f5d04d9d437e10609b"
 
 [[files]]
-file = "mods/custom-chop-autopilot-1.3.4-chop.48.pw.toml"
-hash = "5dafd1d09cbb65dacd7f7c285a28a61972a5d1bb61758cbff1e9920f54ce489d"
-metafile = true
-
-[[files]]
 file = "mods/custom-diorama-0.8.1-chop.2.pw.toml"
 hash = "dba41f009114eb352bce24da3e3a48d99125ec52b41772f349f8c21a2a9be416"
 metafile = true
 
 [[files]]
-file = "mods/custom-festivity-0.9.48.pw.toml"
-hash = "8953b6f214ca35485b0023686e82ea341b9f9119050bd318df078f07ef96f370"
+file = "config/fancymenu/assets/chop/xmas_title_bg_v2.png"
+hash = "e6328c3e4faee7fae44870da641b9c31f186bed035f8ca99544851a5d2080cad"
+
+[[files]]
+file = "config/fancymenu/assets/chop/xmas_title_garland_v3.apng"
+hash = "7fbdababae70174e148028f481efdc94adc00a06895bf2e079faba2878b5e60e"
+
+[[files]]
+file = "config/fancymenu/assets/chop/xmas_title_logo_v4.apng"
+hash = "ac80376770275bf8b55decada4efbe8f6c1fcd9923bec3c40553db3d609bcc98"
+
+[[files]]
+file = "config/openloader/packs/16_Chops_Christmas_Structures_v44.zip"
+hash = "448e844b3493c63c4beb0f90e0fab8cde4018646438dd4d180a0ee5b7823a794"
+
+[[files]]
+file = "config/openloader/packs/21b_Chops_Christmas_Music_Ambient_RP.zip"
+hash = "25d643ccd4a7951319a52f8739601c097c9caccd549f6cd023fbd923d24ba1dc"
+
+[[files]]
+file = "config/openloader/packs/23_Chops_Festive_Buttons_v3_1.zip"
+hash = "f82714e7a04992f6d0dadf8515c6fd3f3f32a05ec7deb05933a9821856c3f698"
+
+[[files]]
+file = "kubejs/data/chop/recipe/smelting/packed_mud_to_terracotta.json"
+hash = "fe21f13750b6336f78389d252b41190b20d33a2254bc691b776a9da7ed389f8f"
+
+[[files]]
+file = "mods/custom-chop-autopilot-1.3.4-chop.51.pw.toml"
+hash = "955ddda96d4090902a6f189b1af41d338808f2746fbbbbea047470065e0b4661"
+metafile = true
+
+[[files]]
+file = "mods/custom-choproadbridges-1.21.1-0.13.0.pw.toml"
+hash = "b61bd4fe1247efe8f71922139d2c4521b37009693821e40f9905d369e7f30af4"
+metafile = true
+
+[[files]]
+file = "mods/custom-festivity-0.9.57.pw.toml"
+hash = "32eca61037f62f980b3512c2e0c686ca34ca39c71bbabfc65bf2c04b267f0be3"
 metafile = true

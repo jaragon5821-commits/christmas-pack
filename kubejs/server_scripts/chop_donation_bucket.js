@@ -15,7 +15,7 @@
   if (!(Platform.isLoaded('minecolonies') && Platform.isLoaded('colonyautopilot'))) return;
 
   const CFG = {
-    TEST_CAULDRON: true,               // false once the Assets kettle block exists (add its id to BLOCKS)
+    TEST_CAULDRON: false,               // false once the Assets kettle block exists (add its id to BLOCKS)
     BLOCKS: [],                        // e.g. 'chop:donation_kettle' later
     SNEAK_AMOUNT: 5,
     DEBUG: false,                      // v0.1.5: TEST passed; set true to log every kettle click

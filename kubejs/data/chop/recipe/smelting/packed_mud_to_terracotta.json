@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "ingredient": { "item": "minecraft:packed_mud" },
+  "result": { "id": "minecraft:terracotta", "count": 1 },
+  "experience": 0.35,
+  "cookingtime": 200
+}

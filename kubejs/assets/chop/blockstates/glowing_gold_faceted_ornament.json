@@ -1,1 +1,58 @@
-{"variants": {"hanging=false": {"model": "chop:block/gold_faceted_ornament"}, "hanging=true": {"model": "chop:block/gold_faceted_ornament_hanging"}}}
+{
+ "variants": {
+  "attached=false,facing=north,hanging=false": {
+   "model": "chop:block/gold_faceted_ornament"
+  },
+  "attached=false,facing=east,hanging=false": {
+   "model": "chop:block/gold_faceted_ornament"
+  },
+  "attached=false,facing=south,hanging=false": {
+   "model": "chop:block/gold_faceted_ornament"
+  },
+  "attached=false,facing=west,hanging=false": {
+   "model": "chop:block/gold_faceted_ornament"
+  },
+  "attached=false,facing=north,hanging=true": {
+   "model": "chop:block/gold_faceted_ornament_hanging"
+  },
+  "attached=false,facing=east,hanging=true": {
+   "model": "chop:block/gold_faceted_ornament_hanging"
+  },
+  "attached=false,facing=south,hanging=true": {
+   "model": "chop:block/gold_faceted_ornament_hanging"
+  },
+  "attached=false,facing=west,hanging=true": {
+   "model": "chop:block/gold_faceted_ornament_hanging"
+  },
+  "attached=true,facing=north,hanging=false": {
+   "model": "chop:block/gold_faceted_ornament_wall"
+  },
+  "attached=true,facing=east,hanging=false": {
+   "model": "chop:block/gold_faceted_ornament_wall",
+   "y": 90
+  },
+  "attached=true,facing=south,hanging=false": {
+   "model": "chop:block/gold_faceted_ornament_wall",
+   "y": 180
+  },
+  "attached=true,facing=west,hanging=false": {
+   "model": "chop:block/gold_faceted_ornament_wall",
+   "y": 270
+  },
+  "attached=true,facing=north,hanging=true": {
+   "model": "chop:block/gold_faceted_ornament_wall"
+  },
+  "attached=true,facing=east,hanging=true": {
+   "model": "chop:block/gold_faceted_ornament_wall",
+   "y": 90
+  },
+  "attached=true,facing=south,hanging=true": {
+   "model": "chop:block/gold_faceted_ornament_wall",
+   "y": 180
+  },
+  "attached=true,facing=west,hanging=true": {
+   "model": "chop:block/gold_faceted_ornament_wall",
+   "y": 270
+  }
+ }
+}

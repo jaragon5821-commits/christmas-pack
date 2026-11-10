@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026.11.09-21
+- Festivity 0.9.48 -> 0.9.57 (bigger Grand Fireplace with real flames, chimneys that link through floors + 30 toppers, new small Hearths, festive GUI that follows the Festivity bar, Farmer's Delight cooking pot makes 4 per batch). PASS; not tested: Chipped swaps, hitboxes, fireplace burn-out
+- Main menu v3 (option A) + festive buttons v3.1 (23_Chops_Festive_Buttons_v3_1). PASS; not tested: button hover effects
+- Townwright (Colony Autopilot) chop.48 -> chop.51 (main roads, road crew elves, town bridges, re-dress on level-up). PARTIAL: runs clean, bridges and re-dress seen in the log, bridge not seen in person
+- Christmas Structures v42 -> v44 (lore lecterns, roof snow). PARTIAL: loads with no errors, lecterns/hidden chests not checked yet
+- Road Bridges 0.12.0 -> 0.13.0; RoadWeaver bridges up to 100 blocks, no bridge lamps. PARTIAL: long ocean crossings skipped, no errors, bridge looks not checked yet
+- Glowing small ornaments get wall brackets (chop_xmas_blocks.js v0.2.7). PASS
+- Christmas music split into 21 (menu/event) + 21b (ambient). PASS (no missing sounds)
+- Packed mud smelts into terracotta. PASS
+- Donation kettle test cauldron switched off. PASS
+
 ## 2026.11.09-20
 - Festivity 0.9.39 -> 0.9.48 (Grand Fireplace tops fixed, chimney/stockings fixes, all models load)
 - Diorama 0.7.0-chop.1 -> 0.8.1-chop.2 (bed pin appears on a bed, clears when the bed is broken, sleeping bags do not move it; gpuBaking stays false)
