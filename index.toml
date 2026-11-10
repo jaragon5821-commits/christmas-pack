@@ -44590,11 +44590,11 @@ file = "config/openloader/packs/28_Chops_Quest_Structure_Tags_v1.zip"
 hash = "43fb432b21fcd38c746a133226b3b5e2fd8a917b22ab05426fd26bc20fecb741"
 
 [[files]]
-file = "mods/custom-chop-autopilot-1.3.4-chop.35.pw.toml"
-hash = "83cee1b4726fbbe75ba472f01fb2c8f042ae7d8f7f115a5d854c91d6bf3f41d7"
+file = "mods/custom-festivity-0.9.35.pw.toml"
+hash = "1764f4a85c5234976264f28f5c737f223432b8418f3ad420f6c1b264eeaa29d4"
 metafile = true
 
 [[files]]
-file = "mods/custom-festivity-0.9.35.pw.toml"
-hash = "1764f4a85c5234976264f28f5c737f223432b8418f3ad420f6c1b264eeaa29d4"
+file = "mods/custom-chop-autopilot-1.3.4-chop.36.pw.toml"
+hash = "a65f4cf04e9c053544c3522b7ef6be5e7bddba99f92726daad4a0c8ea7e2b7c0"
 metafile = true
