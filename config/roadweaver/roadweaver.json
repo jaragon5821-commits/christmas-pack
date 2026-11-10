@@ -95,7 +95,7 @@
     "largeStructureOffset": 16
   },
   "roadsideVillage": {
-    "enabled": false,
+    "enabled": true,
     "maxVillagesPerRoad": 6,
     "minRoadSegments": 32,
     "windowSegments": 24,

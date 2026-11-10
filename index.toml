@@ -5223,7 +5223,7 @@ hash = "d953af1457a8cb242fa5cde67a51ce0ce8717031c4adc786b522118c2cc573c5"
 
 [[files]]
 file = "config/roadweaver/roadweaver.json"
-hash = "fb76ff23ef6819398aed4aa3ab8d1ec5d7ee52778c6230f41e95418c48777abb"
+hash = "ef93003ed1f40919cb84cfb0c90b7452eee6809871babfddf16cd12000089045"
 
 [[files]]
 file = "config/roadweaver/structure_cache_overworld.json"

@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.09-21c
+- RoadWeaver roadside villages back on (small villages along roads; checked in a fresh world, no clashes with bridges or towns)
+
 ## 2026.11.09-21b
 - Road crew in towns now shows as Christmas elves (Townwright roadCrewSkin = elf)
 - RoadWeaver road planning settings now match TEST (KNN planning, bidirectional A*, stronger water avoidance; bridges up to 100 blocks, no bridge lamps)
