@@ -1,0 +1,8 @@
+name = "Diorama (chop.2 bed marker fixes)"
+filename = "diorama-0.8.1-chop.2-neoforge-1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/jaragon5821-commits/christmas-pack/test/patched-jars/diorama-0.8.1-chop.2-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "9bd1384e9af84ef5889782b284ea50612603594ddeb050c4d36f2e93ea71bc08a3b3854ad92fa956c9116158c390593a099965e31d774f266c4947f5565e5d45"

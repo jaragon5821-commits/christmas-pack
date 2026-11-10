@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026.11.09-20
+- Festivity 0.9.39 -> 0.9.48 (Grand Fireplace tops fixed, chimney/stockings fixes, all models load)
+- Diorama 0.7.0-chop.1 -> 0.8.1-chop.2 (bed pin appears on a bed, clears when the bed is broken, sleeping bags do not move it; gpuBaking stays false)
+- Townwright (Colony Autopilot) chop.47 -> chop.48
+- Christmas Village style v3.8 -> v3.12 (supply ship and supply camp, door hinge/pane/gold-block fixes, full-block paving, melting-snow fix)
+- Option A snowy bushy leaves v3 (cull-aware; same look, ~7% faster standing under shaders)
+- tectonic flat_terrain_skew 0.1 -> 0.3 (matches TEST and the recorded decision)
+- tectonic underground_rivers true -> false (Josh 11-10; only new chunks)
+
 ## 2026.11.09-4
 - Performance: Diorama map quality FAST, MoreCulling leaves culling amount 1, LambDynamicLights fast mode
 

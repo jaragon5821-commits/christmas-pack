@@ -33,7 +33,7 @@
     // Horizontally scales erosion, primarily impacting mountains. Lower values = thicker mountain ranges and terrain between them.
     "erosion_scale": 0.25,
     // The threshold where plateau terrain becomes flatter terrain. Positive numbers favor flat terrain and negative numbers favor plateau terrain.
-    "flat_terrain_skew": 0.1,
+    "flat_terrain_skew": 0.3,
     // Some jungles generate massive pillars that can extend upwards of a hundred blocks tall.
     "jungle_pillars": true,
     // Skews terrain towards or away from oceans. Lower values = more oceans. Above -0.45, deep oceans will not spawn! Above -0.2, oceans will not spawn!
@@ -47,7 +47,7 @@
     // Some Plains biomes generate very smooth, hilly terrain.
     "rolling_hills": true,
     // Rivers that reach mountain ranges continue underground, allowing smoother boat exploration.
-    "underground_rivers": true
+    "underground_rivers": false
   },
   "experimental": {
     "alternate_continents_scaling": false,
