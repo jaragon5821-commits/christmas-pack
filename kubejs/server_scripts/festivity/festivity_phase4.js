@@ -148,10 +148,10 @@ function e4def(id, name, bands, w, start, end) { E4_POOL[id] = { id: id, name: n
 
 // 1 (Josh) sudden storm
 e4def('storm', 'Sudden Storm', ['low'], 12, server => {
-  e4cmd(server, 'weather thunder 7000');
+  e4cmd(server, 'weather rain 7000');   // 0.9.36: no winter thunder (natural bolts can hit villagers)
   let s = e4spot(server, 20, 30);
   if (s) { summon(server, 'minecraft:wolf', s.x, s.y, s.z, 'Frost Hound', 'fest_t3 fest_hound fest_e4', '{AngerTime:999999}'); summon(server, 'minecraft:wolf', s.x + 2, s.y, s.z, 'Frost Hound', 'fest_t3 fest_hound fest_e4', '{AngerTime:999999}'); }
-  for (let i = 0; i < 4; i++) server.scheduleInTicks(40 + i * 60, () => { let q = e4spot(server, 15, 25); if (q) e4cmd(server, 'summon minecraft:lightning_bolt ' + q.x + ' ' + (q.y + 25) + ' ' + q.z); });   // high in the air: flash + thunder, no fire
+  for (let i = 0; i < 4; i++) server.scheduleInTicks(40 + i * 60, () => { let q = e4spot(server, 15, 25); if (q) e4cmd(server, 'festivity flash ' + q.x + ' ' + (q.y + 25) + ' ' + q.z); });   // 0.9.36: visual-only flash, no fire/damage/witch   // high in the air: flash + thunder, no fire
   e4cmd(server, 'playsound minecraft:entity.wolf.howl master @a ~ ~ ~ 1 0.6');
   e4title(server, 'A storm rolls in', 'Santy Claws stirs the sky. Stay by the fire.');
   return { weather: true };
@@ -246,8 +246,7 @@ e4def('lightsout', 'Lights Out', ['low'], 8, server => {
   let kinds = ['candle', 'white_candle', 'orange_candle', 'magenta_candle', 'light_blue_candle', 'yellow_candle', 'lime_candle', 'pink_candle', 'gray_candle', 'light_gray_candle', 'cyan_candle', 'purple_candle', 'blue_candle', 'brown_candle', 'green_candle', 'red_candle', 'black_candle'];
   for (let p of e4players(server)) {
     let x = Math.floor(p.x), y = Math.floor(p.y), z = Math.floor(p.z); boxes.push([x, y, z]);
-    for (let k of kinds) e4cmd(server, 'fill ' + (x - 24) + ' ' + (y - 4) + ' ' + (z - 24) + ' ' + (x + 24) + ' ' + (y + 4) + ' ' + (z + 24) + ' minecraft:' + k + '[lit=false] replace minecraft:' + k + '[lit=true]');
-    e4cmd(server, 'fill ' + (x - 24) + ' ' + (y - 4) + ' ' + (z - 24) + ' ' + (x + 24) + ' ' + (y + 4) + ' ' + (z + 24) + ' minecraft:redstone_lamp[lit=false] replace minecraft:redstone_lamp[lit=true]');
+    e4cmd(server, 'festivity lightsout ' + x + ' ' + y + ' ' + z + ' 24');   // 0.9.36: Java snuffs lit candles only (no lamps, never the Candle of Vigil) and relights exactly those at dawn
     e4cmd(server, 'effect give ' + p.username + ' minecraft:darkness 8 0 true');
   }
   e4cmd(server, 'playsound minecraft:block.fire.extinguish master @a ~ ~ ~ 1 0.5');
@@ -256,8 +255,7 @@ e4def('lightsout', 'Lights Out', ['low'], 8, server => {
 }, (server, st) => {   // dawn: whatever is still dark comes back on
   for (let b of (st.boxes || [])) {
     let x = b[0], y = b[1], z = b[2], box = (x - 24) + ' ' + (y - 4) + ' ' + (z - 24) + ' ' + (x + 24) + ' ' + (y + 4) + ' ' + (z + 24);
-    for (let k of (st.kinds || [])) e4cmd(server, 'fill ' + box + ' minecraft:' + k + '[lit=true] replace minecraft:' + k + '[lit=false]');
-    e4cmd(server, 'fill ' + box + ' minecraft:redstone_lamp[lit=true] replace minecraft:redstone_lamp[lit=false]');
+    // 0.9.36: no fills here; the jar relights what it put out
   }
   e4text(server, 'The candles flicker back to life.', 'yellow');
 });
@@ -283,7 +281,7 @@ EntityEvents.death(event => {
 
 // 10 stocking stuffed with coal
 e4def('stocking', 'Coal in Your Stocking', ['low'], 8, server => {
-  e4cmd(server, 'give @a minecraft:coal 64');
+  e4cmd(server, 'give @a minecraft:coal 3'); e4cmd(server, 'give @a chop:coal_token 1');   // 0.9.36: was 64 coal
   e4title(server, 'Coal in your stocking', 'Santy Claws says you earned it.', 'gray');
   return {};
 }, null);
@@ -302,7 +300,7 @@ e4def('chimes', 'Crooked Chimes', ['low'], 8, server => {
   let s = e4spot(server, 10, 14); if (!s) return null;
   e4cmd(server, 'playsound minecraft:music_disc.11 record @a ' + s.x + ' ' + s.y + ' ' + s.z + ' 0.7 0.8');
   server.scheduleInTicks(400, () => e4cmd(server, 'stopsound @a record'));
-  e4cmd(server, 'fill ' + (s.x - 1) + ' ' + (s.y - 1) + ' ' + (s.z - 1) + ' ' + (s.x + 1) + ' ' + (s.y - 1) + ' ' + (s.z + 1) + ' minecraft:soul_soil replace minecraft:grass_block');
+  e4cmd(server, 'festivity soulpatch ' + s.x + ' ' + s.y + ' ' + s.z);   // 0.9.36: 3x3 soul soil, restored at dawn by the jar
   for (let i = 0; i < 6; i++) server.scheduleInTicks(i * 30, () => summon(server, 'minecraft:endermite', s.x + e4rnd(-1, 1), s.y, s.z + e4rnd(-1, 1), 'Coal Gnome', 'fest_t2 fest_e4', '{Lifetime:0,active_effects:[{id:"minecraft:speed",amplifier:1,duration:-1}]}'));
   return {};
 }, null);
@@ -314,14 +312,11 @@ e4def('letter2', 'Another Letter', ['low'], 6, server => { try { startLetter(ser
 e4def('blackice', 'Black Ice', ['low'], 8, server => {
   let s = e4spot(server, 6, 14); if (!s) return null;
   let y = s.y - 1, c = s.x + ' ' + y + ' ' + s.z, box = (s.x - 4) + ' ' + y + ' ' + (s.z - 4) + ' ' + (s.x + 3) + ' ' + y + ' ' + (s.z + 3);
-  e4cmd(server, 'fill ' + box + ' minecraft:ice replace minecraft:grass_block');
-  e4cmd(server, 'fill ' + box + ' minecraft:ice replace minecraft:snow_block');
-  e4cmd(server, 'fill ' + box + ' minecraft:ice replace #minecraft:dirt');
+  e4cmd(server, 'festivity blackice ' + s.x + ' ' + s.y + ' ' + s.z);   // 0.9.36: packed ice, every block's state recorded and restored at dawn
   e4save(server, 'p4_ice', { box: box });
-  e4cmd(server, 'fill ' + (s.x - 4) + ' ' + (y + 1) + ' ' + (s.z - 4) + ' ' + (s.x + 3) + ' ' + (y + 1) + ' ' + (s.z + 3) + ' minecraft:air replace minecraft:snow');
   e4cmd(server, 'playsound minecraft:block.glass.place master @a ' + c + ' 1 0.5');
   return { box: box };
-}, (server, st) => { if (st.box) e4cmd(server, 'fill ' + st.box + ' minecraft:grass_block replace minecraft:ice'); E4.data(server).remove('p4_ice'); });
+}, (server, st) => { E4.data(server).remove('p4_ice'); });   // 0.9.36: the jar restores the exact blocks (the old fill turned dirt/podzol/snow into grass)
 
 // 15 gift drop: a present parachutes next to a player; breaking it rolls santa_rare
 e4def('giftdrop', 'Gift Drop', ['high', 'quiet'], 14, server => {
@@ -569,7 +564,7 @@ function spawnFreedElf(server, x, y, z, who) {
     try {
       let left = findByTag(server, 'fest_elf', { x: x, z: z }, 64);
       for (let e of left) {
-        dropItem(server, Math.floor(e.x), Math.floor(e.y), Math.floor(e.z), presentItem(), 1);
+        dropPresent(server, Math.floor(e.x), Math.floor(e.y), Math.floor(e.z));   // heist fix: tagged present
         let candy = e4first(P4.CANDY); if (candy) dropItem(server, Math.floor(e.x), Math.floor(e.y), Math.floor(e.z), candy, 2);
         e4cmd(server, 'particle minecraft:happy_villager ' + e.x.toFixed(1) + ' ' + e.y.toFixed(1) + ' ' + e.z.toFixed(1) + ' 0.8 0.8 0.8 0.1 25');
         e4cmd(server, 'playsound minecraft:entity.allay.ambient_without_item master @a ' + Math.floor(e.x) + ' ' + Math.floor(e.y) + ' ' + Math.floor(e.z) + ' 1 1.2');
@@ -699,14 +694,24 @@ function startEvent4(server, id, forced) {
   if (!st) { e4log(id + ' found no spot'); return false; }
   st.id = id; st.day = E4.dayCount(server); st.start = E4.dayTime(server);
   let list = e4json(server, 'p4_events', []); list.push(st); e4save(server, 'p4_events', list);   // several forced events can stack; dawn ends them all
+  try { if (festDirector()) festDirector().started(server, id); } catch (e) {}   // 0.9.37: tells the Director the start worked (else it picks again)
   E4.logEvent(server, 'Event: ' + e.name);
   e4log('event ' + id + (forced ? ' (forced)' : ''));
   return true;
 }
+// 0.9.37 Event Director (Festivity jar): Java rolls the Event Night and picks tonight's event, then runs it through /festivity event <id>.
+var fest_DIR = null, fest_DIRtried = false;
+function festDirector() {
+  if (!fest_DIRtried) { fest_DIRtried = true; try { fest_DIR = Java.loadClass('com.chop.festivity.events.EventDirector'); } catch (e) { fest_DIR = null; } }
+  return fest_DIR;
+}
 function rollEvent4(server) {
   let pool = e4pool(server); if (!pool.list.length) return;
-  let chance = e4isAdvent() ? 1 : pool.band == 'low' ? P4.NIGHT_CHANCE_LOW : pool.band == 'high' ? P4.NIGHT_CHANCE_HIGH : P4.NIGHT_CHANCE_QUIET;
-  if (Math.random() > chance) { e4log('no event tonight (' + pool.band + ')'); return; }
+  let en = festEventNight(server, pool.band);   // 0.9.36: Java rolls the Event Night (December chance lives in the jar config)
+  if (en === null) {   // old jar: old chances
+    let chance = e4isAdvent() ? 1 : pool.band == 'low' ? P4.NIGHT_CHANCE_LOW : pool.band == 'high' ? P4.NIGHT_CHANCE_HIGH : P4.NIGHT_CHANCE_QUIET;
+    if (Math.random() > chance) { e4log('no event tonight (' + pool.band + ')'); return; }
+  } else if (!en) { e4log('quiet night (' + pool.band + ')'); return; }
   let total = 0; for (let e of pool.list) total += e.w;
   let r = Math.random() * total;
   for (let e of pool.list) { r -= e.w; if (r <= 0) { if (!startEvent4(server, e.id, false)) { let rest = pool.list.filter(q => q.id != e.id && q.id != 'outpost' && q.id != 'spire'); if (rest.length) startEvent4(server, e4pick(rest).id, false); } return; } }
@@ -715,6 +720,7 @@ function endEvent4(server) {
   let list = e4json(server, 'p4_events', []); if (!list.length) return;
   for (let st of list) { let e = E4_POOL[st.id]; try { if (e && e.end) e.end(server, st); e4log('ended ' + st.id); } catch (x) { console.warn('[Festivity4] end ' + st.id + ': ' + x); } }
   E4.data(server).remove('p4_events');
+  try { if (festDirector()) festDirector().ended(server); } catch (e) {}   // 0.9.37
   e4cmd(server, 'kill @e[tag=fest_e4]');
   E4.data(server).remove('p4_booby'); E4.data(server).remove('p4_thief');
 }
@@ -730,7 +736,7 @@ ServerEvents.tick(event => {
   if (server.tickCount % 200 == 0 && E4.data(server).contains('outpost')) outpostTick4(server);
   if (t >= 12500 && t < 13100 && day != e4_lastRollDay && !E4.inGrace(server)) {   // dusk, once per day
     e4_lastRollDay = day;
-    if (!e4json(server, 'p4_events', []).length) rollEvent4(server);
+    if (!e4json(server, 'p4_events', []).length) { if (festDirector()) { try { festDirector().rollTonight(server); } catch (e) { rollEvent4(server); } } else rollEvent4(server); }   // 0.9.37: Director when present
   }
   if (t < 12000) { let list = e4json(server, 'p4_events', []), abs = E4.dayTime(server); for (let st of list) if (st.day != day || abs < (st.start || 0)) { endEvent4(server); break; } }   // daytime on another day, or time jumped backwards (/time set day on day 0)
 });

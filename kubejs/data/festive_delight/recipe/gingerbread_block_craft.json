@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "festive_delight"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "tag": "festive_delight:ginger_bread_base"
+    },
+    "1": {
+      "tag": "festive_delight:ginger_bread_base"
+    },
+    "2": {
+      "tag": "festive_delight:ginger_bread_base"
+    },
+    "3": {
+      "tag": "festive_delight:ginger_bread_base"
+    }
+  },
+  "result": {
+    "id": "festive_delight:gingerbread_bricks",
+    "count": 4
+  }
+}

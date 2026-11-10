@@ -26,6 +26,11 @@ function presentItem() {
   console.log('[Festivity] heist present item: ' + p3_present);
   return p3_present;
 }
+// heist fix 11-10 (v2): presents that come back to players are Festivity Gift Crates (right-click: 1-3 festive items).
+function presentDropNbt() {
+  return '{id:"festivity:gift_crate",count:1,components:{"minecraft:custom_name":\'{"text":"Recovered Present","italic":false}\'}}';
+}
+function dropPresent(server, x, y, z) { R.cmd(server, 'summon minecraft:item ' + Number(x) + ' ' + (Number(y) + 0.5) + ' ' + Number(z) + ' {Item:' + presentDropNbt() + '}'); }
 function p3json(server, key, fb) { return R.readJson(server, key, fb); }
 function p3save(server, key, obj) { R.data(server).putString(key, JSON.stringify(obj)); }
 function p3overworld(p) { try { return String(p.level.dimension) == 'minecraft:overworld'; } catch (e) { return true; } }
@@ -34,12 +39,11 @@ function p3surface(level, x, z) {
   for (let y = 200; y > 40; y--) { try { let b = level.getBlock(x, y, z); if (b.id != 'minecraft:air' && b.id != 'minecraft:cave_air' && !b.id.endsWith('_leaves') && !b.id.includes('snow_layer')) return y + 1; } catch (e) {} }
   return 70;
 }
-// Town Hall anchor: set by an op with /festivity townhall set (stands at the doorstep). Falls back to a player.
+// Town Hall anchor (heist fix 11-10): the op-set /festivity townhall spot or a real MineColonies Town Hall (Phase 4 e4townHall).
+// No player fallback any more: with no town hall there is no heist (Josh saw thieves with no town hall).
 function anchor(server) {
-  let th = p3json(server, 'townhall', null);
-  if (th) return th;
-  for (let p of R.online(server)) if (p3overworld(p)) return { x: Math.floor(p.x), y: Math.floor(p.y), z: Math.floor(p.z), player: p.username };
-  return null;
+  try { if (typeof e4townHall == 'function') return e4townHall(server); } catch (e) {}
+  return p3json(server, 'townhall', null);
 }
 
 // ---------- daily roll for Phase 3 events (Merry+, daytime, never in grace, one active Phase 3 event at a time) ----------
@@ -61,7 +65,7 @@ ServerEvents.tick(event => {
   if (day == p3_lastRollDay || v < 60 || p3isNight(server) || d.contains('heist') || d.contains('letter') || d.contains('event')) return;
   p3_lastRollDay = day;
   if (Math.random() > P3.ROLL_CHANCE) return;
-  if (Math.random() < 0.5) startHeist(server); else startLetter(server);
+  if (Math.random() < 0.5 && anchor(server)) startHeist(server); else startLetter(server);   // heist fix: no town hall -> letter
 });
 
 // ---------- Sour Elf heist (doc 15): thieves grab presents from the Town Hall doorstep ----------
@@ -98,7 +102,7 @@ EntityEvents.death(event => {
     let server = e.server, h = p3json(server, 'heist', null); if (!h) return;
     let p = event.source ? event.source.player : null;
     h.recovered++; p3save(server, 'heist', h);
-    R.cmd(server, 'summon minecraft:item ' + e.x.toFixed(1) + ' ' + (e.y + 0.5).toFixed(1) + ' ' + e.z.toFixed(1) + ' {Item:{id:"' + presentItem() + '",count:1}}');   // the stolen present comes back
+    dropPresent(server, e.x.toFixed(1), e.y.toFixed(1), e.z.toFixed(1));   // the stolen present comes back (tagged: fills when placed)
     if (p && p.isPlayer()) R.score(server, p, 'heist_recover', 1, 'recovered a present'); else R.change(server, 1, 'event', null, null);
   } catch (err) {}
 });

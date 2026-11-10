@@ -1,4 +1,4 @@
-// chop_crop_unify.js v0.3.1 (Scripts thread, 2026-11-09; v0.2.0 grapes, v0.1.0 2026-11-06) - boss card 107: duplicate crops work in EVERY recipe.
+// chop_crop_unify.js v0.3.3 (Scripts thread, 2026-11-10; v0.3.2 2026-11-09; v0.2.0 grapes, v0.1.0 2026-11-06) - boss card 107: duplicate crops work in EVERY recipe.
 // Tomato / onion / cabbage / rice / garlic (Farmer's Delight, Farm & Charm, MineColonies, Herbs and Harvest...)
 // and ginger / cinnamon (Snowy Spirit, Festive Delight, Herbs and Harvest, Merrymaking) exist several times.
 // 1) Tags: every copy found in the registry joins one shared c: tag (adds to chop_synergy_tags.js, never removes).
@@ -13,6 +13,14 @@
 //         chop:stockings / chop:wreaths (tag only, for quests / loot / Festivity decor credit; different looks are never merged).
 //         Non-crop groups widen to a chop:unify/* tag holding ONLY the matched copies (a shared c: tag may hold more, e.g. milk buckets),
 //         and the copies are also added to the c: tag for other mods.
+// v0.3.2 (Josh live test 11-10): cooking recipes (smelting / smoking / campfire / blasting) are NEVER widened. Widening FD's bacon
+//         smoker recipe made Herbs and Harvest bacon cook into Farmer's Delight cooked bacon (worse food). Each mod's raw item now
+//         cooks with its own recipe; crafting, cooking pots, cutting boards etc. still take any copy.
+//         Also: block tag chop:ultimine_snow (vanilla snow + every Snow Real Magic snow block) for FTB Ultimine merge_tags, so a
+//         snowy patch where SRM swapped some layers for its own blocks mines as ONE group (Josh 11-10: snowy ground broke one at a time).
+//         Also fills a cooking gap: Merrymaking's raw ham only had a furnace recipe, so it would not go in a smoker or on a campfire.
+//         Cooking audit (11-10): Farm & Charm lamb ham / minced beef cook into the mod's own cooked item in furnace + smoker too.
+// v0.3.3: Herbs and Harvest bacon / chicken cutlet / salmon steak / sausage also cook in the smoker and on a campfire (were furnace only).
 // Ids come from the registry (never Item.of on a guess: clean join).
 // KubeJS 2101: IIFE, early return, no declarations inside nested blocks.
 (function () {
@@ -54,8 +62,14 @@
     { tag: 'chop:stockings',          re: /^[a-z0-9_.-]+:[a-z0-9_]*stocking$/, tagOnly: true },
     { tag: 'chop:wreaths',            re: /^[a-z0-9_.-]+:[a-z0-9_]*wreath$/, tagOnly: true }
   ];
+  const NO_WIDEN = [{ type: 'minecraft:smelting' }, { type: 'minecraft:smoking' }, { type: 'minecraft:campfire_cooking' }, { type: 'minecraft:blasting' }];   // v0.3.2
   const SKIP = /^(minecraft|kubejs|chop):/;
 
+  let reg = null;   // v0.3.2: id -> true, read once
+  function scanHas(id) {
+    if (!reg) { reg = {}; try { BuiltInRegistries.ITEM.keySet().forEach(k => { reg[String(k)] = true; }); } catch (e) {} }
+    return reg[id] === true;
+  }
   let found = null;   // tag -> [ids], read once from the registry
   function scan() {
     if (found) return found;
@@ -77,12 +91,42 @@
     GROUPS.forEach(g => f[g.tag].forEach(id => { event.add(g.tag, id); if (g.also) event.add(g.also, id); }));
   });
 
+  // v0.3.2: Ultimine snow group (block tag; registry-scanned, so only real ids; logged)
+  ServerEvents.tags('block', event => {
+    let ids = ['minecraft:snow'];
+    try { BuiltInRegistries.BLOCK.keySet().forEach(k => { let s = String(k); if (/^snowrealmagic:.*snow/.test(s)) ids.push(s); }); } catch (e) { console.warn('[chop crops] snow scan failed: ' + e); }
+    ids.forEach(id => event.add('chop:ultimine_snow', id));
+    console.info('[chop crops] chop:ultimine_snow: ' + ids.join(', '));
+  });
+
   ServerEvents.recipes(event => {
     let f = scan(), n = 0;
     GROUPS.forEach(g => {
       if (g.tagOnly || f[g.tag].length < 2) return;   // only real duplicates; tag-only groups are never widened
-      (g.oneWay ? f[g.tag].filter(id => g.oneWay.indexOf(id) >= 0) : f[g.tag]).forEach(id => { try { event.replaceInput({ input: id }, id, '#' + g.tag); n++; } catch (e) { console.warn('[chop crops] replace ' + id + ' failed: ' + e); } });
+      (g.oneWay ? f[g.tag].filter(id => g.oneWay.indexOf(id) >= 0) : f[g.tag]).forEach(id => { try { event.replaceInput({ input: id, not: NO_WIDEN }, id, '#' + g.tag); n++; } catch (e) { console.warn('[chop crops] replace ' + id + ' failed: ' + e); } });
     });
     console.info('[chop crops] widened inputs for ' + n + ' crop ids');
+    // v0.3.2: smoker + campfire for Merrymaking ham (the mod ships only a furnace recipe; same result and xp, vanilla speeds)
+    if (scanHas('merrymaking:ham') && scanHas('merrymaking:cooked_ham')) {
+      event.smoking('merrymaking:cooked_ham', 'merrymaking:ham').xp(0.6).cookingTime(150).id('chop:cooking/merrymaking_ham_smoking');
+      event.campfireCooking('merrymaking:cooked_ham', 'merrymaking:ham').xp(0.6).cookingTime(600).id('chop:cooking/merrymaking_ham_campfire');
+    }
+    // v0.3.2 (cooking audit 11-10): Farm & Charm's own furnace/smoker recipes turn lamb ham into vanilla cooked mutton and minced beef
+    // into a vanilla steak, while its campfire gives the mod's cooked item. Same result everywhere now (xp/time kept).
+    [['farm_and_charm:lamb_ham', 'minecraft:cooked_mutton', 'farm_and_charm:cooked_lamb_ham'],
+     ['farm_and_charm:minced_beef', 'minecraft:cooked_beef', 'farm_and_charm:cooked_minced_beef']].forEach(r => {
+      if (!scanHas(r[0]) || !scanHas(r[2])) return;
+      try { event.replaceOutput({ input: r[0], output: r[1] }, r[1], r[2]); console.info('[chop crops] cooking fix ' + r[0] + ' -> ' + r[2]); }
+      catch (e) { console.warn('[chop crops] cooking fix ' + r[0] + ' failed: ' + e); }
+    });
+    // v0.3.3 (cooking audit 11-10): Herbs and Harvest raw meats ship furnace recipes only; add smoker + campfire with the mod's own result.
+    // Cooked ids follow the mod's cooked_<raw> naming; any pair that does not exist is skipped and logged (never guessed into a recipe).
+    ['bacon', 'chicken_cutlet', 'salmon_steak', 'sausage'].forEach(n => {
+      let raw = 'herbsandharvest:' + n, ck = 'herbsandharvest:cooked_' + n;
+      if (!scanHas(raw) || !scanHas(ck)) { console.info('[chop crops] cooking gap skipped: ' + raw + ' / ' + ck + ' not both in registry'); return; }
+      event.smoking(ck, raw).xp(0.35).cookingTime(100).id('chop:cooking/hh_' + n + '_smoking');
+      event.campfireCooking(ck, raw).xp(0.35).cookingTime(600).id('chop:cooking/hh_' + n + '_campfire');
+      console.info('[chop crops] cooking gap filled: ' + raw + ' -> ' + ck + ' (smoker + campfire)');
+    });
   });
 })();

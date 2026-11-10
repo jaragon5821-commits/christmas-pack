@@ -372,7 +372,7 @@ ItemEvents.rightClicked(event => {
   try {
     if (String(event.item.id) != 'chop:present_sack') return;
     let p = event.player, server = p.server, roll = Math.random(), got;
-    if (roll < 0.1) got = 'chop:ribbon_token 1'; else if (roll < 0.5) got = presentItem() + ' 1'; else got = 'chop:sour_candy ' + (3 + Math.floor(Math.random() * 4));
+    if (roll < 0.1) got = 'chop:ribbon_token 1'; else if (roll < 0.5) got = 'festivity:gift_crate 1'; else got = 'chop:sour_candy ' + (3 + Math.floor(Math.random() * 4));
     f5cmd(server, 'give ' + p.username + ' ' + got);
     if (Math.random() < 0.7) { event.item.shrink(1); f5cmd(server, 'tellraw ' + p.username + ' ' + F5.jsonText('The sack is empty now.', 'gray')); }
     f5cmd(server, 'playsound minecraft:item.bundle.drop_contents master ' + p.username);
@@ -388,7 +388,7 @@ function spawnFreedElf(server, x, y, z, who) {
   server.scheduleInTicks(1, () => { try { for (let e of findByTag(server, 'fest_freed', { x: x, z: z }, 4)) { if (!e.persistentData.getBoolean('fest_freedInit')) { e.persistentData.putBoolean('fest_freedInit', true); e.persistentData.putInt('fest_freedUntil', server.tickCount + P5.FREED_TICKS); f5scale(server, e, P5.FREED_SCALE); } } } catch (q) {} });
   f5cmd(server, 'particle minecraft:end_rod ' + Math.floor(x) + ' ' + (Math.floor(y) + 1) + ' ' + Math.floor(z) + ' 0.5 0.8 0.5 0.02 30');
   f5cmd(server, 'playsound minecraft:block.amethyst_block.chime master @a ' + Math.floor(x) + ' ' + Math.floor(y) + ' ' + Math.floor(z) + ' 1 1.4');
-  dropItem(server, Math.floor(x), Math.floor(y), Math.floor(z), presentItem(), 1);
+  dropPresent(server, Math.floor(x), Math.floor(y), Math.floor(z));   // heist fix: tagged present
   try { let candy = e4first(P4.CANDY); dropItem(server, Math.floor(x), Math.floor(y), Math.floor(z), candy, 2); } catch (q) {}
   if (who) f5cmd(server, 'tellraw ' + who + ' ' + F5.jsonText('A freed elf bows, drops a thank-you, and runs for the hills.', 'aqua'));
 }
@@ -427,7 +427,7 @@ function santaFlyby(server, forced, gift) {
 function startSleigh(server) { santaFlyby(server, false, P5.SLEIGH_GIFT); }
 function f5sleighGift(server, s) {
   let x = Math.floor(s.gx), z = Math.floor(s.gz), y = surfaceY(server.overworld(), x, z) + 6;
-  dropItem(server, x, y, z, presentItem(), 1);
+  dropPresent(server, x, y, z);   // heist fix: tagged present
   try { dropItem(server, x, y, z, e4first(P4.CANDY), 2); } catch (q) {}
   f5cmd(server, 'particle minecraft:firework ' + x + ' ' + (y + 2) + ' ' + z + ' 0.5 3 0.5 0.05 40 force');
   f5cmd(server, 'playsound minecraft:entity.firework_rocket.twinkle master @a ' + x + ' ' + y + ' ' + z + ' 2 1');

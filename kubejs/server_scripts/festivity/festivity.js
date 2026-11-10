@@ -24,10 +24,11 @@
 // Design: "Festivity Mechanic - Design v2.2" (Drive). Server script: runs in single player too.
 
 const FEST = {
-  VERSION: '0.4.3',
+  VERSION: '0.4.4',
   START: 55,                 // new world starting value (Josh: 55)
   MIN: 0, MAX: 100,
   HYSTERESIS: 3,             // points past a band edge before the band changes back
+  MILESTONE_HYST: 1,         // 0.4.4: points below a 5-point mark before "fell below" is announced
   DRIFT_TARGET: 60,          // bar drifts toward this while players are online
   DRIFT_PER_HOUR: 0.5,       // x sqrt(online players); doubled above 80 / below 20 (toward middle)
   DRIFT_EDGE_PER_HOUR: 1.0,
@@ -361,14 +362,20 @@ function change(server, delta, kind, player, reason) {
   fdata(server).putDouble('value', after);
 
   // milestone (every 5 whole points), band change
-  let m0 = Math.floor(before / 5), m1 = Math.floor(after / 5);
+  // 0.4.4: last announced mark (fdata 'milestone'); falls need MILESTONE_HYST below it and name the mark actually crossed
+  let d0 = fdata(server);
+  let ms = d0.contains('milestone') ? d0.getInt('milestone') : Math.floor(before / 5) * 5;
+  let msNew = ms, msSay = null;
+  if (after >= ms + 5) { msNew = Math.floor(after / 5) * 5; msSay = 'Festivity reached ' + msNew; }
+  else if (after <= ms - F.MILESTONE_HYST) { msNew = Math.floor(after / 5) * 5; msSay = 'Festivity fell below ' + ms; }
+  if (msNew != ms) d0.putInt('milestone', msNew);
   let newBand = resolveBand(server, after), oldBand = currentBand(server);
   if (newBand.id != oldBand.id) {
     fdata(server).putString('band', newBand.id);
     onBandChange(server, oldBand, newBand, after > before);
-  } else if (m0 != m1 && kind != 'drift-silent') {
+  } else if (msSay && kind != 'drift-silent') {
     showBossbar(server, F.MILESTONE_SHOW_TICKS, '@a', after > before ? 1 : 2);
-    announce(server, 'Festivity ' + (after > before ? 'reached ' : 'fell to ') + (m1 * 5), after > before ? 'green' : 'red');
+    announce(server, msSay, after > before ? 'green' : 'red');
   } else {
     refreshBossbar(server);
   }

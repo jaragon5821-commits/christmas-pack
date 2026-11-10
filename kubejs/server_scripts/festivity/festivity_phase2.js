@@ -42,6 +42,14 @@ const P2 = {
 const Q = Fest;   // Phase 1 table
 
 // ---------- small helpers ----------
+// 0.9.36 Event Night roll (Festivity jar com.chop.festivity.events.EventNight): one roll per in-game day, first ask wins.
+// Returns true / false, or null on an older jar (callers then keep their old behaviour). Shared with phase 4 (loads later).
+var fest_EN = null, fest_ENtried = false;
+function festEventNight(server, band) {
+  if (!fest_ENtried) { fest_ENtried = true; try { fest_EN = Java.loadClass('com.chop.festivity.events.EventNight'); } catch (e) { fest_EN = null; } }
+  if (!fest_EN) return null;
+  try { return !!fest_EN.tonight(server, band); } catch (e) { return null; }
+}
 function p2data(server) { return Q.data(server); }
 function p2json(server, key, fb) { return Q.readJson(server, key, fb); }
 function p2save(server, key, obj) { p2data(server).putString(key, JSON.stringify(obj)); }
@@ -103,7 +111,8 @@ ServerEvents.tick(event => {
   if (night && !d.getBoolean('p2_night')) d.putBoolean('p2_night', true);
   if (!night || Q.inGrace(server) || d.getBoolean('frozen')) return;
   let list = P2.MINIONS[band.id]; if (!list) return;
-  for (let p of Q.online(server)) {
+  let evNight = festEventNight(server, 'low') !== false;   // 0.9.36: quiet night = no minion waves and no Claws arrival (null on an old jar = yes)
+  for (let p of (evNight ? Q.online(server) : [])) {
     if (String(p.level.dimension) != 'minecraft:overworld') continue;
     let last = p.persistentData.getLong('fest_lastWave') || 0;
     if (Q.nowMs() - last < P2.MINION_INTERVAL_S * 1000) continue;
@@ -116,7 +125,7 @@ ServerEvents.tick(event => {
     Q.cmd(server, 'playsound minecraft:block.bell.use master ' + p.username + ' ' + Math.floor(x) + ' ' + Math.floor(y) + ' ' + Math.floor(z) + ' 0.5 0.6');
   }
   // Santy Claws at midnight on Claws Night
-  if (band.id == 'clawsnight' && !d.getBoolean('p2_clawsTonight')) {
+  if (band.id == 'clawsnight' && !d.getBoolean('p2_clawsTonight') && evNight) {
     let t = Q.dayTime(server) % 24000;
     if (t >= P2.CLAWS_HOUR && t < P2.CLAWS_HOUR + 600) { d.putBoolean('p2_clawsTonight', true); clawsArrive(server, false); }
   }

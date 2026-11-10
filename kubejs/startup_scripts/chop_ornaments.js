@@ -1,4 +1,4 @@
-// chop_ornaments.js v0.3.0 (Scripts thread, 2026-11-05) - startup script: needs a FULL game restart.
+// chop_ornaments.js v0.4.0 (Scripts thread, 2026-11-10; v0.3.0 2026-11-05) - startup script: needs a FULL game restart.
 // Festivity ornaments, two sets (boss: "Large Ornaments" + small lantern-style ornaments):
 //   LARGE: full-size cubes (glossy sides with a gold band, cap + hook drawn on top). They replace gold/iron/raw ore
 //          blocks in the Christmas structures, so builds can't be stripped for free metal.
@@ -16,7 +16,20 @@ function chopOrnName(c) {
 //   chop:<c>_<style>_large_ornament / chop:<c>_<style>_ornament (silver: chop:<style>_large_ornament)
 const CHOP_ORN_STYLES = ['', 'striped', 'snowflake', 'glitter', 'ribbed', 'mercury', 'faceted', 'jeweled', 'painted'];
 const CHOP_ORN_STYLE_NAMES = { striped: 'Candy Stripe', snowflake: 'Snowflake', glitter: 'Glitter', ribbed: 'Ribbed', mercury: 'Mercury Glass', faceted: 'Faceted', jeweled: 'Jeweled', painted: 'Painted Scene' };
-const ChopHanging = Java.loadClass('net.minecraft.world.level.block.state.properties.BlockStateProperties').HANGING;
+const ChopBSP = Java.loadClass('net.minecraft.world.level.block.state.properties.BlockStateProperties');
+const ChopHanging = ChopBSP.HANGING;
+// v0.4.0 (boss 11-10): small ornaments mount on a wall bracket when placed against a wall side.
+//   attached=true + facing = side the WALL is on (opposite of the clicked face). Model chop:block/<name>_wall.
+const ChopAttached = ChopBSP.ATTACHED;
+const ChopFacing = ChopBSP.HORIZONTAL_FACING;
+const ChopDir = Java.loadClass('net.minecraft.core.Direction');
+function chopOrnPlace(e) {
+  var f = String(e.clickedFace);
+  var side = (f == 'north' || f == 'south' || f == 'east' || f == 'west');
+  e.set(ChopHanging, f == 'down');
+  e.set(ChopAttached, side);
+  e.set(ChopFacing, side ? e.clickedFace.getOpposite() : ChopDir.NORTH);
+}
 
 StartupEvents.registry('block', event => {
   CHOP_ORN_COLORS.forEach(c => {
@@ -36,8 +49,10 @@ StartupEvents.registry('block', event => {
         .notSolid()
         .box(4, 0, 4, 12, 16, 12, true)
         .property(ChopHanging)
-        .defaultState(s => s.set(ChopHanging, false))
-        .placementState(e => e.set(ChopHanging, String(e.clickedFace) == 'down'));
+        .property(ChopAttached)
+        .property(ChopFacing)
+        .defaultState(s => s.set(ChopHanging, false).set(ChopAttached, false).set(ChopFacing, ChopDir.NORTH))
+        .placementState(e => chopOrnPlace(e));
     });
   });
 });

@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "festive_delight"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "farmersdelight:rice"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "farmersdelight:cabbage_leaf"
+    },
+    {
+      "tag": "c:foods/dough/wheat"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "festive_delight:spring_rolls",
+    "count": 1
+  }
+}

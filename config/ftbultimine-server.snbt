@@ -21,7 +21,7 @@
 		# This value can also be modified with the 'ftbultimine:max_blocks_modifier' entity attribute
 		# Default: 64
 		# Range: 0 ~ 32768
-		max_blocks: 64
+		max_blocks: 128
 		
 		# Require a damageable tool, or an item in the 'ftbultimine:tools' tag, to ultimine.
 		# Default: false
@@ -72,6 +72,7 @@
 		# These tags will be considered the same block when checking for blocks to Ultimine in shapeless mining mode
 		# Default: ["minecraft:base_stone_overworld", "c:ores/*", "forge:ores/*"]
 		merge_tags: [
+			"chop:ultimine_snow"
 			"minecraft:base_stone_overworld"
 			"c:ores/*"
 			"forge:ores/*"
