@@ -42395,7 +42395,7 @@ hash = "72fcc827e728fb25e8bbbf57f7bd3bb05c15baaa6b4dfdd7d4009ad13075dbf8"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase2.js"
-hash = "d36cad323fe2aed75fa7492288801c62c089235624b2e7cef16ebbcd0f2f3aec"
+hash = "34851cd729c2605a3770011fa35305bff736dce88d1db8e5d9f026f26c8f05c1"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase3.js"
@@ -44563,11 +44563,6 @@ file = "config/openloader/packs/28_Chops_Quest_Structure_Tags_v1.zip"
 hash = "43fb432b21fcd38c746a133226b3b5e2fd8a917b22ab05426fd26bc20fecb741"
 
 [[files]]
-file = "mods/custom-chop-autopilot-1.3.4-chop.36.pw.toml"
-hash = "a65f4cf04e9c053544c3522b7ef6be5e7bddba99f92726daad4a0c8ea7e2b7c0"
-metafile = true
-
-[[files]]
 file = "kubejs/data/festive_delight/recipe/cinnamon_craft.json"
 hash = "4fdfa1789f0ecf406621a094af143e7f92afdd0fe99af606b63e7560109aabaf"
 
@@ -45265,7 +45260,7 @@ hash = "c60b07f462468f0fff9ef34ca8db9657fae5dfe0156e96b0f02db9b5e9262241"
 
 [[files]]
 file = "mods/custom-festivity-0.9.39.pw.toml"
-hash = "3843062a09864f7effabc776c8a48e8732fb183528af811645bb436c5c1ebf76"
+hash = "1c7d984a15a68543e0a6b4118a8a52cae83e29059e2fab8c1170f0a8b9b2b28f"
 metafile = true
 
 [[files]]
@@ -45276,4 +45271,9 @@ metafile = true
 [[files]]
 file = "mods/custom-diorama-0.7.0-chop.1.pw.toml"
 hash = "5b35198f0b41f9cfac345089c07ba9e6aaf59f33661acb6027fb6d6c920042ea"
+metafile = true
+
+[[files]]
+file = "mods/custom-chop-autopilot-1.3.4-chop.47.pw.toml"
+hash = "ef1b2b183af4c1da72fd954ac9d168c98b8fd04da182a146ce58e14f2d0c686a"
 metafile = true

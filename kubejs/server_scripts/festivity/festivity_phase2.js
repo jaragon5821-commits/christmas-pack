@@ -85,9 +85,16 @@ function findByTag(server, tag, near, r) {
       for (let e of server.overworld().getEntitiesWithin(AABB.of(near.x - r, -64, near.z - r, near.x + r, 320, near.z + r))) if (e.tags && e.tags.contains(tag)) out.push(e);
       if (out.length) return out;
     }
-    for (let e of server.overworld().getEntitiesWithin(AABB.of(-30000000, -64, -30000000, 30000000, 320, 30000000))) if (e.tags && e.tags.contains(tag)) out.push(e);
+    // 0.9.9 PERF FIX (spark 11-09: ~63% of tick time): the old fallback scanned a +-30M-block box. Loaded entities only now.
+    for (let e of loadedEntities(server)) if (e.tags && e.tags.contains(tag)) out.push(e);
   } catch (x) {}
   return out;
+}
+function loadedEntities(server) {
+  let lvl = server.overworld();
+  try { return lvl.getEntities(); } catch (a) {}          // KubeJS: every loaded entity
+  try { return lvl.getAllEntities(); } catch (b) {}       // vanilla Iterable fallback
+  return [];
 }
 function tokensOn(server) { return Q.value(server) <= P2.TOKEN_BAND_MAX; }
 function dropItem(server, x, y, z, item, count) { Q.cmd(server, 'summon minecraft:item ' + x + ' ' + (y + 0.5) + ' ' + z + ' {Item:{id:"' + item + '",count:' + (count || 1) + '}}'); }
@@ -178,10 +185,24 @@ function clawsArrive(server, finale) {
   Q.cmd(server, 'playsound minecraft:entity.wither.spawn master @a ~ ~ ~ 0.4 0.6');
   Q.logEvent(server, 'Santy Claws came for ' + target.username);
 }
+// 0.9.9 PERF FIX: a stale 'claws' record (Claws gone after a restart/unload) used to trigger the world-wide scan every second.
+// Now: a miss backs off 10 s, and 3 misses in a row clear the record and his hounds.
+let p2_clawsMiss = 0, p2_clawsNextLook = 0;
 function clawsEntity(server) {
   let c = p2json(server, 'claws', null);
-  let l = findByTag(server, 'fest_claws', c && c.lastPos ? c.lastPos : null, 192);
-  return l.length ? l[0] : null;
+  if (!c) { p2_clawsMiss = 0; return null; }
+  if (Date.now() < p2_clawsNextLook) return null;
+  let l = findByTag(server, 'fest_claws', c.lastPos ? c.lastPos : null, 192);
+  if (l.length) { p2_clawsMiss = 0; return l[0]; }
+  p2_clawsMiss++;
+  p2_clawsNextLook = Date.now() + 10000;
+  if (p2_clawsMiss >= 3) {
+    p2_clawsMiss = 0;
+    p2data(server).remove('claws');
+    Q.cmd(server, 'kill @e[tag=fest_hound]');
+    console.log('[Festivity] stale Santy Claws record cleared (no fest_claws entity loaded)');
+  }
+  return null;
 }
 function clawsLeave(server, why) {
   let c = p2json(server, 'claws', null); if (!c) return;
