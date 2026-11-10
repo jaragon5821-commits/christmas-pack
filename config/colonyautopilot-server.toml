@@ -794,7 +794,7 @@
 	#(when that mod is installed) and the pack's guide books as loose items (see spawnTomeBooks) —
 	#sneak-right-click a book onto the tome to bind it. Later joiners get a chat pointer to the village
 	#instead of a Town Hall.
-	spawnStarterKit = true
+	spawnStarterKit = false
 	#Guide-book item ids handed to the player as LOOSE items beside the blank tome —
 	#binding is manual by design (a component-built pre-bound tome refused to morph
 	#in-game). Unknown ids are skipped, so extend freely as the pack gains guide books.

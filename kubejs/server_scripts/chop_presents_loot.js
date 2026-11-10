@@ -1,4 +1,11 @@
 // Chop's Christmas Spectacular - presents/treats tags + LootJS gift loot
+// v0.2.0 (Scripts, 2026-11-09, Josh live test): FIX chests 'entirely full of single presents'. LootEntry.tag(tag) defaults to
+//   expand=false, which in vanilla loot means 'drop ONE OF EVERY item in the tag' (~55 presents / dozens of treats per hit).
+//   Now expand=true (one random item from the tag). Presents 10% -> 6%, treats 20% -> 12% with a 1-2 stack.
+// v0.3.0 (Loot audit, 2026-11-09): REAL FIX for the 42-82 stack chest bloat. v0.2.0's expand=true did not help:
+//   LootJS 3.7.0 addLoot() (AddLootAction.apply) calls entry.expand() and then createItemStack() on EVERY expanded
+//   child, so a tag entry gives one of every item in the tag whether expand is true or false. A vanilla pool
+//   (pool() -> LootPool.addRandomItems, 1 roll) picks ONE weighted child instead. Chances unchanged: 6% / 12%.
 // Approved Nov 1 2026: LootJS 3.7.0 paired with chop:presents (Synergy Audit rows 17 + 20).
 // Item ids read from the installed jars. Loot part runs only if LootJS is loaded.
 const has = (mod) => Platform.isLoaded(mod)
@@ -27,8 +34,9 @@ ServerEvents.tags('item', event => {
 if (has('lootjs')) {
   LootJS.modifiers(event => {
     // Every chest loot table (vanilla, YUNG's, Lootr, modded structures)
+    // One pool per tag, 1 roll each: at most ONE present and ONE treat stack per chest.
     event.addTableModifier(LootType.CHEST)
-      .addLoot(LootEntry.tag('chop:presents').randomChance(0.10))
-      .addLoot(LootEntry.tag('chop:festive_treats').randomChance(0.20))
+      .pool(p => { p.addEntry(LootEntry.tag('chop:presents', true).randomChance(0.06)) })
+      .pool(p => { p.addEntry(LootEntry.tag('chop:festive_treats', true).setCount([1, 2]).randomChance(0.12)) })
   })
 }

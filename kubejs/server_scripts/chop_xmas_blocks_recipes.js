@@ -42,7 +42,7 @@
     DYES.forEach(c => {
       event.shaped(Item.of('chop:' + c + '_stripes_wrapping_paper', 8), ['PPP', 'PDP', 'PPP'], { P: 'minecraft:paper', D: '#c:dyes/' + c }).id('chop:xmas/paper_' + c);
     });
-    event.shaped(Item.of('chop:white_ribbon_block', 4), ['SS', 'SS'], { S: 'minecraft:string' }).id('chop:xmas/ribbon_base');
+    event.shaped(Item.of('chop:white_ribbon_block', 4), ['SS', 'SD'], { S: 'minecraft:string', D: '#c:dyes/white' }).id('chop:xmas/ribbon_base');   // audit 11-09: was 4 string, same grid as vanilla white wool
     DYES.forEach(c => {
       event.shapeless('chop:' + c + '_ribbon_block', ['#chop:ribbon_blocks', '#c:dyes/' + c]).id('chop:xmas/ribbon_' + c);
       event.shapeless(Item.of('chop:' + c + '_gift_bow', 2), ['chop:' + c + '_ribbon_block']).id('chop:xmas/bow_' + c);

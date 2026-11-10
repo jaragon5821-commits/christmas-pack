@@ -1,4 +1,7 @@
-// chop_xmas_chest_loot.js v0.1.3 (Scripts thread, 2026-11-08) - server script, LootJS 3.7.0.
+// chop_xmas_chest_loot.js v0.2.0 (Scripts thread, 2026-11-09) - server script, LootJS 3.7.0.
+// v0.2.0 (Josh 11-09 live test): 5-7 filled slots per chest IN TOTAL. Main-pool rolls cut so main + the table's bonus pools
+//   (rare 0-1, lore book 1) land at 5-7: big dungeon tables 4-5, small 4-6, starter_house / roadside_gifts 5-6, others 5-7.
+//   NOTE: chests also stop splitting stacks across empty slots only once the Festivity LootTableNoSplitMixin ships.
 // Josh 05:42 UTC Nov 8: Christmas structure chests were overloaded with cookies/candy. Big varied pool, ~5-8 filled slots.
 // Rewrites POOL 0 (the main pool) of every chop:chests/* structure + roadside table. Pools 1+ are kept untouched
 // (rare bonus pool + Assets' Santy Claws / Nether / End lore-book pools). chop:chests/folklore is NOT touched.
@@ -119,19 +122,19 @@
   };
   // table -> [[pool, weightMultiplier], ...], rolls [min,max]
   const T = {
-    'chop:chests/xmas_dungeon':       { rolls: [5, 8], mix: [['valuables', 3], ['gear', 3], ['rare', 2], ['food', 1], ['basics', 1], ['festive', 1]] },
-    'chop:chests/xmas_dungeon_small': { rolls: [5, 7], mix: [['valuables', 2], ['gear', 2], ['rare', 1], ['food', 1], ['basics', 2], ['festive', 1]] },
-    'chop:chests/xmas_nether':        { rolls: [5, 8], mix: [['nether', 4], ['valuables', 2], ['gear', 2], ['rare', 1]] },
-    'chop:chests/xmas_nether_small':  { rolls: [5, 7], mix: [['nether', 4], ['valuables', 1], ['gear', 1], ['basics', 1]] },
-    'chop:chests/xmas_end':           { rolls: [5, 8], mix: [['end', 4], ['valuables', 2], ['gear', 2], ['rare', 2]] },
-    'chop:chests/xmas_end_small':     { rolls: [5, 7], mix: [['end', 4], ['valuables', 1], ['gear', 1], ['basics', 1]] },
-    'chop:chests/starter_house':      { rolls: [5, 8], mix: [['basics', 3], ['tools', 3], ['food', 2], ['seeds', 2], ['festive', 1], ['valuables', 1]] },
-    'chop:chests/starter_pantry':     { rolls: [5, 8], mix: [['food', 5], ['seeds', 2], ['basics', 1]] },
-    'chop:chests/roadside_gifts':     { rolls: [5, 7], mix: [['festive', 4], ['food', 1], ['basics', 1], ['valuables', 1]] },
-    'chop:chests/roadside_market':    { rolls: [5, 8], mix: [['food', 3], ['seeds', 2], ['valuables', 2], ['tools', 1], ['festive', 1]] },
+    'chop:chests/xmas_dungeon':       { rolls: [4, 5], mix: [['valuables', 3], ['gear', 3], ['rare', 2], ['food', 1], ['basics', 1], ['festive', 1]] },
+    'chop:chests/xmas_dungeon_small': { rolls: [4, 6], mix: [['valuables', 2], ['gear', 2], ['rare', 1], ['food', 1], ['basics', 2], ['festive', 1]] },
+    'chop:chests/xmas_nether':        { rolls: [4, 5], mix: [['nether', 4], ['valuables', 2], ['gear', 2], ['rare', 1]] },
+    'chop:chests/xmas_nether_small':  { rolls: [4, 6], mix: [['nether', 4], ['valuables', 1], ['gear', 1], ['basics', 1]] },
+    'chop:chests/xmas_end':           { rolls: [4, 5], mix: [['end', 4], ['valuables', 2], ['gear', 2], ['rare', 2]] },
+    'chop:chests/xmas_end_small':     { rolls: [4, 6], mix: [['end', 4], ['valuables', 1], ['gear', 1], ['basics', 1]] },
+    'chop:chests/starter_house':      { rolls: [5, 6], mix: [['basics', 3], ['tools', 3], ['food', 2], ['seeds', 2], ['festive', 1], ['valuables', 1]] },
+    'chop:chests/starter_pantry':     { rolls: [5, 7], mix: [['food', 5], ['seeds', 2], ['basics', 1]] },
+    'chop:chests/roadside_gifts':     { rolls: [5, 6], mix: [['festive', 4], ['food', 1], ['basics', 1], ['valuables', 1]] },
+    'chop:chests/roadside_market':    { rolls: [5, 7], mix: [['food', 3], ['seeds', 2], ['valuables', 2], ['tools', 1], ['festive', 1]] },
     'chop:chests/roadside_mail':      { rolls: [5, 7], mix: [['mail', 5], ['festive', 2], ['valuables', 1]] },
-    'chop:chests/roadside_woodcutter':{ rolls: [5, 8], mix: [['wood', 5], ['tools', 1], ['basics', 1]] },
-    'chop:chests/roadside_fishing':   { rolls: [5, 8], mix: [['fishing', 5], ['food', 1], ['basics', 1]] }
+    'chop:chests/roadside_woodcutter':{ rolls: [5, 7], mix: [['wood', 5], ['tools', 1], ['basics', 1]] },
+    'chop:chests/roadside_fishing':   { rolls: [5, 7], mix: [['fishing', 5], ['food', 1], ['basics', 1]] }
   };
 
   LootJS.lootTables(event => {

@@ -22,7 +22,7 @@
 	#This setting defines the length of the day in real-world minutes.
 	#Vanilla length: 10.0 minutes
 	#Range: 0.1 ~ 10000.0
-	daySpeedMinutes = 15.0
+	daySpeedMinutes = 45.0
 	#An alternative way to set night speed. This setting is mutually exclusive with nightSpeed.
 	#If both are set, speedMethod (see above) determines which setting is used.
 	#This setting defines the length of the night in real-world minutes.
@@ -134,7 +134,7 @@
 	#A value of 1 means all players must be sleeping, 0.5 means half the players must be sleeping, etc.
 	#A value of 0 effectively disables this feature.
 	#Range: 0.0 ~ 1.0
-	ratioPlayersForSleep = 0.0
+	ratioPlayersForSleep = 0.5
 
 	#This section defines settings for notification messages.
 	#All messages support Minecraft formatting codes (https://minecraft.wiki/w/Formatting_codes).

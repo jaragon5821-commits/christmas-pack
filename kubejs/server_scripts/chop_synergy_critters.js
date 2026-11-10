@@ -1,4 +1,7 @@
 // chop_synergy_critters.js  v0.1.2 (TEST)  - synergy thread, 2026-11-04 (Josh YES: a + b; v0.1.1 narwhal, v0.1.2 harpseal id fix)
+// v0.2.0 (Scripts, 2026-11-09): tag drops now expand=true (one random item). Before, a kill could drop one of EVERY present/treat in the tag.
+// v0.3.0 (Loot audit, 2026-11-09): expand=true alone did NOT fix it. LootJS 3.7.0 addLoot() creates every expanded
+//   child, so a tag entry still drops the whole tag. Tag drops now sit in their own 1-roll pool (picks ONE item).
 // (a) Bountiful Seals arctic cod -> c:foods/raw_fish / c:foods/cooked_fish, so FD and Let's Do fish recipes take it.
 // (b) LootJS gift drops: winter critters (penguin, seal incl. harp_seal, snow leopard, narwhal) and cold hostiles (stray, frozen zombie)
 //     sometimes drop a festive treat; hostiles can also drop a present.
@@ -31,10 +34,10 @@
       else if (id.indexOf('minecraft:') != 0 && CRITTER.test(path(id))) critters.push(id);
     });
     if (critters.length) event.addEntityModifier(critters).killedByPlayer()
-      .addLoot(LootEntry.tag('chop:festive_treats').randomChance(0.05));
+      .pool(p => { p.addEntry(LootEntry.tag('chop:festive_treats', true).randomChance(0.05)) });
     if (hostiles.length) event.addEntityModifier(hostiles).killedByPlayer()
-      .addLoot(LootEntry.tag('chop:festive_treats').randomChance(0.08))
-      .addLoot(LootEntry.tag('chop:presents').randomChance(0.02));
+      .pool(p => { p.addEntry(LootEntry.tag('chop:festive_treats', true).randomChance(0.08)) })
+      .pool(p => { p.addEntry(LootEntry.tag('chop:presents', true).randomChance(0.02)) });
     console.info('[chop critters] gift drops: critters=' + critters.join(',') + ' hostiles=' + hostiles.join(','));
   });
 })();

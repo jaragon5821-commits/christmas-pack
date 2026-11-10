@@ -453,10 +453,7 @@
 		}
 		{
 			icon: {
-				components: {
-					"ftbquests:missing_item": "bakery:dough"
-				}
-				id: "ftbquests:missing_item"
+				id: "farm_and_charm:dough"
 			}
 			id: "57002F8B008AC71D"
 			rewards: [{
@@ -466,8 +463,9 @@
 			}]
 			tasks: [{
 				consume_items: false
+				count: 4L
 				id: "4B74DD430941D215"
-				item: { components: { "ftbquests:missing_item": "4x bakery:dough" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "farm_and_charm:dough" }
 				type: "item"
 			}]
 			x: 6.0d

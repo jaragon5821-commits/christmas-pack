@@ -36,13 +36,8 @@
 			id: "7C0A15F3B1D2E505"
 			rewards: [{
 				id: "7C0A15F3B1D2E506"
-				item: {
-					components: {
-						"ftbquests:missing_item": "4x festive_delight:gingerbread_cookie"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
+				count: 4
+				item: { count: 1, id: "festive_delight:gingerbread_man" }
 				type: "item"
 			}]
 			tasks: [{

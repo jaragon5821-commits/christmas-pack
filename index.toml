@@ -2990,7 +2990,7 @@ hash = "730b13a15e01a03825fc40477758799ed8801c783d9cf829867c43c1b08f7ad9"
 
 [[files]]
 file = "config/betterdays-common.toml"
-hash = "27c3bd657e8a3f75a19577b117826520b86e5c452070f08407ae5de42a9bedaa"
+hash = "9d83116d2c8e4e3e4b725b199bfdf0c4a90ed835183407c865897517fb65693c"
 
 [[files]]
 file = "config/betterpingdisplay-client.toml"
@@ -3330,7 +3330,7 @@ hash = "9d7e2db3fb92440a7acb2b9af73f7b2e01817b6ee07d306edf929040b967680a"
 
 [[files]]
 file = "config/colonyautopilot-server.toml"
-hash = "bec3ea5a08371b2893806a3a8f3e24a4d5b2cc1e19497e6ae4c06f57ca4dd97a"
+hash = "3c3290322d1e2d5d5b0bebc87e3356c8ad4a8de0fd77cef9931d55ba59ad5693"
 
 [[files]]
 file = "config/comforts-common.toml"
@@ -3866,7 +3866,7 @@ hash = "b978b123395fab4ed914b789caf2e21088f6fbc6708b092d8bc861a8184c369e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chop_kitchen_farm.snbt"
-hash = "952920bf0adbbad829105e88fa742eedeb9bfe82e4495381a8ee3a579fedf988"
+hash = "d394e52fde3dbbdc0429bdad5415aaa980c485d4a523631a36edc6e0ece761ba"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chops_christmas.snbt"
@@ -3910,7 +3910,7 @@ hash = "5017d070aa8a041ce3268ce3d63ac4fa904522fd537164530423e825f0b9eedf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/festivity_nice_list.snbt"
-hash = "8adbab3ec192eb2583452de1f9ff873a380ab3438b2311bd994e5d300cedd9a7"
+hash = "f58d8d467c2e15e6a5cd74920868053017aeacad4cd5a99973e445d1c40c515a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fire_safety.snbt"
@@ -4848,10 +4848,6 @@ hash = "7203208a15e05cdd3d10fc1cf5a26e48670b8bd0a3fcd89dddd5a54d08eff17c"
 [[files]]
 file = "config/openloader/packs/15_Chops_Roadside_Christmas_v2.zip"
 hash = "2cf765fd5d84a24fceed8b30a844f49c3b5e6069e2d8ffd6d776b27fbf31749c"
-
-[[files]]
-file = "config/openloader/packs/16_Chops_Christmas_Structures_v38.zip"
-hash = "77c14909c9dc2c5ca57e9ae29d9deb1ebc2813037db1b006e3afca281ff864a4"
 
 [[files]]
 file = "config/openloader/packs/17_chop_christmas_caves_v1b.zip"
@@ -42327,7 +42323,7 @@ hash = "19a2be13a966fc095d095a8d21e11299ef9173f9d85e2b712316fbbcb117bd9b"
 
 [[files]]
 file = "kubejs/server_scripts/chop_no_autopilot_guide.js"
-hash = "16a24cb34aa0c102ce2a8a135e2d02dd40311e88b1dacea54fa0ddf6ba7bd6eb"
+hash = "8da192261b560e64ca6272d815cfa8f8245be3698b504a4495c0598b027ae98e"
 
 [[files]]
 file = "kubejs/server_scripts/chop_ornament_recipes.js"
@@ -42335,7 +42331,7 @@ hash = "1039ec68ab9f09478eb37ead09593fe08a17a7ce463866b334acd35cca50a34a"
 
 [[files]]
 file = "kubejs/server_scripts/chop_presents_loot.js"
-hash = "e429ab53b24875d489028fdc193f7f464e1ab21350e8b59bb24cc338f9c60c87"
+hash = "d36ede2149c3dfb44e1fa0d5f47b5d58b3e806c5808701efda55a178eb6dbae7"
 
 [[files]]
 file = "kubejs/server_scripts/chop_requests_board.js"
@@ -42351,11 +42347,11 @@ hash = "88e3d258fa6e259c18b25755bb3a61f43b47bc1fb75962b80c953baa07cf9b29"
 
 [[files]]
 file = "kubejs/server_scripts/chop_starter_kit.js"
-hash = "7bf70b926c45c057554fa2dbc167183705f75baf9dc1b85b37833a0ba8f951c5"
+hash = "dfef687c5acb2eb9c441aa44d75e2315da962a5fcf46eae3f9de50a05e418786"
 
 [[files]]
 file = "kubejs/server_scripts/chop_synergy_critters.js"
-hash = "7037be757107420333b6da09d3f3a97fa111066f510ec5af4141769d08fd5513"
+hash = "59d050c3c51a1a38972cce9717baf4ba7f46e4633f7ce3e51a68edd997ffdd96"
 
 [[files]]
 file = "kubejs/server_scripts/chop_synergy_tags.js"
@@ -42379,11 +42375,11 @@ hash = "0d4f63e108e861cf65c880516c5d76000650be79cb9997d8407e1a5e859e072e"
 
 [[files]]
 file = "kubejs/server_scripts/chop_xmas_blocks_recipes.js"
-hash = "e8745e1c998beeb8eb424ac08e745713fd42b78640cd4d962f623f40eb974a24"
+hash = "7e109555db629a58b057e83a83d268fd43514320b5f0e5217f7cf0594870185a"
 
 [[files]]
 file = "kubejs/server_scripts/chop_xmas_chest_loot.js"
-hash = "589c20fcaaa3129f62380bbefae47164e674002c3f62c097be74491bea9c5cad"
+hash = "70a266fa3f2f197944557f973e00bf3b24ce93f5a5cea4544034f4fa32eec43e"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/05_tags.js"
@@ -44575,6 +44571,30 @@ hash = "0bf1023399eaadc16396bd44cfce99c2df602936fdd87ff851a198fef2901864"
 metafile = true
 
 [[files]]
-file = "mods/custom-chop-autopilot-1.3.4-chop.30.pw.toml"
-hash = "d84304760fb9800d661bbe036ea1ef2bbc279ce36473161879a6217bf816c6f0"
+file = "mods/custom-chop-autopilot-1.3.4-chop.31.pw.toml"
+hash = "803d066f72efdc042a1050fe482f2f100ccb19926608af9f4ca4871f3cf03865"
 metafile = true
+
+[[files]]
+file = "kubejs/server_scripts/chop_audit_fixes.js"
+hash = "01d8239af91ae82a3b5dd9a7a19d2ae46a83b1f64d794b4675e74ca17bc0e352"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/chop_spellcraft.snbt"
+hash = "23ecb95e5065aa5fb3f0eb3f1560d0900bde9aac450997f61bcdc429d33385f3"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/chop_explorer.snbt"
+hash = "cf8f5147a734bc599dabad496b3dd543064810a60bea37e334db42380b0342a7"
+
+[[files]]
+file = "config/openloader/packs/16_Chops_Christmas_Structures_v40.zip"
+hash = "d8a962f3fc26101301c90863351aadfc32386f0fdfb41592bbd668c3b8302160"
+
+[[files]]
+file = "config/openloader/packs/27_Chops_Abandoned_Colony_Loot_v1.zip"
+hash = "3a1d5282bc6198910fccc132b3ce670b3f90fa5b4772b6afb945d1005121c3bd"
+
+[[files]]
+file = "config/openloader/packs/28_Chops_Quest_Structure_Tags_v1.zip"
+hash = "43fb432b21fcd38c746a133226b3b5e2fd8a917b22ab05426fd26bc20fecb741"
