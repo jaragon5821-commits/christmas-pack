@@ -1,0 +1,8 @@
+name = "chopcolonylooks-1.21.1-0.1.3"
+filename = "chopcolonylooks-1.21.1-0.1.3.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/jaragon5821-commits/christmas-pack/test/patched-jars/chopcolonylooks-1.21.1-0.1.3.jar"
+hash-format = "sha512"
+hash = "52bbf6bccf720019717d3fad92020911f803c62a6535b45ca2f83446244ac89f852cd2e5c407b699aea79c4945264b782765e89c89f4fa0f45d0d2e08caf22bb"
