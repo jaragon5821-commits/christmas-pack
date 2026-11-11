@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.09-25
+- Removed unused config/MusicTriggers (8 songs, 32 MB; the Music Triggers mod was removed in -5, so nothing played them)
+
 ## 2026.11.09-24
 - Festivity 0.9.57 -> 0.9.63: hotbar frame hugs the hotbar with a band crest (merry wreath / bleak lantern icons between hearts and food), inventory art per band (4 px rim, full crests, merry 2x wreath), merry band-change card = full wreath; Gingerbread Buddy idle AI (naps on beds, sits on stairs/chairs, warms hands at fires, cooks at furnaces, dances next to a playing jukebox, naps at the foot of your bed while you sleep, defends you from mobs that target you), one buddy per Gingerbread Friend (no stray piece), quieter buddies (no unison wave, hum every 1.5-2 min); reindeer v4 straight neck. PASS: 0.9.58-0.9.63 checks in TEST (friend item 1 buddy, all idle poses, owner-bed nap side by side, jukebox dance beside it, walk-away clears pose, zombie defence, reindeer close-ups). NOT TESTED: sneak-click sit (needs a real click)
 - Gingerbread Friend script fix: no Variant-4 fallback piece next to the buddy

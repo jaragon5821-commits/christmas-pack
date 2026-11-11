@@ -4706,50 +4706,6 @@ file = "config/music_delay_reducer.json"
 hash = "feba24c59e487bbd5224aa9d3d54155f9229887393986b96a76518e1b99cdb2b"
 
 [[files]]
-file = "config/MusicTriggers/christmas/main.toml"
-hash = "e0ed3ff484bdedc8490f9d851435ad4a7b276a7ffcfda4902164cd88ae447f03"
-
-[[files]]
-file = "config/MusicTriggers/CREDITS.txt"
-hash = "ddd9ea822f2d4357a4e1b3a4164976844b92990315235f3016692cd284aff5c2"
-
-[[files]]
-file = "config/MusicTriggers/global.toml"
-hash = "67b1349c80c4c541665877720ea609151bc319ff67e37d6bbf6919918b557ab2"
-
-[[files]]
-file = "config/MusicTriggers/songs/auld_lang_syne_marine_band.mp3"
-hash = "3addeac1c6d36fc26759c4464ecf66004e35aefa789b345b12e0a8a463d5f123"
-
-[[files]]
-file = "config/MusicTriggers/songs/away_in_a_manger_marine_band.mp3"
-hash = "b094ad8feed16344e6529dc5917359d56a434efab379326226464dd02585ee08"
-
-[[files]]
-file = "config/MusicTriggers/songs/chasing_snowflakes_geoff_harvey.mp3"
-hash = "856fa39fd4d99e1848a40fc1e87b6fab0fb7439f30c5a2692a5dd02fc12aa33b"
-
-[[files]]
-file = "config/MusicTriggers/songs/deck_the_halls_usaf_band.ogg"
-hash = "9476dd5917b2bae3c932acd444a4bb6648648b7fce9b0136abad93d3c52bbb2f"
-
-[[files]]
-file = "config/MusicTriggers/songs/dungeon_dark_kevin_macleod.mp3"
-hash = "62d9f8a01262f351a7f02c32fae217a9cb32dd5aa1fc85c0bcb8c325a2663970"
-
-[[files]]
-file = "config/MusicTriggers/songs/o_holy_night_usaf_band.mp3"
-hash = "4b7f485346459ba18414007c5ba441c7c6ddc275facd507f531799b6e3cd1d85"
-
-[[files]]
-file = "config/MusicTriggers/songs/sugar_plum_fairy.mp3"
-hash = "e8e7797dcb7ac80431a4615c2598cf4532f76c4cc054b88a0ec3707ec857c5b1"
-
-[[files]]
-file = "config/MusicTriggers/songs/wish_you_a_merry_christmas_marine_band.mp3"
-hash = "5bc1a44e22ddd443aac207165cac57a8a64a0f1a8310a60c08f3b53a565c9e03"
-
-[[files]]
 file = "config/naturescompass-client.toml"
 hash = "a5d664ed8aeecd77bd09611cba93d5f8e3194da8140666d3e97a0c4973dd0981"
 
