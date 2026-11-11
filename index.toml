@@ -5359,7 +5359,7 @@ hash = "5a9058652bc0b88b8810e0b94eba0e1a90cbff2472845c53a7e67442682a1579"
 
 [[files]]
 file = "config/structurify.json"
-hash = "4296203fdda15dfe2c02eb5f82e0243a242f34e868c093a41c5fa9b02f5e475b"
+hash = "08d6f8074f0938121ca399d6741f67e634148e1c1264c38986e79e826ea79dd9"
 
 [[files]]
 file = "config/structurize-client.toml"
@@ -42215,7 +42215,7 @@ hash = "1361b7974574339a1a06132a0fbc73cb216262c49d1bc62da963e38dbc61ab21"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase5.js"
-hash = "9a72a7f62a05f7ebf96f713044c8f23551926481c1d7807036c6a96f1413f38b"
+hash = "a541026454be7fe44cbbfe1d1f36a08b70171b47efa272f58b3e6407a8d2537c"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_quests.js"
@@ -45128,6 +45128,6 @@ hash = "1f7bc5230441d2db9a5207bb7411bc0df0eeff95296619e89345009950df25da"
 metafile = true
 
 [[files]]
-file = "mods/custom-festivity-0.9.63.pw.toml"
-hash = "d9c49dc6af6576733d42d286aecd5c3a8c5954c96a997094feae315a884ca39f"
+file = "mods/custom-festivity-0.9.66.pw.toml"
+hash = "6ce8b3e3bca549e7201dc05389acc4c59a12f8b39b451254a684f91624089c3c"
 metafile = true

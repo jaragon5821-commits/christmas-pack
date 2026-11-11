@@ -411,11 +411,23 @@ function f5freedTick(server) {
 // ===================== D. SANTA FLYBY =====================
 // Josh: just him flying by in the sky with a Christmas bell sound. An invisible marker carries the Santa look (Looks v2: ETF/EMF on
 // the named entity); he crosses the sky over the players at SANTA_HEIGHT, bells chime as he passes, then he is gone.
+// 11-11 terrain fix: highest MOTION_BLOCKING point (trees included) at x,z; -9999 when the chunk is not loaded or the call fails
+var F5_HM = null;
+function f5ground(server, x, z) {
+  try {
+    if (!F5_HM) F5_HM = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap$Types').MOTION_BLOCKING;
+    var lvl = server.overworld(), bx = Math.floor(x), bz = Math.floor(z);
+    if (!lvl.hasChunk(bx >> 4, bz >> 4)) return -9999;
+    return Number(lvl.getHeight(F5_HM, bx, bz));
+  } catch (e) { return -9999; }
+}
+var F5_SANTA_CLEAR = 14;   // blocks above the highest ground ahead
 function santaFlyby(server, forced, gift) {
   let ps = f5players(server); if (!ps.length) return;
   let p = f5pick(ps), ang = Math.random() * Math.PI * 2, r = 90;
   let sx = p.x + Math.cos(ang) * r, sz = p.z + Math.sin(ang) * r, ex = p.x - Math.cos(ang) * r, ez = p.z - Math.sin(ang) * r;
   let y = Math.max(surfaceY(server.overworld(), Math.floor(p.x), Math.floor(p.z)), p.y) + P5.SANTA_HEIGHT;
+  y = Math.max(y, f5ground(server, sx, sz) + F5_SANTA_CLEAR);   // 11-11: also clear the ground where he starts
   f5cmd(server, 'kill @e[tag=fest_santa]');
   if (F5_MOD) f5cmd(server, 'summon festivity:santa_sleigh ' + sx.toFixed(1) + ' ' + y + ' ' + sz.toFixed(1) + ' {NoAI:1b,NoGravity:1b,Invulnerable:1b,Silent:1b,PersistenceRequired:1b,Tags:["fest_santa","fest_e4"]}');
   else f5cmd(server, 'summon minecraft:armor_stand ' + sx.toFixed(1) + ' ' + y + ' ' + sz.toFixed(1) + ' {NoGravity:1b,Invulnerable:1b,Marker:1b,Silent:1b,Tags:["fest_santa","fest_e4"]}');
@@ -438,6 +450,8 @@ function santaTick(server) {
   let dx = s.ex - s.x, dz = s.ez - s.z, h = Math.sqrt(dx * dx + dz * dz);
   if (h < P5.SANTA_SPEED) { f5cmd(server, 'kill @e[tag=fest_santa]'); F5.data(server).remove('p5_santa'); return; }
   s.x += dx / h * P5.SANTA_SPEED; s.z += dz / h * P5.SANTA_SPEED; s.step++;
+  // 11-11 terrain fix: look 4-16 blocks ahead and climb to stay F5_SANTA_CLEAR above the highest point (never dips)
+  for (var la = 0; la <= 16; la += 4) { var gy = f5ground(server, s.x + dx / h * la, s.z + dz / h * la); if (gy + F5_SANTA_CLEAR > s.y) s.y = gy + F5_SANTA_CLEAR; }
   if (s.gift && !s.gifted && s.total && h <= s.total / 2) { s.gifted = true; try { f5sleighGift(server, s); } catch (q) { f5log('sleigh gift: ' + q); } }   // v11: midpoint = over the player
   let yaw = Math.floor(Math.atan2(-(dx / h), dz / h) * 180 / Math.PI);
   f5cmd(server, 'tp @e[tag=fest_santa,limit=1] ' + s.x.toFixed(1) + ' ' + s.y + ' ' + s.z.toFixed(1) + ' ' + yaw + ' 0');

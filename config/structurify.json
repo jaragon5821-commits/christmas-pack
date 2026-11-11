@@ -795,8 +795,8 @@
       "salt": 10387312,
       "frequency": 1.0,
       "override_global_spacing_and_separation_modifier": true,
-      "spacing": 24,
-      "separation": 8
+      "spacing": 30,
+      "separation": 12
     }
   ],
   "structure_template_pools": []

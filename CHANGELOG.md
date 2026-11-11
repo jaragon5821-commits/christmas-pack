@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026.11.09-26
+- Festivity 0.9.63 -> 0.9.66: quieter reindeer (sleigh bells only while moving, soft hoof steps, no grunts while ridden); Gingerbread Buddy steps no longer squelch; Santa flyby follows the terrain 14 blocks above the ground and ignores damage; a killed Santa sleigh vanishes (no death tumble); small chop ornaments in trees stay put (leaves, logs, fences and walls hold them); death messages for all 47 Festivity spells; Grand Fireplace and Hearth turn correctly inside rotated/mirrored structures; NEW Large Chimney (full-block chimney in 6 materials + 5 large heads, same linking, smoke and Cozy as the slim chimney; Chipped swaps). Compiled; NOT TESTED in game (Josh tests in game)
+- Santa flyby script (festivity_phase5.js): start height clears the ground and the sleigh climbs to 14 blocks above terrain 4-16 blocks ahead (no more flying into mountains)
+- Villages more often: minecraft:villages (vanilla, CTOV and Luki's Grand Capitals villages) spacing 50 -> 30, separation 35 -> 12 via Structurify (about 2.8x as many; new chunks only). BWG villages keep their own spacing
+- Audit fixes: KubeJS local web server off (no auth key shipped), Simple Backups tuned, Immersive Optimization no longer throttles the bosses, Santa's sleigh or MCA villagers, 10 client-only mods marked client side, chop_no_autopilot_guide.js reload-safe, Winterly update check off
+- Chop's Colony Looks 0.1.2 -> 0.1.3: fixes the Snow Real Magic error flood while builders work in snow
+- 22 unused config files of removed mods moved to _archive/ (not shipped)
+
 ## 2026.11.09-25
 - Removed unused config/MusicTriggers (8 songs, 32 MB; the Music Triggers mod was removed in -5, so nothing played them)
 
