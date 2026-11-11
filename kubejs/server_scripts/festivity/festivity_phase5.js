@@ -481,8 +481,8 @@ BlockEvents.rightClicked(event => {
     // v15: jar 0.8.0 buddy entity first (pets v10 helper, owner = this player), old gingerbread_part Variant 4 pet when the jar lacks it
     let buddy = false;
     try { if (typeof ptSummonBuddy == 'function') buddy = !!ptSummonBuddy(server, p, x, y, z, ['fest_pet', 'fest_gbfriend']); } catch (q) { buddy = false; f5log('buddy summon: ' + q); }
-    if (!buddy) f5cmd(server, 'summon ' + fid('minecraft:slime') + ' ' + x + ' ' + y + ' ' + z + ' {Size:0,PersistenceRequired:1b,Variant:4b,Tags:["fest_pet","fest_gbfriend"]}');
-    f5log('gingerbread friend for ' + p.username + ': ' + (buddy ? 'festivity:gingerbread_buddy' : 'gingerbread_part Variant 4'));
+    // 11-11 fix: no Variant 4 fallback any more (runCommandSilent's count is unreliable here, so it spawned a stray piece NEXT TO the buddy).
+    f5log('gingerbread friend for ' + p.username + ': festivity:gingerbread_buddy (helper returned ' + buddy + ')');
     server.scheduleInTicks(2, () => {
       try {
         for (let e of findByTag(server, 'fest_gbfriend', { x: x, z: z }, 3)) {

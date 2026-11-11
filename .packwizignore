@@ -6,3 +6,6 @@ config/worldedit/.archive-unpack/
 config/catalogue_favourites.txt
 config/jamlib/known_suspicious_jars.txt
 config/patpat/patpat/player-list.txt
+# instance-local: server addresses live only on each player's PC (multiplayer list + FancyMenu join-button variables)
+servers.dat
+config/fancymenu/user_variables.db

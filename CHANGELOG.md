@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026.11.09-24
+- Festivity 0.9.57 -> 0.9.63: hotbar frame hugs the hotbar with a band crest (merry wreath / bleak lantern icons between hearts and food), inventory art per band (4 px rim, full crests, merry 2x wreath), merry band-change card = full wreath; Gingerbread Buddy idle AI (naps on beds, sits on stairs/chairs, warms hands at fires, cooks at furnaces, dances next to a playing jukebox, naps at the foot of your bed while you sleep, defends you from mobs that target you), one buddy per Gingerbread Friend (no stray piece), quieter buddies (no unison wave, hum every 1.5-2 min); reindeer v4 straight neck. PASS: 0.9.58-0.9.63 checks in TEST (friend item 1 buddy, all idle poses, owner-bed nap side by side, jukebox dance beside it, walk-away clears pose, zombie defence, reindeer close-ups). NOT TESTED: sneak-click sit (needs a real click)
+- Gingerbread Friend script fix: no Variant-4 fallback piece next to the buddy
+- Structures v44 -> v45d (v45c boss fixes + candy canes placed closer together: spacing 15 / separation 6, aiming for about twice as many; recount running)
+- Road Bridges 0.13.0 -> 0.13.1
+- Biome Replacer SET 1: spring-type biomes swapped to snowy look-alikes (new worlds only)
+- Snowy Bushy Leaves pack removed
+- TimberReplant removed (on the NO list)
+- Performance round 3: Sodium leaves FAST, Particle Rain max 1000 particles
+- Title-screen join buttons now read the server address from a LOCAL FancyMenu variable (chop_join_main / chop_join_kate) set on each PC; servers.dat and config/fancymenu/user_variables.db are never shipped. No addresses in the pack.
 ## 2026.11.09-24a
 - Title screen: the big garland panel over the buttons is gone (menu only).
 - Festive buttons v3.1 -> v4 (23_Chops_Festive_Buttons_v4): snowy stone buttons and sliders with little animated string lights (lights chase faster on hover). Checkbox, tabs, text fields, scroller and slider handle are back to vanilla.

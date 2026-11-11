@@ -2998,7 +2998,7 @@ hash = "c1b241a63e61b7641731d18155e4c32690514f5a628b892cc6f025589a898adf"
 
 [[files]]
 file = "config/biome_replacer.properties"
-hash = "15f448799e878a846c1e2d345dadfccf8648dcdedd47e7032cee75f36a6df05a"
+hash = "55ae8be609cc7bc75db7c9d1bbe90e24083757ed2fa3c0d4d25f9f8d9ea8f572"
 
 [[files]]
 file = "config/biomesoplenty/biome_toggles.json"
@@ -3742,7 +3742,7 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/chop_xmas_title.txt"
-hash = "8d176073499e8446484791724ba114c31c66b104e18b9eb9025feda60d2a27fd"
+hash = "f18be0b0bae9aa5d1890bf86b41c68b8df7f7cb9ecd69678c6baac1c206b03d6"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -3787,10 +3787,6 @@ hash = "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0"
 [[files]]
 file = "config/fancymenu/ui_themes/spooky_season.json"
 hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
-
-[[files]]
-file = "config/fancymenu/user_variables.db"
-hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/farm_and_charm-common.toml"
@@ -4951,7 +4947,7 @@ hash = "7189bb61c58cb1030b8ee486e66abf694d257192248b9b3ac4978df2b1366f7d"
 
 [[files]]
 file = "config/particlerain/config.json"
-hash = "575e361fca1d5a0cc84fc3b67bdf6a5d385e29aa0d2dbe1f4e7e343fc2783b86"
+hash = "6b5cd4e981d145ec81711304b9440d5dea10840cff70df59ca22caaef3bc6937"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -5335,7 +5331,7 @@ hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "e5cb7701964fc108e74471d6ff7f8c8ba186f9e8a177d4110b3ccfaf0ed76388"
+hash = "2f94e851963c73ff945c26d2e4072ab38c23d66ca68c06b09a761cad7323faf5"
 
 [[files]]
 file = "config/softimprints/softimprints-client.toml"
@@ -5584,10 +5580,6 @@ hash = "04a2d027600a9fe815dda7c1d604fafea5d148996424f1157de5d5be8b9c98d5"
 [[files]]
 file = "config/terrablender.toml"
 hash = "94e3dfb24b7b1b4261bc54d775261bc4cef769984f437722707e9a64e1b2c173"
-
-[[files]]
-file = "config/timberreplant-common.toml"
-hash = "291729a416d9c1799744e535611bf96fb776e9f60ef46aba8e46574af9b62147"
 
 [[files]]
 file = "config/tipsmod.json"
@@ -42407,7 +42399,7 @@ hash = "1361b7974574339a1a06132a0fbc73cb216262c49d1bc62da963e38dbc61ab21"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase5.js"
-hash = "c79c1032a4dfb9477fd9f503880490734ed9cf70e6c66d01e6c7ca2185d46404"
+hash = "9a72a7f62a05f7ebf96f713044c8f23551926481c1d7807036c6a96f1413f38b"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_quests.js"
@@ -44025,11 +44017,6 @@ hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
 metafile = true
 
 [[files]]
-file = "mods/timberreplant.pw.toml"
-hash = "051e08a58ccddf31caa900da6313d64f20d8bf1fa92fe785bb36ee77e803ae6f"
-metafile = true
-
-[[files]]
 file = "mods/tips.pw.toml"
 hash = "4990484dfbc48df92144099033043c8e4a6aac64016bf01fe893ce547c810e18"
 metafile = true
@@ -45259,10 +45246,6 @@ file = "blueprints/christmas_village/decorations/supplies/supplyship.blueprint"
 hash = "90aad843b0fc8bd67d3f539c97d24b11817e45c2523cfdc930f19ba8d5f02bd4"
 
 [[files]]
-file = "config/openloader/packs/22_Chops_Snowy_Bushy_Leaves_v3.zip"
-hash = "e0a983365da7938ae2e79d517ecb32a3f5a25fec7da4a0f5d04d9d437e10609b"
-
-[[files]]
 file = "config/fancymenu/assets/chop/xmas_title_bg_v2.png"
 hash = "e6328c3e4faee7fae44870da641b9c31f186bed035f8ca99544851a5d2080cad"
 
@@ -45275,10 +45258,6 @@ file = "config/fancymenu/assets/chop/xmas_title_logo_v4.apng"
 hash = "ac80376770275bf8b55decada4efbe8f6c1fcd9923bec3c40553db3d609bcc98"
 
 [[files]]
-file = "config/openloader/packs/16_Chops_Christmas_Structures_v44.zip"
-hash = "448e844b3493c63c4beb0f90e0fab8cde4018646438dd4d180a0ee5b7823a794"
-
-[[files]]
 file = "config/openloader/packs/21b_Chops_Christmas_Music_Ambient_RP.zip"
 hash = "25d643ccd4a7951319a52f8739601c097c9caccd549f6cd023fbd923d24ba1dc"
 
@@ -45289,16 +45268,6 @@ hash = "fe21f13750b6336f78389d252b41190b20d33a2254bc691b776a9da7ed389f8f"
 [[files]]
 file = "mods/custom-chop-autopilot-1.3.4-chop.51.pw.toml"
 hash = "955ddda96d4090902a6f189b1af41d338808f2746fbbbbea047470065e0b4661"
-metafile = true
-
-[[files]]
-file = "mods/custom-choproadbridges-1.21.1-0.13.0.pw.toml"
-hash = "b61bd4fe1247efe8f71922139d2c4521b37009693821e40f9905d369e7f30af4"
-metafile = true
-
-[[files]]
-file = "mods/custom-festivity-0.9.57.pw.toml"
-hash = "32eca61037f62f980b3512c2e0c686ca34ca39c71bbabfc65bf2c04b267f0be3"
 metafile = true
 
 [[files]]
@@ -45332,3 +45301,17 @@ metafile = true
 [[files]]
 file = "config/openloader/packs/23_Chops_Festive_Buttons_v4.zip"
 hash = "ecba97caf44e1a19a820950e73af1807627b36a803f49ffa24a38d26d3764962"
+
+[[files]]
+file = "config/openloader/packs/16_Chops_Christmas_Structures_v45d.zip"
+hash = "092ebd24d5a25813bb76a0d9dfd50047b8aff67419711f403288d4ae98737073"
+
+[[files]]
+file = "mods/custom-choproadbridges-1.21.1-0.13.1.pw.toml"
+hash = "1f7bc5230441d2db9a5207bb7411bc0df0eeff95296619e89345009950df25da"
+metafile = true
+
+[[files]]
+file = "mods/custom-festivity-0.9.63.pw.toml"
+hash = "d9c49dc6af6576733d42d286aecd5c3a8c5954c96a997094feae315a884ca39f"
+metafile = true
