@@ -1,0 +1,8 @@
+name = "chop-cinematic-compat-1.0.0"
+filename = "chop-cinematic-compat-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/jaragon5821-commits/christmas-pack/test/patched-jars/chop-cinematic-compat-1.0.0.jar"
+hash-format = "sha512"
+hash = "d5fd558d3aebd5bd899eddf9caf3a8061c8e37fcedc4e596bf1ab72ecf2da59ca56a25b5b05f696ef1e539f697ee491591a3172726b249c183dccf23abfea29c"

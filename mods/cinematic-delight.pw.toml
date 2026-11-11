@@ -1,0 +1,13 @@
+filename = "cinematic-delight-0.2.0-neoforge1.21.1.jar"
+name = "Cinematic Delight"
+side = "client"
+
+[download]
+url = "https://edge.forgecdn.net/files/9434/78/cinematic-delight-0.2.0-neoforge1.21.1.jar"
+hash-format = "sha512"
+hash = "65c9e57c98aa5b8ef18bbfbefc47cc45e3b2ffe7647f94505e9e59c2c41d5686ac696a3878c8cb7c0596bd20a01367c79f789d3dbf588c32b580dbcdd1110d6c"
+
+[update]
+[update.curseforge]
+file-id = 9434078
+project-id = 1776645

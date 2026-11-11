@@ -1,0 +1,13 @@
+filename = "Cinematic Interaction-NeoForge-1.21.1-0.18.30.jar"
+name = "Cinematic Interaction"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9345/403/Cinematic%20Interaction-NeoForge-1.21.1-0.18.30.jar"
+hash-format = "sha512"
+hash = "c7704dc1d16b14c115cc0aa8491874e816b8746f368be991069b5d41ecea7200a134ad11486c1ca027866f41edc0a820149a71730e6bb86f5ca7cbc84621ce87"
+
+[update]
+[update.curseforge]
+file-id = 9345403
+project-id = 1743441

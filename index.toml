@@ -45263,11 +45263,6 @@ file = "config/openloader/packs/22_Chops_Snowy_Bushy_Leaves_v3.zip"
 hash = "e0a983365da7938ae2e79d517ecb32a3f5a25fec7da4a0f5d04d9d437e10609b"
 
 [[files]]
-file = "mods/custom-diorama-0.8.1-chop.2.pw.toml"
-hash = "dba41f009114eb352bce24da3e3a48d99125ec52b41772f349f8c21a2a9be416"
-metafile = true
-
-[[files]]
 file = "config/fancymenu/assets/chop/xmas_title_bg_v2.png"
 hash = "e6328c3e4faee7fae44870da641b9c31f186bed035f8ca99544851a5d2080cad"
 
@@ -45308,4 +45303,32 @@ metafile = true
 [[files]]
 file = "mods/custom-festivity-0.9.57.pw.toml"
 hash = "32eca61037f62f980b3512c2e0c686ca34ca39c71bbabfc65bf2c04b267f0be3"
+metafile = true
+
+[[files]]
+file = "mods/cinematic-interaction.pw.toml"
+hash = "a20ee21ca9134c7316bdc57ab5d56953baae0c936baf01d1bfbf593d2a1f7429"
+metafile = true
+
+[[files]]
+file = "mods/cinematic-delight.pw.toml"
+hash = "4b38cb1f4e4ad74db105bf7b46ec802fa80a2c7ba0640f7f57621b2c5a4ed3c1"
+metafile = true
+
+[[files]]
+file = "mods/custom-chop-cinematic-compat-1.0.0.pw.toml"
+hash = "c8bf3e81e03f1ebe525314ad700a26b2b1ff061db1840fc7211a8631409d01a9"
+metafile = true
+
+[[files]]
+file = "config/cinematic-client.toml"
+hash = "c755728664be8bc5f8aea298069b3112cca92e1fd411706656f2bb5b3160743b"
+
+[[files]]
+file = "config/cinematic_delight.properties"
+hash = "3484705f08233f01ba63504874a0723c045bb4c7193e204ba90a038cb97cb046"
+
+[[files]]
+file = "mods/custom-diorama-0.8.1-chop.3.pw.toml"
+hash = "e375c093c24e4464ccb2186b77177b742046c0d926c248805421ac8cd51fa998"
 metafile = true

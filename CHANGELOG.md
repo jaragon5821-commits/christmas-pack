@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026.11.09-23
+- Cinematic Interaction 0.18.30 (new, both sides) + Cinematic Delight 0.2.0 (new, client) + chop-cinematic-compat 1.0.0 (our patch: works with Easy Magic and Easy Anvils): crafting, furnace, enchanting, anvil and cooking stations play a short first-person scene. Camera shake, screen flashes and letterbox bars OFF; lean and zoom 50%; campfire sit ON; anvil + enchanting scenes ON; lectern scene OFF (lore lecterns keep their normal book screen). PARTIAL: loads clean with and without the compat partner mods, scenes open for table/furnace/enchanting/cooking, kettle donation works, TPS 20. NOT TESTED (hands-on with Josh): enchant with lapis, R reroll, anvil rename with colour codes and 40+ level jobs, campfire sit, shift-click in scenes, requests board, gingerbread house chest
+- Better Days 45 min day / 15 min night / half the players to sleep (already in the pack since -22). PASS: measured 44.8 min day, 15.0 min night. NOT TESTED: 1-of-2 players sleeping, colonists waking
+- Diorama 0.8.1-chop.2 -> 0.8.1-chop.3: the bed pin now stays when you travel far from your bed (chop.2 dropped it after ~3 s). PASS: far bed (320 blocks) keeps its pin and still has it when you return, sleeping bag does not move it, breaking a bed 2 blocks away clears the pin in 3 s, one Diorama jar loaded
+
 ## 2026.11.09-22
 - Christmas Village style v3.12 -> v3.13: supply camp beds fixed (both tents one block taller, air above both beds). PASS: camp and ship beds can be slept in
 
