@@ -2862,7 +2862,7 @@ hash = "51d0bcfa6e7f1eadff8834907a06acf29bf4ae4e0ca173ad779207cdf441fd33"
 
 [[files]]
 file = "blueprints/christmas_village/pack.json"
-hash = "36696ae4695fd9f8994b77d6edd772b1feebb833844a5f65ce9186567355ae8e"
+hash = "d32be41bda5a06cf33dd406797a5a1e258f3a0ceefb91ce24e3d86d6cf3acf9f"
 
 [[files]]
 file = "blueprints/loreichop/pack.json"
@@ -45248,7 +45248,7 @@ hash = "f50a777a38f2cc11d0b57f7995c9f0cf4be4b35c2c2e38c021727ebce3936273"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/supplies/supplycamp.blueprint"
-hash = "77a7232b011e3f56ac157e0fd60de635cdfa410ef2547151b7b9a0fb72b3398e"
+hash = "a65cd5a39a9cdd5ac69cf595cdea2c898a3ddfda1e1d23384ef6a16a66a9cc6a"
 
 [[files]]
 file = "config/openloader/packs/30_Chops_Minimap_Faces_v2.zip"

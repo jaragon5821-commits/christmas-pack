@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.09-22
+- Christmas Village style v3.12 -> v3.13: supply camp beds fixed (both tents one block taller, air above both beds). PASS: camp and ship beds can be slept in
+
 ## 2026.11.09-21c
 - RoadWeaver roadside villages back on (small villages along roads; checked in a fresh world, no clashes with bridges or towns)
 
