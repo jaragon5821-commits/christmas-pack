@@ -3742,7 +3742,7 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/chop_xmas_title.txt"
-hash = "f43400fff47974f93bf45e3fe648eef61aa3fb6f76d9d2e2a0bb6942d6177c0f"
+hash = "8d176073499e8446484791724ba114c31c66b104e18b9eb9025feda60d2a27fd"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -45283,10 +45283,6 @@ file = "config/openloader/packs/21b_Chops_Christmas_Music_Ambient_RP.zip"
 hash = "25d643ccd4a7951319a52f8739601c097c9caccd549f6cd023fbd923d24ba1dc"
 
 [[files]]
-file = "config/openloader/packs/23_Chops_Festive_Buttons_v3_1.zip"
-hash = "f82714e7a04992f6d0dadf8515c6fd3f3f32a05ec7deb05933a9821856c3f698"
-
-[[files]]
 file = "kubejs/data/chop/recipe/smelting/packed_mud_to_terracotta.json"
 hash = "fe21f13750b6336f78389d252b41190b20d33a2254bc691b776a9da7ed389f8f"
 
@@ -45332,3 +45328,7 @@ hash = "3484705f08233f01ba63504874a0723c045bb4c7193e204ba90a038cb97cb046"
 file = "mods/custom-diorama-0.8.1-chop.3.pw.toml"
 hash = "e375c093c24e4464ccb2186b77177b742046c0d926c248805421ac8cd51fa998"
 metafile = true
+
+[[files]]
+file = "config/openloader/packs/23_Chops_Festive_Buttons_v4.zip"
+hash = "ecba97caf44e1a19a820950e73af1807627b36a803f49ffa24a38d26d3764962"

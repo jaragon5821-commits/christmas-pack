@@ -25,28 +25,6 @@ customization {
 }
 
 element {
-  source = [source:local]/config/fancymenu/assets/chop/xmas_title_garland_v3.apng
-  repeat_texture = false
-  nine_slice_texture = false
-  element_type = image
-  instance_identifier = chopxmas-garland-0003
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in = false
-  fade_in_speed = 1.0
-  anchor_point = mid-centered
-  x = -116
-  y = -53
-  width = 232
-  height = 160
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = chopxmas-req-0010
-  [loading_requirement_container_meta:chopxmas-req-0010] = [groups:][instances:]
-}
-
-element {
   source = [source:local]/config/fancymenu/assets/chop/xmas_title_logo_v4.apng
   repeat_texture = false
   nine_slice_texture = false

@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026.11.09-24a
+- Title screen: the big garland panel over the buttons is gone (menu only).
+- Festive buttons v3.1 -> v4 (23_Chops_Festive_Buttons_v4): snowy stone buttons and sliders with little animated string lights (lights chase faster on hover). Checkbox, tabs, text fields, scroller and slider handle are back to vanilla.
+
 ## 2026.11.09-23
 - Cinematic Interaction 0.18.30 (new, both sides) + Cinematic Delight 0.2.0 (new, client) + chop-cinematic-compat 1.0.0 (our patch: works with Easy Magic and Easy Anvils): crafting, furnace, enchanting, anvil and cooking stations play a short first-person scene. Camera shake, screen flashes and letterbox bars OFF; lean and zoom 50%; campfire sit ON; anvil + enchanting scenes ON; lectern scene OFF (lore lecterns keep their normal book screen). PARTIAL: loads clean with and without the compat partner mods, scenes open for table/furnace/enchanting/cooking, kettle donation works, TPS 20. NOT TESTED (hands-on with Josh): enchant with lapis, R reroll, anvil rename with colour codes and 40+ level jobs, campfire sit, shift-click in scenes, requests board, gingerbread house chest
 - Better Days 45 min day / 15 min night / half the players to sleep (already in the pack since -22). PASS: measured 44.8 min day, 15.0 min night. NOT TESTED: 1-of-2 players sleeping, colonists waking
