@@ -1,6 +1,6 @@
 {
   "maxGiftBoxCapacity": 3,
-  "updateCheckerEnabled": true,
+  "updateCheckerEnabled": false,
   "generateUndergroundIcicles": true,
   "generateCryomarble": true,
   "generateFrozenGrass": true,

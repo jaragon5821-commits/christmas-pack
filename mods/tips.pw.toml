@@ -1,6 +1,6 @@
 filename = "tipsmod-neoforge-1.21.1-21.1.3.jar"
 name = "Tips"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha512"

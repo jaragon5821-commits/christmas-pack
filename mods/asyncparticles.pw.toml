@@ -1,6 +1,6 @@
 filename = "AsyncParticles-21.1.4.10+1.21.1.jar"
 name = "AsyncParticles"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha512"
