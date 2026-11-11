@@ -9,3 +9,5 @@ config/patpat/patpat/player-list.txt
 # instance-local: server addresses live only on each player's PC (multiplayer list + FancyMenu join-button variables)
 servers.dat
 config/fancymenu/user_variables.db
+# audit L1 2026-11-11: configs of removed / NO-list mods, kept for reference, never shipped
+_archive/

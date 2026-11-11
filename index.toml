@@ -2885,10 +2885,6 @@ file = "config/alpinewhispers-startup.toml"
 hash = "ab94e178593b74baf509d650117d22178e3570b734795a8dd85bf82ef0834b00"
 
 [[files]]
-file = "config/ambientsounds-client.json"
-hash = "c98f572839ace55b0792042fa4b984311e7d876abdaccfc8a4694f5bebad766c"
-
-[[files]]
 file = "config/amendments-client.toml"
 hash = "bf132b8b5eec3111b386e35eaa56a50b330d0f66237dbc52b06a7d0455735d57"
 
@@ -2947,18 +2943,6 @@ hash = "4aa222824c07287a7304e139c10955f45ccb43ded5785efd09419915718536c2"
 [[files]]
 file = "config/asyncparticles/asyncparticles-mixin.properties"
 hash = "e4c14bd5ed97a0900b5fc5324e7fe48a603c8b99ef1639da69bf416b3b6f4ef3"
-
-[[files]]
-file = "config/auroral-client.toml"
-hash = "f55b41d4eba1c95112329437900df99db79525114e325586653a1d737a4c1180"
-
-[[files]]
-file = "config/auroral-server.toml"
-hash = "1aa3c3d976781cb84f02da706171cb48cada1ba1341a273f5595e669c60705f2"
-
-[[files]]
-file = "config/auroral-startup.toml"
-hash = "6829a73aaef22f9695cdd7ccee696ebd0b5e13a97f299d0434feb8202453b56b"
 
 [[files]]
 file = "config/badoptimizations.txt"
@@ -3505,18 +3489,6 @@ file = "config/ctov-common.toml"
 hash = "83e175ed1b88c7cd35d0892e4fcef07efc99105c0c512cb7bdce7154e9f73d78"
 
 [[files]]
-file = "config/cucumber-client.toml"
-hash = "f2fdac37f99ad4c9b886a9c29940fbea5c94bc46fe6ea9b0648a055daef735ba"
-
-[[files]]
-file = "config/cucumber-common.toml"
-hash = "cf18c79df34368f65795bbe5ab39a58be3c61527c1bb6185ac8a90946bedb272"
-
-[[files]]
-file = "config/cucumber-tags.json"
-hash = "ab1a142b08e16556f6c81f073a4fe03623f183ab3b5a463872e395c253fcde5e"
-
-[[files]]
 file = "config/cupboard.json"
 hash = "aa0b18642df9fb56c45e03c948b614f158b792c15b85cf0094af1dcca516ec3a"
 
@@ -3551,10 +3523,6 @@ hash = "a1d7ce1bf07d787b9468423697c89a096ed7198d2b74dd55f47b709adf76352a"
 [[files]]
 file = "config/ding.toml"
 hash = "9e1ea835cd114044e51fdaf6f79422bdf092e0616556b820abee46eee06f2785"
-
-[[files]]
-file = "config/distantfriends-common.toml"
-hash = "49c457e70bb13de94c630ef47bdb3402e8b13be47aff1144aa9aab93c4ef50dd"
 
 [[files]]
 file = "config/doggytalents-client.toml"
@@ -3799,10 +3767,6 @@ hash = "a8cdc0376674d522d92d977cac5800d00c6f70ea62ea83dea59595fb232b8e3e"
 [[files]]
 file = "config/farmersdelight-common.toml"
 hash = "0cc639f1ce8ab5e63f754ab41be3ab09398fd149de6d0b5edc476034e3ed8b06"
-
-[[files]]
-file = "config/fastbench.cfg"
-hash = "b9f2753df740086016ae47d0f9b69521b1233546fd564bf2797ed93fd5c60efb"
 
 [[files]]
 file = "config/fastpaintings-common.toml"
@@ -4070,70 +4034,6 @@ file = "config/ironfurnaces-common.toml"
 hash = "bfb348e145fd39f5b53f94d034a6baf4bed2added70097f5ce507324adee6c3e"
 
 [[files]]
-file = "config/ironjetpacks/jetpacks/bronze.json"
-hash = "d29f702ce0174bceb8f10baf1c57694af57c96b090379d1efe62adb2d0d6358a"
-
-[[files]]
-file = "config/ironjetpacks/jetpacks/copper.json"
-hash = "dcd3f0200b1be985c803405c5500c787676a8f04af5e8bd0ffbc09148537f456"
-
-[[files]]
-file = "config/ironjetpacks/jetpacks/creative.json"
-hash = "e94d00d800399f8872223eb9ddd069af29cb0df9e723643716a97171f171aff2"
-
-[[files]]
-file = "config/ironjetpacks/jetpacks/diamond.json"
-hash = "a719da417fa7aad646f67946d9d3716ab88895bbf521e8e18e8c23aae24cbd3d"
-
-[[files]]
-file = "config/ironjetpacks/jetpacks/electrum.json"
-hash = "3a46088f043651b55c52fed1dc0f77912b04d4ad2ef1eb926120d8d0cecd83ee"
-
-[[files]]
-file = "config/ironjetpacks/jetpacks/emerald.json"
-hash = "5687b363fd77ba965ec532a34678703c014294a1e9f59e14362733ccb99aea6d"
-
-[[files]]
-file = "config/ironjetpacks/jetpacks/gold.json"
-hash = "c407a2533b907fae3430023892618cb7e727ae95164ba8603df3d967423d7430"
-
-[[files]]
-file = "config/ironjetpacks/jetpacks/invar.json"
-hash = "a203b15549154f5437fe82657dc75176c32e84db0033b626f18deb2d85fab204"
-
-[[files]]
-file = "config/ironjetpacks/jetpacks/iron.json"
-hash = "6f1b53141b3ccb9aa1ecb47d74e4c4445d8c0080c71643e4ce9d6d68e81ecfa7"
-
-[[files]]
-file = "config/ironjetpacks/jetpacks/platinum.json"
-hash = "43afc00f8ba6d9a0ee23102f4a03ce09c134d333e51bc193b37d9a5aa1bb9e6e"
-
-[[files]]
-file = "config/ironjetpacks/jetpacks/silver.json"
-hash = "8c31849e5d01c913c94bbd217674349b9df5b03a4b381cc810e92244c10394e8"
-
-[[files]]
-file = "config/ironjetpacks/jetpacks/steel.json"
-hash = "a4816aa4073bc6cb757958418d9aca7ab1a30c8aef95fb6db7f87c03f8045710"
-
-[[files]]
-file = "config/ironjetpacks/jetpacks/stone.json"
-hash = "eb21aadd404a1fe2b145defd81a4e46ce4e1da6eb618291dae778c9f42a08bc3"
-
-[[files]]
-file = "config/ironjetpacks/jetpacks/wood.json"
-hash = "f9061c501bf4b222c6d57f0933c946a5ae03ac66ccfe498d48fc094df015239b"
-
-[[files]]
-file = "config/ironjetpacks-client.toml"
-hash = "985a2b2581ffd0ec5e78a979429e81bf9916c4230ba172e9c76d6ea1272234bb"
-
-[[files]]
-file = "config/ironjetpacks-common.toml"
-hash = "4a1edb243c038f07376f7c4751481b55dcb5c60e2132a54a46843c1409f82f47"
-
-[[files]]
 file = "config/irons_jewelry-server.toml"
 hash = "c1322190d23589bd63d45577b340904f45f73a246690b514d468e68f4b24d350"
 
@@ -4286,10 +4186,6 @@ file = "config/konkrete/locals/pt_br.local"
 hash = "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c"
 
 [[files]]
-file = "config/krypton_fnp.yaml"
-hash = "7637131dbf6d97f0edca39274fa1afdf43260052c0b62649faf51283c5a1f0be"
-
-[[files]]
 file = "config/l2configs/l2core-client.toml"
 hash = "58a37c4b6c7f3bbfe8320afec4792e324fb81985ae4ba763752e1841cccde538"
 
@@ -4308,10 +4204,6 @@ hash = "24ff0a6e8d2d18678868edbb77056c1818dc0a02990e626f0d91c6d683c5b632"
 [[files]]
 file = "config/legendarytooltips.toml"
 hash = "3ee86b7d3db0c11d9e4288110804777e598f49a8445fa63d7fbec00f74a0f92f"
-
-[[files]]
-file = "config/lightspeed-common.toml"
-hash = "47cf75379e2c1478d98f7b1f4b5a9ce01c5292ffe50980fe868938529eb485c6"
 
 [[files]]
 file = "config/litematica.json"
@@ -4890,10 +4782,6 @@ file = "config/overflowingbars-client.toml"
 hash = "9037e801784c5d10420d23445e1086e8ac39480bce15eef4b73d9b519a373561"
 
 [[files]]
-file = "config/paperdoll-client.toml"
-hash = "b1becca8894d4803c204ef602ff53216d925b0874b46f0d65419047d9ca9984e"
-
-[[files]]
 file = "config/particle_core_config.toml"
 hash = "7539e26029e3c10b415cf7a656bd3740cbf5c2e857efa333515821b92aa8a6b8"
 
@@ -4978,16 +4866,8 @@ file = "config/relics.yaml"
 hash = "4411078ac8d2107482e0f717576b1d9e1fa6c0938d11135a2541f4d8c2518278"
 
 [[files]]
-file = "config/renderscale.json5"
-hash = "00aeb895c4dbba813464392e7d1c3a2ca196554694a8c271e77c30dc1e4cefe5"
-
-[[files]]
 file = "config/resourceful-config-web.json"
 hash = "cc12a9fbb4b205a027e35eae6941c470315719b4adcfb764777767353151215f"
-
-[[files]]
-file = "config/respawnrecap.properties"
-hash = "6e7b1b2300b534e1dceeae1fbb79b8eef5df4763fbe48c37c0912cb1d15a771d"
 
 [[files]]
 file = "config/rideableravagers.json"
@@ -5186,10 +5066,6 @@ file = "config/roadweaver/structure_selection.json"
 hash = "fb8164589bc3db463b2d856f2877d87a76696fe7b166eb72bbfa0c4971f1092a"
 
 [[files]]
-file = "config/rrls.toml"
-hash = "50aa30a1d8c6d5c07552b639a63169d7dc34936d84bd8b97af80e0083e851b9d"
-
-[[files]]
 file = "config/rsls.properties"
 hash = "7a62bdfe7ee815f0769452cfba3b89ab4a095a854b5e2bc65ed2fa9b2629e66a"
 
@@ -5292,14 +5168,6 @@ hash = "2f94e851963c73ff945c26d2e4072ab38c23d66ca68c06b09a761cad7323faf5"
 [[files]]
 file = "config/softimprints/softimprints-client.toml"
 hash = "539c95ae0d21bbbb041c570a92141794d451d3da8a7b5e77a1f4f67d0bab18c1"
-
-[[files]]
-file = "config/solonion.json"
-hash = "105d00b0b515d8fff493d00768d95cc41d35d4ac24e08b075eebe2fae16b8f9f"
-
-[[files]]
-file = "config/solonion-client.json"
-hash = "3b25083488df1b392b417e202ade95037aee601ff4a564067c2b1d67fff60aa0"
 
 [[files]]
 file = "config/sophisticatedbackpacks-common.toml"
@@ -5576,14 +5444,6 @@ hash = "10fad560389f96ec7cb04966a0948b7fe5ba126559194fc81d7e53b8fd73c7ad"
 [[files]]
 file = "config/vanilla_structures/toggle_structure_config.json5"
 hash = "a50b4ca77d21ae105e68560c1af694125ea06360374c82e87f4da54b7ecfa51d"
-
-[[files]]
-file = "config/vanillabackport-client.toml"
-hash = "23b509c95df546e239ae891136933a65a580448954e61eb11071de1ba406b3f7"
-
-[[files]]
-file = "config/vanillabackport-common.toml"
-hash = "4f6e5c9af3d765b96b3b358080e8b2b9123167807aae029ea5059f0364d23b2a"
 
 [[files]]
 file = "config/via_romana.json"
