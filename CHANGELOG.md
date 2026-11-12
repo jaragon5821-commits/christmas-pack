@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.12-2
+- Title screen: Multiplayer button is back (LAN worlds and the server list), under Singleplayer; both Join buttons kept
+
 ## 2026.11.12-1
 - Festivity 0.9.129, Townwright chop.54, Road Bridges 0.13.3, Better Snowy Leaves 1.4.3; Christmas mods migrated into Festivity
 - Removed: Macaw's Holidays, Grandma's Cabinet, Fairy Lights, Winterly, Season's Greetings, Snowy Spirit, New Year's Delight, Snowmancy, Snuffles, WilderNature, Animal Garden (4), AquariusLibs, Untitled Penguin Mod
