@@ -1,6 +1,6 @@
 filename = "emf_compat_core_neoforge_1.21.1_2.3.2.jar"
 name = "EMF Compat: Core"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha512"

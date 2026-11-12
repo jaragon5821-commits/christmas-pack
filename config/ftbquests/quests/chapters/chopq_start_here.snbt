@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "chopq_start_here"
 	group: ""
@@ -8,7 +8,7 @@
 	}
 	id: "34057A5E50000000"
 	images: [ ]
-	order_index: -2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -22,20 +22,21 @@
 				{
 					count: 4
 					id: "34057A5E50F8C9EF"
-					item: { count: 1, id: "minecraft:cookie" }
+					item: {
+						count: 1
+						id: "minecraft:cookie"
+					}
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [
-				{
-					id: "34057A5E506EE836"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
+			tasks: [{
+				id: "34057A5E506EE836"
+				type: "checkmark"
+			}]
+			x: 0.69d
+			y: 7.86d
 		}
 		{
 			dependencies: ["34057A5E50C05383"]
@@ -43,21 +44,17 @@
 				id: "minecraft:knowledge_book"
 			}
 			id: "34057A5E50B10980"
-			rewards: [
-				{
-					id: "34057A5E5053A5F5"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					id: "34057A5E50E9F41D"
-					type: "checkmark"
-				}
-			]
-			x: 1.5d
-			y: -2.0d
+			rewards: [{
+				id: "34057A5E5053A5F5"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E50E9F41D"
+				type: "checkmark"
+			}]
+			x: -1.03d
+			y: 7.84d
 		}
 		{
 			dependencies: ["34057A5E50B10980"]
@@ -65,21 +62,17 @@
 				id: "minecraft:spyglass"
 			}
 			id: "34057A5E50EA68C2"
-			rewards: [
-				{
-					id: "34057A5E504A8C00"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					id: "34057A5E509B9F7E"
-					type: "checkmark"
-				}
-			]
-			x: 3.0d
-			y: -2.0d
+			rewards: [{
+				id: "34057A5E504A8C00"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E509B9F7E"
+				type: "checkmark"
+			}]
+			x: 6.46d
+			y: 4.53d
 		}
 		{
 			dependencies: ["34057A5E50EA68C2"]
@@ -87,21 +80,17 @@
 				id: "minecraft:tripwire_hook"
 			}
 			id: "34057A5E5099F180"
-			rewards: [
-				{
-					id: "34057A5E50F75EAC"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					id: "34057A5E505D79BC"
-					type: "checkmark"
-				}
-			]
-			x: 4.5d
-			y: -2.0d
+			rewards: [{
+				id: "34057A5E50F75EAC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "34057A5E505D79BC"
+				type: "checkmark"
+			}]
+			x: -7.53d
+			y: -2.37d
 		}
 		{
 			dependencies: ["34057A5E5099F180"]
@@ -109,23 +98,19 @@
 				id: "minecraft:compass"
 			}
 			id: "34057A5E50097C56"
-			rewards: [
-				{
-					id: "34057A5E506BD01F"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5087BD03"
-					item: { count: 1, id: "minecraft:compass" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: -2.0d
+			rewards: [{
+				id: "34057A5E506BD01F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5087BD03"
+				item: { count: 1, id: "minecraft:compass" }
+				type: "item"
+			}]
+			x: 3.64d
+			y: -7.0d
 		}
 		{
 			dependencies: ["34057A5E50C05383"]
@@ -133,21 +118,17 @@
 				id: "minecraft:cake"
 			}
 			id: "34057A5E50EC0F24"
-			rewards: [
-				{
-					id: "34057A5E5030F657"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					id: "34057A5E507616E7"
-					type: "checkmark"
-				}
-			]
-			x: 1.5d
-			y: 0.0d
+			rewards: [{
+				id: "34057A5E5030F657"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E507616E7"
+				type: "checkmark"
+			}]
+			x: 2.37d
+			y: 7.53d
 		}
 		{
 			dependencies: ["34057A5E50EC0F24"]
@@ -155,21 +136,17 @@
 				id: "minecraft:note_block"
 			}
 			id: "34057A5E50F7ECF0"
-			rewards: [
-				{
-					id: "34057A5E503F91BA"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					id: "34057A5E50DD77CA"
-					type: "checkmark"
-				}
-			]
-			x: 3.0d
-			y: 0.0d
+			rewards: [{
+				id: "34057A5E503F91BA"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E50DD77CA"
+				type: "checkmark"
+			}]
+			x: -6.66d
+			y: 4.24d
 		}
 		{
 			dependencies: ["34057A5E50F7ECF0"]
@@ -177,21 +154,17 @@
 				id: "minecraft:white_banner"
 			}
 			id: "34057A5E50FA785C"
-			rewards: [
-				{
-					id: "34057A5E50BFB983"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					id: "34057A5E5064D2F5"
-					type: "checkmark"
-				}
-			]
-			x: 4.5d
-			y: 0.0d
+			rewards: [{
+				id: "34057A5E50BFB983"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "34057A5E5064D2F5"
+				type: "checkmark"
+			}]
+			x: 7.15d
+			y: -3.34d
 		}
 		{
 			dependencies: ["34057A5E50C05383"]
@@ -199,23 +172,19 @@
 				id: "sophisticatedbackpacks:backpack"
 			}
 			id: "34057A5E50B41AD8"
-			rewards: [
-				{
-					id: "34057A5E50DCA91F"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5081A53D"
-					item: { count: 1, id: "sophisticatedbackpacks:backpack" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 2.0d
+			rewards: [{
+				id: "34057A5E50DCA91F"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5081A53D"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: -2.7d
+			y: 7.42d
 		}
 		{
 			dependencies: ["34057A5E50B41AD8"]
@@ -223,21 +192,17 @@
 				id: "minecraft:gold_nugget"
 			}
 			id: "34057A5E502F7069"
-			rewards: [
-				{
-					id: "34057A5E506E9D5A"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					id: "34057A5E50BA9B11"
-					type: "checkmark"
-				}
-			]
-			x: 3.0d
-			y: 2.0d
+			rewards: [{
+				id: "34057A5E506E9D5A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E50BA9B11"
+				type: "checkmark"
+			}]
+			x: -7.42d
+			y: 2.7d
 		}
 		{
 			dependencies: ["34057A5E502F7069"]
@@ -245,21 +210,17 @@
 				id: "minecraft:lava_bucket"
 			}
 			id: "34057A5E500C40BD"
-			rewards: [
-				{
-					id: "34057A5E5091BB12"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					id: "34057A5E5092DB46"
-					type: "checkmark"
-				}
-			]
-			x: 4.5d
-			y: 2.0d
+			rewards: [{
+				id: "34057A5E5091BB12"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "34057A5E5092DB46"
+				type: "checkmark"
+			}]
+			x: -6.85d
+			y: -3.95d
 		}
 		{
 			dependencies: ["34057A5E50C05383"]
@@ -267,23 +228,19 @@
 				id: "minecraft:iron_pickaxe"
 			}
 			id: "34057A5E504FD079"
-			rewards: [
-				{
-					id: "34057A5E50FCC14D"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5085AD52"
-					item: { count: 1, id: "minecraft:iron_pickaxe" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 4.0d
+			rewards: [{
+				id: "34057A5E50FCC14D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5085AD52"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: 3.95d
+			y: 6.85d
 		}
 		{
 			dependencies: ["34057A5E504FD079"]
@@ -291,23 +248,19 @@
 				id: "constructionstick:wooden_stick"
 			}
 			id: "34057A5E50BCB532"
-			rewards: [
-				{
-					id: "34057A5E50DD7F0D"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E50D97C73"
-					item: { count: 1, id: "constructionstick:wooden_stick" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 4.0d
+			rewards: [{
+				id: "34057A5E50DD7F0D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E50D97C73"
+				item: { count: 1, id: "constructionstick:wooden_stick" }
+				type: "item"
+			}]
+			x: -7.84d
+			y: 1.03d
 		}
 		{
 			dependencies: ["34057A5E50BCB532"]
@@ -315,23 +268,19 @@
 				id: "crafting_on_a_stick:crafting_table"
 			}
 			id: "34057A5E50E474E9"
-			rewards: [
-				{
-					id: "34057A5E50E63C48"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E509511D9"
-					item: { count: 1, id: "crafting_on_a_stick:crafting_table" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 4.0d
+			rewards: [{
+				id: "34057A5E50E63C48"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E509511D9"
+				item: { count: 1, id: "crafting_on_a_stick:crafting_table" }
+				type: "item"
+			}]
+			x: 6.27d
+			y: -4.81d
 		}
 		{
 			dependencies: ["34057A5E50E474E9"]
@@ -339,23 +288,19 @@
 				id: "comforts:sleeping_bag_red"
 			}
 			id: "34057A5E50E837C2"
-			rewards: [
-				{
-					id: "34057A5E504FA325"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E50E68BC8"
-					item: { count: 1, id: "comforts:sleeping_bag_red" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 4.0d
+			rewards: [{
+				id: "34057A5E504FA325"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E50E68BC8"
+				item: { count: 1, id: "comforts:sleeping_bag_red" }
+				type: "item"
+			}]
+			x: -3.03d
+			y: -7.31d
 		}
 		{
 			dependencies: ["34057A5E50C05383"]
@@ -363,23 +308,19 @@
 				id: "sereneseasons:calendar"
 			}
 			id: "34057A5E50B2D55A"
-			rewards: [
-				{
-					id: "34057A5E508286E2"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5043B004"
-					item: { count: 1, id: "sereneseasons:calendar" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 6.0d
+			rewards: [{
+				id: "34057A5E508286E2"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5043B004"
+				item: { count: 1, id: "sereneseasons:calendar" }
+				type: "item"
+			}]
+			x: -4.24d
+			y: 6.66d
 		}
 		{
 			dependencies: ["34057A5E50B2D55A"]
@@ -387,23 +328,19 @@
 				id: "naturescompass:naturescompass"
 			}
 			id: "34057A5E5073623B"
-			rewards: [
-				{
-					id: "34057A5E50379209"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E50C7D245"
-					item: { count: 1, id: "naturescompass:naturescompass" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 6.0d
+			rewards: [{
+				id: "34057A5E50379209"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E50C7D245"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: 7.91d
+			y: 0.0d
 		}
 		{
 			dependencies: ["34057A5E5073623B"]
@@ -411,23 +348,19 @@
 				id: "moblassos:golden_lasso"
 			}
 			id: "34057A5E50C40A26"
-			rewards: [
-				{
-					id: "34057A5E50DBEC37"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E50FCA8A1"
-					item: { count: 1, id: "moblassos:golden_lasso" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 6.0d
+			rewards: [{
+				id: "34057A5E50DBEC37"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E50FCA8A1"
+				item: { count: 1, id: "moblassos:golden_lasso" }
+				type: "item"
+			}]
+			x: -5.82d
+			y: -5.33d
 		}
 		{
 			dependencies: ["34057A5E50C40A26"]
@@ -435,23 +368,19 @@
 				id: "torchmaster:megatorch"
 			}
 			id: "34057A5E50C6E6C8"
-			rewards: [
-				{
-					id: "34057A5E50508C97"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5020A390"
-					item: { count: 1, id: "torchmaster:megatorch" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 6.0d
+			rewards: [{
+				id: "34057A5E50508C97"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5020A390"
+				item: { count: 1, id: "torchmaster:megatorch" }
+				type: "item"
+			}]
+			x: 2.05d
+			y: -7.64d
 		}
 		{
 			dependencies: ["34057A5E50C05383"]
@@ -459,23 +388,19 @@
 				id: "exposure:camera"
 			}
 			id: "34057A5E508A5B1B"
-			rewards: [
-				{
-					id: "34057A5E502B1093"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E509CA1CD"
-					item: { count: 1, id: "exposure:camera" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 8.0d
+			rewards: [{
+				id: "34057A5E502B1093"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E509CA1CD"
+				item: { count: 1, id: "exposure:camera" }
+				type: "item"
+			}]
+			x: 5.33d
+			y: 5.82d
 		}
 		{
 			dependencies: ["34057A5E508A5B1B"]
@@ -483,23 +408,19 @@
 				id: "immersive_melodies:lute"
 			}
 			id: "34057A5E50815B49"
-			rewards: [
-				{
-					id: "34057A5E50DDACFF"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E50BC073D"
-					item: { count: 1, id: "immersive_melodies:lute" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 8.0d
+			rewards: [{
+				id: "34057A5E50DDACFF"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E50BC073D"
+				item: { count: 1, id: "immersive_melodies:lute" }
+				type: "item"
+			}]
+			x: -7.86d
+			y: -0.69d
 		}
 		{
 			dependencies: ["34057A5E50815B49"]
@@ -507,21 +428,17 @@
 				id: "minecraft:written_book"
 			}
 			id: "34057A5E50F4F4FB"
-			rewards: [
-				{
-					id: "34057A5E504BD371"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					id: "34057A5E504A780D"
-					type: "checkmark"
-				}
-			]
-			x: 4.5d
-			y: 8.0d
+			rewards: [{
+				id: "34057A5E504BD371"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "34057A5E504A780D"
+				type: "checkmark"
+			}]
+			x: 5.07d
+			y: -6.05d
 		}
 		{
 			dependencies: ["34057A5E50C05383"]
@@ -529,23 +446,19 @@
 				id: "supplementaries:quiver"
 			}
 			id: "34057A5E50608C5F"
-			rewards: [
-				{
-					id: "34057A5E500727CE"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E502AAEDF"
-					item: { count: 1, id: "supplementaries:quiver" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 10.0d
+			rewards: [{
+				id: "34057A5E500727CE"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E502AAEDF"
+				item: { count: 1, id: "supplementaries:quiver" }
+				type: "item"
+			}]
+			x: -5.59d
+			y: 5.59d
 		}
 		{
 			dependencies: ["34057A5E50608C5F"]
@@ -553,24 +466,20 @@
 				id: "supplementaries:rope"
 			}
 			id: "34057A5E50A4D6C4"
-			rewards: [
-				{
-					id: "34057A5E50B415FB"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 16L
-					id: "34057A5E5017E56E"
-					item: { count: 1, id: "supplementaries:rope" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 10.0d
+			rewards: [{
+				id: "34057A5E50B415FB"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "34057A5E5017E56E"
+				item: { count: 1, id: "supplementaries:rope" }
+				type: "item"
+			}]
+			x: 7.7d
+			y: -1.71d
 		}
 		{
 			dependencies: ["34057A5E50A4D6C4"]
@@ -578,23 +487,19 @@
 				id: "comforts:hammock_red"
 			}
 			id: "34057A5E50FE014F"
-			rewards: [
-				{
-					id: "34057A5E507DB427"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E50CD7E79"
-					item: { count: 1, id: "comforts:hammock_red" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 10.0d
+			rewards: [{
+				id: "34057A5E507DB427"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E50CD7E79"
+				item: { count: 1, id: "comforts:hammock_red" }
+				type: "item"
+			}]
+			x: -4.53d
+			y: -6.46d
 		}
 		{
 			dependencies: ["34057A5E50FE014F"]
@@ -602,26 +507,30 @@
 				id: "via_romana:charting_map"
 			}
 			id: "34057A5E50031F98"
-			rewards: [
-				{
-					id: "34057A5E50C885C4"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E504D316A"
-					item: { count: 1, id: "via_romana:charting_map" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 10.0d
+			rewards: [{
+				id: "34057A5E50C885C4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E504D316A"
+				item: { count: 1, id: "via_romana:charting_map" }
+				type: "item"
+			}]
+			x: -1.37d
+			y: -7.77d
 		}
 		{
-			dependencies: ["34057A5E50097C56", "34057A5E50FA785C", "34057A5E500C40BD", "34057A5E50E837C2", "34057A5E50C6E6C8", "34057A5E50F4F4FB", "34057A5E50031F98"]
+			dependencies: [
+				"34057A5E50097C56"
+				"34057A5E50FA785C"
+				"34057A5E500C40BD"
+				"34057A5E50E837C2"
+				"34057A5E50C6E6C8"
+				"34057A5E50F4F4FB"
+				"34057A5E50031F98"
+			]
 			id: "34057A5E50F9C41F"
 			rewards: [
 				{
@@ -632,20 +541,21 @@
 				{
 					count: 8
 					id: "34057A5E50E70ACB"
-					item: { count: 1, id: "minecraft:bread" }
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.25d
-			tasks: [
-				{
-					id: "34057A5E502FC46B"
-					type: "checkmark"
-				}
-			]
-			x: 9.0d
-			y: 0.0d
+			tasks: [{
+				id: "34057A5E502FC46B"
+				type: "checkmark"
+			}]
+			x: 0.34d
+			y: -7.88d
 		}
 	]
 }

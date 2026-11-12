@@ -35,9 +35,12 @@
 			dependencies: ["7C0A15F3B1D2E502"]
 			id: "7C0A15F3B1D2E505"
 			rewards: [{
-				id: "7C0A15F3B1D2E506"
 				count: 4
-				item: { count: 1, id: "festive_delight:gingerbread_man" }
+				id: "7C0A15F3B1D2E506"
+				item: {
+					count: 1
+					id: "festive_delight:gingerbread_man"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -56,7 +59,7 @@
 					id: "7C0A15F3B1D2E509"
 					item: {
 						count: 1
-						id: "fairylights:fairy_light"
+						id: "festivity:string_lights_multicolour"
 					}
 					type: "item"
 				}
@@ -102,7 +105,7 @@
 				id: "7C0A15F3B1D2E510"
 				item: {
 					count: 1
-					id: "christmas_hearthlight:christmas_gift_box"
+					id: "festivity:wrapped_present"
 				}
 				type: "item"
 			}]

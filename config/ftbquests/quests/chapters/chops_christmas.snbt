@@ -8,7 +8,7 @@
 	}
 	id: "29FCF0FFCC91E147"
 	images: [ ]
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -473,11 +473,11 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["34057A5E514A2688"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "festivity:advent_calendar"
 			}
-			dependencies: ["34057A5E514A2688"]
-			hide_until_deps_complete: true
 			id: "3ADA85706D398A24"
 			rewards: [{
 				count: 3

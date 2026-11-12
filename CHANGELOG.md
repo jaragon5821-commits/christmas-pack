@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026.11.12-1
+- Festivity 0.9.129, Townwright chop.54, Road Bridges 0.13.3, Better Snowy Leaves 1.4.3; Christmas mods migrated into Festivity
+- Removed: Macaw's Holidays, Grandma's Cabinet, Fairy Lights, Winterly, Season's Greetings, Snowy Spirit, New Year's Delight, Snowmancy, Snuffles, WilderNature, Animal Garden (4), AquariusLibs, Untitled Penguin Mod
+- Structures v46, Quests v5g, Colony Village style v3.17, packs 5/7/20/22/24/25/30 updated; MCA destiny limited; Certain Questing Additions client-only
+
 ## 2026.11.09-26
 - Festivity 0.9.63 -> 0.9.66: quieter reindeer (sleigh bells only while moving, soft hoof steps, no grunts while ridden); Gingerbread Buddy steps no longer squelch; Santa flyby follows the terrain 14 blocks above the ground and ignores damage; a killed Santa sleigh vanishes (no death tumble); small chop ornaments in trees stay put (leaves, logs, fences and walls hold them); death messages for all 47 Festivity spells; Grand Fireplace and Hearth turn correctly inside rotated/mirrored structures; NEW Large Chimney (full-block chimney in 6 materials + 5 large heads, same linking, smoke and Cozy as the slim chimney; Chipped swaps). Compiled; NOT TESTED in game (Josh tests in game)
 - Santa flyby script (festivity_phase5.js): start height clears the ground and the sleigh climbs to 14 blocks above terrain 4-16 blocks ahead (no more flying into mountains)

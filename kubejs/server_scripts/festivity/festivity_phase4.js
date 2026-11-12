@@ -22,8 +22,8 @@ const P4 = {
   OUTPOST_CAP: 14,              // (Build round 5: 30 tagged mobs sat at a stage-3 outpost) no periodic outpost spawns while this many minions are within 32
   FREED_ELVES: 2, FREED_TICKS: 240,   // (Josh 05:47) Sour Elves within 48 of a broken Cursed Star become Freed Elves (invulnerable allays) for 12 s, then leave a gift
   CLAWS_SMASH: true,           // Santy Claws breaks doors, trapdoors, fence gates and glass between him and his target
-  CANDY: ['snowyspirit:candy_cane', 'seasonsgreetings:candy_cane', 'festive_delight:candy_cane', 'minecraft:cookie'],
-  COCOA: ['festive_delight:hot_cocoa', 'farm_and_charm:hot_cocoa', 'candlelight:hot_cocoa', 'bakery:hot_cocoa', 'minecraft:mushroom_stew'],
+  CANDY: ['snowyspirit:candy_cane', 'seasonsgreetings:candy_cane', 'festive_delight:candy_cane', 'minecraft:cookie'].map((typeof chopMigOr == 'function' ? chopMigOr : (x => x))),   // 11-12 migration
+  COCOA: ['festive_delight:hot_cocoa', 'farm_and_charm:hot_cocoa', 'candlelight:hot_cocoa', 'bakery:hot_cocoa', 'minecraft:mushroom_stew'].map((typeof chopMigOr == 'function' ? chopMigOr : (x => x))),   // 11-12 migration
   SECRET_CAP: 4,                // (v11) Secret Santa: at most this much Festivity per event (+2 per credited gift -> 2 gifts), no uncapped source
   LOG: false, DEBUG_CMDS: false // both false for promotion (v11). LOG true = [Festivity4] console diagnostics, DEBUG_CMDS true = non-silent commands
 };

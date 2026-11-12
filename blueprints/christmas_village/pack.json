@@ -8,23 +8,20 @@
   "mods": [
     "another_furniture",
     "candlelight",
-    "christmas_hearthlight",
+    "chop",
+    "festivity",
     "furniture",
     "handcrafted",
     "hearth_and_timber",
-    "mcwholidays",
     "mcwlights",
     "mcwpaths",
     "mcwroofs",
-    "merrymaking",
     "minecolonies",
-    "seasonsgreetings",
-    "snowyspirit",
     "stoneworks",
     "structurize",
     "supplementaries",
-    "winterly"
+    "twigs"
   ],
-  "version": "3.13",
+  "version": "3.17",
   "pack-format": "1"
 }

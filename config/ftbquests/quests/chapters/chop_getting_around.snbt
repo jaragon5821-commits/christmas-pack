@@ -4,7 +4,7 @@
 	filename: "chop_getting_around"
 	group: ""
 	icon: {
-		id: "snowyspirit:sled_spruce"
+		id: "festivity:sled"
 	}
 	id: "4CF18885D3604885"
 	images: [ ]
@@ -98,7 +98,7 @@
 		}
 		{
 			icon: {
-				id: "snowyspirit:sled_spruce"
+				id: "festivity:sled"
 			}
 			id: "408ABAA7FDB5CE7D"
 			rewards: [{
@@ -109,7 +109,7 @@
 			tasks: [{
 				consume_items: false
 				id: "4E02CE1370F551B1"
-				item: { count: 1, id: "snowyspirit:sled_spruce" }
+				item: { count: 1, id: "festivity:sled" }
 				type: "item"
 			}]
 			x: 4.0d

@@ -29,12 +29,11 @@
     // Festivity blocks
     'festivity:candle_of_vigil': ['Right-click with a Coal Heart Shard to light it (holds up to 4).', 'Burns one shard every dawn, then goes out.', 'While lit, Santy Claws can\'t break into homes within 32 blocks.'],
     'festivity:toy_soldier_banner': ['When placed, Nutcrackers within 20 blocks stop fighting', 'and march to it for 1 minute.'],
-    'festivity:wrapped_present': ['Plain: decoration.', 'Made by the Gift Wrap spell: place it to unwrap the block inside, contents and all.'],
-    'festivity:icing_block': ['Icing Piper bridge. Melts after 10 seconds.']
+    'festivity:wrapped_present': ['Plain: decoration.', 'Made by the Gift Wrap spell: place it to unwrap the block inside, contents and all.']
   };
 
   // ---- generated: Festivity string lights + spell school crafting items ----
-  ['warm', 'multicolour', 'twinkle', 'chase', 'fade'].forEach(s => {
+  ['warm', 'multicolour', 'blue', 'white', 'twinkle', 'chase', 'fade'].forEach(s => {   // ids without an item are skipped below
     TIPS['festivity:string_lights_' + s] = ['Click a wall: strand. Click a ceiling: droop.', 'Click a post top (or sneak): deep swag. Gives light.'];
   });
   const SCHOOLS = { yuletide: ['Yuletide', 'Tinsel Caroler'], naughty: ['Naughty', 'Coal Trickster'], toymaker: ['Toymaker', 'Clockwork Tinkerer'], hearthfire: ['Hearthfire', 'Hearth Keeper'], aurora: ['Aurora', 'Aurora Seer'] };

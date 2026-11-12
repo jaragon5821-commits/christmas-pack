@@ -7,8 +7,13 @@
 const loaded = (mod) => Platform.isLoaded(mod)
 
 // add(event, tag, [ids]) - only ids whose mod is loaded
+// 11-12 Festivity migration: old Christmas-mod ids resolve through chopMigOr (000_chop_migration_ids.js) first, so the
+// Festivity replacement joins the tag once it exists and the old id drops out when its mod is removed. Duplicates skipped.
 function add(event, tag, ids) {
-  ids.filter(id => loaded(id.split(':')[0])).forEach(id => event.add(tag, id))
+  let seen = {}
+  ids.map(id => (typeof chopMigOr == 'function') ? chopMigOr(id) : id)
+    .filter(id => loaded(id.split(':')[0]) && !seen[id] && (seen[id] = true))
+    .forEach(id => event.add(tag, id))
 }
 
 ServerEvents.tags('item', event => {

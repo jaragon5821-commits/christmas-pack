@@ -1,6 +1,6 @@
 filename = "SubtleEffects-neoforge-1.21.1-1.15.1.jar"
 name = "Subtle Effects"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha512"

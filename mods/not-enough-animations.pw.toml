@@ -1,6 +1,6 @@
 filename = "notenoughanimations-neoforge-1.12.7-mc1.21.1.jar"
 name = "Not Enough Animations"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha512"

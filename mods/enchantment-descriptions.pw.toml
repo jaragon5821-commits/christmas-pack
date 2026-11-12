@@ -1,6 +1,6 @@
 filename = "enchdesc-neoforge-1.21.1-21.1.11.jar"
 name = "Enchantment Descriptions"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha512"

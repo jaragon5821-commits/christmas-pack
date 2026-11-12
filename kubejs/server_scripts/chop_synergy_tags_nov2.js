@@ -28,7 +28,7 @@ ServerEvents.tags('item', event => {
     addAll(event, 'c:foods/soup', ny, ['toshikoshi_soba', 'ozoni'])
   }
 
-  if (on('christmas_hearthlight')) {
-    event.add('chop:presents', 'christmas_hearthlight:christmas_gift_box')
-  }
+  // 11-12 Festivity migration: the hearthlight gift box resolves to festivity:wrapped_present once that exists
+  let gb = (typeof chopMig == 'function') ? chopMig('christmas_hearthlight:christmas_gift_box') : (on('christmas_hearthlight') ? 'christmas_hearthlight:christmas_gift_box' : null)
+  if (gb) event.add('chop:presents', gb)
 })

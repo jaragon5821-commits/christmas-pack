@@ -24,7 +24,7 @@
   });
 
   if (!Platform.isLoaded('lootjs')) return;
-  const CRITTER = /(penguin|seal|snow_leopard|narwhal)$/;   // v0.1.2: no word boundary, so animalgarden_harpseal:harpseal matches
+  const CRITTER = /(penguin|seal|snow_?leopard|narwhal|otter|frostpuff)$/;   // 11-12: penguin mod removed; snow_?leopard also matches animalgarden snowleopard   // v0.1.2: no word boundary, so animalgarden_harpseal:harpseal matches
   const COLD_HOSTILE = /^(minecraft:stray|.*:frozen_zombie)$/;
 
   LootJS.modifiers(event => {

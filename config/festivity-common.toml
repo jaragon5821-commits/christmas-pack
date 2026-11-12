@@ -11,3 +11,73 @@ packRules = true
 babyVisuals = true
 #Cancel Iron's Spells damage (any school, vanilla or Festivity) to villagers, MCA villagers and MineColonies citizens when the caster is a player or a player's summon. Needs Iron's; harmless without it.
 spellVillagerGuard = true
+#Villager Cheer: rare caroling notes in the evening, gift-swap pops and Christmas Eve/Day confetti near MCA villagers.
+#Particles and sounds only; villagers are never moved, changed or written to. Default true.
+villagerCheer = true
+#Chance that a village area (64x64 blocks) carols on a given evening (rolled once per area per in-game day). Default 0.25.
+# Default: 0.25
+# Range: 0.0 ~ 1.0
+carolChancePerEvening = 0.25
+#Minimum real minutes between gift-swap pops in one village area. Default 20.
+# Default: 20
+# Range: 1 ~ 1440
+giftSwapCooldownMinutes = 20
+#Chance per 10-second check (after the cooldown) that two villagers standing together swap gifts. Default 0.04.
+# Default: 0.04
+# Range: 0.0 ~ 1.0
+giftSwapChance = 0.04
+#Christmas Eve and Day (real date, Dec 24-25): minimum real minutes between confetti bursts in one village area. Default 10.
+# Default: 10
+# Range: 1 ~ 1440
+holidayConfettiCooldownMinutes = 10
+#Event Night: one chance roll per night decides whether ANY Festivity night event happens (event pool, minion waves, midnight Claws).
+#false = the scripts roll on their own as before. Default true.
+eventNightEnabled = true
+#Chance of an Event Night while Festivity is 0-49. Default 0.4 (Josh 11-10: 40%).
+# Default: 0.4
+# Range: 0.0 ~ 1.0
+eventNightChanceLow = 0.4
+#Chance of an Event Night while Festivity is 50-59. Default 0.4.
+# Default: 0.4
+# Range: 0.0 ~ 1.0
+eventNightChanceQuiet = 0.4
+#Chance of an Event Night while Festivity is 60 or more. Default 0.4.
+# Default: 0.4
+# Range: 0.0 ~ 1.0
+eventNightChanceHigh = 0.4
+#Chance of an Event Night on real-life December 1-24 (replaces the three above on those days). Default 0.7.
+# Default: 0.7
+# Range: 0.0 ~ 1.0
+eventNightChanceDecember = 0.7
+#After this many quiet nights in a row the next night is always an Event Night. Default 3.
+# Default: 3
+# Range: 1 ~ 100
+eventNightMaxQuietNights = 3
+#Night events the Event Director never picks, by id (see /festivity director). Example: ["storm", "blackice"]. Default empty.
+eventsDisabled = []
+#Farmer's Delight cooking pot: one batch gives this many times the recipe's output (all Delight add-ons that cook in FD's pot,
+#and automation feeding it). 1 = vanilla FD. Capped at the meal's max stack size. Default 4.
+# Default: 4
+# Range: 1 ~ 16
+cookingPotYieldMultiplier = 4
+#Only recipes with at least this many ingredients get the multiplier (others stay 1x). 0 = every recipe. Josh's later idea: 5.
+# Default: 0
+# Range: 0 ~ 9
+multiplierMinIngredients = 0
+#Same, for soups (recipes served in a bowl). 0 = every soup. Josh's later idea: 4.
+# Default: 0
+# Range: 0 ~ 9
+multiplierMinIngredientsSoup = 0
+#Only recipes that cook at least this many ticks get the multiplier. 0 = every recipe.
+# Default: 0
+# Range: 0 ~ 72000
+multiplierMinCookTicks = 0
+#Beavers build small dams in rivers (they only ever turn water blocks into muddy mangrove roots). false = no dams at all. Default true.
+beaverDams = true
+#At dawn and dusk a silent V of snow geese sometimes flies high over players (scenery only, they remove themselves). false = never. Default true.
+gooseFlyovers = true
+#Beavers never build within this many blocks of a chunk where a player placed a block, a chunk holding a block entity (chest, bed, hut...)
+#or a MineColonies colony. Default 48.
+# Default: 48
+# Range: 16 ~ 256
+beaverDamSafeRadius = 48

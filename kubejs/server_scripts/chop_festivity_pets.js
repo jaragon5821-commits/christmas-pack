@@ -42,7 +42,7 @@
   }
   EntityEvents.death(event => {
     let e = event.entity, t = String(e.type);
-    if (e.isPlayer() || t.startsWith('minecolonies:') || t.startsWith('mca:') || t.startsWith('snowmancy:') || t == 'minecraft:villager') return;   // snowmen: kill_festive above
+    if (e.isPlayer() || t.startsWith('minecolonies:') || t.startsWith('mca:') || t.startsWith('snowmancy:') || t == 'festivity:snowman_companion' || t == 'minecraft:villager') return;   // snowmen: kill_festive above
     try { if (e.isAnimal && e.isAnimal()) return; } catch (x) {}          // animals: festivity.js already scores them
     try { if (e.tags && e.tags.contains('fest_minion')) return; } catch (x) {}
     let src = event.source, p = src ? src.player : null;

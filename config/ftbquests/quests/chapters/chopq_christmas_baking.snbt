@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "chopq_christmas_baking"
 	group: ""
@@ -8,38 +8,32 @@
 	}
 	id: "34057A5E53000000"
 	images: [ ]
-	order_index: 16
-	quest_links: [
-		{
-			id: "34057A5E539D70EE"
-			linked_quest: "659A070A3E0E32CA"
-			x: -1.5d
-			y: -1.5d
-		}
-	]
+	order_index: 17
+	quest_links: [{
+		id: "34057A5E539D70EE"
+		linked_quest: "659A070A3E0E32CA"
+		x: -6.4d
+		y: 11.2d
+	}]
 	quests: [
 		{
 			icon: {
 				id: "bakery:rolling_pin"
 			}
 			id: "34057A5E53369CF3"
-			rewards: [
-				{
-					id: "34057A5E5377B077"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "34057A5E5377B077"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "gear"
 			size: 1.5d
-			tasks: [
-				{
-					id: "34057A5E53EE6847"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
+			tasks: [{
+				id: "34057A5E53EE6847"
+				type: "checkmark"
+			}]
+			x: -4.8d
+			y: 11.2d
 		}
 		{
 			dependencies: ["34057A5E53369CF3"]
@@ -47,24 +41,20 @@
 				id: "farm_and_charm:flour"
 			}
 			id: "34057A5E537DD39E"
-			rewards: [
-				{
-					id: "34057A5E53A76FB5"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 4L
-					id: "34057A5E5372DD0C"
-					item: { count: 1, id: "farm_and_charm:flour" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: -3.0d
+			rewards: [{
+				id: "34057A5E53A76FB5"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "34057A5E5372DD0C"
+				item: { count: 1, id: "farm_and_charm:flour" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 11.2d
 		}
 		{
 			dependencies: ["34057A5E537DD39E"]
@@ -72,24 +62,20 @@
 				id: "farm_and_charm:dough"
 			}
 			id: "34057A5E532B065B"
-			rewards: [
-				{
-					id: "34057A5E5336E754"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 4L
-					id: "34057A5E53D50547"
-					item: { count: 1, id: "farm_and_charm:dough" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: -3.0d
+			rewards: [{
+				id: "34057A5E5336E754"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "34057A5E53D50547"
+				item: { count: 1, id: "farm_and_charm:dough" }
+				type: "item"
+			}]
+			x: -4.8d
+			y: 6.4d
 		}
 		{
 			dependencies: ["34057A5E53369CF3"]
@@ -97,23 +83,19 @@
 				id: "farm_and_charm:yeast"
 			}
 			id: "34057A5E53EEB611"
-			rewards: [
-				{
-					id: "34057A5E53038CA3"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E53C1F1B3"
-					item: { count: 1, id: "farm_and_charm:yeast" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: -3.0d
+			rewards: [{
+				id: "34057A5E53038CA3"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E53C1F1B3"
+				item: { count: 1, id: "farm_and_charm:yeast" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 11.2d
 		}
 		{
 			dependencies: ["34057A5E53369CF3"]
@@ -121,23 +103,19 @@
 				id: "farm_and_charm:butter"
 			}
 			id: "34057A5E5394EC1F"
-			rewards: [
-				{
-					id: "34057A5E53DB3102"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E537C660D"
-					item: { count: 1, id: "farm_and_charm:butter" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: -3.0d
+			rewards: [{
+				id: "34057A5E53DB3102"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E537C660D"
+				item: { count: 1, id: "farm_and_charm:butter" }
+				type: "item"
+			}]
+			x: -6.4d
+			y: 9.6d
 		}
 		{
 			dependencies: ["34057A5E53369CF3"]
@@ -145,24 +123,20 @@
 				id: "minecraft:sugar"
 			}
 			id: "34057A5E53AE9A89"
-			rewards: [
-				{
-					id: "34057A5E53C6B289"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 16L
-					id: "34057A5E53A787C5"
-					item: { count: 1, id: "minecraft:sugar" }
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: -3.0d
+			rewards: [{
+				id: "34057A5E53C6B289"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "34057A5E53A787C5"
+				item: { count: 1, id: "minecraft:sugar" }
+				type: "item"
+			}]
+			x: -4.8d
+			y: 9.6d
 		}
 		{
 			dependencies: ["34057A5E53369CF3"]
@@ -170,48 +144,43 @@
 				id: "bakery:baker_station"
 			}
 			id: "34057A5E5340A503"
-			rewards: [
-				{
-					id: "34057A5E539FBD11"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E53A35442"
-					item: { count: 1, id: "bakery:baker_station" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: -1.5d
+			rewards: [{
+				id: "34057A5E539FBD11"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E53A35442"
+				item: { count: 1, id: "bakery:baker_station" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 9.6d
 		}
 		{
-			dependencies: ["34057A5E5340A503", "34057A5E532B065B"]
+			dependencies: [
+				"34057A5E5340A503"
+				"34057A5E532B065B"
+			]
 			icon: {
 				id: "bakery:sweet_dough"
 			}
 			id: "34057A5E5309E9B1"
-			rewards: [
-				{
-					id: "34057A5E538002D7"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 2L
-					id: "34057A5E53AAC0A7"
-					item: { count: 1, id: "bakery:sweet_dough" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: -1.5d
+			rewards: [{
+				id: "34057A5E538002D7"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "34057A5E53AAC0A7"
+				item: { count: 1, id: "bakery:sweet_dough" }
+				type: "item"
+			}]
+			x: -1.6d
+			y: -1.6d
 		}
 		{
 			dependencies: ["34057A5E5340A503"]
@@ -219,23 +188,19 @@
 				id: "bakery:baguette"
 			}
 			id: "34057A5E53802EC3"
-			rewards: [
-				{
-					id: "34057A5E538F9B6C"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5370C8E3"
-					item: { count: 1, id: "bakery:baguette" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: -1.5d
+			rewards: [{
+				id: "34057A5E538F9B6C"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5370C8E3"
+				item: { count: 1, id: "bakery:baguette" }
+				type: "item"
+			}]
+			x: -3.2d
+			y: 6.4d
 		}
 		{
 			dependencies: ["34057A5E5340A503"]
@@ -243,23 +208,19 @@
 				id: "bakery:braided_bread"
 			}
 			id: "34057A5E531C3B1A"
-			rewards: [
-				{
-					id: "34057A5E53AE9BD6"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E53A579B2"
-					item: { count: 1, id: "bakery:braided_bread" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: -1.5d
+			rewards: [{
+				id: "34057A5E53AE9BD6"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E53A579B2"
+				item: { count: 1, id: "bakery:braided_bread" }
+				type: "item"
+			}]
+			x: 3.2d
+			y: 6.4d
 		}
 		{
 			dependencies: ["34057A5E5340A503"]
@@ -267,23 +228,19 @@
 				id: "bakery:crusty_bread"
 			}
 			id: "34057A5E534362C5"
-			rewards: [
-				{
-					id: "34057A5E53AE6E6C"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E53390279"
-					item: { count: 1, id: "bakery:crusty_bread" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: -1.5d
+			rewards: [{
+				id: "34057A5E53AE6E6C"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E53390279"
+				item: { count: 1, id: "bakery:crusty_bread" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 6.4d
 		}
 		{
 			dependencies: ["34057A5E5340A503"]
@@ -291,24 +248,20 @@
 				id: "bakery:bun"
 			}
 			id: "34057A5E53DE659B"
-			rewards: [
-				{
-					id: "34057A5E533956E8"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 4L
-					id: "34057A5E536E8E8C"
-					item: { count: 1, id: "bakery:bun" }
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: -1.5d
+			rewards: [{
+				id: "34057A5E533956E8"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "34057A5E536E8E8C"
+				item: { count: 1, id: "bakery:bun" }
+				type: "item"
+			}]
+			x: -3.2d
+			y: 4.8d
 		}
 		{
 			dependencies: ["34057A5E5340A503"]
@@ -316,177 +269,152 @@
 				id: "bakery:bread_with_jam"
 			}
 			id: "34057A5E53300D7C"
-			rewards: [
-				{
-					id: "34057A5E53F219DE"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E53E8031E"
-					item: { count: 1, id: "bakery:bread_with_jam" }
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: -1.5d
+			rewards: [{
+				id: "34057A5E53F219DE"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E53E8031E"
+				item: { count: 1, id: "bakery:bread_with_jam" }
+				type: "item"
+			}]
+			x: -1.6d
+			y: 4.8d
 		}
 		{
 			dependencies: ["34057A5E53369CF3"]
 			icon: {
-				id: "snowyspirit:gingerbread_cookie"
+				id: "festive_delight:gingerbread_man"
 			}
 			id: "34057A5E53E5E35A"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "34057A5E538872B1"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 1.5d
+			tasks: [{
+				id: "34057A5E538872B1"
+				type: "checkmark"
+			}]
+			x: 6.4d
+			y: 9.6d
 		}
 		{
 			dependencies: ["34057A5E53E5E35A"]
 			icon: {
-				id: "merrymaking:cookie_dough"
+				id: "festivity:cookie_dough"
 			}
 			id: "34057A5E5394D323"
-			rewards: [
-				{
-					id: "34057A5E535EBA98"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 2L
-					id: "34057A5E53F56F51"
-					item: { count: 1, id: "merrymaking:cookie_dough" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 1.5d
+			rewards: [{
+				id: "34057A5E535EBA98"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "34057A5E53F56F51"
+				item: { count: 1, id: "festivity:cookie_dough" }
+				type: "item"
+			}]
+			x: 1.6d
+			y: 4.8d
 		}
 		{
 			dependencies: ["34057A5E5394D323"]
 			icon: {
-				id: "merrymaking:stocking_christmas_cookie"
+				id: "festivity:stocking_cookie"
 			}
 			id: "34057A5E53B183B0"
-			rewards: [
-				{
-					id: "34057A5E53C3E76E"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 4L
-					id: "34057A5E5323E50C"
-					item: { count: 1, id: "merrymaking:stocking_christmas_cookie" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 1.5d
+			rewards: [{
+				id: "34057A5E53C3E76E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "34057A5E5323E50C"
+				item: { count: 1, id: "festivity:stocking_cookie" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["34057A5E5394D323"]
 			icon: {
-				id: "merrymaking:tree_christmas_cookie"
+				id: "festivity:tree_cookie"
 			}
 			id: "34057A5E535F18C7"
-			rewards: [
-				{
-					id: "34057A5E53F8624F"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 4L
-					id: "34057A5E53C02D17"
-					item: { count: 1, id: "merrymaking:tree_christmas_cookie" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 1.5d
+			rewards: [{
+				id: "34057A5E53F8624F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "34057A5E53C02D17"
+				item: { count: 1, id: "festivity:tree_cookie" }
+				type: "item"
+			}]
+			x: 1.6d
+			y: -1.6d
 		}
 		{
 			dependencies: ["34057A5E5394D323"]
 			icon: {
-				id: "merrymaking:mitten_christmas_cookie"
+				id: "festivity:mitten_cookie"
 			}
 			id: "34057A5E53C454E4"
-			rewards: [
-				{
-					id: "34057A5E533D87D8"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 4L
-					id: "34057A5E533C98D2"
-					item: { count: 1, id: "merrymaking:mitten_christmas_cookie" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 1.5d
+			rewards: [{
+				id: "34057A5E533D87D8"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "34057A5E533C98D2"
+				item: { count: 1, id: "festivity:mitten_cookie" }
+				type: "item"
+			}]
+			x: 3.2d
+			y: -1.6d
 		}
 		{
 			dependencies: ["34057A5E5394D323"]
 			icon: {
-				id: "merrymaking:cookie_tray"
+				id: "festivity:cookie_tray"
 			}
 			id: "34057A5E5342BF9C"
-			rewards: [
-				{
-					id: "34057A5E53701235"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E53528D40"
-					item: { count: 1, id: "merrymaking:cookie_tray" }
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: 1.5d
+			rewards: [{
+				id: "34057A5E53701235"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E53528D40"
+				item: { count: 1, id: "festivity:cookie_tray" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: -1.6d
 		}
 		{
-			dependencies: ["34057A5E53E5E35A", "34057A5E5340A503"]
+			dependencies: [
+				"34057A5E53E5E35A"
+				"34057A5E5340A503"
+			]
 			icon: {
 				id: "bakery:strawberry_glazed_cookie"
 			}
 			id: "34057A5E532CFCA0"
-			rewards: [
-				{
-					id: "34057A5E53F8C3A6"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "34057A5E53F8C3A6"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [
 				{
 					consume_items: false
@@ -503,32 +431,28 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 3.0d
+			x: 3.2d
+			y: 4.8d
 		}
 		{
 			dependencies: ["34057A5E53E5E35A"]
 			icon: {
-				id: "festive_delight:gingerbread_dough"
+				id: "festivity:gingerbread_dough"
 			}
 			id: "34057A5E53F57F80"
-			rewards: [
-				{
-					id: "34057A5E535F5598"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5388D7B3"
-					item: { count: 1, id: "festive_delight:gingerbread_dough" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 3.0d
+			rewards: [{
+				id: "34057A5E535F5598"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5388D7B3"
+				item: { count: 1, id: "festivity:gingerbread_dough" }
+				type: "item"
+			}]
+			x: -3.2d
+			y: 3.2d
 		}
 		{
 			dependencies: ["34057A5E53F57F80"]
@@ -536,24 +460,20 @@
 				id: "festive_delight:gingerbread_cookie_flake"
 			}
 			id: "34057A5E5306B999"
-			rewards: [
-				{
-					id: "34057A5E5371FAF2"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 4L
-					id: "34057A5E53470CA5"
-					item: { count: 1, id: "festive_delight:gingerbread_cookie_flake" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 3.0d
+			rewards: [{
+				id: "34057A5E5371FAF2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "34057A5E53470CA5"
+				item: { count: 1, id: "festive_delight:gingerbread_cookie_flake" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: -1.6d
 		}
 		{
 			dependencies: ["34057A5E53F57F80"]
@@ -561,49 +481,41 @@
 				id: "festive_delight:gingerbread_man"
 			}
 			id: "34057A5E53B9EF0F"
-			rewards: [
-				{
-					id: "34057A5E53EC401E"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 4L
-					id: "34057A5E530131C2"
-					item: { count: 1, id: "festive_delight:gingerbread_man" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 3.0d
+			rewards: [{
+				id: "34057A5E53EC401E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "34057A5E530131C2"
+				item: { count: 1, id: "festive_delight:gingerbread_man" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["34057A5E53E5E35A"]
 			icon: {
-				id: "snowyspirit:gingerbread_cookie"
+				id: "festive_delight:gingerbread_man"
 			}
 			id: "34057A5E53081E46"
-			rewards: [
-				{
-					id: "34057A5E531F8299"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 4L
-					id: "34057A5E5347A152"
-					item: { count: 1, id: "snowyspirit:gingerbread_cookie" }
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: 3.0d
+			rewards: [{
+				id: "34057A5E531F8299"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				count: 12L
+				id: "34057A5E5347A152"
+				item: { count: 1, id: "festive_delight:gingerbread_man" }
+				type: "item"
+			}]
+			x: -1.6d
+			y: 3.2d
 		}
 		{
 			dependencies: ["34057A5E5340A503"]
@@ -612,14 +524,12 @@
 			}
 			id: "34057A5E53421ADE"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "34057A5E53032F6D"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "34057A5E53032F6D"
+				type: "checkmark"
+			}]
 			x: 0.0d
-			y: 5.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["34057A5E53421ADE"]
@@ -627,47 +537,39 @@
 				id: "bakery:cake_dough"
 			}
 			id: "34057A5E53455187"
-			rewards: [
-				{
-					id: "34057A5E53B88250"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E53FC9B42"
-					item: { count: 1, id: "bakery:cake_dough" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 5.0d
+			rewards: [{
+				id: "34057A5E53B88250"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E53FC9B42"
+				item: { count: 1, id: "bakery:cake_dough" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: -1.6d
 		}
 		{
 			dependencies: ["34057A5E53455187"]
 			icon: {
-				id: "bakery:blank_cake"
+				id: "bakery:sponge_sheet"
 			}
 			id: "34057A5E534D1F23"
-			rewards: [
-				{
-					id: "34057A5E532DAC01"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5378C1C3"
-					item: { count: 1, id: "bakery:blank_cake" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 5.0d
+			rewards: [{
+				id: "34057A5E532DAC01"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5358B853"
+				item: { count: 1, id: "bakery:sponge_sheet" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: -3.2d
 		}
 		{
 			dependencies: ["34057A5E534D1F23"]
@@ -675,23 +577,19 @@
 				id: "bakery:chocolate_cake"
 			}
 			id: "34057A5E53D21DC3"
-			rewards: [
-				{
-					id: "34057A5E5367509E"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E53D6CC58"
-					item: { count: 1, id: "bakery:chocolate_cake" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 5.0d
+			rewards: [{
+				id: "34057A5E5367509E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E53D6CC58"
+				item: { count: 1, id: "bakery:chocolate_cake" }
+				type: "item"
+			}]
+			x: -1.6d
+			y: -8.0d
 		}
 		{
 			dependencies: ["34057A5E534D1F23"]
@@ -699,23 +597,19 @@
 				id: "bakery:bundt_cake"
 			}
 			id: "34057A5E535981A0"
-			rewards: [
-				{
-					id: "34057A5E5338F393"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E53C7D44B"
-					item: { count: 1, id: "bakery:bundt_cake" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 5.0d
+			rewards: [{
+				id: "34057A5E5338F393"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E53C7D44B"
+				item: { count: 1, id: "bakery:bundt_cake" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["34057A5E534D1F23"]
@@ -723,23 +617,19 @@
 				id: "bakery:chocolate_gateau"
 			}
 			id: "34057A5E535397EB"
-			rewards: [
-				{
-					id: "34057A5E53581923"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E53BA5D2F"
-					item: { count: 1, id: "bakery:chocolate_gateau" }
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: 5.0d
+			rewards: [{
+				id: "34057A5E53581923"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E53BA5D2F"
+				item: { count: 1, id: "bakery:chocolate_gateau" }
+				type: "item"
+			}]
+			x: 1.6d
+			y: -8.0d
 		}
 		{
 			dependencies: ["34057A5E534D1F23"]
@@ -747,23 +637,19 @@
 				id: "bakery:sweetberry_cake"
 			}
 			id: "34057A5E537A4369"
-			rewards: [
-				{
-					id: "34057A5E539D8C11"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E53092342"
-					item: { count: 1, id: "bakery:sweetberry_cake" }
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: 5.0d
+			rewards: [{
+				id: "34057A5E539D8C11"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E53092342"
+				item: { count: 1, id: "bakery:sweetberry_cake" }
+				type: "item"
+			}]
+			x: -1.6d
+			y: -9.6d
 		}
 		{
 			dependencies: ["34057A5E53421ADE"]
@@ -771,23 +657,19 @@
 				id: "bakery:apple_pie"
 			}
 			id: "34057A5E53A2E69A"
-			rewards: [
-				{
-					id: "34057A5E53B305B7"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E53C14130"
-					item: { count: 1, id: "bakery:apple_pie" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 6.5d
+			rewards: [{
+				id: "34057A5E53B305B7"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E53C14130"
+				item: { count: 1, id: "bakery:apple_pie" }
+				type: "item"
+			}]
+			x: 11.2d
+			y: -1.6d
 		}
 		{
 			dependencies: ["34057A5E53421ADE"]
@@ -795,71 +677,59 @@
 				id: "bakery:linzer_tart"
 			}
 			id: "34057A5E5336A1CF"
-			rewards: [
-				{
-					id: "34057A5E53C611BE"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E531750E5"
-					item: { count: 1, id: "bakery:linzer_tart" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 6.5d
+			rewards: [{
+				id: "34057A5E53C611BE"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E531750E5"
+				item: { count: 1, id: "bakery:linzer_tart" }
+				type: "item"
+			}]
+			x: -6.4d
+			y: -3.2d
 		}
 		{
 			dependencies: ["34057A5E53421ADE"]
 			icon: {
-				id: "merrymaking:fruitcake"
+				id: "festivity:fruitcake"
 			}
 			id: "34057A5E5323794E"
-			rewards: [
-				{
-					id: "34057A5E53E299EB"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E536BFA96"
-					item: { count: 1, id: "merrymaking:fruitcake" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 6.5d
+			rewards: [{
+				id: "34057A5E53E299EB"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E536BFA96"
+				item: { count: 1, id: "festivity:fruitcake" }
+				type: "item"
+			}]
+			x: -4.8d
+			y: -3.2d
 		}
 		{
 			dependencies: ["34057A5E53421ADE"]
 			icon: {
-				id: "merrymaking:sweet_potato_pie"
+				id: "festivity:sweet_potato_pie"
 			}
 			id: "34057A5E5393D7B9"
-			rewards: [
-				{
-					id: "34057A5E53DA6297"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E532850C4"
-					item: { count: 1, id: "merrymaking:sweet_potato_pie" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 6.5d
+			rewards: [{
+				id: "34057A5E53DA6297"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E532850C4"
+				item: { count: 1, id: "festivity:sweet_potato_pie" }
+				type: "item"
+			}]
+			x: -3.2d
+			y: -3.2d
 		}
 		{
 			dependencies: ["34057A5E53421ADE"]
@@ -867,23 +737,19 @@
 				id: "farm_and_charm:grandmothers_strawberry_cake"
 			}
 			id: "34057A5E53EC0F37"
-			rewards: [
-				{
-					id: "34057A5E53D86EE1"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E538035B5"
-					item: { count: 1, id: "farm_and_charm:grandmothers_strawberry_cake" }
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: 6.5d
+			rewards: [{
+				id: "34057A5E53D86EE1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E538035B5"
+				item: { count: 1, id: "farm_and_charm:grandmothers_strawberry_cake" }
+				type: "item"
+			}]
+			x: -1.6d
+			y: -3.2d
 		}
 		{
 			dependencies: ["34057A5E53421ADE"]
@@ -891,89 +757,75 @@
 				id: "festivity:figgy_pudding"
 			}
 			id: "34057A5E53E54F57"
-			rewards: [
-				{
-					id: "34057A5E53C30302"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E535B6E84"
-					item: { count: 1, id: "festivity:figgy_pudding" }
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: 6.5d
+			rewards: [{
+				id: "34057A5E53C30302"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E535B6E84"
+				item: { count: 1, id: "festivity:figgy_pudding" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["34057A5E53369CF3"]
 			icon: {
-				id: "snowyspirit:candy_cane"
+				id: "festivity:candy_cane"
 			}
 			id: "34057A5E530F1020"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "34057A5E53FD8C73"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 8.5d
+			tasks: [{
+				id: "34057A5E53FD8C73"
+				type: "checkmark"
+			}]
+			x: -4.8d
+			y: 8.0d
 		}
 		{
 			dependencies: ["34057A5E530F1020"]
 			icon: {
-				id: "snowyspirit:candy_cane"
+				id: "festivity:candy_cane"
 			}
 			id: "34057A5E53A5CAD3"
-			rewards: [
-				{
-					id: "34057A5E53EBD08D"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 4L
-					id: "34057A5E53379703"
-					item: { count: 1, id: "snowyspirit:candy_cane" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 8.5d
+			rewards: [{
+				id: "34057A5E53EBD08D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "34057A5E53379703"
+				item: { count: 1, id: "festivity:candy_cane" }
+				type: "item"
+			}]
+			x: 1.6d
+			y: 3.2d
 		}
 		{
 			dependencies: ["34057A5E530F1020"]
 			icon: {
-				id: "snowyspirit:gumdrop"
+				id: "festivity:gumdrop"
 			}
 			id: "34057A5E53F720C8"
-			rewards: [
-				{
-					id: "34057A5E53593845"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 4L
-					id: "34057A5E539A57C7"
-					item: { count: 1, id: "snowyspirit:gumdrop" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 8.5d
+			rewards: [{
+				id: "34057A5E53593845"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "34057A5E539A57C7"
+				item: { count: 1, id: "festivity:gumdrop" }
+				type: "item"
+			}]
+			x: 3.2d
+			y: 3.2d
 		}
 		{
 			dependencies: ["34057A5E530F1020"]
@@ -981,49 +833,40 @@
 				id: "bakery:chocolate_truffle"
 			}
 			id: "34057A5E53A9D7F1"
-			rewards: [
-				{
-					id: "34057A5E53CE4E2E"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 2L
-					id: "34057A5E536474F4"
-					item: { count: 1, id: "bakery:chocolate_truffle" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 8.5d
+			rewards: [{
+				id: "34057A5E53CE4E2E"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "34057A5E536474F4"
+				item: { count: 1, id: "bakery:chocolate_truffle" }
+				type: "item"
+			}]
+			x: -3.2d
+			y: 1.6d
 		}
 		{
 			dependencies: ["34057A5E530F1020"]
 			icon: {
-				id: "bakery:donut"
+				id: "bakery:chocolate_tart"
 			}
 			id: "34057A5E5394DA92"
-			rewards: [
-				{
-					id: "34057A5E53622F33"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 2L
-					id: "34057A5E53F0777C"
-					item: { count: 1, id: "bakery:donut" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 8.5d
+			rewards: [{
+				id: "34057A5E53622F33"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E53A02E92"
+				item: { count: 1, id: "bakery:chocolate_tart" }
+				type: "item"
+			}]
+			x: -1.6d
+			y: 1.6d
 		}
 		{
 			dependencies: ["34057A5E530F1020"]
@@ -1031,13 +874,11 @@
 				id: "bakery:waffle"
 			}
 			id: "34057A5E53271698"
-			rewards: [
-				{
-					id: "34057A5E53EFF9D9"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "34057A5E53EFF9D9"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [
 				{
 					consume_items: false
@@ -1047,13 +888,13 @@
 				}
 				{
 					consume_items: false
-					id: "34057A5E5360417A"
-					item: { count: 1, id: "bakery:pancake" }
+					id: "34057A5E53F3D8B2"
+					item: { count: 1, id: "bakery:croissant" }
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: 8.5d
+			x: 0.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["34057A5E530F1020"]
@@ -1061,13 +902,11 @@
 				id: "bakery:strawberry_cupcake"
 			}
 			id: "34057A5E53F67FC1"
-			rewards: [
-				{
-					id: "34057A5E53931702"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "34057A5E53931702"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [
 				{
 					consume_items: false
@@ -1088,121 +927,103 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 8.5d
+			x: 1.6d
+			y: 1.6d
 		}
 		{
 			dependencies: ["34057A5E530F1020"]
 			icon: {
-				id: "merrymaking:rugelach"
+				id: "festivity:rugelach"
 			}
 			id: "34057A5E53638082"
-			rewards: [
-				{
-					id: "34057A5E53D51978"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 2L
-					id: "34057A5E5332AD64"
-					item: { count: 1, id: "merrymaking:rugelach" }
-					type: "item"
-				}
-			]
-			x: 10.5d
-			y: 8.5d
+			rewards: [{
+				id: "34057A5E53D51978"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "34057A5E5332AD64"
+				item: { count: 1, id: "festivity:rugelach" }
+				type: "item"
+			}]
+			x: 3.2d
+			y: 1.6d
 		}
 		{
 			dependencies: ["34057A5E53369CF3"]
 			icon: {
-				id: "merrymaking:hot_cocoa"
+				id: "farmersdelight:hot_cocoa"
 			}
 			id: "34057A5E5325581E"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "34057A5E53BCE73D"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 10.5d
+			tasks: [{
+				id: "34057A5E53BCE73D"
+				type: "checkmark"
+			}]
+			x: -3.2d
+			y: 8.0d
 		}
 		{
 			dependencies: ["34057A5E5325581E"]
 			icon: {
-				id: "merrymaking:hot_cocoa"
+				id: "farmersdelight:hot_cocoa"
 			}
 			id: "34057A5E531AC4F0"
-			rewards: [
-				{
-					id: "34057A5E53BB3E8A"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E533CED85"
-					item: { count: 1, id: "merrymaking:hot_cocoa" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 10.5d
+			rewards: [{
+				id: "34057A5E53BB3E8A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E533CED85"
+				item: { count: 1, id: "farmersdelight:hot_cocoa" }
+				type: "item"
+			}]
+			x: -11.2d
+			y: 0.0d
 		}
 		{
 			dependencies: ["34057A5E5325581E"]
 			icon: {
-				id: "merrymaking:peppermint_cocoa"
+				id: "festivity:peppermint_cocoa"
 			}
 			id: "34057A5E53697919"
-			rewards: [
-				{
-					id: "34057A5E535E5AA8"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5380237E"
-					item: { count: 1, id: "merrymaking:peppermint_cocoa" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 10.5d
+			rewards: [{
+				id: "34057A5E535E5AA8"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5380237E"
+				item: { count: 1, id: "festivity:peppermint_cocoa" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["34057A5E5325581E"]
 			icon: {
-				id: "merrymaking:egg_nog"
+				id: "festivity:eggnog"
 			}
 			id: "34057A5E53E2D899"
-			rewards: [
-				{
-					id: "34057A5E53428E52"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E533BA8F0"
-					item: { count: 1, id: "merrymaking:egg_nog" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 10.5d
+			rewards: [{
+				id: "34057A5E53428E52"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E533BA8F0"
+				item: { count: 1, id: "festivity:eggnog" }
+				type: "item"
+			}]
+			x: -3.2d
+			y: 0.0d
 		}
 		{
 			dependencies: ["34057A5E5325581E"]
@@ -1210,23 +1031,19 @@
 				id: "festivity:peppermint_fizz"
 			}
 			id: "34057A5E53F21331"
-			rewards: [
-				{
-					id: "34057A5E53DAE830"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E536647F8"
-					item: { count: 1, id: "festivity:peppermint_fizz" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 10.5d
+			rewards: [{
+				id: "34057A5E53DAE830"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E536647F8"
+				item: { count: 1, id: "festivity:peppermint_fizz" }
+				type: "item"
+			}]
+			x: -1.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["34057A5E5325581E"]
@@ -1234,143 +1051,126 @@
 				id: "festivity:cocoa_of_courage"
 			}
 			id: "34057A5E53FFE77D"
-			rewards: [
-				{
-					id: "34057A5E53652367"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5392D81A"
-					item: { count: 1, id: "festivity:cocoa_of_courage" }
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: 10.5d
+			rewards: [{
+				id: "34057A5E53652367"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5392D81A"
+				item: { count: 1, id: "festivity:cocoa_of_courage" }
+				type: "item"
+			}]
+			x: 1.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["34057A5E53F57F80"]
 			icon: {
-				id: "festive_delight:gingerbread_bricks"
+				id: "festivity:gingerbread_bricks"
 			}
 			id: "34057A5E530AB507"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "34057A5E5380409B"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 12.5d
+			tasks: [{
+				id: "34057A5E5380409B"
+				type: "checkmark"
+			}]
+			x: 1.6d
+			y: -3.2d
 		}
 		{
 			dependencies: ["34057A5E530AB507"]
 			icon: {
-				id: "festive_delight:gingerbread_bricks"
+				id: "festivity:gingerbread_bricks"
 			}
 			id: "34057A5E539F9E25"
-			rewards: [
-				{
-					id: "34057A5E53027ABD"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 32L
-					id: "34057A5E531A1CA4"
-					item: { count: 1, id: "festive_delight:gingerbread_bricks" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 12.5d
+			rewards: [{
+				id: "34057A5E53027ABD"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				count: 32L
+				id: "34057A5E531A1CA4"
+				item: { count: 1, id: "festivity:gingerbread_bricks" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: -3.2d
 		}
 		{
 			dependencies: ["34057A5E530AB507"]
 			icon: {
-				id: "snowyspirit:gingerbread_frosted"
+				id: "festivity:frosted_gingerbread_bricks"
 			}
 			id: "34057A5E53F1E591"
-			rewards: [
-				{
-					id: "34057A5E538760A0"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 16L
-					id: "34057A5E53ECCB48"
-					item: { count: 1, id: "snowyspirit:gingerbread_frosted" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 12.5d
+			rewards: [{
+				id: "34057A5E538760A0"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "34057A5E53ECCB48"
+				item: { count: 1, id: "festivity:frosted_gingerbread_bricks" }
+				type: "item"
+			}]
+			x: -1.6d
+			y: -4.8d
 		}
 		{
 			dependencies: ["34057A5E530AB507"]
 			icon: {
-				id: "festive_delight:sugar_icing_block"
+				id: "festivity:icing_block"
 			}
 			id: "34057A5E53902AAA"
-			rewards: [
-				{
-					id: "34057A5E53C40CC7"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 8L
-					id: "34057A5E5319D4BC"
-					item: { count: 1, id: "festive_delight:sugar_icing_block" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 12.5d
+			rewards: [{
+				id: "34057A5E53C40CC7"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "34057A5E5319D4BC"
+				item: { count: 1, id: "festivity:icing_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.8d
 		}
 		{
 			dependencies: ["34057A5E530AB507"]
 			icon: {
-				id: "festive_delight:gingerbread_door"
+				id: "festivity:gingerbread_door"
 			}
 			id: "34057A5E531F3A5A"
-			rewards: [
-				{
-					id: "34057A5E53AB1DD3"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E539D21D4"
-					item: { count: 1, id: "festive_delight:gingerbread_door" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 12.5d
+			rewards: [{
+				id: "34057A5E53AB1DD3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E539D21D4"
+				item: { count: 1, id: "festivity:gingerbread_door" }
+				type: "item"
+			}]
+			x: 1.6d
+			y: -4.8d
 		}
 		{
-			dependencies: ["34057A5E539F9E25", "34057A5E53F1E591", "34057A5E53902AAA", "34057A5E531F3A5A"]
+			dependencies: [
+				"34057A5E539F9E25"
+				"34057A5E53F1E591"
+				"34057A5E53902AAA"
+				"34057A5E531F3A5A"
+			]
 			icon: {
-				id: "festive_delight:gingerbread_pillar"
+				id: "festivity:gingerbread_pillar"
 			}
 			id: "34057A5E5382CCE4"
 			rewards: [
@@ -1381,19 +1181,20 @@
 				}
 				{
 					id: "34057A5E53A90AD9"
-					item: { count: 1, id: "minecraft:cake" }
+					item: {
+						count: 1
+						id: "minecraft:cake"
+					}
 					type: "item"
 				}
 			]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "34057A5E53A73850"
-					type: "checkmark"
-				}
-			]
-			x: 7.5d
-			y: 12.5d
+			tasks: [{
+				id: "34057A5E53A73850"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -9.6d
 		}
 		{
 			dependencies: ["34057A5E53421ADE"]
@@ -1401,23 +1202,19 @@
 				id: "bakery:cake_stand"
 			}
 			id: "34057A5E539D3A65"
-			rewards: [
-				{
-					id: "34057A5E531C2BA3"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5368A936"
-					item: { count: 1, id: "bakery:cake_stand" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 14.5d
+			rewards: [{
+				id: "34057A5E531C2BA3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5368A936"
+				item: { count: 1, id: "bakery:cake_stand" }
+				type: "item"
+			}]
+			x: 3.2d
+			y: -3.2d
 		}
 		{
 			dependencies: ["34057A5E539D3A65"]
@@ -1425,23 +1222,19 @@
 				id: "bakery:cupcake_display"
 			}
 			id: "34057A5E53578559"
-			rewards: [
-				{
-					id: "34057A5E53587E41"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E538CC95C"
-					item: { count: 1, id: "bakery:cupcake_display" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 14.5d
+			rewards: [{
+				id: "34057A5E53587E41"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E538CC95C"
+				item: { count: 1, id: "bakery:cupcake_display" }
+				type: "item"
+			}]
+			x: -1.6d
+			y: -6.4d
 		}
 		{
 			dependencies: ["34057A5E539D3A65"]
@@ -1449,23 +1242,19 @@
 				id: "bakery:breadbox"
 			}
 			id: "34057A5E53097F4F"
-			rewards: [
-				{
-					id: "34057A5E5386084B"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E53EED400"
-					item: { count: 1, id: "bakery:breadbox" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 14.5d
+			rewards: [{
+				id: "34057A5E5386084B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E53EED400"
+				item: { count: 1, id: "bakery:breadbox" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.4d
 		}
 		{
 			dependencies: ["34057A5E53369CF3"]
@@ -1473,277 +1262,113 @@
 				id: "minecolonies:blockhutbaker"
 			}
 			id: "34057A5E530440DF"
-			rewards: [
-				{
-					id: "34057A5E5316F59A"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					advancement: "chop_colony:build/baker_3"
-					criterion: ""
-					id: "34057A5E53706199"
-					type: "advancement"
-				}
-			]
-			x: 4.5d
-			y: 14.5d
+			rewards: [{
+				id: "34057A5E5316F59A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "chop_colony:build/baker_3"
+				criterion: ""
+				id: "34057A5E53706199"
+				type: "advancement"
+			}]
+			x: 3.2d
+			y: 8.0d
 		}
 		{
 			dependencies: ["34057A5E530440DF"]
 			icon: {
-				id: "snowyspirit:gingerbread_cookie"
+				id: "festive_delight:gingerbread_man"
 			}
 			id: "34057A5E531AE883"
-			rewards: [
-				{
-					id: "34057A5E53D7EF72"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					advancement: "chop_colony:citizen_ate/gingerbread_cookie"
-					criterion: ""
-					id: "34057A5E53345576"
-					type: "advancement"
-				}
-			]
-			x: 6.0d
-			y: 14.5d
+			rewards: [{
+				id: "34057A5E53D7EF72"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				advancement: "chop_colony:citizen_ate/gingerbread_cookie"
+				criterion: ""
+				id: "34057A5E53345576"
+				type: "advancement"
+			}]
+			x: 3.2d
+			y: 0.0d
 		}
 		{
 			dependencies: ["34057A5E53369CF3"]
 			icon: {
-				id: "newyearsdelight:kagami_kakera"
-			}
-			id: "34057A5E53CF8CED"
-			shape: "diamond"
-			tasks: [
-				{
-					id: "34057A5E5313173B"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 16.5d
-		}
-		{
-			dependencies: ["34057A5E53CF8CED"]
-			icon: {
-				id: "newyearsdelight:usu"
-			}
-			id: "34057A5E53344873"
-			rewards: [
-				{
-					id: "34057A5E53BEE95E"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E53082445"
-					item: { count: 1, id: "newyearsdelight:usu" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					id: "34057A5E538D47EF"
-					item: { count: 1, id: "newyearsdelight:kine" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 16.5d
-		}
-		{
-			dependencies: ["34057A5E53344873"]
-			icon: {
-				id: "newyearsdelight:tsukitate_mochi"
-			}
-			id: "34057A5E53CE7D11"
-			rewards: [
-				{
-					id: "34057A5E539FFE77"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E53EF19B7"
-					item: { count: 1, id: "newyearsdelight:tsukitate_mochi" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 16.5d
-		}
-		{
-			dependencies: ["34057A5E53CE7D11"]
-			icon: {
-				id: "newyearsdelight:daifuku"
-			}
-			id: "34057A5E53EBB683"
-			rewards: [
-				{
-					id: "34057A5E533D391D"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E537608CC"
-					item: { count: 1, id: "newyearsdelight:daifuku" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 16.5d
-		}
-		{
-			dependencies: ["34057A5E53CF8CED"]
-			icon: {
-				id: "newyearsdelight:toshikoshi_soba"
-			}
-			id: "34057A5E53915B3B"
-			rewards: [
-				{
-					id: "34057A5E53CCDD86"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E535A83F3"
-					item: { count: 1, id: "newyearsdelight:toshikoshi_soba" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 16.5d
-		}
-		{
-			dependencies: ["34057A5E53CF8CED"]
-			icon: {
-				id: "newyearsdelight:ozoni"
-			}
-			id: "34057A5E530BE4DA"
-			rewards: [
-				{
-					id: "34057A5E53C80A8B"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E53D7B4AD"
-					item: { count: 1, id: "newyearsdelight:ozoni" }
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: 16.5d
-		}
-		{
-			dependencies: ["34057A5E53369CF3"]
-			icon: {
-				id: "merrymaking:ham_dinner"
+				id: "farmersdelight:honey_glazed_ham_block"
 			}
 			id: "34057A5E53F05D04"
 			shape: "diamond"
-			tasks: [
-				{
-					id: "34057A5E5306C6FE"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 18.5d
+			tasks: [{
+				id: "34057A5E5306C6FE"
+				type: "checkmark"
+			}]
+			x: 4.8d
+			y: 8.0d
 		}
 		{
 			dependencies: ["34057A5E53F05D04"]
 			icon: {
-				id: "merrymaking:cooked_ham"
+				id: "festivity:cooked_ham"
 			}
 			id: "34057A5E53FE675F"
-			rewards: [
-				{
-					id: "34057A5E53F34D19"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5301CE7B"
-					item: { count: 1, id: "merrymaking:cooked_ham" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 18.5d
+			rewards: [{
+				id: "34057A5E53F34D19"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5301CE7B"
+				item: { count: 1, id: "festivity:cooked_ham" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["34057A5E53F05D04"]
 			icon: {
-				id: "merrymaking:ham_dinner"
+				id: "farmersdelight:honey_glazed_ham_block"
 			}
 			id: "34057A5E5329B487"
-			rewards: [
-				{
-					id: "34057A5E537F1085"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5321ED60"
-					item: { count: 1, id: "merrymaking:ham_dinner" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 18.5d
+			rewards: [{
+				id: "34057A5E537F1085"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5321ED60"
+				item: { count: 1, id: "farmersdelight:honey_glazed_ham_block" }
+				type: "item"
+			}]
+			x: 11.2d
+			y: 0.0d
 		}
 		{
 			dependencies: ["34057A5E53F05D04"]
 			icon: {
-				id: "merrymaking:stuffed_poultry_dinner"
+				id: "festive_delight:festive_chicken_block"
 			}
 			id: "34057A5E5335E360"
-			rewards: [
-				{
-					id: "34057A5E535D1D5B"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E53FFAC25"
-					item: { count: 1, id: "merrymaking:stuffed_poultry_dinner" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 18.5d
+			rewards: [{
+				id: "34057A5E535D1D5B"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E53FFAC25"
+				item: { count: 1, id: "festive_delight:festive_chicken_block" }
+				type: "item"
+			}]
+			x: -11.2d
+			y: -1.6d
 		}
 		{
 			dependencies: ["34057A5E53F05D04"]
@@ -1751,23 +1376,19 @@
 				id: "farm_and_charm:roasted_chicken"
 			}
 			id: "34057A5E534875AA"
-			rewards: [
-				{
-					id: "34057A5E53EF9628"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E53AA60BA"
-					item: { count: 1, id: "farm_and_charm:roasted_chicken" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 18.5d
+			rewards: [{
+				id: "34057A5E53EF9628"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E53AA60BA"
+				item: { count: 1, id: "farm_and_charm:roasted_chicken" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: -1.6d
 		}
 		{
 			dependencies: ["34057A5E53F05D04"]
@@ -1775,76 +1396,118 @@
 				id: "festive_delight:festive_chicken_block"
 			}
 			id: "34057A5E53792264"
-			rewards: [
-				{
-					id: "34057A5E537E2E4D"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5303B186"
-					item: { count: 1, id: "festive_delight:festive_chicken_block" }
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: 18.5d
+			rewards: [{
+				id: "34057A5E537E2E4D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				count: 3L
+				id: "34057A5E5303B186"
+				item: { count: 1, id: "festive_delight:festive_chicken_block" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["34057A5E53F05D04"]
 			icon: {
-				id: "merrymaking:latke"
+				id: "festivity:latke"
 			}
 			id: "34057A5E5353B7CF"
-			rewards: [
-				{
-					id: "34057A5E5358209C"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					count: 4L
-					id: "34057A5E53E6EF19"
-					item: { count: 1, id: "merrymaking:latke" }
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: 18.5d
+			rewards: [{
+				id: "34057A5E5358209C"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "34057A5E53E6EF19"
+				item: { count: 1, id: "festivity:latke" }
+				type: "item"
+			}]
+			x: -6.4d
+			y: -1.6d
 		}
 		{
-			dependencies: ["34057A5E5329B487", "34057A5E5335E360", "34057A5E53792264", "34057A5E53E54F57"]
+			dependencies: ["34057A5E53F05D04"]
+			icon: {
+				id: "festivity:roast_turkey"
+			}
+			id: "34057A5E539598FF"
+			rewards: [{
+				id: "34057A5E53D15E90"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E53101865"
+				item: { count: 1, id: "festivity:roast_turkey" }
+				type: "item"
+			}]
+			x: -4.8d
+			y: -1.6d
+		}
+		{
+			dependencies: ["34057A5E53F05D04"]
+			icon: {
+				id: "festivity:roasted_hazelnut"
+			}
+			id: "34057A5E5341B7B2"
+			rewards: [{
+				id: "34057A5E53BF1DD9"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "34057A5E530B8118"
+				item: { count: 1, id: "festivity:roasted_hazelnut" }
+				type: "item"
+			}]
+			x: -3.2d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"34057A5E5329B487"
+				"34057A5E5335E360"
+				"34057A5E53792264"
+				"34057A5E53E54F57"
+			]
 			icon: {
 				id: "minecraft:cake"
 			}
 			id: "34057A5E530ACE7D"
-			rewards: [
-				{
-					id: "34057A5E53D560A2"
-					type: "xp"
-					xp: 200
-				}
-			]
+			rewards: [{
+				id: "34057A5E53D560A2"
+				type: "xp"
+				xp: 200
+			}]
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "34057A5E536D2458"
-					type: "checkmark"
-				}
-			]
-			x: 10.5d
-			y: 18.5d
+			tasks: [{
+				id: "34057A5E536D2458"
+				type: "checkmark"
+			}]
+			x: 1.6d
+			y: -6.4d
 		}
 		{
-			dependencies: ["34057A5E535397EB", "34057A5E532CFCA0", "34057A5E53E54F57", "34057A5E53F67FC1", "34057A5E53FFE77D", "34057A5E5382CCE4"]
+			dependencies: [
+				"34057A5E535397EB"
+				"34057A5E532CFCA0"
+				"34057A5E53E54F57"
+				"34057A5E53F67FC1"
+				"34057A5E53FFE77D"
+				"34057A5E5382CCE4"
+			]
 			icon: {
-				id: "bakery:cake_tower"
+				id: "bakery:chocolate_gateau"
 			}
 			id: "34057A5E537720E9"
 			rewards: [
@@ -1854,21 +1517,22 @@
 					xp: 300
 				}
 				{
-					id: "34057A5E5304971E"
-					item: { count: 1, id: "bakery:cake_tower" }
+					id: "34057A5E53C78DCC"
+					item: {
+						count: 1
+						id: "bakery:chocolate_gateau"
+					}
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.75d
-			tasks: [
-				{
-					id: "34057A5E5365D9DB"
-					type: "checkmark"
-				}
-			]
-			x: 12.0d
-			y: 3.0d
+			tasks: [{
+				id: "34057A5E5365D9DB"
+				type: "checkmark"
+			}]
+			x: 1.6d
+			y: -9.6d
 		}
 	]
 }

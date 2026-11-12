@@ -448,7 +448,7 @@
 		}
 		{
 			icon: {
-				id: "snowyspirit:wreath"
+				id: "festivity:wreath"
 			}
 			id: "0D165327A60A26E4"
 			rewards: [
@@ -472,7 +472,7 @@
 				{
 					consume_items: false
 					id: "11420BAE534CD9E6"
-					item: { count: 1, id: "snowyspirit:wreath" }
+					item: { count: 1, id: "festivity:wreath" }
 					type: "item"
 				}
 				{

@@ -1,6 +1,6 @@
 name = "Sound Physics Remastered"
 filename = "sound-physics-remastered-neoforge-1.21.1-1.5.2.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/qyVF9oeo/versions/85fA7L1W/sound-physics-remastered-neoforge-1.21.1-1.5.2.jar"

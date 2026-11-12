@@ -146,9 +146,10 @@
       cfg.mix.forEach(m => P[m[0]].forEach(r => {
         let w = r[1] * m[1];
         if (w <= 0) return;
-        if (!ok(r[0])) { skipped[r[0]] = true; return; }
-        kept[r[0]] = true;
-        let e = LootEntry.of(r[0]).setCount(U(r[2], r[3])).withWeight(w);
+        let id = (typeof chopMigOr == 'function') ? chopMigOr(r[0]) : r[0];   // 11-12 Festivity migration (000_chop_migration_ids.js)
+        if (!ok(id)) { skipped[id] = true; return; }
+        kept[id] = true;
+        let e = LootEntry.of(id).setCount(U(r[2], r[3])).withWeight(w);
         if (r[4] == 'ench') e.enchantRandomly();
         entries.push(e);
       }));

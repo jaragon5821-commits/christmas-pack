@@ -1,0 +1,937 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "chopq_festive_workshop"
+	group: ""
+	icon: {
+		id: "festivity:sled"
+	}
+	id: "34057A5E5A000000"
+	images: [ ]
+	order_index: 25
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "festivity:sled"
+			}
+			id: "34057A5E5A72F9DD"
+			rewards: [{
+				id: "34057A5E5AE4EE79"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "34057A5E5A02CD36"
+				type: "checkmark"
+			}]
+			x: 6.83d
+			y: 19.53d
+		}
+		{
+			dependencies: ["34057A5E5A72F9DD"]
+			icon: {
+				id: "festivity:sled"
+			}
+			id: "34057A5E5AC03D60"
+			rewards: [{
+				id: "34057A5E5A2790D7"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5A389520"
+				item: { count: 1, id: "festivity:sled" }
+				type: "item"
+			}]
+			x: 6.83d
+			y: 17.81d
+		}
+		{
+			dependencies: ["34057A5E5AC03D60"]
+			icon: {
+				id: "festivity:decor_sled"
+			}
+			id: "34057A5E5A8BFB1A"
+			optional: true
+			rewards: [{
+				id: "34057A5E5A4EDFAA"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5AD268D9"
+				item: { count: 1, id: "festivity:decor_sled" }
+				type: "item"
+			}]
+			x: 6.83d
+			y: 5.84d
+		}
+		{
+			dependencies: ["34057A5E5A72F9DD"]
+			icon: {
+				id: "festivity:santa_coat"
+			}
+			id: "34057A5E5AEB0FA4"
+			rewards: [{
+				id: "34057A5E5A7B232C"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "34057A5E5A7BEC35"
+				type: "checkmark"
+			}]
+			x: 6.83d
+			y: 16.1d
+		}
+		{
+			dependencies: ["34057A5E5AEB0FA4"]
+			icon: {
+				id: "festivity:santa_coat"
+			}
+			id: "34057A5E5A29FF1C"
+			rewards: [{
+				id: "34057A5E5AAAF19B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5A918C63"
+					item: { count: 1, id: "festivity:santa_hat" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5AF2868A"
+					item: { count: 1, id: "festivity:santa_coat" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5AC17E62"
+					item: { count: 1, id: "festivity:santa_trousers" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A833651"
+					item: { count: 1, id: "festivity:santa_boots" }
+					type: "item"
+				}
+			]
+			x: 6.83d
+			y: 4.12d
+		}
+		{
+			dependencies: ["34057A5E5AEB0FA4"]
+			icon: {
+				id: "festivity:elf_tunic"
+			}
+			id: "34057A5E5A1C3973"
+			rewards: [{
+				id: "34057A5E5AA3B778"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5A4292E3"
+					item: { count: 1, id: "festivity:elf_hat" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A8E4BA0"
+					item: { count: 1, id: "festivity:elf_tunic" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A094E3A"
+					item: { count: 1, id: "festivity:elf_tights" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A537E0F"
+					item: { count: 1, id: "festivity:elf_shoes" }
+					type: "item"
+				}
+			]
+			x: 6.83d
+			y: 2.41d
+		}
+		{
+			dependencies: ["34057A5E5AEB0FA4"]
+			icon: {
+				id: "festivity:reindeer_top"
+			}
+			id: "34057A5E5A563687"
+			rewards: [{
+				id: "34057A5E5A9A7A1E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5A8136F8"
+					item: { count: 1, id: "festivity:reindeer_antlers" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A3CB066"
+					item: { count: 1, id: "festivity:reindeer_top" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A454F55"
+					item: { count: 1, id: "festivity:reindeer_legs" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5AAAD34B"
+					item: { count: 1, id: "festivity:reindeer_slippers" }
+					type: "item"
+				}
+			]
+			x: 6.83d
+			y: -1.01d
+		}
+		{
+			dependencies: ["34057A5E5AEB0FA4"]
+			icon: {
+				id: "festivity:gingerbread_chestplate"
+			}
+			id: "34057A5E5ADA5A66"
+			rewards: [{
+				id: "34057A5E5A888B89"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5A3ED6B1"
+					item: { count: 1, id: "festivity:gingerbread_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5AE215D3"
+					item: { count: 1, id: "festivity:gingerbread_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A3724F1"
+					item: { count: 1, id: "festivity:gingerbread_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A447F07"
+					item: { count: 1, id: "festivity:gingerbread_boots" }
+					type: "item"
+				}
+			]
+			x: -10.74d
+			y: -2.05d
+		}
+		{
+			dependencies: ["34057A5E5AEB0FA4"]
+			icon: {
+				id: "festivity:snowman_body"
+			}
+			id: "34057A5E5AD4BDB5"
+			rewards: [{
+				id: "34057A5E5A27B4ED"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5AC87B07"
+					item: { count: 1, id: "festivity:snowman_top_hat" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A0DDA4E"
+					item: { count: 1, id: "festivity:snowman_body" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A55A587"
+					item: { count: 1, id: "festivity:snowman_legs" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A9C7CEA"
+					item: { count: 1, id: "festivity:snowman_boots" }
+					type: "item"
+				}
+			]
+			x: 6.83d
+			y: -2.72d
+		}
+		{
+			dependencies: ["34057A5E5AEB0FA4"]
+			icon: {
+				id: "festivity:toy_soldier_jacket"
+			}
+			id: "34057A5E5AE0F47C"
+			rewards: [{
+				id: "34057A5E5A1F7443"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5AD866DB"
+					item: { count: 1, id: "festivity:toy_soldier_shako" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5ADF47D6"
+					item: { count: 1, id: "festivity:toy_soldier_jacket" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A603B07"
+					item: { count: 1, id: "festivity:toy_soldier_trousers" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A484100"
+					item: { count: 1, id: "festivity:toy_soldier_boots" }
+					type: "item"
+				}
+			]
+			x: -10.74d
+			y: -3.81d
+		}
+		{
+			dependencies: ["34057A5E5AEB0FA4"]
+			icon: {
+				id: "festivity:reinforcement_stitching"
+			}
+			id: "34057A5E5A07FAB7"
+			rewards: [{
+				id: "34057A5E5AEFED66"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "diamond"
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5A95B249"
+				item: { count: 1, id: "festivity:reinforcement_stitching" }
+				type: "item"
+			}]
+			x: 6.83d
+			y: -4.43d
+		}
+		{
+			dependencies: [
+				"34057A5E5A07FAB7"
+				"34057A5E5A29FF1C"
+			]
+			icon: {
+				id: "festivity:reinforced_santa_coat"
+			}
+			id: "34057A5E5AC97CE6"
+			rewards: [{
+				id: "34057A5E5AFB6656"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5A4F549A"
+					item: { count: 1, id: "festivity:reinforced_santa_hat" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A4D3EF8"
+					item: { count: 1, id: "festivity:reinforced_santa_coat" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A777EDF"
+					item: { count: 1, id: "festivity:reinforced_santa_trousers" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5AA1037A"
+					item: { count: 1, id: "festivity:reinforced_santa_boots" }
+					type: "item"
+				}
+			]
+			x: -8.36d
+			y: -11.86d
+		}
+		{
+			dependencies: [
+				"34057A5E5A07FAB7"
+				"34057A5E5A1C3973"
+			]
+			icon: {
+				id: "festivity:reinforced_elf_tunic"
+			}
+			id: "34057A5E5A84D383"
+			rewards: [{
+				id: "34057A5E5A9EB67F"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5A362F04"
+					item: { count: 1, id: "festivity:reinforced_elf_hat" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A517EF8"
+					item: { count: 1, id: "festivity:reinforced_elf_tunic" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5AC338F1"
+					item: { count: 1, id: "festivity:reinforced_elf_tights" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A239B08"
+					item: { count: 1, id: "festivity:reinforced_elf_shoes" }
+					type: "item"
+				}
+			]
+			x: 4.05d
+			y: -12.27d
+		}
+		{
+			dependencies: [
+				"34057A5E5A07FAB7"
+				"34057A5E5A563687"
+			]
+			icon: {
+				id: "festivity:reinforced_reindeer_top"
+			}
+			id: "34057A5E5A0969B2"
+			rewards: [{
+				id: "34057A5E5AF53F37"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5AE8BCC5"
+					item: { count: 1, id: "festivity:reinforced_reindeer_antlers" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A4CA6D1"
+					item: { count: 1, id: "festivity:reinforced_reindeer_top" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5AFA5BB3"
+					item: { count: 1, id: "festivity:reinforced_reindeer_legs" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A6CBEB6"
+					item: { count: 1, id: "festivity:reinforced_reindeer_slippers" }
+					type: "item"
+				}
+			]
+			x: -7.07d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"34057A5E5A07FAB7"
+				"34057A5E5ADA5A66"
+			]
+			icon: {
+				id: "festivity:reinforced_gingerbread_chestplate"
+			}
+			id: "34057A5E5A5254EA"
+			rewards: [{
+				id: "34057A5E5A3AA323"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5A92AFA2"
+					item: { count: 1, id: "festivity:reinforced_gingerbread_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A911B0F"
+					item: { count: 1, id: "festivity:reinforced_gingerbread_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A6A1C9B"
+					item: { count: 1, id: "festivity:reinforced_gingerbread_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5AC52C22"
+					item: { count: 1, id: "festivity:reinforced_gingerbread_boots" }
+					type: "item"
+				}
+			]
+			x: 2.68d
+			y: -13.32d
+		}
+		{
+			dependencies: [
+				"34057A5E5A07FAB7"
+				"34057A5E5AD4BDB5"
+			]
+			icon: {
+				id: "festivity:reinforced_snowman_body"
+			}
+			id: "34057A5E5A8F9426"
+			rewards: [{
+				id: "34057A5E5A98F954"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5A2C8088"
+					item: { count: 1, id: "festivity:reinforced_snowman_top_hat" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5AD967CF"
+					item: { count: 1, id: "festivity:reinforced_snowman_body" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5AB24F30"
+					item: { count: 1, id: "festivity:reinforced_snowman_legs" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A301018"
+					item: { count: 1, id: "festivity:reinforced_snowman_boots" }
+					type: "item"
+				}
+			]
+			x: -5.58d
+			y: -13.86d
+		}
+		{
+			dependencies: [
+				"34057A5E5A07FAB7"
+				"34057A5E5AE0F47C"
+			]
+			icon: {
+				id: "festivity:reinforced_toy_soldier_jacket"
+			}
+			id: "34057A5E5ACEFB81"
+			rewards: [{
+				id: "34057A5E5A3AF062"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5A64777E"
+					item: { count: 1, id: "festivity:reinforced_toy_soldier_shako" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A93C6E5"
+					item: { count: 1, id: "festivity:reinforced_toy_soldier_jacket" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5AB7CDCA"
+					item: { count: 1, id: "festivity:reinforced_toy_soldier_trousers" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5A1D4A01"
+					item: { count: 1, id: "festivity:reinforced_toy_soldier_boots" }
+					type: "item"
+				}
+			]
+			x: 1.14d
+			y: -14.08d
+		}
+		{
+			dependencies: ["34057A5E5A72F9DD"]
+			icon: {
+				id: "minecraft:carrot"
+			}
+			id: "34057A5E5A92000E"
+			rewards: [{
+				id: "34057A5E5AED574A"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "34057A5E5AB9455D"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "festivity:snowman_companion"
+				type: "observation"
+			}]
+			x: 6.83d
+			y: 14.39d
+		}
+		{
+			dependencies: ["34057A5E5A72F9DD"]
+			icon: {
+				id: "minecraft:cookie"
+			}
+			id: "34057A5E5AE2246A"
+			rewards: [{
+				id: "34057A5E5A6E9C33"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "34057A5E5AEF282F"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "festivity:gingerbread_buddy"
+				type: "observation"
+			}]
+			x: 6.83d
+			y: 12.68d
+		}
+		{
+			dependencies: ["34057A5E5AE2246A"]
+			icon: {
+				id: "festivity:buddy_whistle"
+			}
+			id: "34057A5E5A3CB390"
+			rewards: [{
+				id: "34057A5E5AA060AD"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5AF636CB"
+				item: { count: 1, id: "festivity:buddy_whistle" }
+				type: "item"
+			}]
+			x: -10.74d
+			y: -5.56d
+		}
+		{
+			dependencies: ["34057A5E5AE2246A"]
+			icon: {
+				id: "festivity:giant_gingerbread_cookie"
+			}
+			id: "34057A5E5A17933B"
+			rewards: [{
+				id: "34057A5E5A5BA1CC"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5A00CFE2"
+				item: { count: 1, id: "festivity:giant_gingerbread_cookie" }
+				type: "item"
+			}]
+			x: 6.82d
+			y: -6.14d
+		}
+		{
+			dependencies: ["34057A5E5A72F9DD"]
+			icon: {
+				id: "festivity:owl_post_letter"
+			}
+			id: "34057A5E5A6BBA6D"
+			optional: true
+			rewards: [{
+				id: "34057A5E5A3BD290"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5A1D2133"
+				item: { count: 1, id: "festivity:owl_post_letter" }
+				type: "item"
+			}]
+			x: 6.83d
+			y: 10.97d
+		}
+		{
+			dependencies: ["34057A5E5A72F9DD"]
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "34057A5E5A54904B"
+			rewards: [{
+				id: "34057A5E5AC587AC"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5A752321"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: 6.83d
+			y: 9.26d
+		}
+		{
+			dependencies: ["34057A5E5A54904B"]
+			icon: {
+				id: "festive_delight:christmas_tea"
+			}
+			id: "34057A5E5AE7F0DB"
+			rewards: [{
+				id: "34057A5E5AE627C4"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5AC80830"
+				item: { count: 1, id: "festive_delight:christmas_tea" }
+				type: "item"
+			}]
+			x: -10.62d
+			y: -7.29d
+		}
+		{
+			dependencies: ["34057A5E5A54904B"]
+			icon: {
+				id: "festivity:fudge"
+			}
+			id: "34057A5E5A7FD0B0"
+			rewards: [{
+				id: "34057A5E5A5BBE18"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "34057A5E5A6E8500"
+				item: { count: 1, id: "festivity:fudge" }
+				type: "item"
+			}]
+			x: 6.6d
+			y: -7.85d
+		}
+		{
+			dependencies: ["34057A5E5A54904B"]
+			icon: {
+				id: "festivity:eggnog"
+			}
+			id: "34057A5E5A1D6F56"
+			rewards: [{
+				id: "34057A5E5ACD2926"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "34057A5E5A9C7E3B"
+				item: { count: 1, id: "festivity:eggnog" }
+				type: "item"
+			}]
+			x: -10.17d
+			y: -8.95d
+		}
+		{
+			dependencies: ["34057A5E5A54904B"]
+			icon: {
+				id: "festivity:sweet_potato_pie"
+			}
+			id: "34057A5E5AE64775"
+			rewards: [{
+				id: "34057A5E5AC1DE19"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5A4A4F48"
+				item: { count: 1, id: "festivity:sweet_potato_pie" }
+				type: "item"
+			}]
+			x: 6.05d
+			y: -9.48d
+		}
+		{
+			dependencies: ["34057A5E5A54904B"]
+			icon: {
+				id: "festivity:mulled_wine"
+			}
+			id: "34057A5E5ADD7231"
+			rewards: [{
+				id: "34057A5E5A8DE8F7"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5A0F37AF"
+				item: { count: 1, id: "festivity:mulled_wine" }
+				type: "item"
+			}]
+			x: -9.41d
+			y: -10.49d
+		}
+		{
+			dependencies: ["34057A5E5A72F9DD"]
+			icon: {
+				id: "festivity:holly_leaves"
+			}
+			id: "34057A5E5AA9E962"
+			rewards: [{
+				id: "34057A5E5A105991"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E5A9C6D98"
+				observation_type: "block"
+				observe_type: 0
+				timer: 20L
+				to_observe: "festivity:holly_leaves"
+				type: "observation"
+			}]
+			x: 6.83d
+			y: 7.55d
+		}
+		{
+			dependencies: ["34057A5E5AA9E962"]
+			icon: {
+				id: "festivity:holly_sapling"
+			}
+			id: "34057A5E5AEA74C0"
+			rewards: [{
+				id: "34057A5E5ACB6824"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5A548B83"
+				item: { count: 1, id: "festivity:holly_sapling" }
+				type: "item"
+			}]
+			x: 5.19d
+			y: -10.97d
+		}
+		{
+			dependencies: ["34057A5E5AEA74C0"]
+			icon: {
+				id: "festivity:holly_leaves"
+			}
+			id: "34057A5E5A884575"
+			optional: true
+			rewards: [{
+				id: "34057A5E5A92DBEF"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				count: 32L
+				id: "34057A5E5A9DBFB4"
+				item: { count: 1, id: "festivity:holly_leaves" }
+				type: "item"
+			}]
+			x: -3.95d
+			y: -14.41d
+		}
+		{
+			dependencies: [
+				"34057A5E5AC97CE6"
+				"34057A5E5A84D383"
+				"34057A5E5A0969B2"
+				"34057A5E5A5254EA"
+				"34057A5E5A8F9426"
+				"34057A5E5ACEFB81"
+				"34057A5E5AC03D60"
+				"34057A5E5A92000E"
+				"34057A5E5A3CB390"
+				"34057A5E5ADD7231"
+				"34057A5E5AEA74C0"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "festivity:reinforced_santa_coat"
+			}
+			id: "34057A5E5ADCCA61"
+			rewards: [{
+				id: "34057A5E5A5CDC0C"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "34057A5E5A40E262"
+				type: "checkmark"
+			}]
+			x: -0.52d
+			y: -14.52d
+		}
+	]
+}

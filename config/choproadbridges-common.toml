@@ -16,12 +16,8 @@ smallClearance = 1
 largeClearance = 4
 #Place RoadWeaver buoys only on ocean water (rivers and lakes get a plain gap).
 oceanOnlyBuoys = true
-#Do not build a road at all if its route crosses ocean: any ocean-biome point, or a stretch of sea-level water at least oceanRunBlocks long.
+#Do not build a road at all if its route has an ocean crossing longer than maxOceanCrossingBlocks (continuous water in an ocean biome, or sea-level water). Shorter ocean crossings get a normal bridge.
 dropOceanRoads = true
-#Length of continuous sea-level water that counts as ocean (rivers are usually narrower).
-# Default: 48
-# Range: 8 ~ 1024
-oceanRunBlocks = 48
 #Never place a road block or road slab on water, or on ice that floats on water. The road simply stops at the bank and picks up on the other side.
 neverPaveWater = true
 #Roadside builds: sample the whole footprint (+1 block) and skip spots with any water (frozen lakes too) or a slope over roadsideMaxSlope.
@@ -38,3 +34,51 @@ keepRoadsOutOfChopStructures = true
 chopRoadMargin = 1
 #After a land_checked (Chop) structure is placed, connect its fences, panes, iron bars and walls to the blocks really next to them (terrain included). Connections are only added, never removed.
 connectStructureFences = true
+#Before RoadWeaver aims a road at a predicted village, run the same placement test real generation runs (including Structurify's flatness, biome and overlap checks). Targets that would never generate are skipped.
+verifyRoadTargets = true
+#When a road target's chunk generates (or loads) without the structure, remove that target, its connections and its stored roads. Road blocks already placed in generated chunks stay.
+pruneGhostTargets = true
+#0.13.0: longest ocean crossing (blocks of continuous water) a road may have. Longer = the road is not built. Keep RoadWeaver bridge.maxLengthBlocks at or above this so every allowed crossing gets a bridge instead of buoys.
+# Default: 100
+# Range: 8 ~ 1024
+maxOceanCrossingBlocks = 100
+#0.13.0: build bridges as arches (deck follows a gentle arch in half-block slab steps, stone arches between piers, railings, lanterns), using biome bridge styles from datapacks (data/<ns>/choproadbridges/bridge_style/*.json). Replaces RoadWeaver's flat decks and its own bridge templates.
+archBridges = true
+#0.13.0: small deck at road height wherever a stream carved after road planning (Streams Reflowing) runs under the road. Keeps 1 open block above the water when the banks allow; never fills the stream.
+creekBridges = true
+#0.13.0: also bridge dry gaps: ravines, cliff gaps and steep valleys where the road would dip at least gapMinDrop blocks and climb back up.
+gapBridges = true
+#How far (blocks) the ground must drop below the line between the two rims to count as a gap.
+# Default: 5
+# Range: 2 ~ 64
+gapMinDrop = 5
+#Longest dry gap that gets a bridge (blocks). Keep it at or below RoadWeaver bridge.maxLengthBlocks.
+# Default: 64
+# Range: 8 ~ 256
+gapMaxBlocks = 64
+#River/lake bridges start this many blocks before the water so the deck can climb to its clearance without jumps.
+# Default: 8
+# Range: 0 ~ 32
+bankRampBlocks = 8
+#Highest hump (blocks) an arch adds in the middle of a long bridge. Short bridges get less (length / 7).
+# Default: 5
+# Range: 0 ~ 16
+archMaxRise = 5
+#Deepest a pier is built down to reach ground (blocks).
+# Default: 48
+# Range: 4 ~ 128
+pierMaxDepth = 48
+#0.13.0: percent of bridges that look worn (mossy/cracked blocks, missing railing pieces and lanterns, vines). Picked per bridge, same in every chunk.
+# Default: 25
+# Range: 0 ~ 100
+wornBridgePercent = 25
+#0.13.0: percent of water bridges (at least 12 blocks long) that are broken: only a ruined end on each bank, open water between. 0 = never.
+# Default: 3
+# Range: 0 ~ 100
+brokenBridgePercent = 3
+#0.13.3: blocks added to each side of a bridge deck beyond the road width, so the railings sit outside the walkable road. 0 = old width.
+# Default: 1
+# Range: 0 ~ 2
+bridgeExtraWidth = 1
+#0.13.3: build roads and bridges into chunks that were already generated before the road was computed (otherwise those stretches stay missing).
+latePaving = true

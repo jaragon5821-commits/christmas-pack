@@ -55,6 +55,16 @@ function p2json(server, key, fb) { return Q.readJson(server, key, fb); }
 function p2save(server, key, obj) { p2data(server).putString(key, JSON.stringify(obj)); }
 function isNight(server) { let t = Q.dayTime(server) % 24000; return t >= 13000 && t <= 23000; }
 function rnd(a, b) { return a + Math.random() * (b - a); }
+// 11-12: true when the player rides a boat or the wave spawn point is in water/lava (waves used to spawn on the ocean surface)
+function p2waveOverWater(p, x, y, z) {
+  try { var v = p.vehicle; if (v && String(v.type).indexOf('boat') >= 0) return true; } catch (e) {}
+  try {
+    var bx = Math.floor(x), bz = Math.floor(z);
+    if (!p.level.getBlock(bx, y - 1, bz).blockState.fluidState.isEmpty()) return true;
+    if (!p.level.getBlock(bx, y, bz).blockState.fluidState.isEmpty()) return true;
+  } catch (e) {}
+  return false;
+}
 function surfaceY(level, x, z) {
   // highest non-air block from y=200 down; returns the y of the first air block above it
   for (let y = 200; y > 40; y--) {
@@ -128,6 +138,7 @@ ServerEvents.tick(event => {
     let ang = Math.random() * Math.PI * 2;
     let x = p.x + Math.cos(ang) * P2.MINION_RADIUS, z = p.z + Math.sin(ang) * P2.MINION_RADIUS;
     let y = surfaceY(p.level, Math.floor(x), Math.floor(z));
+    if (p2waveOverWater(p, x, y, z)) continue;   // 11-12: no wave or bell at sea / while boating (live test 2)
     for (let m of list) for (let i = 0; i < m.n; i++) summon(server, m.id, x + rnd(-2, 2), y, z + rnd(-2, 2), m.name, m.tags, m.nbt);
     Q.cmd(server, 'playsound minecraft:block.bell.use master ' + p.username + ' ' + Math.floor(x) + ' ' + Math.floor(y) + ' ' + Math.floor(z) + ' 0.5 0.6');
   }
@@ -583,7 +594,7 @@ function runFinale(server, op) {
     Q.cmd(server, 'title @a title ' + Q.jsonText("Santa's Christmas!", 'green'));
     Q.cmd(server, 'title @a subtitle ' + Q.jsonText('The world is ' + Q.band(server).name + '. Merry Christmas, everyone!', 'gold'));
     for (let p of Q.online(server)) {
-      Q.cmd(server, 'give ' + p.username + ' christmas_hearthlight:christmas_gift_box 1');
+      Q.cmd(server, 'give ' + p.username + ' festivity:gift_crate 1');   // 11-12 migration: openable crate (the hearthlight box was empty)
       Q.cmd(server, 'give ' + p.username + ' minecraft:cookie 16');
       let rare = ['minecraft:music_disc_otherside', 'minecraft:music_disc_pigstep', 'minecraft:enchanted_golden_apple', 'minecraft:totem_of_undying', 'minecraft:nether_star'][Math.floor(Math.random() * 5)];
       Q.cmd(server, 'give ' + p.username + ' ' + rare + ' 1');
@@ -622,7 +633,7 @@ clawsLeave = function (server, why) {
   if (wasFinale && why == 'driven') {
     Q.change(server, 25, 'finale', null, null);
     Q.announce(server, 'Christmas is saved! Santa comes at dawn after all.', 'green');
-    for (let p of Q.online(server)) Q.cmd(server, 'give ' + p.username + ' christmas_hearthlight:christmas_gift_box 1');
+    for (let p of Q.online(server)) Q.cmd(server, 'give ' + p.username + ' festivity:gift_crate 1');   // 11-12 migration
     Q.logEvent(server, 'Christmas was saved from Santy Claws');
   }
 };

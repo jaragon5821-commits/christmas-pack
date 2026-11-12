@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "chopq_friends_family"
 	group: ""
@@ -8,7 +8,7 @@
 	}
 	id: "34057A5E57000000"
 	images: [ ]
-	order_index: 20
+	order_index: 21
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,23 +16,19 @@
 				id: "minecraft:poppy"
 			}
 			id: "34057A5E57E4796D"
-			rewards: [
-				{
-					id: "34057A5E578F7036"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "34057A5E578F7036"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "gear"
 			size: 1.5d
-			tasks: [
-				{
-					id: "34057A5E57806473"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
+			tasks: [{
+				id: "34057A5E57806473"
+				type: "checkmark"
+			}]
+			x: -3.63d
+			y: 10.21d
 		}
 		{
 			dependencies: ["34057A5E57E4796D"]
@@ -40,21 +36,17 @@
 				id: "minecraft:emerald"
 			}
 			id: "34057A5E57F91622"
-			rewards: [
-				{
-					id: "34057A5E57DB77F0"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					id: "34057A5E57EB1909"
-					type: "checkmark"
-				}
-			]
-			x: 1.5d
-			y: -1.5d
+			rewards: [{
+				id: "34057A5E57DB77F0"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E57EB1909"
+				type: "checkmark"
+			}]
+			x: -1.9d
+			y: 10.21d
 		}
 		{
 			dependencies: ["34057A5E57F91622"]
@@ -62,21 +54,17 @@
 				id: "minecraft:writable_book"
 			}
 			id: "34057A5E57E6BD4C"
-			rewards: [
-				{
-					id: "34057A5E57040282"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					id: "34057A5E57529805"
-					type: "checkmark"
-				}
-			]
-			x: 3.0d
-			y: -1.5d
+			rewards: [{
+				id: "34057A5E57040282"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E57529805"
+				type: "checkmark"
+			}]
+			x: -4.2d
+			y: -3.46d
 		}
 		{
 			dependencies: ["34057A5E57E6BD4C"]
@@ -84,23 +72,19 @@
 				id: "mca:bouquet"
 			}
 			id: "34057A5E57EFDC57"
-			rewards: [
-				{
-					id: "34057A5E570CE8E6"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E57779961"
-					item: { count: 1, id: "mca:bouquet" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: -1.5d
+			rewards: [{
+				id: "34057A5E570CE8E6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E57779961"
+				item: { count: 1, id: "mca:bouquet" }
+				type: "item"
+			}]
+			x: -4.2d
+			y: -12.01d
 		}
 		{
 			dependencies: ["34057A5E57EFDC57"]
@@ -108,23 +92,19 @@
 				id: "mca:engagement_ring"
 			}
 			id: "34057A5E576E21A8"
-			rewards: [
-				{
-					id: "34057A5E57E662E8"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E57A01E1A"
-					item: { count: 1, id: "mca:engagement_ring" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: -1.5d
+			rewards: [{
+				id: "34057A5E57E662E8"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E57A01E1A"
+				item: { count: 1, id: "mca:engagement_ring" }
+				type: "item"
+			}]
+			x: -0.72d
+			y: -12.01d
 		}
 		{
 			dependencies: ["34057A5E576E21A8"]
@@ -132,23 +112,19 @@
 				id: "mca:wedding_ring"
 			}
 			id: "34057A5E573FB6F7"
-			rewards: [
-				{
-					id: "34057A5E57776197"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5799ADD5"
-					item: { count: 1, id: "mca:wedding_ring" }
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: -1.5d
+			rewards: [{
+				id: "34057A5E57776197"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5799ADD5"
+				item: { count: 1, id: "mca:wedding_ring" }
+				type: "item"
+			}]
+			x: 1.01d
+			y: -12.01d
 		}
 		{
 			dependencies: ["34057A5E57F91622"]
@@ -156,23 +132,19 @@
 				id: "mca:family_tree"
 			}
 			id: "34057A5E57C3C45B"
-			rewards: [
-				{
-					id: "34057A5E57EC6A86"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5701D261"
-					item: { count: 1, id: "mca:family_tree" }
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: -1.5d
+			rewards: [{
+				id: "34057A5E57EC6A86"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5701D261"
+				item: { count: 1, id: "mca:family_tree" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: -3.78d
 		}
 		{
 			dependencies: ["34057A5E573FB6F7"]
@@ -181,21 +153,17 @@
 			}
 			id: "34057A5E57DE494A"
 			optional: true
-			rewards: [
-				{
-					id: "34057A5E570ED8BC"
-					type: "xp"
-					xp: 150
-				}
-			]
-			tasks: [
-				{
-					id: "34057A5E57AF8DB0"
-					type: "checkmark"
-				}
-			]
-			x: 9.0d
-			y: -3.0d
+			rewards: [{
+				id: "34057A5E570ED8BC"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "34057A5E57AF8DB0"
+				type: "checkmark"
+			}]
+			x: 2.75d
+			y: -12.01d
 		}
 		{
 			dependencies: ["34057A5E57E4796D"]
@@ -203,23 +171,19 @@
 				id: "doggytalents:training_treat"
 			}
 			id: "34057A5E57F78FFC"
-			rewards: [
-				{
-					id: "34057A5E57982D82"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E578CD60C"
-					item: { count: 1, id: "doggytalents:training_treat" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 0.5d
+			rewards: [{
+				id: "34057A5E57982D82"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E578CD60C"
+				item: { count: 1, id: "doggytalents:training_treat" }
+				type: "item"
+			}]
+			x: -0.17d
+			y: 10.21d
 		}
 		{
 			dependencies: ["34057A5E57F78FFC"]
@@ -227,23 +191,19 @@
 				id: "doggytalents:food_bowl"
 			}
 			id: "34057A5E57013119"
-			rewards: [
-				{
-					id: "34057A5E576F49F3"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E57F498B3"
-					item: { count: 1, id: "doggytalents:food_bowl" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 0.5d
+			rewards: [{
+				id: "34057A5E576F49F3"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E57F498B3"
+				item: { count: 1, id: "doggytalents:food_bowl" }
+				type: "item"
+			}]
+			x: -4.2d
+			y: -5.17d
 		}
 		{
 			dependencies: ["34057A5E57F78FFC"]
@@ -251,23 +211,19 @@
 				id: "doggytalents:dog_bed"
 			}
 			id: "34057A5E57A04EA8"
-			rewards: [
-				{
-					id: "34057A5E57FD79BD"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E576FFE3B"
-					item: { count: 1, id: "doggytalents:dog_bed" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 0.5d
+			rewards: [{
+				id: "34057A5E57FD79BD"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E576FFE3B"
+				item: { count: 1, id: "doggytalents:dog_bed" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: -5.76d
 		}
 		{
 			dependencies: ["34057A5E57F78FFC"]
@@ -275,23 +231,19 @@
 				id: "doggytalents:whistle"
 			}
 			id: "34057A5E57384754"
-			rewards: [
-				{
-					id: "34057A5E57BF3094"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5707B929"
-					item: { count: 1, id: "doggytalents:whistle" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 0.5d
+			rewards: [{
+				id: "34057A5E57BF3094"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5707B929"
+				item: { count: 1, id: "doggytalents:whistle" }
+				type: "item"
+			}]
+			x: -4.2d
+			y: -6.88d
 		}
 		{
 			dependencies: ["34057A5E57F78FFC"]
@@ -299,23 +251,19 @@
 				id: "doggytalents:super_treat"
 			}
 			id: "34057A5E57CD48D7"
-			rewards: [
-				{
-					id: "34057A5E575682E0"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E574281BA"
-					item: { count: 1, id: "doggytalents:super_treat" }
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: 0.5d
+			rewards: [{
+				id: "34057A5E575682E0"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E574281BA"
+				item: { count: 1, id: "doggytalents:super_treat" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: -7.47d
 		}
 		{
 			dependencies: ["34057A5E57CD48D7"]
@@ -323,23 +271,19 @@
 				id: "doggytalents:master_treat"
 			}
 			id: "34057A5E576111DC"
-			rewards: [
-				{
-					id: "34057A5E57906717"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E571C32F5"
-					item: { count: 1, id: "doggytalents:master_treat" }
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: 0.5d
+			rewards: [{
+				id: "34057A5E57906717"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E571C32F5"
+				item: { count: 1, id: "doggytalents:master_treat" }
+				type: "item"
+			}]
+			x: -2.46d
+			y: -12.01d
 		}
 		{
 			dependencies: ["34057A5E57E4796D"]
@@ -347,23 +291,19 @@
 				id: "moblassos:golden_lasso"
 			}
 			id: "34057A5E57F86520"
-			rewards: [
-				{
-					id: "34057A5E570EEC07"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E57A0DB0B"
-					item: { count: 1, id: "moblassos:golden_lasso" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 2.0d
+			rewards: [{
+				id: "34057A5E570EEC07"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E57A0DB0B"
+				item: { count: 1, id: "moblassos:golden_lasso" }
+				type: "item"
+			}]
+			x: 1.56d
+			y: 10.21d
 		}
 		{
 			dependencies: ["34057A5E57E4796D"]
@@ -371,23 +311,19 @@
 				id: "animal_pen:animal_pen_spruce"
 			}
 			id: "34057A5E572830EC"
-			rewards: [
-				{
-					id: "34057A5E57E1EB77"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E573CA915"
-					item: { count: 1, id: "animal_pen:animal_pen_spruce" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 2.0d
+			rewards: [{
+				id: "34057A5E57E1EB77"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E573CA915"
+				item: { count: 1, id: "animal_pen:animal_pen_spruce" }
+				type: "item"
+			}]
+			x: 3.29d
+			y: 10.21d
 		}
 		{
 			dependencies: ["34057A5E57E4796D"]
@@ -395,23 +331,19 @@
 				id: "animal_feeding_trough:feeding_trough"
 			}
 			id: "34057A5E57E6F745"
-			rewards: [
-				{
-					id: "34057A5E57C4415A"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E574E4DC3"
-					item: { count: 1, id: "animal_feeding_trough:feeding_trough" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 2.0d
+			rewards: [{
+				id: "34057A5E57C4415A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E574E4DC3"
+				item: { count: 1, id: "animal_feeding_trough:feeding_trough" }
+				type: "item"
+			}]
+			x: 5.02d
+			y: 10.21d
 		}
 		{
 			dependencies: ["34057A5E57E4796D"]
@@ -419,23 +351,19 @@
 				id: "astikorcartsredux:spruce_supply_cart"
 			}
 			id: "34057A5E579653CC"
-			rewards: [
-				{
-					id: "34057A5E5783E225"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E57D2EB67"
-					item: { count: 1, id: "astikorcartsredux:spruce_supply_cart" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 2.0d
+			rewards: [{
+				id: "34057A5E5783E225"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E57D2EB67"
+				item: { count: 1, id: "astikorcartsredux:spruce_supply_cart" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 10.21d
 		}
 		{
 			dependencies: ["34057A5E579653CC"]
@@ -443,23 +371,19 @@
 				id: "astikorcartsredux:spruce_plow"
 			}
 			id: "34057A5E5737AA82"
-			rewards: [
-				{
-					id: "34057A5E573D70AC"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E57A53765"
-					item: { count: 1, id: "astikorcartsredux:spruce_plow" }
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: 2.0d
+			rewards: [{
+				id: "34057A5E573D70AC"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E57A53765"
+				item: { count: 1, id: "astikorcartsredux:spruce_plow" }
+				type: "item"
+			}]
+			x: -4.2d
+			y: -8.59d
 		}
 		{
 			dependencies: ["34057A5E57E4796D"]
@@ -467,23 +391,19 @@
 				id: "minecraft:saddle"
 			}
 			id: "34057A5E57F546A9"
-			rewards: [
-				{
-					id: "34057A5E57D20DDE"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E579E59DA"
-					item: { count: 1, id: "minecraft:saddle" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 3.5d
+			rewards: [{
+				id: "34057A5E57D20DDE"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E579E59DA"
+				item: { count: 1, id: "minecraft:saddle" }
+				type: "item"
+			}]
+			x: 8.48d
+			y: 10.21d
 		}
 		{
 			dependencies: ["34057A5E57E4796D"]
@@ -492,23 +412,19 @@
 			}
 			id: "34057A5E57A1B09B"
 			optional: true
-			rewards: [
-				{
-					id: "34057A5E57CF30F1"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E573931EC"
-					item: { count: 1, id: "festivity:reindeer_harness" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 3.5d
+			rewards: [{
+				id: "34057A5E57CF30F1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E573931EC"
+				item: { count: 1, id: "festivity:reindeer_harness" }
+				type: "item"
+			}]
+			x: 10.21d
+			y: 10.21d
 		}
 		{
 			dependencies: ["34057A5E57E4796D"]
@@ -516,21 +432,17 @@
 				id: "minecraft:snowball"
 			}
 			id: "34057A5E577D4EF0"
-			rewards: [
-				{
-					id: "34057A5E57AB842B"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					id: "34057A5E5762832B"
-					type: "checkmark"
-				}
-			]
-			x: 4.5d
-			y: 3.5d
+			rewards: [{
+				id: "34057A5E57AB842B"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E5762832B"
+				type: "checkmark"
+			}]
+			x: -4.2d
+			y: 8.5d
 		}
 		{
 			dependencies: ["34057A5E57E4796D"]
@@ -538,21 +450,21 @@
 				id: "minecraft:cod"
 			}
 			id: "34057A5E5725A5EC"
-			rewards: [
-				{
-					id: "34057A5E5715BB4A"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					id: "34057A5E5716A88B"
-					type: "checkmark"
-				}
-			]
-			x: 6.0d
-			y: 3.5d
+			rewards: [{
+				id: "34057A5E5715BB4A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E5730BF17"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "festivity:penguin"
+				type: "observation"
+			}]
+			x: 10.21d
+			y: 8.41d
 		}
 		{
 			dependencies: ["34057A5E57E4796D"]
@@ -560,21 +472,21 @@
 				id: "minecraft:cod"
 			}
 			id: "34057A5E578554C9"
-			rewards: [
-				{
-					id: "34057A5E57B699D6"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					id: "34057A5E5735C2DC"
-					type: "checkmark"
-				}
-			]
-			x: 1.5d
-			y: 5.0d
+			rewards: [{
+				id: "34057A5E57B699D6"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E57337768"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "festivity:harp_seal"
+				type: "observation"
+			}]
+			x: -4.2d
+			y: 6.79d
 		}
 		{
 			dependencies: ["34057A5E57E4796D"]
@@ -582,21 +494,21 @@
 				id: "minecraft:kelp"
 			}
 			id: "34057A5E57AED816"
-			rewards: [
-				{
-					id: "34057A5E571306FE"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					id: "34057A5E57DA053D"
-					type: "checkmark"
-				}
-			]
-			x: 3.0d
-			y: 5.0d
+			rewards: [{
+				id: "34057A5E571306FE"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E57ACD03F"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "festivity:sea_otter"
+				type: "observation"
+			}]
+			x: 10.21d
+			y: 6.6d
 		}
 		{
 			dependencies: ["34057A5E57E4796D"]
@@ -604,67 +516,63 @@
 				id: "minecraft:white_wool"
 			}
 			id: "34057A5E57C4C424"
-			rewards: [
-				{
-					id: "34057A5E578B8D46"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					id: "34057A5E5707CFF9"
-					type: "checkmark"
-				}
-			]
-			x: 4.5d
-			y: 5.0d
+			rewards: [{
+				id: "34057A5E578B8D46"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E574248F7"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "festivity:snow_leopard"
+				type: "observation"
+			}]
+			x: -4.2d
+			y: 5.08d
 		}
 		{
 			dependencies: ["34057A5E57E4796D"]
 			icon: {
-				id: "minecraft:trident"
+				id: "festivity:narwhal_tusk"
 			}
 			id: "34057A5E57B07B8B"
-			rewards: [
-				{
-					id: "34057A5E5746C93D"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					id: "34057A5E57CA3232"
-					type: "checkmark"
-				}
-			]
-			x: 6.0d
-			y: 5.0d
+			rewards: [{
+				id: "34057A5E5746C93D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E57543D3C"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "festivity:narwhal"
+				type: "observation"
+			}]
+			x: 9.11d
+			y: 5.08d
 		}
 		{
 			dependencies: ["34057A5E57E4796D"]
 			icon: {
-				id: "snuffles:frosty_fluff"
+				id: "festivity:frosty_fluff"
 			}
 			id: "34057A5E57C036A6"
-			rewards: [
-				{
-					id: "34057A5E57B48AF7"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E57ACD556"
-					item: { count: 1, id: "snuffles:frosty_fluff" }
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: 5.0d
+			rewards: [{
+				id: "34057A5E57B48AF7"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E57ACD556"
+				item: { count: 1, id: "festivity:frosty_fluff" }
+				type: "item"
+			}]
+			x: 7.48d
+			y: 4.58d
 		}
 		{
 			dependencies: ["34057A5E57E4796D"]
@@ -672,23 +580,19 @@
 				id: "redomesticate:deed_of_ownership"
 			}
 			id: "34057A5E571C6AA1"
-			rewards: [
-				{
-					id: "34057A5E576678CE"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5746A5EA"
-					item: { count: 1, id: "redomesticate:deed_of_ownership" }
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: 5.0d
+			rewards: [{
+				id: "34057A5E576678CE"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5746A5EA"
+				item: { count: 1, id: "redomesticate:deed_of_ownership" }
+				type: "item"
+			}]
+			x: 5.84d
+			y: 4.09d
 		}
 		{
 			dependencies: ["34057A5E57E4796D"]
@@ -696,23 +600,215 @@
 				id: "redomesticate:pet_bed_red"
 			}
 			id: "34057A5E57B9FAA1"
-			rewards: [
-				{
-					id: "34057A5E571BA090"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E57DFC9FC"
-					item: { count: 1, id: "redomesticate:pet_bed_red" }
-					type: "item"
-				}
-			]
-			x: 10.5d
-			y: 5.0d
+			rewards: [{
+				id: "34057A5E571BA090"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E57DFC9FC"
+				item: { count: 1, id: "redomesticate:pet_bed_red" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 3.6d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "minecraft:wheat"
+			}
+			id: "34057A5E57E7B97F"
+			rewards: [{
+				id: "34057A5E57257137"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E57D94BE7"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "festivity:forest_deer"
+				type: "observation"
+			}]
+			x: -4.2d
+			y: 3.37d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "minecraft:feather"
+			}
+			id: "34057A5E576C7F8F"
+			rewards: [{
+				id: "34057A5E5794DAC5"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E57921859"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "festivity:turkey"
+				type: "observation"
+			}]
+			x: -4.2d
+			y: 1.66d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "minecraft:sweet_berries"
+			}
+			id: "34057A5E575178E4"
+			rewards: [{
+				id: "34057A5E57A0649D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E57CE2342"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "festivity:raccoon"
+				type: "observation"
+			}]
+			x: 4.2d
+			y: 1.62d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "minecraft:wheat_seeds"
+			}
+			id: "34057A5E576A4A76"
+			rewards: [{
+				id: "34057A5E5780458A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E57E80385"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "festivity:squirrel"
+				type: "observation"
+			}]
+			x: -4.2d
+			y: -0.05d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "minecraft:dead_bush"
+			}
+			id: "34057A5E576C84D2"
+			rewards: [{
+				id: "34057A5E573DEE97"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E57457FB7"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "festivity:hedgehog"
+				type: "observation"
+			}]
+			x: 4.2d
+			y: -0.09d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "minecraft:carrot"
+			}
+			id: "34057A5E57861852"
+			rewards: [{
+				id: "34057A5E57045D10"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E576511C4"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "festivity:boar"
+				type: "observation"
+			}]
+			x: -4.2d
+			y: -1.75d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "minecraft:oak_log"
+			}
+			id: "34057A5E5745334B"
+			rewards: [{
+				id: "34057A5E57552F24"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E577F2F2F"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 20L
+				to_observe: "festivity:beaver"
+				type: "observation"
+			}]
+			x: 4.2d
+			y: -2.07d
+		}
+		{
+			dependencies: ["34057A5E576A4A76"]
+			icon: {
+				id: "festivity:hazelnut"
+			}
+			id: "34057A5E57A89FE5"
+			rewards: [{
+				id: "34057A5E57BF7B05"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "34057A5E572195ED"
+				item: { count: 1, id: "festivity:hazelnut" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: -9.17d
+		}
+		{
+			dependencies: ["34057A5E57861852"]
+			icon: {
+				id: "festivity:truffle"
+			}
+			id: "34057A5E579D679A"
+			optional: true
+			rewards: [{
+				id: "34057A5E5795CFA1"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E57BC8F2D"
+				item: { count: 1, id: "festivity:truffle" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: -10.87d
 		}
 	]
 }

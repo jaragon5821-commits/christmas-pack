@@ -14,8 +14,10 @@ LootJS.lootTables(event => {
     pool.rolls(1);
     pool.addEntry(LootEntry.of(Item.of('minecraft:music_disc_otherside')).withWeight(2));
     pool.addEntry(LootEntry.of(Item.of('minecraft:music_disc_pigstep')).withWeight(2));
-    pool.addEntry(LootEntry.of(Item.of('fairylights:fairy_light', 4)).withWeight(6));
-    pool.addEntry(LootEntry.of(Item.of('christmas_hearthlight:christmas_gift_box', 2)).withWeight(3));
+    // 11-12 Festivity migration: fairy lights -> Festivity string lights (via 000_chop_migration_ids.js); hearthlight box -> openable gift crate
+    let lights = (typeof chopMig == 'function') ? chopMig('fairylights:fairy_light') : 'fairylights:fairy_light';
+    if (lights) pool.addEntry(LootEntry.of(Item.of(lights, 4)).withWeight(6));
+    pool.addEntry(LootEntry.of(Item.of('festivity:gift_crate', 2)).withWeight(3));
     pool.addEntry(LootEntry.of(Item.of('minecraft:enchanted_book')).withWeight(4).enchantRandomly());
     pool.addEntry(LootEntry.of(Item.of('minecraft:cake')).withWeight(6));
     pool.addEntry(LootEntry.of(Item.of('minecraft:cookie', 12)).withWeight(10));

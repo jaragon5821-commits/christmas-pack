@@ -24,7 +24,7 @@ const PET = {
   CLINKER_CHANCE: 0.15, CLINKER_MIN: 30, CLINKER_MAX: 60, POSES: 4,
   CHIP_MIN: 4, CHIP_MAX: 10, CHIP_CHANCE: 0.10, CHIP_SPEED: 0.9,     // per gnome per second while in range
   PET_HP: 20, DROP_MIN: 1, DROP_MAX: 2, PET_CHIP_RANGE: 8, PET_CHIP_CHANCE: 0.5, NETHER_CLINKER_CHANCE: 0.15,
-  CANDY: ['snowyspirit:candy_cane', 'seasonsgreetings:candy_cane', 'festive_delight:candy_cane', 'minecraft:cookie'],
+  CANDY: ['snowyspirit:candy_cane', 'seasonsgreetings:candy_cane', 'festive_delight:candy_cane', 'minecraft:cookie'].map((typeof chopMigOr == 'function' ? chopMigOr : (x => x))),   // 11-12 migration
   LOG: false, DEBUG_CMDS: false   // both false for promotion (v8)
 };
 const PT = Fest;

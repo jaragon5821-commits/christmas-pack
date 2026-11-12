@@ -7,7 +7,7 @@ const P3 = {
   ROLL_CHANCE: 0.10,           // per in-game day in Merry+ (on top of Phase 2 knock-downs); 0 disables the roll
   HEIST_ELVES: 3,              // thieves per heist, each carries one present (-1 each on grab, +1 back per kill)
   HEIST_RADIUS: 30,            // spawn distance from the Town Hall anchor (or a player)
-  HEIST_PRESENT: ['christmas_hearthlight:christmas_gift_box', 'supplementaries:present_red', 'seasonsgreetings:present_red', 'snowyspirit:present_red', 'minecraft:chest'],   // first id that exists in the pack is used (TEST v2: the thieves held nothing, so the first id may not exist)
+  HEIST_PRESENT: ['christmas_hearthlight:christmas_gift_box', 'supplementaries:present_red', 'seasonsgreetings:present_red', 'snowyspirit:present_red', 'minecraft:chest'].map((typeof chopMigOr == 'function' ? chopMigOr : (x => x))),   // 11-12 migration   // first id that exists in the pack is used (TEST v2: the thieves held nothing, so the first id may not exist)
   LETTER_DARE_DECOR: 3,        // break this many decor blocks placed by OTHERS before dawn to "do the dare"
   LETTER_REWARD: 'minecraft:diamond 1',
   SLEIGH_MIN_BAND: 'merry',    // sleigh fly-by at dawn in Merry and Jolly

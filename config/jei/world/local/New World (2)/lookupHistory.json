@@ -1,6 +1,0 @@
-[
-  {"version":1},
-  {"ingredient":{"id":"stagecoach:oak_stagecoach"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"snuffles:snuffle_fluff"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"snuffles:snuffle_fluff_carpet"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]

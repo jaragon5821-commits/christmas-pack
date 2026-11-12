@@ -961,7 +961,9 @@
 	#gives the world back the radius it had before the mod changed it. From Spore Inquisition 4.5
 	#the corruption clock also needs somebody online (any dimension), so an idle dedicated server
 	#no longer escalates even with this ground loaded: loaded ground is necessary, not sufficient.
-	# Default: 10
+	#Chop fork (chop.18): default 0 - the pack has no Spore Inquisition and radius 10 cost ~43% of a tick. At 0
+	#the world's gamerule is set to 0 once per world, and a later manual /gamerule value is left alone.
+	# Default: 0
 	# Range: 0 ~ 32
 	spawnChunkRadius = 0
 	#Block reads and writes per server tick shared by every land-work drain of the autopilot
@@ -973,6 +975,16 @@
 	# Default: 2000
 	# Range: 200 ~ 20000
 	workBudgetPerTick = 2000
+	#Chop fork (chop.9) TESTING ONLY: enables '/colonyautopilot debug found|board' so a tester can found a
+	#colony and answer the plan board by command (op level 2). Leave false in play.
+	testCommands = false
+	#Chop fork (chop.17): builders and miners brush snow aside - snow they clear drops no snowballs, so
+	#snowballs never fill their packs or their huts' racks and stall a build.
+	buildersDiscardSnow = true
+	#Chop fork (chop.22): builders keep building through ordinary rain and snowfall and shelter only in
+	#thunderstorms (blizzards in snowy biomes), whatever MineColonies' 'workers always work in rain' says.
+	#Other workers follow MineColonies as before. false = builders follow MineColonies too.
+	buildersShelterOnlyInStorms = true
 
 [meta]
 	#Written by the mod - leave it alone. A changed DEFAULT only ever reaches a new config file;
@@ -985,3 +997,51 @@
 	# Default: 1
 	# Range: 1 ~ 1000
 	configVersion = 4
+
+[builders]
+	#Chop fork (chop.30): a citizen working at a Builder's Hut gets a head start. The two skills
+	#the Builder job uses (its primary and secondary skill, as MineColonies names them) are raised
+	#once to a level between headStartMin and headStartMax, so a new town's builders place and break
+	#blocks faster from the first day. A skill already at or above that level is left alone, and
+	#nothing is ever lowered. MineColonies citizens only. false = builders start as MineColonies
+	#rolled them.
+	headStart = true
+	#Lowest level the head start raises a builder's two job skills to.
+	# Default: 15
+	# Range: 1 ~ 99
+	headStartMin = 15
+	#Highest level the head start raises a builder's two job skills to. Each builder gets one
+	#level in the range, the same every time it is checked.
+	# Default: 20
+	# Range: 1 ~ 99
+	headStartMax = 20
+	#Chop fork (chop.31): citizens working at a Builder's Hut walk faster, so trips between the
+	#hut and the building site take less time. Off by default (0). 0.3 = 30 percent faster, on top of any MineColonies
+	#walking research. It is applied the same way that research is (a movement speed modifier) and is
+	#taken off again when the citizen stops being a builder. 0 = off. MineColonies citizens only.
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	walkBoost = 0.0
+	#Chop fork (chop.31): remote hut access. A builder away from its hut gets the next load of its
+	#current build straight from its own hut's storage (racks and the hut block), and sends the blocks
+	#it cleared straight back when its pack fills up, so it does not walk between site and hut for
+	#them. Nothing is made: every item moves between the builder's pack and the hut it works at, and
+	#the hut still has to be supplied as before (couriers, you). false = MineColonies as it is.
+	remoteHutAccess = true
+	#Chop fork (chop.34): stuck rescue for every colonist. A citizen that has been heading for the
+	#same place this many seconds without getting at least one block closer is moved to a safe spot
+	#at that place (its chunk has to be loaded). MineColonies' own stuck handling only acts while a
+	#citizen walks a path it found; this also catches one that stands still because there is no way
+	#up. Sleeping citizens are left alone. 0 = off. MineColonies citizens only.
+	# Default: 90
+	# Range: 0 ~ 3600
+	stuckTeleportSeconds = 90
+	#Chop fork (chop.36, Josh's pick 2026-11-10): grow the colony's land claim, as a last resort only.
+	#Case 1: to hold the centerpiece plaza and the university's plot. Case 2: one ring of chunks, when a
+	#building has found no plot three searches running because the land ran out. Only land nobody owns,
+	#never within 2 chunks of another colony's land, only loaded chunks. false = MineColonies' own claims only.
+	growClaim = true
+	#Chop fork (chop.36): the farthest chunk from the town hall the claim may be grown to.
+	# Default: 12
+	# Range: 4 ~ 20
+	claimMaxChunks = 12

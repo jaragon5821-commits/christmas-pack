@@ -695,7 +695,7 @@ EntityEvents.death(event => {
   if (e.isPlayer()) { if (String(e.uuid) != String(p.uuid)) G.score(server, p, 'kill_player', 1, 'killed ' + e.username); return; }   // Java UUIDs: compare as strings, not by reference
   if (e.type.startsWith('minecolonies:') || e.type.startsWith('mca:') || e.type == 'minecraft:villager') { G.score(server, p, 'kill_villager', 1, 'killed a villager'); return; }
   // festive creatures per 05_tags.js chop:festive_creatures: Snuffles, reindeer, snow / Snowy Spirit golems. Iron golems are not festive.
-  if (e.type.startsWith('snuffles:') || e.type.includes('reindeer') || (e.type.includes('golem') && e.type != 'minecraft:iron_golem')) { G.score(server, p, 'kill_festive', 1, 'killed a festive creature'); return; }
+  if (e.type.startsWith('snuffles:') || e.type == 'festivity:frostpuff' || e.type.includes('reindeer') || e.type == 'festivity:snowman_companion' || (e.type.includes('golem') && e.type != 'minecraft:iron_golem')) { G.score(server, p, 'kill_festive', 1, 'killed a festive creature'); return; }
   if (e.isAnimal && e.isAnimal()) {                               // VERIFY: EntityKJS.isAnimal()
     let tamed = false; try { tamed = (typeof e.isTame == 'function') ? e.isTame() : false; } catch (x) {}
     let named = false; try { named = e.hasCustomName(); } catch (x) {}

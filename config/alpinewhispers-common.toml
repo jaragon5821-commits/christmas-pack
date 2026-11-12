@@ -87,7 +87,7 @@
 	#Spawn weight of reindeer, 0 disables them. Vanilla sheep use 12
 	# Default: 22
 	# Range: 0 ~ 100
-	reindeerWeight = 22
+	reindeerWeight = 0
 	#Smallest reindeer herd
 	# Default: 3
 	# Range: 1 ~ 16

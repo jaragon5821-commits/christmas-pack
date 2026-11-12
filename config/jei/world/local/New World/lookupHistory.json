@@ -1,6 +1,0 @@
-[
-  {"version":1},
-  {"ingredient":{"id":"colonyautopilot:zone_marker"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"colonyautopilot:colony_bucks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"herbsandharvest:cinnamon_sapling"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]

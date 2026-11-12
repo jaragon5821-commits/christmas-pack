@@ -1,14 +1,48 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "chopq_relics"
 	group: ""
 	icon: {
+		components: {
+			"relics:data": {
+				abilities: {
+					abilities: {
+						jump: {
+							extender: {
+								cooldown: 0
+								cooldownCap: 0
+								ticking: 0b
+							}
+							lock: {
+								breaks: 5
+							}
+							points: 0
+							research: {
+								links: { }
+								researched: 0b
+							}
+							stats: {
+								count: {
+									initialValue: 1.40197d
+								}
+							}
+						}
+					}
+				}
+				leveling: {
+					experience: 0
+					level: 0
+					luck: 0
+					points: 0
+				}
+			}
+		}
 		id: "artifacts:cloud_in_a_bottle"
 	}
 	id: "34057A5E59000000"
 	images: [ ]
-	order_index: 22
+	order_index: 23
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,119 +50,251 @@
 				id: "minecraft:gold_nugget"
 			}
 			id: "34057A5E591FD2CC"
-			rewards: [
-				{
-					id: "34057A5E5914EF3D"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "34057A5E5914EF3D"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "gear"
 			size: 1.5d
-			tasks: [
-				{
-					id: "34057A5E591D25A6"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
+			tasks: [{
+				id: "34057A5E591D25A6"
+				type: "checkmark"
+			}]
+			x: -0.93d
+			y: 6.19d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								jump: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										count: {
+											initialValue: 2.9906d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
 				id: "artifacts:cloud_in_a_bottle"
 			}
 			id: "34057A5E590685C4"
-			rewards: [
-				{
-					id: "34057A5E59E2EF47"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E592531E6"
-					item: { count: 1, id: "artifacts:cloud_in_a_bottle" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: -1.5d
+			rewards: [{
+				id: "34057A5E59E2EF47"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E592531E6"
+				item: { components: { "relics:data": { abilities: { abilities: { jump: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { count: { initialValue: 2.10929d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:cloud_in_a_bottle" }
+				type: "item"
+			}]
+			x: -6.97d
+			y: 4.65d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								passive: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: { }
+								}
+								speed: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										amount: {
+											initialValue: 0.23676d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
 				id: "artifacts:snowshoes"
 			}
 			id: "34057A5E5968A787"
-			rewards: [
-				{
-					id: "34057A5E597AFF40"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E590F9739"
-					item: { count: 1, id: "artifacts:snowshoes" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: -1.5d
+			rewards: [{
+				id: "34057A5E597AFF40"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E590F9739"
+				item: { components: { "relics:data": { abilities: { abilities: { passive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } }, speed: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.26326d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:snowshoes" }
+				type: "item"
+			}]
+			x: -5.26d
+			y: 4.65d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								runner: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										speed: {
+											initialValue: 0.51578d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
 				id: "artifacts:running_shoes"
 			}
 			id: "34057A5E59410BA4"
-			rewards: [
-				{
-					id: "34057A5E59238A30"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E598B4325"
-					item: { count: 1, id: "artifacts:running_shoes" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: -1.5d
+			rewards: [{
+				id: "34057A5E59238A30"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E598B4325"
+				item: { components: { "relics:data": { abilities: { abilities: { runner: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { speed: { initialValue: 0.5578d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:running_shoes" }
+				type: "item"
+			}]
+			x: -3.56d
+			y: 4.65d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								luck: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										chance: {
+											initialValue: 0.19454d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
 				id: "artifacts:lucky_scarf"
 			}
 			id: "34057A5E5937D723"
-			rewards: [
-				{
-					id: "34057A5E5924B1AD"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5994624A"
-					item: { count: 1, id: "artifacts:lucky_scarf" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: -1.5d
+			rewards: [{
+				id: "34057A5E5924B1AD"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5994624A"
+				item: { components: { "relics:data": { abilities: { abilities: { luck: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.15519d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:lucky_scarf" }
+				type: "item"
+			}]
+			x: -1.85d
+			y: 4.65d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
@@ -137,23 +303,19 @@
 			}
 			id: "34057A5E59F4CCA7"
 			optional: true
-			rewards: [
-				{
-					id: "34057A5E59A817A2"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					entity: "artifacts:mimic"
-					id: "34057A5E591C8D60"
-					type: "kill"
-					value: 1L
-				}
-			]
-			x: 7.5d
-			y: -1.5d
+			rewards: [{
+				id: "34057A5E59A817A2"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				entity: "artifacts:mimic"
+				id: "34057A5E591C8D60"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.14d
+			y: 4.65d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
@@ -161,119 +323,293 @@
 				id: "relics:researching_table"
 			}
 			id: "34057A5E59A108B5"
-			rewards: [
-				{
-					id: "34057A5E59A17B4F"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E597983A0"
-					item: { count: 1, id: "relics:researching_table" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 0.5d
+			rewards: [{
+				id: "34057A5E59A17B4F"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E597983A0"
+				item: { count: 1, id: "relics:researching_table" }
+				type: "item"
+			}]
+			x: 1.56d
+			y: 4.65d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								mold: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										damage: {
+											initialValue: 0.12811d
+										}
+										freeze: {
+											initialValue: 1.02086d
+										}
+										size: {
+											initialValue: 27.98314d
+										}
+										stun: {
+											initialValue: 0.02816d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
 				id: "relics:wool_mitten"
 			}
 			id: "34057A5E593C1E49"
-			rewards: [
-				{
-					id: "34057A5E59B5CD74"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E59184F87"
-					item: { count: 1, id: "relics:wool_mitten" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 0.5d
+			rewards: [{
+				id: "34057A5E59B5CD74"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E59184F87"
+				item: { components: { "relics:data": { abilities: { abilities: { mold: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 0.14815d }, freeze: { initialValue: 1.42809d }, size: { initialValue: 23.17757d }, stun: { initialValue: 0.04554d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:wool_mitten" }
+				type: "item"
+			}]
+			x: 3.27d
+			y: 4.65d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								ram: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 0
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										damage: {
+											initialValue: 0.12642d
+										}
+									}
+								}
+								skating: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										duration: {
+											initialValue: 41.77211d
+										}
+										speed: {
+											initialValue: 0.01953d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
 				id: "relics:ice_skates"
 			}
 			id: "34057A5E59FCD11F"
-			rewards: [
-				{
-					id: "34057A5E594EAF46"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E59B942E1"
-					item: { count: 1, id: "relics:ice_skates" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 0.5d
+			rewards: [{
+				id: "34057A5E594EAF46"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E59B942E1"
+				item: { components: { "relics:data": { abilities: { abilities: { ram: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 0.24767d } } }, skating: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 25.76132d }, speed: { initialValue: 0.0142d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:ice_skates" }
+				type: "item"
+			}]
+			x: 4.98d
+			y: 4.65d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								impact: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										damage: {
+											initialValue: 3.55186d
+										}
+										size: {
+											initialValue: 3.29372d
+										}
+									}
+								}
+								sustainability: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										modifier: {
+											initialValue: 0.69737d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
 				id: "relics:ice_breaker"
 			}
 			id: "34057A5E59619AA5"
-			rewards: [
-				{
-					id: "34057A5E59AE0D4A"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E590DCD8F"
-					item: { count: 1, id: "relics:ice_breaker" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 0.5d
+			rewards: [{
+				id: "34057A5E59AE0D4A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E590DCD8F"
+				item: { components: { "relics:data": { abilities: { abilities: { impact: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 4.38077d }, size: { initialValue: 4.6858d } } }, sustainability: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 0.72964d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:ice_breaker" }
+				type: "item"
+			}]
+			x: 6.68d
+			y: 4.65d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								teleport: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										cooldown: {
+											initialValue: 83.21707d
+										}
+										distance: {
+											initialValue: 853.59377d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
 				id: "relics:magic_mirror"
 			}
 			id: "34057A5E59792CFA"
-			rewards: [
-				{
-					id: "34057A5E59FEA1F9"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E5994CFA5"
-					item: { count: 1, id: "relics:magic_mirror" }
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: 0.5d
+			rewards: [{
+				id: "34057A5E59FEA1F9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5994CFA5"
+				item: { components: { "relics:data": { abilities: { abilities: { teleport: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 99.44669d }, distance: { initialValue: 788.90034d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:magic_mirror" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.89d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
@@ -281,23 +617,19 @@
 				id: "irons_jewelry:jewelcrafting_station"
 			}
 			id: "34057A5E59C7F54B"
-			rewards: [
-				{
-					id: "34057A5E59A4E1CE"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E59C66A0A"
-					item: { count: 1, id: "irons_jewelry:jewelcrafting_station" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 2.5d
+			rewards: [{
+				id: "34057A5E59A4E1CE"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E59C66A0A"
+				item: { count: 1, id: "irons_jewelry:jewelcrafting_station" }
+				type: "item"
+			}]
+			x: -4.19d
+			y: 1.57d
 		}
 		{
 			dependencies: ["34057A5E59C7F54B"]
@@ -305,23 +637,19 @@
 				id: "irons_jewelry:ring"
 			}
 			id: "34057A5E5968B2F7"
-			rewards: [
-				{
-					id: "34057A5E5920010A"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E59DB7145"
-					item: { count: 1, id: "irons_jewelry:ring" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 2.5d
+			rewards: [{
+				id: "34057A5E5920010A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E59DB7145"
+				item: { count: 1, id: "irons_jewelry:ring" }
+				type: "item"
+			}]
+			x: 2.32d
+			y: -5.73d
 		}
 		{
 			dependencies: ["34057A5E59C7F54B"]
@@ -329,23 +657,19 @@
 				id: "irons_jewelry:necklace"
 			}
 			id: "34057A5E594019D3"
-			rewards: [
-				{
-					id: "34057A5E59E7330C"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E59CD2FCF"
-					item: { count: 1, id: "irons_jewelry:necklace" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 2.5d
+			rewards: [{
+				id: "34057A5E59E7330C"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E59CD2FCF"
+				item: { count: 1, id: "irons_jewelry:necklace" }
+				type: "item"
+			}]
+			x: -1.34d
+			y: -6.19d
 		}
 		{
 			dependencies: ["34057A5E59C7F54B"]
@@ -353,23 +677,19 @@
 				id: "irons_jewelry:ruby"
 			}
 			id: "34057A5E59811BAE"
-			rewards: [
-				{
-					id: "34057A5E5994D852"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E59F5447D"
-					item: { count: 1, id: "irons_jewelry:ruby" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 2.5d
+			rewards: [{
+				id: "34057A5E5994D852"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E59F5447D"
+				item: { count: 1, id: "irons_jewelry:ruby" }
+				type: "item"
+			}]
+			x: 0.45d
+			y: -6.19d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
@@ -378,23 +698,19 @@
 			}
 			id: "34057A5E59C5A53D"
 			optional: true
-			rewards: [
-				{
-					id: "34057A5E59AD926E"
-					type: "xp"
-					xp: 75
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E597112BA"
-					item: { count: 1, id: "festivity:sugarplum_charm" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 4.0d
+			rewards: [{
+				id: "34057A5E59AD926E"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E597112BA"
+				item: { count: 1, id: "festivity:sugarplum_charm" }
+				type: "item"
+			}]
+			x: 4.16d
+			y: 0.99d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
@@ -403,23 +719,19 @@
 			}
 			id: "34057A5E59BA548D"
 			optional: true
-			rewards: [
-				{
-					id: "34057A5E59D9AF71"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E599AF903"
-					item: { count: 1, id: "festivity:elf_charm_pouch" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 4.0d
+			rewards: [{
+				id: "34057A5E59D9AF71"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E599AF903"
+				item: { count: 1, id: "festivity:elf_charm_pouch" }
+				type: "item"
+			}]
+			x: -4.09d
+			y: -0.15d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
@@ -428,167 +740,308 @@
 			}
 			id: "34057A5E591C1D6D"
 			optional: true
-			rewards: [
-				{
-					id: "34057A5E597CD222"
-					type: "xp"
-					xp: 75
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E595929D0"
-					item: { count: 1, id: "festivity:wish_jar" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 4.0d
+			rewards: [{
+				id: "34057A5E597CD222"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E595929D0"
+				item: { count: 1, id: "festivity:wish_jar" }
+				type: "item"
+			}]
+			x: 4.06d
+			y: -0.72d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								swimmer: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										modifier: {
+											initialValue: 0.39406d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
 				id: "artifacts:flippers"
 			}
 			id: "34057A5E597E1C7C"
-			rewards: [
-				{
-					id: "34057A5E59C1B20C"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E591FA4DE"
-					item: { count: 1, id: "artifacts:flippers" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 5.5d
+			rewards: [{
+				id: "34057A5E59C1B20C"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E591FA4DE"
+				item: { components: { "relics:data": { abilities: { abilities: { swimmer: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 0.35086d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:flippers" }
+				type: "item"
+			}]
+			x: -3.99d
+			y: -1.87d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								vision: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 1b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										amount: {
+											initialValue: 0.13143d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
 				id: "artifacts:night_vision_goggles"
 			}
 			id: "34057A5E59B96366"
-			rewards: [
-				{
-					id: "34057A5E59D75C96"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E594B4208"
-					item: { count: 1, id: "artifacts:night_vision_goggles" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 5.5d
+			rewards: [{
+				id: "34057A5E59D75C96"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E594B4208"
+				item: { components: { "relics:data": { abilities: { abilities: { vision: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.13935d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:night_vision_goggles" }
+				type: "item"
+			}]
+			x: 3.96d
+			y: -2.44d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								heart: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										amount: {
+											initialValue: 3.83538d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
 				id: "artifacts:crystal_heart"
 			}
 			id: "34057A5E59BECCD8"
-			rewards: [
-				{
-					id: "34057A5E59E30837"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E595512CA"
-					item: { count: 1, id: "artifacts:crystal_heart" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 5.5d
+			rewards: [{
+				id: "34057A5E59E30837"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E595512CA"
+				item: { components: { "relics:data": { abilities: { abilities: { heart: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 3.92353d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:crystal_heart" }
+				type: "item"
+			}]
+			x: -3.89d
+			y: -3.59d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								fast_mining: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										modifier: {
+											initialValue: 0.17145d
+										}
+									}
+								}
+								passive: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: { }
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
 				id: "artifacts:digging_claws"
 			}
 			id: "34057A5E5985607D"
-			rewards: [
-				{
-					id: "34057A5E5974DDB9"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E59A54901"
-					item: { count: 1, id: "artifacts:digging_claws" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 5.5d
+			rewards: [{
+				id: "34057A5E5974DDB9"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E59A54901"
+				item: { components: { "relics:data": { abilities: { abilities: { fast_mining: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 0.28264d } } }, passive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:digging_claws" }
+				type: "item"
+			}]
+			x: 3.48d
+			y: -4.34d
 		}
 		{
 			dependencies: ["34057A5E591FD2CC"]
 			icon: {
-				id: "relics:horse_flute"
-			}
-			id: "34057A5E5988F815"
-			rewards: [
-				{
-					id: "34057A5E5910527F"
-					type: "xp"
-					xp: 25
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								skating: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										duration: {
+											initialValue: 17.67944d
+										}
+										speed: {
+											initialValue: 0.00403d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
 				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E594758C4"
-					item: { count: 1, id: "relics:horse_flute" }
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["34057A5E591FD2CC"]
-			icon: {
 				id: "relics:roller_skates"
 			}
 			id: "34057A5E59865D65"
-			rewards: [
-				{
-					id: "34057A5E59872DA7"
-					type: "xp"
-					xp: 25
-				}
-			]
-			tasks: [
-				{
-					consume_items: false
-					id: "34057A5E590EBD6B"
-					item: { count: 1, id: "relics:roller_skates" }
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: 5.5d
+			rewards: [{
+				id: "34057A5E59872DA7"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E590EBD6B"
+				item: { components: { "relics:data": { abilities: { abilities: { skating: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 15.55444d }, speed: { initialValue: 0.00246d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:roller_skates" }
+				type: "item"
+			}]
+			x: -2.9d
+			y: -5.03d
 		}
 	]
 }

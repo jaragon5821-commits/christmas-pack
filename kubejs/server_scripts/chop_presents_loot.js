@@ -14,19 +14,19 @@ const colors = ['white','light_gray','gray','black','brown','red','orange','yell
 ServerEvents.tags('item', event => {
   const presents = []
   if (has('supplementaries')) { presents.push('supplementaries:present'); colors.forEach(c => presents.push(`supplementaries:present_${c}`)) }
-  if (has('seasonsgreetings')) colors.forEach(c => presents.push(`seasonsgreetings:${c}_gift_box`))
-  if (has('winterly')) ['red','green','blue','purple','yellow','black','white','cyan','orange'].forEach(c => presents.push(`winterly:${c}_gift_box`))
-  if (has('manyideas_christmas')) presents.push('manyideas_christmas:present')
-  if (has('merrymaking')) presents.push('merrymaking:present')
-  if (has('christmassgrandmascabinet')) ['red','green','blue','yellow'].forEach(c => presents.push(`christmassgrandmascabinet:${c}_decorative_present`))
-  if (has('mcwholidays')) ['red','green','blue','yellow','cyan','magenta','purple','dark_blue'].forEach(c => presents.push(`mcwholidays:${c}_present`))
+  // 11-12 Festivity migration: old mod ids are listed unguarded and resolved through chopMig (000_chop_migration_ids.js):
+  // Festivity id when it exists, else the old id while its mod is installed, else skipped.
+  const oldPresents = []
+  colors.forEach(c => oldPresents.push(`seasonsgreetings:${c}_gift_box`))
+  ;['red','green','blue','purple','yellow','black','white','cyan','orange'].forEach(c => oldPresents.push(`winterly:${c}_gift_box`))
+  oldPresents.push('manyideas_christmas:present', 'merrymaking:present')
+  ;['red','green','blue','yellow'].forEach(c => oldPresents.push(`christmassgrandmascabinet:${c}_decorative_present`))
+  ;['red','green','blue','yellow','cyan','magenta','purple','dark_blue'].forEach(c => oldPresents.push(`mcwholidays:${c}_present`))
+  chopMigList(oldPresents).forEach(id => { if (presents.indexOf(id) < 0) presents.push(id) })
   presents.forEach(id => event.add('chop:presents', id))
 
-  const canes = []
-  if (has('snowyspirit')) canes.push('snowyspirit:candy_cane')
-  if (has('merrymaking')) canes.push('merrymaking:candy_cane')
-  if (has('winterly')) canes.push('winterly:red_candy_cane', 'winterly:green_candy_cane', 'winterly:blue_candy_cane')
-  if (has('christmassgrandmascabinet')) canes.push('christmassgrandmascabinet:red_candy_cane', 'christmassgrandmascabinet:green_candy_cane', 'christmassgrandmascabinet:blue_candy_cane')
+  const canes = chopMigList(['snowyspirit:candy_cane', 'merrymaking:candy_cane', 'winterly:red_candy_cane', 'winterly:green_candy_cane', 'winterly:blue_candy_cane',
+    'christmassgrandmascabinet:red_candy_cane', 'christmassgrandmascabinet:green_candy_cane', 'christmassgrandmascabinet:blue_candy_cane'])   // 11-12 migration
   canes.forEach(id => { event.add('chop:candy_canes', id); event.add('chop:festive_treats', id) })
   event.add('chop:festive_treats', '#c:foods/gingerbread_cookie')   // from chop_synergy_tags.js
 })

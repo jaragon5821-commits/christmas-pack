@@ -4,20 +4,15 @@
 	filename: "chop_explorer"
 	group: ""
 	icon: {
-		count: 1
 		id: "minecraft:compass"
 	}
 	id: "34057A5E400000A6"
-	order_index: 24
+	images: [ ]
+	order_index: 27
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"The world is full of strange and wonderful places: giant statues, lost camps, frozen ships and Jack Frost's own domain."
-				"Every quest here completes the moment you &6walk into&r that place. Roads are a good place to start looking."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:compass"
 			}
 			id: "34057A5E40000001"
@@ -30,20 +25,14 @@
 			size: 2.0d
 			tasks: [{
 				id: "34057A5E40000039"
-				title: "Let's explore"
 				type: "checkmark"
 			}]
-			title: "Wonders of Winter"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["34057A5E40000001"]
-			description: [
-				"Little places people (and others) call home."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:oak_door"
 			}
 			id: "34057A5E40000002"
@@ -54,20 +43,14 @@
 			}]
 			tasks: [{
 				id: "34057A5E4000003B"
-				title: "Show me"
 				type: "checkmark"
 			}]
-			title: "Homes and Hamlets"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["34057A5E40000002"]
-			description: [
-				"An abandoned starter home. Fix it up and it's yours."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:spruce_door"
 			}
 			id: "34057A5E40000003"
@@ -82,18 +65,13 @@
 				structure: "#chop:starter_houses"
 				type: "structure"
 			}]
-			title: "An Empty House"
 			x: 2.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["34057A5E40000002"]
-			description: [
-				"A whole settlement dressed for the season."
-			]
 			icon: {
-				count: 1
-				id: "snowyspirit:wreath"
+				id: "festivity:wreath"
 			}
 			id: "34057A5E40000004"
 			optional: true
@@ -107,17 +85,12 @@
 				structure: "#chop:christmas_settlements"
 				type: "structure"
 			}]
-			title: "A Christmas Town"
 			x: 3.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["34057A5E40000002"]
-			description: [
-				"It smells wonderful. That's what worries people."
-			]
 			icon: {
-				count: 1
 				id: "festive_delight:gingerbread_man"
 			}
 			id: "34057A5E40000005"
@@ -132,17 +105,12 @@
 				structure: "chop:gingerbread_house"
 				type: "structure"
 			}]
-			title: "The Gingerbread House"
 			x: 5.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["34057A5E40000002"]
-			description: [
-				"Tiny houses in the mushroom fields."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:red_mushroom"
 			}
 			id: "34057A5E40000006"
@@ -157,17 +125,12 @@
 				structure: "chop:toadstool_hamlet"
 				type: "structure"
 			}]
-			title: "Toadstool Hamlet"
 			x: 6.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["34057A5E40000002"]
-			description: [
-				"Deep in the swamp. Knock first."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:cauldron"
 			}
 			id: "34057A5E40000007"
@@ -182,17 +145,12 @@
 				structure: "chop:bog_witch_cottage"
 				type: "structure"
 			}]
-			title: "The Bog Witch's Cottage"
 			x: 8.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["34057A5E40000002"]
-			description: [
-				"Runaway elves hide in the lush caves."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:glow_berries"
 			}
 			id: "34057A5E40000008"
@@ -207,17 +165,12 @@
 				structure: "chop:glowberry_elf_hideout"
 				type: "structure"
 			}]
-			title: "Glowberry Hideout"
 			x: 9.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["34057A5E40000001"]
-			description: [
-				"Stops and sights for travellers."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:lantern"
 			}
 			id: "34057A5E40000009"
@@ -228,20 +181,14 @@
 			}]
 			tasks: [{
 				id: "34057A5E40000049"
-				title: "Show me"
 				type: "checkmark"
 			}]
-			title: "Along the Road"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["34057A5E40000009"]
-			description: [
-				"The North Pole post office. Read the letters."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:writable_book"
 			}
 			id: "34057A5E4000000A"
@@ -256,17 +203,12 @@
 				structure: "chop:letters_to_santa"
 				type: "structure"
 			}]
-			title: "Letters to Santa"
 			x: 2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["34057A5E40000009"]
-			description: [
-				"Guiding sleighs home since forever."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:sea_lantern"
 			}
 			id: "34057A5E4000000B"
@@ -281,17 +223,12 @@
 				structure: "chop:north_star_lighthouse"
 				type: "structure"
 			}]
-			title: "North Star Lighthouse"
 			x: 3.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["34057A5E40000009"]
-			description: [
-				"Only the brave swim here."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:ice"
 			}
 			id: "34057A5E4000000C"
@@ -306,17 +243,12 @@
 				structure: "chop:polar_plunge_hut"
 				type: "structure"
 			}]
-			title: "Polar Plunge Hut"
 			x: 5.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["34057A5E40000009"]
-			description: [
-				"Someone left in a hurry."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:fishing_rod"
 			}
 			id: "34057A5E4000000D"
@@ -331,17 +263,12 @@
 				structure: "chop:ice_fishing_camp"
 				type: "structure"
 			}]
-			title: "Ice Fishing Camp"
 			x: 6.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["34057A5E40000009"]
-			description: [
-				"A waterwheel stuck in the ice."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:water_bucket"
 			}
 			id: "34057A5E4000000E"
@@ -356,17 +283,12 @@
 				structure: "chop:frozen_waterwheel_mill"
 				type: "structure"
 			}]
-			title: "The Frozen Mill"
 			x: 8.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["34057A5E40000009"]
-			description: [
-				"Reindeer, a long way from the snow."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:lead"
 			}
 			id: "34057A5E4000000F"
@@ -381,17 +303,12 @@
 				structure: "chop:lost_reindeer_caravan"
 				type: "structure"
 			}]
-			title: "The Lost Caravan"
 			x: 9.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["34057A5E40000009"]
-			description: [
-				"Where the naughty-list coal is dug."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:coal"
 			}
 			id: "34057A5E40000010"
@@ -406,17 +323,12 @@
 				structure: "chop:coal_gnome_minehead"
 				type: "structure"
 			}]
-			title: "Coal Gnome Minehead"
 			x: 11.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["34057A5E40000001"]
-			description: [
-				"Some things are too big to miss. Eventually."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:chiseled_stone_bricks"
 			}
 			id: "34057A5E40000011"
@@ -427,21 +339,15 @@
 			}]
 			tasks: [{
 				id: "34057A5E40000059"
-				title: "Show me"
 				type: "checkmark"
 			}]
-			title: "Giants and Statues"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["34057A5E40000011"]
-			description: [
-				"A Santa that isn't quite right."
-			]
 			icon: {
-				count: 1
-				id: "merrymaking:red_santa_hat"
+				id: "festivity:santa_hat"
 			}
 			id: "34057A5E40000012"
 			optional: true
@@ -455,17 +361,12 @@
 				structure: "chop:giant_crooked_santa_colossus"
 				type: "structure"
 			}]
-			title: "The Crooked Colossus"
 			x: 2.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["34057A5E40000011"]
-			description: [
-				"Reaching up out of the ground."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:skeleton_skull"
 			}
 			id: "34057A5E40000013"
@@ -480,17 +381,12 @@
 				structure: "chop:giant_claws_hand"
 				type: "structure"
 			}]
-			title: "The Hand of Claws"
 			x: 3.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["34057A5E40000011"]
-			description: [
-				"An elf the size of a hill, frozen solid."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:blue_ice"
 			}
 			id: "34057A5E40000014"
@@ -505,17 +401,12 @@
 				structure: "chop:giant_frozen_titan_elf"
 				type: "structure"
 			}]
-			title: "The Frozen Titan"
 			x: 5.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["34057A5E40000011"]
-			description: [
-				"A monument to the ones that never came home."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:bone"
 			}
 			id: "34057A5E40000015"
@@ -530,17 +421,12 @@
 				structure: "chop:giant_last_reindeer_arch"
 				type: "structure"
 			}]
-			title: "The Last Reindeer Arch"
 			x: 6.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["34057A5E40000011"]
-			description: [
-				"The biggest Christmas tree there is."
-			]
 			icon: {
-				count: 1
 				id: "chop:red_large_ornament"
 			}
 			id: "34057A5E40000016"
@@ -555,17 +441,12 @@
 				structure: "chop:giant_ornament_world_tree"
 				type: "structure"
 			}]
-			title: "The Ornament World Tree"
 			x: 8.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["34057A5E40000011"]
-			description: [
-				"Don't wake him."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:snow_block"
 			}
 			id: "34057A5E40000017"
@@ -580,17 +461,12 @@
 				structure: "chop:giant_sleeping_snow_giant"
 				type: "structure"
 			}]
-			title: "The Sleeping Snow Giant"
 			x: 9.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["34057A5E40000011"]
-			description: [
-				"Standing guard out at sea."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:iron_sword"
 			}
 			id: "34057A5E40000018"
@@ -605,17 +481,12 @@
 				structure: "chop:giant_nutcracker_sentinel"
 				type: "structure"
 			}]
-			title: "The Nutcracker Sentinel"
 			x: 11.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["34057A5E40000011"]
-			description: [
-				"Decorated, somehow."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:spruce_sapling"
 			}
 			id: "34057A5E40000019"
@@ -630,17 +501,12 @@
 				structure: "chop:christmas_tree_xl"
 				type: "structure"
 			}]
-			title: "A Really Big Tree"
 			x: 12.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["34057A5E40000001"]
-			description: [
-				"Jack Frost paints the world white. These are his favourite places."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:packed_ice"
 			}
 			id: "34057A5E4000001A"
@@ -651,20 +517,14 @@
 			}]
 			tasks: [{
 				id: "34057A5E4000006B"
-				title: "Show me"
 				type: "checkmark"
 			}]
-			title: "Jack Frost's Domain"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["34057A5E4000001A"]
-			description: [
-				"High in the frozen peaks."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:packed_ice"
 			}
 			id: "34057A5E4000001B"
@@ -679,17 +539,12 @@
 				structure: "chop:jack_frost_spire"
 				type: "structure"
 			}]
-			title: "Jack Frost's Spire"
 			x: 2.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["34057A5E4000001A"]
-			description: [
-				"Where the frost patterns are made."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:snowball"
 			}
 			id: "34057A5E4000001C"
@@ -704,17 +559,12 @@
 				structure: "chop:jack_jack_frost_workshop"
 				type: "structure"
 			}]
-			title: "Jack Frost's Workshop"
 			x: 3.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["34057A5E4000001A"]
-			description: [
-				"Bells made of ice."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:ice"
 			}
 			id: "34057A5E4000001D"
@@ -729,17 +579,12 @@
 				structure: "chop:jack_icicle_cathedral"
 				type: "structure"
 			}]
-			title: "The Icicle Cathedral"
 			x: 5.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["34057A5E4000001A"]
-			description: [
-				"Frozen flowers that never wilt."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:spruce_leaves"
 			}
 			id: "34057A5E4000001E"
@@ -754,17 +599,12 @@
 				structure: "chop:jack_rime_gardens"
 				type: "structure"
 			}]
-			title: "The Rime Gardens"
 			x: 6.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["34057A5E4000001A"]
-			description: [
-				"Stopped mid-fall."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:blue_ice"
 			}
 			id: "34057A5E4000001F"
@@ -779,17 +619,12 @@
 				structure: "chop:jack_frozen_waterfall_grotto"
 				type: "structure"
 			}]
-			title: "Frozen Waterfall Grotto"
 			x: 8.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["34057A5E4000001A"]
-			description: [
-				"The cold starts here."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:powder_snow_bucket"
 			}
 			id: "34057A5E40000020"
@@ -804,17 +639,12 @@
 				structure: "chop:jack_breath_of_winter"
 				type: "structure"
 			}]
-			title: "Breath of Winter"
 			x: 9.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["34057A5E4000001A"]
-			description: [
-				"A village Jack loved too much."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:snow_block"
 			}
 			id: "34057A5E40000021"
@@ -829,17 +659,12 @@
 				structure: "chop:jack_frostbitten_village"
 				type: "structure"
 			}]
-			title: "The Frostbitten Village"
 			x: 11.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["34057A5E4000001A"]
-			description: [
-				"Six-sided stones in a circle."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:quartz_block"
 			}
 			id: "34057A5E40000022"
@@ -854,17 +679,12 @@
 				structure: "chop:jack_snowflake_monoliths"
 				type: "structure"
 			}]
-			title: "Snowflake Monoliths"
 			x: 12.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["34057A5E40000001"]
-			description: [
-				"Wrecks and wonders in the cold seas. Bring water breathing."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:heart_of_the_sea"
 			}
 			id: "34057A5E40000023"
@@ -875,20 +695,14 @@
 			}]
 			tasks: [{
 				id: "34057A5E4000007D"
-				title: "Show me"
 				type: "checkmark"
 			}]
-			title: "Under the Ice"
 			x: 0.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["34057A5E40000023"]
-			description: [
-				"It didn't make the landing."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:oak_boat"
 			}
 			id: "34057A5E40000024"
@@ -903,17 +717,12 @@
 				structure: "chop:sunken_sleigh"
 				type: "structure"
 			}]
-			title: "The Sunken Sleigh"
 			x: 2.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["34057A5E40000023"]
-			description: [
-				"A ship full of toys, under the waves."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:chest_minecart"
 			}
 			id: "34057A5E40000025"
@@ -928,17 +737,12 @@
 				structure: "chop:drowned_toy_freighter"
 				type: "structure"
 			}]
-			title: "The Drowned Toy Freighter"
 			x: 3.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["34057A5E40000023"]
-			description: [
-				"Someone kept working down here."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:prismarine"
 			}
 			id: "34057A5E40000026"
@@ -953,17 +757,12 @@
 				structure: "chop:drowned_workshop"
 				type: "structure"
 			}]
-			title: "The Drowned Workshop"
 			x: 5.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["34057A5E40000023"]
-			description: [
-				"Locked in the pack ice."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:blue_ice"
 			}
 			id: "34057A5E40000027"
@@ -978,17 +777,12 @@
 				structure: "chop:jack_frozen_galleon"
 				type: "structure"
 			}]
-			title: "The Frozen Galleon"
 			x: 6.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["34057A5E40000023"]
-			description: [
-				"A lookout carved into an iceberg."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:packed_ice"
 			}
 			id: "34057A5E40000028"
@@ -1003,17 +797,12 @@
 				structure: "chop:iceberg_outpost"
 				type: "structure"
 			}]
-			title: "Iceberg Outpost"
 			x: 8.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["34057A5E40000023"]
-			description: [
-				"Bobbing out at sea. Follow them."
-			]
 			icon: {
-				count: 1
 				id: "chop:red_ornament"
 			}
 			id: "34057A5E40000029"
@@ -1028,17 +817,12 @@
 				structure: "chop:ornament_buoy"
 				type: "structure"
 			}]
-			title: "An Ornament Buoy"
 			x: 9.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["34057A5E40000023"]
-			description: [
-				"Just a sculpture. Probably."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:prismarine_shard"
 			}
 			id: "34057A5E4000002A"
@@ -1053,17 +837,12 @@
 				structure: "chop:sea_serpent_sculpture"
 				type: "structure"
 			}]
-			title: "The Sea Serpent"
 			x: 11.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["34057A5E40000023"]
-			description: [
-				"A statue to the locals."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:feather"
 			}
 			id: "34057A5E4000002B"
@@ -1078,17 +857,12 @@
 				structure: "chop:penguin_colony_statue"
 				type: "structure"
 			}]
-			title: "Penguin Colony"
 			x: 12.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["34057A5E40000001"]
-			description: [
-				"Camps, lookouts and ruins. Some friendly, some not."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:campfire"
 			}
 			id: "34057A5E4000002C"
@@ -1099,20 +873,14 @@
 			}]
 			tasks: [{
 				id: "34057A5E4000008F"
-				title: "Show me"
 				type: "checkmark"
 			}]
-			title: "Off the Beaten Path"
 			x: 0.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["34057A5E4000002C"]
-			description: [
-				"A safe place to sleep your first night. Help yourself."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:campfire"
 			}
 			id: "34057A5E4000002D"
@@ -1127,17 +895,12 @@
 				structure: "#chop:campsites"
 				type: "structure"
 			}]
-			title: "A Christmas Campsite"
 			x: 2.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["34057A5E4000002C"]
-			description: [
-				"A hard climb and the best view in the world."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:spyglass"
 			}
 			id: "34057A5E4000002E"
@@ -1152,17 +915,12 @@
 				structure: "#chop:watchtowers"
 				type: "structure"
 			}]
-			title: "A Mountain Watchtower"
 			x: 3.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["34057A5E4000002C"]
-			description: [
-				"Santy's forces came through here. Read what the survivors left."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:charcoal"
 			}
 			id: "34057A5E4000002F"
@@ -1177,17 +935,12 @@
 				structure: "#chop:burnt_settlements"
 				type: "structure"
 			}]
-			title: "A Burnt Settlement"
 			x: 5.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["34057A5E4000002C"]
-			description: [
-				"Looks innocent. Mind what you take."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:trapped_chest"
 			}
 			id: "34057A5E40000030"
@@ -1202,17 +955,12 @@
 				structure: "#chop:trap_cottages"
 				type: "structure"
 			}]
-			title: "A Cosy Little Cottage"
 			x: 6.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["34057A5E4000002C"]
-			description: [
-				"A mage tower of one of the five festive schools."
-			]
 			icon: {
-				count: 1
 				id: "irons_spellbooks:inscription_table"
 			}
 			id: "34057A5E40000031"
@@ -1227,17 +975,12 @@
 				structure: "#chop:spell_towers"
 				type: "structure"
 			}]
-			title: "A Spell Tower"
 			x: 8.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["34057A5E40000001"]
-			description: [
-				"Christmas reached the Nether and the End too. Nobody is sure how."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:obsidian"
 			}
 			id: "34057A5E40000032"
@@ -1248,20 +991,14 @@
 			}]
 			tasks: [{
 				id: "34057A5E4000009B"
-				title: "Show me"
 				type: "checkmark"
 			}]
-			title: "Beyond the Overworld"
 			x: 0.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["34057A5E40000032"]
-			description: [
-				"Somebody decorated down here."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:netherrack"
 			}
 			id: "34057A5E40000033"
@@ -1276,17 +1013,12 @@
 				structure: "#chop:nether_christmas"
 				type: "structure"
 			}]
-			title: "Christmas in the Nether"
 			x: 2.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["34057A5E40000032"]
-			description: [
-				"Where coal hearts are forged."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:magma_block"
 			}
 			id: "34057A5E40000034"
@@ -1301,17 +1033,12 @@
 				structure: "chop:clinker_forge"
 				type: "structure"
 			}]
-			title: "The Clinker Forge"
 			x: 3.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["34057A5E40000032"]
-			description: [
-				"Where Claws came from."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:end_stone"
 			}
 			id: "34057A5E40000035"
@@ -1326,17 +1053,12 @@
 				structure: "#chop:end_christmas"
 				type: "structure"
 			}]
-			title: "Christmas in the End"
 			x: 5.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["34057A5E40000032"]
-			description: [
-				"His home. Go prepared."
-			]
 			icon: {
-				count: 1
 				id: "minecraft:purpur_block"
 			}
 			id: "34057A5E40000036"
@@ -1351,17 +1073,18 @@
 				structure: "chop:claws_citadel"
 				type: "structure"
 			}]
-			title: "Claws' Citadel"
 			x: 6.5d
 			y: 9.0d
 		}
 		{
-			dependencies: ["34057A5E4000001B", "34057A5E40000016", "34057A5E40000024", "34057A5E4000000A", "34057A5E40000004"]
-			description: [
-				"You've seen the best of winter. Time for a mug of cocoa."
+			dependencies: [
+				"34057A5E4000001B"
+				"34057A5E40000016"
+				"34057A5E40000024"
+				"34057A5E4000000A"
+				"34057A5E40000004"
 			]
 			icon: {
-				count: 1
 				id: "minecraft:filled_map"
 			}
 			id: "34057A5E40000037"
@@ -1374,13 +1097,10 @@
 			size: 2.0d
 			tasks: [{
 				id: "34057A5E400000A5"
-				title: "Done exploring (for now)"
 				type: "checkmark"
 			}]
-			title: "Seen It All"
 			x: 14.5d
 			y: 1.5d
 		}
 	]
-	title: "Wonders of Winter"
 }

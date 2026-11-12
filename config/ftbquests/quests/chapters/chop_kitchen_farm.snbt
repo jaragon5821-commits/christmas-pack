@@ -309,7 +309,7 @@
 		{
 			dependency_requirement: "one_completed"
 			icon: {
-				id: "festive_delight:cinnamon_sticks"
+				id: "herbsandharvest:cinnamon"
 			}
 			id: "59448DA9CCBE2F17"
 			optional: true
@@ -321,7 +321,7 @@
 			tasks: [{
 				consume_items: false
 				id: "0CE46CBC2BB16CEB"
-				item: { count: 1, id: "festive_delight:cinnamon_sticks" }
+				item: { count: 1, id: "herbsandharvest:cinnamon" }
 				type: "item"
 			}]
 			x: 10.0d
@@ -351,7 +351,7 @@
 		{
 			dependency_requirement: "one_completed"
 			icon: {
-				id: "snowyspirit:gingerbread_cookie"
+				id: "festive_delight:gingerbread_man"
 			}
 			id: "43CDFA0AA06A3706"
 			optional: true
@@ -362,8 +362,9 @@
 			}]
 			tasks: [{
 				consume_items: false
+				count: 6L
 				id: "73D54F2995C17CF2"
-				item: { count: 1, id: "snowyspirit:gingerbread_cookie" }
+				item: { count: 1, id: "festive_delight:gingerbread_man" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -372,7 +373,7 @@
 		{
 			dependency_requirement: "one_completed"
 			icon: {
-				id: "snowyspirit:eggnog"
+				id: "festivity:eggnog"
 			}
 			id: "341E64D86C318400"
 			optional: true
@@ -384,7 +385,7 @@
 			tasks: [{
 				consume_items: false
 				id: "71D483BCB2C5D31E"
-				item: { count: 1, id: "snowyspirit:eggnog" }
+				item: { count: 1, id: "festivity:eggnog" }
 				type: "item"
 			}]
 			x: 10.0d
@@ -393,7 +394,7 @@
 		{
 			dependency_requirement: "one_completed"
 			icon: {
-				id: "merrymaking:fudge"
+				id: "festivity:fudge"
 			}
 			id: "4D39527FB6F145E4"
 			optional: true
@@ -405,7 +406,7 @@
 			tasks: [{
 				consume_items: false
 				id: "7F1AAAC5747DFC10"
-				item: { count: 1, id: "merrymaking:fudge" }
+				item: { count: 1, id: "festivity:fudge" }
 				type: "item"
 			}]
 			x: 11.5d
@@ -414,7 +415,7 @@
 		{
 			dependency_requirement: "one_completed"
 			icon: {
-				id: "alpinewhispers:cooked_reindeer"
+				id: "festivity:roast_venison"
 			}
 			id: "1D68216F7783C1C9"
 			optional: true
@@ -426,7 +427,7 @@
 			tasks: [{
 				consume_items: false
 				id: "47A09D7C8A3385CE"
-				item: { count: 1, id: "alpinewhispers:cooked_reindeer" }
+				item: { count: 1, id: "festivity:roast_venison" }
 				type: "item"
 			}]
 			x: 13.0d

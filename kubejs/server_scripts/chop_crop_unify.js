@@ -20,6 +20,7 @@
 //         snowy patch where SRM swapped some layers for its own blocks mines as ONE group (Josh 11-10: snowy ground broke one at a time).
 //         Also fills a cooking gap: Merrymaking's raw ham only had a furnace recipe, so it would not go in a smoker or on a campfire.
 //         Cooking audit (11-10): Farm & Charm lamb ham / minced beef cook into the mod's own cooked item in furnace + smoker too.
+// v0.3.4: chop:ultimine_snow also holds grass / ferns / Winterly frozen grass (snowy grass highlighted but didn't break).
 // v0.3.3: Herbs and Harvest bacon / chicken cutlet / salmon steak / sausage also cook in the smoker and on a campfire (were furnace only).
 // Ids come from the registry (never Item.of on a guess: clean join).
 // KubeJS 2101: IIFE, early return, no declarations inside nested blocks.
@@ -95,6 +96,11 @@
   ServerEvents.tags('block', event => {
     let ids = ['minecraft:snow'];
     try { BuiltInRegistries.BLOCK.keySet().forEach(k => { let s = String(k); if (/^snowrealmagic:.*snow/.test(s)) ids.push(s); }); } catch (e) { console.warn('[chop crops] snow scan failed: ' + e); }
+    // v0.3.4 snowy plants (Josh 11-12): SRM snowy_plant/double_plant hold a plant; the upper half stays plain tall_grass and
+    // breaking the snow leaves the plant, so the group looked selected but nothing seemed to break. Plants join the group.
+    let plants = { 'minecraft:short_grass': 1, 'minecraft:tall_grass': 1, 'minecraft:fern': 1, 'minecraft:large_fern': 1,
+      'minecraft:dead_bush': 1, 'winterly:frozen_grass': 1, 'winterly:frozen_flower': 1 };
+    try { BuiltInRegistries.BLOCK.keySet().forEach(k => { let s = String(k); if (plants[s]) ids.push(s); }); } catch (e) { console.warn('[chop crops] plant scan failed: ' + e); }
     ids.forEach(id => event.add('chop:ultimine_snow', id));
     console.info('[chop crops] chop:ultimine_snow: ' + ids.join(', '));
   });
@@ -107,9 +113,12 @@
     });
     console.info('[chop crops] widened inputs for ' + n + ' crop ids');
     // v0.3.2: smoker + campfire for Merrymaking ham (the mod ships only a furnace recipe; same result and xp, vanilla speeds)
-    if (scanHas('merrymaking:ham') && scanHas('merrymaking:cooked_ham')) {
-      event.smoking('merrymaking:cooked_ham', 'merrymaking:ham').xp(0.6).cookingTime(150).id('chop:cooking/merrymaking_ham_smoking');
-      event.campfireCooking('merrymaking:cooked_ham', 'merrymaking:ham').xp(0.6).cookingTime(600).id('chop:cooking/merrymaking_ham_campfire');
+    // 11-12 Festivity migration: the ham pair resolves to festivity:ham / cooked_ham once those exist (000_chop_migration_ids.js)
+    let hamRaw = (typeof chopMig == 'function') ? chopMig('merrymaking:ham') : 'merrymaking:ham';
+    let hamCooked = (typeof chopMig == 'function') ? chopMig('merrymaking:cooked_ham') : 'merrymaking:cooked_ham';
+    if (hamRaw && hamCooked && scanHas(hamRaw) && scanHas(hamCooked)) {
+      event.smoking(hamCooked, hamRaw).xp(0.6).cookingTime(150).id('chop:cooking/merrymaking_ham_smoking');
+      event.campfireCooking(hamCooked, hamRaw).xp(0.6).cookingTime(600).id('chop:cooking/merrymaking_ham_campfire');
     }
     // v0.3.2 (cooking audit 11-10): Farm & Charm's own furnace/smoker recipes turn lamb ham into vanilla cooked mutton and minced beef
     // into a vanilla steak, while its campfire gives the mod's cooked item. Same result everywhere now (xp/time kept).

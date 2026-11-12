@@ -1,0 +1,13 @@
+name = "Better Snowy Leaves"
+filename = "snowyleaves-1.4.3-neoforge+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WmTustZr/versions/PxHoEPfN/snowyleaves-1.4.3-neoforge%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "c7095061eb1282f73e0616437d14fa5e7243867e4ce200ee36805124abd6e56cd824e20ff388045a375d2ad62b284054b7c2ff9d0dcafe765c413ab195af23e9"
+
+[update]
+[update.modrinth]
+mod-id = "WmTustZr"
+version = "PxHoEPfN"

@@ -11,3 +11,10 @@ servers.dat
 config/fancymenu/user_variables.db
 # audit L1 2026-11-11: configs of removed / NO-list mods, kept for reference, never shipped
 _archive/
+# script backups made by patch tools in TEST; never shipped
+kubejs/removed/
+# per-player / runtime state, never shipped (2026-11-12)
+config/litematica/
+config/spark/
+config/jei/world/
+config/roadweaver/structure_cache_overworld.json

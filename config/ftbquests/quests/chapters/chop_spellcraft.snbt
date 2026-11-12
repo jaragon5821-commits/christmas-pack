@@ -4,20 +4,15 @@
 	filename: "chop_spellcraft"
 	group: ""
 	icon: {
-		count: 1
 		id: "irons_spellbooks:inscription_table"
 	}
 	id: "34057A5E30000085"
-	order_index: 23
+	images: [ ]
+	order_index: 28
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Santa's workshop never ran on elbow grease alone. Spells are written on scrolls, then copied into spell books."
-				"&7Arcane Essence comes from magical mobs and loot.&r"
-			]
 			icon: {
-				count: 1
 				id: "irons_spellbooks:arcane_essence"
 			}
 			id: "34057A5E30000001"
@@ -31,23 +26,23 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E30000026"
-				item: {
-					count: 4
-					id: "irons_spellbooks:arcane_essence"
-				}
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
 				type: "item"
 			}]
-			title: "A Touch of Magic"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["34057A5E30000001"]
-			description: [
-				"A spell book holds the spells you learn. The Ironbound Tome is a good start."
-			]
 			icon: {
-				count: 1
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 6
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "irons_spellbooks:iron_spell_book"
 			}
 			id: "34057A5E30000002"
@@ -59,23 +54,15 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E30000028"
-				item: {
-					count: 1
-					id: "irons_spellbooks:iron_spell_book"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 6, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:iron_spell_book" }
 				type: "item"
 			}]
-			title: "Your First Spell Book"
 			x: 2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["34057A5E30000001"]
-			description: [
-				"Put your book and a scroll on the table to write the spell into the book."
-			]
 			icon: {
-				count: 1
 				id: "irons_spellbooks:inscription_table"
 			}
 			id: "34057A5E30000003"
@@ -87,23 +74,15 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E3000002A"
-				item: {
-					count: 1
-					id: "irons_spellbooks:inscription_table"
-				}
+				item: { count: 1, id: "irons_spellbooks:inscription_table" }
 				type: "item"
 			}]
-			title: "The Inscription Table"
 			x: 2.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["34057A5E30000003"]
-			description: [
-				"Make your own scrolls from ink, paper and a school &6focus&r. Each festive school has its own focus."
-			]
 			icon: {
-				count: 1
 				id: "irons_spellbooks:scroll_forge"
 			}
 			id: "34057A5E30000004"
@@ -115,23 +94,15 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E3000002C"
-				item: {
-					count: 1
-					id: "irons_spellbooks:scroll_forge"
-				}
+				item: { count: 1, id: "irons_spellbooks:scroll_forge" }
 				type: "item"
 			}]
-			title: "The Scroll Forge"
 			x: 4.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["34057A5E30000002"]
-			description: [
-				"Essence woven into wool. Mage robes of every school are sewn from it."
-			]
 			icon: {
-				count: 1
 				id: "irons_spellbooks:magic_cloth"
 			}
 			id: "34057A5E30000005"
@@ -143,25 +114,15 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E3000002E"
-				item: {
-					count: 4
-					id: "irons_spellbooks:magic_cloth"
-				}
+				item: { count: 1, id: "irons_spellbooks:magic_cloth" }
 				type: "item"
 			}]
-			title: "Arcane Cloth"
 			x: 4.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["34057A5E30000004"]
-			description: [
-				"Ornaments, tinsel and wrapping paper turned into weapons."
-				""
-				"On snowy nights, Yuletide casters wander the cold. Defeat one: they drop their school's &6Star Topper Focus&r, runes and sometimes a scroll."
-			]
 			icon: {
-				count: 1
 				id: "festivity:yuletide_focus"
 			}
 			id: "34057A5E30000006"
@@ -176,17 +137,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Yuletide Caster"
 			x: 6.5d
 			y: -4.4d
 		}
 		{
 			dependencies: ["34057A5E30000006"]
-			description: [
-				"Casters drop these, or craft one: 8 Star Topper Focuss around a Blank Runestone."
-			]
 			icon: {
-				count: 1
 				id: "festivity:yuletide_rune"
 			}
 			id: "34057A5E30000007"
@@ -195,34 +151,37 @@
 				type: "xp"
 				xp: 50
 			}]
-			tasks: [{
-				consume_items: false
-				id: "34057A5E30000032"
-				item: {
-					count: 1
-					id: "festivity:yuletide_focus"
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E30000032"
+					item: { count: 1, id: "festivity:yuletide_focus" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E30000033"
-				item: {
-					count: 1
-					id: "festivity:yuletide_rune"
+				{
+					consume_items: false
+					id: "34057A5E30000033"
+					item: { count: 1, id: "festivity:yuletide_rune" }
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Yuletide Rune"
+			]
 			x: 8.0d
 			y: -4.4d
 		}
 		{
-			dependencies: ["34057A5E30000007", "34057A5E30000002"]
-			description: [
-				"An 8-slot book that boosts Yuletide spells. Craft: runes in the corners, Arcane Essence on the sides, an Ironbound Tome in the middle."
+			dependencies: [
+				"34057A5E30000007"
+				"34057A5E30000002"
 			]
 			icon: {
-				count: 1
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 8
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "festivity:yuletide_spellbook"
 			}
 			id: "34057A5E30000008"
@@ -234,23 +193,15 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E30000035"
-				item: {
-					count: 1
-					id: "festivity:yuletide_spellbook"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "festivity:yuletide_spellbook" }
 				type: "item"
 			}]
-			title: "Yuletide Spellbook"
 			x: 9.5d
 			y: -4.9d
 		}
 		{
 			dependencies: ["34057A5E30000007"]
-			description: [
-				"A focus on top, a rune in the middle, an Arcane Ingot at the base."
-			]
 			icon: {
-				count: 1
 				id: "festivity:yuletide_staff"
 			}
 			id: "34057A5E30000009"
@@ -263,24 +214,27 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E30000037"
-				item: {
-					count: 1
-					id: "festivity:yuletide_staff"
-				}
+				item: { count: 1, id: "festivity:yuletide_staff" }
 				type: "item"
 			}]
-			title: "Yuletide Staff"
 			x: 9.5d
 			y: -3.9d
 		}
 		{
-			dependencies: ["34057A5E30000009", "34057A5E30000005"]
-			dependency_requirement: "one_completed"
-			description: [
-				"The full set: hood, robes, leggings, boots. Arcane Cloth with a Yuletide Rune sewn in."
+			dependencies: [
+				"34057A5E30000009"
+				"34057A5E30000005"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
-				count: 1
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "festivity:yuletide_mage_chestplate"
 			}
 			id: "34057A5E3000000A"
@@ -290,50 +244,38 @@
 				type: "xp"
 				xp: 250
 			}]
-			tasks: [{
-				consume_items: false
-				id: "34057A5E30000039"
-				item: {
-					count: 1
-					id: "festivity:yuletide_mage_helmet"
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E30000039"
+					item: { count: 1, id: "festivity:yuletide_mage_helmet" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E3000003A"
-				item: {
-					count: 1
-					id: "festivity:yuletide_mage_chestplate"
+				{
+					consume_items: false
+					id: "34057A5E3000003A"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "festivity:yuletide_mage_chestplate" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E3000003B"
-				item: {
-					count: 1
-					id: "festivity:yuletide_mage_leggings"
+				{
+					consume_items: false
+					id: "34057A5E3000003B"
+					item: { count: 1, id: "festivity:yuletide_mage_leggings" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E3000003C"
-				item: {
-					count: 1
-					id: "festivity:yuletide_mage_boots"
+				{
+					consume_items: false
+					id: "34057A5E3000003C"
+					item: { count: 1, id: "festivity:yuletide_mage_boots" }
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Yuletide Mage Robes"
+			]
 			x: 11.0d
 			y: -3.9d
 		}
 		{
 			dependencies: ["34057A5E30000008"]
-			description: [
-				"Eight runes around an Empty Upgrade Orb. Use it at an Arcane Anvil to add Yuletide power to gear."
-			]
 			icon: {
-				count: 1
 				id: "festivity:yuletide_upgrade_orb"
 			}
 			id: "34057A5E3000000B"
@@ -346,25 +288,15 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E3000003E"
-				item: {
-					count: 1
-					id: "festivity:yuletide_upgrade_orb"
-				}
+				item: { count: 1, id: "festivity:yuletide_upgrade_orb" }
 				type: "item"
 			}]
-			title: "Yuletide Upgrade Orb"
 			x: 11.0d
 			y: -4.9d
 		}
 		{
 			dependencies: ["34057A5E30000004"]
-			description: [
-				"Coal, pranks and Krampus chains. Mean, sneaky, effective."
-				""
-				"On snowy nights, Naughty casters wander the cold. Defeat one: they drop their school's &6Lump of Coal Focus&r, runes and sometimes a scroll."
-			]
 			icon: {
-				count: 1
 				id: "festivity:naughty_focus"
 			}
 			id: "34057A5E3000000C"
@@ -379,17 +311,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Naughty Caster"
 			x: 6.5d
 			y: -2.2d
 		}
 		{
 			dependencies: ["34057A5E3000000C"]
-			description: [
-				"Casters drop these, or craft one: 8 Lump of Coal Focuss around a Blank Runestone."
-			]
 			icon: {
-				count: 1
 				id: "festivity:naughty_rune"
 			}
 			id: "34057A5E3000000D"
@@ -398,34 +325,37 @@
 				type: "xp"
 				xp: 50
 			}]
-			tasks: [{
-				consume_items: false
-				id: "34057A5E30000042"
-				item: {
-					count: 1
-					id: "festivity:naughty_focus"
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E30000042"
+					item: { count: 1, id: "festivity:naughty_focus" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E30000043"
-				item: {
-					count: 1
-					id: "festivity:naughty_rune"
+				{
+					consume_items: false
+					id: "34057A5E30000043"
+					item: { count: 1, id: "festivity:naughty_rune" }
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Naughty Rune"
+			]
 			x: 8.0d
 			y: -2.2d
 		}
 		{
-			dependencies: ["34057A5E3000000D", "34057A5E30000002"]
-			description: [
-				"An 8-slot book that boosts Naughty spells. Craft: runes in the corners, Arcane Essence on the sides, an Ironbound Tome in the middle."
+			dependencies: [
+				"34057A5E3000000D"
+				"34057A5E30000002"
 			]
 			icon: {
-				count: 1
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 8
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "festivity:naughty_spellbook"
 			}
 			id: "34057A5E3000000E"
@@ -437,23 +367,15 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E30000045"
-				item: {
-					count: 1
-					id: "festivity:naughty_spellbook"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "festivity:naughty_spellbook" }
 				type: "item"
 			}]
-			title: "Naughty Spellbook"
 			x: 9.5d
 			y: -2.7d
 		}
 		{
 			dependencies: ["34057A5E3000000D"]
-			description: [
-				"A focus on top, a rune in the middle, an Arcane Ingot at the base."
-			]
 			icon: {
-				count: 1
 				id: "festivity:naughty_staff"
 			}
 			id: "34057A5E3000000F"
@@ -466,24 +388,27 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E30000047"
-				item: {
-					count: 1
-					id: "festivity:naughty_staff"
-				}
+				item: { count: 1, id: "festivity:naughty_staff" }
 				type: "item"
 			}]
-			title: "Naughty Staff"
 			x: 9.5d
 			y: -1.7d
 		}
 		{
-			dependencies: ["34057A5E3000000F", "34057A5E30000005"]
-			dependency_requirement: "one_completed"
-			description: [
-				"The full set: hood, robes, leggings, boots. Arcane Cloth with a Naughty Rune sewn in."
+			dependencies: [
+				"34057A5E3000000F"
+				"34057A5E30000005"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
-				count: 1
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "festivity:naughty_mage_chestplate"
 			}
 			id: "34057A5E30000010"
@@ -493,50 +418,38 @@
 				type: "xp"
 				xp: 250
 			}]
-			tasks: [{
-				consume_items: false
-				id: "34057A5E30000049"
-				item: {
-					count: 1
-					id: "festivity:naughty_mage_helmet"
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E30000049"
+					item: { count: 1, id: "festivity:naughty_mage_helmet" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E3000004A"
-				item: {
-					count: 1
-					id: "festivity:naughty_mage_chestplate"
+				{
+					consume_items: false
+					id: "34057A5E3000004A"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "festivity:naughty_mage_chestplate" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E3000004B"
-				item: {
-					count: 1
-					id: "festivity:naughty_mage_leggings"
+				{
+					consume_items: false
+					id: "34057A5E3000004B"
+					item: { count: 1, id: "festivity:naughty_mage_leggings" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E3000004C"
-				item: {
-					count: 1
-					id: "festivity:naughty_mage_boots"
+				{
+					consume_items: false
+					id: "34057A5E3000004C"
+					item: { count: 1, id: "festivity:naughty_mage_boots" }
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Naughty Mage Robes"
+			]
 			x: 11.0d
 			y: -1.7d
 		}
 		{
 			dependencies: ["34057A5E3000000E"]
-			description: [
-				"Eight runes around an Empty Upgrade Orb. Use it at an Arcane Anvil to add Naughty power to gear."
-			]
 			icon: {
-				count: 1
 				id: "festivity:naughty_upgrade_orb"
 			}
 			id: "34057A5E30000011"
@@ -549,25 +462,15 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E3000004E"
-				item: {
-					count: 1
-					id: "festivity:naughty_upgrade_orb"
-				}
+				item: { count: 1, id: "festivity:naughty_upgrade_orb" }
 				type: "item"
 			}]
-			title: "Naughty Upgrade Orb"
 			x: 11.0d
 			y: -2.7d
 		}
 		{
 			dependencies: ["34057A5E30000004"]
-			description: [
-				"Wind-up soldiers, nutcrackers and toy trains that fight for you."
-				""
-				"On snowy nights, Toymaker casters wander the cold. Defeat one: they drop their school's &6Wind-up Key Focus&r, runes and sometimes a scroll."
-			]
 			icon: {
-				count: 1
 				id: "festivity:toymaker_focus"
 			}
 			id: "34057A5E30000012"
@@ -582,17 +485,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Toymaker Caster"
 			x: 6.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["34057A5E30000012"]
-			description: [
-				"Casters drop these, or craft one: 8 Wind-up Key Focuss around a Blank Runestone."
-			]
 			icon: {
-				count: 1
 				id: "festivity:toymaker_rune"
 			}
 			id: "34057A5E30000013"
@@ -601,34 +499,37 @@
 				type: "xp"
 				xp: 50
 			}]
-			tasks: [{
-				consume_items: false
-				id: "34057A5E30000052"
-				item: {
-					count: 1
-					id: "festivity:toymaker_focus"
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E30000052"
+					item: { count: 1, id: "festivity:toymaker_focus" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E30000053"
-				item: {
-					count: 1
-					id: "festivity:toymaker_rune"
+				{
+					consume_items: false
+					id: "34057A5E30000053"
+					item: { count: 1, id: "festivity:toymaker_rune" }
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Toymaker Rune"
+			]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["34057A5E30000013", "34057A5E30000002"]
-			description: [
-				"An 8-slot book that boosts Toymaker spells. Craft: runes in the corners, Arcane Essence on the sides, an Ironbound Tome in the middle."
+			dependencies: [
+				"34057A5E30000013"
+				"34057A5E30000002"
 			]
 			icon: {
-				count: 1
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 8
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "festivity:toymaker_spellbook"
 			}
 			id: "34057A5E30000014"
@@ -640,23 +541,15 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E30000055"
-				item: {
-					count: 1
-					id: "festivity:toymaker_spellbook"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "festivity:toymaker_spellbook" }
 				type: "item"
 			}]
-			title: "Toymaker Spellbook"
 			x: 9.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["34057A5E30000013"]
-			description: [
-				"A focus on top, a rune in the middle, an Arcane Ingot at the base."
-			]
 			icon: {
-				count: 1
 				id: "festivity:toymaker_staff"
 			}
 			id: "34057A5E30000015"
@@ -669,24 +562,27 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E30000057"
-				item: {
-					count: 1
-					id: "festivity:toymaker_staff"
-				}
+				item: { count: 1, id: "festivity:toymaker_staff" }
 				type: "item"
 			}]
-			title: "Toymaker Staff"
 			x: 9.5d
 			y: 0.5d
 		}
 		{
-			dependencies: ["34057A5E30000015", "34057A5E30000005"]
-			dependency_requirement: "one_completed"
-			description: [
-				"The full set: hood, robes, leggings, boots. Arcane Cloth with a Toymaker Rune sewn in."
+			dependencies: [
+				"34057A5E30000015"
+				"34057A5E30000005"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
-				count: 1
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "festivity:toymaker_mage_chestplate"
 			}
 			id: "34057A5E30000016"
@@ -696,50 +592,38 @@
 				type: "xp"
 				xp: 250
 			}]
-			tasks: [{
-				consume_items: false
-				id: "34057A5E30000059"
-				item: {
-					count: 1
-					id: "festivity:toymaker_mage_helmet"
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E30000059"
+					item: { count: 1, id: "festivity:toymaker_mage_helmet" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E3000005A"
-				item: {
-					count: 1
-					id: "festivity:toymaker_mage_chestplate"
+				{
+					consume_items: false
+					id: "34057A5E3000005A"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "festivity:toymaker_mage_chestplate" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E3000005B"
-				item: {
-					count: 1
-					id: "festivity:toymaker_mage_leggings"
+				{
+					consume_items: false
+					id: "34057A5E3000005B"
+					item: { count: 1, id: "festivity:toymaker_mage_leggings" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E3000005C"
-				item: {
-					count: 1
-					id: "festivity:toymaker_mage_boots"
+				{
+					consume_items: false
+					id: "34057A5E3000005C"
+					item: { count: 1, id: "festivity:toymaker_mage_boots" }
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Toymaker Mage Robes"
+			]
 			x: 11.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["34057A5E30000014"]
-			description: [
-				"Eight runes around an Empty Upgrade Orb. Use it at an Arcane Anvil to add Toymaker power to gear."
-			]
 			icon: {
-				count: 1
 				id: "festivity:toymaker_upgrade_orb"
 			}
 			id: "34057A5E30000017"
@@ -752,25 +636,15 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E3000005E"
-				item: {
-					count: 1
-					id: "festivity:toymaker_upgrade_orb"
-				}
+				item: { count: 1, id: "festivity:toymaker_upgrade_orb" }
 				type: "item"
 			}]
-			title: "Toymaker Upgrade Orb"
 			x: 11.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["34057A5E30000004"]
-			description: [
-				"Warmth, feasts and gingerbread golems. The healer's school."
-				""
-				"On snowy nights, Hearthfire casters wander the cold. Defeat one: they drop their school's &6Gingerbread Heart Focus&r, runes and sometimes a scroll."
-			]
 			icon: {
-				count: 1
 				id: "festivity:hearthfire_focus"
 			}
 			id: "34057A5E30000018"
@@ -785,17 +659,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Hearthfire Caster"
 			x: 6.5d
 			y: 2.2d
 		}
 		{
 			dependencies: ["34057A5E30000018"]
-			description: [
-				"Casters drop these, or craft one: 8 Gingerbread Heart Focuss around a Blank Runestone."
-			]
 			icon: {
-				count: 1
 				id: "festivity:hearthfire_rune"
 			}
 			id: "34057A5E30000019"
@@ -804,34 +673,37 @@
 				type: "xp"
 				xp: 50
 			}]
-			tasks: [{
-				consume_items: false
-				id: "34057A5E30000062"
-				item: {
-					count: 1
-					id: "festivity:hearthfire_focus"
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E30000062"
+					item: { count: 1, id: "festivity:hearthfire_focus" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E30000063"
-				item: {
-					count: 1
-					id: "festivity:hearthfire_rune"
+				{
+					consume_items: false
+					id: "34057A5E30000063"
+					item: { count: 1, id: "festivity:hearthfire_rune" }
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Hearthfire Rune"
+			]
 			x: 8.0d
 			y: 2.2d
 		}
 		{
-			dependencies: ["34057A5E30000019", "34057A5E30000002"]
-			description: [
-				"An 8-slot book that boosts Hearthfire spells. Craft: runes in the corners, Arcane Essence on the sides, an Ironbound Tome in the middle."
+			dependencies: [
+				"34057A5E30000019"
+				"34057A5E30000002"
 			]
 			icon: {
-				count: 1
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 8
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "festivity:hearthfire_spellbook"
 			}
 			id: "34057A5E3000001A"
@@ -843,23 +715,15 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E30000065"
-				item: {
-					count: 1
-					id: "festivity:hearthfire_spellbook"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "festivity:hearthfire_spellbook" }
 				type: "item"
 			}]
-			title: "Hearthfire Spellbook"
 			x: 9.5d
 			y: 1.7d
 		}
 		{
 			dependencies: ["34057A5E30000019"]
-			description: [
-				"A focus on top, a rune in the middle, an Arcane Ingot at the base."
-			]
 			icon: {
-				count: 1
 				id: "festivity:hearthfire_staff"
 			}
 			id: "34057A5E3000001B"
@@ -872,24 +736,27 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E30000067"
-				item: {
-					count: 1
-					id: "festivity:hearthfire_staff"
-				}
+				item: { count: 1, id: "festivity:hearthfire_staff" }
 				type: "item"
 			}]
-			title: "Hearthfire Staff"
 			x: 9.5d
 			y: 2.7d
 		}
 		{
-			dependencies: ["34057A5E3000001B", "34057A5E30000005"]
-			dependency_requirement: "one_completed"
-			description: [
-				"The full set: hood, robes, leggings, boots. Arcane Cloth with a Hearthfire Rune sewn in."
+			dependencies: [
+				"34057A5E3000001B"
+				"34057A5E30000005"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
-				count: 1
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "festivity:hearthfire_mage_chestplate"
 			}
 			id: "34057A5E3000001C"
@@ -899,50 +766,38 @@
 				type: "xp"
 				xp: 250
 			}]
-			tasks: [{
-				consume_items: false
-				id: "34057A5E30000069"
-				item: {
-					count: 1
-					id: "festivity:hearthfire_mage_helmet"
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E30000069"
+					item: { count: 1, id: "festivity:hearthfire_mage_helmet" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E3000006A"
-				item: {
-					count: 1
-					id: "festivity:hearthfire_mage_chestplate"
+				{
+					consume_items: false
+					id: "34057A5E3000006A"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "festivity:hearthfire_mage_chestplate" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E3000006B"
-				item: {
-					count: 1
-					id: "festivity:hearthfire_mage_leggings"
+				{
+					consume_items: false
+					id: "34057A5E3000006B"
+					item: { count: 1, id: "festivity:hearthfire_mage_leggings" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E3000006C"
-				item: {
-					count: 1
-					id: "festivity:hearthfire_mage_boots"
+				{
+					consume_items: false
+					id: "34057A5E3000006C"
+					item: { count: 1, id: "festivity:hearthfire_mage_boots" }
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Hearthfire Mage Robes"
+			]
 			x: 11.0d
 			y: 2.7d
 		}
 		{
 			dependencies: ["34057A5E3000001A"]
-			description: [
-				"Eight runes around an Empty Upgrade Orb. Use it at an Arcane Anvil to add Hearthfire power to gear."
-			]
 			icon: {
-				count: 1
 				id: "festivity:hearthfire_upgrade_orb"
 			}
 			id: "34057A5E3000001D"
@@ -955,25 +810,15 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E3000006E"
-				item: {
-					count: 1
-					id: "festivity:hearthfire_upgrade_orb"
-				}
+				item: { count: 1, id: "festivity:hearthfire_upgrade_orb" }
 				type: "item"
 			}]
-			title: "Hearthfire Upgrade Orb"
 			x: 11.0d
 			y: 1.7d
 		}
 		{
 			dependencies: ["34057A5E30000004"]
-			description: [
-				"Northern lights, shooting stars and the long polar night."
-				""
-				"On snowy nights, Aurora casters wander the cold. Defeat one: they drop their school's &6Aurora Shard Focus&r, runes and sometimes a scroll."
-			]
 			icon: {
-				count: 1
 				id: "festivity:aurora_focus"
 			}
 			id: "34057A5E3000001E"
@@ -988,17 +833,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Aurora Caster"
 			x: 6.5d
 			y: 4.4d
 		}
 		{
 			dependencies: ["34057A5E3000001E"]
-			description: [
-				"Casters drop these, or craft one: 8 Aurora Shard Focuss around a Blank Runestone."
-			]
 			icon: {
-				count: 1
 				id: "festivity:aurora_rune"
 			}
 			id: "34057A5E3000001F"
@@ -1007,34 +847,37 @@
 				type: "xp"
 				xp: 50
 			}]
-			tasks: [{
-				consume_items: false
-				id: "34057A5E30000072"
-				item: {
-					count: 1
-					id: "festivity:aurora_focus"
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E30000072"
+					item: { count: 1, id: "festivity:aurora_focus" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E30000073"
-				item: {
-					count: 1
-					id: "festivity:aurora_rune"
+				{
+					consume_items: false
+					id: "34057A5E30000073"
+					item: { count: 1, id: "festivity:aurora_rune" }
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Aurora Rune"
+			]
 			x: 8.0d
 			y: 4.4d
 		}
 		{
-			dependencies: ["34057A5E3000001F", "34057A5E30000002"]
-			description: [
-				"An 8-slot book that boosts Aurora spells. Craft: runes in the corners, Arcane Essence on the sides, an Ironbound Tome in the middle."
+			dependencies: [
+				"34057A5E3000001F"
+				"34057A5E30000002"
 			]
 			icon: {
-				count: 1
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 8
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "festivity:aurora_spellbook"
 			}
 			id: "34057A5E30000020"
@@ -1046,23 +889,15 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E30000075"
-				item: {
-					count: 1
-					id: "festivity:aurora_spellbook"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "festivity:aurora_spellbook" }
 				type: "item"
 			}]
-			title: "Aurora Spellbook"
 			x: 9.5d
 			y: 3.9d
 		}
 		{
 			dependencies: ["34057A5E3000001F"]
-			description: [
-				"A focus on top, a rune in the middle, an Arcane Ingot at the base."
-			]
 			icon: {
-				count: 1
 				id: "festivity:aurora_staff"
 			}
 			id: "34057A5E30000021"
@@ -1075,24 +910,27 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E30000077"
-				item: {
-					count: 1
-					id: "festivity:aurora_staff"
-				}
+				item: { count: 1, id: "festivity:aurora_staff" }
 				type: "item"
 			}]
-			title: "Aurora Staff"
 			x: 9.5d
 			y: 4.9d
 		}
 		{
-			dependencies: ["34057A5E30000021", "34057A5E30000005"]
-			dependency_requirement: "one_completed"
-			description: [
-				"The full set: hood, robes, leggings, boots. Arcane Cloth with a Aurora Rune sewn in."
+			dependencies: [
+				"34057A5E30000021"
+				"34057A5E30000005"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
-				count: 1
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "festivity:aurora_mage_chestplate"
 			}
 			id: "34057A5E30000022"
@@ -1102,50 +940,38 @@
 				type: "xp"
 				xp: 250
 			}]
-			tasks: [{
-				consume_items: false
-				id: "34057A5E30000079"
-				item: {
-					count: 1
-					id: "festivity:aurora_mage_helmet"
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E30000079"
+					item: { count: 1, id: "festivity:aurora_mage_helmet" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E3000007A"
-				item: {
-					count: 1
-					id: "festivity:aurora_mage_chestplate"
+				{
+					consume_items: false
+					id: "34057A5E3000007A"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "festivity:aurora_mage_chestplate" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E3000007B"
-				item: {
-					count: 1
-					id: "festivity:aurora_mage_leggings"
+				{
+					consume_items: false
+					id: "34057A5E3000007B"
+					item: { count: 1, id: "festivity:aurora_mage_leggings" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E3000007C"
-				item: {
-					count: 1
-					id: "festivity:aurora_mage_boots"
+				{
+					consume_items: false
+					id: "34057A5E3000007C"
+					item: { count: 1, id: "festivity:aurora_mage_boots" }
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Aurora Mage Robes"
+			]
 			x: 11.0d
 			y: 4.9d
 		}
 		{
 			dependencies: ["34057A5E30000020"]
-			description: [
-				"Eight runes around an Empty Upgrade Orb. Use it at an Arcane Anvil to add Aurora power to gear."
-			]
 			icon: {
-				count: 1
 				id: "festivity:aurora_upgrade_orb"
 			}
 			id: "34057A5E30000023"
@@ -1158,23 +984,29 @@
 			tasks: [{
 				consume_items: false
 				id: "34057A5E3000007E"
-				item: {
-					count: 1
-					id: "festivity:aurora_upgrade_orb"
-				}
+				item: { count: 1, id: "festivity:aurora_upgrade_orb" }
 				type: "item"
 			}]
-			title: "Aurora Upgrade Orb"
 			x: 11.0d
 			y: 3.9d
 		}
 		{
-			dependencies: ["34057A5E30000008", "34057A5E3000000E", "34057A5E30000014", "34057A5E3000001A", "34057A5E30000020"]
-			description: [
-				"All five festive spellbooks. Santy Claws's own casters would be jealous."
+			dependencies: [
+				"34057A5E30000008"
+				"34057A5E3000000E"
+				"34057A5E30000014"
+				"34057A5E3000001A"
+				"34057A5E30000020"
 			]
 			icon: {
-				count: 1
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 8
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
 				id: "festivity:aurora_spellbook"
 			}
 			id: "34057A5E30000024"
@@ -1185,51 +1017,40 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				consume_items: false
-				id: "34057A5E30000080"
-				item: {
-					count: 1
-					id: "festivity:yuletide_spellbook"
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E30000080"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "festivity:yuletide_spellbook" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E30000081"
-				item: {
-					count: 1
-					id: "festivity:naughty_spellbook"
+				{
+					consume_items: false
+					id: "34057A5E30000081"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "festivity:naughty_spellbook" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E30000082"
-				item: {
-					count: 1
-					id: "festivity:toymaker_spellbook"
+				{
+					consume_items: false
+					id: "34057A5E30000082"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "festivity:toymaker_spellbook" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E30000083"
-				item: {
-					count: 1
-					id: "festivity:hearthfire_spellbook"
+				{
+					consume_items: false
+					id: "34057A5E30000083"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "festivity:hearthfire_spellbook" }
+					type: "item"
 				}
-				type: "item"
-			} {
-				consume_items: false
-				id: "34057A5E30000084"
-				item: {
-					count: 1
-					id: "festivity:aurora_spellbook"
+				{
+					consume_items: false
+					id: "34057A5E30000084"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "festivity:aurora_spellbook" }
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Master of the Five Schools"
+			]
 			x: 13.5d
 			y: 0.0d
 		}
 	]
-	title: "Spellcraft"
 }
