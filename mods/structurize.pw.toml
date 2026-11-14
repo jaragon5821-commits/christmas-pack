@@ -1,14 +1,14 @@
-filename = 'structurize-1.0.837-1.21.1-snapshot.jar'
+filename = "structurize-1.0.839-1.21.1.jar"
 name = 'Structurize'
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/9333/948/structurize-1.0.837-1.21.1-snapshot.jar"
+url = "https://edge.forgecdn.net/files/9556/249/structurize-1.0.839-1.21.1.jar"
 hash-format = "sha512"
-hash = "5a03a88a5a7d432a86966c2d02e6ab7916a22f39e90aa408c43ce7fe8454c84d28fb94f88cacf128ca9b847a8c5e4c5105116f16741584e2a7ce9e9a71302067"
+hash = "36c2689f3e2bb6df204a6d2e0cfd2d448ab06a07de41f059b14a35c041c930c86a3fec899a9736796d66e240c9a1cb6db2c16a25f6d8cac29a24507faf045d32"
 
 [update.curseforge]
-file-id = 9333948
+file-id = 9556249
 project-id = 298744
 
 [[x-prismlauncher-dependencies]]

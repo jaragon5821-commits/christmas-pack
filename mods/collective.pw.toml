@@ -1,15 +1,14 @@
-filename = "collective-1.21.1-8.79.jar"
+filename = "collective-1.21.1-8.86.jar"
 name = "Collective"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/e0M1UDsY/versions/ry7LvdEb/collective-1.21.1-8.86.jar"
 hash-format = "sha512"
-hash = "014f451e904b99e26365205b1a3cb4a65c0cdd81144f8a08e9c8d98f5b775f412add0d7773389291a2e9ee56ca3231e2efe5bef0aef79abfd952e7f9282a1d84"
-mode = "url"
-url = "https://cdn.modrinth.com/data/e0M1UDsY/versions/v2Smf44T/collective-1.21.1-8.79.jar"
+hash = "b741915a3952bfb1f83ff74a3aee84128fb0d09b8e75ff836b1820c1b2d221fd5cf4bfa91146afee02468f6a7010cf5ae2b8f64746a6fc7bfa1e27b0abc4f99a"
 
 [update]
 [update.modrinth]
 mod-id = "e0M1UDsY"
-version = "v2Smf44T"
+version = "ry7LvdEb"
 

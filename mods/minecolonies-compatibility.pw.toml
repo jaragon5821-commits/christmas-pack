@@ -1,13 +1,13 @@
-filename = "MineColonies_Compatibility-1.21.1-3.60.jar"
+filename = "MineColonies_Compatibility-1.21.1-3.61.jar"
 name = "MineColonies Compatibility"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/9255/68/MineColonies_Compatibility-1.21.1-3.60.jar"
+url = "https://edge.forgecdn.net/files/9454/723/MineColonies_Compatibility-1.21.1-3.61.jar"
 hash-format = "sha512"
-hash = "145ff1ea8a344fdbc43bad079ee36c7343a8902c50422825a00606292bf8bae75ebbd609103ac4a64a9a1fee1dd8a15d0f895efa820767f8f9e833c5072f628c"
+hash = "da977a8a5389aa8e83bd773287558c4d661d7a846b1241b61d2260104b59353b325d61755fccda35e5eb66c366e276f8872cce59d06e2bb82bdadfa8887869fc"
 
 [update]
 [update.curseforge]
-file-id = 9255068
+file-id = 9454723
 project-id = 1006214

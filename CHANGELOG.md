@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026.11.15-1
+- Road Bridges 0.13.4
+- Festivity 0.9.140
+- Bug-fix mod updates: CreativeCore, Enhanced Celestials 2 (x3), AsyncParticles, Particle Rain, Moonlight, Sophisticated Core/Backpacks/Storage, Collective, OctoLib, Architectury, Oh The Trees You'll Grow, Right Click Harvest, Entity Culling, Shoulder Surfing, Cinematic Respawn, JEED, Immersive Overlays, EMF compat NEA, Exposure, FTB Library/Quests/Teams, AllTheLeaks
+- MineColonies 1.1.1420, Structurize 1.0.839, Domum Ornamentum 1.0.237, MineColonies Compatibility 3.61, MineColonies Tweaks 3.34
+
 ## 2026.11.12-2
 - Title screen: Multiplayer button is back (LAN worlds and the server list), under Singleplayer; both Join buttons kept
 

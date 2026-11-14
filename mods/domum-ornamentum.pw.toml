@@ -1,12 +1,12 @@
-filename = 'domum-ornamentum-1.0.236-snapshot-main.jar'
+filename = "domum-ornamentum-1.0.237-snapshot-main.jar"
 name = 'Domum Ornamentum'
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/8784/713/domum-ornamentum-1.0.236-snapshot-main.jar"
+url = "https://edge.forgecdn.net/files/9394/376/domum-ornamentum-1.0.237-snapshot-main.jar"
 hash-format = "sha512"
-hash = "0d00bcaf1d2dc234f8a166f8af30ec1bde3c4c1dd8c5e8a05d77368276d5b7115043cc0a14cf7a747e43490e71a82456ccaadb55b24f26171fd890c070d9c890"
+hash = "f0d56073a6053ff1318701ec1b9bfcb5aae40be658ec6e7cb4211613dfb170288e4cf408c8ff676d5369bf3789492d1a629ba8736422ee8d2fb9fa0d019e9d60"
 
 [update.curseforge]
-file-id = 8784713
+file-id = 9394376
 project-id = 527361

@@ -1,15 +1,14 @@
-filename = "jeed-1.21-2.3.5-neoforge.jar"
+filename = "jeed-1.21-2.3.6-neoforge.jar"
 name = "Just Enough Effect Descriptions (JEED)"
 side = "client"
 
 [download]
+url = "https://cdn.modrinth.com/data/EO27GKs1/versions/v3C29Jz9/jeed-1.21-2.3.6-neoforge.jar"
 hash-format = "sha512"
-hash = "4146d83f9801142d9abb36aa41d0a9137c93448f01ab2d3486f4dfad7ff4e83581d929fa155de96f69d5615216e6f7d92ad8ad0662deb9835fbbf841f8e9cf0b"
-mode = "url"
-url = "https://cdn.modrinth.com/data/EO27GKs1/versions/3dTukOBl/jeed-1.21-2.3.5-neoforge.jar"
+hash = "1383d19086877abc5a7dc1d309f0f2d0a6ada8cfdaf4f8b64a5079c8a95fe690cf731ee04ff2c278a58b3b2ff844d04ee647849fc3fe14eb4444cd9d0c84358a"
 
 [update]
 [update.modrinth]
 mod-id = "EO27GKs1"
-version = "3dTukOBl"
+version = "v3C29Jz9"
 

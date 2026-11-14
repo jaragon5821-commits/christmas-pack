@@ -1,13 +1,13 @@
-filename = "alltheleaks-1.1.13+1.21.1-neoforge.jar"
+filename = "alltheleaks-1.1.16-1.21.1-neoforge.jar"
 name = "AllTheLeaks"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/8943/912/alltheleaks-1.1.13%2b1.21.1-neoforge.jar"
+url = "https://edge.forgecdn.net/files/9498/307/alltheleaks-1.1.16-1.21.1-neoforge.jar"
 hash-format = "sha512"
-hash = "49710a09e8874f0abd2a9e3c7c8fdd477a990b9bd477863b6ab2622afb95d6b8faa6dc9793f96d155431ad2f94a225588e91869e1fd2c2aeb86697420f741a4a"
+hash = "75e89a56bf0d6f2a61e83ceb31d5ebf40d3d7f7b9be342074fadf5c9b5de62d4b50c4c47801baec6598ff8384435e5eee8e72b5361eb8d6c996d5b39b086faa9"
 
 [update]
 [update.curseforge]
-file-id = 8943912
+file-id = 9498307
 project-id = 1091339

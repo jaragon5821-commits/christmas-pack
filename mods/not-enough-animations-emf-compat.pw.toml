@@ -1,14 +1,13 @@
-filename = "emf_compat_not_enough_animations_neoforge_1.21.1_1.2.1.jar"
+filename = "emf_compat_not_enough_animations_neoforge_1.21.1_1.2.2.jar"
 name = "EMF Compat: Not Enough Animations"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/IGCrWfL7/versions/5woW9GNz/emf_compat_not_enough_animations_neoforge_1.21.1_1.2.2.jar"
 hash-format = "sha512"
-hash = "cb23695118bb831a61ef01d7207238c4b6cf277b98d9a019f8567787cc44bf3d024ef7406c9762045558e1ca7a39786cb9d172dd0a745d72b6fc56468139926d"
-mode = "url"
-url = "https://cdn.modrinth.com/data/IGCrWfL7/versions/X9UBK5Uu/emf_compat_not_enough_animations_neoforge_1.21.1_1.2.1.jar"
+hash = "7fd5a39b1a82b957fe52728f7df526a9e30171ce11087a30c69f63e0b17b381b30989ae8573a7894124e5a32a66b984cb60904d0cf022c81946745ed1bd31dbe"
 
 [update]
 [update.modrinth]
 mod-id = "IGCrWfL7"
-version = "X9UBK5Uu"
+version = "5woW9GNz"
