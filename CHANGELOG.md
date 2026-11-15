@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.15-3
+- Chop's Christmas Village colony style v3.22 (749 blueprints, Festivity blocks)
+
 ## 2026.11.15-2
 - Festivity 0.9.161, Christmas Structures v49d, gingerbread house loot v2, Mama's Merrymaking pine mantel recipes disabled, Sophisticated Storage/Core configs refreshed
 

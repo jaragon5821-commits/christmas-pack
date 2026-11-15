@@ -8,20 +8,18 @@
   "mods": [
     "another_furniture",
     "candlelight",
-    "chop",
+    "farmersdelight",
     "festivity",
     "furniture",
     "handcrafted",
     "hearth_and_timber",
     "mcwlights",
-    "mcwpaths",
-    "mcwroofs",
     "minecolonies",
     "stoneworks",
     "structurize",
     "supplementaries",
     "twigs"
   ],
-  "version": "3.17",
+  "version": "3.22",
   "pack-format": "1"
 }
