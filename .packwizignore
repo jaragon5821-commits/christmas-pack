@@ -18,3 +18,4 @@ config/litematica/
 config/spark/
 config/jei/world/
 config/roadweaver/structure_cache_overworld.json
+config/chunky/tasks/

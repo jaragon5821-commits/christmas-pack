@@ -4830,8 +4830,8 @@ file = "config/openloader/packs/15_Chops_Roadside_Christmas_v2.zip"
 hash = "2cf765fd5d84a24fceed8b30a844f49c3b5e6069e2d8ffd6d776b27fbf31749c"
 
 [[files]]
-file = "config/openloader/packs/16_Chops_Christmas_Structures_v46.zip"
-hash = "19d5108f1b9dc262b699378d0aa4e8404ec0f573a63ae50f470228161031f1a8"
+file = "config/openloader/packs/16_Chops_Christmas_Structures_v49d.zip"
+hash = "b3cf8300532841a74ae4d2b55827e7549cbd886f3ad967d73526e46d5d40bee7"
 
 [[files]]
 file = "config/openloader/packs/17_chop_christmas_caves_v1b.zip"
@@ -5335,7 +5335,7 @@ hash = "12f65a872b73c931b0a192d7e95c7d89f7ef7f1fd33f3ee7ff6bbda12fb8845f"
 
 [[files]]
 file = "config/sophisticatedcore-common.toml"
-hash = "48b3793f78023204db85cd597ce97321670e59bf6fecfc38a4538c011398587c"
+hash = "3f8f81b9651407e4878d45a6664d63c4dfa9f7acc4dc3eefa380f53e42ee2dd3"
 
 [[files]]
 file = "config/sophisticatedsorter-client.toml"
@@ -5355,7 +5355,7 @@ hash = "0c721ecf8a9a6fba8402b7ce73bf8580acdd078e9ac9c3b37c42245ca6d8c4b0"
 
 [[files]]
 file = "config/sophisticatedstorage-server.toml"
-hash = "0829ac7bfb386cee8c51fca99d0eeddd9e5cca1885398eae6594d45215ae21ad"
+hash = "7f6086137885989e159cf84ce322dec6f1f77e9130dbcd5a4099a6a2587a37cc"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
@@ -42966,6 +42966,22 @@ file = "kubejs/data/festive_delight/recipe/tea_craft.json"
 hash = "48a8874a135e29b1200cf8ef1d9c8f1fe4cc8576852fcf5a84ba7894b439a00a"
 
 [[files]]
+file = "kubejs/data/merrymaking/recipe/aged_pine_mantel.json"
+hash = "f66817eed566b1c3a71a06f52846894f1cccbf9dae1ceb4ea36c0559417db1ea"
+
+[[files]]
+file = "kubejs/data/merrymaking/recipe/exposed_pine_mantel.json"
+hash = "f66817eed566b1c3a71a06f52846894f1cccbf9dae1ceb4ea36c0559417db1ea"
+
+[[files]]
+file = "kubejs/data/merrymaking/recipe/pine_mantel.json"
+hash = "f66817eed566b1c3a71a06f52846894f1cccbf9dae1ceb4ea36c0559417db1ea"
+
+[[files]]
+file = "kubejs/data/merrymaking/recipe/weathered_pine_mantel.json"
+hash = "f66817eed566b1c3a71a06f52846894f1cccbf9dae1ceb4ea36c0559417db1ea"
+
+[[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
@@ -43075,7 +43091,7 @@ hash = "4e8e2f8fc625e2fc7de9f2dfdb5b7fe7e3525c29d63485b56f92dcd033346e0e"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_gbhouse_loot.js"
-hash = "3e405cf790db0bfd1e10169690f01de04a8896d8b7c0eb7d9a804d810b2982af"
+hash = "6e1fe8d0bee657ce638bc6617426c126f7a448647175699380ccb8784809eb8b"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_loot.js"
@@ -43572,8 +43588,8 @@ hash = "e375c093c24e4464ccb2186b77177b742046c0d926c248805421ac8cd51fa998"
 metafile = true
 
 [[files]]
-file = "mods/custom-festivity-0.9.140.pw.toml"
-hash = "f5c9024b7ad2f8099356fa9ae358a030e09d183ec545c697e40ebe370d522414"
+file = "mods/custom-festivity-0.9.161.pw.toml"
+hash = "c98d9ff5ddbcfc4c22545c1fd78b21ff58e47d1155f979736ef4bb361504f1e1"
 metafile = true
 
 [[files]]

@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.15-2
+- Festivity 0.9.161, Christmas Structures v49d, gingerbread house loot v2, Mama's Merrymaking pine mantel recipes disabled, Sophisticated Storage/Core configs refreshed
+
 ## 2026.11.15-1
 - Road Bridges 0.13.4
 - Festivity 0.9.140
