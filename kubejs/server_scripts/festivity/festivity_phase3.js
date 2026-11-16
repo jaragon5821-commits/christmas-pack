@@ -64,6 +64,7 @@ ServerEvents.tick(event => {
   // roll
   if (day == p3_lastRollDay || v < 60 || p3isNight(server) || d.contains('heist') || d.contains('letter') || d.contains('event')) return;
   p3_lastRollDay = day;
+  if (!anchor(server)) return;   // 11-16 boss: no heist / Naughty Letter / events before the first town hall
   if (Math.random() > P3.ROLL_CHANCE) return;
   if (Math.random() < 0.5 && anchor(server)) startHeist(server); else startLetter(server);   // heist fix: no town hall -> letter
 });

@@ -24,14 +24,15 @@
 // Design: "Festivity Mechanic - Design v2.2" (Drive). Server script: runs in single player too.
 
 const FEST = {
-  VERSION: '0.4.4',
+  VERSION: '0.4.5',   // 11-16: drift a quarter, -5 on death, overhunting, decor taper
   START: 55,                 // new world starting value (Josh: 55)
   MIN: 0, MAX: 100,
   HYSTERESIS: 3,             // points past a band edge before the band changes back
   MILESTONE_HYST: 1,         // 0.4.4: points below a 5-point mark before "fell below" is announced
   DRIFT_TARGET: 60,          // bar drifts toward this while players are online
-  DRIFT_PER_HOUR: 0.5,       // x sqrt(online players); doubled above 80 / below 20 (toward middle)
-  DRIFT_EDGE_PER_HOUR: 1.0,
+  DRIFT_PER_HOUR: 0.125,     // x sqrt(online players); doubled above 80 / below 20 (toward middle). 11-16 boss: a quarter of the old 0.5
+  DRIFT_EDGE_PER_HOUR: 0.25,  // 11-16 boss: a quarter of the old 1.0
+  DEATH_PENALTY: 5,          // 11-16 boss: the world loses 5 Festivity when a player dies (not while stuffed in Claws' present)
   GRACE_REAL_MS: 10 * 60 * 1000,   // 10 real min after an empty period: no spawns / events
   HOMECOMING_DAYS: 3, HOMECOMING_POINTS: 2,
   WELCOME_BACK_HOURS: 12,    // show the Welcome Back briefing after this long away
@@ -69,7 +70,7 @@ const FEST = {
   ACTIONS: {
     festive_food:   { pts: 0.5,  cap: 5 },
     give_present:   { pts: 2,    cap: 6 },
-    place_decor:    { pts: 0.2,  cap: 4 },
+    place_decor:    { pts: 0.2,  cap: 6, taper: 4 },   // 11-16 boss: full points for the first 20 decor a day, then a quarter (cap 6 = 60 more)
     hut_built:      { pts: 1,    cap: 0 },     // per level, from MineColonies advancement
     colony_grew:    { pts: 3,    cap: 0 },
     citizen_fed:    { pts: 0.5,  cap: 5 },
@@ -87,7 +88,7 @@ const FEST = {
     hurt_villager:  { pts: -0.1 },
     hurt_colonist:  { pts: -0.2 },
     kill_festive:   { pts: -2 },               // Snuffle, reindeer, golems (tag chop:festive_creatures)
-    kill_animal:    { pts: -0.1, free: 5, cap: -1 },
+    kill_animal:    { pts: -0.1, free: 10, cap: -1 },  // 11-16 boss: free kills doubled (5 -> 10); the penalty reads 'overhunting'
     kill_baby:      { pts: -0.3 },
     kill_pet:       { pts: -2,   cap: -4 },
     break_decor:    { pts: -1 },
@@ -445,6 +446,7 @@ function score(server, player, key, mult, reason) {
       let cap = a.cap * seasonScale(server);
       let used = me.caps[key] || 0;
       if (used >= cap) { saveLedger(server, L.all); return 0; }
+      if (a.taper && used >= a.taper * seasonScale(server)) pts *= 0.25;   // tapering source (place_decor)
       pts = Math.min(pts, cap - used);
       me.caps[key] = used + pts;
     }
@@ -687,6 +689,27 @@ EntityEvents.afterHurt(event => {                                   // smoke tes
   else if (e.type.startsWith('mca:') || e.type == 'minecraft:villager' || e.type == 'minecraft:wandering_trader') G.score(p.server, p, 'hurt_villager', 1, 'hurt a villager');
 });
 
+// 11-16 boss: the world loses DEATH_PENALTY when a player dies (not while stuffed in Claws' present: phase 2 sends them back in, no cost)
+EntityEvents.death(event => {
+  let d = event.entity;
+  try {
+    if (!d || !d.isPlayer() || !d.server) return;
+    if (d.persistentData.getBoolean('fest_trapped')) return;
+    G.change(d.server, -FEST.DEATH_PENALTY, 'death', d, d.username + ' died');
+    G.logEvent(d.server, d.username + ' died: -' + FEST.DEATH_PENALTY + ' Festivity');
+    d.persistentData.putBoolean('fest_died', true);
+  } catch (x) { console.warn('[Festivity] death penalty failed: ' + x); }
+});
+PlayerEvents.respawned(event => {
+  let p = event.player;
+  try {
+    if (!p.persistentData.getBoolean('fest_died')) return;
+    p.persistentData.putBoolean('fest_died', false);
+    // [text: placeholder until Lorekeeper writes the line]
+    G.cmd(p.server, 'title ' + p.username + ' actionbar ' + G.jsonText('The world grew a little colder. -' + FEST.DEATH_PENALTY + ' Festivity', 'red'));
+  } catch (x) {}
+});
+
 EntityEvents.death(event => {
   let src = event.source; let p = src ? src.player : null;
   if (!p || !p.isPlayer()) return;
@@ -701,7 +724,7 @@ EntityEvents.death(event => {
     let named = false; try { named = e.hasCustomName(); } catch (x) {}
     if (tamed || named) G.score(server, p, 'kill_pet', 1, 'killed a pet');
     else if (e.isBaby()) G.score(server, p, 'kill_baby', 1, 'killed a baby animal');
-    else G.score(server, p, 'kill_animal', 1, 'hunting');
+    else G.score(server, p, 'kill_animal', 1, 'overhunting');
   }
 });
 

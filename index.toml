@@ -43131,7 +43131,7 @@ hash = "a6b0784ef18854c48763ccc1c06306e84970a57fe7738dbf0633c37c195e4470"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity.js"
-hash = "4e8e2f8fc625e2fc7de9f2dfdb5b7fe7e3525c29d63485b56f92dcd033346e0e"
+hash = "e290071f5ed0cf9bfe2197d272fc372e481f4ffc539b44ed407a2e07dcf4cfb2"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_gbhouse_loot.js"
@@ -43151,11 +43151,11 @@ hash = "d3ce94e53ff6ce7b213200693a46bcab8ae15646d5ae9e98ae53a4c7559a4b13"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase3.js"
-hash = "09de296d8ca29efdf6d9339c743b2f299381a0246beca1d5a583b0e5f884d4f6"
+hash = "65e0c04cc40b00d88091a67074305aefa302ca6f3862c5757dd3fa2c9e1207f1"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase4.js"
-hash = "d3ba4d8b0536db5adf3e1bd40d407d1395aba6229ebca4bb1b2526f64fe0c043"
+hash = "63b5b7a522a6d3a126c424d9d71fc3b43d2261ddaefa4aad86e0459c9781386b"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase5.js"

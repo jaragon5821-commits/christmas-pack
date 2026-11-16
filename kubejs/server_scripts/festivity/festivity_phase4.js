@@ -11,6 +11,9 @@ const P4 = {
   NIGHT_CHANCE_LOW: 0.6,       // chance of ONE event per night at <=49
   NIGHT_CHANCE_HIGH: 0.4,      // chance per night at >=60
   NIGHT_CHANCE_QUIET: 0.2,     // 50-59: mild events only
+  EVENTS_NEED_TOWNHALL: true,  // 11-16 boss: no natural events before the first town hall
+  TANTRUM_CHANCE: 0.03,        // 11-16 boss: Claus's Tantrum, chance per dawn while Festivity >= TANTRUM_MIN
+  TANTRUM_MIN: 65,
   ADVENT: true,                // real-calendar Dec 1-24: an event every dusk, guaranteed
   OUTPOST_AT: 30, OUTPOST_W: 35,       // weight (of 100) for the Outpost roll when none stands and value <= OUTPOST_AT
   SPIRE_AT: 39, SPIRE_W: 20, SPIRE_MAX: 2,
@@ -329,14 +332,24 @@ e4def('giftdrop', 'Gift Drop', ['high', 'quiet'], 14, server => {
   e4cmd(server, 'tellraw ' + s.player.username + ' ' + E4.jsonText('Something is floating down beside you...', 'gold'));
   return {};
 }, null);
-function e4gift(server, x, y, z) { let g = e4json(server, 'p4_gifts', []); g.push({ x: x, y: y, z: z }); e4save(server, 'p4_gifts', g); }
+function e4gift(server, x, y, z, reindeer) { let g = e4json(server, 'p4_gifts', []); g.push({ x: x, y: y, z: z, reindeer: !!reindeer }); e4save(server, 'p4_gifts', g); }
+// 11-16 boss: the event reindeer never dies in front of players. It leaves in a puff of snow (bells), then is removed far below the world (no drops seen).
+function e4reindeerLeave(server) {
+  e4cmd(server, 'execute at @e[tag=fest_reindeer,tag=fest_e4] run particle minecraft:snowflake ~ ~1 ~ 0.6 0.8 0.6 0.05 60 force');
+  e4cmd(server, 'execute at @e[tag=fest_reindeer,tag=fest_e4] run particle minecraft:cloud ~ ~1 ~ 0.5 0.6 0.5 0.02 20 force');
+  e4cmd(server, 'execute at @e[tag=fest_reindeer,tag=fest_e4] run playsound minecraft:block.bell.use master @a ~ ~ ~ 1 2');
+  e4cmd(server, 'tp @e[tag=fest_reindeer,tag=fest_e4] ~ -2000 ~');
+  server.scheduleInTicks(2, () => e4cmd(server, 'kill @e[tag=fest_reindeer,tag=fest_e4]'));
+}
 BlockEvents.broken(event => {
   try {
     let p = event.player; if (!p || !p.server) return;
     let g = e4json(p.server, 'p4_gifts', []); if (!g.length) return;
     let b = event.block, keep = [], hit = false;
-    for (let q of g) { if (q.x == b.x && q.y == b.y && q.z == b.z) hit = true; else keep.push(q); }
+    let deer = false;
+    for (let q of g) { if (q.x == b.x && q.y == b.y && q.z == b.z) { hit = true; if (q.reindeer) deer = true; } else keep.push(q); }
     if (!hit) return;
+    if (deer) p.server.scheduleInTicks(30, () => e4reindeerLeave(p.server));   // present opened: the reindeer leaves
     e4save(p.server, 'p4_gifts', keep);
     e4cmd(p.server, 'loot spawn ' + b.x + ' ' + (b.y + 0.5) + ' ' + b.z + ' loot chop:santa_rare');
     e4cmd(p.server, 'playsound minecraft:entity.player.levelup master @a ' + b.x + ' ' + b.y + ' ' + b.z + ' 1 1.4');
@@ -390,9 +403,9 @@ e4def('reindeer', 'Reindeer Sighting', ['high'], 10, server => {
   let s = e4spot(server, 40, 60); if (!s) return null;
   if (!e4dry(server, s.x, s.y, s.z, 2)) return null;
   e4cmd(server, 'summon ' + fid('minecraft:horse') + ' ' + s.x + ' ' + s.y + ' ' + s.z + ' {NoAI:1b,Silent:1b,Variant:0,Tags:["fest_e4","fest_reindeer"]}');
-  e4cmd(server, 'setblock ' + (s.x + 1) + ' ' + s.y + ' ' + (s.z + 1) + ' ' + presentItem()); e4gift(server, s.x + 1, s.y, s.z + 1);
+  e4cmd(server, 'setblock ' + (s.x + 1) + ' ' + s.y + ' ' + (s.z + 1) + ' ' + presentItem()); e4gift(server, s.x + 1, s.y, s.z + 1, true);
   for (let i = 0; i < 9; i++) server.scheduleInTicks(i * 200, () => e4cmd(server, 'playsound minecraft:block.bell.use master @a ' + s.x + ' ' + s.y + ' ' + s.z + ' 3 1.5'));
-  server.scheduleInTicks(1800, () => e4cmd(server, 'kill @e[tag=fest_reindeer,tag=fest_e4]'));   // v11: only the event reindeer (Phase 5 wild/tamed reindeer carry fest_reindeer too)
+  server.scheduleInTicks(1800, () => e4reindeerLeave(server));   // 11-16: leaves, never dies on screen. v11: only the event reindeer (Phase 5 wild/tamed reindeer carry fest_reindeer too)
   let dx = s.x - s.player.x, dz = s.z - s.player.z, dir = Math.abs(dx) > Math.abs(dz) ? (dx > 0 ? 'east' : 'west') : (dz > 0 ? 'south' : 'north');
   e4cmd(server, 'tellraw ' + s.player.username + ' ' + E4.jsonText('Bells to the ' + dir + '. A reindeer? Follow it before it bolts.', 'gold'));
   return {};
@@ -688,6 +701,8 @@ function festDirector() {
   return fest_DIR;
 }
 function rollEvent4(server) {
+  // 11-16 boss: no natural event (or anything that talks about events / the town hall) until at least one town hall exists. Forced /festivity event still works.
+  if (P4.EVENTS_NEED_TOWNHALL && !e4townHall(server)) { e4log('no town hall yet: no events tonight'); return; }
   let pool = e4pool(server); if (!pool.list.length) return;
   let en = festEventNight(server, pool.band);   // 0.9.36: Java rolls the Event Night (December chance lives in the jar config)
   if (en === null) {   // old jar: old chances
@@ -707,6 +722,39 @@ function endEvent4(server) {
   E4.data(server).remove('p4_booby'); E4.data(server).remove('p4_thief');
 }
 let e4_lastRollDay = -1;
+// ================= Claus's Tantrum (11-16 boss) =================
+// Rarely, at dawn on a cheerful world, Claus decides things are far too jolly and kicks Festivity to 0. Through the day it climbs back,
+// reaching the value from before by dusk. Needs a town hall like every other event. Lines are placeholders until Lorekeeper writes them.
+let e4_lastTantrumDay = -1;
+function tantrumTick(server, t, day) {
+  let st = e4json(server, 'p4_tantrum', null);
+  if (st) {
+    let target = st.from, v = E4.value(server);
+    if (t >= 12000 || st.day != day || v >= target) {
+      if (v < target) E4.change(server, target - v, 'drift-silent', null, null);
+      E4.data(server).remove('p4_tantrum');
+      e4text(server, 'Claus has stomped off. The cheer is back where it was.', 'green');
+      E4.logEvent(server, "Claus's Tantrum is over");
+      return;
+    }
+    let step = Math.max(0.05, target * 100 / 12000);   // even climb from dawn to dusk (this runs every 100 ticks)
+    E4.change(server, Math.min(step, target - v), 'drift-silent', null, null);
+    return;
+  }
+  if (t >= 600 || day == e4_lastTantrumDay) return;
+  e4_lastTantrumDay = day;
+  let v = E4.value(server);
+  if (v < P4.TANTRUM_MIN || Math.random() >= P4.TANTRUM_CHANCE) return;
+  if (P4.EVENTS_NEED_TOWNHALL && !e4townHall(server)) return;
+  e4save(server, 'p4_tantrum', { from: v, day: day });
+  E4.change(server, -v, 'drift-silent', null, null);
+  E4.logEvent(server, "Claus's Tantrum: Festivity kicked to 0 (was " + Math.round(v) + ')');
+  e4cmd(server, 'title @a title ' + E4.jsonText("CLAUS'S TANTRUM", 'dark_red'));
+  e4cmd(server, 'title @a subtitle ' + E4.jsonText('Far too jolly! He kicks the cheer to 0. It creeps back by dusk.', 'red'));
+  e4cmd(server, 'playsound minecraft:entity.ravager.roar master @a ~ ~ ~ 0.4 0.6');
+  e4cmd(server, 'execute at @a run particle minecraft:large_smoke ~ ~1 ~ 3 1 3 0.02 80');
+  e4log('tantrum from ' + v.toFixed(1));
+}
 ServerEvents.tick(event => {
   let server = event.server;
   if (server.tickCount % 20 != 0) return;
@@ -714,11 +762,13 @@ ServerEvents.tick(event => {
   if (E4.data(server).contains('claws')) clawsSmash(server);
   if (server.tickCount % 100 != 0) return;
   let t = E4.dayTime(server) % 24000, day = E4.dayCount(server);
+  try { tantrumTick(server, t, day); } catch (x) { console.warn('[Festivity4] tantrum: ' + x); }
   if (e4json(server, 'p4_spires', []).length) spireTick(server);
   if (server.tickCount % 200 == 0 && E4.data(server).contains('outpost')) outpostTick4(server);
   if (t >= 12500 && t < 13100 && day != e4_lastRollDay && !E4.inGrace(server)) {   // dusk, once per day
     e4_lastRollDay = day;
-    if (!e4json(server, 'p4_events', []).length) { if (festDirector()) { try { festDirector().rollTonight(server); } catch (e) { rollEvent4(server); } } else rollEvent4(server); }   // 0.9.37: Director when present
+    if (P4.EVENTS_NEED_TOWNHALL && !e4townHall(server)) { e4log('no town hall yet: no events tonight'); }   // 11-16 boss (the jar's Director is skipped too)
+    else if (!e4json(server, 'p4_events', []).length) { if (festDirector()) { try { festDirector().rollTonight(server); } catch (e) { rollEvent4(server); } } else rollEvent4(server); }   // 0.9.37: Director when present
   }
   if (t < 12000) { let list = e4json(server, 'p4_events', []), abs = E4.dayTime(server); for (let st of list) if (st.day != day || abs < (st.start || 0)) { endEvent4(server); break; } }   // daytime on another day, or time jumped backwards (/time set day on day 0)
 });
