@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026.11.16-1
+- Christmas Structures v49e (sleigh vault rebuilt, snow sweep: dirt floors/no snow layers on custom pieces, natural pieces untouched)
+- Large Dungeons v5 (Elf Prison Mines entrance sunk flush with ground, ladders added)
+
 ## 2026.11.15-3
 - Chop's Christmas Village colony style v3.22 (749 blueprints, Festivity blocks)
 
