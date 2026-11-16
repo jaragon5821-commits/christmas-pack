@@ -1,4 +1,4 @@
-// chop_crop_unify.js v0.3.3 (Scripts thread, 2026-11-10; v0.3.2 2026-11-09; v0.2.0 grapes, v0.1.0 2026-11-06) - boss card 107: duplicate crops work in EVERY recipe.
+// chop_crop_unify.js v0.4.0 (Rune, 2026-11-16; v0.3.3 2026-11-10; v0.3.2 2026-11-09; v0.2.0 grapes, v0.1.0 2026-11-06) - boss card 107: duplicate crops work in EVERY recipe.
 // Tomato / onion / cabbage / rice / garlic (Farmer's Delight, Farm & Charm, MineColonies, Herbs and Harvest...)
 // and ginger / cinnamon (Snowy Spirit, Festive Delight, Herbs and Harvest, Merrymaking) exist several times.
 // 1) Tags: every copy found in the registry joins one shared c: tag (adds to chop_synergy_tags.js, never removes).
@@ -20,6 +20,14 @@
 //         snowy patch where SRM swapped some layers for its own blocks mines as ONE group (Josh 11-10: snowy ground broke one at a time).
 //         Also fills a cooking gap: Merrymaking's raw ham only had a furnace recipe, so it would not go in a smoker or on a campfire.
 //         Cooking audit (11-10): Farm & Charm lamb ham / minced beef cook into the mod's own cooked item in furnace + smoker too.
+// v0.4.0 (boss food answers 11-16, master food list "Ingredients" gaps): new groups raw pasta/noodles, cooked rice, cooked bacon,
+//         fried egg, raw ham (FD + Festivity; both cooked hams kept), minced beef; Doggy Talents uncooked rice joins c:crops/rice.
+//         MineColonies items are NEVER pulled into the new groups (boss: MineColonies foods stay separate) via exclude.
+//         Vanilla-paired groups (cooked cod / salmon + Farm & Charm copies) are listed by id (SKIP hides minecraft: from the scan).
+//         Tag fixes: Kaleidoscope fried egg out of c:eggs; MineColonies hand pie + stew trencher out of c:foods/bread; Bakery bread in.
+//         Minced beef option B: Farm & Charm minced beef now cooks into Farmer's Delight beef patty (furnace, smoker, campfire),
+//         cooked minced beef has a 1:1 swap to the patty and is hidden in JEI/EMI. No recipe in the pack takes cooked minced beef.
+//         Still never widens smelting / smoking / campfire / blasting.
 // v0.3.4: chop:ultimine_snow also holds grass / ferns / Winterly frozen grass (snowy grass highlighted but didn't break).
 // v0.3.3: Herbs and Harvest bacon / chicken cutlet / salmon steak / sausage also cook in the smoker and on a campfire (were furnace only).
 // Ids come from the registry (never Item.of on a guess: clean join).
@@ -30,7 +38,7 @@
     { tag: 'c:crops/tomato',          re: /^[a-z0-9_.-]+:(tomato|tomatoes)$/ },
     { tag: 'c:crops/onion',           re: /^[a-z0-9_.-]+:onions?$/ },
     { tag: 'c:crops/cabbage',         re: /^[a-z0-9_.-]+:cabbages?$/ },
-    { tag: 'c:crops/rice',            re: /^[a-z0-9_.-]+:rice$/ },
+    { tag: 'c:crops/rice',            re: /^([a-z0-9_.-]+:rice|doggytalents:uncooked_rice)$/ },
     { tag: 'c:crops/garlic',          re: /^[a-z0-9_.-]+:garlic$/ },
     { tag: 'c:crops/ginger',          re: /^[a-z0-9_.-]+:(ginger|ginger_root)$/ },
     { tag: 'c:crops/cinnamon',        re: /^[a-z0-9_.-]+:(cinnamon|cinnamon_stick|cinnamon_sticks)$/ },
@@ -61,7 +69,19 @@
     { tag: 'c:foods/cheese',          re: /^[a-z0-9_.-]+:([a-z_]+_)?cheese(_wedge|_slice)?$/, tagOnly: true },
     { tag: 'chop:unify/raw_bacon', also: 'c:foods/raw_bacon',  re: /^[a-z0-9_.-]+:(bacon|raw_bacon)$/ },
     { tag: 'chop:stockings',          re: /^[a-z0-9_.-]+:[a-z0-9_]*stocking$/, tagOnly: true },
-    { tag: 'chop:wreaths',            re: /^[a-z0-9_.-]+:[a-z0-9_]*wreath$/, tagOnly: true }
+    { tag: 'chop:wreaths',            re: /^[a-z0-9_.-]+:[a-z0-9_]*wreath$/, tagOnly: true },
+    // ---- v0.4.0 (boss 11-16): exclude keeps MineColonies items out ----
+    { tag: 'chop:unify/raw_pasta', also: 'c:foods/pasta',       re: /^[a-z0-9_.-]+:(raw_pasta|raw_noodles)$/, exclude: /^minecolonies:/ },
+    { tag: 'chop:unify/cooked_rice', also: 'c:foods/cooked_rice', re: /^[a-z0-9_.-]+:cooked_rice$/, exclude: /^minecolonies:/ },
+    { tag: 'chop:unify/cooked_bacon', also: 'c:foods/cooked_bacon', re: /^[a-z0-9_.-]+:cooked_bacon$/, exclude: /^minecolonies:/ },
+    { tag: 'chop:unify/fried_egg', also: 'c:foods/cooked_eggs',  re: /^[a-z0-9_.-]+:fried_egg$/, exclude: /^minecolonies:/ },
+    { tag: 'chop:unify/raw_ham', also: 'c:foods/raw_ham',       re: /^[a-z0-9_.-]+:ham$/, exclude: /^minecolonies:/ },
+    { tag: 'chop:unify/minced_beef', also: 'c:foods/raw_beef',  re: /^[a-z0-9_.-]+:minced_beef$/, exclude: /^minecolonies:/ }
+  ];
+  // v0.4.0: groups that include a vanilla item (the registry scan skips minecraft:), so ids are listed; missing ids are dropped.
+  const PAIRS = [
+    { tag: 'chop:unify/cooked_cod', also: 'c:foods/cooked_cod',       ids: ['minecraft:cooked_cod', 'farm_and_charm:cooked_cod'] },
+    { tag: 'chop:unify/cooked_salmon', also: 'c:foods/cooked_salmon', ids: ['minecraft:cooked_salmon', 'farm_and_charm:cooked_salmon'] }
   ];
   const NO_WIDEN = [{ type: 'minecraft:smelting' }, { type: 'minecraft:smoking' }, { type: 'minecraft:campfire_cooking' }, { type: 'minecraft:blasting' }];   // v0.3.2
   const SKIP = /^(minecraft|kubejs|chop):/;
@@ -80,7 +100,7 @@
       BuiltInRegistries.ITEM.keySet().forEach(k => {
         let s = String(k);
         if (SKIP.test(s)) return;
-        GROUPS.forEach(g => { if (g.re.test(s)) found[g.tag].push(s); });
+        GROUPS.forEach(g => { if (g.re.test(s) && !(g.exclude && g.exclude.test(s))) found[g.tag].push(s); });
       });
     } catch (e) { console.warn('[chop crops] registry read failed: ' + e); }
     GROUPS.forEach(g => console.info('[chop crops] ' + g.tag + ': ' + (found[g.tag].join(', ') || 'none')));
@@ -90,6 +110,13 @@
   ServerEvents.tags('item', event => {
     let f = scan();
     GROUPS.forEach(g => f[g.tag].forEach(id => { event.add(g.tag, id); if (g.also) event.add(g.also, id); }));
+    PAIRS.forEach(p => p.ids.filter(scanHas).forEach(id => { event.add(p.tag, id); event.add(p.also, id); }));
+    // v0.4.0 tag fixes (boss 11-16). remove() on an absent id is a no-op.
+    event.remove('c:eggs', 'kaleidoscope_cookery:fried_egg');            // egg recipes (cake, batters) took a FRIED egg
+    event.remove('c:foods/bread', 'minecolonies:hand_pie');               // F&C / FD bread recipes took a hand pie
+    event.remove('c:foods/bread', 'minecolonies:stew_trencher');
+    if (scanHas('bakery:bread')) event.add('c:foods/bread', 'bakery:bread');   // Bakery bread works in FD sandwiches
+    console.info('[chop crops] v0.4.0 tag fixes applied');
   });
 
   // v0.3.2: Ultimine snow group (block tag; registry-scanned, so only real ids; logged)
@@ -111,6 +138,11 @@
       if (g.tagOnly || f[g.tag].length < 2) return;   // only real duplicates; tag-only groups are never widened
       (g.oneWay ? f[g.tag].filter(id => g.oneWay.indexOf(id) >= 0) : f[g.tag]).forEach(id => { try { event.replaceInput({ input: id, not: NO_WIDEN }, id, '#' + g.tag); n++; } catch (e) { console.warn('[chop crops] replace ' + id + ' failed: ' + e); } });
     });
+    PAIRS.forEach(p => {
+      let ids = p.ids.filter(scanHas);
+      if (ids.length < 2) return;
+      ids.forEach(id => { try { event.replaceInput({ input: id, not: NO_WIDEN }, id, '#' + p.tag); n++; } catch (e) { console.warn('[chop crops] replace ' + id + ' failed: ' + e); } });
+    });
     console.info('[chop crops] widened inputs for ' + n + ' crop ids');
     // v0.3.2: smoker + campfire for Merrymaking ham (the mod ships only a furnace recipe; same result and xp, vanilla speeds)
     // 11-12 Festivity migration: the ham pair resolves to festivity:ham / cooked_ham once those exist (000_chop_migration_ids.js)
@@ -123,11 +155,15 @@
     // v0.3.2 (cooking audit 11-10): Farm & Charm's own furnace/smoker recipes turn lamb ham into vanilla cooked mutton and minced beef
     // into a vanilla steak, while its campfire gives the mod's cooked item. Same result everywhere now (xp/time kept).
     [['farm_and_charm:lamb_ham', 'minecraft:cooked_mutton', 'farm_and_charm:cooked_lamb_ham'],
-     ['farm_and_charm:minced_beef', 'minecraft:cooked_beef', 'farm_and_charm:cooked_minced_beef']].forEach(r => {
+     ['farm_and_charm:minced_beef', 'minecraft:cooked_beef', 'farmersdelight:beef_patty'],              // v0.4.0 boss: mince -> FD patty
+     ['farm_and_charm:minced_beef', 'farm_and_charm:cooked_minced_beef', 'farmersdelight:beef_patty']].forEach(r => {   // campfire too
       if (!scanHas(r[0]) || !scanHas(r[2])) return;
       try { event.replaceOutput({ input: r[0], output: r[1] }, r[1], r[2]); console.info('[chop crops] cooking fix ' + r[0] + ' -> ' + r[2]); }
       catch (e) { console.warn('[chop crops] cooking fix ' + r[0] + ' failed: ' + e); }
     });
+    // v0.4.0: old cooked minced beef in chests/inventories turns into the FD patty 1:1 (the item is hidden in JEI/EMI).
+    if (scanHas('farm_and_charm:cooked_minced_beef') && scanHas('farmersdelight:beef_patty'))
+      event.shapeless('farmersdelight:beef_patty', ['farm_and_charm:cooked_minced_beef']).id('chop:food/cooked_minced_beef_to_patty');
     // v0.3.3 (cooking audit 11-10): Herbs and Harvest raw meats ship furnace recipes only; add smoker + campfire with the mod's own result.
     // Cooked ids follow the mod's cooked_<raw> naming; any pair that does not exist is skipped and logged (never guessed into a recipe).
     ['bacon', 'chicken_cutlet', 'salmon_steak', 'sausage'].forEach(n => {

@@ -42907,7 +42907,7 @@ hash = "b051aeae56e5cbe0d623321e8bdeeb59ffb3332b0f38353f792ca59695cd2164"
 
 [[files]]
 file = "kubejs/client_scripts/chop_crop_unify_jei.js"
-hash = "619aacfb9997644dca27e5a4b37364cb8f9bd53bd47c71b894290a9712cf7454"
+hash = "2ca8f1d9dee064cf95cd72c90b8fade726be60f1ffa5780d8262b7caed66b9c3"
 
 [[files]]
 file = "kubejs/client_scripts/chop_hide_items.js"
@@ -43039,7 +43039,7 @@ hash = "2409c06fe83355c2154fc9ce2333c6dd905609acca40c74a4c7b5ad7a6d48e72"
 
 [[files]]
 file = "kubejs/server_scripts/chop_crop_unify.js"
-hash = "f8d2c1a161907bcc353a7e92b63339893c97ed98e8ab6df6bea09eea8333759c"
+hash = "ef397420e33e9b731ba991a501c25e54de13c45d79848bcb6d77e97174db2237"
 
 [[files]]
 file = "kubejs/server_scripts/chop_donation_bucket.js"

@@ -1,4 +1,4 @@
-// chop_crop_unify_jei.js v0.1.0 (Scripts thread, 2026-11-06) - boss card 107, client side.
+// chop_crop_unify_jei.js v0.2.0 (Rune, 2026-11-16; v0.1.0 2026-11-06) - boss card 107, client side.
 // Hides the EXTRA seed copies in JEI/EMI so each crop shows one seed. Keeps the first mod in PREFER order.
 // Seeds still drop and still plant: this only tidies the recipe viewer.
 (function () {
@@ -21,5 +21,9 @@
       ids.slice(1).forEach(id => event.remove(id));
       if (ids.length > 1) console.info('[chop crops] JEI: kept ' + ids[0] + ', hid ' + ids.slice(1).join(', '));
     });
+    // v0.2.0 (Rune 11-16, boss minced beef option B): F&C minced beef now cooks into the FD beef patty; hide the old cooked mince.
+    let hasMince = false;
+    try { BuiltInRegistries.ITEM.keySet().forEach(k => { if (String(k) == 'farm_and_charm:cooked_minced_beef') hasMince = true; }); if (hasMince) event.remove('farm_and_charm:cooked_minced_beef'); }
+    catch (e) { console.warn('[chop crops] JEI: cooked mince hide failed: ' + e); }
   });
 })();
