@@ -3682,7 +3682,7 @@ hash = "609c32f8008d0e994ded408beeae55783bfdfdffbdfb0a23417448cbef8cd996"
 
 [[files]]
 file = "config/cinematic-client.toml"
-hash = "c755728664be8bc5f8aea298069b3112cca92e1fd411706656f2bb5b3160743b"
+hash = "d2d5ff2fe2b4e06107ed0969d932774a6a5c4eeed925bd1e4c8f3697be3b351f"
 
 [[files]]
 file = "config/cinematiczoom-client.toml"

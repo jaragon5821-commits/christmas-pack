@@ -5,13 +5,13 @@
 
 	[scenes.blocks]
 		#Whether table plays its scene (false: the block keeps its usual window).
-		table = true
+		table = false
 		#Whether furnace plays its scene (false: the block keeps its usual window).
-		furnace = true
+		furnace = false
 		#Whether smoker plays its scene (false: the block keeps its usual window).
-		smoker = true
+		smoker = false
 		#Whether blast_furnace plays its scene (false: the block keeps its usual window).
-		blast_furnace = true
+		blast_furnace = false
 		#Whether enchanting plays its scene (false: the block keeps its usual window).
 		enchanting = true
 		#Whether anvil plays its scene (false: the block keeps its usual window).
