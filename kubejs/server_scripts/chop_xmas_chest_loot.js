@@ -1,4 +1,7 @@
-// chop_xmas_chest_loot.js v0.2.0 (Scripts thread, 2026-11-09) - server script, LootJS 3.7.0.
+// chop_xmas_chest_loot.js v0.2.1 (Scripts thread, 2026-11-09) - server script, LootJS 3.7.0.
+// v0.2.1 (Rune 11-16, boss rule for the elf prison mines: no diamond gear, diamonds only in the end vault): a table can set
+//   'exclude' (regex on the item id). xmas_dungeon_small (mines pots + small dungeon chests) now drops no diamond or netherite
+//   item at all: no diamond sword/pickaxe/knife in gear, no diamonds in valuables or rare, no diamond horse armor, no netherite scrap.
 // v0.2.0 (Josh 11-09 live test): 5-7 filled slots per chest IN TOTAL. Main-pool rolls cut so main + the table's bonus pools
 //   (rare 0-1, lore book 1) land at 5-7: big dungeon tables 4-5, small 4-6, starter_house / roadside_gifts 5-6, others 5-7.
 //   NOTE: chests also stop splitting stacks across empty slots only once the Festivity LootTableNoSplitMixin ships.
@@ -123,7 +126,7 @@
   // table -> [[pool, weightMultiplier], ...], rolls [min,max]
   const T = {
     'chop:chests/xmas_dungeon':       { rolls: [4, 5], mix: [['valuables', 3], ['gear', 3], ['rare', 2], ['food', 1], ['basics', 1], ['festive', 1]] },
-    'chop:chests/xmas_dungeon_small': { rolls: [4, 6], mix: [['valuables', 2], ['gear', 2], ['rare', 1], ['food', 1], ['basics', 2], ['festive', 1]] },
+    'chop:chests/xmas_dungeon_small': { rolls: [4, 6], mix: [['valuables', 2], ['gear', 2], ['rare', 1], ['food', 1], ['basics', 2], ['festive', 1]], exclude: /diamond|netherite/ },
     'chop:chests/xmas_nether':        { rolls: [4, 5], mix: [['nether', 4], ['valuables', 2], ['gear', 2], ['rare', 1]] },
     'chop:chests/xmas_nether_small':  { rolls: [4, 6], mix: [['nether', 4], ['valuables', 1], ['gear', 1], ['basics', 1]] },
     'chop:chests/xmas_end':           { rolls: [4, 5], mix: [['end', 4], ['valuables', 2], ['gear', 2], ['rare', 2]] },
@@ -146,6 +149,7 @@
       cfg.mix.forEach(m => P[m[0]].forEach(r => {
         let w = r[1] * m[1];
         if (w <= 0) return;
+        if (cfg.exclude && cfg.exclude.test(r[0])) return;   // v0.2.1 per-table item filter
         let id = (typeof chopMigOr == 'function') ? chopMigOr(r[0]) : r[0];   // 11-12 Festivity migration (000_chop_migration_ids.js)
         if (!ok(id)) { skipped[id] = true; return; }
         kept[id] = true;

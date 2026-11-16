@@ -539,8 +539,8 @@ function starBroken(server, st, p, debug) {
   }
 }
 // ---------- Freed Elves (Josh 05:47 UTC 11-06): the corruption is reversible once the star is gone ----------
-// Up to P4.FREED_ELVES Sour Elf strays within 48 of the outpost are replaced by invulnerable 'Freed Elf' allays (no fest_minion tag:
-// they are not enemies and give no rescue points). They hover for FREED_TICKS, then leave a present + candy and fly off.
+// Picks up to P4.FREED_ELVES outpost Sour Elves (fest_minion strays) within 48 of the star; phase5 spawnFreedElf summons a freed elf at
+// each spot after the kill sweep, and the Festivity jar (SourElf) makes it run off and vanish.
 function freeElvesNear(server, st, p) {
   let out = [];
   try {
@@ -555,26 +555,8 @@ function freeElvesNear(server, st, p) {
   if (!out.length && p) out.push({ x: p.x + e4rnd(-3, 3), y: p.y + 1, z: p.z + e4rnd(-3, 3) });   // no elf nearby: one still comes out of the rubble
   return out;
 }
-function spawnFreedElf(server, x, y, z, who) {
-  e4cmd(server, 'summon minecraft:allay ' + x.toFixed(1) + ' ' + (y + 1).toFixed(1) + ' ' + z.toFixed(1) + ' {PersistenceRequired:1b,Invulnerable:1b,CanDuplicate:0b,Tags:["fest_elf","fest_e4"],active_effects:[{id:"minecraft:glowing",duration:' + P4.FREED_TICKS + ',show_particles:0b}]}');
-  e4cmd(server, 'particle minecraft:end_rod ' + x.toFixed(1) + ' ' + (y + 1).toFixed(1) + ' ' + z.toFixed(1) + ' 0.6 0.8 0.6 0.05 30');
-  e4cmd(server, 'playsound minecraft:entity.allay.item_given master @a ' + Math.floor(x) + ' ' + Math.floor(y) + ' ' + Math.floor(z) + ' 1 1');
-  if (who) e4cmd(server, 'tellraw ' + who + ' ' + E4.jsonText('A Sour Elf shudders as the star dies... the green drains from its eyes. "The hold is broken here. Thank you! Take this, from the Workshop."', 'green'));
-  server.scheduleInTicks(P4.FREED_TICKS, () => {
-    try {
-      let left = findByTag(server, 'fest_elf', { x: x, z: z }, 64);
-      for (let e of left) {
-        dropPresent(server, Math.floor(e.x), Math.floor(e.y), Math.floor(e.z));   // heist fix: tagged present
-        let candy = e4first(P4.CANDY); if (candy) dropItem(server, Math.floor(e.x), Math.floor(e.y), Math.floor(e.z), candy, 2);
-        e4cmd(server, 'particle minecraft:happy_villager ' + e.x.toFixed(1) + ' ' + e.y.toFixed(1) + ' ' + e.z.toFixed(1) + ' 0.8 0.8 0.8 0.1 25');
-        e4cmd(server, 'playsound minecraft:entity.allay.ambient_without_item master @a ' + Math.floor(e.x) + ' ' + Math.floor(e.y) + ' ' + Math.floor(e.z) + ' 1 1.2');
-        e.discard();
-      }
-      e4log('freed elves left: ' + left.length);
-    } catch (e) { e4log('freed elf cleanup failed: ' + e); e4cmd(server, 'kill @e[tag=fest_elf]'); }
-  });
-  e4log('freed elf at ' + Math.floor(x) + ' ' + Math.floor(y) + ' ' + Math.floor(z));
-}
+// spawnFreedElf: the live version is in festivity_phase5.js (loads later and overrides). The old allay version here was dead code,
+// retired 11-16 (Rune).
 function startSpire(server) {
   let list = e4json(server, 'p4_spires', []); if (list.length >= P4.SPIRE_MAX) return false;
   for (let tries = 0; tries < 20; tries++) {

@@ -381,31 +381,17 @@ ItemEvents.rightClicked(event => {
 });
 
 // ===================== C. FREED ELVES: on the ground, small, run away, despawn =====================
-// Replaces Phase 4's allay version. NoAI stray with the Freed Elf look (name-based ETF), scaled 0.7, moved by script away from the
-// nearest player for FREED_TICKS, gift dropped at the start, then discarded. Never attacks (NoAI).
+// Replaces Phase 4's allay version. Sour Elf Variant 5 (fest_freed), scaled 0.7, gift dropped at the start.
+// 11-16 (Rune): running away and vanishing is Java now (SourElf.isRunaway, Festivity 0.9.143+: clears NoAI, flees the nearest player,
+// gone after 2 s out of every player's sight or 5 min). The old script tick f5freedTick (teleport slide + discard at FREED_TICKS) is retired.
 function spawnFreedElf(server, x, y, z, who) {
   f5cmd(server, 'summon ' + fid('minecraft:stray') + ' ' + Math.floor(x) + ' ' + Math.floor(y) + ' ' + Math.floor(z) + ' {NoAI:1b,Silent:1b,Invulnerable:1b,PersistenceRequired:1b,Glowing:1b,Variant:5b,Tags:["fest_minion","fest_elf","fest_e4","fest_freed"]}');
-  server.scheduleInTicks(1, () => { try { for (let e of findByTag(server, 'fest_freed', { x: x, z: z }, 4)) { if (!e.persistentData.getBoolean('fest_freedInit')) { e.persistentData.putBoolean('fest_freedInit', true); e.persistentData.putInt('fest_freedUntil', server.tickCount + P5.FREED_TICKS); f5scale(server, e, P5.FREED_SCALE); } } } catch (q) {} });
+  server.scheduleInTicks(1, () => { try { for (let e of findByTag(server, 'fest_freed', { x: x, z: z }, 4)) { if (!e.persistentData.getBoolean('fest_freedInit')) { e.persistentData.putBoolean('fest_freedInit', true); f5scale(server, e, P5.FREED_SCALE); } } } catch (q) {} });
   f5cmd(server, 'particle minecraft:end_rod ' + Math.floor(x) + ' ' + (Math.floor(y) + 1) + ' ' + Math.floor(z) + ' 0.5 0.8 0.5 0.02 30');
   f5cmd(server, 'playsound minecraft:block.amethyst_block.chime master @a ' + Math.floor(x) + ' ' + Math.floor(y) + ' ' + Math.floor(z) + ' 1 1.4');
   dropPresent(server, Math.floor(x), Math.floor(y), Math.floor(z));   // heist fix: tagged present
   try { let candy = e4first(P4.CANDY); dropItem(server, Math.floor(x), Math.floor(y), Math.floor(z), candy, 2); } catch (q) {}
   if (who) f5cmd(server, 'tellraw ' + who + ' ' + F5.jsonText('A freed elf bows, drops a thank-you, and runs for the hills.', 'aqua'));
-}
-function f5freedTick(server) {
-  let list = findByTag(server, 'fest_freed', null); if (!list.length) return;
-  for (let e of list) {
-    try {
-      let until = e.persistentData.getInt('fest_freedUntil') || 0;
-      if (until && server.tickCount >= until) { f5cmd(server, 'particle minecraft:happy_villager ' + f5pos(e) + ' 0.5 0.5 0.5 0 12'); e.discard(); continue; }
-      let p = f5nearest(f5players(server), e.x, e.z); if (!p) continue;
-      let dx = e.x - p.x, dz = e.z - p.z, h = Math.sqrt(dx * dx + dz * dz); if (h < 0.1) { dx = 1; dz = 0; h = 1; }
-      let step = 0.9, nx = e.x + dx / h * step, nz = e.z + dz / h * step, ny = surfaceY(e.level, Math.floor(nx), Math.floor(nz));
-      if (Math.abs(ny - e.y) > 3) ny = e.y;
-      let yaw = Math.floor(Math.atan2(-(dx / h), dz / h) * 180 / Math.PI);
-      f5cmd(server, 'tp ' + e.uuid + ' ' + nx.toFixed(2) + ' ' + ny + ' ' + nz.toFixed(2) + ' ' + yaw + ' 0');
-    } catch (x) {}
-  }
 }
 
 // ===================== D. SANTA FLYBY =====================
@@ -640,7 +626,6 @@ ServerEvents.tick(event => {
   try { f5rockTick(server); } catch (e) {}
   try { f5bomberTick(server); } catch (e) {}
   try { f5reindeerTick(server); } catch (e) {}
-  try { f5freedTick(server); } catch (e) {}
   // Phase 2 only runs clawsTick/boxTick at night outside grace (its tick returns early otherwise), so a daytime or debug Claws just
   // stood there and Phase 4's stall guard dragged him in. Run them here whenever Phase 2 is gated.
   try {

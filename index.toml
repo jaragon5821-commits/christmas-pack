@@ -43074,6 +43074,10 @@ file = "kubejs/server_scripts/chop_presents_loot.js"
 hash = "5c9db453c8e7a6054ee25ec4e4ffd5b8d8c0125ad1d1cc5b11fb82be9883675e"
 
 [[files]]
+file = "kubejs/server_scripts/chop_qol_recipes.js"
+hash = "8a93bea05f33f7358eb13ef60a50456dbab4dc0e9330eb279f53cb8216b38e0c"
+
+[[files]]
 file = "kubejs/server_scripts/chop_requests_board.js"
 hash = "bfc8b10da76561480bbc82fc82b2fddd809b12e82446a04cf96c7b75df5a8cce"
 
@@ -43119,7 +43123,7 @@ hash = "7e109555db629a58b057e83a83d268fd43514320b5f0e5217f7cf0594870185a"
 
 [[files]]
 file = "kubejs/server_scripts/chop_xmas_chest_loot.js"
-hash = "48778ee020d5c356098760e1c695fe803032b86a1693fffe1360c6b6434f73bb"
+hash = "dc2d2e4b11a86df6fb7d668a518f7860bd06f269cc607950d3a4a263d7a9d3d1"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/05_tags.js"
@@ -43151,11 +43155,11 @@ hash = "09de296d8ca29efdf6d9339c743b2f299381a0246beca1d5a583b0e5f884d4f6"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase4.js"
-hash = "b6d02eb19b712a0a9d050943cf9932e6f2dcf38403fc415b5b836db38d4d7faa"
+hash = "d3ba4d8b0536db5adf3e1bd40d407d1395aba6229ebca4bb1b2526f64fe0c043"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase5.js"
-hash = "a541026454be7fe44cbbfe1d1f36a08b70171b47efa272f58b3e6407a8d2537c"
+hash = "49ea1afbd50ab2f4f2af12f610a5ed33e1f00fc1e6c920d56e5b6f02f777fb82"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_quests.js"
