@@ -309,7 +309,7 @@
 		{
 			dependency_requirement: "one_completed"
 			icon: {
-				id: "herbsandharvest:cinnamon"
+				id: "festive_delight:cinnamon_sticks"
 			}
 			id: "59448DA9CCBE2F17"
 			optional: true
@@ -321,7 +321,7 @@
 			tasks: [{
 				consume_items: false
 				id: "0CE46CBC2BB16CEB"
-				item: { count: 1, id: "herbsandharvest:cinnamon" }
+				item: { count: 1, id: "festive_delight:cinnamon_sticks" }
 				type: "item"
 			}]
 			x: 10.0d
@@ -330,7 +330,7 @@
 		{
 			dependency_requirement: "one_completed"
 			icon: {
-				id: "herbsandharvest:cinnamon_roll"
+				id: "festive_delight:cinnamon_powder"
 			}
 			id: "6CC66BD9250ECF65"
 			optional: true
@@ -342,7 +342,7 @@
 			tasks: [{
 				consume_items: false
 				id: "6C527F9854388529"
-				item: { count: 1, id: "herbsandharvest:cinnamon_roll" }
+				item: { count: 1, id: "festive_delight:cinnamon_powder" }
 				type: "item"
 			}]
 			x: 11.5d

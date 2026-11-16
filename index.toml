@@ -4226,7 +4226,7 @@ hash = "ce7235f0562ca95d17e367b9b156f44eca0aa3b7c2fb7400cf319d395a5608dd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chop_kitchen_farm.snbt"
-hash = "9b52df6478b20d6917c752a917d63fd39da35c3e69d6827606e3338869da18b6"
+hash = "b8ec8fbb893fe70f33147d7783363b5a38f8495adbf951d401395f02c9f8caab"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chop_spellcraft.snbt"
@@ -44170,11 +44170,6 @@ metafile = true
 [[files]]
 file = "mods/mafglib.pw.toml"
 hash = "1cf2f4593dadb3cab076fabf9c900601a8b474cc37861d991b23f18398572eb7"
-metafile = true
-
-[[files]]
-file = "mods/mamas-herbs-and-harvest.pw.toml"
-hash = "72ce80df2ac3222bd228357bc1f5e3583499ae966014bb287b131606c87a395f"
 metafile = true
 
 [[files]]
