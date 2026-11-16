@@ -44853,3 +44853,18 @@ metafile = true
 file = "mods/kaleidoscope-cookery.pw.toml"
 hash = "e68e9cc3cb547d25f738794f79e36e9c39467d523182d70985a24f62677dc271"
 metafile = true
+
+[[files]]
+file = "mods/kaleidoscope-tavern.pw.toml"
+hash = "6a05baa7acbb28d6ea014d35749cf4cee037d84417ffc6be3a5c014a92df0d94"
+metafile = true
+
+[[files]]
+file = "mods/kaleidoscope-compat.pw.toml"
+hash = "b49da19b06a016b391ce29f7fcf95fd9806873172447defcfbd78ec7529bdba4"
+metafile = true
+
+[[files]]
+file = "mods/kaleidoscope-texture-expansion.pw.toml"
+hash = "5ef2d2c218f075fb8ab3ba9c0c1d67a3613efdb1c3ddc38dc1020ece25ba4b7f"
+metafile = true
