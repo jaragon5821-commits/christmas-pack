@@ -43472,11 +43472,6 @@ hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
 
 [[files]]
-file = "mods/cinematic-delight.pw.toml"
-hash = "4b38cb1f4e4ad74db105bf7b46ec802fa80a2c7ba0640f7f57621b2c5a4ed3c1"
-metafile = true
-
-[[files]]
 file = "mods/cinematic-interaction.pw.toml"
 hash = "a20ee21ca9134c7316bdc57ab5d56953baae0c936baf01d1bfbf593d2a1f7429"
 metafile = true
@@ -44843,3 +44838,18 @@ preserve = true
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.9.3.zip"
 hash = "fed6c879e732cf7fc7bc6570ebb1def43235aa7e96f62859fbdbdbfa0b484b38"
+
+[[files]]
+file = "mods/hands-on-delight.pw.toml"
+hash = "bfcc849ef7da61d3829d3821b3a1f8f98b7fb5f9a6f588a92414915eb0b40dfa"
+metafile = true
+
+[[files]]
+file = "mods/diegesis-api.pw.toml"
+hash = "ae17d6e99341468fee6adcc8863ab319dd25958fa2d98dfdf5c317f23df92950"
+metafile = true
+
+[[files]]
+file = "mods/kaleidoscope-cookery.pw.toml"
+hash = "e68e9cc3cb547d25f738794f79e36e9c39467d523182d70985a24f62677dc271"
+metafile = true
