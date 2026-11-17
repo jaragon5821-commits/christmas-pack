@@ -4186,7 +4186,7 @@ hash = "f0c8757ec9ea7047e0f84a7b17fb77dc5e84e0efa15c3864fbbd57e741965f2b"
 
 [[files]]
 file = "config/festivity-common.toml"
-hash = "a1a4ea9a2d93f9874e65413b613be3eac40b1c881104d02ce6731e7124a7ff86"
+hash = "88e1d1193166609856a00d7df0d2e04b7b4ebbd8dba27ef0682c2cd85b9a218f"
 
 [[files]]
 file = "config/festivity-music.json"

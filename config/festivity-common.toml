@@ -59,7 +59,7 @@ eventsDisabled = []
 #and automation feeding it). 1 = vanilla FD. Capped at the meal's max stack size. Default 4.
 # Default: 4
 # Range: 1 ~ 16
-cookingPotYieldMultiplier = 4
+cookingPotYieldMultiplier = 1
 #Only recipes with at least this many ingredients get the multiplier (others stay 1x). 0 = every recipe. Josh's later idea: 5.
 # Default: 0
 # Range: 0 ~ 9
