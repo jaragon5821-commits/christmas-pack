@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.17-2
+- HOTFIX: Farmer's Delight cooking pot yield back to 1x (4x made 128-item stacks that crashed the host)
+
 ## 2026.11.17-1
 - Cooking batch: Kaleidoscope Cookery + Tavern + Compat + Texture Expansion, Hands-On Delight (+ Diegesis); Cinematic Delight and Mama's Herbs & Harvest removed; Cinematic Interaction scenes off for table/furnace/smoker/blast furnace
 - Food groups v0.4.0, QoL recipes, chest loot tweaks, Festivity KubeJS 11-16
