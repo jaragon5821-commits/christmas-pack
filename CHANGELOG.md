@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.17-10
+- Christmas Structures v50a5: spawn fixes so beach snow sculptures, polar plunge hut and mountain watchtower B now generate
+
 ## 2026.11.17-9
 - Festivity 0.9.181 + Christmas Structures v50a4 (shipped together)
 
