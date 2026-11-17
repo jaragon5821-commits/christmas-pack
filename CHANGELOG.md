@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.17-7
+- Festivity 0.9.178 (hotkey cleanup); Handbook key pages updated
+
 ## 2026.11.17-6
 - Festivity 0.9.177 (fruit trees, food quality, chestnut sapling fix)
 - Real Christmas recordings removed from background, menu and zone music (C418-style ambient tracks stay)
