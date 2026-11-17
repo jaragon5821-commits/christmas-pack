@@ -1,4 +1,9 @@
-// chop_starter_kit.js v0.2.0 (Scripts thread, 2026-11-09) - server script.
+// chop_starter_kit.js v0.3.0 (Lorekeeper, 2026-11-17) - server script.
+// v0.3.0: boss D323 (11-16): spawn kit = Handbook + Festive Book (Field Guide later). The Handbook part is unchanged
+//         (same 'chopHandbook' flag, so nobody gets a second copy). Each extra book has its OWN flag and is given
+//         once, only when its item is registered. Until Toybox ships the Festive Book item this does nothing.
+//         FESTIVE_BOOK id is a placeholder [Unverified]: Toybox confirms the real id. Players who joined before the
+//         book shipped get it once on their next login (same clean join: no chat line, no title).
 // v0.2.0 (Josh 11-09 live test): spawn with ONLY the pack guide book. The sweater, hat, sled, sleeping bag,
 //         cookies, torches and the written "Festivity Guide" are gone; that guide's text now lives in the
 //         Handbook's "Getting Started" pages. The colony founder's satchel is switched off in
@@ -9,15 +14,30 @@
   const BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries');
   const ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation');
   const HANDBOOK = 'guideme:guide[guideme:guide_id="chopxmas:handbook"]';
+  // [flag, item id that must be registered, give argument]. Add the Field Guide here when it exists.
+  const EXTRA_BOOKS = [
+    ['chopKitFestiveBook', 'festivity:festive_book', 'festivity:festive_book']
+  ];
+  const registered = id => BuiltInRegistries.ITEM.containsKey(ResourceLocation.parse(id));
   PlayerEvents.loggedIn(event => {
     let p = event.player;
-    if (p.persistentData.getBoolean('chopHandbook')) return;
-    if (!BuiltInRegistries.ITEM.containsKey(ResourceLocation.parse('guideme:guide'))) return;
-    p.persistentData.putBoolean('chopHandbook', true);
     let server = p.server, name = String(p.username);
+    let gives = [];
+    if (!p.persistentData.getBoolean('chopHandbook') && registered('guideme:guide')) {
+      p.persistentData.putBoolean('chopHandbook', true);
+      gives.push(['Handbook', HANDBOOK]);
+    }
+    EXTRA_BOOKS.forEach(b => {
+      if (p.persistentData.getBoolean(b[0]) || !registered(b[1])) return;
+      p.persistentData.putBoolean(b[0], true);
+      gives.push([b[1], b[2]]);
+    });
+    if (gives.length == 0) return;
     server.scheduleInTicks(60, () => {
-      try { server.runCommandSilent('give ' + name + ' ' + HANDBOOK + ' 1'); console.info('[chop kit] ' + name + ' got the Handbook'); }
-      catch (e) { console.warn('[chop kit] handbook failed: ' + e); }
+      gives.forEach(g => {
+        try { server.runCommandSilent('give ' + name + ' ' + g[1] + ' 1'); console.info('[chop kit] ' + name + ' got ' + g[0]); }
+        catch (e) { console.warn('[chop kit] ' + g[0] + ' failed: ' + e); }
+      });
     });
   });
 })();

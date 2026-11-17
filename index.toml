@@ -42055,7 +42055,7 @@ hash = "c923cd9a989886b287a62a516b12675a902ed6ae8d399485c684b305caacd726"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/index.md"
-hash = "0aa2a7573632e2ec0edaab74c38a9156124c503dfecb8a2512bb2b27a5054b50"
+hash = "3d013c813705d388b07986fd85beeec729cb5bf9a5f586b444fd8026cdf5dbf4"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/backpacks.md"
@@ -43131,7 +43131,7 @@ hash = "88e3d258fa6e259c18b25755bb3a61f43b47bc1fb75962b80c953baa07cf9b29"
 
 [[files]]
 file = "kubejs/server_scripts/chop_starter_kit.js"
-hash = "dfef687c5acb2eb9c441aa44d75e2315da962a5fcf46eae3f9de50a05e418786"
+hash = "1b0bb7a3195c441c972c769347445b47ad90880e2d04a5d996c466eb3e4f0f38"
 
 [[files]]
 file = "kubejs/server_scripts/chop_synergy_critters.js"
