@@ -19,3 +19,5 @@ config/spark/
 config/jei/world/
 config/roadweaver/structure_cache_overworld.json
 config/chunky/tasks/
+# local-only private packs on Josh's PC (Christmas MIDIs for Immersive Melodies); never shipped
+config/openloader/packs/zz_LOCAL_chop_christmas_melodies/
