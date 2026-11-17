@@ -616,7 +616,7 @@
 	]
 	quest.34057A5E514A2688.title: "One Door a Day"
 	quest.34057A5E5152933F.quest_desc: [
-		"The Nether is where Claws grew from a hunger into a monster. His forges still burn there."
+		"The Nether is where Claws landed when he fell. Weak and far from home, he built his forces there. His forges still burn."
 		"Light a portal and step through. Bring fire resistance if you can."
 	]
 	quest.34057A5E5152933F.quest_subtitle: "The Nether"
@@ -706,7 +706,7 @@
 	]
 	quest.34057A5E51CF97E9.title: "Into the Dungeon"
 	quest.34057A5E51D94714.quest_desc: [
-		"Long ago, something hungry crawled out of the End. It learned to wear a red coat and a white beard, and it called itself &4Santy Claws&r."
+		"Long ago, something hungry fell out of the End. It learned to wear a red coat and a white beard, and it called itself &4Santy Claws&r."
 		"It wants every Christmas to be its Christmas. Now the elves have turned sour, the toys have turned mean, and a long winter has fallen over the world."
 		""
 		"First things first: stay warm and stay fed."
