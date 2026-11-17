@@ -902,7 +902,7 @@
 	#only if /spark tps stays healthy on raid nights.
 	# Default: 70
 	# Range: 10 ~ 1000
-	hostileSpawnCap = 70
+	hostileSpawnCap = 45
 	#Multiply the duration of every beneficial or neutral brewable potion (pack request, 2026-07-10:
 	#'vanilla potions last longer'). Applied once per world start to the potion registry's effect
 	#templates, so drink, splash, lingering and tipped-arrow forms all scale together — modded brews
