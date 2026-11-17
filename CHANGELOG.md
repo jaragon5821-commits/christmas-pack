@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.17-8
+- Snow! Real Magic 12.2.3-chop.1 (MIT, patched: fixes a rare world-generation hang with C2ME + Snow Under Trees)
+
 ## 2026.11.17-7
 - Festivity 0.9.178 (hotkey cleanup); Handbook key pages updated
 

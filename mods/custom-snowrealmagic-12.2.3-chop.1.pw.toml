@@ -1,0 +1,8 @@
+filename = "SnowRealMagic-1.21.1-NeoForge-12.2.3-chop.1.jar"
+name = "Snow! Real Magic! (chop.1 thread-safe BlockConverters.of)"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/jaragon5821-commits/christmas-pack/test/patched-jars/SnowRealMagic-1.21.1-NeoForge-12.2.3-chop.1.jar"
+hash-format = "sha512"
+hash = "34ad3cf55eb09234dea38c51a99da8f2257d467f868373f5abd5ef5fa45756948f7bd32f0c88aee8f3003d2414de6964986765eb771d39f45f51b92dcc2f3530"

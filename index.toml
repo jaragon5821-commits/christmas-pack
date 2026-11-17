@@ -43847,6 +43847,11 @@ hash = "832d9618d08a29831988c90e0cf9b7d24508e4ac6a126cc5ae07cd138a16f5c6"
 metafile = true
 
 [[files]]
+file = "mods/custom-snowrealmagic-12.2.3-chop.1.pw.toml"
+hash = "b21d2c9031fe97598c6d6c0466c990b9a0430fc105242ad355be99bdfb12aba0"
+metafile = true
+
+[[files]]
 file = "mods/custom-window-title.pw.toml"
 hash = "09d3121e0f62df0f7543ec669a7d2465ccc257f8ece46eaa37c0d8597ec36c15"
 metafile = true
@@ -44849,11 +44854,6 @@ metafile = true
 [[files]]
 file = "mods/snow-imprints.pw.toml"
 hash = "1e1b245697defb8043f9b1f3ff034d3a73f21b038fcd2a484883e2be9d1902c9"
-metafile = true
-
-[[files]]
-file = "mods/snow-real-magic.pw.toml"
-hash = "852429ffdb19d43b8a452524225d355cadeb3a076bc9de3310e9a820bef63605"
 metafile = true
 
 [[files]]
