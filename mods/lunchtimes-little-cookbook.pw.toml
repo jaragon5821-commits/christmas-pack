@@ -1,0 +1,13 @@
+name = "Lunchtime's Little Cookbook"
+filename = "lunchtimecookbook-neoforge-1.21.1-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "59b00f46ba515daa9143e7bbd1788d222c70ca09"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9624058
+project-id = 1773341

@@ -44166,6 +44166,11 @@ hash = "2fe01d8046db2246c6df01eedd1fbc7837c08cc6d3b2a9017107ade989e86a28"
 metafile = true
 
 [[files]]
+file = "mods/lunchtimes-little-cookbook.pw.toml"
+hash = "dc927d39c4a5c47a2b3832373d7e5002189cf66dbf255e4978f86f6de5f7e1d7"
+metafile = true
+
+[[files]]
 file = "mods/macaws-lights-and-lamps.pw.toml"
 hash = "ff700bb86b8ed4daefcee6ab9a209afa0b894b64a23ac45d7f089d4cc60c8983"
 metafile = true
