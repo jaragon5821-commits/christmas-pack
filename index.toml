@@ -43018,8 +43018,32 @@ file = "kubejs/data/merrymaking/recipe/exposed_pine_mantel.json"
 hash = "f66817eed566b1c3a71a06f52846894f1cccbf9dae1ceb4ea36c0559417db1ea"
 
 [[files]]
+file = "kubejs/data/merrymaking/recipe/gingerbread_dough.json"
+hash = "c50f8c8c47012ef85f7361b03e6ebcab03474c58f20c75d40a6a52629d0c4c69"
+
+[[files]]
+file = "kubejs/data/merrymaking/recipe/harvest_tray.json"
+hash = "54151a9af4b4ad12e04a5cf0290001ab25352b9335b36f266344a85a815de532"
+
+[[files]]
+file = "kubejs/data/merrymaking/recipe/latke.json"
+hash = "93990bab8027a835c89675207ec1e1ecb81c6343ec86ecb63ac6db6d8eda8baf"
+
+[[files]]
+file = "kubejs/data/merrymaking/recipe/mint_bottle.json"
+hash = "c49911f69a4259c9f188286548e1207d065852470703659152b7fade0a6aa98c"
+
+[[files]]
 file = "kubejs/data/merrymaking/recipe/pine_mantel.json"
 hash = "f66817eed566b1c3a71a06f52846894f1cccbf9dae1ceb4ea36c0559417db1ea"
+
+[[files]]
+file = "kubejs/data/merrymaking/recipe/poultry_dinner.json"
+hash = "74e6fe066c694e983479851a6bd255242d875289d0dd2a64dfb2f4032f0709e8"
+
+[[files]]
+file = "kubejs/data/merrymaking/recipe/sweet_potato_pie.json"
+hash = "bf5faf23f1af66ca9b2c62fa31be901caa8b7a538492798836fd91ccf91e4e0f"
 
 [[files]]
 file = "kubejs/data/merrymaking/recipe/weathered_pine_mantel.json"
@@ -43068,10 +43092,6 @@ hash = "19a2be13a966fc095d095a8d21e11299ef9173f9d85e2b712316fbbcb117bd9b"
 [[files]]
 file = "kubejs/server_scripts/chop_letsdo_to_fd.js"
 hash = "ddfd704541292742c4f74c98854ca6fd1cc9ecf879454cace5589846c154cddf"
-
-[[files]]
-file = "kubejs/server_scripts/chop_merrymaking_hh_remap.js"
-hash = "651a7f96f039f7188c0555edd39cc5ae1fa8c07218f8875a2d744f8b4a95e05e"
 
 [[files]]
 file = "kubejs/server_scripts/chop_no_autopilot_guide.js"

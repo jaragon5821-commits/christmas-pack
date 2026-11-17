@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "merrymaking"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:squash"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "festivity:squash"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "merrymaking:sweet_potato_pie"
+  }
+}
