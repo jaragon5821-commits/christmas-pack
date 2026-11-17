@@ -43099,7 +43099,7 @@ hash = "0bd478cb8dcc4f223f109703333cc862130f26b925cfd3fe07d469886bd73f74"
 
 [[files]]
 file = "kubejs/server_scripts/chop_synergy_tags.js"
-hash = "1f31a5b62a6d5bd79790b77274fb0a14964ca8ed36d92f6068ab105d15c5573f"
+hash = "8cc8306f74f7316203cce2c6b22f1017c23a6b0c333fe51609bef0ea9a68d1af"
 
 [[files]]
 file = "kubejs/server_scripts/chop_synergy_tags_letsdo.js"

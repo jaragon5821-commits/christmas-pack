@@ -74,7 +74,8 @@ ServerEvents.tags('item', event => {
 ServerEvents.recipes(event => {
   // Row 12: Snowy Spirit recipes take any ginger; Merrymaking takes either ground ginger
   if (loaded('snowyspirit')) event.replaceInput({ mod: 'snowyspirit' }, 'snowyspirit:ginger', '#c:crops/ginger')
-  if (loaded('merrymaking')) event.replaceInput({ mod: 'merrymaking' }, 'herbsandharvest:ground_ginger', '#c:foods/ground_ginger')
+  // 11-17 (Rune): H&H removed on staging; replaceInput throws on a missing id, so both mods must be loaded
+  if (loaded('merrymaking') && loaded('herbsandharvest')) event.replaceInput({ mod: 'merrymaking' }, 'herbsandharvest:ground_ginger', '#c:foods/ground_ginger')
   // Row 13: either cinnamon powder works in both mods
   if (loaded('festive_delight')) event.replaceInput({ mod: 'festive_delight' }, 'festive_delight:cinnamon_powder', '#c:foods/ground_cinnamon')
   if (loaded('herbsandharvest')) event.replaceInput({ mod: 'herbsandharvest' }, 'herbsandharvest:ground_cinnamon', '#c:foods/ground_cinnamon')
