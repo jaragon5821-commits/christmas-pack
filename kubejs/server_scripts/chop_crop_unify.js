@@ -1,4 +1,4 @@
-// chop_crop_unify.js v0.4.0 (Rune, 2026-11-16; v0.3.3 2026-11-10; v0.3.2 2026-11-09; v0.2.0 grapes, v0.1.0 2026-11-06) - boss card 107: duplicate crops work in EVERY recipe.
+// chop_crop_unify.js v0.4.1 (Rune, 2026-11-17: guard the KC fried egg tag fix, Kaleidoscope Cookery removed; v0.4.0 2026-11-16; v0.3.3 2026-11-10; v0.3.2 2026-11-09; v0.2.0 grapes, v0.1.0 2026-11-06) - boss card 107: duplicate crops work in EVERY recipe.
 // Tomato / onion / cabbage / rice / garlic (Farmer's Delight, Farm & Charm, MineColonies, Herbs and Harvest...)
 // and ginger / cinnamon (Snowy Spirit, Festive Delight, Herbs and Harvest, Merrymaking) exist several times.
 // 1) Tags: every copy found in the registry joins one shared c: tag (adds to chop_synergy_tags.js, never removes).
@@ -112,11 +112,11 @@
     GROUPS.forEach(g => f[g.tag].forEach(id => { event.add(g.tag, id); if (g.also) event.add(g.also, id); }));
     PAIRS.forEach(p => p.ids.filter(scanHas).forEach(id => { event.add(p.tag, id); event.add(p.also, id); }));
     // v0.4.0 tag fixes (boss 11-16). remove() on an absent id is a no-op.
-    event.remove('c:eggs', 'kaleidoscope_cookery:fried_egg');            // egg recipes (cake, batters) took a FRIED egg
+    if (scanHas('kaleidoscope_cookery:fried_egg')) event.remove('c:eggs', 'kaleidoscope_cookery:fried_egg');   // egg recipes took a FRIED egg (v0.4.1: KC removed 11-17, guarded)
     event.remove('c:foods/bread', 'minecolonies:hand_pie');               // F&C / FD bread recipes took a hand pie
     event.remove('c:foods/bread', 'minecolonies:stew_trencher');
     if (scanHas('bakery:bread')) event.add('c:foods/bread', 'bakery:bread');   // Bakery bread works in FD sandwiches
-    console.info('[chop crops] v0.4.0 tag fixes applied');
+    console.info('[chop crops] v0.4.1 tag fixes applied');
   });
 
   // v0.3.2: Ultimine snow group (block tag; registry-scanned, so only real ids; logged)

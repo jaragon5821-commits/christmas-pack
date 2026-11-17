@@ -43039,7 +43039,7 @@ hash = "2409c06fe83355c2154fc9ce2333c6dd905609acca40c74a4c7b5ad7a6d48e72"
 
 [[files]]
 file = "kubejs/server_scripts/chop_crop_unify.js"
-hash = "ef397420e33e9b731ba991a501c25e54de13c45d79848bcb6d77e97174db2237"
+hash = "282c0035e659f11e788a4b17d157eea3b6930605e3b336a1cdead8ad0e8b80b0"
 
 [[files]]
 file = "kubejs/server_scripts/chop_donation_bucket.js"
@@ -44038,11 +44038,6 @@ metafile = true
 [[files]]
 file = "mods/just-enough-resources-jer.pw.toml"
 hash = "ac98913d798603d5aa69c2e4dfcb26f6729bfec83b94812c9be485094b16280a"
-metafile = true
-
-[[files]]
-file = "mods/kaleidoscope-cookery.pw.toml"
-hash = "e68e9cc3cb547d25f738794f79e36e9c39467d523182d70985a24f62677dc271"
 metafile = true
 
 [[files]]
