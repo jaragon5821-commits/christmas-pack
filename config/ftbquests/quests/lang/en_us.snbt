@@ -2384,10 +2384,16 @@
 	quest.7C0A15F3B1D2E508.quest_desc: ["Turn in 3 Ribbon Tokens. Santa sends a string of lights and the world gains 2 Festivity."]
 	quest.7C0A15F3B1D2E508.quest_subtitle: "Three ribbons"
 	quest.7C0A15F3B1D2E508.title: "Tied With a Bow"
-	quest.7C0A15F3B1D2E50C.quest_desc: ["Drive Santy Claws off yourself (be one of the players who hit him when he flees). The scripts tick this off. Reward: a Totem of Undying."]
+	quest.7C0A15F3B1D2E50C.quest_desc: [
+		"Drive Santy Claws off yourself (be one of the players who hit him when he flees). The scripts tick this off. Reward: a Totem of Undying."
+		"&7Only after the star falls.&r"
+	]
 	quest.7C0A15F3B1D2E50C.quest_subtitle: "Scripts complete this one"
 	quest.7C0A15F3B1D2E50C.title: "Not Tonight, Claws"
-	quest.7C0A15F3B1D2E50F.quest_desc: ["Free a friend from a Giant Present by breaking the red knot on top. Scripts tick this off."]
+	quest.7C0A15F3B1D2E50F.quest_desc: [
+		"Free a friend from a Giant Present by breaking the red knot on top. Scripts tick this off."
+		"&7Only after the star falls.&r"
+	]
 	quest.7C0A15F3B1D2E50F.quest_subtitle: "Scripts complete this one"
 	quest.7C0A15F3B1D2E50F.title: "Unwrapped"
 	quest.7C2CA09A6F45BE6B.quest_desc: ["Horse-drawn travel for the whole group. Room for passengers and cargo."]
