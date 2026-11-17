@@ -8,10 +8,11 @@ navigation:
 
 # Controls & Keys
 
-Lots of the pack's mods start with **no key set**, so nothing clashes. Pick the ones you want and bind them yourself.
+Every key in this book shows **what it is set to on your game right now**. If you change a key, the book changes with it.
 
-1. Open a page below to see each mod's keys and what they are set to now.
-2. Click **Show these keys in Keybind Atlas** to jump straight to them.
-3. Or open Keybind Atlas any time with **<KeyBind id="key.keybindatlas.open_keyboard" />** and click **Unassigned** to see every key with nothing bound.
+* **Minecraft Basics:** moving, your inventory, chat and the other everyday keys.
+* **Mod Keys:** the extra keys this pack's mods add, sorted by mod. Many start with **no key set** (*Not bound*), so pick the ones you want.
+
+To change any key, open Keybind Atlas with **<KeyBind id="key.keybindatlas.open_keyboard" />**. It shows every key on one keyboard picture. Click **Unassigned** to see the keys that have nothing set yet.
 
 <SubPages />

@@ -4962,6 +4962,10 @@ file = "config/openloader/packs/30_Chops_More_Animals_v1_off.zip"
 hash = "a2fda3ba30ea7f582135107e4da3091bccb84d1955ae71ef984216bae596221a"
 
 [[files]]
+file = "config/openloader/packs/31_Chops_CTOV_Loot_Fill_v1.zip"
+hash = "79948a6c431b28f95e3a07be9e95211c65e85484f7a94639632b2790bfdaa2ba"
+
+[[files]]
 file = "config/openloader/packs/31_Chops_Road_Surface_v1.zip"
 hash = "bf28678d5f43f56cf3f81b750a418905ed894b6ea00ad88d7abf0f137dc92135"
 
@@ -42187,43 +42191,63 @@ hash = "3d013c813705d388b07986fd85beeec729cb5bf9a5f586b444fd8026cdf5dbf4"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/backpacks.md"
-hash = "eb3dd8ebcc872a50dd5ca6dbf41c149aff013afebe030def5d4338d58095d676"
+hash = "692452a2c137dd7120c23f34e14b4b94ea1eebec4c0b2ba8638fcfdaa145e7da"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/basics.md"
+hash = "2d1bdedc1c3430251a02b21bb9c2a16fde5de0dc29a7ee7a8fdb83bce46fb850"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/camera.md"
-hash = "2f94217d016816bf9ba5d8907c99a43bf73f19d1ef6d31e7c356bf6b212039aa"
+hash = "d03d6b652252c9c4750803ab5bc38113eb704800ff3e81e1e2547632e580ccbb"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/colony.md"
+hash = "f1365ad6d9b12c31876f8688a44d74617bce0c45face6d56edb4112d965c3b32"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/graphics.md"
-hash = "7f1e2232cd02c71b8e3165516d26202c8836489a68fc29551eead0502f1bf2b1"
+hash = "c6f8941c18451ae6613851048208dc92434a6cf47569d9327d4b5d93d0f13f12"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/index.md"
-hash = "23b42b0a02c38fd3370eb84a2de073c8a6be79a5087a83671461c387e81e0e79"
+hash = "39cc501c5c5df3ef734067af175da4663b0973780b8820f8e4d84a07c6cb98c0"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/info.md"
-hash = "9e8ebbbeaae8ff1b5e56cbf2ff786a6d9432519e443133c6afbce5b3a4ab7751"
+hash = "6ac6bc389ae0f9cc8649884d9d1d0f99740fc9854c05954125e52e037a07871f"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/inventory.md"
-hash = "d0ac15c4788282a4ddfaddd9c22193ee6fe48740a619bfd07ec7264d9904163b"
+hash = "a0b29357c722570ca4a60d4d97c698600c41196a97afb7117bb662634feceea5"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/magic.md"
+hash = "aa7df264d35f5a0ce9515d8df5833a77cf1fa6099c3e82f8ef3849c7f318b5c2"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/map.md"
-hash = "28a11987fd8e3346a76513ab6a749f564e457d9516c9d541f2bf01928c686f80"
+hash = "aea2db2e6cb649ac6f4efbfd508cf07160955e6c18743207422f161f76ab0c74"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/mining.md"
-hash = "91d5aba6a502a48c7ff12943a05dfb4a28940084f13735c1a5a08471d7153831"
+hash = "6d26c8b4310468ba74b4a30e952fd2918e7ff580b33dbe077075fbddc7487ca8"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/mods/index.md"
+hash = "d8a501b5322a856ca3666d1bb98b337f308245f91697074f32415911c43bd872"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/outdoors.md"
+hash = "b2bf1faf6f1a917de84acabcc93f577c357c6020461f9e3ba87b7ca3759dfb2a"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/quests.md"
-hash = "cba475f099dd4bc7f247f56cbd9b82c070a5a70ea78245763eb88e29a8cf670a"
+hash = "d56765cc817a4ebd857884c86e9a38733923d12aea82fe158474fb99a2f55e03"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/voice.md"
-hash = "6d9e6581d71dae5634b7f01c1d3395fda33f516f7bc55663ec855a616c08c12b"
+hash = "6cf6bc92c9bb2f50faf69087b1b92962a0c9d1f9fd4ee24a1c2e3e9a46cc9560"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/colony.md"
@@ -42243,7 +42267,7 @@ hash = "70048eefa75df5e84bc121dcbd815bf18d48d5bc8e5936e7dbda0d4e0b732d89"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/handy.md"
-hash = "dcb0dbdf8a55f8a575eaab9d8f64de4b463ae61b495753cb5dcaf94b6b3a0aff"
+hash = "5b42a586071bf0eb2dab48274a8026eec0774f67824fd8387d548757f92ad237"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/index.md"
