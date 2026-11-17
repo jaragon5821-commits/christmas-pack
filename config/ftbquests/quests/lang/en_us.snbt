@@ -28,6 +28,8 @@
 	chapter.34057A5E5A000000.title: "The Festive Workshop"
 	chapter.34057A5E5B000000.chapter_subtitle: ["Every building your colony finishes adds a light to the tree."]
 	chapter.34057A5E5B000000.title: "The Colony Tree"
+	chapter.34057A5E5C000000.chapter_subtitle: ["Old stories, very big statues. Go and see them for yourself."]
+	chapter.34057A5E5C000000.title: "Visit the Giants"
 	chapter.404E8D82CC44BFB6.title: "Kitchen & Farm"
 	chapter.4359586307706BDD.title: "The Naughty Citadel"
 	chapter.4C1A0F15AFE70001.title: "Fire Safety"
@@ -876,7 +878,10 @@
 	quest.34057A5E532B065B.title: "Dough"
 	quest.34057A5E532CFCA0.quest_desc: ["Strawberry and chocolate glazed cookies."]
 	quest.34057A5E532CFCA0.title: "Glazed Cookies"
-	quest.34057A5E53300D7C.quest_desc: ["Toast with strawberry, sweet berry or chocolate jam."]
+	quest.34057A5E53300D7C.quest_desc: [
+		"Toast with strawberry, sweet berry or chocolate jam."
+		"Cook the jam in a Farmer's Delight cooking pot, then craft bread and jam together."
+	]
 	quest.34057A5E53300D7C.title: "Toast and Jam"
 	quest.34057A5E5335E360.quest_desc: ["The bird with all the trimmings."]
 	quest.34057A5E5335E360.title: "The Festive Chicken"
@@ -951,7 +956,10 @@
 	quest.34057A5E53A2E69A.title: "Apple Pie"
 	quest.34057A5E53A5CAD3.quest_desc: ["Red and white stripes."]
 	quest.34057A5E53A5CAD3.title: "Candy Canes"
-	quest.34057A5E53A9D7F1.quest_desc: ["Rolled by hand."]
+	quest.34057A5E53A9D7F1.quest_desc: [
+		"Rolled by hand."
+		"Cook them in a Farmer's Delight cooking pot: sugar, cocoa beans and milk."
+	]
 	quest.34057A5E53A9D7F1.title: "Chocolate Truffles"
 	quest.34057A5E53AE9A89.quest_desc: ["You are going to need a lot of sugar. Plant sugar cane!"]
 	quest.34057A5E53AE9A89.title: "Sugar Rush"
@@ -973,7 +981,10 @@
 	quest.34057A5E53E5E35A.title: "Cookie Time"
 	quest.34057A5E53EC0F37.quest_desc: ["The family recipe."]
 	quest.34057A5E53EC0F37.title: "Grandmother's Strawberry Cake"
-	quest.34057A5E53EEB611.quest_desc: ["Some breads need yeast to rise."]
+	quest.34057A5E53EEB611.quest_desc: [
+		"Some breads need yeast to rise."
+		"Cook it in a Farmer's Delight cooking pot over a heat source: sugar, a water bottle and wheat. Have a bowl ready to scoop it out."
+	]
 	quest.34057A5E53EEB611.title: "Yeast"
 	quest.34057A5E53F05D04.quest_desc: ["The main event. Lay the table, call everyone in, and don't let Claws smell it."]
 	quest.34057A5E53F05D04.title: "Christmas Dinner"
@@ -1476,7 +1487,7 @@
 	quest.34057A5E5A5254EA.quest_desc: ["The full Gingerbread outfit, reinforced. As tough as diamond armor, and it still looks like Christmas."]
 	quest.34057A5E5A5254EA.title: "Reinforced Gingerbread"
 	quest.34057A5E5A54904B.quest_desc: [
-		"The treats in this row can be made at a crafting table, or cooked in a Farmer's Delight cooking pot over a heat source."
+		"Most treats in this row can be made at a crafting table, or cooked in a Farmer's Delight cooking pot over a heat source."
 		"The pot is the better deal: each batch gives several servings."
 	]
 	quest.34057A5E5A54904B.title: "Pot Luck"
@@ -1541,7 +1552,7 @@
 	quest.34057A5E5AE2246A.title: "A Gingerbread Buddy"
 	quest.34057A5E5AE64775.quest_desc: ["A holiday classic."]
 	quest.34057A5E5AE64775.title: "Sweet Potato Pie"
-	quest.34057A5E5AE7F0DB.quest_desc: ["Spiced and warming. This one only comes out of the cooking pot: honey, sweet berries and cinnamon powder."]
+	quest.34057A5E5AE7F0DB.quest_desc: ["Spiced and warming. Brew it in the Herbal Brews tea kettle: honey, sweet berries, ground cinnamon and a glass bottle."]
 	quest.34057A5E5AE7F0DB.title: "Christmas Tea"
 	quest.34057A5E5AEA74C0.quest_desc: ["Break holly leaves without shears for a small chance at a sapling. Plant it and grow your own."]
 	quest.34057A5E5AEA74C0.title: "Holly Sapling"
@@ -1786,6 +1797,155 @@
 	quest.34057A5E5BFE2BD6.title: "Glassblower's Hut (Level 2)"
 	quest.34057A5E5BFF6FDA.title: "Warehouse (Level 2)"
 	quest.34057A5E5BFFBE19.title: "Builder's Hut"
+	quest.34057A5E5C001F36.quest_desc: [
+		"A great stone baker stands with a tray held out, as if she's waiting for someone."
+		"Some mornings the whole hill smells of cinnamon."
+	]
+	quest.34057A5E5C001F36.title: "The Baker on the Hill"
+	quest.34057A5E5C00775A.quest_desc: [
+		"A sleigh big enough to carry a village lies on its side at the edge of the dark."
+		"Whatever was pulling it went on without it."
+	]
+	quest.34057A5E5C00775A.title: "The Wreck at the Edge"
+	quest.34057A5E5C01D736.quest_desc: [
+		"A mother bear and her cub, carved bigger than any ship."
+		"Hunters leave a fish at her feet for luck."
+	]
+	quest.34057A5E5C01D736.title: "The Bear and Her Cub"
+	quest.34057A5E5C036039.quest_desc: [
+		"Someone very large lay down in the snow once and made an angel."
+		"It's still there. Nobody saw them get up."
+	]
+	quest.34057A5E5C036039.title: "The Angel in the Hollow"
+	quest.34057A5E5C12CD04.quest_desc: [
+		"A red-coated giant stands crooked against the sky."
+		"Children wave at it. Their parents don't."
+	]
+	quest.34057A5E5C12CD04.title: "The Crooked Colossus"
+	quest.34057A5E5C1E5537.quest_desc: [
+		"Somewhere there's a tree so tall its baubles hang among the clouds."
+		"Nobody remembers who decorated it."
+	]
+	quest.34057A5E5C1E5537.title: "The Tallest Tree"
+	quest.34057A5E5C28CAB4.quest_desc: [
+		"A giant skater, frozen in a spin above an old pond."
+		"Skaters who circle her three times swear they never fall."
+	]
+	quest.34057A5E5C28CAB4.title: "The Skater"
+	quest.34057A5E5C33A401.quest_desc: [
+		"A gingerbread man the size of a barn lies face down in a field."
+		"Kids say he ran too fast. Their grandmothers say something chased him."
+	]
+	quest.34057A5E5C33A401.title: "The Fallen Gingerbread Man"
+	quest.34057A5E5C36EB9D.quest_desc: [
+		"13 giants. You've climbed enough of them to earn a cloak that keeps you from landing too hard."
+		"Find any 13 of the 17 giants."
+	]
+	quest.34057A5E5C36EB9D.title: "Pilgrim's Cloak"
+	quest.34057A5E5C444F42.quest_desc: [
+		"Past the portal, a cradle as big as a house hangs over the burning lake."
+		"Nobody will say who it was made for."
+	]
+	quest.34057A5E5C444F42.title: "The Cradle Over the Lake"
+	quest.34057A5E5C475A26.quest_desc: [
+		"9 giants found. People have started calling you a Pilgrim, and now it's your title."
+		"Find any 9 of the 17 giants."
+	]
+	quest.34057A5E5C475A26.title: "Pilgrim"
+	quest.34057A5E5C52E6B3.quest_desc: [
+		"Way up north there's a mountain with a woolly bobble on top."
+		"Climbers say it's the end of a very, very big hat."
+	]
+	quest.34057A5E5C52E6B3.title: "Mount Pom-Pom"
+	quest.34057A5E5C56DE37.quest_desc: [
+		"Travellers back from the red place talk about a snowman made of ash."
+		"They say he's the only cold thing for miles."
+	]
+	quest.34057A5E5C56DE37.title: "The Grey Snowman"
+	quest.34057A5E5C5CD6F1.quest_desc: [
+		"A child as big as a hill sits on the edge of an island, looking out."
+		"Waiting, the way you wait for Christmas morning."
+	]
+	quest.34057A5E5C5CD6F1.title: "The One Who Waits"
+	quest.34057A5E5C60FE11.quest_desc: [
+		"A hand bigger than a house reaches out of the ground."
+		"Nobody grazes their sheep near it, and nobody will tell you why."
+	]
+	quest.34057A5E5C60FE11.title: "The Hand in the Snow"
+	quest.34057A5E5C625E50.quest_desc: [
+		"Every village has a story about something enormous out in the wild."
+		"Some stand, some lie down, and some don't look quite the way the stories say any more."
+		"Find each one. A book is left at every giant by whoever got there first."
+		""
+		"Take this chart to get started. It marks the nearest giant (read it in the Overworld)."
+		"At the top of every giant there's a chest with a chart to the next one."
+	]
+	quest.34057A5E5C625E50.title: "Tall Tales"
+	quest.34057A5E5C6D4630.quest_desc: [
+		"You've stood at the feet of every giant in the stories, and lain down beside the ones that rest."
+		"Take the Wanderer's Staff. Snow won't slow you down again."
+	]
+	quest.34057A5E5C6D4630.title: "Pilgrim of the Giants"
+	quest.34057A5E5C702570.quest_desc: [
+		"Not every giant stayed where the stories put them."
+		"You've found the six on the other side."
+	]
+	quest.34057A5E5C702570.title: "Beyond the Portal"
+	quest.34057A5E5C7F1B55.quest_desc: [
+		"A stoker longer than a street sleeps on a ridge beyond the portal, shovel in hand."
+		"When he snores, the ground shakes."
+	]
+	quest.34057A5E5C7F1B55.title: "The Sleeping Stoker"
+	quest.34057A5E5C9D7739.quest_desc: [
+		"A wooden soldier taller than a church, still standing guard."
+		"Over what, nobody can say."
+	]
+	quest.34057A5E5C9D7739.title: "The Sentinel"
+	quest.34057A5E5CA0E0C1.quest_desc: [
+		"Shepherds tell of a hill that breathes in winter."
+		"Walk softly if you find it. They say it's only sleeping."
+	]
+	quest.34057A5E5CA0E0C1.title: "The Sleeping Giant"
+	quest.34057A5E5CAFA263.quest_desc: [
+		"Somebody wound up a toy the size of a tower and let it go."
+		"The lid is open now. Nobody has seen it close."
+	]
+	quest.34057A5E5CAFA263.title: "The Box That Opened"
+	quest.34057A5E5CB126E5.quest_desc: [
+		"A giant singer with a songbook, mouth open mid-verse."
+		"Hum near it and the snow seems to hum back."
+	]
+	quest.34057A5E5CB126E5.title: "The Caroler"
+	quest.34057A5E5CBF0306.quest_desc: [
+		"Travellers speak of an arch of antlers over an empty road."
+		"They say it marks where the last reindeer stopped running."
+	]
+	quest.34057A5E5CBF0306.title: "The Antler Arch"
+	quest.34057A5E5CC5A42D.quest_desc: [
+		"You've seen 5 of the giants. Here's something to remember them by."
+		"Find any 5 of the 17 giants."
+	]
+	quest.34057A5E5CC5A42D.title: "A Few Tall Tales"
+	quest.34057A5E5CC6884E.quest_desc: [
+		"Ice fishers say there's a giant locked in the ice, one hand still raised."
+		"Some say it's waving. Some say it isn't."
+	]
+	quest.34057A5E5CC6884E.title: "The Frozen Titan"
+	quest.34057A5E5CC8E38B.quest_desc: [
+		"On clear nights, they say, you can see a giant angel's wings from three valleys away."
+		"Its trumpet has never made a sound. People keep listening anyway."
+	]
+	quest.34057A5E5CC8E38B.title: "The Herald"
+	quest.34057A5E5CFA0F16.quest_desc: [
+		"A toy train as long as a village lies on its side in the snow."
+		"Its whistle still blows on windy nights, they say."
+	]
+	quest.34057A5E5CFA0F16.title: "The Train That Left the Track"
+	quest.34057A5E5CFFDDC0.quest_desc: [
+		"Out on the dark islands, they say, a giant holds up a light for anyone lost."
+		"Walk towards it if you find it."
+	]
+	quest.34057A5E5CFFDDC0.title: "The Lamplighter"
 	quest.341E64D86C318400.quest_desc: ["A seasonal classic."]
 	quest.341E64D86C318400.title: "Eggnog"
 	quest.350ED68F4D3729FA.quest_desc: ["The &62x2&r and &63x3&r picture windows show one big picture across the whole square. They line up to the world grid, so shuffle your square a block if the picture looks cut."]
@@ -2014,10 +2174,10 @@
 	quest.7C0A15F3B1D2E405.quest_desc: ["Hand over 8 Coal Tokens. Santy Claws leaves you a wither skeleton skull and takes 2 Festivity from the world."]
 	quest.7C0A15F3B1D2E405.quest_subtitle: "Coal for bone"
 	quest.7C0A15F3B1D2E405.title: "A Lump of Coal"
-	quest.7C0A15F3B1D2E409.quest_desc: ["16 Coal Tokens buy a Claws' Horn. Blow it (right-click) at night to call a Sour Elf pack to you. -3 Festivity for the world."]
+	quest.7C0A15F3B1D2E409.quest_desc: ["16 Coal Tokens buy a Claws Horn. Blow it (right-click) at night to call a Sour Elf pack to you. -3 Festivity for the world."]
 	quest.7C0A15F3B1D2E409.quest_subtitle: "Call the pack"
 	quest.7C0A15F3B1D2E409.title: "Santy's Horn"
-	quest.7C0A15F3B1D2E40D.quest_desc: ["Do a Naughty Letter dare (Santy Claws sends them to one random player on quiet Merry days). The ledger remembers. Reward: a Netherite ingot, and the world loses 4 Festivity when you do it."]
+	quest.7C0A15F3B1D2E40D.quest_desc: ["Do a Naughty Letter dare (Santy Claws sends them to one random player on quiet Merry days). The ledger remembers. Reward: a diamond, and the world loses 4 Festivity when you do it."]
 	quest.7C0A15F3B1D2E40D.quest_subtitle: "Festivity scripts complete this one (checkmark task)"
 	quest.7C0A15F3B1D2E40D.title: "Dear S. Claws"
 	quest.7C0A15F3B1D2E502.quest_desc: [
@@ -2033,7 +2193,7 @@
 	quest.7C0A15F3B1D2E508.quest_desc: ["Turn in 3 Ribbon Tokens. Santa sends a string of lights and the world gains 2 Festivity."]
 	quest.7C0A15F3B1D2E508.quest_subtitle: "Three ribbons"
 	quest.7C0A15F3B1D2E508.title: "Tied With a Bow"
-	quest.7C0A15F3B1D2E50C.quest_desc: ["Drive Santy Claws off yourself (be one of the players who hit him when he flees). The scripts tick this off and hand you his Horn."]
+	quest.7C0A15F3B1D2E50C.quest_desc: ["Drive Santy Claws off yourself (be one of the players who hit him when he flees). The scripts tick this off. Reward: a Totem of Undying."]
 	quest.7C0A15F3B1D2E50C.quest_subtitle: "Scripts complete this one"
 	quest.7C0A15F3B1D2E50C.title: "Not Tonight, Claws"
 	quest.7C0A15F3B1D2E50F.quest_desc: ["Free a friend from a Giant Present by breaking the red knot on top. Scripts tick this off."]
@@ -2119,6 +2279,12 @@
 	task.34057A5E5A02CD36.title: "Let's get crafting"
 	task.34057A5E5A40E262.title: "Done"
 	task.34057A5E5A7BEC35.title: "Show me the wardrobe"
+	task.34057A5E5C28B089.title: "Onward"
+	task.34057A5E5C84A0A8.title: "Onward"
+	task.34057A5E5CE4B229.title: "Every one of them"
+	task.34057A5E5CE52988.title: "All six"
+	task.34057A5E5CEA6417.title: "I'll go and look"
+	task.34057A5E5CFEB5F9.title: "Onward"
 	task.46D5C33595D8E442.title: "Let's go"
 	task.4C1A0F15AFE70003.title: "I understand: fire spreads"
 	task.57A28E1AD049FA3B.title: "I've donated"
