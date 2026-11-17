@@ -2,123 +2,123 @@ hash-format = "sha256"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/birchfarmer1.blueprint"
-hash = "2571b991fca0caa70ae2e597d0ab890bc59e3593e558edbe95282ce1879dc4e3"
+hash = "7477a5c9356d6d176b4403386d5a6948700d2bb701ed5b8a6aba2948e862f518"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/birchfarmer2.blueprint"
-hash = "ed00ba6e48bbc71ef1ac6c0225051d9aa6651c5ba100e9642d9d94612a8626aa"
+hash = "255069bbd35d9c252bce45c54288e75674ab656bc900e40a27a6b0897a3de177"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/birchfarmer3.blueprint"
-hash = "fc3fb0efc8d1b9ebdc3f42cce4c05e476d142d5f4840060863c751ce2872e576"
+hash = "68423ca87892336dc8d940230baea6072e5db8f7ee1d6f3f3f9ac06a58cdc95a"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/birchfarmer4.blueprint"
-hash = "c0a626013a9cb4df3147d073b87572f3121d37b9e02a32503d7ba0f9a0fd4864"
+hash = "1070887cdc96232de9721d5ac1e4663dc26ffde1e700efafa9c354d0819a652e"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/birchfarmer5.blueprint"
-hash = "417e5288986f8fb497b4f0e5e075474291577f296474e265271eb84eec872b3b"
+hash = "0a653808a836cc5e844ac002aa23e90fe38ce8cc207a026b18c7d5a10ff7e69f"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/composter1.blueprint"
-hash = "cf16c287fab818abecf09ea43de3a89c0be8d8e7694ca15fccde3ba4f58a125e"
+hash = "ab9e8d57384b9c12ede87456d12997625bee564356712482792824a34e15d357"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/composter2.blueprint"
-hash = "bba04681f3faa16174d7263144f1125dff3ded392d857e87bd5c1eefd3788010"
+hash = "1accd5eb3608f6239f6df0fb24cf26e1d4712c24bda95143573f321d6dc57a3b"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/composter3.blueprint"
-hash = "7d92b442500b5dd27d3a65f1f3b4e8265d8e6430e94fd1a700ae455034e6393a"
+hash = "802c647d678c6eaf0ed20ee71731aa489de501a06b46eb76bc6d0663ec1fd3de"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/composter4.blueprint"
-hash = "513861ba6c80815789a5402cb703edb7bd7853e63831a0c5365c203fa09bf426"
+hash = "414f7d12a71a182bdfa475f77d8a88b85ac093bf6f790b18cec8f82099161423"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/composter5.blueprint"
-hash = "67109974a8934da6edaab41b04f62e81faeda40f4eed48cceaaa86eb5960e6ef"
+hash = "fb90eaa99dff0a36f622cc4110a103139f42c68375525609b865a5766d3a4bd6"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/darkwoodfarmer1.blueprint"
-hash = "6e87613728621efa1d554b99ea8dcae029f07f4afffabfeda0b2fe4f9d947428"
+hash = "5581e3b30e5a7e65b62acd32d6b32312468bd83cc6a89297cadc2f9756248df6"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/darkwoodfarmer2.blueprint"
-hash = "dd4fb8fc2e2216eecfd04547ef8f6e81857cd0afe6aa1d38719d8e2c880a2af5"
+hash = "a5d414ada4a66f35cd3a07c25849d69e1fa8d06b7d4fa9402f526a56e78fdef2"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/darkwoodfarmer3.blueprint"
-hash = "a6a80b610e65663b275ff068012439c1def32bba93ea2b226a80e8334a9998cb"
+hash = "6cb2b23bf6bf6f58028d214ffd489d7f34bc4c2149b06c3ba66d53a3a59f8575"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/darkwoodfarmer4.blueprint"
-hash = "40c40e52c1c0aa95a4367d921458684abb3393c4668832d14328b6cec975a2ab"
+hash = "6c2633b0dd1ff3a3c867a2cc23f73b9fa80265b273ae2e89fd1a1146960b6b62"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/darkwoodfarmer5.blueprint"
-hash = "458b5af2c048b0a41abb36ab9588a09395d647db8968e07fc91f9fb8e9b6dd30"
+hash = "d4881bd26bd48ff7fd884819291a48fe7e7dbeb63d9215e22a8d410b3a1a2471"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/farmer1.blueprint"
-hash = "811db1e0bd675762cacafff8a9870c6146b173b78301c277a62cbed683f41f22"
+hash = "ca6b36f2d699817a52cc1717559b894ebcd546f6703abb773ac5a046b02d0fdc"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/farmer2.blueprint"
-hash = "f46df7bec0a52e423a83851d2fcf98514bb58aa07209a556416a76ae4355e558"
+hash = "8c7ea4da5dac4a062f5d4066b8997f0982f82177de7760764729b9d6f673b392"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/farmer3.blueprint"
-hash = "f8bd529f9e975d9c929c21d4aee9f340c8343d0e319e83c0593429741693ec3a"
+hash = "8f5d7b6218f125bf971c1ea298c5754f22009af718a572ff220800fcf127a026"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/farmer4.blueprint"
-hash = "2670c97258bc8eaeafc81057e5a269db7deb7a7285caa96d844ecf8ff457ff74"
+hash = "4bfb813d732337cdf2cd297dfa875d61e4aa333dc2ebae6d0d4924f8cb45ae23"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/farmer5.blueprint"
-hash = "034de51cc85ecf45d6de0f82ddcb95c6c214655466aa81695e4528b1377c6b07"
+hash = "1e3ce4ed550ddc3c66325d936c93c494f1fc29d47b5156779a6d921e892e654a"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/florist1.blueprint"
-hash = "d0c38b5a4e515a946492c06c71c70492caf368f1688daec8f335ce8faac2b879"
+hash = "5f2ccd45588673697d198e2e2d31365fb58c77b2b5b43539c612d71cbf034464"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/florist2.blueprint"
-hash = "5849db284d981b371907ea9750f7801668d6934fe535f6297793bfa40d7ddec2"
+hash = "c1d6f3a9b36a4468b531174ad2f21aa53a46bfd5c4aeeaec4d6c91bf4faaaa0c"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/florist3.blueprint"
-hash = "93588f02c5aa3ad6f363718ca2dc5b297254e87454f4e2f8345fa1148d630d39"
+hash = "0c2fbcb6c658d39a0a1bd334abc5fe62dd71ac9816dbea45cafd37a05b819f7b"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/florist4.blueprint"
-hash = "a72baf79da111440ca4c8463c113e395ab4de24f58a999c91b694f04fddd499b"
+hash = "5c5ffc963485db6057074960e283fbe0d67fd9958f5158cdcda7909e2d60b8a1"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/florist5.blueprint"
-hash = "4f7fb1e605aa638c5777db35cee2dc8303cf7d58fa96258b0c928d4f544f2ba8"
+hash = "5663bec6334b31c41f3562cfb24d257aa3c4bdc09536cef17648163137385473"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/hillsidefarmer1.blueprint"
-hash = "df055f0e930b86af3f271fe6e2de0f5200f9bc460b0954a4c8ba862aabea46d4"
+hash = "f26cba8c81cb9827596925baf893781e9516902e22c77c040e15e38f44bb0fca"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/hillsidefarmer2.blueprint"
-hash = "daa13a67a4a026d5cd3b812151de8df3d8102eebc8a991f7c74bf2de01e8fb25"
+hash = "8e3d608d99c2afa6308094b77058ca14d058d1b0970a483d0246d2a002af0ba0"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/hillsidefarmer3.blueprint"
-hash = "ba760f0b57d49da758de9870c2a2a5cd8d5c1c942e4d493e81d5bc3444de7f58"
+hash = "287d77d5eb5f0da331e85d2ffc9caa25579cb5376e3e85f5eddc1a3597019f2e"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/hillsidefarmer4.blueprint"
-hash = "dcc816c2acdb43d566925a19fa5590bf3b2a4f37fc0d9ee0372483ca4dc0e759"
+hash = "76dfebd8dd1dac2775bcd465be378b2446972aabd8505669a63c2b11895799ec"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/hillsidefarmer5.blueprint"
-hash = "4cd2258e7234c240951c542fc0a21a3a2ca8cd07de5b6ab17605bda3165695c2"
+hash = "c962cb35c9432b6df21b526ca924c7be8deb49a9372195b12e479773336a543f"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/icon.png"
@@ -130,183 +130,183 @@ hash = "66134d711462101270754897c6995b9a32af4f4f46ff03c21a8efced80163d52"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/lakesidefarmer1.blueprint"
-hash = "ea5079c42bcf0f2bb1feda2ff07bf26aaf86f6bf609f2b8719dc9861a6b7977e"
+hash = "d03bae808207ed3c929a7eae05c54e5950251ffbbc89f2c167b6123cc85fda8a"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/lakesidefarmer2.blueprint"
-hash = "158b9d060f14dad07e2701aca5754bc06d3869bf5dc96e3a81427741a00d13dd"
+hash = "abd2e79d636a1aff185cf0948bf5f64be49d347f221927f5fed183ad7170ddfe"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/lakesidefarmer3.blueprint"
-hash = "f92ebb46dabae3ee33c8880ab6b48d37fc6287b713239d49c8291ee7354258b0"
+hash = "5e21ddfa6d635e43bf0ca79379f3b8a64faeab1ebc2fa65808f80a65931df9f4"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/lakesidefarmer4.blueprint"
-hash = "56bac55c9a1837f5e64bd8ac614622497dd11eaecc05f864253da2da0a7d7464"
+hash = "3a768bca288eb615f9342a0bf11c965306ce6e43b5f464c69e97f37770c4d41a"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/lakesidefarmer5.blueprint"
-hash = "ddd2fb106354a0128f105240ac9937f0454a251dc4fb2126eca255f95834ac65"
+hash = "f349c0de664076893688374786b7bb77fdd7b7358066ba3fc5b63cd6b99e97a9"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/mountainfarmer1.blueprint"
-hash = "e2a43b7aa5dd2cba53fc3fc70737fb9eb0ae8979e8103c2fc62b2712ae82d6e5"
+hash = "10c02da2e78713bfcdbf927aad19660ec45b891d4ab227b5331e6940b7fbacfb"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/mountainfarmer2.blueprint"
-hash = "89b1fb40db76b0a8ccf0570ea3c7bd8c5e73f469602f4118b037d22541a54e13"
+hash = "6471c98b0a0fbf77db42ad950252521505b5bb27c61fc61ef312a345882cad67"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/mountainfarmer3.blueprint"
-hash = "a3f38c746b49d394612cdc3ba8f50409f5d5c85c3046496e93686572b76b5011"
+hash = "2aca100f83a07f84b901476ac82e4226577664cacdf037de8914c9b4e321e075"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/mountainfarmer4.blueprint"
-hash = "bfc47b2ebb33c909177f9ed60cc2e546a18ea6162ddb0638fc89dc42938045fc"
+hash = "9ff945e7e44443894b63cbf4595556582a431efd9b50dac54490eafbbcf8d1ab"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/mountainfarmer5.blueprint"
-hash = "9233b1e395197b8bd238694db71487b6c49ce5b52bcf353001d67c3270273a50"
+hash = "6068373ec1c3f68fa60fa103e443ba89f91b407a35846aad81dba26fddbbf69b"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/plantation1.blueprint"
-hash = "98c6d87644b3e472fc1c4ee0a1a6e4b0e37fa00d9eb89ea72114b07a758220df"
+hash = "5feccdaa7d32442e8b9d3340f6f4aae9fb9437016c49c8195569179acda29bc8"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/plantation2.blueprint"
-hash = "dcae89441d402538ae894251f6d65881e3a26b58838e940dc72597f66a23f1b9"
+hash = "652d59b027d7296a0e3bf61f150e286277af7fccf236e99ff969fd2092f768c6"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/plantation3.blueprint"
-hash = "8238bfb610b9b4423260fefe5dbb93f593d549c0a4bb921ca570a14222e0e98f"
+hash = "39419eb8da30dc2d2e6a96d15ddf7f6eaf9bd6d5a4f60fcd52e189151491826a"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/plantation4.blueprint"
-hash = "6306b5037af69a38f0c7ae67eb180f3bccfb42e1b98cf83d98fc6ba606794334"
+hash = "9b7739d2664b2e8ebd59278fa4dd6bd17eee6ad6c9193026716baaa757d12ddd"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/horticulture/plantation5.blueprint"
-hash = "0590b8217927b49d7392baba1c718327fe9f4dc40c8b1a66690e719ac3297070"
+hash = "57eacdd7aba29cec5cc5abbcdcc986288a282484567967d69ffcf07feb45ca44"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/beekeeper1.blueprint"
-hash = "75224865a8f2a11c3a9075b5c7e7c600c27e76ed966f1b2ca82c39cb39c0a838"
+hash = "0a9f29f66f415d3114c3d8d11208c93622b00cf55262e4e688440e52b9b44d71"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/beekeeper2.blueprint"
-hash = "879a425c06e0588eba780ebb548bc4db87b988b3bdc8d3191da11a48f8e4f3b0"
+hash = "a66f23edf321fbbb1155171a9792d9b1e7ee0cbd2066a8b74b5ea31c766aae10"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/beekeeper3.blueprint"
-hash = "66dc2f036abe18bda161d60b36940476c371ab9cb0ecdca119a273b8ba9a450c"
+hash = "97450b61d1bd7becab092df67eecb4cfd83247b13dfe14b5db22284c6caca59c"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/beekeeper4.blueprint"
-hash = "06d66f77564d5498fe0bcee522a8e53ce0e773ee092709c34fd625e24ced1c66"
+hash = "4088c8ce94cf8303e683b090990ae46ad7f32a3d79c5d3117baa3fe861eed34d"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/beekeeper5.blueprint"
-hash = "ee3bf5b316b8e6910ad09e7750b07d6ff6d6ecb19c8b651479076d60f4530425"
+hash = "3e0d40b71f4119602fbd56237ae0fbaf9cb0c10aa6fdc384de27bc77d2475239"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/birchfisherman1.blueprint"
-hash = "704610cd3f5698fe40a14a7d2b854560db8adea5a6bc2b0a8cbfd54957b84e72"
+hash = "cfbee9f7def4d97b5a18cff09aae582edc8836dd4c139797d713116b5479a935"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/birchfisherman2.blueprint"
-hash = "746a6e0535901736a90e20b678d08e3d39ba0b94646ce64168e0e0e91a355693"
+hash = "8bd51d39150c7daa2b33dc32f6644c5818c74b2005c34ccc9337a1b2f2c738b7"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/birchfisherman3.blueprint"
-hash = "0a8869b8118d30b1c8d18d78597697ac1557e286d4d7e900fc697362b48b8cf0"
+hash = "2e92ea179667b6e95dbd589251f18a840e4646dc23e7b89360a6c53a15d71239"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/birchfisherman4.blueprint"
-hash = "6aa8cefb320747827d4214629e45d45adfed6824ce9e23e5df3cd9df125b82ff"
+hash = "a0784cb093a8f903f9497ffd4e48ae0670d07eb341a9cc825399a03e72937f9b"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/birchfisherman5.blueprint"
-hash = "82e86154f39ee40110bcf385a6816525abbe5b496aa2d50f7766cb63754df2ad"
+hash = "f390bb71da5a486bbf9e4995a370b6f4cea50039ada9b51be678f8dba7fbb930"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/chickenherder1.blueprint"
-hash = "a013526da01bb635b2ab98b23ff223fee986d90feef95b7865116258f01645a8"
+hash = "dec923ef6d0a075a4a4ca07451a331d4b5a58484b8cb57339f02329b7010e34f"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/chickenherder2.blueprint"
-hash = "331b5dcbb2862d1c7752f9928f6a430cfc7e4c97d9a820919401022b4f156ae0"
+hash = "d278482d90a023ccf0f20bfa207b7ed393f2838bbf021f152bc9018e844c0946"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/chickenherder3.blueprint"
-hash = "3414679e03472ef0dfc1a1e7bae07761fda7d9911ed0dfb56d7ae9125bcbc7e9"
+hash = "8f7be08fabb5899256c214315f2c47c417a73243028d2dba978bed556c54b2cc"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/chickenherder4.blueprint"
-hash = "a9a8a6b902484bb0a200d92d8b4feb931ca928eceeeff7b32cb4866ce542f448"
+hash = "d59019fc247d035678e00647d1098c8b68e06352092fa83c89e216a7db6d33fc"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/chickenherder5.blueprint"
-hash = "872fddc202d6255336e8dc3ec2e918846a66fbc9ce10db2a999d70eff42ca8ff"
+hash = "e6baf20684fbf006a555b4b24ec5e8829b74afdca2879f502885ea84dd139657"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/cowboy1.blueprint"
-hash = "b190dc90f7d583d6be8145547723108c77a72bb21537eba7de3a5ca3bb5507a3"
+hash = "9e4869e8d4a4a4e94d46538eedc99e2225274d847e96fdbd0c880cff307576b6"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/cowboy2.blueprint"
-hash = "828208753ea1a40ab620b21eeca373152df8990d186af5c2107df357315800dc"
+hash = "a464009a534a51971f1a3b5fd1731fd52799f4a297ebed937fc2f5bf40d159d0"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/cowboy3.blueprint"
-hash = "e8d3a13fe68aafcdb1e1edc21b005460c420b3ccae41c224a0528443c29de49e"
+hash = "1431bc424becfbade0395883a968b44a048f080a5dddb92a8eec8dba9816359c"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/cowboy4.blueprint"
-hash = "bd10bb9638b5835c1e04951b5c13530a0362bccc791629a212d9d4f862b2bc3a"
+hash = "fd79b7fd8db1d1575a212cde12bb02a9d429b65429767b8253e115d4a4dd9bdd"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/cowboy5.blueprint"
-hash = "78b74ae98611a594979afe482748ab94d2a10482e21c0f72b7453c87b73efdad"
+hash = "a26133ba79b0b482beb4bad532a848ed05e2ccc530f0ee3ed33f3319dff6fe51"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/darkwoodfisherman1.blueprint"
-hash = "02a5a1ed8f26ab5552f3504fcc0aa4356071d7f6f3e49b95ef3ac93ff2afc731"
+hash = "3599012b609db050f8a10a4e17b83fc6052548f0ead2623264d34c870f1070a8"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/darkwoodfisherman2.blueprint"
-hash = "4a1a02e249d82003ace617b28b5c9b8a6019a645ab985cdc3e32f7f364354dfa"
+hash = "f6a7b94a33d189fca7c93e368d5ca54b7c124e2ddd0e1edacc14ec3a1015d0c2"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/darkwoodfisherman3.blueprint"
-hash = "58ff2428a9bbfa1078febd7e0d7c9056227ac422359082169a8719982ce43b9e"
+hash = "31b531a04d6f877816d352caac1d15a6f006b0a284289c7d70c1521ec655601a"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/darkwoodfisherman4.blueprint"
-hash = "3ddac971da0f27afb9456ca5e0a350fbd9e440151a7f4612520860dffac60873"
+hash = "f0d05986d46d1af4dcc3b0de9b6756ca74b96958f27a66ac8c0cd4c607fbe340"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/darkwoodfisherman5.blueprint"
-hash = "6f6a630e83909096b6e44701836a6965b2274c817058f9162fb9481ce324ba11"
+hash = "aa816b1bba272248be1041d1e57f8d010d74b3425ae7873de3d1bc761745e2b3"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/fisherman1.blueprint"
-hash = "28bb7e4c70fcf841e1dfc18b5f31372dd4c17595c96fbfba993cd2fc5f6e3a8a"
+hash = "2c97ec44b5c85c33aed42e4c2a25a0f333f78695f3f55a0a770cc8c737777203"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/fisherman2.blueprint"
-hash = "bb00367b3f56ea5f9cd75393e3fb00b47426ef874a2c29077d20ccea0c80150c"
+hash = "12476200adab71944302943c464967e13eed1d0f7c085c805afbe0006708631b"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/fisherman3.blueprint"
-hash = "732155624ced3904ba40049a6504e0a681b654d8fb48ef2be92e5a0cd71f25d0"
+hash = "c91039bf27259f9e10a87de4373f2a8acb7a7fedc68a377717837570b0d8359c"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/fisherman4.blueprint"
-hash = "4e908eb7ab4cacf50b9210160e07dc66aae22335b543f334bb83ef5f5fe2eb60"
+hash = "d562e2af8b2a8e6f5c2ee62a4f560b15522a11cbb71a5887e1dadcf8426246d2"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/fisherman5.blueprint"
-hash = "f1ea2e242ef1a77921fb57cb3e87d8312ee09fd1b531c8f90f170de8862c04a3"
+hash = "218b908b9f7b510d721948d8bc8e27f8e9e5d221e98cf7fbbc5fb45e6cb7517a"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/icon.png"
@@ -318,83 +318,83 @@ hash = "66134d711462101270754897c6995b9a32af4f4f46ff03c21a8efced80163d52"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/mountainfisherman1.blueprint"
-hash = "394979bcde78c49e3a1a34a2fcd195f3491c78f2d15d93d5b7568385d8ef6935"
+hash = "3cbfade876cddfe1ab82f6c93b14b958f8ef3ab1a201089eaa1d786c183719f1"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/mountainfisherman2.blueprint"
-hash = "61d2c75937cd4d526ba9955095c4e4491bd2a8d4bce29c7dab9e4a11993da2b9"
+hash = "4188fde877b0a440a667015897fce6d3e8f7316a8081f197a69687f13919cb6e"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/mountainfisherman3.blueprint"
-hash = "f1d679fea1baa312ddedfbf68ed4a64b551c641ad4cc3659b63ecf37ac0389d7"
+hash = "3d4721ac5f75b60d1170c59f456d96a60dbf056312f4328cdcb84994a738b5bb"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/mountainfisherman4.blueprint"
-hash = "35aa9bbbd05aaef3ff64d836d6ba90230e86e7d13af66b4635439f52c1bd675f"
+hash = "e319640851d65473e309cfd9376fda6cb691d595e5c9bfb05a94ac3f5de6265c"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/mountainfisherman5.blueprint"
-hash = "4f69ed87751a40fe82de4db3df4508641baf5e373134cd868fcecd3026dbf2a9"
+hash = "e2ccebc6947f069837151cda11e1a3dc690b10c89a58f14cd9dfb698e7893f35"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/rabbithutch1.blueprint"
-hash = "fd3db56d6277198ed883e414044bca095a41d25e7d60d5925658d9b9dc93e4a1"
+hash = "01144e21c2d2d391be8a5d50493ac6dda3603bf15da28aa9464096f9d8113056"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/rabbithutch2.blueprint"
-hash = "13cfd2385d45908c3954bf2d4bed13d83c79062b48f7fa69dc2d131a37a0d7a6"
+hash = "ee3b999ab2fc010d6c7be3e46223b46f26d8bf32f778ee064dc260b2f1e0a31d"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/rabbithutch3.blueprint"
-hash = "7973778ba787380a0d7b4211f8d1863a7f2ce5a858f48599c7750a0f77c04a2e"
+hash = "d5a6d3cef09576d217678d2133c0ddfa99fbb809fc8d880d6f00c6aba41da46d"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/rabbithutch4.blueprint"
-hash = "78ee92edca03dc251f9160969e799a30d0f1ceb8d66d14b8ccd75f990fa83b0e"
+hash = "ac47f65f2ee3cb7ebaa0d78d7b2bb68c5dd880754cefd12ef49ac5b21cef5137"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/rabbithutch5.blueprint"
-hash = "3cf62863f3eab02eb7d88c7dc83fa8aacb838fa76e11e627641bb6daf7a1da60"
+hash = "9b3ac6539d077443a5f79a0686b2d5f337c1469d807869a88a5cbe6a935a497e"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/shepherd1.blueprint"
-hash = "f8536f61b97e8daf5e7c78e383e528d4a2a3e57a05640862e625999618ebaf29"
+hash = "c1a84fb60c7ade996de9dba33fa4df9bd50663923de9562dadb834693f9fed2d"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/shepherd2.blueprint"
-hash = "f2ff54b09d68b29b5483f78bcfab8cac2b01fa37bb31111d78ac83855769a934"
+hash = "313daac2b1e8cb66d16a1cef6ca995f543809e10197a676f307c3d0e8138e5c9"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/shepherd3.blueprint"
-hash = "4b73ca544469de4bff0aa330e64781c87bd4ac7707c2f44562105909b643cd17"
+hash = "aa528b06bb3ca152695f00c975e2412eb57503a61e11ffaad1be6be1362c9afa"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/shepherd4.blueprint"
-hash = "7eb39d2f39f5b8a6c18fdf55b5b63a5b771e55b0f9f54526186e4e4c133605c7"
+hash = "99f52fc52decbee6d0721810523c71b2a07d88399f9d9835dcf89478adb87e13"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/shepherd5.blueprint"
-hash = "ab34c3e84fdaa4dd629c478f9f30bbeabcf0604f1698b6d88178628177134c4f"
+hash = "7ae14ae7d69296e636371009280925fe484727108b47765a28219a33426b10cd"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/swineherder1.blueprint"
-hash = "4795371d9ff3aa37d8a18a9d6e6e23612d5102f62e4e04f64589e9a1af8836e0"
+hash = "120456aca2c64e550ee23f32a654fc137fd44cc7ae509f68fc519a5458366e32"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/swineherder2.blueprint"
-hash = "8abbc33953df0936a92ca59558897d0e33d854990a7e4022aa28789ca99edbd1"
+hash = "f6758dbcc651217ad8478396d89c55d251dd1d809543c7defa6cec8761a6308a"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/swineherder3.blueprint"
-hash = "6c0cba9a01c7cce891290c57d12edd9db8532b6c984608a82de2d7611145cb61"
+hash = "3ce008be0f67a84eaa0e6ea82b3be953ff5fa7c8f1c7a4fb8b10f0df0159c477"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/swineherder4.blueprint"
-hash = "31e82a26849ea9082097a01341b6903cd168023caeddc87903efabbd6863bd41"
+hash = "0c9dd8177d7355d97eb1289aee7ccc3e3e93fab7562d1af194ea8870ac8639df"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/husbandry/swineherder5.blueprint"
-hash = "a6730ec3a009f43af70bde547ca71c0c96eea8e6e3f9c7fc683ab161eff39ae9"
+hash = "a72037cababad4dc5d4bdee81610d32849baa1eb58bc4c4bf9672f92235b682f"
 
 [[files]]
 file = "blueprints/christmas_village/agriculture/icon.png"
@@ -410,23 +410,23 @@ hash = "654d9496479fa83df9e9105b998ec36f1c5a07fc25184226ea48194a341b1a75"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/carpentry/fletcher1.blueprint"
-hash = "80d3e4b8e1581547f486ca6c93573b945bd205783797729ee5d01f6380030334"
+hash = "e62e57ae4607ef9b449df47a7755b0dc73920f09ca5116a947fc7ce93fba9043"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/carpentry/fletcher2.blueprint"
-hash = "a69ee7fda68e1127ac8126ede7ba9ef6411c08b9d71b22453efacb08ed0e770d"
+hash = "60becc2a9dee02fb453227d9ae2893a386223734d7f3c49da8b7fa923ce6c85d"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/carpentry/fletcher3.blueprint"
-hash = "ac19f71645109131d7f76c29f77ef7c3d77ff33e92a38d76dec40ce266086a61"
+hash = "43bf22dd13255efaeaeaac6b6d3624acef050e9ca90b0b51e1c0a658946a6d61"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/carpentry/fletcher4.blueprint"
-hash = "c50182b9e1ec3574e4129601dc00672808903752267e602348d6570bb94ac96c"
+hash = "4d5577223f5006663c25691a6216c2aad6f124e06a7c215b643667576f4408d7"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/carpentry/fletcher5.blueprint"
-hash = "ebab8c65831a7b2f0c1c6f541bed8920dac9a128da93e420e5a58de5ccc7ed14"
+hash = "2d3dad39f694951d906b209e1be3e96f4462b9e14cd0af2d3eea78b6a2e5cf75"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/carpentry/icon.png"
@@ -438,23 +438,23 @@ hash = "c69abcdccb1bfaca8f3c6502bd22bb574db594154282688d8038b2567f007b3c"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/carpentry/sawmill1.blueprint"
-hash = "d381ab5c4df58f7f040a3f054f3f6512c190cefb41b74024c977181b90741fbd"
+hash = "635627c02e70523b964347f33a316c83a020ecd0ad64d53b1d83188eb05b5d25"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/carpentry/sawmill2.blueprint"
-hash = "7fa6286e190e56893fe74fb56e64888ee2323ffdd0385c19c651090ab861d31b"
+hash = "a3cb86ff741418ecd21307bb8e6da4a4e25bad7d6f7212b2c6b1f1b28bb3f1fe"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/carpentry/sawmill3.blueprint"
-hash = "3abbcaa6052a15c03ca03a25cecb85f3b928c30f91be5223d6045245018f2a99"
+hash = "edd5a0e49376bf4b10236f4acbff24ba96492cda2e5cb9cb1de1da98ef7bff01"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/carpentry/sawmill4.blueprint"
-hash = "12626151068dc6b35f648d325f13cb9bd686dfbef044d48448ac90caafc5d7b2"
+hash = "a76039f2a361a72e9cbd1979ebc2dc7cd59a5036f43aac7f40edd27805e9d7ce"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/carpentry/sawmill5.blueprint"
-hash = "15561ad972e67c0ac16220fec28b60dfc10f16ff444c62a6af1e6d3cf9b766c3"
+hash = "86350ad24f5bad6becbb147dd8556b9fec19aa1318444bb75a82ce0a9fb9e1a6"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/icon.png"
@@ -466,123 +466,123 @@ hash = "c69abcdccb1bfaca8f3c6502bd22bb574db594154282688d8038b2567f007b3c"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/alchemist1.blueprint"
-hash = "8ba53494f51b09854592cdf1c8867d3893234ad75fb0a2e0572f9cf9b202b7ce"
+hash = "ee10a43908e703d379a492694b9cd293c09a6b3dcd848934d7c4564dcd3610cc"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/alchemist2.blueprint"
-hash = "0494bef47d31f5935ea266a311c712d1656cd5825df74a16cb352bb3135d90b9"
+hash = "673f97d3a13d4244397c00eed955541651982f264b1ce4a9281041f322c31d9c"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/alchemist3.blueprint"
-hash = "c838148624790afee7abc34e7dde0896436e6cee0c8a932c3f51e5fab0094d69"
+hash = "f21103dfa33b71b0f31cb34f0f68b61cb1ea4d26df0d22d30407117d3def39be"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/alchemist4.blueprint"
-hash = "c8fe19ac94022436bb4b4a99f7b524543e23e39c91a6b00cbd4918967222e1c6"
+hash = "50563173f402c37b62d79a48b51f55e8d5358b248a73398a55ecc01365931609"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/alchemist5.blueprint"
-hash = "99ee20b17e4d89f0f410703fa49cc565da0aa9d0c79f15d84939cb07714f8789"
+hash = "e6461be24e0f72307a357d04c3f18307b02e0b6d813cec8118468d8232154323"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/baker1.blueprint"
-hash = "32de92437e763c167303aeab11f4c990bbee7dd5a307e29300a4ef34130b9499"
+hash = "79fa8293ddfe496abdf0a255dc5ef88b9a2d240de09b0b6677a6c64b6e2cd7a0"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/baker2.blueprint"
-hash = "fd35d51715f67ca99ef01c920d29e5ab68a8d7193e60110d02e89f83afaca96f"
+hash = "d8547aa9f8fc60d1e04733fa50077b7f28611e25ca7892f88e6afde92b3eaf0f"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/baker3.blueprint"
-hash = "f579ba59b688a30de0e5b3abd16afde6efde9185fe7a10fc3160bc49ec61ead3"
+hash = "8c6c8ccd3f4cd2701e29d2c6d9f6a3acd77a54ee8f72b2e668be8fde89042523"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/baker4.blueprint"
-hash = "628b3642a7e75102e7de1037e31cdccf2117aeb3025d509aea3150c69c897f9b"
+hash = "7f6a0c6bdf7625bb29306c88b81f7f98b5ec9bfd77f886358d2eaeba9a70fd83"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/baker5.blueprint"
-hash = "65b1a3d8e8134dc5b4b8f7feed0e9bbd6ca33ae5def54617c6ef3d761efe7898"
+hash = "0f3239decc7c359cfe7abaeeb1a606be96774bf68441a66a1f43e89dd0d97ee8"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/concretemixer1.blueprint"
-hash = "5d8527fa872047182823fad232f3a6f503703fe9c50f2545d5bcf5f717a57333"
+hash = "c5e35ef9b488d048737242e122813cec6302e27a681b03ab9424f3ad689b14a9"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/concretemixer2.blueprint"
-hash = "987a82d077c433ff95c22ab59772792cac185143cc78090c767eca233593532d"
+hash = "9af763747fbd26e2e1b4cdc11c16a16a2c10a264a031b900b64e6ba3836ab3bb"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/concretemixer3.blueprint"
-hash = "b380cbee811cf7dae97592ef28fd39d2d106a46aecbd1282f162bb88017cbb08"
+hash = "93e76efb0f9bbf525c07648a158276c5f66e9dee3f14308708012971ed3dbb67"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/concretemixer4.blueprint"
-hash = "5eb7c0417f96875c6dccd3d6bef2df4836e531933f882b8c390f3134d1ccf3f6"
+hash = "ffb6379af5ee9ed8a0db01993ce793603ef207f115e16312a76c628ee515b4a5"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/concretemixer5.blueprint"
-hash = "3c8a86e65db8dde7332893d0d25d9a3a219791c2da111586f7bd000591476887"
+hash = "72223ac9ef704f604c211d837274b28501aab4ad76fcbf17f9a34e9f02c74c89"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/cookery1.blueprint"
-hash = "adab77a7a0577100bfa69270ea37a5818e7bb56923146fecbdefc2f0e9c36a05"
+hash = "901f19e39e75340928ffe72762fbad8cb5d757b3b9cd58a4879a950da49a8eaa"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/cookery2.blueprint"
-hash = "6a9c70cc184227d988510a2ccb9502a6b4120d88e654dfef977d7206f2c3d07d"
+hash = "193b7923be748e77a0292ff69c1b52937086928227797e38b0ebc7515350ee29"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/cookery3.blueprint"
-hash = "249879071f42da35993242dbe4a1dbdd3bd069384578f6a82261483aa918c2b6"
+hash = "0d4f634a8db3ca69c3c8e66cf37fa4d35a6672301e43a0f55636031c5eeade71"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/cookery4.blueprint"
-hash = "140221310caecbf95ff54f92683f37ba0ebef618824ff8a310bd8c81a3e73051"
+hash = "84543b2d110d2e84630e721e13581574a826bb9e48473cfa9034247bc96742aa"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/cookery5.blueprint"
-hash = "d6a0539a8bd48d2063487ec843d18380c6ff3bfecd976fa636d187250a2d3aaa"
+hash = "e06896ad94f6f4b8f080e38b9828e672cf3c9ec894ae7b301bedef2ae2b2ae48"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/dyer1.blueprint"
-hash = "081e16aab25d3941fbac3438f4d2ae733e6f618f03950dcfe87d84715c3137f9"
+hash = "3a4714c7676cf6312861b4e86ae7703efaa14cb0f21e412eace67113de96d0a1"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/dyer2.blueprint"
-hash = "45c1874cb3ee4184c1d67762c3a6af24858dca3cd72945ff849c513edc1f2e88"
+hash = "0443ad29ff53cdd620eb4c72b5ac05259f75e7dfb7c8beee589568887a76349c"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/dyer3.blueprint"
-hash = "d8ee634b2cf0ecbe2b899a8fe24bd529e3f45872e2aebf51fc9e654f1b0de4eb"
+hash = "359cd3269c2c7bea8341e1606bbf730692fcbd26d2635ef4e0303632b87ea250"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/dyer4.blueprint"
-hash = "427cc15b97b5860d0b46e8ec650c12fd66c624b80aa57fedd60155b20c15ea1b"
+hash = "4cf776eef0bc5daf2156c998013d9232dc14067bd80003d42d75526f6cbc2c30"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/dyer5.blueprint"
-hash = "82cc3cd41578e75c052514ab559a15be9c651a01be00e0527f582f364e678ed3"
+hash = "aca56710418d9768e6731d28800de3538d99764300f49e3df3e7a999501e00c0"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/glassblower1.blueprint"
-hash = "95258c629e1481df17a28078c05053d816e5bcf480de8db408d6157a027421e4"
+hash = "d5bf1fdeb49df1e472e81becf1efc41033bde94a838d39bdf3442948a65e2119"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/glassblower2.blueprint"
-hash = "d7662c7cd2b1a0b07b5a4c604833c8d9db8fe8d9c607c75eed5fd8c3c389dbb0"
+hash = "caf4a622c761e0aa09b1b949d18d7e9fa0ddf60730afe6d49762b27002c8c0fc"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/glassblower3.blueprint"
-hash = "da7c519a167df0cb55f78d4fb2e22f8fbdee4792e8e222d62cb05ca4a968c9f3"
+hash = "c04ca1a2206840ec1084a218e19a4bbd6a8dda33732ba302020b4bb9ccc6c67b"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/glassblower4.blueprint"
-hash = "d0ac00e3125df1f70c0467f89364b1621f1fc3f7e22c5c582fa030715d14d811"
+hash = "8467e4e094e3452d6620da674c5507b89568f29469f979e02bf15bca2914a527"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/glassblower5.blueprint"
-hash = "40f207cafc9984f142364e2afb6ce1eb6ee84094a9e44809b75eafd003addd63"
+hash = "6b1c4dc365871a3a86aebb54a3be6d81c2b4eee0d2b9a0e4ec46df8a0aad4888"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/luxury/icon.png"
@@ -594,23 +594,23 @@ hash = "d9b96d36d2d61dd9e45753a3aa57955e5af1d138b09ab4ce857174bcfafb4d84"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/crusher1.blueprint"
-hash = "5e37b3761679b459b1d2c4039a1d6042017a318d9e30ff8821e29a3cdb7c2757"
+hash = "00ebc466002d2c6d8b7607a2c3476dd69049b9e557a567b1da963c53e489e81e"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/crusher2.blueprint"
-hash = "bae9bcfd6d6267ec5a6eaeff5eadc4a98ff051de34b1bd497b2d42c258ffd031"
+hash = "7c45feba84f8edea43615a22ae06a8ad753f92f0bf83b7602458a093f7019174"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/crusher3.blueprint"
-hash = "eba7f3d963136144171a676d9db8a2b017789e49b9dcf94630f1be5633d9a183"
+hash = "ba5d9c0b773a8129a7c98d94347c690bdf1eaa6a6c7c2e97896822970a85454e"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/crusher4.blueprint"
-hash = "8e75adcbe57c950ea3efdaf2cbf1c32cf9af9b21f56c5026dade1044c6c226ed"
+hash = "1092d4b11fc5327ff406f05198622805df9e9c35cbb57b3dd6afea6b4db5756e"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/crusher5.blueprint"
-hash = "535b52bf43760559a9506d30cc7bc6b7d8dc1cc92beafb6785b802d058fd6542"
+hash = "94033ab2084ceeb484c5b766aebd08f676bcd9ca7a80d701cd114f32ba398e45"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/icon.png"
@@ -622,83 +622,83 @@ hash = "ffb56d64aa3174af25f9b1ce3b6f6cef1712e62b4554bea0454dcaca1df30ed8"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/sifter1.blueprint"
-hash = "0e56706d2399490cd248ee11aab8a3c62480b27d19fe500e04be9f41255f6ac6"
+hash = "765016ddbcbccae37695d04c02ea89b6a22b9912905b599f2e539bd0693fda64"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/sifter2.blueprint"
-hash = "abd0c98df01cfa632e2cd7b317981e439f9f5b57c484c0181dfd6316d4cf08a3"
+hash = "03f274a2e887bfc9d189c1bba38c4e67efbaa831ca116b615ccc5b2a86a3e1ac"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/sifter3.blueprint"
-hash = "338b4dbc6b45b6f914fc14076fdc44ccd922cf5d1625e86821fbb0adbb3e7480"
+hash = "1a4e0a25ccd0efc006281040acc204eaa125234e6e8a2851ff6e20ce70e6c654"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/sifter4.blueprint"
-hash = "7570dac719e1c353ae62bcd6149508184c2f90b550a315b98c21c395349b9001"
+hash = "00129be37aa5ab44a2f351b0cece544bdd4a6bc2d4b5ef03d38b8389db7d08fc"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/sifter5.blueprint"
-hash = "46be6f064e32eaf717f30df61921c69b3c20830e519ec35eb132cda345a2a7bc"
+hash = "3c4411e2b8de5d4cb4352b05a4a54b6f299a9cfadfb51cd0bebb3869063026cb"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/stonemason1.blueprint"
-hash = "a7a23a17a2373b02833b761f7a066f46bd9765e9e7449f43a66c8f653a2e19d6"
+hash = "f5b85711f93fa43e7955216ace59c3ca5d7963a4a6404809e99483368fc05dfe"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/stonemason2.blueprint"
-hash = "d006e4c2c4df66639dc165159999043af3a79b1681ced1ac3cf495f93957dc0b"
+hash = "076073eeac0154e1c7193aeafb1c86b4ce9adcdb5ca32cb828f1fbf7df7cb3d9"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/stonemason3.blueprint"
-hash = "d7ea4a4e489acf021e1f7e8554b672337ef23d5c35ae55693055ec73f16560b9"
+hash = "7931c8c012c25ad5177ea3742109e66ead0aee9184e6a66005ddc98d267fcf98"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/stonemason4.blueprint"
-hash = "ccb15df76291fc44fa947c40e1eed40445b93da1bc5cb472ae97c49d4f83cb0a"
+hash = "21b2903517241db4e79e047fc1104fbc2e41be8708394367fd0c7fde5fef58a4"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/stonemason5.blueprint"
-hash = "77a86bf9bd7653aa886a215d2895337574d4559eb29f49ca38563ae48dd2661e"
+hash = "476d5e9aafa29f7d2bbe1376033394db69b8adcc0603c3c628367087ca27daed"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/stonesmeltery1.blueprint"
-hash = "4145dd5285da51dae8a2c80caf362f2aa80762a7fedd81ef311e50d6600e2f34"
+hash = "9fa941194e215dc5639dbdeac777d3dfa6551ba543687ebc12b0e91ed413470c"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/stonesmeltery2.blueprint"
-hash = "bfb448e19789563caa9f408a205d2cb89ccf6fd85a95db8b37560f5a73277097"
+hash = "5c05f87e98dc39129047f3f9edac61e43964c58a0b29a65e566a0d04ccc03990"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/stonesmeltery3.blueprint"
-hash = "c8eee296e588cfd757e12d3cce07d1b7d9fc975308ea4ae57e56e473de79a889"
+hash = "afe6ef9be0c38baab5b4e12250a7039c79e3e68dbb584121833404ec797c1206"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/stonesmeltery4.blueprint"
-hash = "849d1cc729c217db39795904e0b54c6ba087a41d36321cf2692e800058c575a0"
+hash = "0abcb5d9df74c56308208c1fa7701ec9d371554efc5e8738e2d696b4d7aa5356"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/masonry/stonesmeltery5.blueprint"
-hash = "a60e16fe1efaa224f8d4eb2b06fa89db2ae2a20acb098a488ae0b420249359c4"
+hash = "3f25dcd837773225aeb9b360f24f759ab086d2b27322f96ff1b92ae7b5c23b47"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/metallurgy/blacksmith1.blueprint"
-hash = "aacf8e950e3ac5f17357531b917e8b090d11e30887bfc0b4224b634b1763f4c6"
+hash = "97f2c50fb0f4f93e0b5436b68c53ed2de942fc04a3ec2c686927f071bc9da307"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/metallurgy/blacksmith2.blueprint"
-hash = "4fd530d335546756d0d7ef2c948cea191ecbf80361c2cb1a0f71bff13d5f303e"
+hash = "eb9935b5cd440efe118cba0cffb2376e891db65ab9de1b469804f05083913ce1"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/metallurgy/blacksmith3.blueprint"
-hash = "f61017f694360213be03260092a78605a0f35816cbca3a4877036b5954fe25ca"
+hash = "c2339ad1a7b7894a92fc2e2364f0b4127ab2ddc44c0b0e2b195d663b11615396"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/metallurgy/blacksmith4.blueprint"
-hash = "e743f23810f83005bcee807c37acb846ba7ff542a8c423b903959476600d57f3"
+hash = "35a1f1f7f8a6d7f724b0f4ce9a33bc1bc19274271fd741cbe54706fb6fc44ba3"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/metallurgy/blacksmith5.blueprint"
-hash = "488a96558e22b8f1127e5b3d8243ae213b41b8f2d0ae39e6d0fd99da3755c57e"
+hash = "d21052c09c448b432d9e6324942f6817892f4526e2433e5dba0e094347e75b2f"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/metallurgy/icon.png"
@@ -710,123 +710,123 @@ hash = "ffb56d64aa3174af25f9b1ce3b6f6cef1712e62b4554bea0454dcaca1df30ed8"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/metallurgy/mechanic1.blueprint"
-hash = "965e722d6d6feed6bdd771706b21cd232a467c0bfdcfa6acfc470b2a3bd994e6"
+hash = "d3982bdaa013b35a110b9e484c71aeae9041edf657439da709768727eb7ef06c"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/metallurgy/mechanic2.blueprint"
-hash = "e619137af8d0cded59645b136c27c6f4aac0492b79242544adb65f7174c77503"
+hash = "cff8c85778cec47ee1b2c4c53aa9c40e9aa5e9da55a081100b0c04a4d2d0b6ae"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/metallurgy/mechanic3.blueprint"
-hash = "c8c7fffd91f741a4b7d813a762a688dcdd20e4df5f89abe0d7f9828f97881caf"
+hash = "098724431ee7c41ac6a1273353168cf84de556db21f38ce328f260604101503f"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/metallurgy/mechanic4.blueprint"
-hash = "78c2f2ab27acf524a1e5f5fdb4d5e7097baa1727b41dc4cd0b15aeeceb2fc6c2"
+hash = "c7d8bc0c64481dd586d42d71906ff5d998901e791a41c4322360266b27e0c496"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/metallurgy/mechanic5.blueprint"
-hash = "d2799501abf1323f325c538c53ce2d3a10579a5afaffa50d4c5f82b0b7f82566"
+hash = "9efff9570636ffaa6f5daebfbc4b98dd924d478b06e0d29421c2020cdb885332"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/metallurgy/smeltery1.blueprint"
-hash = "7462275fc4771634038e48b09d3e7ca72e68e5d3079d9d3192ce76d217cdded6"
+hash = "5f25fad4f3306ba17c3f4bb5141851b35c6926ea6864d62b5518c5945c467b68"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/metallurgy/smeltery2.blueprint"
-hash = "8c50045a838cd19bf47130713c1ac5e6181892640427ea80e4f4bc29c0593ae6"
+hash = "8c5ec4759889767422073c226dfaac5e97b23bb80d641a67887a2339cf0240b5"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/metallurgy/smeltery3.blueprint"
-hash = "4e523996644a44230ff5bcbbabc157935ad428c94d9e9d7fadb04c1bfaba8d77"
+hash = "3c3c23ab8de1fa9d898d6bbd08c8616de0db44587724f1610dfb193e75ab88f1"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/metallurgy/smeltery4.blueprint"
-hash = "f005ceb3a34948af1a60fdad491bce9aba890fe673f50d763dedc7b853169593"
+hash = "3eb29275e7a9b4b4a5c3ddaa0716c5a69d2be02128ac142145075c252d536a22"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/metallurgy/smeltery5.blueprint"
-hash = "304b4a1412828b25fb0f8f58873828b3bd371e92f2b0ebac558cc246cb35797e"
+hash = "e589e3640a635fbebba8860ddee5e84d2840009f1133cb8f011cff71753987d7"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/birchwarehouse1.blueprint"
-hash = "22046ebf556d595d74adfb01fc47967fd3e0bc0c0f1feb32bd910af580aaffdc"
+hash = "345b3b7c9c26420b86dc5e4d31c4034ed246cdfb65c6a5d8ff40f5fa38d48342"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/birchwarehouse2.blueprint"
-hash = "c80eac42caf170c8a71e7da477cae42d7a58925d9992d666fa48d468148dfbc4"
+hash = "e77fde7b5dc4bac141036de0a500362a40ec8c0021d0c762d713726abf2694ab"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/birchwarehouse3.blueprint"
-hash = "697d83d0f4f3be2ae0b41c6766194a1bb8bdc5b85a5be08b6f2ea2d7e3d64aef"
+hash = "48fc0d760d31281244320e849e03f02170176ccc5f0449ccc8fe412d71e043f3"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/birchwarehouse4.blueprint"
-hash = "76a64c7456f713e596c3777e2cfe3b728d0ceb54f666d5127b7801a9bfeec9c0"
+hash = "edcf3d3eb6c143900ef13a2972f5629a0e39813699ec9d0e729648d99cb66122"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/birchwarehouse5.blueprint"
-hash = "952e6fc43aee96680e10daa208a784c1ee568d40126fb7e4b50dc549264d46cf"
+hash = "83f7f1d8e30e6544350c506afcbfd7c7f553358379d0ad9a6dc9c0209333dd68"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/darkwoodwarehouse1.blueprint"
-hash = "5fdca4e0f8bf3e7622f236a33ed46a3b60b146b0b91ca7c89e93558b13048a1a"
+hash = "da6bb857ca1b0e842000519e1a3e2a77bbf03160006718ecfbd6b71fc55dd5fd"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/darkwoodwarehouse2.blueprint"
-hash = "b4819fcbf963a68a1dd2f26e7783f9cf8c1b197fde03200dc6ccdce9538c7417"
+hash = "338bceea0146ffe842b8d10b5581caf6cb37b81bd773979e1c64ae4e1de7351b"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/darkwoodwarehouse3.blueprint"
-hash = "2f461b4abb9c7fa943803e6cc90f02956fa1f985c839ce2af0c50ad7d71a03bf"
+hash = "eb8a80c45fdd279bb8ae3c65b7db072e8d794024966fc54260b0ad31eb82de19"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/darkwoodwarehouse4.blueprint"
-hash = "6045d1f24b234287da80574d76581798ccaab763ec9075448dec2dea9e1ebbcf"
+hash = "7e8209d8885b70499e67c95a15bc90bd8688efa531984d7ee82cdc45a39301f0"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/darkwoodwarehouse5.blueprint"
-hash = "d2e0c4286e31ae8c94942c8203457117d05455ea041deb1158bcaef9b1be3994"
+hash = "e42f0199fca4e315ada7d164d7c784060345d7c9542ed47116e1dfeaaf4d7f85"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/deliveryman1.blueprint"
-hash = "a4f69eb2005d9a8ad74f02c4ab14b5829207d816923d498868ed0b09d9c99e17"
+hash = "b8608bc71b6a78866fa353110ceb0033bff64d1bd40ed75e2ad42aaee0b19f91"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/deliveryman2.blueprint"
-hash = "8c1afe3ff64b3c642890eafcba98f4d0f3461db981adeb33d4fa59ad46077174"
+hash = "9bd662cc789240637f030a0bacc3a228828826fd7d64a10ad7260ce4895a7656"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/deliveryman3.blueprint"
-hash = "2b7deb6f3038f8e374f1c02ab4d075c2a7340a4cf2f23d726d15dcd613fdc8db"
+hash = "78b45568edca4bbd1f284598d3f307d9283fad0613154df0b41428902e1d5c3a"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/deliveryman4.blueprint"
-hash = "4af8121d6e8fdc7f3eb030273714190a080481e162f67f6fa1544d56311a14a3"
+hash = "ccd992bfdeb8ee93001c1ef6e2ce73b99c73477bd8bafa625f7414c41875523a"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/deliveryman5.blueprint"
-hash = "1b20eeaf51cbab44e1a7e6983b739ea9903921c64fd47b6881a9cc60fb365698"
+hash = "5caf44590cb4402e5d8f2020ddfa801b3c1e57686e2f2350fcf886658005d364"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/hillsidewarehouse1.blueprint"
-hash = "0faaecf8fb3fa3620175d6b25008918adfb2bc3d0bd05575f25b8b0d93388248"
+hash = "98bc0698839800cd3deced1b09949420f29cfc2c2573bf70ba6ee88ba21e8b36"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/hillsidewarehouse2.blueprint"
-hash = "7c6ea6fea241747a481f01ad1cd7549d2406a773f75b1869a5869e81960731b7"
+hash = "85314b5a9a114948a06592b4d8d3941ae38fa4008cd86768d85aa2115002b2ef"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/hillsidewarehouse3.blueprint"
-hash = "73f685d6632d19dd9369224c673779d77db9a59bbf538374c3a0dad38c318251"
+hash = "e89f380df020a1c50f790deb5819f2d354ff642278368e318cbb24f73a2fe49d"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/hillsidewarehouse4.blueprint"
-hash = "6c56c2420bab212e6143d6934ae08c4e1cbded540c69318b5aeec5402b8664af"
+hash = "4d70d8b331eea9846e2696905d0ab1af9e55525683b758c48a915bd8b9c27d44"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/hillsidewarehouse5.blueprint"
-hash = "48528372c8ec53b0a184be964ef89eac2d52de0e74ecdc02dead5b2f36624963"
+hash = "41cd660f1553185892c3cc2fa553d54abbb911b6dcfdf7b86fb2d6eaf57bf2ce"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/icon.png"
@@ -838,67 +838,67 @@ hash = "515846f040e14a8ee4bdc7a411b2843fcc3a9b95fb788a217fd968f2f006d883"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/lakesidewarehouse1.blueprint"
-hash = "eb5ea38ef572fe1ebe9f96ab6a402db1fc9699aa13c080cd193a2437a0931305"
+hash = "550dbfc873c1d070f67aaba5383a1ec7c3cf338214883dcf4479b34da24f5b64"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/lakesidewarehouse2.blueprint"
-hash = "201af78af1d76ad14198e6d4b53f738e5d4027f20ae93a2936b8f08bcfc32019"
+hash = "30e01a315f820471af671da7c128c3df13d24cde0b8567b065169d55d765a7f6"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/lakesidewarehouse3.blueprint"
-hash = "3021ca5ca346d11339fb611325b0b7450d08ef6c7ede88cbf32842f67c093a90"
+hash = "8f6bf4d73c14df377e557d4ace541f11f20d2e321acf2e55c09d434b69074cbb"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/lakesidewarehouse4.blueprint"
-hash = "50485598ad3aed20b15bcbb57fd22d1e72edf1bb1c81531051f95bc22ec551e7"
+hash = "4b5e8c0bf2da168377b2875bb009eb2e3a2146cdea360d07daa9e4c4ddc5c91f"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/lakesidewarehouse5.blueprint"
-hash = "07d44e1297dc52596608651928f368762753b657299506da82464fe6ecf99d15"
+hash = "b965142ad2d81440d32e56f2c9acddabccb383296d86cf4cae10c2634ade2f54"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/mountainwarehouse1.blueprint"
-hash = "9047a69941f01f06be4c5753129bb9c89684893e34732d6ef1661d6c613ce683"
+hash = "3e5c89addd1b1726f06e6b97cea1b93bfd01b7b665abdae2921f9b6abcf86780"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/mountainwarehouse2.blueprint"
-hash = "6be8245390a5b6987cc471e2834e9734ab8c341f18a6abfdcb88c5ea1141d4cb"
+hash = "241412b6d2b9f7bfd64aeac58dddda438f4bf0e84c2d4798821ceb52350eb00a"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/mountainwarehouse3.blueprint"
-hash = "b47a11ce07f064734b125517ec6e1bde97be61638b0355cd98a802e319cf5378"
+hash = "55cef7465c6deae4922a469fef6370dd130ee4dc4e047f0fc9ac5b07d7518833"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/mountainwarehouse4.blueprint"
-hash = "5b54ea22d4e36b0d8ffe69901f669065b3e20d5d40219c1d0635da42cdd378d2"
+hash = "07a184ebe0e1a071e9bc4e3a6cab71435eb6555f9c389e04c3acbef6bec67979"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/mountainwarehouse5.blueprint"
-hash = "5468a499ba176a4c52e0172a782f00f2935f5aabcf9c60ee4db901e3e077d072"
+hash = "fa1f88bbae6a7b1209c82c028013fc597727c8ae2820a6b5164c5af9357382a5"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/warehouse1.blueprint"
-hash = "0b1f023835c6689bec93f8042eb21312acb5f0dd8ef51292b91aa35a26bbc08c"
+hash = "7f16e4f30155e60cf108136c1864e75ba96d169a7cdc2d8228e42077ac9762c9"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/warehouse2.blueprint"
-hash = "101dc404d666d904a6706a0be652f25d2829d87520789cb322c58ce8fff4decd"
+hash = "b251fa996d329c74dedd1aca6584722dafc21fcd4ad9d406ca421d2d72b5f82a"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/warehouse3.blueprint"
-hash = "9b1a05c18e62d1e8862ec5fbdc13dd456fe937ee513673233301a338376d3988"
+hash = "70082596093da396f8266b9b8e8fe27b6abdd31b247e7141413968713f08b646"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/warehouse4.blueprint"
-hash = "5470309fb524bf74713e5708a82d6a94ef0edc54150854774f839e0760dfe041"
+hash = "df9dfad03a3fbe11b8d8c2652671ed3ba10e0526a321a561494e59ba28af8b20"
 
 [[files]]
 file = "blueprints/christmas_village/craftsmanship/storage/warehouse5.blueprint"
-hash = "b35a5c1b5db0836df7fbf49270ce5c37e62183c754b360b75150474330a044a1"
+hash = "d3a4d7db04a6f7fb54c9bad0c73e45af79713968c989f98ff386849f3aef918c"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/festive/candy_arch.blueprint"
-hash = "463acf8815e040cf16a706fe92ede49fd88e07dd5588343873a2961b92c82fa4"
+hash = "653103cc129946a539a14f7c4ff73a9e2da030bd5d56b69b61269ec8a6f01e3c"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/festive/icon.png"
@@ -910,15 +910,15 @@ hash = "af3041f266f0040428f2eaadf1d864321bb3dd6061c6779aa149dd547e28837c"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/festive/santa_mailbox.blueprint"
-hash = "31f2254fd7e6437711baab898cf46196c5a4a8ca45e42abc9d86e954a44ee126"
+hash = "594bd3bf7b23996239207092c0c1b258163b81ed61c869e47c0bd483e973078e"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/festive/skating_rink.blueprint"
-hash = "4d97bb7ca8043119ff6dbf186a27c772fc2eedf614734060d09c936989be23ce"
+hash = "7883963116a01e0d6cd73bd1d663df20eff0a25670d9f5ff63a6eb086ca08287"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/festive/sleigh_display.blueprint"
-hash = "1cade78e7c36ee1000827c26e879b06e0109301ed48e5ccfd18d009f06f254d8"
+hash = "383ee1d4d10b63b3590613b41163759943f7c80c5279c5ef5d9ba397209a05ca"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/icon.png"
@@ -938,43 +938,43 @@ hash = "ffb56d64aa3174af25f9b1ce3b6f6cef1712e62b4554bea0454dcaca1df30ed8"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/market/market_hall.blueprint"
-hash = "4d1a2b1aa1fd239d4d8f610af085b3a7c0ef695b09697b504198843c561421d3"
+hash = "fc298257eedaed777da47393708ae11f2ef7baf2fe553cad8628a3fd5ba49c2c"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/market/market_row.blueprint"
-hash = "afe3161466325fdf26604277f646d419b4d200fea46815ea3c97c59cb93231f2"
+hash = "961bb50a729a4b6aabdd9b438f1b09d5147e9b6741cb8f6d6b5706fd9289bb80"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/market/stall_chestnuts.blueprint"
-hash = "84670016721bef8933c0605c95ec576b4c66b03aedd813602d57a318966e5431"
+hash = "8881c2a1a37b3fd6f8e36fe4aff256f31428ca81c15b97dce8d7e2ae93b1c6db"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/market/stall_gingerbread.blueprint"
-hash = "50f983d9cf008ac7def12ca0a6257e10740d05a30cf1f5d7ecf8b2d8b438e83c"
+hash = "324e755ba7e5a897806509769fe94b8c490a7255f0308c7db5e9649f2ae500b5"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/market/stall_hot_cocoa.blueprint"
-hash = "bd1d5eae4cf41bda28822df2475d70cff8c9e13aca3a6fafa73dae6de383b718"
+hash = "3ae2dc77670df618193f11cedc7b97e7abb10ec4ab42be6dec8f97ebc463049f"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/market/stall_knitwear.blueprint"
-hash = "3c951c72573023f658be97e0b59544a38dd4c1c2cb9eb8dcc0db7e9da2e5e12a"
+hash = "0ce3c4fa42c5eff5a260afb9e13aa2ceabc1f65ff993d48609cbfe3bf4ba6da9"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/market/stall_ornaments.blueprint"
-hash = "727168787b0fa55dbeeb2aebee78855a6d5ba7fd262b4c6ad753942fcb3c16f4"
+hash = "335ce08ba6fb932d4ff2ac9586b4b483343cc7b8d00c998c6090597a10b9b761"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/market/stall_toys.blueprint"
-hash = "8d4e152788a5eb1d5c231154ba309f866857f5fd0dd8a9820bc3dd752d1f0299"
+hash = "f65a69aaed00b527f3e8ac585206523c5f9d756ca1061ae8ad66b2afccba9141"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/parks/bandstand.blueprint"
-hash = "0cb9ca848640d31fc0002ea2ccfa3ffa729ebf3d4377b38a9a64e4ee9a3c987e"
+hash = "e0e78fcb23cc3ecfd671556e94c09950acd2740646463ba6e62db0f0add4317c"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/parks/bench_nook.blueprint"
-hash = "e96198b3e206cdb0c8461d2fb4218208f794a1e4d82590bf080e478185c367b9"
+hash = "3e17e271cc6ceb071522d173340861934eab7db723c5f4d88cae9db3d9ab5ba6"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/parks/icon.png"
@@ -986,31 +986,31 @@ hash = "973d897c72e2c9a85c79d5143946312f08da3af26e4586bf9f3380e175150aeb"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/parks/pocket_park_large.blueprint"
-hash = "dddca0ce517b5411aeaa43d4497faa5ca57aced4b4d9969633aab8e027c0258b"
+hash = "d0239e1079797730d1f9dc53980e20edbe1051dfe757e1adc0786c130baef40f"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/parks/pocket_park_medium.blueprint"
-hash = "6aeb5613b5f8299c1e567d78b59b43fcff7fe8bbee024f3ae5a3493459b46048"
+hash = "0880a43f21895f55bdbc2619396f49b5dbe70812e69ab19b097ba359fbaf4464"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/parks/pocket_park_small.blueprint"
-hash = "9f77555d9ef08389fe2afd8faf3bdfd3c167d42e30beaa277379522fdaa74380"
+hash = "f536b2bb8b1aeb02cc62f1079daa5173906ff0cfe25d2cac98283a558e72addb"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/parks/snowman_park.blueprint"
-hash = "f07ac5ada4c0b98fab5b52a0d650e09477b706119c0cb73edad7e246d8a14167"
+hash = "3dff3da296d9d96d6c320b3341f408f4756e52ad1dbd511c5ea1c59bb761468b"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/parks/winter_garden.blueprint"
-hash = "c6875ed5e24c606170fbba55b884c3ffda512b8b3e2eb44050cfa703dfe83f21"
+hash = "ebb260772f4f5fc8deb7db78f07d25f9a86ccfba1c6068b9922415663fa8ac15"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/parks/wishing_well.blueprint"
-hash = "2a77ecbb35aa5d498193b5d4a7cc22051af9fb84b2ba608111c0b9d0ca6f830c"
+hash = "ae05fb14c5d3f4963d1279ba7c3a76776a99dbb719279f7e328cfa8d44736f5f"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/frozen_fountain.blueprint"
-hash = "0eb52c4ec95b7e4a062ee1f90526cdc13e9b8c249b894cc85ff54c6ad61ddcb9"
+hash = "4010a7b71af9fe79ca4fca812b3b1a7166887da2d99ea1048e6e6f7e066965c4"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/icon.png"
@@ -1022,75 +1022,75 @@ hash = "973d897c72e2c9a85c79d5143946312f08da3af26e4586bf9f3380e175150aeb"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/north_pole.blueprint"
-hash = "6cacf9d24e075dac043b5edfd18a007ffd800b54758214be098c091631fa8cda"
+hash = "a15449f6b2e184ded141fb01daf0098c975bac10c30f14e70af75ee71d777179"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/plazalarge1.blueprint"
-hash = "21fc18f20e7cfceb5b1ce0cb2af6c523f207243356c130b630ae178d4082f54b"
+hash = "bbd92cb22b99077605896e9279279660915cbe5730bec182dc89a5e9c3f1796b"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/plazalarge2.blueprint"
-hash = "730cd16ed5817918c0f1c9538677d72689dd0885f7775da515b7c435c7b92991"
+hash = "11b69b3002865854d67ee5cdfb0f86b37cccb2816499f9e9d0e13d54b40e88de"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/plazalarge3.blueprint"
-hash = "cc1c84301d0825d64253469fd5fc7d8ff4273e61fe605279ed9d537fb039aacb"
+hash = "2ef538e6c448475207ed640e118d0f81ad552cf0169dc8270a6a5026f7b74c44"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/plazalarge4.blueprint"
-hash = "9c4a2b76a5fc36ecf0cc447751f58cd1f50374a858cb83a9c5a4f830c853edf5"
+hash = "e8bf2aa04e88b6d69a28cd21d887952def1a4525a0420f423d2d36e49d943598"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/plazalarge5.blueprint"
-hash = "d4362fa6788400845110e9d2a5a681af563706ee318d74c82c95ea797004297c"
+hash = "6689a50843f255671f33cc3c5245dbd6ae9121f8505bfe6e1b297f7f3d95c3bf"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/plazamedium1.blueprint"
-hash = "43402e5b9e0276075f678017173e449da6b2ec36f6a4d0b72b0d44990435efeb"
+hash = "97f764893b956bf180750e307cf50d6029d56b868224988a8ab1e3e33aab2917"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/plazamedium2.blueprint"
-hash = "e37ac7a9f57e66ac2a112c6dc792e8f358a48273f89f8189aad0fa1a6b26752c"
+hash = "29b22441db412a77533c176f1270fbb5f442671154c24c8401c94f705df099e3"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/plazamedium3.blueprint"
-hash = "76b01cec3f632004620abc457d77d35f0c22315892dda609bf782a1b690fb36d"
+hash = "04f693e4d6403596a260cac4379a2a7084061e0db5da3db500e8f42677f40e56"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/plazamedium4.blueprint"
-hash = "cdf13aa7428f30f307e8dbcc36f4f5b0e4356c2a1904255f73aafe753638d9b0"
+hash = "e32a6ea06b71bc6c303e3f8b784e64de14cd5f2525e7521ce9f0988a299cfc36"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/plazamedium5.blueprint"
-hash = "08f387f69d5ee464539a1bfb87b8a07b9a2cdf0d29957467fcae71bb4b74a5ca"
+hash = "5e87867e074178927e8e51b3ae0c7b36e9d543fbc72403578fdd1a0cd85f1ff6"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/plazasmall1.blueprint"
-hash = "5b93f3ab43c0dd0b1ac9a33b9e8b3f744754f1581b97417b455316bf5b0b2d5b"
+hash = "28fb8daafdc845ac5e75921bd0eba6b0d425e95c4ab445af5427f7311c9f4fde"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/plazasmall2.blueprint"
-hash = "fbd03acf8c26326f1e14122d96bae00351987dbb74485eb826f7450f360bc95e"
+hash = "318693a5b92212b516546a19a629b33ed9daa0f8113e0a230ef2f0ea8b22147e"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/plazasmall3.blueprint"
-hash = "1d806ca529f6f52c22f5c54e7f8b9ed44831d9451e2205ce1caefe20954ee87f"
+hash = "f7491bbc326a29925d7ad6dcbfe0732fb73837ab52f004f9c719bb979e52116d"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/plazasmall4.blueprint"
-hash = "5370f7de0085065ca413c34f3135ee8f374478d1750a498f40ea228d4b4e3876"
+hash = "14e57727dafcdaff6d8d2ef1f6f4b6fc1f8835bb88de5c2c75df4d786c7e4887"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/plazasmall5.blueprint"
-hash = "0d60e93ead73d3bfd6c8f5547b706995f9daa4d3fb6ee3e935abd7ed8c2c95e1"
+hash = "2fd5cf8c650775ac7367e1a44a1703f67275364233a5a358a202a86e78591e3f"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/plazas/tree_plaza.blueprint"
-hash = "f1d9edd07f1781bfe5aabfc3685436cedf1b1a7f256aa146c05ac17565811e9d"
+hash = "c48fea33d3c51b9bf602d8db10fefb1fb24e032d6e5fa905a5850dc208be1958"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/street/carol_stage.blueprint"
-hash = "a33ec29e5f4ec1c5cede6d196ceae76913ced33932625e5b6e7b85f2c2d056bf"
+hash = "39ae1ddf408a78f487ee1e90d5709915dbced64ec885293f59e6ed3d57532c10"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/street/icon.png"
@@ -1102,27 +1102,27 @@ hash = "515846f040e14a8ee4bdc7a411b2843fcc3a9b95fb788a217fd968f2f006d883"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/street/market_cart.blueprint"
-hash = "42615e7c00fa1a8e9d07cbe8a45963ddfbcb583352b6c4daced0a717991966e7"
+hash = "160146958d053567f6cbde2eb583d6b3e124d83fed083b0bd893a17617c2e7d0"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/street/post_corner.blueprint"
-hash = "4369d0dfcfd36ac41b4421e4dcd47da387f82bb57ab4f2310fb275baecacb9c9"
+hash = "2b3782bc73a3b101376ebb379fefb4fe4beecf08c159070048d88e18a269eccf"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/street/sleigh_stop.blueprint"
-hash = "81d5b0e2035770ed9a59ebe1526ec1a1d6db8e3c1ed27668e853a0f6b6caa049"
+hash = "688b4f9e75b89e17b9f1d478739b57f1b174ba43b9a23fb42cdb4158e6a7f579"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/street/street_set.blueprint"
-hash = "6663c568c44961d78961fa5d1543f246507766a55668085d1c6b2fd39ade733e"
+hash = "7ce0d8b08dda5a58e633c6acefc1e2e7cb835fd36c0ef4d13424a78158b0f16a"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/street/train_station.blueprint"
-hash = "9166e3d698df09d28caae73b388017a0bba89a894e73a30a55f347df9d0690a8"
+hash = "30d065058c7854c6de1b5130d8261373e94f5e1c98af3655ffd420e2514e8109"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/street/woodpile.blueprint"
-hash = "d1271aecb2705d18b013781036cd72bd5aa582c5e89cda4c9f8f7beae2cf1c3c"
+hash = "1036dab78940765f3365b945c3dc9c7df1be1a290733eb540408a804bfaa2a5c"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/supplies/icon.png"
@@ -1134,11 +1134,11 @@ hash = "515846f040e14a8ee4bdc7a411b2843fcc3a9b95fb788a217fd968f2f006d883"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/supplies/supplycamp.blueprint"
-hash = "966d7e3aa5d819564452f036f199fa26c5b72b905b7cfbe0c0622b5c301ba73b"
+hash = "007662e835dc2267a7a8dfeae84d1c5830882c871362112a405aa8b925f58aae"
 
 [[files]]
 file = "blueprints/christmas_village/decorations/supplies/supplyship.blueprint"
-hash = "68fe5ff1cde85912ab06df4c317678950f590a96bbb640a1eecea8993103a474"
+hash = "e55330bdb41faa87b149f3c07f718da178fbe2acb22ecc410e3c66a4f1a6f0ef"
 
 [[files]]
 file = "blueprints/christmas_village/education/icon.png"
@@ -1150,879 +1150,879 @@ hash = "f094103824fca88ff28f12c9532793966e84957cbece6d247e584d5916860ae5"
 
 [[files]]
 file = "blueprints/christmas_village/education/library1.blueprint"
-hash = "8212e7d3ff4f234ddc01950bda2f31d05e9bb4e2bd5bd504b458ef2a49407c94"
+hash = "c9ed6684a1f01df01dbe150b48394f6c6cf2152be8a70a93e182967b02d5ef83"
 
 [[files]]
 file = "blueprints/christmas_village/education/library2.blueprint"
-hash = "4367ba11821bc3023855e03ce0480262a3d04168a3a3d5beaf5fab57328877d0"
+hash = "1cccedcdc35d00a35e89770c827f389ab0ec30105b08866723462e6e27f3bf50"
 
 [[files]]
 file = "blueprints/christmas_village/education/library3.blueprint"
-hash = "21867c3e31a31708744e980c9805f6e7d19f9ce30bebf0417d7532a4507ffca5"
+hash = "03323235c683f8a0c14bc30ff0b5e666c7ab60c617c171d8e24cfa11b553fd63"
 
 [[files]]
 file = "blueprints/christmas_village/education/library4.blueprint"
-hash = "c3828626a8438498d9f2199375c1954f3a112c237bfa11ed1fc4a0b88e467648"
+hash = "4df580abbc4cec30bf0f508f1307112d6737e5992d933eda4ef291482c10f179"
 
 [[files]]
 file = "blueprints/christmas_village/education/library5.blueprint"
-hash = "c4766bac809f52a1d52cccc60c8af0484139a0addee784e92ea950cea9d97cab"
+hash = "3ee09236f22f149ce3ba96da2534c7fffee6c65a03258929199f2a5ffc34b269"
 
 [[files]]
 file = "blueprints/christmas_village/education/school1.blueprint"
-hash = "efcf73c4da38232f1eccb9997cef71763277c7e5f5f043d9bec9f80e91d7c6f1"
+hash = "9310ececfef7f28e1ab310b22c38f5bd98297528839825ecc39bf2110072c477"
 
 [[files]]
 file = "blueprints/christmas_village/education/school2.blueprint"
-hash = "43f7bc5851b5c403a8f091ea1b975088cc603ee0deb7a68459a677452cb5e33a"
+hash = "02847a9078c8eb5eb51f91d66d0871450d90d43e7e1475a6155b3b13fb003e67"
 
 [[files]]
 file = "blueprints/christmas_village/education/school3.blueprint"
-hash = "8ca72c2863248f4dedf23eca770186393cd3daea0e6833ab373d0bd3cead4ebf"
+hash = "47b83230f19310ad07ede5216374df763ced86d6f6cebfb7fd025dd0a6298b13"
 
 [[files]]
 file = "blueprints/christmas_village/education/school4.blueprint"
-hash = "2f214df62a923decb9c3c0d2adf155aae512b43fedc75b38f03d86047e7956b7"
+hash = "e2999b7d541679c1d4bde056d751c1ee4221861a5f2604153f23b0a57f13634f"
 
 [[files]]
 file = "blueprints/christmas_village/education/school5.blueprint"
-hash = "e127fb0fc96e205fc13a74241217ccf2f87847920a99a76e6c20e60fa19d364a"
+hash = "d29b6b46d8c4dcae81bf724e99d460d9f230d9e4312548d0fcf9ae9f91586447"
 
 [[files]]
 file = "blueprints/christmas_village/education/university1.blueprint"
-hash = "26e51dccc650e19cb4f8c28ee223e5984ddf22b845643bad25e401a04332249a"
+hash = "dbe3fc0b66bf29c4870a0380710ba6d68de89829558abdb99aabe5726fddd991"
 
 [[files]]
 file = "blueprints/christmas_village/education/university2.blueprint"
-hash = "f2f124385ff106629eb6b7ea2480cf5f3802fa53427b50cd33cbf9006312611a"
+hash = "be9236c8880136dcfa4d374bd8dcb1b16187785c488d3b656017af088c798182"
 
 [[files]]
 file = "blueprints/christmas_village/education/university3.blueprint"
-hash = "efa4962faf204c9f67642a96f32bbfbbf4e8e86759ddc9c15c9dc0f06279a14c"
+hash = "f52160ed982036342446725c63c983a6e6b1248c6db5d8b623f0afec8bdc2184"
 
 [[files]]
 file = "blueprints/christmas_village/education/university4.blueprint"
-hash = "bd11f5987e459acce9642879f38b44715e2939c60a7bc4e8df7701343944f60b"
+hash = "81aa0ca3fedaa0f78738d3be3d17bda04b5582f3d602fff93c1b708fd4facfdc"
 
 [[files]]
 file = "blueprints/christmas_village/education/university5.blueprint"
-hash = "2432c4622df2c37620065e1d1af0f4e76c2740e08df0c27af4ac2a4b79e9a44b"
+hash = "395267feb97c23384ecc9645daa13159edb1105cdad64721341fe4788a948119"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/altbuilder1.blueprint"
-hash = "bc82cc16f7cfbb0ef81478c4684a86fc63a5b9d48fef22d9f6b75ed7569b958b"
+hash = "3a102114a0fe0b268ab67b9016babcbae8cc5fd28a290f52fb24d84d44b399af"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/altbuilder2.blueprint"
-hash = "5321ee824f7ca196957d12dd5a27cae0175d364291395f285f3344e341865681"
+hash = "9be3a18172e065fbb658bcc71c8bacd1480dcd6953763bdefde0113a401647c3"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/altbuilder3.blueprint"
-hash = "eda48ff43af563c5d35c15cd81c60021f2614a92efe72bbdc37a44b3cb2799fc"
+hash = "c595c57a049977b653dcc722b4290572c64621e58b47e502089f2c1584bcf6aa"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/altbuilder4.blueprint"
-hash = "4ad110d2f953cc40108d7f68a33990ded78ce8a36423464ef9683e4b0720f01f"
+hash = "f0408f2adef0c67714d2084f75507e384f8162fdb3cd29c35b7a2364a5412ebd"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/altbuilder5.blueprint"
-hash = "024cc1b37ec9abcc8c1f61971e5ee3c65b6865aa2f538750fe6b7ba8bef26d50"
+hash = "49334b99440f36606a21d4aec2c16ef8f61e5a1a74015cc6c5099292bb18d641"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchbuilder1.blueprint"
-hash = "30ef52996b4001b40bb28e05f7baef1be47b5710c0352ff82e00bbe42382b3ae"
+hash = "c08a5f4347bcff38d92a357f7ce3ebba3966e0fb19cf827c1eeb587057d614c4"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchbuilder2.blueprint"
-hash = "989f7f53a9d42fc2033d7ff6926b2ef1b5c85a2b90c997f70413c582a9ed8b9f"
+hash = "c3f9bb3688ff31652732d9f06cc89c45f19da8b9829309b1969c20ef249fe88d"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchbuilder3.blueprint"
-hash = "2fa5537566660de21cde9f7954894fe56586053effe8792fcf03a5a1a77efe8d"
+hash = "ed00a3e96dddf3d6840f75a74d0f0e25f9491022715991e79fa680e16238f978"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchbuilder4.blueprint"
-hash = "287d8cbf51b5968c5e4df943437b98d6a3dd9e52ebef64c99dd332cf47b2248b"
+hash = "8485419ada66a0f34e939dcc19d0f236689c59028ada3385bbb4d234040bbc9f"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchbuilder5.blueprint"
-hash = "18d133e53180da63546f46b4fcddf26ef17360f20d08328b027e7c7db56499d6"
+hash = "8fc1571394479a76c261abccc4815a61f9f99b60d86445065efddbd5473896eb"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchcandyrow1.blueprint"
-hash = "e0819c011099009af10a31c2627cb2cb7858a5a6ffcf54d0904ff3bd2d8d790d"
+hash = "34fdd0c41f5e935586ceffd8a3a402c32f2ace041aca15f4222e5e3509e19b5c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchcandyrow2.blueprint"
-hash = "bb89fd3807b5ababf5fb57b3edf496428206b063c3689709947b3ffa5136f035"
+hash = "ac1cfa5539313401a50d27924513876512375e4702360fa99429d991dffbbe0c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchcandyrow3.blueprint"
-hash = "b85f715ef891a80cafddc589a74b325b7f6f0698833440bc061629fc9a047aea"
+hash = "98a3fdaacd4c6c935b3b09cc4ce2184fb198aab0df3585a9dcc906a9555f1eaf"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchcandyrow4.blueprint"
-hash = "9ab6a5e7d415e914539b1a2cc00f327e61f153b931876b090f8b2a5e92d77632"
+hash = "ab00169924d326d906a24bb2ddee154572fcc7c725f314d32d9ca6e08719a153"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchcandyrow5.blueprint"
-hash = "7590933628d457a20390ba06be487bbbfd900a213a6c607e9b81f001c71e18bf"
+hash = "f9a15695d7789f1373234e22034e20382c8d6303103d2887f957ad680170744f"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchchalet1.blueprint"
-hash = "6da8c9c1c5c692ba3d98d80578926574b03f9e41fe805de631c5b3021aa8ccbd"
+hash = "ee24a2fd55667f737a75c6ba0438f05f27d994e4320a82e613baef0daa4788d3"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchchalet2.blueprint"
-hash = "11e3543e411bd8ea2a0906203d577b47c3a717f2df894c44fbbbf675caddd97d"
+hash = "61673ccf4dad1a18881ad13bccf24d0d18c6fbfd128f5875a702883bea9ab6b5"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchchalet3.blueprint"
-hash = "e7ba33e97ee9e121641712eff4a896db42de90f0df4ae54e3153fd1a66008c9f"
+hash = "e89485a4bfb4aeb34c34e62549c70ae38b55573baaee8b7ee34a4ea555ff7adc"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchchalet4.blueprint"
-hash = "9faf14293cc07eda1458e09cf7367f325febe015413501d64207c196594c8798"
+hash = "65100a27e03b67ee5f9659145dda6554eb53a746ecd38cd592366ac905077ec4"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchchalet5.blueprint"
-hash = "e0797cca0756a1da0b1b228dcd7e61618208a781985e90b6197cce9211b65260"
+hash = "9de34fc049278dc0d0082966f731fd06ebbf1cbdaa0ade0b8284f1d810721f22"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchcook1.blueprint"
-hash = "eba9bd9db45a2a61405ca6576db342d8eaf809b300bb6c518739e64a12170081"
+hash = "86ef984ca3e363c30d5c2f40c50aa6699e76c76ac638c5d934175950186ca448"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchcook2.blueprint"
-hash = "4e9a8cd5c5739e2a677f40fb9177c7ae48cb287581eb64165bf788ba89550371"
+hash = "d4ad238beb7a678739d68afae32d6670d913a794e43bb8055d73aebc50d0416e"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchcook3.blueprint"
-hash = "c5bfd014392c875ed30c856ed3bfb29aa672d88d9764343feb2907532d62f467"
+hash = "e3417bddba4c546689edde44bb0d04d5991177b30cfbda389f25139061587531"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchcook4.blueprint"
-hash = "d96f893f97ee1aa261f8949b89e7111bfb0d259441b0b3fb3b2f01e5690144fd"
+hash = "a417f12e32f067536f14120216dbde4a754b2652ad767ae91f00d5201e801c89"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchcook5.blueprint"
-hash = "4a99d05e3253894f6c5881b796085a2198b4620121c12717cfd7e0ce7515cc1b"
+hash = "640cab9542fc886b09825dfb6d0818c6ec168da8ca7dddc025bc9c3485ac397a"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchlogcabin1.blueprint"
-hash = "69339c486c302641cf37334cec75ac9b9329209db3ec3e4cd34cbc454b7cb526"
+hash = "06e2fe32736b3f1b355cda0b7eaab0e718914edf073cefe1ea92f55b26f23737"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchlogcabin2.blueprint"
-hash = "42b1b65816f4762ae07d622ee10270190223efbf1609edcc1cc0dca0a4d1ad19"
+hash = "2b4920fd4e6600109aa883731ca2e6e45e1d71682219157e95ee1a70d8cb00a1"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchlogcabin3.blueprint"
-hash = "d34d946f8df352ae8773d41556b62fabddef05f8906affdcc2500fd7e301769c"
+hash = "3559ba7ba29576d66e8659b00ff7e0542f26df56db0393e1f5aee5335d1f8e89"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchlogcabin4.blueprint"
-hash = "15e274ebf99e4dbda11cf1699432b775fa5ab4e7f6e268a4fc8c40eff7388383"
+hash = "fa31e2e29b738d9da22fb8b38a8ff0a96ab896fe71b756b5e028116955e8dace"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchlogcabin5.blueprint"
-hash = "195d63abe087de4630b45e8d29bc8ff18bade926a7f5b9cbcf6b5d29a4fe1643"
+hash = "a2ab91409222a82d897d8c4b6dd58ee5e9163511c64a66d3624dd89ebfbc8ed0"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchlumberjack1.blueprint"
-hash = "175a76fbc20acde57d2563f17bd40145c269ddde2d338ef3d87d52ff2ab546dd"
+hash = "d7f73accbd167a3e6421dcb6cc7349d926db61015a663edc81aa9ccaed883efd"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchlumberjack2.blueprint"
-hash = "40fb8183e7e49a435613043552d6ef06743f4e41169a9154dc2eb8e46f9261c7"
+hash = "267e97768caebf41a3578f12cf9136fa5124e976a5c27d3aac998e72f8770bc7"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchlumberjack3.blueprint"
-hash = "a600762a17727981bf619420bedb4754c208e549f0a55382de5f5368b7022a80"
+hash = "98414f7724917a4c8cd7c2ce242da15bf07dd88805b6c05945153c7f06aa4620"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchlumberjack4.blueprint"
-hash = "7d1509b160ce39de2a020e589180e2cd7cc26d94055407fd6175b58f603f6157"
+hash = "d8ae124918370c274de2aeda7143dfc5f7ecebede29677cdbe9c641fe8d1eb1d"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchlumberjack5.blueprint"
-hash = "d1dc4a10b6abaf7880256c97c7a89246f9df8b4df28c6b1b8e31893176476575"
+hash = "fb9ac59149b28b08e25e259c9faa9f22976bcabaa27790c3a7f16703a82490a9"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchresidence1.blueprint"
-hash = "ce02aee30b6eb47d3ce1b3108e06145c2708f10f49383bc936521ad611d79a06"
+hash = "44d582bf31e9598743a3dda7baeda1346594accafaca5ab0ca168773eb6d38d1"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchresidence2.blueprint"
-hash = "55516e36e08f75e1d6b1b53e634744d6218ef9466e330fb409785df8ccfc4e73"
+hash = "d240fb80c2a9a909efb283e346df2c383d99af7b336cadfdd6d0166e0a227283"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchresidence3.blueprint"
-hash = "c8de32d6803d89764f28c841ef1491f6bd69885480632f4876d1085d7c6216be"
+hash = "52a3ac9b36644b601afa76571d1f7a5ea7e1b58b406ced863701fcefd37d2fe1"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchresidence4.blueprint"
-hash = "c1b70fcb1f7831cf900ecf0fff2daec8b7f6a8fe7f72731d95f8a1a329763683"
+hash = "336a132eb3d615e9ddd08bb55f87cd53cc811867a3654409c531de2e79cc82e1"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchresidence5.blueprint"
-hash = "0a7527150688b850812b1d6a23eeeba0ec81816e87fa24d6f0c7fae0240551e9"
+hash = "660b7375456773c9c4dfec4223b327a0ac09eb60c229443a60720e45dc2872ba"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchresidencealt1.blueprint"
-hash = "40258ea14a6b2a61b3f091354b6fe8c12eaae26ae4dbc63eecafeba40b05c220"
+hash = "39db8c96213b25e04ee1c2a8f883a3a36df64222652ec089943b6dfd7ccffa16"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchresidencealt2.blueprint"
-hash = "aae5aa0c41fe0e712120353deb0e0155fc4426319f374afb573a24f57d569140"
+hash = "ae4833dc9e530c98308fa5c079cb6a8b1f762d6dc01a0f0e8f3931b06647af46"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchresidencealt3.blueprint"
-hash = "bd697326c1f67e42ee3b04dd0379dcae857ac03a5dcfa5c94c594fd4a06cfb8d"
+hash = "580d3a1075d48337bf9fa705a6904e1cb719e09e43a45aec24bcde05dd1d1857"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchresidencealt4.blueprint"
-hash = "063ca18250443cfbd33f0239bda8cccba8c16df079c9c1f2bf885f6d572dd9dc"
+hash = "8b969264af16367910827f5c3f9eb16f313d375790a2507901d24510fe310a19"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchresidencealt5.blueprint"
-hash = "c208c2d5c9643ba7e8aebc58b09982e6781ef8c11fd758feee0dd607d6eaf99d"
+hash = "0f312d49ae053d8ac437ae207e90cf48ff71c04c4b1d38f1331e81a20cd2a441"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchstonecottage1.blueprint"
-hash = "da3aa0d5ae33e05bc39a7e96e5a7b38c663de7006065fb044ebd62fcac91f398"
+hash = "4d843f2c7abbd94045d8ec5051f5b11182d52041f92319d8acd0aedfe1be73c1"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchstonecottage2.blueprint"
-hash = "b043ea4a2c454563e2ff6605cc7604bb2e349be145e9a68ce3f219f700f77029"
+hash = "801ed46fe58c1d4a1631c81cf177b122084670f4ad693bf261025348c56bdf07"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchstonecottage3.blueprint"
-hash = "9f8668d680b3d5f80dd4dc2a458f9870ff6ccbbcd333ebc24e35f19265edb98c"
+hash = "f2ca488e8e6f156538e784e371e3d0a2da0b1375b1b53a8c902497a015348ad2"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchstonecottage4.blueprint"
-hash = "1e56de492deea33f89abb3ec5042c6bd361df497fe084ffc94187c784ccc7e76"
+hash = "e17a7bdc3e7800b12ea0fa51026ed97c0b54e262aa48a82c7620edc032958cbb"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchstonecottage5.blueprint"
-hash = "7f2c170fdb977d9c72a562760e006389a9b80e600132a0c208d6e715c0c2c11e"
+hash = "dc3bd587eaec60d835884a63210fb8b7130a0624fa8fdc42df6086b4f86193d3"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchtavern1.blueprint"
-hash = "83ff1e2f9fefe3eb71af9057d2011176600b733b1d0cf64d42182450fe709169"
+hash = "f686f5c9e99e39e17480d37f7f09dd95117d5579c9bac6ca76b6648941fce46d"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchtavern2.blueprint"
-hash = "751f9c1e0cb2c34c91cd29014a19f75a199f1a639bbdecc449d7e8995862f298"
+hash = "c1cb2b251254a93a4a5315ea2bc6b45c2ef64a3bf0eb15e9c7f3f20e228d12bc"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/birchtavern3.blueprint"
-hash = "0ce1dd19d937de77faacc0aaa4d4e71c479d87a7b96f1f4e81435b9481c3f08d"
+hash = "b83e79b0331ef62e73089134ba9a5edc87d3d3dd760cf8b6ea68ec5fbb32f4d7"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/builder1.blueprint"
-hash = "febe817d73f40e81581425855a4a1999136733b6488627c9f23ac94aaa1cb98d"
+hash = "27c9c27c0ab0d48462ed1864412ed1d4a22332ac205de3877595619a5e18a20b"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/builder2.blueprint"
-hash = "ec1d6e061ee240df1232c0e4d159f3d2fc9b53320d7b1a75e8b5380e160ba35d"
+hash = "2764cbc704b39e64f8a9f9f5b1e8df49e2e935734b8b59ca0a16fcde682ad2af"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/builder3.blueprint"
-hash = "d0290e556919b1b9b2e22c8a0d2d2857cd38da0c59f8a18ca48bcbcbd8d4523d"
+hash = "7d51c0050e2759161a47fa11a611058413de6b50b2c01284c7e3108a5d371256"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/builder4.blueprint"
-hash = "8d6b085d001fe5d7e887a14088d298cdae750b5a66b7290a5376961fba2a8dd6"
+hash = "134c8c36dddb516abd851c8f792ce22b54949bfd656bdd31f8c69bd4fcdd202e"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/builder5.blueprint"
-hash = "a1290f6f7411b73f206fb08082e08f980bb1ced55f84851c0dcf71d0981fa6ea"
+hash = "2edc31476d557772c441e8e47ab16854ffbefe0a519b6f5ed9c9c382906cc694"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/candyrow1.blueprint"
-hash = "4356f37b0a256becbc48c521282732515476f8b0b90cd60dbb56bdff0a9bdb49"
+hash = "f8bfe763faf3bbd6c2c2b4ae20a399e28c5457d8487d4466661661c7dcfcdef4"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/candyrow2.blueprint"
-hash = "47d95cc1f821bd975079f9fe875f408078e8dfb775f4c199bc43420e66d1dd51"
+hash = "ca468ca840023354846249d1e9a3ec5330fbe879b2a0e10b8ec4f5dd0d23f850"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/candyrow3.blueprint"
-hash = "1eca3fb9e7bfcdb6c5427a3ee10dbabf7260b816f7770391434883847190a0f4"
+hash = "05a8b294557b371d740e018b8b9e2ee4fdf2d35608750f8e5f55c2f290282938"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/candyrow4.blueprint"
-hash = "3291f3284f6d3c7a51c78a7306ad4468e1a5ddb510f97beb091f1a946683c064"
+hash = "ddf7850ddeacd18ec2aea0b917143db997009379227e1e3e9ba35ccfa39fa374"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/candyrow5.blueprint"
-hash = "045e653db6a78f3e5b1cf674cde7523fe80fd515b662dd119a07de0a9af39d26"
+hash = "fe3d0c7cbf9776464c159c330e29a72fc6310b1cd23a7fda1b0f9d65355a8755"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/chalet1.blueprint"
-hash = "b7ed99f11e9629b18938531b7a3055e9ab51d29d59c2d95ce5b9fb0162035a0a"
+hash = "f5da92166d24854d3bde0b4ddb4ea5bc0d083a0ab07e318c633a98b531cf14a4"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/chalet2.blueprint"
-hash = "21555bec130ab7c498967283bd2619a64c2473d31f04ea2a4506ee02a6af8baa"
+hash = "9f703fccca150255215527019824dcf025b9916333345fb7d3f8218c8531481b"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/chalet3.blueprint"
-hash = "174e5fb526fc6971c42b8a13fa437d232bf67fa77a3bb21ccb9b71c79f34fe46"
+hash = "412d4c062c7fb4e6f5325d4036e5f021c146ef60cbfe226e7cf0538d7e38eb97"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/chalet4.blueprint"
-hash = "1ac76b5a47fe95cf89fa8d14babbbee8a8bd82b8e5f71d252675ecc9209a4029"
+hash = "60f901036744ec342e77305fbe3ca153906ed0a2db711edb4bf4b848a09504e3"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/chalet5.blueprint"
-hash = "426c1ba6635bfe68cd78fa99bd280e36cdee0c98ce1a0f2b108e2238ca8762b9"
+hash = "a50dfc4dd49437b720c72298ce239664d928b96216646c32d84f8c53fca7abf1"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/cook1.blueprint"
-hash = "057371a4ccad33c6b9fe53dcc5ff607b63422341876980637989c4be03e7a6d9"
+hash = "6f6d70339438f2c7bf5ffac62936582d682f20631a4f27cbefd4d94af580d742"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/cook2.blueprint"
-hash = "8f76abf7467d9c17ec9757607a273ffc7e712b89ebd0873c39570b6a78003e1c"
+hash = "d628f2b524560f61d9364d6674168120f16297fb7ee2cc9c34dbd9e0fdae8d33"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/cook3.blueprint"
-hash = "a39a320655f7c87d9643dab72792ba1c03b6e2419fc3b6bdde9a2e0d13716f76"
+hash = "217a461c9c851faf3914378dc1a17d8985357d307b59cdf1bfa0074620b035f4"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/cook4.blueprint"
-hash = "9551df4c0119e7b370d9068dd62dd7f2665806ff8bae962b321612ebbaff6827"
+hash = "a086daf6790e9713e2cf1452dc75297a562c6ea9a15a0cfcc92a47302bcdd0d8"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/cook5.blueprint"
-hash = "d6be889068c80ab053504ad883d10dcff550c841de0e77792de5445a3c3e3b76"
+hash = "f9b6a4843d1e3d3244ad34bc68ff9ce16ee4b4b604a12893837ac817ea208318"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodbuilder1.blueprint"
-hash = "f9d8db1389399aa14d210e9e0b85b3a7c44d34209615c56925a7231af9ae27fd"
+hash = "025fead83ca635613af4b85733ab8e5fdb934345030084ef387a657f4e80c292"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodbuilder2.blueprint"
-hash = "592f591fca4f0444850e6f9960ed7e927b526cedcd1547462bca8b298e04e42c"
+hash = "3cdb80562ee82110af9dc6d3d75443d2744367f028aa3da8fd0afb6deaa2f0c5"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodbuilder3.blueprint"
-hash = "fb646298820346e513c6758a4eaea3f9bde6e0545140063def091f1e851b842f"
+hash = "452bea5fd00d8f1eb02834f45a81829d5636f2ca536ff7ec06f190c7960e96bc"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodbuilder4.blueprint"
-hash = "8b28fef6d37a7ffb981dfab0d0685e25514be4a31d213a8dc9e6df703b2ec61b"
+hash = "2153124e6095c99bef04843dcba660453865ddcb4e340c8341f9a55ec18ca784"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodbuilder5.blueprint"
-hash = "a91f025c0c48ceb166f4b6a4aabbebdcdd7c66d648916be3764b4853b96aeb0b"
+hash = "207b1150278c312aa278df5ef4cc9db533e0d5653e43ec87ccf53eb3c607ea5a"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodcandyrow1.blueprint"
-hash = "e334c4b50b90d71084d23165587f16bb52bb8edee8825037eb9b9b522b86d271"
+hash = "b2e5ee702a2e3d7a1987cce10085bb1718ee3a64c4dce351966f36bb61d5b172"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodcandyrow2.blueprint"
-hash = "6007fb998f9d7e97f4b5dfc2543916c4d7f59ca0aea5211523c013daede3d8bd"
+hash = "9cd9e817c390891f95e20d4441d03c226ffd3d7684fe6ca430c1b05a1854be27"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodcandyrow3.blueprint"
-hash = "e941b5d8a86931f7de480d8ac8ac34cf0971cb9856274cffd23fd43866c28004"
+hash = "d09357b70bb7fb6e9f9b1f201873238514d3a5b6aa9f52c9b0c20403669f2f53"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodcandyrow4.blueprint"
-hash = "3ad895c7f310863445e500a4a54d1fba499f717039cc539afd56dcda3cd415d1"
+hash = "4e1e4b742d459215486f567bca7832a3e02a0e6d2db5cf286b848c0c744a5e74"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodcandyrow5.blueprint"
-hash = "fee8c764899e62b862140fd04fdf81f53c6d98ad23d0601838972e39310337c8"
+hash = "ed80b9fa0717837d2a5fede3649bbc16c22d353a93136a702110d5f40278ced9"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodchalet1.blueprint"
-hash = "9257e9fc89506f4147d216e461f68408e6dd3ce5997f63254ec54aad33247b4b"
+hash = "46acc710b8e44797f1fc6555dbe4298f9a0428b7828d4371ec75d0a8f9817beb"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodchalet2.blueprint"
-hash = "79f3e830a3c44c2edb5985a216d50fb92540b1c7de6c81432daab990291547b4"
+hash = "ebc5b2e835d68d0154e6744b7e63241556c9faa6e8eacb1bfc29cbe3c4993804"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodchalet3.blueprint"
-hash = "548164ef99a85457217f81b1fe3c21d91b8b37ff500eac731801e174c2a80b1b"
+hash = "8c1341e6a553ea673e38de4cad21c27d842eedc15ac79b9a91ee39fc7f5c1eee"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodchalet4.blueprint"
-hash = "fdf6fdaddd1d8b8676a4ec47cd0b9143bfe6c52a90d1ac80b1dbc731ec9ebfdd"
+hash = "4fa25bc791062c00312ab3ef7bd6c31d34f1e329b1313972680fa850e013b1c7"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodchalet5.blueprint"
-hash = "a74c0fde4f2580fed0fb2028012f208c7ab35088518e0a381a5a9f5ede2fec62"
+hash = "81d3280087e2595117a7fbc60a14c47592d6b98595690e1c610815050a8fa247"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodcook1.blueprint"
-hash = "43a4923fe023c8547dc77eedfd6248fb90007705a01667428f3aca8bea43729a"
+hash = "1d4c3e04006db1bf18d662570def229bb5247ba7039a1db61acc2ef4c75b7564"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodcook2.blueprint"
-hash = "ca37bacfa2e2ac1c1735771cef0118c96bc93081548f7f4ef655a58c84923db5"
+hash = "7a43391ed67e3a273cee93177c3afef2659eb587c21cc5ea7b62f878fcc481ba"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodcook3.blueprint"
-hash = "015c987156cafcd753438652a5b8b2a75884395f16950c84153507e9ab2dc115"
+hash = "520b3f9ba04468b2fa9bc08056ac7d78d8a065cd6b02013bf3e289b8c5c7f950"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodcook4.blueprint"
-hash = "382edd9c12fdc9282f618c049a1c1b0792c0cd8bea3f0d1f8548dfd2778ff983"
+hash = "8efd76706ccc833136800646925f3edcd7eaf354db586f6c0af961da43170889"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodcook5.blueprint"
-hash = "768eb23bf30b2a094b14238cec236244e360b1efc8a6892c0aad373ad3060849"
+hash = "f607e7f54db0f0c775f2a42ad8573086cfc0f939c1b137226feacd34429ccf79"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodlogcabin1.blueprint"
-hash = "0a32050de38ef0fceab9f6dcb1a4d095dd731f7f3963368a3092b74435a7d18e"
+hash = "7d619c4fc4565a5e47bb005f12ec8729a1ae71bcf791ab891769672dbdee6ca1"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodlogcabin2.blueprint"
-hash = "307591770c478a72b705ad38e23039524a30845a5a9a120d4ce229460fe36552"
+hash = "e86f1f961372d1c5162e7cf223f73e827c28e3445af7e49fa13fb090ca2809db"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodlogcabin3.blueprint"
-hash = "5771389076d9bfa1834ce14637a22a777049f01575a7f7bd413977bf55c8abf2"
+hash = "0d7995496fb107b4ee234e42cc6d518926c7cb993e4d0e2115adb35e8b13c27e"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodlogcabin4.blueprint"
-hash = "9b74fdcbe814564b61714fb8e7e243f1207b5e0175ecfe464c8d7787039ddfff"
+hash = "65ea144021829e6790d6d7a426785efcac05d995992371d96b2486958b4fc2c5"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodlogcabin5.blueprint"
-hash = "89dfb524b38075657ddd13995df0f21ce0691caa5ead3490e9dd8672e5370e8d"
+hash = "f533d2e308faf84cd7bc59ae56c2b6be177482e4b5b9730ba251e227ba7258ba"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodlumberjack1.blueprint"
-hash = "a8aefde4ee18e186d257aba12108788e2820499cc7343612ed1197a1382f6c4d"
+hash = "28c116639fbc7edfd6cd2cef1755d56626fd8107a82c53f8f3d06f726a741fc5"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodlumberjack2.blueprint"
-hash = "981f8e677ed1f3fcc40db23be2978bf5faa412a1c665d1bc47d3fefcf656dfb7"
+hash = "d965924867c49598c89f1a3c845bc4141ff2e3220771cbf965ce4ce602ca47cf"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodlumberjack3.blueprint"
-hash = "d61b3f91f6b08d454c17dc7bee91c04600fbe3b3320ef4b69d9e9698a6de347a"
+hash = "25e189f7c6b75455c99da5eef791b38ba94c066018addaf760accdb8b0376817"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodlumberjack4.blueprint"
-hash = "596e40cb0b43e95f6dd3474dc79651c505031ac3b8479bce359529bac3915299"
+hash = "2ba764f2b9d7c8ead26c6c602df33fccc4ef8ce0e5741b1eed87a5a2ecd4b308"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodlumberjack5.blueprint"
-hash = "1a5b3bce38c0a2e614e7956962dc72e738d045e0313d545aac7166da32362774"
+hash = "eb1a9c27e7e96122d66228ba6b94406ef8643ed1feef96b525360f67c0c8daf7"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodresidence1.blueprint"
-hash = "801e79da8a7aa578179c942da12a7117c278e0eb0a24e3eb4c30f74ed04aa458"
+hash = "cb8eaf1f9d82253d5f76d9aa300407de7bcc1606a053e2c8a025010aec85ea96"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodresidence2.blueprint"
-hash = "2cba5b89df8353f54d5a00dd94eeb66d3b55d7f5ef06332413b858ade1e7d1df"
+hash = "44520f15b3012032849acdd8a2712ce3828174f711ba1bf824b5d9ade337e876"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodresidence3.blueprint"
-hash = "dad063584889900ad583beeb1c3b9103b9fa363a5decec36d4790b34771106a8"
+hash = "91fbe8cc6c6cda87c2eb5c5bdc41c54083ffa8d2a7c606fa126e9582071060c7"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodresidence4.blueprint"
-hash = "2becfc9d0368842389c7df01f2fa60a923a29ea4664a55e0566615e110c422ab"
+hash = "eec47e6295dbb3c615b1037aa0928e3468d90548d88ea271dd3ccfd605860a82"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodresidence5.blueprint"
-hash = "f7a4a90e01ecde80eb19d7da5dede40c352d946dde1d00f460e883461244638d"
+hash = "2f46a8479217af85eaf076f1b3f2db31a656423694c03fc68fc3026fe5398182"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodresidencealt1.blueprint"
-hash = "b4b5c03d49b6f64426c7133009f65f81bee9bef0d1b838bef6ac1b13a6559f69"
+hash = "0eab71d4c08aba91c8676197323fc96c4fccc2bc689a7e9f07c4a369a9eb3dac"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodresidencealt2.blueprint"
-hash = "43a49ff5e70e4775938e9cfec1700ea97f217cad6babf7dce2a9e6dca2e0fcd0"
+hash = "3f868cd46bd6e23686831ae54d3d304c5967de9c2779abab80a92ca865023fc4"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodresidencealt3.blueprint"
-hash = "c2f7497031496a2151823bcd354d3a235108c70f18a6722fbc3d42db0e687c66"
+hash = "c71c56137c7f475f8e3bacdbc86c44e078bc80bd9b81f670641c6c8c63679e0d"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodresidencealt4.blueprint"
-hash = "9bbf4395086ee68f5bda3d7aac4e76e5b17992600a02c94a50346bb4bc5f7d70"
+hash = "d3d2e0a8ca288c7c4e5e1cd313637887d80c7b9b8e0666f95805447e0831a4db"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodresidencealt5.blueprint"
-hash = "01a0e73f0570b8ded06005c10c0bb1d4e14eb6e4e8999a1a0c3ce7dc67a059e8"
+hash = "8620452e6ebf91dad25d9c40337a7960a52ab7b68e455203f9824cb411f5eec9"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodstonecottage1.blueprint"
-hash = "b7405b9405c60df2311216ba2e38375aee0b42702fc9eb4c32dcb775cfddc49e"
+hash = "a856ce39735cf38a21de8b83593f06d96ebfc2e8b9de5f4be1de8a081e2746b8"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodstonecottage2.blueprint"
-hash = "e5491fc04effdd5f251a74d34c341a27c806a677931e037439156054841e3761"
+hash = "b20dff01695c2bf8e58d78fd20111e44a747e1950d2571a9277f0cdef27d45fe"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodstonecottage3.blueprint"
-hash = "ecc0d03a96f285266b0d00f4a4292122db1c6885aff30b15bdeaaa6d695bee94"
+hash = "a948bfb6e7b052d4e935593dcef18fb8e08236c45c628911fc69a8d5ef321b80"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodstonecottage4.blueprint"
-hash = "817505e9481840b945633fb6bb254d93057a52e33577282f82bcc65c00ea5ff1"
+hash = "469817124a3e65865f59945017b5a5bbd06138304730a79c236a629356f79b2b"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodstonecottage5.blueprint"
-hash = "f8080e20ca49c75bfc4a74baa90e47854b25bac824a2759a067b0f76ea217958"
+hash = "31d457055fc2bbd8637693f129a9337d78352bda26ae0925c2786ed08827053d"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodtavern1.blueprint"
-hash = "3f80b1368dc966b83aedca453b3eb87f674489418429b13002cceda3333f1da7"
+hash = "8cd33e6bcbe78b5c855b7fb66c9c1c2af5d7206058204dc7880cb42819f6d900"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodtavern2.blueprint"
-hash = "9a4fe1445c1377e4a9ffa5be39e2bf2f2521c78206b06faccd55cd890464a6ee"
+hash = "ee8a04419380fefad9af406a2e1f4d48e7e68f183d568aa985030608a94217f0"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/darkwoodtavern3.blueprint"
-hash = "f1a8e522cd28b682e83168c60d51002a722bf6bafb643d7539ff891c8cce34fd"
+hash = "de860f0121aad4fd4f7b9a60ba72fdbd93101414b0ca8cebb5e559c1dc47cafd"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomebrick1.blueprint"
-hash = "a216c8c8f65b5f440ad5e4fcead2bf01c0ee1dd310a0acd7119c8c6f78b6cfae"
+hash = "b7ade10b0af15100200651b73d4e395192ad327a46f7085cf71c8f9e36753d11"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomebrick2.blueprint"
-hash = "eaf82bd62bb095cb9d8999637ea9368bc2d1d5b71b602a6b7e444f588d63a819"
+hash = "dcb5cdf384bd96f649f8b2612f7a2ae76d2ec015e7888814d533c29d32552d99"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomebrick3.blueprint"
-hash = "508871ff115cc8024af15f7bb37eabff6d4ec737fb9d2da0cdd7f15cf92e4bbc"
+hash = "dd103387fa888810a152d10194970a8732738937c849d05ff376325c15d80330"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomebrick4.blueprint"
-hash = "cdab67d80caac3fbf40f9e3cbfad29c1508a15771c0a4937b8bf1f39194e6cd7"
+hash = "d44d87802eea5b61afaaa9c35cc2a06426b0bf79d35164ffd320618f19a4bdb4"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomebrick5.blueprint"
-hash = "5f43be10191c15f5e95aff5988470586ba73e3e571ada1596daa19cb323b9ba1"
+hash = "78132b99c02fe5a082133e57bd7a3206efd922a13d96402d34bd173cf6d9a36a"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomecream1.blueprint"
-hash = "0c99f2bdc03759e5113da9143250483c9b7046ea6a500dbb0008b6674972d488"
+hash = "2655d513fefef10a406a19869d591df9af9fe76010ea616b242d6121674f77cb"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomecream2.blueprint"
-hash = "881d6d3babc375808d18d068d94696bcfc38550c6c03c79d29e8d9d03bcafdae"
+hash = "3f2c571de4c98131a99a427e4b02d91a5cad8e51317035a42213dab6eb03529b"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomecream3.blueprint"
-hash = "4c3c3dd58f5e1578cd893665102deb3f1184fae7eff16f6352c85684cbd5420d"
+hash = "1dca588eb97d8a91b317043ee8dde243b8063b8c83d7d021659110307020b2dc"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomecream4.blueprint"
-hash = "f393c0bc7a46667ac25e7a545af488aef02fb8c9b14acde14791011bedc6d0ec"
+hash = "da3acaf381dcc00d92dd9fd62b19092cfb4388f3e40d1befc9dc6563cb316490"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomecream5.blueprint"
-hash = "1f08f8b228010e9473361b0bec99b4634f4af7ba4eabd62cf3c878e4b677e37b"
+hash = "7feae7b30c90932d88cf97c751132860906d9bb08f05584d255828e973f469a4"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomemint1.blueprint"
-hash = "ac5fb83e90624d55f2e7ffcd4306330b208bf8e84325e7aaf9c7867c7cb180a3"
+hash = "670089c787e54342f281f5f21f1644e5038406f209dc616ce3d95d8c58f27ff6"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomemint2.blueprint"
-hash = "81cf310852e69e0bf3a9bc74cf05314e65116abe1a25514720298e2087fdefd3"
+hash = "d7047331c66a9e8887d4feb89583c92b9d3d2cb9c016195caa69960994910a28"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomemint3.blueprint"
-hash = "f9a33d353417b2595462adef05645119828a1a23563efaf34be9d6374ed9c9b7"
+hash = "aa351463db4ae3a59a312986de79fb7f4ae457c8a4916565c57acd8c96b7a086"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomemint4.blueprint"
-hash = "3510a829bfad815c34d67d98fd22768788b996095b4a4b16504850a196fa079a"
+hash = "ab79589fb6470533a4894fcd15a18dca95d009092272cac53913f091080283a2"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomemint5.blueprint"
-hash = "11a77833d36d3316e3c9cad3eceec6383394aab7943d9ff8df9554a2fb0bcbd8"
+hash = "f312b077dbe52884b2b39fe2c39f9605e9f28b704149ee6231af42423c54c8f5"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomered1.blueprint"
-hash = "572ddcf4f9d6245d84983107847aacdd39bac1e14ab42eb80a61e5db56b4ebd9"
+hash = "35bbd5f1badd63f56191559009585ef2b45e4fe88b7b47cb93583bc6f0866511"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomered2.blueprint"
-hash = "2cbac4e2e8c66be9a1acf27433e1c0b227a8770c577abe177cd7de07ee7956b4"
+hash = "64e3773c29ac67e264a81ae46574b92b9117d6c83299f7b2cd1562a80d0868fb"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomered3.blueprint"
-hash = "8520b5fdfbd088372ce23a8cf712a99b6b27d6f45297d80d40fe7da14466caa9"
+hash = "ac6b055636bffc22f11d47718a00c5f0ee796a790cc47cb8da23ac15e4baf277"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomered4.blueprint"
-hash = "2a1e6cd1c943882cef22db8627c2848f9767494ee3e6344417b06380d640e6b7"
+hash = "564454b3d0f1a54b73d0d17a6b600d693efac7390a8f6222950efbcc1ebe52e7"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomered5.blueprint"
-hash = "12adafc2b305ed0229bfbf3f2e5c973efdcc7419a4dd3b9b9e1182e70c3bfa31"
+hash = "fc1cab7162cebcfea2cce526357ade65d028cb4f98d67b2ebef967900908260c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomestone1.blueprint"
-hash = "2f849c0b793a9f30ef850d8230c0dcef6225ac45839fc6630577a1035074ef7b"
+hash = "fe7d906cf32aa87b7f558d2a6f6cae596a3396088f745bfe0c93906ed45a84da"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomestone2.blueprint"
-hash = "4aca172e13b250bbfddf6cc3a8c5d907d5ac2510a8a9d75d941479627bd3adb3"
+hash = "372ffe23bc3ba402f6d844efebb41557c41027b9649b2f7c00b91a1df48862ec"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomestone3.blueprint"
-hash = "f09d13c3a2f58e34acc220faf350d68bdb0508a80aea5abb9a6649ea37c17b40"
+hash = "46ab2779c055c6315232a2472b9425e975ad8a1b1531b56fce28923d5ed06d27"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomestone4.blueprint"
-hash = "0c287460dd225d95b1dbbdfce330bf5311c357f79b0224eef0fd7d79bd74b8e8"
+hash = "1fcb4418cdaf98a038ed2dab53cf5d4016060d27392f256318a8196796449a6e"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhomestone5.blueprint"
-hash = "3d6d4058c76efefd3ccc1e768eec1026fc9f9dae22c982178a4d3fa94de38a65"
+hash = "3914eda4aa3030956cffc44ccc0161df7be7fca52f409660235a1d032f0073fe"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhometimber1.blueprint"
-hash = "4db52a2e43896d30b9e813be57a0584f9e6fe9df454701e0a513810adcfdc1e7"
+hash = "efe28201bdf4994169dfbf2c132d5b4ccf43f6fced0188f74d7327d4f862b13b"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhometimber2.blueprint"
-hash = "d88a3efb1b18c2ee4235cea02231340f205e2f58e8d97f65c859e6792ae45e34"
+hash = "c096247078a2ecabaa169325ae2f3f23e7b94e93500be80300b88133d358d09e"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhometimber3.blueprint"
-hash = "e122d6626a773f7e2675ed35381f8d1d82ee4a690c940a11a31103c5eaf09b99"
+hash = "f3866dfdf44d988c119bc47d34397779ff31814f95fc05a99fb76b8f716acf61"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhometimber4.blueprint"
-hash = "854f7bed72a5f680a53e33374b0aca485bae87d78257a6d6f4167cfb365720a6"
+hash = "18b3baa103fd33c186ac3f67b5db6ae3393a9e5fd10535b8869830a531b29e8a"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/familyhometimber5.blueprint"
-hash = "a2a6aa74a01eab4667fb2b311e45314051c01e38a48e101b757be71cc32ff5ac"
+hash = "d9d1fff3ce7cb8e988f7c666efadf3e205730e8e391a2f31eb6d8075f0b6f602"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidebuilder1.blueprint"
-hash = "850d1aa534b7fa0d8d94f4981dace125452642f6277e7827cfd9bf1a002f2d53"
+hash = "a55d0e9daab6874e5d457157aa836151d516138d9ca830a7be22a7c1f9bb9bbc"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidebuilder2.blueprint"
-hash = "8170ff0c13d2c7ab6ed6573cbde07e574f5ef7e3fee02d7b5610b087704a07fe"
+hash = "f0bcd9072833c26004be62c32ef48c2a5a42aa08bf6200be98f914dd021b67d1"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidebuilder3.blueprint"
-hash = "b4b5f9e087c55233e0a411d479f30347f9f1cafb04b0a69170da46fc721e219d"
+hash = "ea4f902f027e5c41d47a212f1409707b5222ab3d75007c1a0c9130d8efb60f19"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidebuilder4.blueprint"
-hash = "e46ec1767182427c4f9d1b0a889c8c85186d71ffa872f8c29e0580a3cef5b612"
+hash = "3b2e9eef0167583216de16131dad0032dbcce7598e81536702f0189330af1665"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidebuilder5.blueprint"
-hash = "c0ae6d7d99924c3e46b329d83e409ec3bc0ffbf18866f6c316274190cfc99e8a"
+hash = "66011bafcd5dda7789930f29c76a5b6bf0b370aaf03567cc8154b71ebb80b51c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidecandyrow1.blueprint"
-hash = "00661d79284966e9da75838d13ad5c248b03268e9d3fde52beee522646ba4529"
+hash = "d11976fba99d7d7cb8f8cc76f8c315e691c21225bdb2f3d919ab53b99fecb627"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidecandyrow2.blueprint"
-hash = "9eadc5cdca49776d0b48799cd339943c67b368ecd7f06cb762f53b418b2ae46c"
+hash = "0a941793a0e537ff70064c1be1dcd375d01290645e01be25efc51587ce4fdabc"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidecandyrow3.blueprint"
-hash = "115df63686fb775044cb1762ee362ca19872c30cb153e1cbfc5f77c71f5aff6e"
+hash = "ba82a7852923c5e90a8b6105652420e57710340dc5d5fdb53ea87a460b4e6884"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidecandyrow4.blueprint"
-hash = "89901230ac7d203f51702784cccba1b5e0e4ee97b8aef175568e405ddabf9989"
+hash = "60fb77af2828251e9bac67a842c7e0ec127c4a7abaf853cefee71c2188b61ae5"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidecandyrow5.blueprint"
-hash = "ee3126e2ff975b2ed4ad0d09626fcc4b6d2035c9154b0ed9fd9db4c8ac6744ab"
+hash = "26540b16dd275b48d1b57161a96c4923379a12b1068d40654d3392520c8bc2ef"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidechalet1.blueprint"
-hash = "37c8ca253f3fe8d510c1bb8e658df9913a94214e77214e0cf9abdabf6cd052cc"
+hash = "39167857a561f5dcf71d0672c2bbbff7a6851e5408e3aa4ca9ff3c6fd372e3e1"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidechalet2.blueprint"
-hash = "4571cbe5d23a544ce944120355da03fa0732875461c28594e47d458e7a1f131a"
+hash = "b76aa9da9e274dca5b355ff2528dfa3d3a369e9f78f71574a484a515c955490c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidechalet3.blueprint"
-hash = "88490d4cc80892abe38a2b47caff43713a8b2b6946028eec28e4800e45923ceb"
+hash = "33fbb7300aa69c4e44ca1970580e2ad9eb92c78586da1450182fb521e590131c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidechalet4.blueprint"
-hash = "8779dc8aba010c8d2e1a8f0e49943d902595e078ea7b6e96bb74265891e0c25e"
+hash = "53d61a82dd85d21ff7c87ca2762a4760b0448bbd9396e83585ad743ae1792232"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidechalet5.blueprint"
-hash = "043ac4fe3eb44c2b27f2538c4bf265ed3319952aa00a596a4074bc7dd6b5c0f5"
+hash = "bae3e291c420b41d0da474c0f536d475bdd7390c110ed051a9cb246332207828"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidecook1.blueprint"
-hash = "2dfaa1e54881a14b9388d8c10e6b3c579fd00e6c694f29eee6f50b300d1cac24"
+hash = "7d5de5b90fad455e8642cdc1e9314dae79504d77b510f30d2c8217f25efb9419"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidecook2.blueprint"
-hash = "0254a0139e55e8aabe7dec94b0b406889b69af77e91464ce4c3c4283ed6be53c"
+hash = "4d98254037f6e1b62ee98d5694540685f60209dacad457a2a649935a224ae566"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidecook3.blueprint"
-hash = "47ec146db28c2276d21190cd4bd1c553f114a941c1e73bfb62fae2f17d5f0e8b"
+hash = "5659a4861914bb5b1e81abfc082e850e1ffdb6fab1e75d8a8b21b0edf20c598d"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidecook4.blueprint"
-hash = "5e21ec7c26b773caa05727a32676c87f88bbcf0450989e96906046407be2d2e7"
+hash = "10b8b2dbd3b77b2280bebe9789316b77a570057bcc5307166d0d713db8732b57"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidecook5.blueprint"
-hash = "ade2aadc7616d12d64f035ce8cef4258593ef2bc0ede08c258776e64cbc5fe5f"
+hash = "aab70d55f9e52c0813fd00f620f9c526c612b5da95f7c1a438c9b09bd5e1d035"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidelogcabin1.blueprint"
-hash = "2586c44373e49dd2933bb29b668d254d30a0c6ab16b6aed9afcced909fd38331"
+hash = "b2e2e1de77590566c60b66b593658484f4860d453b341eefadb2a056c3374a1c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidelogcabin2.blueprint"
-hash = "82adff23d21188614c0d5bf26a052ac4327dc0e30087938ac3529a05962411c5"
+hash = "d1c492667700784511ee5f34b33e7d103f2e7099f5bd0d5db77ce12af113b398"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidelogcabin3.blueprint"
-hash = "0f86c4a561df535973753da4c4010f4069ff06e1e31fc07110d18e3bbefd0b49"
+hash = "9f0e1641be642d1f93195db6e08b5eda568f2bddb97d430a750ea3ebe70b42a6"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidelogcabin4.blueprint"
-hash = "7e4de2dfe72cb90101747c827e7a0ca6f02e674277f9f386bd1fb7a9abdfa96d"
+hash = "8e3774ef7fa104f3c6c110724b6e378df5cbdab463bccd50a0c754f0a9666d74"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidelogcabin5.blueprint"
-hash = "1f3cdfa9beb0ad7e8e52b05d6b259b774d6cb3f1923455c977ec39bc3fc69152"
+hash = "329edc0748455583179f4e44ea9c515cbf5e0010950b9e0a020b2fca4e9e8f5d"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidelumberjack1.blueprint"
-hash = "6639072e5987a17cdc1fc4baee5b136369b5944ea2ad95c81040386226f601d4"
+hash = "2e175d2a40f75049d7d817c9796115d994772b5f059eebfd829ccd16fa24fdf9"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidelumberjack2.blueprint"
-hash = "13bf39f2ce3f28e504b45ea07e86814d6991d71845ce4fec2da9a971651aa100"
+hash = "99ecf897d759e435059d37e4ae6339797c5e672926255a429c3f7716a85e8d33"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidelumberjack3.blueprint"
-hash = "879c6a8aedbee576badf0c5d1ab1642fdaf3e4e72e0d0c3c721830551e4ec54b"
+hash = "d9a4780f5a6ff8a1f91c889883bfa048430d77b6879c198c76a523edb5afd99c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidelumberjack4.blueprint"
-hash = "7d6cade6b66afd10e60f41a2e41891b16d52a9ba8db48b38211a02f700e3c6e0"
+hash = "61ca7a87f4aa6ddd41a0e2546c14b7dabf1647fef33a791f3111760a27617db7"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidelumberjack5.blueprint"
-hash = "e713925984638ebdc3aae5af0e5d5b193ca459ae3050db716b51fa0fc468a64e"
+hash = "34566ee5be5227b63f1bfe5db3c3bda42b2699604621bb44181be081bd8fb572"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsideresidence1.blueprint"
-hash = "0308598bd060459c053010c3acd71b6c1fe6f56ca3b6847207989f56adde3c19"
+hash = "1404fee2846d78188ef116cba31f6aef3fe0008bd2c641ffb0d4252c1e4f56f9"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsideresidence2.blueprint"
-hash = "b592703a3f947e6bd108868753f48359dd8f9d3ed14e2028203461d92c8bd8a9"
+hash = "db3922e774c09a9d8375d3054ba166e3110b72c0314b195475f793a91e9a3f4d"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsideresidence3.blueprint"
-hash = "36bc0c566b481972335045c07802303a08d7807a3d260a277e7fd1a82ee54b15"
+hash = "363273ba18754c0d5ba281fc0676aafce8e874ba1bf36f32dcaa95f87fb0d56c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsideresidence4.blueprint"
-hash = "4cc01eff0ed505dc930a16fb3a09b746e08172f49c5b0dcb52c51e71131d3c65"
+hash = "836c801d3096e2eb0739f518a9cf48e25c91618020409297c87f67f27f96bdb3"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsideresidence5.blueprint"
-hash = "bac08cf467e784991ea5ae71ece9c0b7dd3f59eb9d4877147532021de60de1cf"
+hash = "9ada1d8fe0c4339dbe7964f8447b902111c0e86fd822451627ddffac45abbd28"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsideresidencealt1.blueprint"
-hash = "f8b4cb8340505ab558a5f83ca746e97679ea897f29dece3e21765df64235a58e"
+hash = "edc415b4a374116475fb05c006f518b0b9388a9d8b3eeb421c4adc067ac92f16"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsideresidencealt2.blueprint"
-hash = "73742a490b7a50e5b3ab14a830d7b99d2da1e78d7e3ff6ff83d9fa215acb3a06"
+hash = "d84a5c6b14e5a2103894a87da4795382c7d188aea6d895d873305cbf346cd8b7"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsideresidencealt3.blueprint"
-hash = "dca1516a745dc1b2b28fc4608cf4ec9801636119e7efd4e7b97dd292cb02fbbe"
+hash = "5493dcb8ed62ea87637017c7beaf92712314d9fb88113cc01e81297650d56dd8"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsideresidencealt4.blueprint"
-hash = "78549a75c2d1c789e836d502f5fdc42bdf705996d534d47dd77e670d1f427986"
+hash = "432dea813d03bd0dd32152ebda1f47edbafeede54e6f6eab9e91ead9e389cb44"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsideresidencealt5.blueprint"
-hash = "4cb33fcf8c3666540213414eb1bd5971773708206d433db85f3e490e268a2728"
+hash = "5cda54ea42b21f77d9ce146ff0287658b7f68a949d505046103f1697cf911da1"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidestonecottage1.blueprint"
-hash = "90e5405d0b2c5be2c84af730f580b6a683551636f71766972f39e96c25d9e3c5"
+hash = "90e63e93464f52c66af9260c34583a455730ad8849b9fbfcb7842a187a45fd24"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidestonecottage2.blueprint"
-hash = "327a7a35ffe60167ca63b254ec64a3aa004c46782d29de5042ec6e5be17b946b"
+hash = "fb7bb9719379f2d9ca4573d6fe4203f2e331767f92c686e41699024e8f3a7083"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidestonecottage3.blueprint"
-hash = "afffb797c5527a2d3a80c8c96e5e2d74efdaaeb5e003d919028b926f7df0ea36"
+hash = "06426233d5936b409413c7038e9e1bf95de4b0bba280c8a328152d9d321529d9"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidestonecottage4.blueprint"
-hash = "c8147a3c22f8e2797f783f33775334976c5b2530de33eba6be2b8f562433ab45"
+hash = "5cc405968d48f4aa84f40485a2bf33b491ef4abf9d01b2785cc595fedd8f4686"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidestonecottage5.blueprint"
-hash = "357350837413457e80fb9a7a46e97f532ef73129208ca2807df38941d3363557"
+hash = "76dd66057f89f18418d422439d7600c9185fb73cc40b52a9f93f19a438802a36"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidetavern1.blueprint"
-hash = "b3d4bfbc29b5c585f9d6a289b5ea6d6d881837d6feaa632c3fcc5c5376b7a024"
+hash = "f0e7ccf3ffe8dddcde5c92b2c5ac7c7bea2ea3ffa0bdf3428a1d19b9edff70fa"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidetavern2.blueprint"
-hash = "eb3c7a7ed97d326701b14f268887a69831708caf5a6aaf7d27330e241fd70679"
+hash = "b7a5d2e93227156a08c392317476d2ea1f5a3b346e954fea929a1bc0620a00f5"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hillsidetavern3.blueprint"
-hash = "b1c18d58db1c3b7d575f8d4367c12b199e747dfef4099a6644b1e8c0cfce7459"
+hash = "1e14decac8213d40c71052b3496bb8dbb2b3eca9a13b8b9b57b624fde841f59a"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hospital1.blueprint"
-hash = "53056f8a89a95ec01b08b8d2c71e4906ca99075a9401bfd369fde40bf360842f"
+hash = "3e34db0ba585c4ee12641521b616f786ca10e92d2523cae35340e5fdc38b45cc"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hospital2.blueprint"
-hash = "4d251ac4b92da7f08e78e1ce126edf45bab9ae4e8af173b5eba8b0177be3b098"
+hash = "e7b48c7373fed35496b60289875f768cbf2d3d51a4c4ac10dc563c8334b4abd1"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hospital3.blueprint"
-hash = "451ab830bad50204bc415e3c248d4fd2927cf7233941eee3c2967004fb734bfe"
+hash = "bb8c7f7050c2d16ba1896df6f30a1bfef3a1e5d4cf98025893a95a1b79261da3"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hospital4.blueprint"
-hash = "4fba02e2542ee93a40e2655197f4bd4d47198c5e27685557099ee7ea1f74c124"
+hash = "b8de2c370c6d3f14012bbbe9339c2869f69d353d0322ac9efefa50c2d0d6a644"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/hospital5.blueprint"
-hash = "346a9f680bd384c1e79fa36dcc8dd533cf80b1e2055701b259e9d86cf2592304"
+hash = "c68edd351f1df9643e528bb4aa1ed82ff9953047c6d5f7afebf6722f1a63d3c1"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/icon.png"
@@ -2034,559 +2034,559 @@ hash = "af3041f266f0040428f2eaadf1d864321bb3dd6061c6779aa149dd547e28837c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidebuilder1.blueprint"
-hash = "a61b0549928753296ba74652efeb995d545c21385702be3d714908259175dc32"
+hash = "5d5dd7c783d45caa29651a996e5c37cfaa00944dae2b645179472bef09ceba3b"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidebuilder2.blueprint"
-hash = "7196e6b062abcc8e813fb76421138715d5f31e0329e26efac2830601992c9917"
+hash = "f9d68ced7b4af7029ceaa06c4b9ef1c916e73fac2adbd15ee6878b9a8bc28a3c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidebuilder3.blueprint"
-hash = "570938ebc70d1a3b9e19b998d2953c928c340535f3d140e107f2aee2855f33dd"
+hash = "4163a7445e095e81ee9668e116fd70de4ad20b7ab35526c48aad2d687911924c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidebuilder4.blueprint"
-hash = "811c0f3e9848b4799bafe8780e5018bf83fa5d3c48db53bbe32c04fca54ff14f"
+hash = "38a020ba970304916f26f52350604a9350f891c5ad49297859da64a443c2d74c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidebuilder5.blueprint"
-hash = "508d6eb2c8bc646fd97ffaecdd5a8c4847c80ca92b405ce068e142ae816eddb6"
+hash = "57034481ea1ba1430bda4c4841729d7b7f949d6a930bebf988ce4c09a20c1c93"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidecandyrow1.blueprint"
-hash = "cd701e1ac86dd810ca1802f634168a7731c8dd997645902bbd498799797e99de"
+hash = "fd315ff13f480629cc2b1d0f6cf3cc1e6f64aa536a9f256d72c87e3b376ece8c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidecandyrow2.blueprint"
-hash = "7e2d5d4c30596d2832ccb4c1137e58fd878967a56c1a161052ad2141e5d9d2ce"
+hash = "b2e74fd3a9f2b1eaafa9aabc87f453d03ce9a875455b7f4858408756e49b86fe"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidecandyrow3.blueprint"
-hash = "6de99fc20dcf91543639577fca145b725bea609c7de0b5dd04777ebd8d9d8367"
+hash = "3b115fe7461476c633dc66eca8f9d9bd0080a811b68a4286861b00e42bdc7b22"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidecandyrow4.blueprint"
-hash = "e4f9849a3a67a3785e01df6b09668bf2fc15b99c116c6b2872730726f75de4a7"
+hash = "3436ea8c013931115de7a12cb444922f5c7c2d7723f032e1cae4d8633741808f"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidecandyrow5.blueprint"
-hash = "13e22ea815d9ee0eb7cfdf88935ed3de885c40367890db751e16b5094cc387ae"
+hash = "adde054f073fc0b4bda768422e24b6895993f794f74c8ffd254e02e99f2fc604"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidechalet1.blueprint"
-hash = "7f147517eb2ac0a0696cb71cac664510244bc6b90c852f6dd6d4445a2fa6ada3"
+hash = "34e03192ed17db79f49ddcfb6660ac209264eac894c8d3cbdf47bfc7ea230b79"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidechalet2.blueprint"
-hash = "5f4827276b4c193d41838feb86ed1205083ac73d5942b31d1083ec8c4f26ee9e"
+hash = "f421a91639aaf58f3e4a1e24dd74f09bf62edf52170ffcbc9e65aaee5b3a4228"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidechalet3.blueprint"
-hash = "cc026ffec61ff5fac98c976028aebf2348900ca57176cc474d47541d239956d1"
+hash = "4888afe944474cdcbfee159c2e77ec59768c3c5f825b3a89a4f0dcda844e778c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidechalet4.blueprint"
-hash = "0718b1ed59b7f7c0e7b03997a65849e6aec9804dd6214945201c466a536cec5e"
+hash = "ba9a7a8643e16c20bbc4a8be278609a839b68dc95c5ad3250278fe431e607b9f"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidechalet5.blueprint"
-hash = "3380d51193b143d5eb02ffc3abaecc4e8e7cb125fc3e932f5fb89da71ed87e05"
+hash = "6adca59e4ce36b63b74a63e3d015fdca5b4fbd223fc4550f6086a388f52deb2a"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidecook1.blueprint"
-hash = "964530d5649ba99ec99837cb2b2f5060556d435bbbeac32ad6799e24f2fb1487"
+hash = "d550ad37c513209961d6c57b02b2f1453b41da3f742e30f46d59524b4f20d7cd"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidecook2.blueprint"
-hash = "2392690d15a13ac4d0f3610dbfdcdcd5bd424e4b5608278313ab3168353e7d67"
+hash = "433e6f444e70477d5a15fa31eca838c5bc9810662888a401f164df561b4c751f"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidecook3.blueprint"
-hash = "85c7295f93e5b7e042eca2018f59c5d538952d1fc3331efa42dc99cee0602955"
+hash = "c97b6c96cffa2c20483aad49a3922edb1be2e0815aae631f1036641bdb3df39e"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidecook4.blueprint"
-hash = "53c4ce9bf385f87db1ff8b566942036b0b8a417cf2dc946a0bc74e08b50fef5c"
+hash = "dfa6d32bd48959838221aa3a98c1cf901efd5c59ac1d0e5311640aaa9d8b3256"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidecook5.blueprint"
-hash = "99a559acd81747c9507892c7365773e7d830050fc7109045339f258e87757bda"
+hash = "6ae20bdcf13a10ef70343367f77ab4ff1b3764038692b3ad3c7be40b5ae109ca"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidelogcabin1.blueprint"
-hash = "d4a06dee486201ead7bda151edb1f4badb43a2b7fe948e6e1d155f147ee49cfe"
+hash = "9bb453e86c0b6614340da4fb26273a135c7dba614eecfd38a933f5869434dbd7"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidelogcabin2.blueprint"
-hash = "1355eca9bf5dfc1b0fe062dfb2bbf38c6a031825d69b4ea364937958eb75a502"
+hash = "abf587ca50ed236a8f311d9c38f5c18e5b0dba95bddc766bc0cc00fd36736d01"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidelogcabin3.blueprint"
-hash = "6449cabceff00393e3813be0095c9b35005084f621a0886ddf31d3dd63e1c3ec"
+hash = "12d23967d7c6cb1b6be21fee8d40c2569d9a8f5f18c7742d0418ebf67dd7d96d"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidelogcabin4.blueprint"
-hash = "8d0116265a344a9d907955c946b9b49fde25e3ca94d7ecf770a14c259c3d868f"
+hash = "8c22a275a5eb24a2fa59c1ad31bd3eec9609a61a0864ad75c5938d95bc0629d4"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidelogcabin5.blueprint"
-hash = "5f7c547279faad0b3b023db67c768f991f0dbf2a1e6b91e685b561722d824161"
+hash = "2f6b6d7a97f1520270e90d75bdc294c3d0e1e17ec1e3171458c0ae6a2512e9ee"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidelumberjack1.blueprint"
-hash = "85692632deea12e10d5239f9a68d2cde4d23df738ba16a99601449fcf5547b2b"
+hash = "ca27711f506a355a7f4fb816b7dfe2f928fa9849a3ed257135dbdef841ee1b57"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidelumberjack2.blueprint"
-hash = "3a9a61bb4c1791b55821d7518d390b42ba18ecae34e14cce0721b9bff39578ba"
+hash = "23965ebaedf2e9f0085bb2e61679a965677fd7754c5e6a213aef4d70939ae117"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidelumberjack3.blueprint"
-hash = "e91898c8b8208e8dde801948fcc3ebe83c0cc751cba80628ab21e74e270d2a69"
+hash = "de7cb57cbf4692c0b6e932376f10020c38f8d92b57fb2374ff86c8bc765a923d"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidelumberjack4.blueprint"
-hash = "511e585c18b4e343c69bf4ff5d49885a42d8988be8b2459a3d108adc5509ca1e"
+hash = "2b1f393dbab53ae4f0150bd00302e9469024a7235d0da09969fca0a5e8070607"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidelumberjack5.blueprint"
-hash = "275b243e711cdae1651d653d185d53c1c0a4f39a898429ab138db1e1216cc76f"
+hash = "faf39296a2413c732ec4455fb907cc3d5d3aca2a8b97c61fae4c54d9c5aeac14"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesideresidence1.blueprint"
-hash = "35a81695cd489f83b98776f300c90af945239b34114183405c102649e0c0e591"
+hash = "b8b31b05a374d58af22b992170b56e6549fc699f5947018daf9404b03026a25a"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesideresidence2.blueprint"
-hash = "591ca1aaa88f65229926cc0ddc29374d3d251b15d3bc85abca95c6d6b8d4f1be"
+hash = "198e43ba998cde622ee7fbe8d939cae0b09dcc40435e04599df0431b8cdfa8b6"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesideresidence3.blueprint"
-hash = "cc9761535b04bce9eb6c4273b995b86ee31465325a32e945f0257d72b0755e08"
+hash = "272bea1c34f11d8f99c75b87435daacf905eb0126a4956e4b4d6096be0787004"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesideresidence4.blueprint"
-hash = "814251cbf3aaa633daab9a7cfd7db8984196a891f139d3ab5a91fc89f2f109d4"
+hash = "2712ff637399423a0522641637c4073074c203e3b8b0ecca0b9d0f71e378da8e"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesideresidence5.blueprint"
-hash = "ee7dc0107323986b2df663cedd0f01043b4efc1c826d1f7367c33371d2453f4f"
+hash = "e2475c7b8db68b44841030f6e324f74efdb7eded671a7a6556340428cc3f944b"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesideresidencealt1.blueprint"
-hash = "52a6523b4f039d0335c298f1237ce662b6b8f58fa76e859165ab3260d36c70ae"
+hash = "24e4b04961391921b41e5c79cc0ddd7939215e22634f6f9a7d96edd8451d5899"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesideresidencealt2.blueprint"
-hash = "3560a2e63431d465bab627373133d6fe86d56ba92684dc10d42b35f2928dad37"
+hash = "aacf78c35998223382cbd3a7c615fceee1bbae6a35336082c9d9468eb93109e2"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesideresidencealt3.blueprint"
-hash = "15f5677ba46e9bc2a21288382160df73bb2fd1f6cff9e7db222c8ac95996fb75"
+hash = "d2f6402645fa826b2ef3aee266775ed34c72ce17b0a0ac0253d0e08c07af6678"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesideresidencealt4.blueprint"
-hash = "eb25a3d6a16bda0bfbeac1e693d85e6ce11466c6f067bd29688a4d9170c5e7ef"
+hash = "c3236180ee61c3e9cd54a2fbb80a23cda1ac87566130ed4a3b78708f10b47edd"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesideresidencealt5.blueprint"
-hash = "b8dd6a4452477cc27a1e1619d513c86d0d415b52e3a06525e7657aaf2fd4e77b"
+hash = "8d2ecceaf53a97c8878995be3e47ddcc1ecd64dbc56b2df5ff4cc90bdb97c7d7"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidestonecottage1.blueprint"
-hash = "7aaf54174536484f7de06b88a4e334376f2a334d69ed7c253ab01afa07dcf1e0"
+hash = "30bb8cc7f292bb9adaa85fd04230c84e92ce7aeb656ce0d56a58d4940dcc91fc"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidestonecottage2.blueprint"
-hash = "de505527742f9703f2be48882683b01159e8a76886fe6ed071f7eeefb1b989d3"
+hash = "b7d6cc92b6a92334a8f42a785c9acc6787536a652ef127bde160e82090a0e6bb"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidestonecottage3.blueprint"
-hash = "8d4b37c3faac2f91c1251b6304cdfcb38fc07995d2283af76272e0df02ef5f49"
+hash = "e6b3b9e756c6468928d52f1c358b48f3e7bca3151585efee44efc0d7c0b2347e"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidestonecottage4.blueprint"
-hash = "2930fdc86909197c7fe11dcce89d529afbed0da97640e5b40d780ed10b70f0fd"
+hash = "ad09c318ea68894d82258ff530c9195d93c5cc17ecb4c9a970423d776a4c4d85"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidestonecottage5.blueprint"
-hash = "29cb0cf53c379c0222f798f283b160cb08e9e530361c1dba13ebc341d05d038a"
+hash = "cc3e0256ec4907906b0daa068eee6cff209986f5141d05ee7de3fbfdb868b7dd"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidetavern1.blueprint"
-hash = "f1715489232e1c9e053dc4e108cdbde2902725fbd7b22812ab2fef66356ee100"
+hash = "eef1f2dd1b132e6bb305db96eb7be4bf2dd680e67e87e91a87219ce6bba9cc6c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidetavern2.blueprint"
-hash = "27e1f16290d5d4cfe5126ffce6506da211cbca52bedf74be3363814c338b7dca"
+hash = "0eeadbd091827a8dd46e28d97a9b92b15967a040103c32569abec0e426e4f2cf"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lakesidetavern3.blueprint"
-hash = "568ce3ff67bb1a9a40c19365843957214aab2e475c1dbe1c8dd82d2c3742a116"
+hash = "092e6434c78f62cb7e19a1e972bbae78321c8a4ab20f893de6ff07963c09410d"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/logcabin1.blueprint"
-hash = "c8fba7038b07a968667106040ee4ca120916b44e996b814a9331990cbe8c1ff3"
+hash = "4a934735fd4fdcdbbd2e3b8621cbff9a4a1e2db03175f043efe9c214976175f3"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/logcabin2.blueprint"
-hash = "f74d4d19c3c5a20781e64d873b5a2f6ff954825aac465e74d6077c4de71907c9"
+hash = "b291ced39962d3a0df3aac60205f415f20c77abe825ec3381f7ca642c65892eb"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/logcabin3.blueprint"
-hash = "9901fc8d18da7d13469d00855d06b6407986e74aa949c77a4ed9b21039a7d0cd"
+hash = "6023c274ccafbdc44f1d985f011ff9541fb04e6741eee17bc80f58c390ecfad8"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/logcabin4.blueprint"
-hash = "7b8467666f5e55d1e27c0d7b93658f2c5770602ad5bc76967da81af26a941fa6"
+hash = "9dae7200efdd696c9d84a3247c63cae6cd0760d81bca447553fc806f3c2b7ade"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/logcabin5.blueprint"
-hash = "038b2a67ec2ad7b0098f8a1f2adeaa6a165042d583e0e5197a504290aa13f63c"
+hash = "ca24a17450b09f455fbb8111972b9d26b5f8d2a83daaa5fac8f50af587e625b6"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lumberjack1.blueprint"
-hash = "281e13a323356ef92ff604ea1d3abcff32efb862b7704a6e1481c059b1a3cc5f"
+hash = "410c809aaaac48e7036befd6e0c4a4e0ab05808a66327f07884a0a89ca5aed76"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lumberjack2.blueprint"
-hash = "a443a6e46f492b16585b0497f79223b1e1f53b96e594ade94463b95ffdbe70a9"
+hash = "3005117508c3668038c6bb63d0e6e84ca6070f1c1a4ba18f66d1894f56b38417"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lumberjack3.blueprint"
-hash = "f7b6606ae0e41e5ba33e3ea670d602a6be6d11a223bf442e4d6136583c1cc919"
+hash = "623ed8f0cd8e4fbb751dd1b57c245fef64bc4f5fdbe9a2a804070b077a6105f2"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lumberjack4.blueprint"
-hash = "a44a7980166fa43a98387730794433bdd3120f6b315366ad524bd0f1ab518987"
+hash = "e073921dfa4049c54b23e14796737c123b5588dc560d746ab4c45d47ed97a633"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/lumberjack5.blueprint"
-hash = "da4a099cd080479613fd9766298818c8d33e21981f34fe3aba5476ff9082ed1f"
+hash = "18136cb688680b684184b7025b4eba5a3d83fb656e579e83e3e375b8435c24e5"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/miner1.blueprint"
-hash = "c6b575284cd57144a39cdaff5633e0bef235ad4b1a1196c0d937eb5c9bf3c6a3"
+hash = "6bb465709d30db123980c64dff4090018af3ebef80f998a03967fc213a559d1a"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/miner2.blueprint"
-hash = "acea5b18cbb7c083b6f1047386bc4bfa3609f435a56939c323b8c28edde65680"
+hash = "7190acbed1e054d80207576da688de8093f75eb5a237284cb0973533d7aae13e"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/miner3.blueprint"
-hash = "0b2f0d603f61e856a8d7df8b72240b594f9795e3c3c6e509df93c0bfceab5c9f"
+hash = "5cee7c0ba92f4a9d5707925cacedcd5cfecfa57931acd245b0a88e91eceb5f71"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/miner4.blueprint"
-hash = "32a80abcc75271ec65a116046010acb4438466bd7baa7e4b184ad8332de70c05"
+hash = "f276efb1fa779d3b08212975cc7f48e04d662c3251ad13487a363862a0c70f36"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/miner5.blueprint"
-hash = "a70f4d78340e967356da283b9e87f750acd5e0f156b2e0e87a4df134de777f79"
+hash = "c75d5763cd2ed104f2c3b48b8a155278ce9e0afb9297079af70566b1d2a4c13a"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainbuilder1.blueprint"
-hash = "e368bf5cc8ab76c6b4b89da493c06eb942c6ea12bac24012d4debec0319ff17e"
+hash = "d95502c1a1a7e55749b09cf075024b0b104957f0a9c610a3a17acfe9f41e8e24"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainbuilder2.blueprint"
-hash = "dfbe8d55eabf8a53aeb1a67d260132a48a6b5b0df2639ce86644985df00a47b8"
+hash = "0b84ebfac9167e1d9d35195684b59e2088908609de85b82d1cb7be7edcc9f721"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainbuilder3.blueprint"
-hash = "d547c4a3e924812be599462be76ab81676346f45965444b4edd701d1e75523ab"
+hash = "608db07e9587dbe7a8364e8a2ddfe1ef5f08855aa97726d5f079704a59ed5324"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainbuilder4.blueprint"
-hash = "29448c791124373f24b64564290c2786a1e36811ec0e59695029494842cb5352"
+hash = "3c9c10d1a8d4e85cfce8671b46539f5442627c77efdd7c2fcca2ae8088c4a1b5"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainbuilder5.blueprint"
-hash = "6f4eb877ee37fb2d923beaac2600fdf860c4b6ee8e04bb1f0f3cc762399bb788"
+hash = "00747d5853a55459f06eb403fba5c8542e6e099e8881fa87d48b0cb1a976dbdd"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountaincandyrow1.blueprint"
-hash = "7baab3d2844dd740e97cf3d8ee4b4ad513831756cbd61dac0d88fac9ae2701db"
+hash = "d0e5a2d03a965190ca8b1026833a9d53d5ffb070113b7925e15ceb11fcd60bc3"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountaincandyrow2.blueprint"
-hash = "9b18ac28a173d05c7e308937ab68dd0b45f85976d4bdc7959306eabb105f313a"
+hash = "6e83bba45e1c3348853498252b27747b1f1940fc2b8917494cf853605b24aff2"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountaincandyrow3.blueprint"
-hash = "9f77f97982f80a4511e9dea9e701853ac52647445a583619af698bcd3fb98c07"
+hash = "14480b0868052687e94a57f523fabd0dc8e1981df4b9e8114942e6a030d15390"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountaincandyrow4.blueprint"
-hash = "ec88262fc36156771ec809cad40f213e5341b31f5f5396f1013b8f026d7f3b3f"
+hash = "363fcdaed606e26353c0dadbe902f7e0e1b3c35e4610e786e8b6a747c48c3aec"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountaincandyrow5.blueprint"
-hash = "8b93feafbf326783a15c188a1ce942d28c0e94951222aca8e39361748decbc03"
+hash = "766f0e051b613d04fc88aabc958f0d1c656adce5ac6ede4e86e7903f2ceba27b"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainchalet1.blueprint"
-hash = "332454c8fc81a60f28159277db15e86ed746a95d5526beb782036c7a80dd038c"
+hash = "9d21b23598ec5beb33f17d0f3aee2fae08aa72bfdb0c43d50ef976c7323fbd62"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainchalet2.blueprint"
-hash = "662a269e6bf1fc1c75c6685eed0741b1120969347a8aabd64ca67d1243bc08e1"
+hash = "b4ebc92081f6ec2b97e6e88735b2a256324a7a0f67d33cb7f76c43515cff13dd"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainchalet3.blueprint"
-hash = "75b3ff3a5ecb73491b1c0e0a0cda32c28a59a1394bba804286ba1c8e43d0cc36"
+hash = "bc0e126da1fc9d4e86c72b36d9346cfab6306e3add449d72bdb661f3816fe580"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainchalet4.blueprint"
-hash = "18331c5e7f7268cad6ab57b99c7ae74aadeeca4f7fc454a60a0a37954e24d40b"
+hash = "d7e1bda89501355d6e6b8759869f834c8c46534b696c706563e3fc6e2aeffd2e"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainchalet5.blueprint"
-hash = "d30ba28f272265f72593396ee81524e3ca751be6226417d9c45e15cc44dc5b82"
+hash = "189936197277dfba14bf343f8c1ba07257c96d265aa2c2c0fca62c0cc015f766"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountaincook1.blueprint"
-hash = "fd0daf3ed2b0529ac81bae317924743070620c1b767c8ea5392991a3aa8e8cff"
+hash = "66050fb25cd3f3691c257c8f4248bc9064ea41341a8ca9120780fb3b1574a404"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountaincook2.blueprint"
-hash = "4cb797bc6b95cbace4e65a27a57c59513e1ae279652d03b624cedaf43480f3c0"
+hash = "55a30cbedfa8c8030b1f3e3d68b6ccc8cf0e433cd77204b672e78b779634e652"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountaincook3.blueprint"
-hash = "fa0b656f1cd61bc310602976e0ad10c5aae387c6c1fc79a730bd563fb9214e98"
+hash = "c1e86ac131bd9c50f431c7a28a6deac256663d589c17994886ad179b3f515851"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountaincook4.blueprint"
-hash = "4cff1d947342232637780af1b1025d846a0678ecda29d59ec36f3812e163d880"
+hash = "5bd87dfea19be3305077d189ce900215dcb67c53ea7bf16685819bcd47ccf3ea"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountaincook5.blueprint"
-hash = "fd69b8539869047b0c7772191250d6f4f26d0a0b5f7632306b0cde971aa42b11"
+hash = "85b825d1cccfd68fab23f1c39b3324e6579a9f864c29d125be6c11643a5089c0"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainlogcabin1.blueprint"
-hash = "796f1e2650871ae4c06a953e9be0a1eea9b5dc3f47516c77aa3937245a6174a5"
+hash = "d59899a748e045c80caab746553abeabc08e087cf04c98784dd0f8ede05a19b1"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainlogcabin2.blueprint"
-hash = "7d34db4c4f6f43d14119bec1a541d1886bd4a77cad2eecd7fe795a34fa9491a6"
+hash = "fe56a5ca1be366424df82270c3329891a4213b1457823263c41b70f6871ec505"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainlogcabin3.blueprint"
-hash = "23f53c5310339d8cba024f4a818846bb40385d0bd6deaf904bf7d837d6c56b1e"
+hash = "714bda9651dabf0bce78d27bf11d515f2dd8ebeef6ee33eb831a1f465f37f8ac"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainlogcabin4.blueprint"
-hash = "93194ebc2005f0de109717f9ae7f2eb2aaf8d886860f4fb04841d628575b5653"
+hash = "f34eb9a33bf3b63b997d39cc09930f6f8946228f90d83aa7c7fd07c97ab9d773"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainlogcabin5.blueprint"
-hash = "d64a27f07601e96f956f919958c19d5c9db2a834a2fa972e7754dbb29496cf01"
+hash = "55916efe25f01aad13386ccd3fc41187ab2812c9e505eecee32d5b8f5d615d8f"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainlumberjack1.blueprint"
-hash = "3039e49fc54620516bd79c51368df246edd3ff4649bcb3c68e91f0df183beedc"
+hash = "05f85f9599fc39d34036a84130789b7cb8300c1f871bad62c9d5df48a68111fe"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainlumberjack2.blueprint"
-hash = "cfe054ea07a4cd92db54e07f6b335faaafbcd2213828fb7097fe9d05345d8766"
+hash = "eab1c46130addf249586fade86e10cf88149935e6ce194826337c6043debcddf"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainlumberjack3.blueprint"
-hash = "f540fe5096007d766c3895dd42f56a7132417291220f341ea03c41d294856f1d"
+hash = "69e933e2bc1d2071eab88f63139fce4b0487a72c0a9688b330dc6ec3886c1eb7"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainlumberjack4.blueprint"
-hash = "f8b61cc059697bf2b7135e2a220dcea24a56c68192006071d6649426ccc96fe9"
+hash = "e81ba1a30a46a176d6b20b17033cd83900a9c6b377d175a64be8823564f787b9"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainlumberjack5.blueprint"
-hash = "4ad074cb9db1179322ba9a77fe96ce83842db86ffe338da9a084434610d5188d"
+hash = "f996bc46318c3702fbafb6d512c8dd2b872e5e396cc100246e465a5534e75a1a"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainresidence1.blueprint"
-hash = "fbe0ba3c1e7a98a37ce93d243b041583dcbf6324691dc75a7163f82059bfdeae"
+hash = "fecdeca04b0e9e77e9610ab2ea7c8f396772d7602b46552439c993e48ace0a41"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainresidence2.blueprint"
-hash = "490db39110650097a6cce5feee119e74e3c367f35abe35dca420e23c72c55bc5"
+hash = "370fdfeb9d4aaf9ef9e7560be3a9d3f3346aa64fed6214bf0617b4f7c2ba18b8"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainresidence3.blueprint"
-hash = "ef6d38381549021b7da7f8d8b7040113176893d874d19960268c67fdd7d5b1d1"
+hash = "775a0a53ba729b8416f60524ab594b20ab80e680ce9d048325ee74b7e607a0de"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainresidence4.blueprint"
-hash = "74fd67fbd86d14899db8c747e4ce60d4faf791763087cf5db089751afee6b7f6"
+hash = "68b8ffd20e43b12d44a7004e8a2a5c2aaf6a5c79dfcd3785c46c4dfccb030b6a"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainresidence5.blueprint"
-hash = "c7f3692385897c599d8c6354e73508bc20c9375159d6fe96d110225c61a05cac"
+hash = "fcf56ed2fbad41643a1e38167b1f01da71db852e8b27ffe86423780050c470d4"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainresidencealt1.blueprint"
-hash = "d5924776580002ae501778ae9334b6307087b8f6d25db0c783f5d181b8de731e"
+hash = "80715d7d59ac51f7dc994d581d651272a29b4251579999a4d8f2f2692ba79c35"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainresidencealt2.blueprint"
-hash = "33cda73aadc989e407949cdd67755c6bf47c838e824ff3fcb99164a164439c11"
+hash = "6f1563afd33f6a333933b8e8bf0e124e167aefcc85a3b0ad114ee0abdadde285"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainresidencealt3.blueprint"
-hash = "95904a0c7cd9905d6dac0dbb52617346918bdf5595ddf64d2c2e0475724788df"
+hash = "56e00407a3d5e60f1bc9c75488b43fe783e9cb2fd4080618f9f12d074c47c742"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainresidencealt4.blueprint"
-hash = "194f80c55aa375d2703e6941dd17027ca5747477edf2548c317320b417651034"
+hash = "30c2568398b429a6cc2d0e8ce82f6067a79c988759d3f540a705eba7f0d9a54c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainresidencealt5.blueprint"
-hash = "ba3bd1ea9bf5f181651965b1ea7db0deb91d22d997eba6db24f7ebd6ccb2ec0a"
+hash = "ba6714cb3eae4a503ccf71a55d0f125d64ecf8b5f17caf35c3b7362418e6e32d"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainstonecottage1.blueprint"
-hash = "355f74429668b705fff5b1fc481e18bfeba947012195631d87cab9438f2c75f1"
+hash = "1b9c440bb513588fcea18c60e7815b42fc788754c319d962617fff369c223e3e"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainstonecottage2.blueprint"
-hash = "d026692f3200a8428c2dd75f1ec75c3a1f5ca36cfc5c127c2c537d020c7c207a"
+hash = "dd9417c9373f518696f8522f7c6c6a77e755f26f3a09a9222a7ecf7cc7d89672"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainstonecottage3.blueprint"
-hash = "0066c20f5aac99de17095c3b45ee922205409863626c390d74933b6a81af6998"
+hash = "2bcf9b79c69354af0b54b929106b6823b41ba4dd2df75996242a2c87d440925c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainstonecottage4.blueprint"
-hash = "a0ed0c8f05e0009733c4752379865d8d06d13a1bfeb23ee7b779ca6368cb5643"
+hash = "d2ce149c3b3c6c11e6fffb96a2d37b08ed8cfd5fb004d66cc98a93db5d346202"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountainstonecottage5.blueprint"
-hash = "0d5d88987fbc66ea34c846646588f10061c19cee62c220432041de0b2fa6537c"
+hash = "659f3fd2566e0c30f335ecf0222b189cee326bfc3da2730f5e356cd0a525a122"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountaintavern1.blueprint"
-hash = "c7783d77532209ea63bc50ead9565046dc8d600a04d4f0971e42323b7bab08d8"
+hash = "dcb0bfa474683e9d7a617d134f5cf21fe904fd3c0207c114146d53f5a679cbbb"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountaintavern2.blueprint"
-hash = "16cd7b4c02d820d2950e6b8f413524635e85ec2181c8a22e1f6c38f49e54c6a6"
+hash = "dd9394903eb2214d55ea0441d67b99dabf092193435320702f81ec24d86ed6dd"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/mountaintavern3.blueprint"
-hash = "4e112f4b255e0d09fc2697e3ca4ffa2bff4177b3bb1dcd0fb050989dfc5d4d93"
+hash = "053d5ddcc6cfcfc3fd3a9d4743c32f430f7b0951d53e1797f461574f38d7be39"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/residence1.blueprint"
-hash = "b4f3931ca406d360014b82f1967ab06f5cc8a2e58c8666f34e2a523c6fcb5f45"
+hash = "ac094d6626877cbd8d7cb6e23d9498ed8d5030e48724d26079073ef717d0aa42"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/residence2.blueprint"
-hash = "a0b29b56dcdfb9bb94afacd892ecfe9e166522c38ae2059c325040c54c225128"
+hash = "e9f7b4f24ddded6a41327c5b2d9bf54061b961715174c7f7bc7544d895bfbbdc"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/residence3.blueprint"
-hash = "217576ea8751f8d7bd38c347f21ae93857f1f399edf8d412b7492f2082bbe505"
+hash = "d84d4d995c2c7e5d8202dac0198c831f8b9be2efa87fc0f6d8f20f6060dd2ba6"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/residence4.blueprint"
-hash = "7dd6f88f74757e5036efae3f9a87facfbc822c4d01035282ac3b086978684e09"
+hash = "a6c08ff70d74de1310aab911baf59ebddcf7a3300bd37497d6ffc08d4c5165df"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/residence5.blueprint"
-hash = "d2d2c308ed6da3ee37c6ebf6ebdc7fb4e94a9ce3e243c882fc0a54af042ef23d"
+hash = "01f917fd9236639ef7023c0b61698d73cea951bcc77b25c75381398db8a28c78"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/residencealt1.blueprint"
-hash = "2065e2bab3bc07d85befbc0a7e69d966cdd4f84191ea721a494007525dfea775"
+hash = "8454e6bbc96c56875e665028bce3e672763dd4abf08b10902c638a07261de87b"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/residencealt2.blueprint"
-hash = "7e62de68174d6fbf1f70cf576739f0a7d21f16ca92240ca0eda4d0422ce28520"
+hash = "dcf4327b501ddf3d1048e9793db9038544c940fa16bdaf5fd291acc5e4f0c10d"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/residencealt3.blueprint"
-hash = "1e3c23366a867a53aa0117815289f47dbceb3fc7883d84db9838cac040f2db85"
+hash = "32588d018c58e815252609a7b3fc7240edfc49a04bc0bc302f77ca12169ad76c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/residencealt4.blueprint"
-hash = "49c999e78307f0c819bb8371d570977f041d137004e372d6ec7c9bbe20d8f611"
+hash = "e47092eaf20b9a4e9b6d49a6b40b65b3df16b5d4ffce8b8e5234ca107be4fc83"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/residencealt5.blueprint"
-hash = "3562fd318711e4fc077e382d8dd4f94012b0eaa4d1a0a21d6a529480b2b8b8b9"
+hash = "975ce64576b573af8df36a6d1db43f68beea1d11abb289dd9435c183884c5228"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/stonecottage1.blueprint"
-hash = "85d962d87118e11da2d0ce8e127832f510e5dc9cfbcfdc31a471ffe3445a06e3"
+hash = "42e7df1b77bfdf26aa730665a8de574290bacbcff7754d0874355baeed7908bd"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/stonecottage2.blueprint"
-hash = "0a10743ec524231d0f114f96e4bf56867f0909c93f8ca60c344aef2b6b98716b"
+hash = "0093972c0e8f509ad4048e7a362c407e1aeb9bc88e87e8969f197edbc6ea305c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/stonecottage3.blueprint"
-hash = "39386bd8d614e77b0d125e7d412bbaf31698c3d41ca1261aa79f17e6928fa214"
+hash = "9585e1a8ab6855ec3b0b8a6ab9d87b104ff23b586c474e7fec449db2bf8d72d5"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/stonecottage4.blueprint"
-hash = "94355915d23c53cc784762458e8e0bccd8a9fd55aa74d7e0112fde576f96fc35"
+hash = "cdb6849498eb67dbc9d14c09bd63eac3a0ac989a7149b51c0765897867d69838"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/stonecottage5.blueprint"
-hash = "6b553da4e7d92f69b7f75aadf7b4d67c4b55b7c3bfa7a0b8e405b1c25febc24a"
+hash = "642ef14360b781a0fa77a3a6825ad3f4bf3e40361920d73373da4c00cd533549"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/tavern1.blueprint"
-hash = "e4dd4591c6ee495163d794bb6e79336bdadaec1089031d501330aef2cc3e29db"
+hash = "9db83aa3b11b8d356c6e3515a2dd1b4563f9b023bf7699e87cc5f02beb504b89"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/tavern2.blueprint"
-hash = "3db54a8512927b1ff68a92d64d2734e04ef8b463a15cfe7e2699ecd97f512d29"
+hash = "33cda868e3ad2c5f3a8e8b2852c74d7025a5a44422674edf134e4ad32c81891c"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/tavern3.blueprint"
-hash = "aa80f45369c2cce5ed4519986b683a9c72ba8ab228c7fc2c3d6602404cff83cb"
+hash = "79bef629e4a856ea1188d8d17f3e4c3bd3bec34739c1622204f7fa33d2d4196f"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/townhall1.blueprint"
-hash = "cbed08f85b745f14bf10d0e1950532984d84417709ef01d3818b32d9d53664e8"
+hash = "dde54064df72ecf73f02c287961e1399cd81cce75b0acbaeeb49157bf900f392"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/townhall2.blueprint"
-hash = "85a19b1a26eec9d8feb4bffa5ba52467cd47d25a86fc019927b30563937fc303"
+hash = "4ad1313e7ddae603fc79cd7c41fa4b195c567f3464f8b1aaefe61408f3043b22"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/townhall3.blueprint"
-hash = "5270e91c261a9660c2a97b782d28b3af4cf96895347b1f86e07acacc92916388"
+hash = "24f479be501fb7cdbdd2a85b4fcbed8916b69e66c18fd86ff21c44e682945f67"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/townhall4.blueprint"
-hash = "ccedfb8cc0b1c3bac394e1f54d725668fff611c48986f974eccee7775e3c1a51"
+hash = "4a66271b1c29cf694022c909ec3d386efd5149a5a76a50b733c15f2d601de2bf"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/townhall5.blueprint"
-hash = "f72227af9dd31c09fbf35549229381279bd375372aa33709caa20b9430e94ae8"
+hash = "519959ecbca56b4f33b1e56ca3f8e5f2143bc61c7a27d6e066f8d93bf6d24516"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/yardbuilder1.blueprint"
-hash = "11c7bec50fd57915c959280df68b6cb868b9da859c494840698bb80591903a4f"
+hash = "016d300557314daa4f763b99d7fa67b15d4ce7548c87aa2e5ce47898d00cf998"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/yardbuilder2.blueprint"
-hash = "ee6be80dd3d06ed811329926377534cee38976b1492609ed6d4d5d670b07872d"
+hash = "03f08b02dae73a2ac6c08016c7101edcbc4cc1bdbb3453e3ad4848502ad0ed79"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/yardbuilder3.blueprint"
-hash = "ddfc17b4def9452024fd5225358055f337e3f4f1f531c286e8ac18ffd8a20b20"
+hash = "279ea95f09efa2d38436af226a0a96e5d9917627068ccdedb24e1b7c0bee39a8"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/yardbuilder4.blueprint"
-hash = "d28488ac289bf9fb15b3bc7dc932d1f2c89b40299bea062cecc66032764830ca"
+hash = "096ec2d259b9ff0c3f67955527bbeed5dd01f428ed36c93745ebebdfef9824fc"
 
 [[files]]
 file = "blueprints/christmas_village/fundamentals/yardbuilder5.blueprint"
-hash = "6a6810acb1e4ec5c080b5d362c0443a77117112666f1113bb729c5e8a6094f95"
+hash = "77013422b186d2b7b207fc356dd64c96158f803da1623f788990abaa3500d849"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/icon.png"
@@ -2598,15 +2598,15 @@ hash = "635158ff6abe84f565d6d2e81bc6e59e253ec404901d0d598253f3438d0a821d"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/lamps/candy_cane_lamp.blueprint"
-hash = "1096c42fecf09f6b21362d665e44f903b92f963d8a1b0e7e471cc193d354f3b7"
+hash = "8e2110098ce37538815abf4c28ee72f2f4ed41571fa60d2110350409645aa0cb"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/lamps/double_lamp_post.blueprint"
-hash = "910edfe4afa6a3b82a2019647112e21a0ae8121b9ea0998eb1d2fdfd518b78dc"
+hash = "6f91e9b07e4a244639a1ddb10b9eef29e6f1953818547553b6c100b4e9796df7"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/lamps/ice_lantern_post.blueprint"
-hash = "c140f9bbf930cf9114100af99c305d3c7a1b0b28056a0394eccaf1ce1ebf61db"
+hash = "5598a4f71152aaef9a3b37016b4646295827eb29f30cc9a4859a4156e14ec92c"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/lamps/icon.png"
@@ -2618,7 +2618,7 @@ hash = "d9b96d36d2d61dd9e45753a3aa57955e5af1d138b09ab4ce857174bcfafb4d84"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/lamps/lamp_post.blueprint"
-hash = "4169a49bb24f0ae8d759d15985ee977e476cbed8f1ba395a987575ed942e6c17"
+hash = "b4420c1f648a2a34abb29db567f0fca13333d4a0689cc9dbcbde9d5a9ae6fc9c"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/mineshafts/icon.png"
@@ -2630,59 +2630,59 @@ hash = "ffb56d64aa3174af25f9b1ce3b6f6cef1712e62b4554bea0454dcaca1df30ed8"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/mineshafts/minermainshaft.blueprint"
-hash = "b5be7fa0ed3af6ec9e852d2b828537c5cdeeed899babe3729588c20c43b13097"
+hash = "0617eb3383a2717f1bcd116e1690779eac200db784e08b4ccfe8070109f5e6b7"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/mineshafts/minerx2left.blueprint"
-hash = "0ffc0db4c5d9471fc5d8ef23efab458d09bb208b22175ca8aaca75677c501dbe"
+hash = "d980e69c60b98df1c8d25edb96d61f9acc0721a6b5144cec30b2bb0ac9d90ad7"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/mineshafts/minerx2right.blueprint"
-hash = "367a4bff26955dc86473420f151bbd129b79f564f23b18d88661edaaf8805db5"
+hash = "d4b5834f3723e431d45d22c4cfa02381474afb5b868d457563c6d82fa47b9584"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/mineshafts/minerx2top.blueprint"
-hash = "efd9757988855f0d78ec449fe4ad382d3710b12301595c84ae1db611c1f49912"
+hash = "c8a90cb1dd2022a0ddab66ebab79233076c1e45c75dad6ac3aebdeeab5cfeb08"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/mineshafts/minerx3leftright.blueprint"
-hash = "bb65b72b898c0d2e9a6cc25cfeab438a5ed0d43a798f74cc512cd99a4f296623"
+hash = "fb1e2d57e98261acd6ccf326bf1e35ad5a91d6d4d7a63a9e6de93ace91949f11"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/mineshafts/minerx3topleft.blueprint"
-hash = "bf6c1bb25c1342514e8a79bcbba342484600e1a71328d6a4ba0735cce4b8a75c"
+hash = "3685bbd9a141747a0bc213e6d2193cfafcfabf9a7d8d3c475123a9a72ef38f47"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/mineshafts/minerx3topright.blueprint"
-hash = "c81625c8f3ca3c6636ad6b850cf0e94c0422d03244ebad53aca7812fe5b8b2b8"
+hash = "cba5db393a8a8240e45f42a1d18c9a785e695b94a8b0bf6f1d00a4d2052c9b30"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/mineshafts/minerx4.blueprint"
-hash = "e2a9de1362af76927b144f37455b95460f14a2826a4885eb533526ff1fc816f9"
+hash = "55e7a44ecdad8120ceeeef52bcc6268d30471c173a3a6369e62209a3f1bd8ec1"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/candy_boulevard/candy_boulevard_corner.blueprint"
-hash = "9d763a0030ea9039daa3c907d0ac581e300ae5050f425b4f09a4572703cc04ce"
+hash = "432e1ebc98250ed9d1c437eae01e0d2631072d33c0af950b4fb8e1158028dfd4"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/candy_boulevard/candy_boulevard_crossroads.blueprint"
-hash = "dfe41cae507b31de7f5175d14d43f178876912ae199e7e5a10e77d81bef2c453"
+hash = "9b27d66d26ca1d084630578d4b75faff532a2a966ad8e6e909774629b406f967"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/candy_boulevard/candy_boulevard_cul_de_sac.blueprint"
-hash = "f9821b9c1d93c14602e43d92c29f6bdbdc0731dcd803425c963ed7be4eaa3821"
+hash = "7e5bff6cf1c06ebbd7c0995ad183147160345cbd0ccbe5f7f1a79c4d778d2252"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/candy_boulevard/candy_boulevard_long_straight.blueprint"
-hash = "27cdc793d1c82a7de741ea73c66eb2293e947ce2b3a76873e5712520f8027a38"
+hash = "9a11731e8d331e46d2e2e1efde041aad46cf7f253af826716ab0b18fcee6f750"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/candy_boulevard/candy_boulevard_short_straight.blueprint"
-hash = "2d0f87bead8ecf04fd3543fb59ea1155d17fa2d93f7f0fd44be53a717752bdad"
+hash = "401dad9db5678d431a657cff643fc7a687709e6eb791fb7da968d0167f2c5504"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/candy_boulevard/candy_boulevard_t_junction.blueprint"
-hash = "b38cfc5611002202037c2e928e4c42e4ec64c7f77c535fa592b49d4ad62e9bab"
+hash = "fddcaabdc0a5dfb8d0839f9cfaef7eb0058681bda4d9fc9c9bf41ace41570f69"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/candy_boulevard/icon.png"
@@ -2710,27 +2710,27 @@ hash = "ffb56d64aa3174af25f9b1ce3b6f6cef1712e62b4554bea0454dcaca1df30ed8"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/market_square/market_square_corner.blueprint"
-hash = "fae9320185b5dc2058ddfe47dd568dccdd74d0b1d80a3da0e550d5a2a54f3e93"
+hash = "58aa06bc3a8f9afd5d427d3544867cc2db93a268cdf491cfe9af0c0cff969290"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/market_square/market_square_crossroads.blueprint"
-hash = "82b60ff66eca1da5b6a580d988598f08ea03b896e5adfcd003ddc3f21c9b5a9e"
+hash = "03360280b06ec50a1b97a0502ba41a33078f75c10b600ef22c272dccb5f40b39"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/market_square/market_square_cul_de_sac.blueprint"
-hash = "b2a18383dbfe47384b670bda93824c2976f375bca0293d3844acb6ec90c2db98"
+hash = "2958894cfe6e497a07cb15073911579898d0298c0a7d975d7089bdd6e9e782ac"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/market_square/market_square_long_straight.blueprint"
-hash = "ce97e01066d23f696c69511d5807fcf3aee0eca893ace0d8343ec8b10cd95a15"
+hash = "75dd3665eaafe8017c33f29a4e471bb78ede7a0f834218c02c3c60e05b9d54d0"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/market_square/market_square_short_straight.blueprint"
-hash = "ad2dca37624222b82b34ba3f0be6c21575f929fb4a427695038e373c06e3afa9"
+hash = "31572115b78cf1f9c491e7a715c69e28c44365630d428d0a7e7b3784e814568f"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/market_square/market_square_t_junction.blueprint"
-hash = "d9ebf72e30c1c77f1e6b389409ef28d0c96f366ab95a36c51bec1681fdbd76f7"
+hash = "af73406f6ab17085c9de5674af1efdff971e666926465f32f9ae06ac916ee905"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/village_lane/icon.png"
@@ -2742,203 +2742,203 @@ hash = "35eb66ea199cf0900c5f5e612f994861de9b3cee6bb71f43eb8c885bb9039c42"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/village_lane/village_lane_bridge.blueprint"
-hash = "b98eca3a651242387a6009a28d1d179e969b01586d296ea5f6a8b99dbdc4da22"
+hash = "918c4f94c015ed3a5228f9ee9b518b3c15083bd3ff58e72cd3830ac1bb7552b2"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/village_lane/village_lane_corner.blueprint"
-hash = "b64a9711a417f0619cfc62a08b056c59e0161a518f2033d2224281f8b0ed82e0"
+hash = "07385245ef76e56d83599246637e5ebc8edfc07470f160759d616ae1718fd4f3"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/village_lane/village_lane_crossroads.blueprint"
-hash = "5ea12e51b119b8397e59ab7b37114fa0950529106ae3f8e8a6bf835ba59fa969"
+hash = "f617597946a7238bd662cf1104249eb39d0721287b936c9ce784a5b8b0985af4"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/village_lane/village_lane_cul_de_sac.blueprint"
-hash = "ae0931331b52d333dec5bb8d632523a27358c964ae26bbefce9544b2bdc47fcd"
+hash = "3a6af4a444c1dcd900ba1ac814b60675b3c2a204a0be6d1095d9fdebc2ff0b57"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/village_lane/village_lane_long_straight.blueprint"
-hash = "87249d1ec11a22d107e90176a28126468e8f4ca109d602c422009571e3b57cf8"
+hash = "7fae257892fcd2972cf9b78222bd58caff678c4b2d7274a36bbed5f3f1891564"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/village_lane/village_lane_short_straight.blueprint"
-hash = "d771d201ca803f1fe362581994b436ce0e8bae23751b90587d9843ef8a9fffb2"
+hash = "b602d1c439a839bc6ea00d07d2fb73a134cc6b6cd5379e7c3bfdc4957ddac844"
 
 [[files]]
 file = "blueprints/christmas_village/infrastructure/roads/village_lane/village_lane_t_junction.blueprint"
-hash = "d5922127435cee713abd27f33a30414a0911881730fdc56b6485bcdd4ea769c1"
+hash = "fea28b0484b807e35bb369ab1fd2f39c75316a23b951c77e0d225b3729f60915"
 
 [[files]]
 file = "blueprints/christmas_village/military/archery1.blueprint"
-hash = "218b2e91868e6746f1b539da4300e213e2a8f48f5917dd986f1b0b88c9bec51b"
+hash = "7e969e479c854dd381e389064ef52d804754af561e02683e23cec19ea61fa83f"
 
 [[files]]
 file = "blueprints/christmas_village/military/archery2.blueprint"
-hash = "82ca3e6165f99bb0b572fb7089681ed2f29ea8176ff67260e4d230019389b6ba"
+hash = "d38f084f4f1836f48c2d56594627cb33c2abcfe31e51649e8569a7120df79c6b"
 
 [[files]]
 file = "blueprints/christmas_village/military/archery3.blueprint"
-hash = "2920d3d3e150e81b38af44ab92a70b7757a858e2e03714a295d30e34c76b0e02"
+hash = "c1eddf2bf72f2c9b048de7ccaa6893539aa1ce6c7c819410772f6d409df9057e"
 
 [[files]]
 file = "blueprints/christmas_village/military/archery4.blueprint"
-hash = "503aa0553e7069f0cee0ff6394b25eaad7b83a2daf62cbf13902b9de55129c2e"
+hash = "9b9c72e1f79f200df5fc6579c9c7a6a986c39eac65d521ebd7bbc2d28ee23bcf"
 
 [[files]]
 file = "blueprints/christmas_village/military/archery5.blueprint"
-hash = "c1b305b27e8765b792346cad0490fb135411b3912b85088ad02af310040442a9"
+hash = "3784d52fd6bca2abd511222e80061695da845ee532b42760194d560fb0d88d61"
 
 [[files]]
 file = "blueprints/christmas_village/military/barracks1.blueprint"
-hash = "5d734235e35ad4c90d1f7b77f0a32ed775cbc7b1e8a108117914a875389286f8"
+hash = "7b5fe8f269bc3a94b7693c6f25fbe6a665cce674fbad236f4cb40663f95a46f3"
 
 [[files]]
 file = "blueprints/christmas_village/military/barracks2.blueprint"
-hash = "d811bdb6bc4a5f7c140e3c65f8d483067a8949c028d5421215d9560e71cc6845"
+hash = "3871dbfc0f069ade5561651d34c7cfb3488f95d124cccb2ce4fda2d491f9817f"
 
 [[files]]
 file = "blueprints/christmas_village/military/barracks3.blueprint"
-hash = "5f6408ed7bd15a3064ce79a555f699f60901831a8ca6cc3502c064530620c893"
+hash = "72afb46c631b3560d44e12f8041932ed3aaf034f6eed853f840cda3c6ade1b07"
 
 [[files]]
 file = "blueprints/christmas_village/military/barracks4.blueprint"
-hash = "0387d9047313c32ef19317c12c5d5266d8cbb33fa6fcb843c64f8de7f512024f"
+hash = "91c7223db34f14adb8fb2fa63d0a6f761c81cb9e2587a957746f4a8493c19422"
 
 [[files]]
 file = "blueprints/christmas_village/military/barracks5.blueprint"
-hash = "8b3398fa96cd5ff84b68db9761aadae92d9c871a202484d86f899897751d1ba2"
+hash = "61fa502435772ce544940c7ff85f42591779b5e88d324ce4a21052c5a4dfdbf7"
 
 [[files]]
 file = "blueprints/christmas_village/military/barrackstower1.blueprint"
-hash = "1978acd2d1715f784e7d2c949eb598a3097f2e36bfdc59276de3a42e4b4e1539"
+hash = "573285b0146d83738eedf3b84ff975269c46509b85eda5942f3ac8b59c1a0e3b"
 
 [[files]]
 file = "blueprints/christmas_village/military/barrackstower2.blueprint"
-hash = "4a47e97b26ff4e2badb5bceac82479921894abeec044e28c769f481aefc0466d"
+hash = "50c435e9ab36338307bdfbdf3be748ac074e490dfb3a9c0db33ea0a15f105e9f"
 
 [[files]]
 file = "blueprints/christmas_village/military/barrackstower3.blueprint"
-hash = "afcbe639f5bf0a8b4a137760e04ad89e1e88ba4b60bed3d443a70257c679df8d"
+hash = "13b4c3b5b96236681aaf5a0158f5385b36da46210a5029e8f977fb1a5454657d"
 
 [[files]]
 file = "blueprints/christmas_village/military/barrackstower4.blueprint"
-hash = "fd01baf7c4e9920bd92f107dd49193c71432045390d77b9bcddb6b62d7bed5e4"
+hash = "972d778c8ec2eee4f8a3058cf38c7a7f1b102ad879e626842981e936a9454993"
 
 [[files]]
 file = "blueprints/christmas_village/military/barrackstower5.blueprint"
-hash = "583ebfddf01bcbd7b21aace3dd350968c94514a82a6709ca5e3a8742ab9541ea"
+hash = "dc7e95da6444a4627e529d7f3b530da37bd3242fdddaa0c41536853a878bb948"
 
 [[files]]
 file = "blueprints/christmas_village/military/birchguardtower1.blueprint"
-hash = "8885a777da46d1f53316aa554a5896c2e7d1835dc4fb68787d05e50dfde6e496"
+hash = "80c189713575fcc895a0137a59ab98d85c8581eaeacd29356a0399c6cd438336"
 
 [[files]]
 file = "blueprints/christmas_village/military/birchguardtower2.blueprint"
-hash = "d9f27306d4056ed620768ce7c0af078202fd4966268ed832933d4a4f20a2f260"
+hash = "c40936180404f3c737c09cd2c68b63fbb827883cf6305605aefb576a5ae53175"
 
 [[files]]
 file = "blueprints/christmas_village/military/birchguardtower3.blueprint"
-hash = "cc409018d18967c45e50b793201faaa869683c2a4c643de050f61e6c16aeeb90"
+hash = "ac9ec8d03e84b7b19fd4aaf7d29f38f9c2b75e70c71a5a86da0f3786e72f1321"
 
 [[files]]
 file = "blueprints/christmas_village/military/birchguardtower4.blueprint"
-hash = "d5a6f59881440b87b7e7bcf335a33abaf7560e920d07f2730a29dda27c1cc780"
+hash = "5b0368a01286a7e6d7f3c0962de275abb0001612ffa473fc65f921294b258649"
 
 [[files]]
 file = "blueprints/christmas_village/military/birchguardtower5.blueprint"
-hash = "c86c243434c0e47072e316fa2bfb8fc9a6c84568c1404af5a562aa76b1282e44"
+hash = "f12c9c04de0813aa9c2c444aab5d692fd3e0d43954ef15870bc4b7798a1ea48d"
 
 [[files]]
 file = "blueprints/christmas_village/military/combatacademy1.blueprint"
-hash = "3bdc623290d408cf353016b5549b497d360ad4451554f8c3aef4691987115866"
+hash = "7a20ccd667ce8641f3b5b75db5302bce19b755a44f9c71bbc82345fb975e328b"
 
 [[files]]
 file = "blueprints/christmas_village/military/combatacademy2.blueprint"
-hash = "79a6d8262fa549a16bd6618366d9999445f1c4932ddc796aefd7e6c76c774322"
+hash = "e84405c893723f2ba4a0943847d6fef108dd431e677bfb32bc365db06c192c7c"
 
 [[files]]
 file = "blueprints/christmas_village/military/combatacademy3.blueprint"
-hash = "f6459b1307dd6a9893f5abb0842cad54d6ded055e9c268aaa6914268962020ba"
+hash = "27aee5bf44c201223dc1684c4ea1a6d4dd22fe5bf33cb3f188f68a889760c4cf"
 
 [[files]]
 file = "blueprints/christmas_village/military/combatacademy4.blueprint"
-hash = "b64b5082170e4853ca390ce457bc56ee388b2d3573c11ac6edaaaa367747fa84"
+hash = "60b17b3bb54669a2b173a835ff2f28eb5c1f9cf7d4daa60560f797f8135d2f2d"
 
 [[files]]
 file = "blueprints/christmas_village/military/combatacademy5.blueprint"
-hash = "6a0901a52226396687e01d38bab376c59ac5d846e81a7ec07907896e588d0a0d"
+hash = "504018b9d40299efb7c32cb4436a8fa72e6206a79bbfb9959c7dc28db3f3af22"
 
 [[files]]
 file = "blueprints/christmas_village/military/darkwoodguardtower1.blueprint"
-hash = "338269b9ca6398c7ba7aeabd4be71efb63efc1087dc63eaaaa86911984b430f4"
+hash = "a821165249a89e46501411cf0f01ffe02fe6886347e1c4fd57c24e6ab28254ac"
 
 [[files]]
 file = "blueprints/christmas_village/military/darkwoodguardtower2.blueprint"
-hash = "1dfac1ff07044257fb2227362b7f11a5e892882a7dd104c0065136e563c30f0b"
+hash = "b0a6e7c0051c0c04d6f8f8f519189a08a22d64547517dc8f0393e9c3f42bf67e"
 
 [[files]]
 file = "blueprints/christmas_village/military/darkwoodguardtower3.blueprint"
-hash = "01cbc4cec9aa2547c5c59e148676f59bbf8707b3d6cc1a92eec6b39daecf3ea6"
+hash = "f1445fc564d4ad0a3ba50370ddec774089a6c65b6b3d8d9c5b9306dba8160483"
 
 [[files]]
 file = "blueprints/christmas_village/military/darkwoodguardtower4.blueprint"
-hash = "762c01b395bf828b168fbb62e821bfb6a8fdd60e42e7b5af765dfff806268bd2"
+hash = "0899c68c7b97ec8ab3b8a5936c9d43eec400eb798ee134e4432fa008d416156d"
 
 [[files]]
 file = "blueprints/christmas_village/military/darkwoodguardtower5.blueprint"
-hash = "3ed869fd3cd2c0569d11548f808b1715125e86eb1ed65015c6287387f9a7afdd"
+hash = "2276c559f4509597378b95e7b5933e5c78dc2b359a2cf31ecd12d0a5a6f3f117"
 
 [[files]]
 file = "blueprints/christmas_village/military/gatehouse1.blueprint"
-hash = "e11f38000c28545ce4ccd4b066bf9d01a27fac97ada04e51ac9fcaf61e09ea9e"
+hash = "f3ccb5e78a0201d14558283612b8378ce780ea9f52277802edd485ee74e690bb"
 
 [[files]]
 file = "blueprints/christmas_village/military/gatehouse2.blueprint"
-hash = "2acf244a7931aa0609a5aa1bd2c669b2486c45e06f649ea38162a178c6cdf52a"
+hash = "aec93379ea7cd3f898816ab6dcf6ee1fd6c699ad6eba99a1f3465a0b8e0415bf"
 
 [[files]]
 file = "blueprints/christmas_village/military/gatehouse3.blueprint"
-hash = "fcd46cca0bbb62a32481851bb989f445ab4c27ecaac4de073c5e36f0aad0f87a"
+hash = "a8013035cf5ae0755301c9b5d1b068c0fa222fa9c491acce4b0de901f212ce26"
 
 [[files]]
 file = "blueprints/christmas_village/military/guardtower1.blueprint"
-hash = "606bae2b3f7854ba4b9d8350cd4a90e9119adfb4ab4c3ea66f3b8f1c4dedbf69"
+hash = "1fb9532a0126da415bdac512cfc6031db8a1142443294b15e87c4524437e0dee"
 
 [[files]]
 file = "blueprints/christmas_village/military/guardtower2.blueprint"
-hash = "273da56dbb26a81ea9641b5a885395ea900e6a14d37b7f1d3f3fe27e91cf5836"
+hash = "73857de86c2547216d9b7ca0efcd8ff0aa9be0052c2e3a7f78b72e3b5c966e58"
 
 [[files]]
 file = "blueprints/christmas_village/military/guardtower3.blueprint"
-hash = "3e6a0d0880c4c0ddf172211fa617942adec4023173323b445da3be565619b7a0"
+hash = "bfe5a7b5b412fc8753beed2522a869a4badb15e65dd9114ef77a42a3c433173e"
 
 [[files]]
 file = "blueprints/christmas_village/military/guardtower4.blueprint"
-hash = "78a2d67577270bf63469b89a0155cdbdb30ff0dd108d62c6f4b0084d1e1d23ed"
+hash = "9073323e39dbf9f6a386abd10fb84144e934ae38f3c2b10aa991517b3a2d5fc8"
 
 [[files]]
 file = "blueprints/christmas_village/military/guardtower5.blueprint"
-hash = "8161eeecb8c1b83d75f809daf7a2524b28046c5712ae0ba1bb25cbb3729c73c9"
+hash = "e32ac82076a0d15edffe54da8f57a25c595d609c08f662c6a13dcd40da7ed42a"
 
 [[files]]
 file = "blueprints/christmas_village/military/hillsideguardtower1.blueprint"
-hash = "a8278c6fbacc25f559a4f239723d6cf704f811432c4466c0b06d8f67c443d20d"
+hash = "2b33b404f9b4bcb1e1a57c91d874e98f65b2b5539306b42507cef084a5563635"
 
 [[files]]
 file = "blueprints/christmas_village/military/hillsideguardtower2.blueprint"
-hash = "55841554650fbd6691d5b9d969e1caa6a4ffddecf86927cb3124d48138992c54"
+hash = "bd704b3f4f092f4fd23f8d6cdbb453c319166c2b3262704dcf04b615a7242f28"
 
 [[files]]
 file = "blueprints/christmas_village/military/hillsideguardtower3.blueprint"
-hash = "2231f6980443562fdf3864132e2afda749928f19860a9f9eefd41258b932545e"
+hash = "905dc065bd3730c39d03b2943fe164593ac78782d7fb0ae6bb20b08a7317b740"
 
 [[files]]
 file = "blueprints/christmas_village/military/hillsideguardtower4.blueprint"
-hash = "9655c18d1b46f88c521aa2ecd0fe324f947449c02089623ca8663010565f5547"
+hash = "b90083c53135f757fe2698b78162513c6712aeed2b68f6867d5965c2bcdf2694"
 
 [[files]]
 file = "blueprints/christmas_village/military/hillsideguardtower5.blueprint"
-hash = "35851fea4dfb9633a460219ebbcf4a2d6b33784e5a9ef5d1b93c2b1e7efe1558"
+hash = "30460d0965119291a8c55242ec5e0c0c183033704f0da337ac064b8175581422"
 
 [[files]]
 file = "blueprints/christmas_village/military/icon.png"
@@ -2950,103 +2950,103 @@ hash = "ffb56d64aa3174af25f9b1ce3b6f6cef1712e62b4554bea0454dcaca1df30ed8"
 
 [[files]]
 file = "blueprints/christmas_village/military/lakesideguardtower1.blueprint"
-hash = "15e04ed9c9fcd99dd0f08bf139356568ea547e8b8061b9ed8d5b06b3f9582394"
+hash = "831f0bc8583474d4fac423b1a269ce7c7e0428e529d3e0b28ac5c0998e0926ca"
 
 [[files]]
 file = "blueprints/christmas_village/military/lakesideguardtower2.blueprint"
-hash = "9054166025bb4123c8e83a04ccf7d15c58efca0c62976bb1ba0850d0ad3c1050"
+hash = "0c156dad7bf92f7817075ff58886e75fadc7998cd8200c225154d3045896f28f"
 
 [[files]]
 file = "blueprints/christmas_village/military/lakesideguardtower3.blueprint"
-hash = "83911693cfea577a117a6dcf1c220326c5f7a68cf53254991b7ec38d9a4404fd"
+hash = "04ab4ed1c51da011acb897848ff3be1012179cd32c611321a1c2c5968ed5ebf4"
 
 [[files]]
 file = "blueprints/christmas_village/military/lakesideguardtower4.blueprint"
-hash = "e9ad5126655571fda231c73d0e3a91ee3b6b3cabfaf9489b582b2400cf8aa3df"
+hash = "5a5fc862264870b74830f2b2be516571a775a93a8e785fbd779fc92579766c3b"
 
 [[files]]
 file = "blueprints/christmas_village/military/lakesideguardtower5.blueprint"
-hash = "0149c53b84af06dbde92f6c9d369cb0fd21299f24a332f418be76c707d888c39"
+hash = "70e58cb6bc25a35b2c3d7542936637d32b42daa78c2a0735a4a336c9b5bd5bf0"
 
 [[files]]
 file = "blueprints/christmas_village/military/mountainguardtower1.blueprint"
-hash = "aae16e6161849406d55be31d335531a5bd7ada458ff8c4e0232eb1a3b2f04d7b"
+hash = "6f20faab6e6b9d227d13795a6b7ace82c3ffa4b9e39620f5af83c1a4c39ea5c9"
 
 [[files]]
 file = "blueprints/christmas_village/military/mountainguardtower2.blueprint"
-hash = "5db2864d34b0ffdf9e5eed91a0a9a300894c3733a72951b49224b6a363eb25bc"
+hash = "5e450ff131eee0ea34e500bdd38500011de4ab82e4bfa5da284e3e2a7657639a"
 
 [[files]]
 file = "blueprints/christmas_village/military/mountainguardtower3.blueprint"
-hash = "2b555a069cbd86b3379bb9de7c932849b53624bafddf65f204a94140c4f7e3bc"
+hash = "ad88ed5d74ecde5e354a1903d04ecfe2d9644dd9359a0adb236b5dfb70550323"
 
 [[files]]
 file = "blueprints/christmas_village/military/mountainguardtower4.blueprint"
-hash = "afb20e65cb7224729998827ca86d78f5c54de44c2d648a3d26a04cc9020e98b3"
+hash = "a7f3eefb788368b1ce51b113dd2acb1a9f73d8a3ed60d8fe707b4a6035d59e11"
 
 [[files]]
 file = "blueprints/christmas_village/military/mountainguardtower5.blueprint"
-hash = "d071da0494b1132c9b8c5fa9402f62f7d5ce1993c7db1e5bcf06c311f08a8da4"
+hash = "c0ead2ac73028b48b9b997744f9cfeebacf1eb655064caf3bafdc64e333598c9"
 
 [[files]]
 file = "blueprints/christmas_village/military/stable1.blueprint"
-hash = "6876b5ed96b7b886677d00d3aa1c9563c76f0d6960d4bbdfacee21ceaccf5042"
+hash = "bb028cad276a3e147a764ba06cdb247249973ae8542234b8f9908b052e07a172"
 
 [[files]]
 file = "blueprints/christmas_village/military/stable2.blueprint"
-hash = "b527429ae87d4ad746ad92aea55e439d947584dbc752474600a2173bee5c03d1"
+hash = "10a81e7e4f51e740d5ee5f41218147a3aee9e143f426105ae56202f7708fa974"
 
 [[files]]
 file = "blueprints/christmas_village/military/stable3.blueprint"
-hash = "3b199e3b8c8cba2fad96115738bf3fbf5108023174f9f92bb8065960aac984a5"
+hash = "f4eefe5e8c7d9ae484a71ace709df4627f555256b2f4018c0ad64f49ab2c8ad6"
 
 [[files]]
 file = "blueprints/christmas_village/military/stable4.blueprint"
-hash = "cc5351cfa861df875984f7864773123c3ec2cf642c61b76eaf68e04e27727f67"
+hash = "9bc5c006b283ff3ccf36267076626815b308324aee03c4f8fc6e10bd81f8e61c"
 
 [[files]]
 file = "blueprints/christmas_village/military/stable5.blueprint"
-hash = "184290556c28539809ac0fe12ec51c8e384f997dd686e050e0389480e40e5e99"
+hash = "9e69697703d891f33a023d9cdfc095edad862a52c6a3cb8ced2b2518a02a5986"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/enchanter1.blueprint"
-hash = "fbe655783c6bd89616ec604b5c05c617df558057101d3fc892513316bd698349"
+hash = "8a7b257ed1a861b36c0983d25a7651f8630a9b387d3f856cb1daf0c2aee21adf"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/enchanter2.blueprint"
-hash = "6a5c81585e45eefdb3592bd55b2d9623daf70dbf24e8d6b0925d4dfd2e91ba15"
+hash = "896550b6a6bf0a7d6a8e94fd628707ce0f354581534c01554cded7666d979ca2"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/enchanter3.blueprint"
-hash = "e71e81ae7343766e1c9a8d518bb6c9b7fc401d228ebef8326cd963159b5b4f09"
+hash = "91eb930018fd93c962ece1d3493fcf0ae518b2d5d1be18f9ce4ec929bb96afb6"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/enchanter4.blueprint"
-hash = "483c3b8a45604f7b916918c1d572ceccdbe54bc2d8baa779e92f5aa384ea9ef5"
+hash = "c85016e21b2754ce10fb1bb28c1c406e71f7bb8c659339e73b60d3b1b6ddc1ff"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/enchanter5.blueprint"
-hash = "3f61eda5e49dbf1213bec172fac8af8d2e9f0dc2017f040b609f374e756872e1"
+hash = "6965bab957613bde3cf404d44bddc10af9540491f09dd17ef15d3abcd8ab986d"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/graveyard1.blueprint"
-hash = "7d6e80a4f284c7d1d12af009129c21043b8e212b3a23e5d17215212bada65085"
+hash = "b2a951dc0ea862b38f7c4a86d5b54e82e32ede494decdadd4de566277bc44c3f"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/graveyard2.blueprint"
-hash = "5b76e0324412caf8cb711e29ec89b95a3ff39dc1c39654a6ab1be1a41e6bc04b"
+hash = "7d85d14c42fa42bbad44160ea98fdd4e69f8d6c2ac07dad9f5c574afc22d2d79"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/graveyard3.blueprint"
-hash = "0f93082ed2e3c8886ead8d8f6a819e717ac1d1be26607e6cd2cea9e437ea0c14"
+hash = "f88850bd40273d66af31100b9a1c251ef5fd70efced3e12957e31ac28d396497"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/graveyard4.blueprint"
-hash = "5052a09eea7fd47db033d321ee48c86e8c19303d30167bbdc9cec48cc0b6fc63"
+hash = "3e38ee8d9688cceef660b9759910b3f7702c20fab210cc0d53b173710f22f3c0"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/graveyard5.blueprint"
-hash = "80c99508d705bc70e18ba514654318a1b4d71d8d3b906d3c8c7999f183506bac"
+hash = "7172cb5c4e5b21c57562d5ed942c346885c031f8f5eff1cb3dd83ac11c96ac87"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/icon.png"
@@ -3058,67 +3058,67 @@ hash = "ffb56d64aa3174af25f9b1ce3b6f6cef1712e62b4554bea0454dcaca1df30ed8"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/mysticalsite1.blueprint"
-hash = "10faf44cb254675aae499e52e4eb07d6510effa439c8ddcbdf079226efed4149"
+hash = "0704a760f3adbfd220f79142ab6cfd416697d102eb057ac458589f4d1e8d85de"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/mysticalsite2.blueprint"
-hash = "8257ae7d28e81fd589b89eeb65ffa60d697a05cb6c5e10f1b9dedc30b4bcf1a2"
+hash = "e4ec5a65fb54faaa252b861442cee728d0dc1e4ea830cae540f8576475d6cb73"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/mysticalsite3.blueprint"
-hash = "3e9a090d0af0dd29c22e8df49d113647a9ecb071c14c37bc8bf52a0d4aa45308"
+hash = "4dee3510d2f370c0e3882d0511991a227ce18f54670ac5e3effbe9e5e6a2da72"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/mysticalsite4.blueprint"
-hash = "0c6da3eaf2dece163e3dd0489eb24406a9ef09db8b52874c9e63720074d9e230"
+hash = "f663630ff545b4cded09c2d8cb20ee395b6ac0d59d16e8017c284fa1cdbab153"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/mysticalsite5.blueprint"
-hash = "c065d9451df788bbcefce0e01eab2ad16c466bb9f0bd88517f8083974b72efdd"
+hash = "8dd8b8780b544c7b46a49ce91c408cc2fe5886b30e232f77b72c66efe1588679"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/netherworker1.blueprint"
-hash = "e41a3fc037d7ee6c9d1e40a36fe4763d2b6ea166994ca35516bb57eb07012ef9"
+hash = "a7a81f41671f58d6ffba1f3f93233573e24531b25e598517ec03cd7a6ad888aa"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/netherworker2.blueprint"
-hash = "5d8d79f90978011e5c2bc5bea6ceb9b0ce877592db338774b9cea461a0f28c59"
+hash = "6923164b00137b694d28e968f17f2a703c1c47381d04f8697200f08f933cf39a"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/netherworker3.blueprint"
-hash = "28f1b7e7cb7b9398f730d80682a62e96044a9f1a5f81f8776e5ed9aeeef653e8"
+hash = "09a2211486487fadf3736ab04c4d271370f3837b51f0134b75d53ce136246bea"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/netherworker4.blueprint"
-hash = "7ee7c762914f1d97d2e98f3181699ff738f86ffec1289d086e562e087d772757"
+hash = "9ba977374e0a5512bdb11438f08af5146007a0a7898efedb788be4f0bcc47d40"
 
 [[files]]
 file = "blueprints/christmas_village/mystic/netherworker5.blueprint"
-hash = "8dacc304c9f0caa73708e2ec7192ccb60628ad6d033510ae0227ddf884dc0e9f"
+hash = "9339f0a35694bcf0fdab68e3ff293c533f19b9387692b85eb49b4ce480801a6f"
 
 [[files]]
 file = "blueprints/christmas_village/pack.json"
-hash = "7882208620394b459ec13e0e5dea6c54a489c15844721302130ba97d82b31cb9"
+hash = "46fe5db7c2c0920e46c184348eb5d8169fca1e85b9eea698aa8bfe039844153b"
 
 [[files]]
 file = "blueprints/christmas_village/walls/corner/corner1.blueprint"
-hash = "8b8ee7545d648d7e933894e20329b0cfaed093d81067dc724f669c8171a6442b"
+hash = "0f4035a1aa5775c0c3fc8bad999b3d5ea37d4499d6afc63417bcbede731eb968"
 
 [[files]]
 file = "blueprints/christmas_village/walls/corner/corner2.blueprint"
-hash = "f178f9fb3d69f9523a48697e52f8d8526233eb730bdd8aa50bc303fde2d7987c"
+hash = "b7d54afd049b605e90eb00e029e8ba3d07bee32f65c71900807732a7358b2873"
 
 [[files]]
 file = "blueprints/christmas_village/walls/corner/corner3.blueprint"
-hash = "a49c8994d4a1a3645e4230d16f2448f5fb63150b950f161c40b28b8c55099c66"
+hash = "ac4643ca3529551def2df767f0afac6fe67bd177aa1d4390ef10e731f5d2682a"
 
 [[files]]
 file = "blueprints/christmas_village/walls/corner/corner4.blueprint"
-hash = "405106a0df0d01750e169c1b01508c7a5f2e88379c7ca8b10ea46a4b75c42baf"
+hash = "de853b752cbd94e59727d033e41059e6f63443336f83761be92f49e1f9ca6d38"
 
 [[files]]
 file = "blueprints/christmas_village/walls/corner/corner5.blueprint"
-hash = "58859dd9a0c949233c72d8924a0002b2cd4ff2d0d5363ab6501171c8fb80de36"
+hash = "5421b8795aca07528c263fda8bfc92c6049d02f4a906c05347d8e8ac92668d66"
 
 [[files]]
 file = "blueprints/christmas_village/walls/corner/icon.png"
@@ -3130,63 +3130,63 @@ hash = "c69abcdccb1bfaca8f3c6502bd22bb574db594154282688d8038b2567f007b3c"
 
 [[files]]
 file = "blueprints/christmas_village/walls/corner/innercorner1.blueprint"
-hash = "138a1917cdba42ad0d19db158403d4dffad685e078aab29fa876ee7535a99d33"
+hash = "49648b759d03943bdac3cf8c1dc67e2a85665a5f216eacb1ba2ae169b3271f5d"
 
 [[files]]
 file = "blueprints/christmas_village/walls/corner/innercorner2.blueprint"
-hash = "e25a0708653b6d2ba9c201bdd047536e5d32bb06ae02d20c5c978f9264cf4d8f"
+hash = "ae4da9e3440237c821f3b792afdef56f3b3fcb66549127242ffb92c1eaba4b2e"
 
 [[files]]
 file = "blueprints/christmas_village/walls/corner/innercorner3.blueprint"
-hash = "1e8606b2fac327a54f3f2ab986cd8e0c8bbb60a455d120cb2ffa8c3f3207f4ae"
+hash = "b9017af3915644a3c9a55f10b4c2304bc9bc4c0d5f4750325af7f3c973028f3c"
 
 [[files]]
 file = "blueprints/christmas_village/walls/corner/innercorner4.blueprint"
-hash = "604d8eed28bab7d9a89daa8f881a849512459c8a46649dbcd3884c3659b7a692"
+hash = "70ad9e668e4f08fb37502bfb23b1d25e8dadbcdb7ea1e698328d4ef9b0c9ed08"
 
 [[files]]
 file = "blueprints/christmas_village/walls/corner/innercorner5.blueprint"
-hash = "9ac1284decf3c83052f72cd9beabe83986b14dfbb321cd58485a72f99927366a"
+hash = "e83679562ea646661b9a231cd7fc98fea03c1e9124675731a054ec18ed0d1af1"
 
 [[files]]
 file = "blueprints/christmas_village/walls/corner/tcorner1.blueprint"
-hash = "f4fd7c0200c62fd532513fce5ad1e76ff3abcbf1a7f70e3ca32b91e81bbde93f"
+hash = "fa26e15b4647b1c82862b4b7ed18a7efb941bc46ad96102aaee6c44165e94a6a"
 
 [[files]]
 file = "blueprints/christmas_village/walls/corner/tcorner2.blueprint"
-hash = "daa602a3408b6818e7c60622d8486e9b00828fe79a24b92af204bc9dfbf38c20"
+hash = "ccddce8332e830947f17e4fc78d05898594e918417cbf12d2f08bf08e6df7143"
 
 [[files]]
 file = "blueprints/christmas_village/walls/corner/tcorner3.blueprint"
-hash = "183d35f24958ee4ca9a3a94f11c1d52391fb461d4ff694c865a3e4b0e229ddec"
+hash = "484dd2d6cdc838444fb462c92dbacb37201724ed0ba061f00c4667157c1eddfb"
 
 [[files]]
 file = "blueprints/christmas_village/walls/corner/tcorner4.blueprint"
-hash = "004252fb860ebda3ce081bb8fc746d3b937f062563a4f1377fe1069e139d0f1a"
+hash = "95d9d969419a6591a02c20209963b99a5327f5e979815268c23bfca400968957"
 
 [[files]]
 file = "blueprints/christmas_village/walls/corner/tcorner5.blueprint"
-hash = "ce489cf482c04401ccc98d2f8e9b8ef5bf098e3b7ace7a5d1808c74f498cc466"
+hash = "d7ced1755669da8a8386843df4d0159c3af256ac6727398a7d3346212d1a059f"
 
 [[files]]
 file = "blueprints/christmas_village/walls/gate/gate1.blueprint"
-hash = "346d9322c0d03e1b525bb0d546c174457fc3e3a6dbe8131c8d18cb1ff679e197"
+hash = "2d626e66df658e8a023dbeb61b2b8b02643a05a27c252668188d3ab0213fe207"
 
 [[files]]
 file = "blueprints/christmas_village/walls/gate/gate2.blueprint"
-hash = "07f348dee6e92ea27f935e4fa619578452ad9caf95a4937f5f937c0eddcd889f"
+hash = "f3cd5515de95a5c419f373f580abae81c7edc2e9c6c2af781060db787a102d98"
 
 [[files]]
 file = "blueprints/christmas_village/walls/gate/gate3.blueprint"
-hash = "7a7c5b6519a6e985585a8c8f8df441c662f9bab20605cdfbd182717fff7c6f95"
+hash = "9888df345241e8db59c969d94dd51e55f94fddfe1cf081df9200c5060eee340a"
 
 [[files]]
 file = "blueprints/christmas_village/walls/gate/gate4.blueprint"
-hash = "e2121281f99ae98800d0fb48f81ed9f9d25f3a58d70975eff6afbaece12c4106"
+hash = "6e0e4832fdda37e130de9f94b064bcf95e2898674eaa35417ee7336d3c6c3d25"
 
 [[files]]
 file = "blueprints/christmas_village/walls/gate/gate5.blueprint"
-hash = "6f65b42c6bc491b93d4aafe2fa115e8ecff076d207238952b21af81d5ed3204f"
+hash = "b65c817c87a971453b8bd108d752859d16300058fe2f2627a525fbc5066dea88"
 
 [[files]]
 file = "blueprints/christmas_village/walls/gate/icon.png"
@@ -3214,23 +3214,23 @@ hash = "515846f040e14a8ee4bdc7a411b2843fcc3a9b95fb788a217fd968f2f006d883"
 
 [[files]]
 file = "blueprints/christmas_village/walls/segment/segment1.blueprint"
-hash = "02a312bcfca81ec20a700dc7993998910525d5fab9e77a6d9db7448508321ad9"
+hash = "b79a87f1a2d99f17b7fae060c37eb42a9aaf6564709f6df1a80d28caa315353d"
 
 [[files]]
 file = "blueprints/christmas_village/walls/segment/segment2.blueprint"
-hash = "d5183cd7a0eda0943dc87bd76ac5f4b974958a117f476621223624ef95cf5a0e"
+hash = "db1dfb571f69ce4566e4b300e058df88f4b87983e579b2759761d5ef8db14ac5"
 
 [[files]]
 file = "blueprints/christmas_village/walls/segment/segment3.blueprint"
-hash = "ce686be52f46c8cc9236f7988ab7bcf326c021a9dca44eb4449f7319ad8dbc99"
+hash = "473226f0aba78ce189687d31a47bf2bb86e079c2cfc16b622f351e928f822a21"
 
 [[files]]
 file = "blueprints/christmas_village/walls/segment/segment4.blueprint"
-hash = "fde548f4e357938c02b87d5f19f93d7dfc8cbc88c8f554efc7e8c37325fac1c8"
+hash = "42c5d048552004446041391bff5a208de2f7bcd865bb5d37da26e3087a19f578"
 
 [[files]]
 file = "blueprints/christmas_village/walls/segment/segment5.blueprint"
-hash = "c2ef2b6e7ee3b2705fc44dce89f99962b61f3048a16a0a8d58e00b2b95cc5f1b"
+hash = "a772757ff0e9fd44718f2fd339e0db15d5a5877883739a0c2ebfb6f2ee446b6a"
 
 [[files]]
 file = "blueprints/christmas_village/walls/tower/icon.png"
@@ -3242,23 +3242,23 @@ hash = "81edec232e9df336991dfccde0e3591476157485c0884b63345e2d8b947c1599"
 
 [[files]]
 file = "blueprints/christmas_village/walls/tower/tower1.blueprint"
-hash = "03345c10a183ad6b18c5531041fb0149bdf7820aed7ad3e45729cda3bd2324c8"
+hash = "7dcf55090cf88782106e7425613b862b44a1281f7749bbf459533f891ac3d936"
 
 [[files]]
 file = "blueprints/christmas_village/walls/tower/tower2.blueprint"
-hash = "e1286cbdfadf1a6bca869015e9a5f015cf0675b651c28d113a85f2ded213e064"
+hash = "0d8e1457d19ee5a91e48148013eb745917003213ded2d16ae3419ade24a33004"
 
 [[files]]
 file = "blueprints/christmas_village/walls/tower/tower3.blueprint"
-hash = "955effaf27ea59603dbf79e3001bb81dfa63d85852fd76d74608f36e4f622dad"
+hash = "9c9b8041b017534d5edf3ec955e2d6c96a85e601dc52002d1010fdf30dbb888c"
 
 [[files]]
 file = "blueprints/christmas_village/walls/tower/tower4.blueprint"
-hash = "e49763fdac354ddacc7b9718f0728c369663f14b60eb42e980ef3e2b464dfd6b"
+hash = "73b45d3ad0ae8c78df48af4f1b15bc8e5f3edd4fa5c60fe0775259369c1586e1"
 
 [[files]]
 file = "blueprints/christmas_village/walls/tower/tower5.blueprint"
-hash = "b312d3794585a5c657c4d9aeea2594fc7febca1bdbd466cc795e703d990a87b6"
+hash = "cad2d492520e33bc4ead7758cf7a98492bca8194f51f7b6ceeba49f901d6b36a"
 
 [[files]]
 file = "blueprints/loreichop/pack.json"
@@ -44179,7 +44179,7 @@ metafile = true
 
 [[files]]
 file = "mods/lunchtimes-little-cookbook.pw.toml"
-hash = "dc927d39c4a5c47a2b3832373d7e5002189cf66dbf255e4978f86f6de5f7e1d7"
+hash = "23797248f56143b40f747154a2a169a65a2062ba0b61cf00c681350a6338a2df"
 metafile = true
 
 [[files]]

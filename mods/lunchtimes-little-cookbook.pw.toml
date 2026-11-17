@@ -3,9 +3,9 @@ filename = "lunchtimecookbook-neoforge-1.21.1-1.0.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "59b00f46ba515daa9143e7bbd1788d222c70ca09"
-mode = "metadata:curseforge"
+url = "https://edge.forgecdn.net/files/9624/58/lunchtimecookbook-neoforge-1.21.1-1.0.2.jar"
+hash-format = "sha512"
+hash = "e875b3cb18b048f9729a2540619b31b92aa641e46ee1e6b283d0bbf8ba7c35c47d8fed492ebaafc1ad793424999b3b10a56a72c37ada3433356de55acfb25deb"
 
 [update]
 [update.curseforge]
