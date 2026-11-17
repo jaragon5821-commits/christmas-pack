@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026.11.17-6
+- Festivity 0.9.177 (fruit trees, food quality, chestnut sapling fix)
+- Real Christmas recordings removed from background, menu and zone music (C418-style ambient tracks stay)
+- Carry On back: blocks and animals only; Double Doors added
+- Townwright chop.58, Structures v50, CTOV chest loot fill, RoadWeaver smoother roads, path-slab steps, modded biome presets
+- Handbook: first-join kit v0.3.0 and controls rewrite
+
 ## 2026.11.17-5
 - Festivity 0.9.175; Mama's Merry Making recipes fixed (latke, poultry dinner, sweet potato pie, gingerbread dough, harvest tray, mint bottle); gingerbread dough grouped
 
