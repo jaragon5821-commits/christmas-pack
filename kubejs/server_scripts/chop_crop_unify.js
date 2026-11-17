@@ -1,4 +1,4 @@
-// chop_crop_unify.js v0.4.2 (Rune, 2026-11-17: Q7 chicken parts + lamb ham groups; v0.4.1: guard the KC fried egg tag fix, Kaleidoscope Cookery removed; v0.4.0 2026-11-16; v0.3.3 2026-11-10; v0.3.2 2026-11-09; v0.2.0 grapes, v0.1.0 2026-11-06) - boss card 107: duplicate crops work in EVERY recipe.
+// chop_crop_unify.js v0.4.3 (Rune, 2026-11-17: v0.4.3 Merry Making + Festivity gingerbread dough group; v0.4.2 Q7 chicken parts + lamb ham groups; v0.4.1: guard the KC fried egg tag fix, Kaleidoscope Cookery removed; v0.4.0 2026-11-16; v0.3.3 2026-11-10; v0.3.2 2026-11-09; v0.2.0 grapes, v0.1.0 2026-11-06) - boss card 107: duplicate crops work in EVERY recipe.
 // Tomato / onion / cabbage / rice / garlic (Farmer's Delight, Farm & Charm, MineColonies, Herbs and Harvest...)
 // and ginger / cinnamon (Snowy Spirit, Festive Delight, Herbs and Harvest, Merrymaking) exist several times.
 // 1) Tags: every copy found in the registry joins one shared c: tag (adds to chop_synergy_tags.js, never removes).
@@ -84,7 +84,10 @@
     { tag: 'chop:unify/cooked_salmon', also: 'c:foods/cooked_salmon', ids: ['minecraft:cooked_salmon', 'farm_and_charm:cooked_salmon'] },
     // v0.4.2 (boss Q7 11-17): Farm & Charm cuts work wherever the Farmer's Delight cuts do, and the other way round
     { tag: 'chop:unify/raw_chicken_cuts', also: 'c:foods/raw_chicken', ids: ['farmersdelight:chicken_cuts', 'farm_and_charm:chicken_parts'] },
-    { tag: 'chop:unify/raw_mutton_chops', also: 'c:foods/raw_mutton', ids: ['farmersdelight:mutton_chops', 'farm_and_charm:lamb_ham'] }
+    { tag: 'chop:unify/raw_mutton_chops', also: 'c:foods/raw_mutton', ids: ['farmersdelight:mutton_chops', 'farm_and_charm:lamb_ham'] },
+    // v0.4.3 (11-17): either gingerbread dough makes Merry Making cookies/mantel deco and Festivity gingerbread blocks.
+    // Not festive_delight:gingerbread_dough (a placeable block with its own rolling mechanic). No c: tag (not plain dough).
+    { tag: 'chop:unify/gingerbread_dough', ids: ['festivity:gingerbread_dough', 'merrymaking:gingerbread_dough'] }
   ];
   const NO_WIDEN = [{ type: 'minecraft:smelting' }, { type: 'minecraft:smoking' }, { type: 'minecraft:campfire_cooking' }, { type: 'minecraft:blasting' }];   // v0.3.2
   const SKIP = /^(minecraft|kubejs|chop):/;
@@ -113,13 +116,13 @@
   ServerEvents.tags('item', event => {
     let f = scan();
     GROUPS.forEach(g => f[g.tag].forEach(id => { event.add(g.tag, id); if (g.also) event.add(g.also, id); }));
-    PAIRS.forEach(p => p.ids.filter(scanHas).forEach(id => { event.add(p.tag, id); event.add(p.also, id); }));
+    PAIRS.forEach(p => p.ids.filter(scanHas).forEach(id => { event.add(p.tag, id); if (p.also) event.add(p.also, id); }));
     // v0.4.0 tag fixes (boss 11-16). remove() on an absent id is a no-op.
     if (scanHas('kaleidoscope_cookery:fried_egg')) event.remove('c:eggs', 'kaleidoscope_cookery:fried_egg');   // egg recipes took a FRIED egg (v0.4.1: KC removed 11-17, guarded)
     event.remove('c:foods/bread', 'minecolonies:hand_pie');               // F&C / FD bread recipes took a hand pie
     event.remove('c:foods/bread', 'minecolonies:stew_trencher');
     if (scanHas('bakery:bread')) event.add('c:foods/bread', 'bakery:bread');   // Bakery bread works in FD sandwiches
-    console.info('[chop crops] v0.4.2 tag fixes applied');
+    console.info('[chop crops] v0.4.3 tag fixes applied');
   });
 
   // v0.3.2: Ultimine snow group (block tag; registry-scanned, so only real ids; logged)
