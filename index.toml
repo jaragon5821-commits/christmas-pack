@@ -44041,11 +44041,6 @@ hash = "ac98913d798603d5aa69c2e4dfcb26f6729bfec83b94812c9be485094b16280a"
 metafile = true
 
 [[files]]
-file = "mods/kaleidoscope-compat.pw.toml"
-hash = "b49da19b06a016b391ce29f7fcf95fd9806873172447defcfbd78ec7529bdba4"
-metafile = true
-
-[[files]]
 file = "mods/kaleidoscope-cookery.pw.toml"
 hash = "e68e9cc3cb547d25f738794f79e36e9c39467d523182d70985a24f62677dc271"
 metafile = true
