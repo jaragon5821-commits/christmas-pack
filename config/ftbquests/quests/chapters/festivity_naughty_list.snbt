@@ -98,8 +98,10 @@
 				type: "item"
 			}]
 			tasks: [{
+				advancement: "festivity:temptations/claws_deal"
+				criterion: ""
 				id: "7C0A15F3B1D2E40F"
-				type: "checkmark"
+				type: "advancement"
 			}]
 			x: 6.0d
 			y: 0.0d

@@ -2368,9 +2368,9 @@
 	quest.7C0A15F3B1D2E409.quest_desc: ["16 Coal Tokens buy a Claws Horn. Blow it (right-click) at night to call a Sour Elf pack to you. -3 Festivity for the world."]
 	quest.7C0A15F3B1D2E409.quest_subtitle: "Call the pack"
 	quest.7C0A15F3B1D2E409.title: "Santy's Horn"
-	quest.7C0A15F3B1D2E40D.quest_desc: ["Do a Naughty Letter dare (Santy Claws sends them to one random player on quiet Merry days). The ledger remembers. Reward: a diamond, and the world loses 4 Festivity when you do it."]
-	quest.7C0A15F3B1D2E40D.quest_subtitle: "Festivity scripts complete this one (checkmark task)"
-	quest.7C0A15F3B1D2E40D.title: "Dear S. Claws"
+	quest.7C0A15F3B1D2E40D.quest_desc: ["Some nights Santy Claws whispers an offer: a small bad deed for a real reward. Say yes and finish it before the timer runs out. The ledger remembers. Reward: a diamond, and the world loses some Festivity."]
+	quest.7C0A15F3B1D2E40D.quest_subtitle: "Finish one of Claws' deals"
+	quest.7C0A15F3B1D2E40D.title: "Claws' Deal"
 	quest.7C0A15F3B1D2E502.quest_desc: [
 		"Festivity is the world's shared Christmas spirit, 0 to 100. Festive food, decorations, gifts, growing colonies and helping each other raise it. Hurting villagers, breaking other people's decor and griefing lower it."
 		""

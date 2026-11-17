@@ -4330,7 +4330,7 @@ hash = "5e30ca42e26de3e1d2a7259ef85b541f2d4c8efdda68db9b57f5f3f5ab179496"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/festivity_naughty_list.snbt"
-hash = "9beb502b66434652ca5d5f0105b27df636cfa2f4815ef5e4d87df53a27fe947a"
+hash = "2f3c3abba11c010be5c554a2387593d959770c240bd71332665967dd9ef84c56"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/festivity_nice_list.snbt"
@@ -4346,7 +4346,7 @@ hash = "29d47ae6d733546ee2443b53597cb260bc70327d34cc7ef8491e66d3cb5500e0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "6b26c8fdc5148ce7e97abb4a597451e1345a72fd89bce49a0f43774cc2ae140e"
+hash = "725c427e8031f9d8bc5c98162d29964b3f7d7c94b0335d1efd4631ff787b2db2"
 
 [[files]]
 file = "config/ftbquests-client.snbt"
