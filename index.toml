@@ -4253,6 +4253,10 @@ file = "config/ftbquests/quests/chapters/chopq_friends_family.snbt"
 hash = "adc78edc896dda78c5e8d3d5d1674e40ec889a70aa94ffc44ea2fe75ccc328e5"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/chopq_giants.snbt"
+hash = "0b7cab4cd44d8da2c1c804359c2cc003d5b86a263e1a7ac43f6197b8543e4530"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/chopq_long_winter.snbt"
 hash = "4573f001320a6f2d8a2ba891492a62cf2420d5b5907218d49fb09e7e041b51b3"
 
@@ -4318,7 +4322,7 @@ hash = "97382ee9e99c77941c284afcb5a11977a662cd2e41ea8bc11a491464754ec8c0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/festivity_naughty_list.snbt"
-hash = "ca5e11121e0c90f24c65a3117c89aa6de9db6ec818aa6d2e41b17f2e03b020d7"
+hash = "56f846b03d6686931a0dad15bb7970e374bd2d47d4e5d8c7d45d330d0c1f1998"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/festivity_nice_list.snbt"
@@ -4334,7 +4338,7 @@ hash = "29d47ae6d733546ee2443b53597cb260bc70327d34cc7ef8491e66d3cb5500e0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "f2b0a624c17ba3858d74e7c5defdc8aaf7ac3cce801a8772bcdd2dad2e3cb68f"
+hash = "e414ff446f5fd7c47d1185a3ef5157016ede4e7b6db2afb559978217df9bf669"
 
 [[files]]
 file = "config/ftbquests-client.snbt"
@@ -4934,8 +4938,8 @@ file = "config/openloader/packs/27_Chops_Abandoned_Colony_Loot_v1.zip"
 hash = "3a1d5282bc6198910fccc132b3ce670b3f90fa5b4772b6afb945d1005121c3bd"
 
 [[files]]
-file = "config/openloader/packs/28_Chops_Quest_Structure_Tags_v1.zip"
-hash = "43fb432b21fcd38c746a133226b3b5e2fd8a917b22ab05426fd26bc20fecb741"
+file = "config/openloader/packs/28_Chops_Quest_Structure_Tags_v2.zip"
+hash = "34470e4aea0dfef87786f5d5aeef4d5184d0814fb991150e4ea8c4a18a95c448"
 
 [[files]]
 file = "config/openloader/packs/29_Chops_No_Day_Frost_Hounds_v1.zip"

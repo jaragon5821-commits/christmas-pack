@@ -1,0 +1,796 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chopq_giants"
+	group: ""
+	icon: {
+		id: "minecraft:spyglass"
+	}
+	id: "34057A5E5C000000"
+	images: [ ]
+	order_index: 29
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "34057A5E5C625E50"
+			rewards: [
+				{
+					command: "/loot give {p} loot chop:quests/giants_first_chart"
+					permission_level: 2
+					id: "34057A5E5C5E4E30"
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "34057A5E5CEA6417"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:snow_block"
+			}
+			id: "34057A5E5CA0E0C1"
+			rewards: [
+				{
+					id: "34057A5E5C660358"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34057A5E5CF353A2"
+					item: { count: 1, id: "festivity:giant_figurine_sleeping_snow_giant" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5CCC11B7"
+					structure: "#chop:visit/sleeping_snow_giant"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:snowball"
+			}
+			id: "34057A5E5C036039"
+			rewards: [
+				{
+					id: "34057A5E5C3F517D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34057A5E5CD4683C"
+					item: { count: 1, id: "festivity:giant_figurine_snow_angel_hollow" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5C6808C6"
+					structure: "#chop:visit/snow_angel_hollow"
+					type: "structure"
+				}
+			]
+			x: 2.85d
+			y: -0.93d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:cookie"
+			}
+			id: "34057A5E5C33A401"
+			rewards: [
+				{
+					id: "34057A5E5C48D15A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34057A5E5C83D24B"
+					item: { count: 1, id: "festivity:giant_figurine_fallen_gingerbread_giant" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5C83BBA7"
+					structure: "#chop:visit/fallen_gingerbread_giant"
+					type: "structure"
+				}
+			]
+			x: 1.76d
+			y: 2.43d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:rail"
+			}
+			id: "34057A5E5CFA0F16"
+			rewards: [
+				{
+					id: "34057A5E5C5F4625"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34057A5E5C963A5E"
+					item: { count: 1, id: "festivity:giant_figurine_derailed_toy_train" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5C5EFAD4"
+					structure: "#chop:visit/derailed_toy_train"
+					type: "structure"
+				}
+			]
+			x: -1.76d
+			y: 2.43d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:white_wool"
+			}
+			id: "34057A5E5C52E6B3"
+			rewards: [
+				{
+					id: "34057A5E5CB11BDA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34057A5E5CCAACE5"
+					item: { count: 1, id: "festivity:giant_figurine_mount_pom_pom" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5C5F51BA"
+					structure: "#chop:visit/mount_pom_pom"
+					type: "structure"
+				}
+			]
+			x: -2.85d
+			y: -0.93d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:coal_block"
+			}
+			id: "34057A5E5C60FE11"
+			rewards: [
+				{
+					id: "34057A5E5CD3973F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34057A5E5CA31FF7"
+					item: { count: 1, id: "festivity:giant_figurine_claws_hand" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5C765F9C"
+					structure: "#chop:visit/claws_hand"
+					type: "structure"
+				}
+			]
+			x: 1.55d
+			y: -5.8d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:red_wool"
+			}
+			id: "34057A5E5C12CD04"
+			rewards: [
+				{
+					id: "34057A5E5C464AA7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34057A5E5CBEF0F7"
+					item: { count: 1, id: "festivity:giant_figurine_crooked_santa_colossus" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5CD7CAE2"
+					structure: "#chop:visit/crooked_santa_colossus"
+					type: "structure"
+				}
+			]
+			x: 4.24d
+			y: -4.24d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:blue_ice"
+			}
+			id: "34057A5E5CC6884E"
+			rewards: [
+				{
+					id: "34057A5E5C60E9A2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34057A5E5C83157D"
+					item: { count: 1, id: "festivity:giant_figurine_frozen_titan_elf" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5CBBB947"
+					structure: "#chop:visit/frozen_titan_elf"
+					type: "structure"
+				}
+			]
+			x: 5.8d
+			y: -1.55d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "34057A5E5CBF0306"
+			rewards: [
+				{
+					id: "34057A5E5C25E689"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34057A5E5C4E0556"
+					item: { count: 1, id: "festivity:giant_figurine_last_reindeer_arch" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5C8A8CD2"
+					structure: "#chop:visit/last_reindeer_arch"
+					type: "structure"
+				}
+			]
+			x: 5.8d
+			y: 1.55d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:stripped_spruce_log"
+			}
+			id: "34057A5E5C9D7739"
+			rewards: [
+				{
+					id: "34057A5E5CCF8334"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34057A5E5C499737"
+					item: { count: 1, id: "festivity:giant_figurine_nutcracker_sentinel" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5CCD6801"
+					structure: "#chop:visit/nutcracker_sentinel"
+					type: "structure"
+				}
+			]
+			x: 4.24d
+			y: 4.24d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:spruce_sapling"
+			}
+			id: "34057A5E5C1E5537"
+			rewards: [
+				{
+					id: "34057A5E5C8EF603"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34057A5E5C2CF7F5"
+					item: { count: 1, id: "festivity:giant_figurine_ornament_world_tree" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5C8CE893"
+					structure: "#chop:visit/ornament_world_tree"
+					type: "structure"
+				}
+			]
+			x: 1.55d
+			y: 5.8d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:feather"
+			}
+			id: "34057A5E5CC8E38B"
+			rewards: [
+				{
+					id: "34057A5E5C9CD116"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34057A5E5C62ECB2"
+					item: { count: 1, id: "festivity:giant_figurine_herald_angel_colossus" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5CA4460D"
+					structure: "#chop:visit/herald_angel_colossus"
+					type: "structure"
+				}
+			]
+			x: -1.55d
+			y: 5.8d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:bread"
+			}
+			id: "34057A5E5C001F36"
+			rewards: [
+				{
+					id: "34057A5E5C359B5A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34057A5E5C313437"
+					item: { count: 1, id: "festivity:giant_figurine_mrs_claus_baker_colossus" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5CA02AE7"
+					structure: "#chop:visit/mrs_claus_baker_colossus"
+					type: "structure"
+				}
+			]
+			x: -4.24d
+			y: 4.24d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "34057A5E5CAFA263"
+			rewards: [
+				{
+					id: "34057A5E5CAAB332"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34057A5E5CBBB1A0"
+					item: { count: 1, id: "festivity:giant_figurine_jack_in_the_box_colossus" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5C0807C0"
+					structure: "#chop:visit/jack_in_the_box_colossus"
+					type: "structure"
+				}
+			]
+			x: -5.8d
+			y: 1.55d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:note_block"
+			}
+			id: "34057A5E5CB126E5"
+			rewards: [
+				{
+					id: "34057A5E5CB93307"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34057A5E5C58613A"
+					item: { count: 1, id: "festivity:giant_figurine_caroler_colossus" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5C8AB0F2"
+					structure: "#chop:visit/caroler_colossus"
+					type: "structure"
+				}
+			]
+			x: -5.8d
+			y: -1.55d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:white_wool"
+			}
+			id: "34057A5E5C01D736"
+			rewards: [
+				{
+					id: "34057A5E5CD92972"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34057A5E5C0B5ED7"
+					item: { count: 1, id: "festivity:giant_figurine_polar_bear_and_cub_colossus" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5CE0D3FE"
+					structure: "#chop:visit/polar_bear_and_cub_colossus"
+					type: "structure"
+				}
+			]
+			x: -4.24d
+			y: -4.24d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:packed_ice"
+			}
+			id: "34057A5E5C28CAB4"
+			rewards: [
+				{
+					id: "34057A5E5C02ABF9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34057A5E5C925343"
+					item: { count: 1, id: "festivity:giant_figurine_ice_skater_colossus" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5C10ED72"
+					structure: "#chop:visit/ice_skater_colossus"
+					type: "structure"
+				}
+			]
+			x: -1.55d
+			y: -5.8d
+		}
+		{
+			dependencies: ["34057A5E5C60FE11", "34057A5E5C12CD04", "34057A5E5CC6884E", "34057A5E5CBF0306", "34057A5E5C9D7739", "34057A5E5C1E5537", "34057A5E5CC8E38B", "34057A5E5C001F36", "34057A5E5CAFA263", "34057A5E5CB126E5", "34057A5E5C01D736", "34057A5E5C28CAB4", "34057A5E5CA0E0C1", "34057A5E5C036039", "34057A5E5C33A401", "34057A5E5CFA0F16", "34057A5E5C52E6B3"]
+			hide_dependency_lines: true
+			min_required_dependencies: 5
+			icon: {
+				id: "minecraft:snow_block"
+			}
+			id: "34057A5E5CC5A42D"
+			rewards: [
+				{
+					id: "34057A5E5CB11154"
+					item: { count: 1, id: "festivity:giants_snow_globe" }
+					type: "item"
+				}
+				{
+					id: "34057A5E5C3D2E42"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5CFEB5F9"
+					type: "checkmark"
+				}
+			]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34057A5E5C60FE11", "34057A5E5C12CD04", "34057A5E5CC6884E", "34057A5E5CBF0306", "34057A5E5C9D7739", "34057A5E5C1E5537", "34057A5E5CC8E38B", "34057A5E5C001F36", "34057A5E5CAFA263", "34057A5E5CB126E5", "34057A5E5C01D736", "34057A5E5C28CAB4", "34057A5E5CA0E0C1", "34057A5E5C036039", "34057A5E5C33A401", "34057A5E5CFA0F16", "34057A5E5C52E6B3"]
+			hide_dependency_lines: true
+			min_required_dependencies: 9
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "34057A5E5C475A26"
+			rewards: [
+				{
+					command: "/festivity title grant {p} pilgrim"
+					permission_level: 2
+					id: "34057A5E5C43353A"
+					type: "command"
+				}
+				{
+					id: "34057A5E5C739D52"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5C28B089"
+					type: "checkmark"
+				}
+			]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34057A5E5C60FE11", "34057A5E5C12CD04", "34057A5E5CC6884E", "34057A5E5CBF0306", "34057A5E5C9D7739", "34057A5E5C1E5537", "34057A5E5CC8E38B", "34057A5E5C001F36", "34057A5E5CAFA263", "34057A5E5CB126E5", "34057A5E5C01D736", "34057A5E5C28CAB4", "34057A5E5CA0E0C1", "34057A5E5C036039", "34057A5E5C33A401", "34057A5E5CFA0F16", "34057A5E5C52E6B3"]
+			hide_dependency_lines: true
+			min_required_dependencies: 13
+			icon: {
+				id: "minecraft:leather_chestplate"
+			}
+			id: "34057A5E5C36EB9D"
+			rewards: [
+				{
+					id: "34057A5E5CD24FD9"
+					item: { count: 1, id: "festivity:pilgrims_cloak" }
+					type: "item"
+				}
+				{
+					id: "34057A5E5CB96D48"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5C84A0A8"
+					type: "checkmark"
+				}
+			]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34057A5E5C60FE11", "34057A5E5C12CD04", "34057A5E5CC6884E", "34057A5E5CBF0306", "34057A5E5C9D7739", "34057A5E5C1E5537", "34057A5E5CC8E38B", "34057A5E5C001F36", "34057A5E5CAFA263", "34057A5E5CB126E5", "34057A5E5C01D736", "34057A5E5C28CAB4", "34057A5E5CA0E0C1", "34057A5E5C036039", "34057A5E5C33A401", "34057A5E5CFA0F16", "34057A5E5C52E6B3"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "34057A5E5C6D4630"
+			rewards: [
+				{
+					id: "34057A5E5C13BF69"
+					item: { count: 1, id: "festivity:wanderers_staff" }
+					type: "item"
+				}
+				{
+					id: "34057A5E5CAF0A60"
+					type: "xp"
+					xp: 750
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "34057A5E5CE4B229"
+					type: "checkmark"
+				}
+			]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:charcoal"
+			}
+			id: "34057A5E5C56DE37"
+			rewards: [
+				{
+					id: "34057A5E5C2236AF"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5CDC06BB"
+					structure: "#chop:visit/ash_snowman"
+					type: "structure"
+				}
+			]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:chain"
+			}
+			id: "34057A5E5C444F42"
+			rewards: [
+				{
+					id: "34057A5E5CC41767"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5CD37418"
+					structure: "#chop:visit/cradle"
+					type: "structure"
+				}
+			]
+			x: -8.5d
+			y: -3.4d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:iron_shovel"
+			}
+			id: "34057A5E5C7F1B55"
+			rewards: [
+				{
+					id: "34057A5E5CE7AA00"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5C2881E3"
+					structure: "#chop:visit/stoker"
+					type: "structure"
+				}
+			]
+			x: -8.5d
+			y: -1.7999999999999998d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:torch"
+			}
+			id: "34057A5E5CFFDDC0"
+			rewards: [
+				{
+					id: "34057A5E5C8190AD"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5C807116"
+					structure: "#chop:visit/lamplighter"
+					type: "structure"
+				}
+			]
+			x: -8.5d
+			y: -0.1999999999999993d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:oak_boat"
+			}
+			id: "34057A5E5C00775A"
+			rewards: [
+				{
+					id: "34057A5E5CBD177C"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5CA7AFAE"
+					structure: "#chop:visit/wrecked_sleigh"
+					type: "structure"
+				}
+			]
+			x: -8.5d
+			y: 1.4000000000000004d
+		}
+		{
+			dependencies: ["34057A5E5C625E50"]
+			icon: {
+				id: "minecraft:white_wool"
+			}
+			id: "34057A5E5C5CD6F1"
+			rewards: [
+				{
+					id: "34057A5E5C5366D5"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "34057A5E5C231F1F"
+					structure: "#chop:visit/waiting_child"
+					type: "structure"
+				}
+			]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34057A5E5C56DE37", "34057A5E5C444F42", "34057A5E5C7F1B55", "34057A5E5CFFDDC0", "34057A5E5C00775A", "34057A5E5C5CD6F1"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:obsidian"
+			}
+			id: "34057A5E5C702570"
+			rewards: [
+				{
+					id: "34057A5E5C0DAE32"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "34057A5E5CE52988"
+					type: "checkmark"
+				}
+			]
+			x: -10.5d
+			y: -1.0d
+		}
+	]
+}
