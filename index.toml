@@ -44894,3 +44894,7 @@ preserve = true
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.9.3.zip"
 hash = "fed6c879e732cf7fc7bc6570ebb1def43235aa7e96f62859fbdbdbfa0b484b38"
+
+[[files]]
+file = "config/openloader/packs/31_Chops_CTOV_Loot_Fill_v1.zip"
+hash = "79948a6c431b28f95e3a07be9e95211c65e85484f7a94639632b2790bfdaa2ba"
