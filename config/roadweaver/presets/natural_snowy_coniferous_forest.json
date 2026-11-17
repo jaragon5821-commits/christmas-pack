@@ -1,0 +1,11 @@
+{
+  "id": "natural_snowy_coniferous_forest",
+  "name": "Snowy Coniferous Forest Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

@@ -8,6 +8,6 @@
     "minecraft:stone"
   ],
   "slabMaterials": [
-    "minecraft:acacia_slab"
+    "festivity:path_slab"
   ]
 }

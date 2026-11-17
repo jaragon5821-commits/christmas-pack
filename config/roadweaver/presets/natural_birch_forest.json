@@ -8,6 +8,6 @@
     "minecraft:gravel"
   ],
   "slabMaterials": [
-    "minecraft:birch_slab"
+    "festivity:path_slab"
   ]
 }

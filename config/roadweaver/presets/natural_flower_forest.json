@@ -8,6 +8,6 @@
     "minecraft:moss_block"
   ],
   "slabMaterials": [
-    "minecraft:oak_slab"
+    "festivity:path_slab"
   ]
 }

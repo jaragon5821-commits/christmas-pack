@@ -3,11 +3,9 @@
   "name": "Snowy Slopes Trail",
   "type": "NATURAL",
   "materials": [
-    "minecraft:snow_block",
-    "minecraft:powder_snow",
-    "minecraft:stone"
+    "minecraft:dirt_path"
   ],
   "slabMaterials": [
-    "minecraft:stone_slab"
+    "festivity:path_slab"
   ]
 }

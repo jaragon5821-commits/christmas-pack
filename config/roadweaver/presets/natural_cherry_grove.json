@@ -8,6 +8,6 @@
     "minecraft:coarse_dirt"
   ],
   "slabMaterials": [
-    "minecraft:cherry_slab"
+    "festivity:path_slab"
   ]
 }

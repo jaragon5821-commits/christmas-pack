@@ -1,0 +1,11 @@
+{
+  "id": "natural_black_forest",
+  "name": "Black Forest Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

@@ -3,11 +3,9 @@
   "name": "Jagged Peaks Trail",
   "type": "NATURAL",
   "materials": [
-    "minecraft:stone",
-    "minecraft:snow_block",
-    "minecraft:packed_ice"
+    "minecraft:dirt_path"
   ],
   "slabMaterials": [
-    "minecraft:stone_slab"
+    "festivity:path_slab"
   ]
 }

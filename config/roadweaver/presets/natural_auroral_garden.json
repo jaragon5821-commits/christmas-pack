@@ -1,0 +1,11 @@
+{
+  "id": "natural_auroral_garden",
+  "name": "Auroral Garden Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

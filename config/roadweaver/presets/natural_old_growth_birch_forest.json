@@ -8,6 +8,6 @@
     "minecraft:rooted_dirt"
   ],
   "slabMaterials": [
-    "minecraft:birch_slab"
+    "festivity:path_slab"
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "id": "natural_cika_woods",
+  "name": "Cika Woods Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

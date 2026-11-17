@@ -1,0 +1,11 @@
+{
+  "id": "natural_fir_clearing",
+  "name": "Fir Clearing Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

@@ -8,7 +8,6 @@
     "minecraft:rooted_dirt"
   ],
   "slabMaterials": [
-    "minecraft:bamboo_slab",
-    "minecraft:jungle_slab"
+    "festivity:path_slab"
   ]
 }

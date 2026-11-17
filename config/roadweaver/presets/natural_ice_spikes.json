@@ -3,11 +3,9 @@
   "name": "Ice Spikes Trail",
   "type": "NATURAL",
   "materials": [
-    "minecraft:packed_ice",
-    "minecraft:blue_ice",
-    "minecraft:snow_block"
+    "minecraft:dirt_path"
   ],
   "slabMaterials": [
-    "minecraft:spruce_slab"
+    "festivity:path_slab"
   ]
 }

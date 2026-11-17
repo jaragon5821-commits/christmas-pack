@@ -1,0 +1,11 @@
+{
+  "id": "natural_wintry_origin_valley",
+  "name": "Wintry Origin Valley Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "natural_aspen_glade",
+  "name": "Aspen Glade Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

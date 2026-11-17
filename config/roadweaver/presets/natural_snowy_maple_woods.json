@@ -1,0 +1,11 @@
+{
+  "id": "natural_snowy_maple_woods",
+  "name": "Snowy Maple Woods Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

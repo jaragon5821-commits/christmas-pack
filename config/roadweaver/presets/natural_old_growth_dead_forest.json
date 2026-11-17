@@ -1,0 +1,11 @@
+{
+  "id": "natural_old_growth_dead_forest",
+  "name": "Old Growth Dead Forest Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

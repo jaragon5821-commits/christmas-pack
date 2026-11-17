@@ -4962,6 +4962,10 @@ file = "config/openloader/packs/30_Chops_More_Animals_v1_off.zip"
 hash = "a2fda3ba30ea7f582135107e4da3091bccb84d1955ae71ef984216bae596221a"
 
 [[files]]
+file = "config/openloader/packs/31_Chops_Road_Surface_v1.zip"
+hash = "bf28678d5f43f56cf3f81b750a418905ed894b6ea00ad88d7abf0f137dc92135"
+
+[[files]]
 file = "config/openloader/packs/4_FA+Player-v1.1.zip"
 hash = "9ee3ae5b2fe5cd980e4041429dc66d88243f5f2420e2814e5361c746ad937f33"
 
@@ -5098,12 +5102,24 @@ file = "config/roadweaver/presets/mud_road.json"
 hash = "79c08089d347838fc3c4f553ef1326b9aacc95712ba0af3190af1d0a78626f38"
 
 [[files]]
+file = "config/roadweaver/presets/natural_aspen_boreal.json"
+hash = "4a762a41fef4a595ad78f87e199d742889323c75d406046934bb4067d4f0d580"
+
+[[files]]
+file = "config/roadweaver/presets/natural_aspen_glade.json"
+hash = "cf66209fa643c8fe492336ed34635572f1aaa1172ecee4e168dab5a35c142bf2"
+
+[[files]]
+file = "config/roadweaver/presets/natural_auroral_garden.json"
+hash = "3be7669bb801779bab50685b66e91b86afe6f1bbc30295bb36ae004869fd5bd1"
+
+[[files]]
 file = "config/roadweaver/presets/natural_badlands.json"
 hash = "27ad2eb79b6c9ce6b92446e2792223b8cc4b5ff5ed2ae17c38a228bb6b8881d9"
 
 [[files]]
 file = "config/roadweaver/presets/natural_bamboo_jungle.json"
-hash = "fec297341ae248363052186caf0811de0e411e51a89e84326c0edad03fae1706"
+hash = "66604273d0492afbce0ca6392cca525ce72f098146dfa7bee374d49433c345c9"
 
 [[files]]
 file = "config/roadweaver/presets/natural_beach.json"
@@ -5111,15 +5127,43 @@ hash = "093bfc69dd12c9b9d4206ba16da8f358b536e4fe421f3148e4257bd01d9a2b88"
 
 [[files]]
 file = "config/roadweaver/presets/natural_birch_forest.json"
-hash = "423c5c8274f0be9af1a44069111a52e29e781131f6eb75848f3c158726bfb4e8"
+hash = "1c605e237a5e46352a2b1fbd4be23467d846d72e5aeef8d34d446fb9e5a7c646"
+
+[[files]]
+file = "config/roadweaver/presets/natural_black_forest.json"
+hash = "bdceb557765745d802c1d8ea3d5dc5267600b24dbe8bd7ac75e6bba54bcb07c9"
+
+[[files]]
+file = "config/roadweaver/presets/natural_bog.json"
+hash = "320bb8bed0d5ed4ab98fea09194cc7f444d4783aa5514782663dadbd96d1b889"
+
+[[files]]
+file = "config/roadweaver/presets/natural_canadian_shield.json"
+hash = "1182f35a7bb74488ec6c0b63a47edb6c5aa838cdec85757a832d43e28e15e86d"
 
 [[files]]
 file = "config/roadweaver/presets/natural_cherry_grove.json"
-hash = "5375410192e3038e9494e1146fab5c340979e01a2471c2faf1f1606e074ee875"
+hash = "d193c6776ef1008fae69c3ffc25d9c89c2d31e872556d3a1241958f87f8e1854"
+
+[[files]]
+file = "config/roadweaver/presets/natural_cika_woods.json"
+hash = "6e01fddcc7d5142924eea0054a21763239ff78d7bdc7ac864007965826ddc3c2"
+
+[[files]]
+file = "config/roadweaver/presets/natural_cold_desert.json"
+hash = "19c50b20ec0b6589cf66567135af46db85022059b0d01ed8baab87df338d7de5"
+
+[[files]]
+file = "config/roadweaver/presets/natural_coniferous_forest.json"
+hash = "d6e91bfd6a629d2c16482843dcc8e9c899d2e9ffa2d0b3c46738bf67921c1a83"
 
 [[files]]
 file = "config/roadweaver/presets/natural_dark_forest.json"
 hash = "b0f4ebd514090402032d29c705a941e7c5173091ceeedb7e816b8232af522927"
+
+[[files]]
+file = "config/roadweaver/presets/natural_dead_forest.json"
+hash = "11039ad2d5ee0f984856796821a9b299f369f0b29c9f0b51c11e72f6343b83f2"
 
 [[files]]
 file = "config/roadweaver/presets/natural_desert.json"
@@ -5130,52 +5174,84 @@ file = "config/roadweaver/presets/natural_eroded_badlands.json"
 hash = "ad7d985f00aff7ad82e7a42b6fc79a01c3c9c4942a62ff7b8b1e755e0cc3d712"
 
 [[files]]
+file = "config/roadweaver/presets/natural_eroded_borealis.json"
+hash = "abae57a0277cb4a8f9e01d80d275ad06714f8d8ec2d0ce0536d3cd1bc5ce0bd7"
+
+[[files]]
+file = "config/roadweaver/presets/natural_fir_clearing.json"
+hash = "46b7853a416821e5c6f542012020b8bd5d09ae3b4a506150d4afc6dca962c8cb"
+
+[[files]]
 file = "config/roadweaver/presets/natural_flower_forest.json"
-hash = "a908d2a31a546916081591345b9367b00ad783b8256729d6f3ea01a1557e1a3f"
+hash = "e61b25a1883b6b5054159699c2fc3fbc137e4f1e99ab94eda1058e57c295abbd"
 
 [[files]]
 file = "config/roadweaver/presets/natural_forest.json"
-hash = "3773096a9cd28ac40d872669d3575993059973226f703ef235a01d0708d76319"
+hash = "4bdd43b3a9ae97614a2aa1cc2f515e3d290e5086e9aad170055542c9feefd8c0"
+
+[[files]]
+file = "config/roadweaver/presets/natural_frosted_coniferous_forest.json"
+hash = "195984d546692377594ae2614530a9060d1f3bc04f3a38aacfcca12c9dc21186"
+
+[[files]]
+file = "config/roadweaver/presets/natural_frosted_taiga.json"
+hash = "040347a766353ef481f1b5febf8477e39c689ed88b19b77406154731897ef954"
 
 [[files]]
 file = "config/roadweaver/presets/natural_frozen_peaks.json"
-hash = "bb2d6fccf28a4f9e8e230d840b19abdddfd643e8baca06711b70971b298cb18b"
+hash = "0a39cf4325659434436ce4a44ed1cb8d9f38bc66729a0686ce06072dcd95d770"
 
 [[files]]
 file = "config/roadweaver/presets/natural_frozen_river.json"
-hash = "cf8e99a14d87899c5871212c56e75ad0e0a2b7fae75b3ce838481724b322ebce"
+hash = "0f17639bde53c42e2173696d94c79a3a2fd230bb1e38cb90df35f6550859e075"
 
 [[files]]
 file = "config/roadweaver/presets/natural_grove.json"
-hash = "f41821d2c6745bcb48685b13db191690ecfc3a28d263baf3109dcd0f4bf23d5a"
+hash = "7061b24d107f8cffe41ffdd28daceea2743525b55b87832cfe7a5b637abe30da"
 
 [[files]]
 file = "config/roadweaver/presets/natural_ice_spikes.json"
-hash = "e56886859ddfc18aa237299b15c112b81b74d65ff50bbaf70e8e217baeaac7d2"
+hash = "0d8d8ed334cce7e0da5a92fbeb14498822493a77282091cd65825762958723eb"
 
 [[files]]
 file = "config/roadweaver/presets/natural_jagged_peaks.json"
-hash = "a9f9113019e613d5b3673771eed14921666fb8de71da1b24d9323563530824cb"
+hash = "a2e91f5a532fa9d79048202173aa68f5dfeca9f20b0428c1e13fa3bd75e53471"
 
 [[files]]
 file = "config/roadweaver/presets/natural_jungle.json"
-hash = "5f734bfef299edcd50e21f35873362bd52d5116fe0a3da617520187c524be8b3"
+hash = "8b7dddd1681e521ea89fad62d6bab6b41832d7555422c8542c54f54af21bd90d"
 
 [[files]]
 file = "config/roadweaver/presets/natural_mangrove_swamp.json"
 hash = "bedbd17ad9e678df1af5d482da936b3e33aecb20a83a131b27f1c660d7c105a2"
 
 [[files]]
+file = "config/roadweaver/presets/natural_maple_taiga.json"
+hash = "7ea7325b53f7f8e79db9c7a4cab967d8a5f6aa664bd6f7a26d9a0cc515f6ba16"
+
+[[files]]
+file = "config/roadweaver/presets/natural_maple_woods.json"
+hash = "0f821339d4b154d6e77b71586bbae9cbf43c86f343d283b49bddf4eee9f72cce"
+
+[[files]]
 file = "config/roadweaver/presets/natural_meadow.json"
-hash = "7d15f0fc169c16255c0a53f9e07f840e8b4cc69116da281f3da9554d3a361760"
+hash = "d6a3d9bb596c29c29aa48df4ebdbbd45a5bd08ed8579cfc20287d6859cc7bf39"
 
 [[files]]
 file = "config/roadweaver/presets/natural_mushroom_fields.json"
 hash = "18a7a91e0acbe2cc83ab4b36c2cbc993054b50cad848d6d52008352fee07d82d"
 
 [[files]]
+file = "config/roadweaver/presets/natural_muskeg.json"
+hash = "a17a79fb8ddfdbd9cdc5ef790029b4545d6303161571a2b877c7ac050123eb15"
+
+[[files]]
 file = "config/roadweaver/presets/natural_old_growth_birch_forest.json"
-hash = "4795a1d3270db0eae1a5d3bb3bfa84ba25ad7057c6ba4aff30148557bb5a6fa5"
+hash = "033acb321b6f73b9c4d9b1333cf639bc7b0a78b7886585b6cdd0adfa506b9480"
+
+[[files]]
+file = "config/roadweaver/presets/natural_old_growth_dead_forest.json"
+hash = "78c7a75abc61e4a17bd70f0469ee5075bbffe5c65d0b638bee0eece87beb31dc"
 
 [[files]]
 file = "config/roadweaver/presets/natural_old_growth_pine_taiga.json"
@@ -5187,39 +5263,79 @@ hash = "e8cdcc187097e0b5f89f2383ee08a8dace3c84e6b404539ea008546d5cf0ad7b"
 
 [[files]]
 file = "config/roadweaver/presets/natural_plains.json"
-hash = "2315e9d04f390001a57739e072250603d51791074a58b3c0f9cbf67c079f4c7c"
+hash = "c9f600c963a420e879d3fb529939442fcf4bb61d0ae1aaae88d7e6d00a2cdea7"
+
+[[files]]
+file = "config/roadweaver/presets/natural_pumpkin_patch.json"
+hash = "f6dac9bdb90090487e3a5b87e203d1c3da41a0168d39b53881c2eda0da9c093f"
+
+[[files]]
+file = "config/roadweaver/presets/natural_pumpkin_valley.json"
+hash = "0fc396071563aa92e9a8cef27ca3287a63f3d69462d9a97b7f3b23ef84181fce"
+
+[[files]]
+file = "config/roadweaver/presets/natural_redwood_forest.json"
+hash = "dbd4e61670a7127f53865b678d7e8ac859d3bda9fd62a9a759ec99df37f49acd"
+
+[[files]]
+file = "config/roadweaver/presets/natural_redwood_thicket.json"
+hash = "ed1cca222fd27d450a2128cd41b0f0fbdc3449737e34addece9cd14902066cc2"
 
 [[files]]
 file = "config/roadweaver/presets/natural_river.json"
-hash = "39fcd8ada0f545681406ffb9b43bd42497dc527712b74b299d4a02d454df6f80"
+hash = "d12e56ebf69d2847f287d5383929cda4874e5d2ae765aba9f72a67283c4ba525"
 
 [[files]]
 file = "config/roadweaver/presets/natural_savanna.json"
-hash = "a55216001b48efbf3ded5ddfd144c39d4b30530991df86a579b68d27e11b0e3d"
+hash = "9565f8698b8462d9785cab236c4d69819c734ad5629bc8e2ae6fef4effcf7fac"
 
 [[files]]
 file = "config/roadweaver/presets/natural_savanna_plateau.json"
-hash = "7d08d5fd03db576c6bfec741a9c5a54ce419558b2c31afd05224edef2d8947bc"
+hash = "b03c6e6b3040f129197b8e3b35f7869518308258b16a4bf2ea82469a7c624454"
+
+[[files]]
+file = "config/roadweaver/presets/natural_seasonal_forest.json"
+hash = "4ccbed0e6b90e7a5555954ca5b8e154bbec59af6b33646d55aeb913e072c73ad"
+
+[[files]]
+file = "config/roadweaver/presets/natural_skyris_vale.json"
+hash = "7f24ec6a941563e4c66607c13d33ae9de9d39f4901b7b78316ef46cbee900716"
+
+[[files]]
+file = "config/roadweaver/presets/natural_snowblossom_grove.json"
+hash = "3503d1123a7ccfb654b3ce12a668c453f70eab2c4f0c6079be19325bb2792db7"
 
 [[files]]
 file = "config/roadweaver/presets/natural_snowy_beach.json"
-hash = "589bcc7ed96fd4c25b30d1787d17b598befe80a37ed34b620f4e31b827f54467"
+hash = "342a6b3b28f4ff2db8fd2fd378f9c9153e9e7a14b79bf6babf8992edadb56ddc"
+
+[[files]]
+file = "config/roadweaver/presets/natural_snowy_coniferous_forest.json"
+hash = "c2ba1adbc6021036edd28f0ced364deda2dcf3aaaa154bcaee7b410962755fcb"
+
+[[files]]
+file = "config/roadweaver/presets/natural_snowy_fir_clearing.json"
+hash = "9a8d6a4e865ff7d06fb0f11e2c0d120561107de6564e8a4a7f5a7c4a42592b27"
+
+[[files]]
+file = "config/roadweaver/presets/natural_snowy_maple_woods.json"
+hash = "08c1f0ba75cc2358ffd3d943854b18d69baf7604825caa305ee60e6abbf93aa4"
 
 [[files]]
 file = "config/roadweaver/presets/natural_snowy_plains.json"
-hash = "891cb13317454f28fcf4a2c32c7e956605f2d8f4c8db805565811e8643599bb3"
+hash = "b5a6717c8eabc06ed21fe90eb5d21de918e0c90b62a51eec40c1c01a7aacb227"
 
 [[files]]
 file = "config/roadweaver/presets/natural_snowy_slopes.json"
-hash = "3a3c61af80f8f67cbdd513cbbe832a71268098591d11c6440fc1a3beb08d9a4d"
+hash = "a4a5fbd8e7ccf34eadb52bd0635fc42142ff9c46f31b9bf31d3d0f8900b539e3"
 
 [[files]]
 file = "config/roadweaver/presets/natural_snowy_taiga.json"
-hash = "1e8dd3e4587c8dbb7c455d668e8421b9f1c9b7307b35f572739ca870f81206df"
+hash = "ab4a22d25c1b897ebe8c323f822c78be4d602e96d2016ecaa774c828f25bd42e"
 
 [[files]]
 file = "config/roadweaver/presets/natural_sparse_jungle.json"
-hash = "e6a998408d148acef68292a2ad9c495f465795b207257dec12fd577039cbf87a"
+hash = "af13ce0c29a21ecb5c17bc055b3728eef07d4e22ef13dbe7ad8e5ac0eb231965"
 
 [[files]]
 file = "config/roadweaver/presets/natural_stony_peaks.json"
@@ -5231,7 +5347,7 @@ hash = "e91d88154134912ef2b90554370effb4efb0838298f43d1eafd935d7107e92a5"
 
 [[files]]
 file = "config/roadweaver/presets/natural_sunflower_plains.json"
-hash = "66a721809fb95d10898bb60cba68d2e4b8315d35dce7b2e601ac546221ee9ded"
+hash = "33f6fdcfd0ab178835a2603eedd759fdf22b572590cc0585a4aec43b15e8db7e"
 
 [[files]]
 file = "config/roadweaver/presets/natural_swamp.json"
@@ -5240,6 +5356,10 @@ hash = "cfe39667f337012eee14c5bebcf726426e6e14494b1aa8888aeb3c8c47b91fc9"
 [[files]]
 file = "config/roadweaver/presets/natural_taiga.json"
 hash = "ae023e734896fab62bd8eeb400ab0d4d21dc084e0bb560056bbd3a159ac72fb9"
+
+[[files]]
+file = "config/roadweaver/presets/natural_tundra.json"
+hash = "bc6b50f50c58e53d6dfa0fb83cd4c857f82daae64e23c02a35ee44a2a7519696"
 
 [[files]]
 file = "config/roadweaver/presets/natural_windswept_forest.json"
@@ -5258,8 +5378,16 @@ file = "config/roadweaver/presets/natural_windswept_savanna.json"
 hash = "4699e2b197f97ae9459cad5956e401004bdc5a5df42443ec3bb314cae10a8ec8"
 
 [[files]]
+file = "config/roadweaver/presets/natural_wintry_origin_valley.json"
+hash = "a951e98d82563d1fedee9aec07655a30dc4647133e6e7d0ec42427e985893cb6"
+
+[[files]]
 file = "config/roadweaver/presets/natural_wooded_badlands.json"
 hash = "a7249564ca97c98c9679a85c7236008b703ca4de77593d1af2af9e6b02a1df27"
+
+[[files]]
+file = "config/roadweaver/presets/natural_zelkova_forest.json"
+hash = "b12f21db138e5d9f85cd7f621c05ee5e4577251e243c266574e81454f7c6b4d0"
 
 [[files]]
 file = "config/roadweaver/presets/stone_street.json"
@@ -5267,7 +5395,7 @@ hash = "d953af1457a8cb242fa5cde67a51ce0ce8717031c4adc786b522118c2cc573c5"
 
 [[files]]
 file = "config/roadweaver/roadweaver.json"
-hash = "ef93003ed1f40919cb84cfb0c90b7452eee6809871babfddf16cd12000089045"
+hash = "eff7c55434df894d9d43e5e92e48ddf680d2236e7f05e33443946785e51b7ba3"
 
 [[files]]
 file = "config/roadweaver/structure_selection.json"

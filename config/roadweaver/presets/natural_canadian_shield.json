@@ -1,0 +1,11 @@
+{
+  "id": "natural_canadian_shield",
+  "name": "Canadian Shield Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "natural_bog",
+  "name": "Bog Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

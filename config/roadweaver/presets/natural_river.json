@@ -8,6 +8,6 @@
     "minecraft:sand"
   ],
   "slabMaterials": [
-    "minecraft:oak_slab"
+    "festivity:path_slab"
   ]
 }

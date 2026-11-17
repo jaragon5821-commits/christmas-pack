@@ -8,6 +8,6 @@
     "minecraft:gravel"
   ],
   "slabMaterials": [
-    "minecraft:jungle_slab"
+    "festivity:path_slab"
   ]
 }

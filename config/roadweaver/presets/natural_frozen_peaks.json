@@ -3,11 +3,9 @@
   "name": "Frozen Peaks Trail",
   "type": "NATURAL",
   "materials": [
-    "minecraft:packed_ice",
-    "minecraft:snow_block",
-    "minecraft:stone"
+    "minecraft:dirt_path"
   ],
   "slabMaterials": [
-    "minecraft:stone_slab"
+    "festivity:path_slab"
   ]
 }

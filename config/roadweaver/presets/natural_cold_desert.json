@@ -1,0 +1,11 @@
+{
+  "id": "natural_cold_desert",
+  "name": "Cold Desert Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

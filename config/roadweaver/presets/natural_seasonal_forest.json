@@ -1,0 +1,11 @@
+{
+  "id": "natural_seasonal_forest",
+  "name": "Seasonal Forest Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

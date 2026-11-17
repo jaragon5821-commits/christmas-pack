@@ -2,7 +2,7 @@
   "structurePrediction": {
     "enabled": true,
     "structureAvoidanceEnabled": true,
-    "predictRadiusChunks": 1024,
+    "predictRadiusChunks": 2048,
     "biomePrefilter": false,
     "structureWhitelist": [
       "#minecraft:village"
@@ -46,7 +46,7 @@
     "allowNatural": true,
     "placeWaypoints": false,
     "spawnCabinEnabled": true,
-    "averagingRadius": 4,
+    "averagingRadius": 10,
     "roadWidth": 4,
     "roadSignsEnabled": true,
     "lampInterval": 32,
@@ -54,7 +54,7 @@
     "tunnelEnabled": false,
     "tunnelClearHeight": 7,
     "preventTreesOnRoad": true,
-    "maxSlopeStepPerTwoSegments": 2,
+    "maxSlopeStepPerTwoSegments": 1,
     "slopeLimitEnabled": true
   },
   "bridge": {

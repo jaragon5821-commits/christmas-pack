@@ -1,0 +1,11 @@
+{
+  "id": "natural_redwood_thicket",
+  "name": "Redwood Thicket Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

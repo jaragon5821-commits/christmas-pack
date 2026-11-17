@@ -1,0 +1,11 @@
+{
+  "id": "natural_pumpkin_valley",
+  "name": "Pumpkin Valley Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "natural_eroded_borealis",
+  "name": "Eroded Borealis Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

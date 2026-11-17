@@ -1,0 +1,11 @@
+{
+  "id": "natural_redwood_forest",
+  "name": "Redwood Forest Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

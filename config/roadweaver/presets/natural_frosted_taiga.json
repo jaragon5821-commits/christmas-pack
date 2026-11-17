@@ -1,0 +1,11 @@
+{
+  "id": "natural_frosted_taiga",
+  "name": "Frosted Taiga Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

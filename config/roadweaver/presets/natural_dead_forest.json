@@ -1,0 +1,11 @@
+{
+  "id": "natural_dead_forest",
+  "name": "Dead Forest Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}

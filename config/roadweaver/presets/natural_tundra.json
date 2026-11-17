@@ -1,0 +1,11 @@
+{
+  "id": "natural_tundra",
+  "name": "Tundra Trail",
+  "type": "NATURAL",
+  "materials": [
+    "minecraft:dirt_path"
+  ],
+  "slabMaterials": [
+    "festivity:path_slab"
+  ]
+}
