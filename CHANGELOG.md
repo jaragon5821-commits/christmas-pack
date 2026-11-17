@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026.11.17-1
+- Cooking batch: Kaleidoscope Cookery + Tavern + Compat + Texture Expansion, Hands-On Delight (+ Diegesis); Cinematic Delight and Mama's Herbs & Harvest removed; Cinematic Interaction scenes off for table/furnace/smoker/blast furnace
+- Food groups v0.4.0, QoL recipes, chest loot tweaks, Festivity KubeJS 11-16
+- Structures v49f (hidden candy chest: H&H cinnamon -> cocoa beans)
+
 ## 2026.11.16-1
 - Christmas Structures v49e (sleigh vault rebuilt, snow sweep: dirt floors/no snow layers on custom pieces, natural pieces untouched)
 - Large Dungeons v5 (Elf Prison Mines entrance sunk flush with ground, ladders added)

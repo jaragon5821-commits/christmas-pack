@@ -4870,8 +4870,8 @@ file = "config/openloader/packs/15_Chops_Roadside_Christmas_v2.zip"
 hash = "2cf765fd5d84a24fceed8b30a844f49c3b5e6069e2d8ffd6d776b27fbf31749c"
 
 [[files]]
-file = "config/openloader/packs/16_Chops_Christmas_Structures_v49e.zip"
-hash = "cc00950bab41a033b5e5977b73f94929564ab2f32ea2c0a000250fece0cff034"
+file = "config/openloader/packs/16_Chops_Christmas_Structures_v49f.zip"
+hash = "52dc9f64c581e592458e7b9f837c24d0068223ade61acce4e1d4ef282c6cdfcc"
 
 [[files]]
 file = "config/openloader/packs/17_chop_christmas_caves_v1b.zip"
@@ -43099,7 +43099,7 @@ hash = "0bd478cb8dcc4f223f109703333cc862130f26b925cfd3fe07d469886bd73f74"
 
 [[files]]
 file = "kubejs/server_scripts/chop_synergy_tags.js"
-hash = "1f31a5b62a6d5bd79790b77274fb0a14964ca8ed36d92f6068ab105d15c5573f"
+hash = "8cc8306f74f7316203cce2c6b22f1017c23a6b0c333fe51609bef0ea9a68d1af"
 
 [[files]]
 file = "kubejs/server_scripts/chop_synergy_tags_letsdo.js"
