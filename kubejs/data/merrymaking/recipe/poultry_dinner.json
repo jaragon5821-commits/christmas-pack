@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "merrymaking"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:squash"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "merrymaking:quartz_platter"
+    },
+    {
+      "item": "festivity:squash"
+    },
+    {
+      "tag": "c:crops/corn"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:beetroot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "merrymaking:stuffed_poultry_dinner"
+  }
+}

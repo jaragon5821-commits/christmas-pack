@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.17-5
+- Festivity 0.9.175; Mama's Merry Making recipes fixed (latke, poultry dinner, sweet potato pie, gingerbread dough, harvest tray, mint bottle); gingerbread dough grouped
+
 ## 2026.11.17-4
 - Big update: Festivity 0.9.174, Farmer's Delight is the one kitchen (Kaleidoscope Cookery out, Let's Do stations onto FD, Lunchtime's Little Cookbook in), Townwright chop.57, Blueprint Board 0.1.0, colony style v3.22.1, quests v6 (new Giants chapter, FD text), cooking pot yield 1x
 
