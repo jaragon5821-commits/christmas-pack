@@ -1,0 +1,4 @@
+SnowRealMagic-1.21.1-NeoForge-12.2.3-chop.1.jar is Snow! Real Magic 12.2.3 by Snownee
+(https://github.com/Snownee/SnowRealMagic, MIT License, copyright 2018 Snownee; licence text beside this file).
+Modification: one class-file flag in snownee/snow/convert/BlockConverters.class, method of(BlockState)
+is marked synchronized, so concurrent worldgen threads cannot corrupt its cache. No other change.
