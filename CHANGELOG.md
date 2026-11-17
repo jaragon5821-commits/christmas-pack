@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.17-4
+- Big update: Festivity 0.9.174, Farmer's Delight is the one kitchen (Kaleidoscope Cookery out, Let's Do stations onto FD, Lunchtime's Little Cookbook in), Townwright chop.57, Blueprint Board 0.1.0, colony style v3.22.1, quests v6 (new Giants chapter, FD text), cooking pot yield 1x
+
 ## 2026.11.17-3
 - Removed Kaleidoscope Compat and Kaleidoscope Texture Expansion
 
