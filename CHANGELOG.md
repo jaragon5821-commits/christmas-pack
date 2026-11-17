@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.17-3
+- Removed Kaleidoscope Compat and Kaleidoscope Texture Expansion
+
 ## 2026.11.17-2
 - HOTFIX: Farmer's Delight cooking pot yield back to 1x (4x made 128-item stacks that crashed the host)
 
