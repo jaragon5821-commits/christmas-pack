@@ -43833,8 +43833,8 @@ hash = "e375c093c24e4464ccb2186b77177b742046c0d926c248805421ac8cd51fa998"
 metafile = true
 
 [[files]]
-file = "mods/custom-festivity-0.9.175.pw.toml"
-hash = "ef93e0ec09b74c2b42c7ab08c420690e64aeeab645edc8f579a22fe4e8fc4d45"
+file = "mods/custom-festivity-0.9.177.pw.toml"
+hash = "251eb94c034f376c8e5cf7a08c2f5de5a16f83369dd7f133a479c16e3ee01e84"
 metafile = true
 
 [[files]]
