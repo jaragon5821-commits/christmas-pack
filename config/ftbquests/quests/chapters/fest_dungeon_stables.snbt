@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "fest_dungeon_stables"
-	group: ""
+	group: "34057A5E60000005"
 	icon: {
 		id: "festivity:hound_masters_horn"
 	}
 	id: "317BA12BCD1F6748"
 	images: [ ]
-	order_index: 10
+	order_index: 27
 	quest_links: [ ]
 	quests: [
 		{

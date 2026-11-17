@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "fest_dungeon_citadel"
-	group: ""
+	group: "34057A5E60000005"
 	icon: {
 		id: "festivity:nice_list_quill"
 	}
 	id: "4359586307706BDD"
 	images: [ ]
-	order_index: 24
+	order_index: 29
 	quest_links: [ ]
 	quests: [
 		{

@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "fest_dungeon_snowglobe"
-	group: ""
+	group: "34057A5E60000005"
 	icon: {
 		id: "festivity:snow_globe"
 	}
 	id: "3257F28295F39567"
 	images: [ ]
-	order_index: 11
+	order_index: 28
 	quest_links: [ ]
 	quests: [
 		{

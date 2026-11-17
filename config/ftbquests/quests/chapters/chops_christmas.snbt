@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chops_christmas"
-	group: ""
+	group: "34057A5E60000001"
 	icon: {
 		id: "chop:red_large_ornament"
 	}

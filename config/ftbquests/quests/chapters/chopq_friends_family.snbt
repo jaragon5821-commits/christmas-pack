@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "chopq_friends_family"
-	group: ""
+	group: "34057A5E60000002"
 	icon: {
 		id: "mca:bouquet"
 	}
 	id: "34057A5E57000000"
 	images: [ ]
-	order_index: 21
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{

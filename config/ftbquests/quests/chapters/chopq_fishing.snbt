@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "chopq_fishing"
-	group: ""
+	group: "34057A5E60000004"
 	icon: {
 		id: "aquaculture:iron_fishing_rod"
 	}
 	id: "34057A5E58000000"
 	images: [ ]
-	order_index: 22
+	order_index: 20
 	quest_links: [ ]
 	quests: [
 		{

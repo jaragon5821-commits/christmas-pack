@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "chopq_storage"
-	group: ""
+	group: "34057A5E60000002"
 	icon: {
 		id: "sophisticatedstorage:chest"
 	}
 	id: "34057A5E55000000"
 	images: [ ]
-	order_index: 19
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{

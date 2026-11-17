@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "chopq_town_builder"
-	group: ""
+	group: "34057A5E60000002"
 	icon: {
 		id: "colonyautopilot:town_planner"
 	}
 	id: "34057A5E52000000"
 	images: [ ]
-	order_index: 15
+	order_index: 6
 	quest_links: [{
 		id: "34057A5E5281BD07"
 		linked_quest: "2CD104F5F6C42608"

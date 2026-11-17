@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "chopq_powah"
-	group: ""
+	group: "34057A5E60000002"
 	icon: {
 		id: "powah:energizing_orb"
 	}
 	id: "34057A5E56000000"
 	images: [ ]
-	order_index: 20
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{

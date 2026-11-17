@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "chopq_relics"
-	group: ""
+	group: "34057A5E60000004"
 	icon: {
 		components: {
 			"relics:data": {
@@ -42,7 +42,7 @@
 	}
 	id: "34057A5E59000000"
 	images: [ ]
-	order_index: 23
+	order_index: 21
 	quest_links: [ ]
 	quests: [
 		{

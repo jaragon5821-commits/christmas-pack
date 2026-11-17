@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "chopq_festive_workshop"
-	group: ""
+	group: "34057A5E60000003"
 	icon: {
 		id: "festivity:sled"
 	}
 	id: "34057A5E5A000000"
 	images: [ ]
-	order_index: 25
+	order_index: 15
 	quest_links: [ ]
 	quests: [
 		{

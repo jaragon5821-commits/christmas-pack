@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chop_colony_life"
-	group: ""
+	group: "34057A5E60000002"
 	icon: {
 		id: "minecolonies:blockhuttownhall"
 	}
 	id: "68AE80C9AE1F347B"
 	images: [ ]
-	order_index: 12
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

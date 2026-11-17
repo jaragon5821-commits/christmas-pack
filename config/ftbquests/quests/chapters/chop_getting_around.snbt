@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chop_getting_around"
-	group: ""
+	group: "34057A5E60000004"
 	icon: {
 		id: "festivity:sled"
 	}
 	id: "4CF18885D3604885"
 	images: [ ]
-	order_index: 14
+	order_index: 16
 	quest_links: [ ]
 	quests: [
 		{

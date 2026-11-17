@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "fest_dungeon_toyfactory"
-	group: ""
+	group: "34057A5E60000005"
 	icon: {
 		id: "festivity:drum_majors_baton"
 	}
 	id: "2BCFC14E03202CC5"
 	images: [ ]
-	order_index: 8
+	order_index: 25
 	quest_links: [ ]
 	quests: [
 		{

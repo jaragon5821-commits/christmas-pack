@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "chopq_long_winter"
-	group: ""
+	group: "34057A5E60000001"
 	icon: {
 		id: "festivity:heart_of_winter"
 	}

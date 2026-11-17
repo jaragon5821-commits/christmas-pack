@@ -1,0 +1,663 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chopq_winter_pantry"
+	group: "34057A5E60000003"
+	icon: {
+		id: "festivity:cranberries"
+	}
+	id: "34057A5E5E000000"
+	images: [ ]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "festivity:cranberries"
+			}
+			id: "34057A5E5E5CB20D"
+			rewards: [
+				{
+					id: "34057A5E5E1352EF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "34057A5E5E4DC6D3"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34057A5E5E5CB20D"]
+			icon: {
+				id: "festivity:ginger_root"
+			}
+			id: "34057A5E5E8114FA"
+			rewards: [
+				{
+					id: "34057A5E5EE0AD25"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5E68F501"
+					item: { count: 1, id: "festivity:ginger_root" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34057A5E5E5CB20D"]
+			icon: {
+				id: "festivity:peppermint"
+			}
+			id: "34057A5E5E194D52"
+			rewards: [
+				{
+					id: "34057A5E5E3752BC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5E2307FB"
+					item: { count: 1, id: "festivity:peppermint" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34057A5E5E5CB20D"]
+			icon: {
+				id: "festivity:parsnip"
+			}
+			id: "34057A5E5E1609A3"
+			rewards: [
+				{
+					id: "34057A5E5EFD34C9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5E35ED64"
+					item: { count: 1, id: "festivity:parsnip" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34057A5E5E5CB20D"]
+			icon: {
+				id: "festivity:brussels_sprouts"
+			}
+			id: "34057A5E5E248724"
+			rewards: [
+				{
+					id: "34057A5E5EB3483D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5EA15B28"
+					item: { count: 1, id: "festivity:brussels_sprouts" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34057A5E5E5CB20D"]
+			icon: {
+				id: "festivity:blue_corn"
+			}
+			id: "34057A5E5E2F82E4"
+			rewards: [
+				{
+					id: "34057A5E5E2643D3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5ED29A54"
+					item: { count: 1, id: "festivity:blue_corn" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34057A5E5E5CB20D"]
+			icon: {
+				id: "festivity:pinto_beans"
+			}
+			id: "34057A5E5E780469"
+			rewards: [
+				{
+					id: "34057A5E5E6C16B2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5E0F956E"
+					item: { count: 1, id: "festivity:pinto_beans" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34057A5E5E5CB20D"]
+			icon: {
+				id: "festivity:squash"
+			}
+			id: "34057A5E5E8DD39C"
+			rewards: [
+				{
+					id: "34057A5E5E8EB81C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5E165B69"
+					item: { count: 1, id: "festivity:squash" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34057A5E5E5CB20D"]
+			icon: {
+				id: "festivity:cranberry_bush"
+			}
+			id: "34057A5E5EE0F6DD"
+			rewards: [
+				{
+					id: "34057A5E5E476FD0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5EB67E0F"
+					item: { count: 1, id: "festivity:cranberries" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34057A5E5E5CB20D"]
+			icon: {
+				id: "festivity:winter_spice_bush"
+			}
+			id: "34057A5E5E42C4A7"
+			rewards: [
+				{
+					id: "34057A5E5EBFCA3D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5EEECD09"
+					item: { count: 1, id: "festivity:winter_spice" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34057A5E5E5CB20D"]
+			icon: {
+				id: "festivity:chestnuts"
+			}
+			id: "34057A5E5E2311BA"
+			rewards: [
+				{
+					id: "34057A5E5EEC3D7E"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5EB83E33"
+					item: { count: 1, id: "festivity:chestnuts" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["34057A5E5E5CB20D"]
+			icon: {
+				id: "festivity:pecans"
+			}
+			id: "34057A5E5EB7181C"
+			rewards: [
+				{
+					id: "34057A5E5E4BFEF4"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5E3E86E4"
+					item: { count: 1, id: "festivity:pecans" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["34057A5E5E5CB20D"]
+			icon: {
+				id: "festivity:orange"
+			}
+			id: "34057A5E5E24378F"
+			rewards: [
+				{
+					id: "34057A5E5E7C7670"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5EF418FE"
+					item: { count: 1, id: "festivity:orange" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["34057A5E5E5CB20D"]
+			icon: {
+				id: "festivity:lemon"
+			}
+			id: "34057A5E5EB6D4A2"
+			rewards: [
+				{
+					id: "34057A5E5E65BEB3"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5EB8CFC5"
+					item: { count: 1, id: "festivity:lemon" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["34057A5E5E5CB20D"]
+			icon: {
+				id: "festivity:fig"
+			}
+			id: "34057A5E5EF2921B"
+			rewards: [
+				{
+					id: "34057A5E5E047ECB"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5ECCC4D9"
+					item: { count: 1, id: "festivity:fig" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["34057A5E5E2311BA", "34057A5E5EB7181C", "34057A5E5E24378F", "34057A5E5EB6D4A2", "34057A5E5EF2921B"]
+			icon: {
+				id: "festivity:orange_sapling"
+			}
+			id: "34057A5E5E3A2AD6"
+			rewards: [
+				{
+					id: "34057A5E5ED224EF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5EA48882"
+					item: { count: 1, id: "festivity:chestnut_sapling" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5E239563"
+					item: { count: 1, id: "festivity:pecan_sapling" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5EF1E13C"
+					item: { count: 1, id: "festivity:orange_sapling" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5E47AFB0"
+					item: { count: 1, id: "festivity:lemon_sapling" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5E8670AD"
+					item: { count: 1, id: "festivity:fig_sapling" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["34057A5E5E5CB20D"]
+			icon: {
+				id: "festivity:vanilla_pod"
+			}
+			id: "34057A5E5EACD8B7"
+			rewards: [
+				{
+					id: "34057A5E5E6F41C5"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5E5DE46A"
+					item: { count: 1, id: "festivity:vanilla_pod" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34057A5E5E5CB20D"]
+			icon: {
+				id: "festivity:pinon_nuts"
+			}
+			id: "34057A5E5EC28F81"
+			rewards: [
+				{
+					id: "34057A5E5E8FA8F7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5EE7C060"
+					item: { count: 1, id: "festivity:pinon_nuts" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34057A5E5EC28F81"]
+			icon: {
+				id: "festivity:juniper_berries"
+			}
+			id: "34057A5E5E3C66EA"
+			rewards: [
+				{
+					id: "34057A5E5E22FE9B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5E27FF40"
+					item: { count: 1, id: "festivity:juniper_berries" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34057A5E5E2311BA"]
+			icon: {
+				id: "festivity:roasted_chestnuts"
+			}
+			id: "34057A5E5ED4CA90"
+			rewards: [
+				{
+					id: "34057A5E5EF57E77"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5EF373E6"
+					item: { count: 1, id: "festivity:roasted_chestnuts" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["34057A5E5EE0F6DD"]
+			icon: {
+				id: "festivity:cranberry_sauce"
+			}
+			id: "34057A5E5E38C322"
+			rewards: [
+				{
+					id: "34057A5E5EF9C19B"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5EE30FA0"
+					item: { count: 1, id: "festivity:cranberry_sauce" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["34057A5E5E24378F"]
+			icon: {
+				id: "festivity:candied_orange"
+			}
+			id: "34057A5E5ED03170"
+			rewards: [
+				{
+					id: "34057A5E5EEED271"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5E68AC77"
+					item: { count: 1, id: "festivity:candied_orange" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["34057A5E5E194D52"]
+			icon: {
+				id: "festivity:peppermint_bark"
+			}
+			id: "34057A5E5E8524D5"
+			rewards: [
+				{
+					id: "34057A5E5E4BA67F"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5EBEC3BB"
+					item: { count: 1, id: "festivity:peppermint_bark" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["34057A5E5EF2921B"]
+			icon: {
+				id: "festivity:figgy_pudding"
+			}
+			id: "34057A5E5E32E4C9"
+			rewards: [
+				{
+					id: "34057A5E5EF32C5E"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5EB80F2E"
+					item: { count: 1, id: "festivity:figgy_pudding" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["34057A5E5E8114FA"]
+			icon: {
+				id: "festivity:gingerbread_latte"
+			}
+			id: "34057A5E5E9A38BE"
+			rewards: [
+				{
+					id: "34057A5E5E9DDD50"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5E46F709"
+					item: { count: 1, id: "festivity:gingerbread_latte" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["34057A5E5ED4CA90", "34057A5E5E38C322", "34057A5E5ED03170", "34057A5E5E8524D5", "34057A5E5E32E4C9", "34057A5E5E9A38BE"]
+			icon: {
+				id: "festivity:figgy_pudding"
+			}
+			id: "34057A5E5E57E0BC"
+			rewards: [
+				{
+					id: "34057A5E5EA67F10"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "34057A5E5E86DC56"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 10.5d
+		}
+	]
+}

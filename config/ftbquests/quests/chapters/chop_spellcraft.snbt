@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chop_spellcraft"
-	group: ""
+	group: "34057A5E60000004"
 	icon: {
 		id: "irons_spellbooks:inscription_table"
 	}
 	id: "34057A5E30000085"
 	images: [ ]
-	order_index: 28
+	order_index: 22
 	quest_links: [ ]
 	quests: [
 		{

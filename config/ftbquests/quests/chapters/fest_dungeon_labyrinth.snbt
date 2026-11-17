@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "fest_dungeon_labyrinth"
-	group: ""
+	group: "34057A5E60000005"
 	icon: {
 		id: "festivity:rolling_pin"
 	}
 	id: "57D2508BA57D5D5F"
 	images: [ ]
-	order_index: 4
+	order_index: 23
 	quest_links: [ ]
 	quests: [
 		{

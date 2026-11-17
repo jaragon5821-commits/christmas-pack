@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
 	filename: "festivity_nice_list"
-	group: ""
+	group: "34057A5E60000001"
 	icon: {
 		id: "chop:ribbon_token"
 	}

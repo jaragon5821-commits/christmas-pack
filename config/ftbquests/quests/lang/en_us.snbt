@@ -3,6 +3,7 @@
 	chapter.2BCFC14E03202CC5.title: "The Toy Factory"
 	chapter.317BA12BCD1F6748.title: "The Frozen Reindeer Stables"
 	chapter.3257F28295F39567.title: "The Sunken Snow Globe"
+	chapter.34057A5E30000085.title: "Spellcraft"
 	chapter.34057A5E400000A6.title: "Wonders of Winter"
 	chapter.34057A5E50000000.chapter_subtitle: ["How the pack works: keys, tools and the handy mods. Every quest here gives a little XP."]
 	chapter.34057A5E50000000.title: "Start Here"
@@ -30,6 +31,8 @@
 	chapter.34057A5E5B000000.title: "The Colony Tree"
 	chapter.34057A5E5C000000.chapter_subtitle: ["Old stories, very big statues. Go and see them for yourself."]
 	chapter.34057A5E5C000000.title: "Visit the Giants"
+	chapter.34057A5E5E000000.chapter_subtitle: ["New crops, bushes and fruit trees grow wild out there. Find them, plant them, cook with them."]
+	chapter.34057A5E5E000000.title: "Winter Pantry"
 	chapter.404E8D82CC44BFB6.title: "Kitchen & Farm"
 	chapter.4359586307706BDD.title: "The Naughty Citadel"
 	chapter.4C1A0F15AFE70001.title: "Fire Safety"
@@ -41,6 +44,11 @@
 	chapter.7A86640812C1EC81.title: "The Elf Prison Mines"
 	chapter.7C0A15F3B1D2E401.title: "Naughty List"
 	chapter.7C0A15F3B1D2E501.title: "Nice List"
+	chapter_group.34057A5E60000001.title: "Story"
+	chapter_group.34057A5E60000002.title: "Home & Colony"
+	chapter_group.34057A5E60000003.title: "Kitchen & Crafting"
+	chapter_group.34057A5E60000004.title: "Out in the World"
+	chapter_group.34057A5E60000005.title: "Dungeons"
 	quest.0139074B2CA1C12A.quest_desc: ["Moves items around town so workers aren't stuck waiting."]
 	quest.0139074B2CA1C12A.title: "The Courier"
 	quest.01B50F5E6733E669.quest_desc: ["&fSnowy roofs&r come in blocks, stairs and slabs: snowballs on top of bricks, stone or spruce. Instant winter village."]
@@ -223,6 +231,101 @@
 	quest.32CF06A344E6243D.title: "Make It Glow"
 	quest.3372B096386B0B31.quest_desc: ["Villages connect by roads. Follow one and see where it goes."]
 	quest.3372B096386B0B31.title: "Visit a Village"
+	quest.34057A5E30000001.quest_desc: [
+		"Santa's workshop never ran on elbow grease alone. Spells are written on scrolls, then copied into spell books."
+		"&7Arcane Essence comes from magical mobs and loot.&r"
+	]
+	quest.34057A5E30000001.title: "A Touch of Magic"
+	quest.34057A5E30000002.quest_desc: ["A spell book holds the spells you learn. The Ironbound Tome is a good start."]
+	quest.34057A5E30000002.title: "Your First Spell Book"
+	quest.34057A5E30000003.quest_desc: ["Put your book and a scroll on the table to write the spell into the book."]
+	quest.34057A5E30000003.title: "The Inscription Table"
+	quest.34057A5E30000004.quest_desc: ["Make your own scrolls from ink, paper and a school &6focus&r. Each festive school has its own focus."]
+	quest.34057A5E30000004.title: "The Scroll Forge"
+	quest.34057A5E30000005.quest_desc: ["Essence woven into wool. Mage robes of every school are sewn from it."]
+	quest.34057A5E30000005.title: "Arcane Cloth"
+	quest.34057A5E30000006.quest_desc: [
+		"Ornaments, tinsel and wrapping paper turned into weapons."
+		""
+		"In snowy and cold lands, Yuletide casters wander after dark. Defeat one for runes, a chance at their &6Star Topper Focus&r, and sometimes a scroll."
+	]
+	quest.34057A5E30000006.title: "Yuletide Caster"
+	quest.34057A5E30000007.quest_desc: ["Casters drop these, or craft one: 8 Star Topper Focuses around a Blank Runestone."]
+	quest.34057A5E30000007.title: "Yuletide Rune"
+	quest.34057A5E30000008.quest_desc: ["An 8-slot book that boosts Yuletide spells. Craft: runes in the corners, Arcane Essence on the sides, an Ironbound Tome in the middle."]
+	quest.34057A5E30000008.title: "Yuletide Spellbook"
+	quest.34057A5E30000009.quest_desc: ["A focus on top, a rune in the middle, an Arcane Ingot at the base."]
+	quest.34057A5E30000009.title: "Yuletide Staff"
+	quest.34057A5E3000000A.quest_desc: ["The full set: hood, robes, leggings, boots. Arcane Cloth with a Yuletide Rune sewn in."]
+	quest.34057A5E3000000A.title: "Yuletide Mage Robes"
+	quest.34057A5E3000000B.quest_desc: ["Eight runes around an Empty Upgrade Orb. Use it at an Arcane Anvil to add Yuletide power to gear."]
+	quest.34057A5E3000000B.title: "Yuletide Upgrade Orb"
+	quest.34057A5E3000000C.quest_desc: [
+		"Coal, pranks and Krampus chains. Mean, sneaky, effective."
+		""
+		"In snowy and cold lands, Naughty casters wander after dark. Defeat one for runes, a chance at their &6Lump of Coal Focus&r, and sometimes a scroll."
+	]
+	quest.34057A5E3000000C.title: "Naughty Caster"
+	quest.34057A5E3000000D.quest_desc: ["Casters drop these, or craft one: 8 Lump of Coal Focuses around a Blank Runestone."]
+	quest.34057A5E3000000D.title: "Naughty Rune"
+	quest.34057A5E3000000E.quest_desc: ["An 8-slot book that boosts Naughty spells. Craft: runes in the corners, Arcane Essence on the sides, an Ironbound Tome in the middle."]
+	quest.34057A5E3000000E.title: "Naughty Spellbook"
+	quest.34057A5E3000000F.quest_desc: ["A focus on top, a rune in the middle, an Arcane Ingot at the base."]
+	quest.34057A5E3000000F.title: "Naughty Staff"
+	quest.34057A5E30000010.quest_desc: ["The full set: hood, robes, leggings, boots. Arcane Cloth with a Naughty Rune sewn in."]
+	quest.34057A5E30000010.title: "Naughty Mage Robes"
+	quest.34057A5E30000011.quest_desc: ["Eight runes around an Empty Upgrade Orb. Use it at an Arcane Anvil to add Naughty power to gear."]
+	quest.34057A5E30000011.title: "Naughty Upgrade Orb"
+	quest.34057A5E30000012.quest_desc: [
+		"Wind-up soldiers, nutcrackers and toy trains that fight for you."
+		""
+		"In snowy and cold lands, Toymaker casters wander after dark. Defeat one for runes, a chance at their &6Wind-up Key Focus&r, and sometimes a scroll."
+	]
+	quest.34057A5E30000012.title: "Toymaker Caster"
+	quest.34057A5E30000013.quest_desc: ["Casters drop these, or craft one: 8 Wind-up Key Focuses around a Blank Runestone."]
+	quest.34057A5E30000013.title: "Toymaker Rune"
+	quest.34057A5E30000014.quest_desc: ["An 8-slot book that boosts Toymaker spells. Craft: runes in the corners, Arcane Essence on the sides, an Ironbound Tome in the middle."]
+	quest.34057A5E30000014.title: "Toymaker Spellbook"
+	quest.34057A5E30000015.quest_desc: ["A focus on top, a rune in the middle, an Arcane Ingot at the base."]
+	quest.34057A5E30000015.title: "Toymaker Staff"
+	quest.34057A5E30000016.quest_desc: ["The full set: hood, robes, leggings, boots. Arcane Cloth with a Toymaker Rune sewn in."]
+	quest.34057A5E30000016.title: "Toymaker Mage Robes"
+	quest.34057A5E30000017.quest_desc: ["Eight runes around an Empty Upgrade Orb. Use it at an Arcane Anvil to add Toymaker power to gear."]
+	quest.34057A5E30000017.title: "Toymaker Upgrade Orb"
+	quest.34057A5E30000018.quest_desc: [
+		"Warmth, feasts and gingerbread golems. The healer's school."
+		""
+		"In snowy and cold lands, Hearthfire casters wander after dark. Defeat one for runes, a chance at their &6Gingerbread Heart Focus&r, and sometimes a scroll."
+	]
+	quest.34057A5E30000018.title: "Hearthfire Caster"
+	quest.34057A5E30000019.quest_desc: ["Casters drop these, or craft one: 8 Gingerbread Heart Focuses around a Blank Runestone."]
+	quest.34057A5E30000019.title: "Hearthfire Rune"
+	quest.34057A5E3000001A.quest_desc: ["An 8-slot book that boosts Hearthfire spells. Craft: runes in the corners, Arcane Essence on the sides, an Ironbound Tome in the middle."]
+	quest.34057A5E3000001A.title: "Hearthfire Spellbook"
+	quest.34057A5E3000001B.quest_desc: ["A focus on top, a rune in the middle, an Arcane Ingot at the base."]
+	quest.34057A5E3000001B.title: "Hearthfire Staff"
+	quest.34057A5E3000001C.quest_desc: ["The full set: hood, robes, leggings, boots. Arcane Cloth with a Hearthfire Rune sewn in."]
+	quest.34057A5E3000001C.title: "Hearthfire Mage Robes"
+	quest.34057A5E3000001D.quest_desc: ["Eight runes around an Empty Upgrade Orb. Use it at an Arcane Anvil to add Hearthfire power to gear."]
+	quest.34057A5E3000001D.title: "Hearthfire Upgrade Orb"
+	quest.34057A5E3000001E.quest_desc: [
+		"Northern lights, shooting stars and the long polar night."
+		""
+		"In snowy and cold lands, Aurora casters wander after dark. Defeat one for runes, a chance at their &6Aurora Shard Focus&r, and sometimes a scroll."
+	]
+	quest.34057A5E3000001E.title: "Aurora Caster"
+	quest.34057A5E3000001F.quest_desc: ["Casters drop these, or craft one: 8 Aurora Shard Focuses around a Blank Runestone."]
+	quest.34057A5E3000001F.title: "Aurora Rune"
+	quest.34057A5E30000020.quest_desc: ["An 8-slot book that boosts Aurora spells. Craft: runes in the corners, Arcane Essence on the sides, an Ironbound Tome in the middle."]
+	quest.34057A5E30000020.title: "Aurora Spellbook"
+	quest.34057A5E30000021.quest_desc: ["A focus on top, a rune in the middle, an Arcane Ingot at the base."]
+	quest.34057A5E30000021.title: "Aurora Staff"
+	quest.34057A5E30000022.quest_desc: ["The full set: hood, robes, leggings, boots. Arcane Cloth with an Aurora Rune sewn in."]
+	quest.34057A5E30000022.title: "Aurora Mage Robes"
+	quest.34057A5E30000023.quest_desc: ["Eight runes around an Empty Upgrade Orb. Use it at an Arcane Anvil to add Aurora power to gear."]
+	quest.34057A5E30000023.title: "Aurora Upgrade Orb"
+	quest.34057A5E30000024.quest_desc: ["All five festive spellbooks. Santy Claws' own casters would be jealous."]
+	quest.34057A5E30000024.title: "Master of the Five Schools"
 	quest.34057A5E40000001.quest_desc: [
 		"The world is full of strange and wonderful places: giant statues, lost camps, frozen ships and Jack Frost's own domain."
 		"Every quest here completes the moment you &6walk into&r that place. Roads are a good place to start looking."
@@ -1946,6 +2049,94 @@
 		"Walk towards it if you find it."
 	]
 	quest.34057A5E5CFFDDC0.title: "The Lamplighter"
+	quest.34057A5E5E1609A3.quest_desc: ["Wild parsnips grow in snowy places and taiga forests."]
+	quest.34057A5E5E1609A3.title: "Parsnips"
+	quest.34057A5E5E194D52.quest_desc: ["Wild peppermint grows in snowy places and taiga forests. Keep the seeds."]
+	quest.34057A5E5E194D52.title: "Peppermint"
+	quest.34057A5E5E2311BA.quest_desc: [
+		"Chestnut trees grow in forests and taiga."
+		"Fruit grows on the leaves in stages. Pick it when it's ripe."
+	]
+	quest.34057A5E5E2311BA.title: "Chestnut Tree"
+	quest.34057A5E5E24378F.quest_desc: [
+		"Orange trees grow in savanna and jungle. Rare out here, so plant the sapling."
+		"Fruit grows on the leaves in stages. Pick it when it's ripe."
+	]
+	quest.34057A5E5E24378F.title: "Orange Tree"
+	quest.34057A5E5E248724.quest_desc: ["Somebody has to like them. Wild ones grow in snowy places and taiga forests."]
+	quest.34057A5E5E248724.title: "Brussels Sprouts"
+	quest.34057A5E5E2F82E4.quest_desc: ["Wild blue corn grows on plains, savanna and badlands. It grows two blocks tall."]
+	quest.34057A5E5E2F82E4.title: "Blue Corn"
+	quest.34057A5E5E32E4C9.quest_desc: [
+		"Now bring us some."
+		"Check its recipe in JEI."
+	]
+	quest.34057A5E5E32E4C9.title: "Figgy Pudding"
+	quest.34057A5E5E38C322.quest_desc: [
+		"Every roast needs it."
+		"Check its recipe in JEI."
+	]
+	quest.34057A5E5E38C322.title: "Cranberry Sauce"
+	quest.34057A5E5E3A2AD6.quest_desc: ["Collect a sapling of all five trees and plant an orchard at home."]
+	quest.34057A5E5E3A2AD6.title: "An Orchard of Your Own"
+	quest.34057A5E5E3C66EA.quest_desc: ["In snowy, dry or mountain country, spruce and pine leaves can drop juniper berries too."]
+	quest.34057A5E5E3C66EA.title: "Juniper Berries"
+	quest.34057A5E5E42C4A7.quest_desc: ["Winter spice bushes grow in forests. One spice does the work of nutmeg, clove and anise."]
+	quest.34057A5E5E42C4A7.title: "Winter Spice"
+	quest.34057A5E5E57E0BC.quest_desc: ["Your pantry is full of winter. Set a table and invite everyone round."]
+	quest.34057A5E5E57E0BC.title: "A Full Pantry"
+	quest.34057A5E5E5CB20D.quest_desc: [
+		"New things grow wild this winter: crops, berry bushes, nut and fruit trees, even a vine."
+		"Break a wild plant to get its crop or seeds, then grow your own at home."
+	]
+	quest.34057A5E5E5CB20D.title: "Winter Pantry"
+	quest.34057A5E5E780469.quest_desc: ["Wild pinto beans grow on plains, savanna and badlands."]
+	quest.34057A5E5E780469.title: "Pinto Beans"
+	quest.34057A5E5E8114FA.quest_desc: ["Wild ginger grows in small patches in snowy places and taiga forests."]
+	quest.34057A5E5E8114FA.title: "Ginger Root"
+	quest.34057A5E5E8524D5.quest_desc: [
+		"Snap it into pieces and share it round."
+		"Check its recipe in JEI."
+	]
+	quest.34057A5E5E8524D5.title: "Peppermint Bark"
+	quest.34057A5E5E8DD39C.quest_desc: ["Wild squash grows on plains, savanna and badlands."]
+	quest.34057A5E5E8DD39C.title: "Squash"
+	quest.34057A5E5E9A38BE.quest_desc: [
+		"Warm hands, warm heart."
+		"Check its recipe in JEI."
+	]
+	quest.34057A5E5E9A38BE.title: "Gingerbread Latte"
+	quest.34057A5E5EACD8B7.quest_desc: ["Vanilla vines climb trees at the edge of jungles. The pods ripen on the vine."]
+	quest.34057A5E5EACD8B7.title: "Vanilla"
+	quest.34057A5E5EB6D4A2.quest_desc: [
+		"Lemon trees grow in savanna and other hot places."
+		"Fruit grows on the leaves in stages. Pick it when it's ripe."
+	]
+	quest.34057A5E5EB6D4A2.title: "Lemon Tree"
+	quest.34057A5E5EB7181C.quest_desc: [
+		"Pecan trees grow in forests and on plains."
+		"Fruit grows on the leaves in stages. Pick it when it's ripe."
+	]
+	quest.34057A5E5EB7181C.title: "Pecan Tree"
+	quest.34057A5E5EC28F81.quest_desc: ["Spruce and pine leaves sometimes drop pinon nuts when you break them. Fortune helps a little."]
+	quest.34057A5E5EC28F81.title: "Pinon Nuts"
+	quest.34057A5E5ED03170.quest_desc: [
+		"Sweet, sticky and bright."
+		"Check its recipe in JEI."
+	]
+	quest.34057A5E5ED03170.title: "Candied Orange"
+	quest.34057A5E5ED4CA90.quest_desc: [
+		"Roast chestnuts on a campfire, in a smoker or in a furnace."
+		"Check its recipe in JEI."
+	]
+	quest.34057A5E5ED4CA90.title: "Chestnuts Roasting"
+	quest.34057A5E5EE0F6DD.quest_desc: ["Cranberry bushes grow along rivers, frozen rivers and swamps. Pick the berries when the bush is red."]
+	quest.34057A5E5EE0F6DD.title: "Cranberries"
+	quest.34057A5E5EF2921B.quest_desc: [
+		"Fig trees grow in badlands, savanna and dry places."
+		"Fruit grows on the leaves in stages. Pick it when it's ripe."
+	]
+	quest.34057A5E5EF2921B.title: "Fig Tree"
 	quest.341E64D86C318400.quest_desc: ["A seasonal classic."]
 	quest.341E64D86C318400.title: "Eggnog"
 	quest.350ED68F4D3729FA.quest_desc: ["The &62x2&r and &63x3&r picture windows show one big picture across the whole square. They line up to the world grid, so shuffle your square a block if the picture looks cut."]
@@ -2285,6 +2476,8 @@
 	task.34057A5E5CE52988.title: "All six"
 	task.34057A5E5CEA6417.title: "I'll go and look"
 	task.34057A5E5CFEB5F9.title: "Onward"
+	task.34057A5E5E4DC6D3.title: "Let's forage"
+	task.34057A5E5E86DC56.title: "Done"
 	task.46D5C33595D8E442.title: "Let's go"
 	task.4C1A0F15AFE70003.title: "I understand: fire spreads"
 	task.57A28E1AD049FA3B.title: "I've donated"

@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chop_kitchen_farm"
-	group: ""
+	group: "34057A5E60000003"
 	icon: {
 		id: "farmersdelight:cooking_pot"
 	}
 	id: "404E8D82CC44BFB6"
 	images: [ ]
-	order_index: 13
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{

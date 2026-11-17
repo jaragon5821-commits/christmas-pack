@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "chopq_christmas_baking"
-	group: ""
+	group: "34057A5E60000003"
 	icon: {
 		id: "bakery:chocolate_cake"
 	}
 	id: "34057A5E53000000"
 	images: [ ]
-	order_index: 17
+	order_index: 14
 	quest_links: [{
 		id: "34057A5E539D70EE"
 		linked_quest: "659A070A3E0E32CA"

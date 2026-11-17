@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "fest_endgame"
-	group: ""
+	group: "34057A5E60000005"
 	icon: {
 		id: "festivity:heart_of_winter"
 	}
 	id: "5F574D9E58929D70"
 	images: [ ]
-	order_index: 16
+	order_index: 30
 	quest_links: [ ]
 	quests: [
 		{
