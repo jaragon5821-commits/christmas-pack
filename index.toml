@@ -42922,6 +42922,10 @@ file = "kubejs/client_scripts/chop_keys_atlas.js"
 hash = "d24f2f2a37740f7e91b9aad53c282178cf8742d742a9991768076ee80d80ed7e"
 
 [[files]]
+file = "kubejs/client_scripts/chop_letsdo_hide.js"
+hash = "39850b835b9bdd47bb7e48b5571d911a7498708fe844f3d40f580ce8c09b39f8"
+
+[[files]]
 file = "kubejs/client_scripts/chop_xmas_tooltips.js"
 hash = "5091ebffbdb82cc1147b815f7256756d7527bdbe177251410656b78147304ad3"
 
@@ -43039,7 +43043,7 @@ hash = "2409c06fe83355c2154fc9ce2333c6dd905609acca40c74a4c7b5ad7a6d48e72"
 
 [[files]]
 file = "kubejs/server_scripts/chop_crop_unify.js"
-hash = "282c0035e659f11e788a4b17d157eea3b6930605e3b336a1cdead8ad0e8b80b0"
+hash = "ee55b6cec24c268abccc4fdd01c62fd329e399a207efab97ae24cfcf87ff638f"
 
 [[files]]
 file = "kubejs/server_scripts/chop_donation_bucket.js"
@@ -43060,6 +43064,10 @@ hash = "d43937904c50ed7c2b4c7fa08ea0b0bf18c151352cbe34634a607ad121d6c1b0"
 [[files]]
 file = "kubejs/server_scripts/chop_keys_cmd.js"
 hash = "19a2be13a966fc095d095a8d21e11299ef9173f9d85e2b712316fbbcb117bd9b"
+
+[[files]]
+file = "kubejs/server_scripts/chop_letsdo_to_fd.js"
+hash = "ddfd704541292742c4f74c98854ca6fd1cc9ecf879454cace5589846c154cddf"
 
 [[files]]
 file = "kubejs/server_scripts/chop_merrymaking_hh_remap.js"
@@ -43176,6 +43184,10 @@ hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 [[files]]
 file = "kubejs/startup_scripts/chop_donation_kettle.js"
 hash = "bf74c38883b16dace18627dc93028f6578be86b0003235c4060fab04ea6361ec"
+
+[[files]]
+file = "kubejs/startup_scripts/chop_letsdo_tabs.js"
+hash = "56959531e3f472a43a43c507115cf6f391ac1d6d213391a2536411cbe02061dc"
 
 [[files]]
 file = "kubejs/startup_scripts/chop_modname.js"
