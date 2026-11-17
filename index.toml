@@ -4899,7 +4899,7 @@ hash = "026e73d58ab17b362317b5c5e9585700517cf0bceb21f076c3b5b91b5b146166"
 
 [[files]]
 file = "config/openloader/packs/21_Chops_Christmas_Music_RP.zip"
-hash = "c1d19114a549e49550a6b6f843e5aab2c752af66af14d906dd3a605b46dd7e7c"
+hash = "7193b7091c98d34753e17a5c0dd28325034ed9c51f3fbbac82ef471231ceb18d"
 
 [[files]]
 file = "config/openloader/packs/21b_Chops_Christmas_Music_Ambient_RP.zip"
@@ -43070,6 +43070,10 @@ file = "kubejs/server_scripts/chop_burnt_hut_repair.js"
 hash = "2409c06fe83355c2154fc9ce2333c6dd905609acca40c74a4c7b5ad7a6d48e72"
 
 [[files]]
+file = "kubejs/server_scripts/chop_carryon_animals.js"
+hash = "e8bf5e9f3366efbbdcc9670ba1959a0f369de5396524b1f303e7060104f0d59d"
+
+[[files]]
 file = "kubejs/server_scripts/chop_crop_unify.js"
 hash = "a2cc2195d296a2cb9ca7458c007aaefc492f5ebc134b2e5c37e313c0b527f476"
 
@@ -43452,6 +43456,11 @@ hash = "f1e56a0818e881712e424940a2c96602b6f4d6130e0649d2fcbf9aef01d99f87"
 metafile = true
 
 [[files]]
+file = "mods/carry-on.pw.toml"
+hash = "838dbcb90c93bab58691e82c95045bd97c3e096e3a2680a00cf063e56ce35ce3"
+metafile = true
+
+[[files]]
 file = "mods/catalogue.pw.toml"
 hash = "156779865af3ee94b525185b0444373413a8261df9669789f01d76a9c2e356eb"
 metafile = true
@@ -43642,8 +43651,8 @@ hash = "c38a1257e028370f0312aee8b3bad6e87bc7ec6e84559cc9051e5770e2a9f16d"
 metafile = true
 
 [[files]]
-file = "mods/custom-chop-autopilot-1.3.4-chop.57.pw.toml"
-hash = "f51bf3d9a5bbe831ee5ebac878f727a03a8c47082f7a6166278715a94788cfaf"
+file = "mods/custom-chop-autopilot-1.3.4-chop.58.pw.toml"
+hash = "b7f63fc9aeaefa71acbedd853df29491c4500d6425ff1de0110500b64b42d8a3"
 metafile = true
 
 [[files]]
@@ -43719,6 +43728,11 @@ metafile = true
 [[files]]
 file = "mods/domum-ornamentum.pw.toml"
 hash = "0e98b9f4e275ae78799f2156a68bc8bde84760a280f6f7efdee94c3ba087fc2d"
+metafile = true
+
+[[files]]
+file = "mods/double-doors.pw.toml"
+hash = "d3c6f05de0c03ad9782c7eeaca201d687a4ea8abeb2d3bff852786e7b00cad13"
 metafile = true
 
 [[files]]
