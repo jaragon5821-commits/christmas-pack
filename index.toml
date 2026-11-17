@@ -43062,6 +43062,10 @@ file = "kubejs/server_scripts/chop_keys_cmd.js"
 hash = "19a2be13a966fc095d095a8d21e11299ef9173f9d85e2b712316fbbcb117bd9b"
 
 [[files]]
+file = "kubejs/server_scripts/chop_merrymaking_hh_remap.js"
+hash = "651a7f96f039f7188c0555edd39cc5ae1fa8c07218f8875a2d744f8b4a95e05e"
+
+[[files]]
 file = "kubejs/server_scripts/chop_no_autopilot_guide.js"
 hash = "1187dda2d71a08c6c8950e34b4dc890f42b3321b4454f235dd1adc3e1628b168"
 
@@ -43657,6 +43661,11 @@ hash = "a6967d761dde867ccc1af53dc9f4e530eb9917a9cb21d0fc15708e8cd2c0f2ba"
 metafile = true
 
 [[files]]
+file = "mods/diegesis-api.pw.toml"
+hash = "ae17d6e99341468fee6adcc8863ab319dd25958fa2d98dfdf5c317f23df92950"
+metafile = true
+
+[[files]]
 file = "mods/ding.pw.toml"
 hash = "54c0985498a40c7b9c63e336c11c1c48770dbfdf50c07dff988c1b086d26ba2f"
 metafile = true
@@ -43897,6 +43906,11 @@ hash = "2f4eb36493fa29cd141432c985671587aa606cb179d89c9c31cf3de2e4fb59e5"
 metafile = true
 
 [[files]]
+file = "mods/hands-on-delight.pw.toml"
+hash = "bfcc849ef7da61d3829d3821b3a1f8f98b7fb5f9a6f588a92414915eb0b40dfa"
+metafile = true
+
+[[files]]
 file = "mods/hole-filler-mod.pw.toml"
 hash = "d39019781c7690cbf7f8787d66d0c650a9234cf36108609d57a7b98dd90b07e6"
 metafile = true
@@ -44024,6 +44038,26 @@ metafile = true
 [[files]]
 file = "mods/just-enough-resources-jer.pw.toml"
 hash = "ac98913d798603d5aa69c2e4dfcb26f6729bfec83b94812c9be485094b16280a"
+metafile = true
+
+[[files]]
+file = "mods/kaleidoscope-compat.pw.toml"
+hash = "b49da19b06a016b391ce29f7fcf95fd9806873172447defcfbd78ec7529bdba4"
+metafile = true
+
+[[files]]
+file = "mods/kaleidoscope-cookery.pw.toml"
+hash = "e68e9cc3cb547d25f738794f79e36e9c39467d523182d70985a24f62677dc271"
+metafile = true
+
+[[files]]
+file = "mods/kaleidoscope-tavern.pw.toml"
+hash = "6a05baa7acbb28d6ea014d35749cf4cee037d84417ffc6be3a5c014a92df0d94"
+metafile = true
+
+[[files]]
+file = "mods/kaleidoscope-texture-expansion.pw.toml"
+hash = "5ef2d2c218f075fb8ab3ba9c0c1d67a3613efdb1c3ddc38dc1020ece25ba4b7f"
 metafile = true
 
 [[files]]
@@ -44838,33 +44872,3 @@ preserve = true
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.9.3.zip"
 hash = "fed6c879e732cf7fc7bc6570ebb1def43235aa7e96f62859fbdbdbfa0b484b38"
-
-[[files]]
-file = "mods/hands-on-delight.pw.toml"
-hash = "bfcc849ef7da61d3829d3821b3a1f8f98b7fb5f9a6f588a92414915eb0b40dfa"
-metafile = true
-
-[[files]]
-file = "mods/diegesis-api.pw.toml"
-hash = "ae17d6e99341468fee6adcc8863ab319dd25958fa2d98dfdf5c317f23df92950"
-metafile = true
-
-[[files]]
-file = "mods/kaleidoscope-cookery.pw.toml"
-hash = "e68e9cc3cb547d25f738794f79e36e9c39467d523182d70985a24f62677dc271"
-metafile = true
-
-[[files]]
-file = "mods/kaleidoscope-tavern.pw.toml"
-hash = "6a05baa7acbb28d6ea014d35749cf4cee037d84417ffc6be3a5c014a92df0d94"
-metafile = true
-
-[[files]]
-file = "mods/kaleidoscope-compat.pw.toml"
-hash = "b49da19b06a016b391ce29f7fcf95fd9806873172447defcfbd78ec7529bdba4"
-metafile = true
-
-[[files]]
-file = "mods/kaleidoscope-texture-expansion.pw.toml"
-hash = "5ef2d2c218f075fb8ab3ba9c0c1d67a3613efdb1c3ddc38dc1020ece25ba4b7f"
-metafile = true
