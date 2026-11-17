@@ -43062,6 +43062,10 @@ file = "kubejs/server_scripts/chop_keys_cmd.js"
 hash = "19a2be13a966fc095d095a8d21e11299ef9173f9d85e2b712316fbbcb117bd9b"
 
 [[files]]
+file = "kubejs/server_scripts/chop_merrymaking_hh_remap.js"
+hash = "651a7f96f039f7188c0555edd39cc5ae1fa8c07218f8875a2d744f8b4a95e05e"
+
+[[files]]
 file = "kubejs/server_scripts/chop_no_autopilot_guide.js"
 hash = "1187dda2d71a08c6c8950e34b4dc890f42b3321b4454f235dd1adc3e1628b168"
 
