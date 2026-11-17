@@ -10,7 +10,7 @@ navigation:
 
 Look up any recipe, and see what you are looking at.
 
-**Your keys right now** (says *Not bound* if it has no key yet).
+**Your keys right now.** Keys marked **Unassigned** start with no key: click the link to open Keybind Atlas, then pick the key there (Edit, then the Unassigned list).
 
 <OptionalSection modId="jei">
 
@@ -27,7 +27,7 @@ Look up any recipe, and see what you are looking at.
 
 ### Jade (look-at info)
 
-* Show or hide the look-at info: **<KeyBind id="key.jade.show_overlay" />**
+* Show or hide the look-at info: **<KeyBind id="key.jade.show_overlay" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 * Hold for more detail: **<KeyBind id="key.jade.show_details" />**
 
 </OptionalSection>
@@ -36,7 +36,7 @@ Look up any recipe, and see what you are looking at.
 
 ### GuideME
 
-* Hold over an item to open its guide page: **<KeyBind id="key.guideme.guide" />**
+* Hold over an item to open its guide page: **<KeyBind id="key.guideme.guide" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -44,7 +44,7 @@ Look up any recipe, and see what you are looking at.
 
 ### Immersive Overlays
 
-* Show or hide the extra HUD: **<KeyBind id="key.immersiveoverlays.toggle" />**
+* Show or hide the extra HUD: **<KeyBind id="key.immersiveoverlays.toggle" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -52,7 +52,7 @@ Look up any recipe, and see what you are looking at.
 
 ### Toast Control
 
-* Clear pop-up toasts: **<KeyBind id="key.toastcontrol.clear" />**
+* Clear pop-up toasts: **<KeyBind id="key.toastcontrol.clear" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 

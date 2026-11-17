@@ -10,7 +10,7 @@ navigation:
 
 Pets, carts, fishing, claims and a few friendly gestures.
 
-**Your keys right now** (says *Not bound* if it has no key yet).
+**Your keys right now.** Keys marked **Unassigned** start with no key: click the link to open Keybind Atlas, then pick the key there (Edit, then the Unassigned list).
 
 <OptionalSection modId="doggytalents">
 
@@ -29,8 +29,8 @@ These work while you hold a whistle.
 
 ### AstikorCarts Redux
 
-* Hitch or unhitch a cart: **<KeyBind id="key.astikorcartsredux.action" />**
-* Slow walk on or off: **<KeyBind id="key.astikorcartsredux.slow" />**
+* Hitch or unhitch a cart: **<KeyBind id="key.astikorcartsredux.action" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Slow walk on or off: **<KeyBind id="key.astikorcartsredux.slow" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -49,7 +49,7 @@ Used during the fishing minigame.
 ### Cinematic Interaction
 
 * Sit by the fire: **<KeyBind id="key.cinematic.sit" />**
-* Look around while you work: **<KeyBind id="key.cinematic.look" />**
+* Look around while you work: **<KeyBind id="key.cinematic.look" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -57,7 +57,7 @@ Used during the fishing minigame.
 
 ### PatPat
 
-* Pat: **<KeyBind id="patpat.keybinding.pat" />**
+* Pat: **<KeyBind id="patpat.keybinding.pat" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 

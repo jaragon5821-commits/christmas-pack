@@ -12,15 +12,15 @@ Hold the Ultimine key while mining to break a whole vein, tree or patch at once:
 
 **Trees:** there's no automatic tree-feller. Hold Ultimine and break one log to take the whole tree, even the big ones.
 
-**Your keys right now** (says *Not bound* if it has no key yet).
+**Your keys right now.** Keys marked **Unassigned** start with no key: click the link to open Keybind Atlas, then pick the key there (Edit, then the Unassigned list).
 
 <OptionalSection modId="ftbultimine">
 
 ### FTB Ultimine
 
 * Hold to Ultimine: **<KeyBind id="key.ftbultimine" />**
-* Next Ultimine shape: **<KeyBind id="ftbultimine.change_shape.next" />**
-* Previous Ultimine shape: **<KeyBind id="ftbultimine.change_shape.prev" />**
+* Next Ultimine shape: **<KeyBind id="ftbultimine.change_shape.next" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Previous Ultimine shape: **<KeyBind id="ftbultimine.change_shape.prev" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -30,7 +30,7 @@ Hold the Ultimine key while mining to break a whole vein, tree or patch at once:
 
 Place blocks out in front of you, past the edge you are standing on.
 
-* Toggle easy bridging: **<KeyBind id="key.bridgingmod.toggle_bridging" />**
+* Toggle easy bridging: **<KeyBind id="key.bridgingmod.toggle_bridging" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -38,8 +38,8 @@ Place blocks out in front of you, past the edge you are standing on.
 
 ### Client Tweaks
 
-* Hold to mine one block only: **<KeyBind id="key.clienttweaks.mineSingleBlock" />**
-* Turn log stripping on or off: **<KeyBind id="key.clienttweaks.disableLogStripping" />**
+* Hold to mine one block only: **<KeyBind id="key.clienttweaks.mineSingleBlock" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Turn log stripping on or off: **<KeyBind id="key.clienttweaks.disableLogStripping" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 

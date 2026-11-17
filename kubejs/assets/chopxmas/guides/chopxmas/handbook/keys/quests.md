@@ -10,14 +10,14 @@ navigation:
 
 The quest book points you at your next step. Villager quests come from MCA.
 
-**Your keys right now** (says *Not bound* if it has no key yet).
+**Your keys right now.** Keys marked **Unassigned** start with no key: click the link to open Keybind Atlas, then pick the key there (Edit, then the Unassigned list).
 
 <OptionalSection modId="ftbquests">
 
 ### FTB Quests
 
-* Open the quest book: **<KeyBind id="key.ftbquests.quests" />**
-* Cycle pinned quests: **<KeyBind id="key.ftbquests.cycle_pinned_tracker" />**
+* Open the quest book: **<KeyBind id="key.ftbquests.quests" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Cycle pinned quests: **<KeyBind id="key.ftbquests.cycle_pinned_tracker" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -25,7 +25,7 @@ The quest book points you at your next step. Villager quests come from MCA.
 
 ### FTB Teams
 
-* Teams menu: **<KeyBind id="key.ftbteams.open_gui" />**
+* Teams menu: **<KeyBind id="key.ftbteams.open_gui" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -33,10 +33,10 @@ The quest book points you at your next step. Villager quests come from MCA.
 
 ### MCA Quests
 
-* Villager quest log: **<KeyBind id="key.mcaquests.quest_log" />**
-* Villager journal: **<KeyBind id="key.mcaquests.journal" />**
-* Villager quest tracker on or off: **<KeyBind id="key.mcaquests.toggle_hud" />**
-* Follow the next quest: **<KeyBind id="key.mcaquests.cycle_tracked" />**
+* Villager quest log: **<KeyBind id="key.mcaquests.quest_log" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Villager journal: **<KeyBind id="key.mcaquests.journal" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Villager quest tracker on or off: **<KeyBind id="key.mcaquests.toggle_hud" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Follow the next quest: **<KeyBind id="key.mcaquests.cycle_tracked" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -44,7 +44,7 @@ The quest book points you at your next step. Villager quests come from MCA.
 
 ### Minecraft Comes Alive
 
-* Skin library: **<KeyBind id="key.mca.skin_library" />**
+* Skin library: **<KeyBind id="key.mca.skin_library" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -52,7 +52,7 @@ The quest book points you at your next step. Villager quests come from MCA.
 
 ### MCA Romantic Expansion
 
-* Carry your partner (ask or let go): **<KeyBind id="key.mcaromanticexpansion.princess_carry" />**
+* Carry your partner (ask or let go): **<KeyBind id="key.mcaromanticexpansion.princess_carry" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -62,7 +62,7 @@ The quest book points you at your next step. Villager quests come from MCA.
 
 Use it with a villager's trade screen open.
 
-* Swap the villager's offers: **<KeyBind id="key.trade_cycling.cycle_trades" />**
+* Swap the villager's offers: **<KeyBind id="key.trade_cycling.cycle_trades" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 

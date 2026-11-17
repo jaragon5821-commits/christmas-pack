@@ -10,7 +10,7 @@ navigation:
 
 Backpacks hold a lot and take upgrades. Wear one on your back and open it with a key instead of placing it.
 
-**Your keys right now** (says *Not bound* if it has no key yet).
+**Your keys right now.** Keys marked **Unassigned** start with no key: click the link to open Keybind Atlas, then pick the key there (Edit, then the Unassigned list).
 
 <OptionalSection modId="sophisticatedbackpacks">
 
@@ -18,9 +18,9 @@ Backpacks hold a lot and take upgrades. Wear one on your back and open it with a
 
 * Open the backpack you are wearing: **<KeyBind id="key.sophisticatedbackpacks.open_backpack" />**
 * Put the hovered item into the backpack: **<KeyBind id="key.sophisticatedbackpacks.inventory_interaction" />**
-* Swap to the best tool from the backpack: **<KeyBind id="key.sophisticatedbackpacks.tool_swap" />**
-* Toggle upgrade slot 1: **<KeyBind id="key.sophisticatedbackpacks.toggle_upgrade_1" />**
-* Toggle upgrade slot 2: **<KeyBind id="key.sophisticatedbackpacks.toggle_upgrade_2" />**
+* Swap to the best tool from the backpack: **<KeyBind id="key.sophisticatedbackpacks.tool_swap" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Toggle upgrade slot 1: **<KeyBind id="key.sophisticatedbackpacks.toggle_upgrade_1" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Toggle upgrade slot 2: **<KeyBind id="key.sophisticatedbackpacks.toggle_upgrade_2" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 

@@ -42,4 +42,4 @@ The everyday keys. These are Minecraft's own, so they work the same as in any wo
 * **Shift-click** an item in a chest or your inventory to move it across in one go.
 * **Your first night:** make a bed or a shelter before dark. Sleeping makes the night pass faster, and the more players in bed, the faster it goes.
 * **You keep your items when you die**, so don't panic. You still lose your spot, so set a bed.
-* The **quest book** (**<KeyBind id="key.ftbquests.quests" />**) always shows a next step if you're stuck.
+* The **quest book** (the book button in your inventory) always shows a next step if you're stuck.

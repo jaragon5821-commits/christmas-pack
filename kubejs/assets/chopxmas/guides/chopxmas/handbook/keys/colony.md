@@ -10,7 +10,7 @@ navigation:
 
 Keys for placing and moving building previews, and for your colony tools.
 
-**Your keys right now** (says *Not bound* if it has no key yet).
+**Your keys right now.** Keys marked **Unassigned** start with no key: click the link to open Keybind Atlas, then pick the key there (Edit, then the Unassigned list).
 
 <OptionalSection modId="structurize">
 
@@ -21,7 +21,7 @@ Use these while a building preview is showing.
 * Place the building: **<KeyBind id="key.structurize.place" />**
 * Rotate clockwise: **<KeyBind id="key.structurize.rotate_cw" />**
 * Rotate anticlockwise: **<KeyBind id="key.structurize.rotate_ccw" />**
-* Mirror: **<KeyBind id="key.structurize.mirror" />**
+* Mirror: **<KeyBind id="key.structurize.mirror" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 * Move forward: **<KeyBind id="key.structurize.move_forward" />**
 * Move back: **<KeyBind id="key.structurize.move_back" />**
 * Move left: **<KeyBind id="key.structurize.move_left" />**
@@ -35,7 +35,7 @@ Use these while a building preview is showing.
 
 ### MineColonies
 
-* Goggles preview on or off: **<KeyBind id="key.minecolonies.toggle_goggles" />**
+* Goggles preview on or off: **<KeyBind id="key.minecolonies.toggle_goggles" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -43,7 +43,7 @@ Use these while a building preview is showing.
 
 ### MineColonies Tweaks
 
-* Open the resource scroll book: **<KeyBind id="key.minecolonies_tweaks.resourcescroll_book" />**
+* Open the resource scroll book: **<KeyBind id="key.minecolonies_tweaks.resourcescroll_book" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 

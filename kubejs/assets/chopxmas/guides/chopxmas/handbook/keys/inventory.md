@@ -10,7 +10,7 @@ navigation:
 
 Small helpers for trashing, crafting and extra slots.
 
-**Your keys right now** (says *Not bound* if it has no key yet).
+**Your keys right now.** Keys marked **Unassigned** start with no key: click the link to open Keybind Atlas, then pick the key there (Edit, then the Unassigned list).
 
 <OptionalSection modId="trashslot">
 
@@ -36,7 +36,7 @@ Small helpers for trashing, crafting and extra slots.
 
 ### Crafting on a Stick
 
-* Open your pocket crafting table: **<KeyBind id="crafting_on_a_stick.key.open_curios" />**
+* Open your pocket crafting table: **<KeyBind id="crafting_on_a_stick.key.open_curios" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -52,7 +52,7 @@ Small helpers for trashing, crafting and extra slots.
 
 ### Cosmetic Armor
 
-* Cosmetic armor slots: **<KeyBind id="cos.key.opencosarmorinventory" />**
+* Cosmetic armor slots: **<KeyBind id="cos.key.opencosarmorinventory" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -60,7 +60,7 @@ Small helpers for trashing, crafting and extra slots.
 
 ### Supplementaries
 
-* Pick the quiver arrow: **<KeyBind id="supplementaries.keybind.quiver" />**
+* Pick the quiver arrow: **<KeyBind id="supplementaries.keybind.quiver" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 

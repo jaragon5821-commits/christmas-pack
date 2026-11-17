@@ -8,23 +8,23 @@ navigation:
 
 # Voice Chat
 
-Proximity voice chat. Open the settings once to pick your microphone.
+Proximity voice chat. Open the voice chat settings once to pick your microphone (set a key for it below first).
 
-**Your keys right now** (says *Not bound* if it has no key yet).
+**Your keys right now.** Keys marked **Unassigned** start with no key: click the link to open Keybind Atlas, then pick the key there (Edit, then the Unassigned list).
 
 <OptionalSection modId="voicechat">
 
 ### Simple Voice Chat
 
-* Voice chat menu: **<KeyBind id="key.voice_chat" />**
-* Voice chat settings: **<KeyBind id="key.voice_chat_settings" />**
-* Push to talk (if you use it): **<KeyBind id="key.push_to_talk" />**
-* Whisper: **<KeyBind id="key.whisper" />**
-* Mute microphone: **<KeyBind id="key.mute_microphone" />**
-* Turn voice chat off: **<KeyBind id="key.disable_voice_chat" />**
-* Groups: **<KeyBind id="key.voice_chat_group" />**
-* Adjust volumes: **<KeyBind id="key.voice_chat_adjust_volumes" />**
-* Hide the voice icons: **<KeyBind id="key.hide_icons" />**
+* Voice chat menu: **<KeyBind id="key.voice_chat" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Voice chat settings: **<KeyBind id="key.voice_chat_settings" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Push to talk (if you use it): **<KeyBind id="key.push_to_talk" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Whisper: **<KeyBind id="key.whisper" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Mute microphone: **<KeyBind id="key.mute_microphone" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Turn voice chat off: **<KeyBind id="key.disable_voice_chat" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Groups: **<KeyBind id="key.voice_chat_group" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Adjust volumes: **<KeyBind id="key.voice_chat_adjust_volumes" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Hide the voice icons: **<KeyBind id="key.hide_icons" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 

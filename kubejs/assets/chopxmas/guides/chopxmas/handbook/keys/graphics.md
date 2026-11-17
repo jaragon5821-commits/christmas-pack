@@ -10,15 +10,15 @@ navigation:
 
 Shaders make winter look amazing. Turn them off here if your FPS drops.
 
-**Your keys right now** (says *Not bound* if it has no key yet).
+**Your keys right now.** Keys marked **Unassigned** start with no key: click the link to open Keybind Atlas, then pick the key there (Edit, then the Unassigned list).
 
 <OptionalSection modId="iris">
 
 ### Iris (shaders)
 
-* Turn shaders on or off: **<KeyBind id="iris.keybind.toggleShaders" />**
+* Turn shaders on or off: **<KeyBind id="iris.keybind.toggleShaders" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 * Pick a shader pack: **<KeyBind id="iris.keybind.shaderPackSelection" />**
-* Reload shaders: **<KeyBind id="iris.keybind.reload" />**
+* Reload shaders: **<KeyBind id="iris.keybind.reload" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -26,7 +26,7 @@ Shaders make winter look amazing. Turn them off here if your FPS drops.
 
 ### Dynamic FPS
 
-* Turn Dynamic FPS on or off: **<KeyBind id="key.dynamic_fps.toggle_disabled" />**
+* Turn Dynamic FPS on or off: **<KeyBind id="key.dynamic_fps.toggle_disabled" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -34,7 +34,7 @@ Shaders make winter look amazing. Turn them off here if your FPS drops.
 
 ### Presence Footsteps
 
-* Footstep sound settings: **<KeyBind id="key.presencefootsteps.settings" />**
+* Footstep sound settings: **<KeyBind id="key.presencefootsteps.settings" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 

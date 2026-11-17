@@ -10,16 +10,16 @@ navigation:
 
 Over-the-shoulder camera, free look and zoom. Handy for building and screenshots.
 
-**Your keys right now** (says *Not bound* if it has no key yet).
+**Your keys right now.** Keys marked **Unassigned** start with no key: click the link to open Keybind Atlas, then pick the key there (Edit, then the Unassigned list).
 
 <OptionalSection modId="shouldersurfing">
 
 ### Shoulder Surfing
 
-* Swap shoulder: **<KeyBind id="key.shouldersurfing.swap_shoulder" />**
-* Hold for free look: **<KeyBind id="key.shouldersurfing.free_look" />**
-* Toggle camera coupling: **<KeyBind id="key.shouldersurfing.toggle_camera_coupling" />**
-* Toggle first person: **<KeyBind id="key.shouldersurfing.toggle_first_person" />**
+* Swap shoulder: **<KeyBind id="key.shouldersurfing.swap_shoulder" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Hold for free look: **<KeyBind id="key.shouldersurfing.free_look" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Toggle camera coupling: **<KeyBind id="key.shouldersurfing.toggle_camera_coupling" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Toggle first person: **<KeyBind id="key.shouldersurfing.toggle_first_person" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -27,7 +27,7 @@ Over-the-shoulder camera, free look and zoom. Handy for building and screenshots
 
 ### Chloride
 
-* Zoom: **<KeyBind id="chloride.zoom" />**
+* Zoom: **<KeyBind id="chloride.zoom" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -35,7 +35,7 @@ Over-the-shoulder camera, free look and zoom. Handy for building and screenshots
 
 ### Cinematic Zoom
 
-* Cinematic zoom: **<KeyBind id="key.cinematiczoom.zoom" />**
+* Cinematic zoom: **<KeyBind id="key.cinematiczoom.zoom" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -45,7 +45,7 @@ Over-the-shoulder camera, free look and zoom. Handy for building and screenshots
 
 For the cameras you can craft.
 
-* Open camera controls: **<KeyBind id="key.exposure.camera_controls" />**
+* Open camera controls: **<KeyBind id="key.exposure.camera_controls" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 

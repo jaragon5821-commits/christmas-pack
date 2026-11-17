@@ -10,20 +10,20 @@ navigation:
 
 Your minimap, world map and waypoints.
 
-**Your keys right now** (says *Not bound* if it has no key yet).
+**Your keys right now.** Keys marked **Unassigned** start with no key: click the link to open Keybind Atlas, then pick the key there (Edit, then the Unassigned list).
 
 <OptionalSection modId="diorama">
 
 ### Diorama
 
 * Open the map: **<KeyBind id="key.diorama.open_map" />**
-* New waypoint here: **<KeyBind id="key.diorama.new_waypoint" />**
-* Waypoint list: **<KeyBind id="key.diorama.waypoints" />**
-* Show or hide the minimap: **<KeyBind id="key.diorama.toggle_minimap" />**
-* Enlarge the minimap: **<KeyBind id="key.diorama.enlarge_minimap" />**
+* New waypoint here: **<KeyBind id="key.diorama.new_waypoint" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Waypoint list: **<KeyBind id="key.diorama.waypoints" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Show or hide the minimap: **<KeyBind id="key.diorama.toggle_minimap" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Enlarge the minimap: **<KeyBind id="key.diorama.enlarge_minimap" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 * Zoom the minimap in: **<KeyBind id="key.diorama.zoom_in" />**
 * Zoom the minimap out: **<KeyBind id="key.diorama.zoom_out" />**
-* Map settings: **<KeyBind id="key.diorama.settings" />**
+* Map settings: **<KeyBind id="key.diorama.settings" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
@@ -31,7 +31,7 @@ Your minimap, world map and waypoints.
 
 ### RoadWeaver (roads)
 
-* Open the road map: **<KeyBind id="key.roadweaver.open_map" />**
+* Open the road map: **<KeyBind id="key.roadweaver.open_map" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 

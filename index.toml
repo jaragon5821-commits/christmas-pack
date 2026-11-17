@@ -42195,47 +42195,47 @@ hash = "3d013c813705d388b07986fd85beeec729cb5bf9a5f586b444fd8026cdf5dbf4"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/backpacks.md"
-hash = "692452a2c137dd7120c23f34e14b4b94ea1eebec4c0b2ba8638fcfdaa145e7da"
+hash = "51a3d907a015ae1921f53d22105ab6fff3f92cd53581b19b2d96ebdef6036f92"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/basics.md"
-hash = "2d1bdedc1c3430251a02b21bb9c2a16fde5de0dc29a7ee7a8fdb83bce46fb850"
+hash = "ad3949c0bf1014a0ed3102e31b4ee83e708b64d70a62ae09f0331ed79d2aae97"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/camera.md"
-hash = "d03d6b652252c9c4750803ab5bc38113eb704800ff3e81e1e2547632e580ccbb"
+hash = "d150aba31dbb5d44419a5cbd0bafe25c96cb47a3669e7fc662a2747e0e4f46bd"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/colony.md"
-hash = "f1365ad6d9b12c31876f8688a44d74617bce0c45face6d56edb4112d965c3b32"
+hash = "961c9afe8f45cba711e0d257d61b952c2f6c8dba5d61cf591d858c35bc7923b5"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/graphics.md"
-hash = "c6f8941c18451ae6613851048208dc92434a6cf47569d9327d4b5d93d0f13f12"
+hash = "4b0fbca738319e7d4a7ee2b2ea7ab3db65f045527ff1206d13ae5800395e334a"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/index.md"
-hash = "39cc501c5c5df3ef734067af175da4663b0973780b8820f8e4d84a07c6cb98c0"
+hash = "3c8d21786c0e32acdb61331adefec4b2d1bcd9adc6d88a398f45ffe4e6e0936a"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/info.md"
-hash = "6ac6bc389ae0f9cc8649884d9d1d0f99740fc9854c05954125e52e037a07871f"
+hash = "e0c8c51ff05fab2d6317addd5937f28cf2e516d55fd4c7132250e4b8c25c6353"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/inventory.md"
-hash = "a0b29357c722570ca4a60d4d97c698600c41196a97afb7117bb662634feceea5"
+hash = "6dd9e967fedeb5e119ad465aacf3e20c850ee27172e6bf32a51e0fbe485a76f1"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/magic.md"
-hash = "aa7df264d35f5a0ce9515d8df5833a77cf1fa6099c3e82f8ef3849c7f318b5c2"
+hash = "38806abdae797bcfbd464d39cd4510c47ff89f56c6d0f69bf8fbc62534dde3fa"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/map.md"
-hash = "aea2db2e6cb649ac6f4efbfd508cf07160955e6c18743207422f161f76ab0c74"
+hash = "9e7fbaaa82848b7fc74535896b6f33547c8b98e84892d79c328c401caff28a81"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/mining.md"
-hash = "6d26c8b4310468ba74b4a30e952fd2918e7ff580b33dbe077075fbddc7487ca8"
+hash = "a80aa6aceb7215d0819c271f1068c478a0dab3f81d16e3605d35ebf5bd00d947"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/mods/index.md"
@@ -42243,15 +42243,15 @@ hash = "d8a501b5322a856ca3666d1bb98b337f308245f91697074f32415911c43bd872"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/outdoors.md"
-hash = "b2bf1faf6f1a917de84acabcc93f577c357c6020461f9e3ba87b7ca3759dfb2a"
+hash = "ebf089d98ac3ef9e7e20e0d5483c5ee552c11cace212514b60815338a455d93a"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/quests.md"
-hash = "d56765cc817a4ebd857884c86e9a38733923d12aea82fe158474fb99a2f55e03"
+hash = "2c3599dc3d3f97323ffed69d898a03e0b37278ba085ac3ba7b006907a9937ac9"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/voice.md"
-hash = "6cf6bc92c9bb2f50faf69087b1b92962a0c9d1f9fd4ee24a1c2e3e9a46cc9560"
+hash = "904abaaa65815c0c0f14175fc29cfeeca3bdcfff0bc18390f88b4f005721c64f"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/colony.md"
@@ -42275,7 +42275,7 @@ hash = "5b42a586071bf0eb2dab48274a8026eec0774f67824fd8387d548757f92ad237"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/index.md"
-hash = "4d51545116b5984b082108738110411cb8d47539e33f4ac5dade574c22a62a27"
+hash = "f5e4efb435436fc2897d4efe87ad9abcd1ceb230f8be3e7fb54f07116922caad"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/magic.md"
