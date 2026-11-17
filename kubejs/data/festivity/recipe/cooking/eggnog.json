@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "drinks",
+  "ingredients": [
+    {
+      "tag": "c:drinks/milk"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "festivity:winter_spice"
+    }
+  ],
+  "result": {
+    "id": "festivity:eggnog",
+    "count": 1
+  },
+  "experience": 1.0,
+  "cookingtime": 200,
+  "container": {
+    "id": "minecraft:glass_bottle",
+    "count": 1
+  }
+}

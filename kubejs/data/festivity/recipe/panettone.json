@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "farm_and_charm"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WSW",
+    "EBE"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "B": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "result": {
+    "id": "festivity:panettone",
+    "count": 1
+  }
+}

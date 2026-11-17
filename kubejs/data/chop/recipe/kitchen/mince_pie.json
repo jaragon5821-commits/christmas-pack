@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "farmersdelight:pie_crust"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "festivity:winter_spice"
+    }
+  ],
+  "result": {
+    "id": "festivity:mince_pie",
+    "count": 4
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}

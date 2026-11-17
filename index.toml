@@ -42950,6 +42950,30 @@ file = "kubejs/config/web_server.json"
 hash = "b866f0010b304fea7489bf8a8e7b2b8ee5b6ae4666b7f294ed74c745b600a44f"
 
 [[files]]
+file = "kubejs/data/chop/recipe/kitchen/candy_cane.json"
+hash = "81fce0135408a9aa11d5f16d80d64d09ac353632493204835e7108b77242d62d"
+
+[[files]]
+file = "kubejs/data/chop/recipe/kitchen/fruitcake.json"
+hash = "4ac77900d5818c16fe1f576ef0a36674891f623085d9975222a2235faf17d4e4"
+
+[[files]]
+file = "kubejs/data/chop/recipe/kitchen/green_candy_cane.json"
+hash = "2a7ebf80ba2e7566f55c4fca6a5dd593fc9fe757145f5afea21968fa90f204d4"
+
+[[files]]
+file = "kubejs/data/chop/recipe/kitchen/mince_pie.json"
+hash = "778cd115ecb44af0dc89c58fc2b077ad72c292867a6645858e2ee1065acaa475"
+
+[[files]]
+file = "kubejs/data/chop/recipe/kitchen/panettone.json"
+hash = "7576ef4345929839f8ed9a8fbf90d443e79c03ed9de6b736004595b5a7c11e60"
+
+[[files]]
+file = "kubejs/data/chop/recipe/kitchen/peppermint_bark.json"
+hash = "9a6c5bc8884fcb19afd30ec50753784fd8ee7f79a17b7940e923a70b744cb516"
+
+[[files]]
 file = "kubejs/data/chop/recipe/smelting/packed_mud_to_terracotta.json"
 hash = "fe21f13750b6336f78389d252b41190b20d33a2254bc691b776a9da7ed389f8f"
 
@@ -43008,6 +43032,58 @@ hash = "fc81f8cc61dda76523f18aeddce2b9523afcab926f80d06338473c3bf0f4c684"
 [[files]]
 file = "kubejs/data/festive_delight/recipe/tea_craft.json"
 hash = "48a8874a135e29b1200cf8ef1d9c8f1fe4cc8576852fcf5a84ba7894b439a00a"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/candy_cane.json"
+hash = "0ef32134f1913e39a7f01dcce67e0bf2a75c391af2b16081a457c239402591aa"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/cooking/eggnog.json"
+hash = "7f8fbea4e54a02c863e223daffd76cd81f070a1153fba729f627676d44c57579"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/eggnog.json"
+hash = "aaf886030a2e820f03aaa643318aecd3616b6103ecf4b736ba0088fd458bc7e0"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/fruitcake.json"
+hash = "660d0829b201ef023b2642c5f8f7133c831fbe9c178bd491d5ad5dff4808dee8"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/gingerbread_dough.json"
+hash = "14dff2b5140aa63f8dc45549cc1c3187d69eb935733b282f62ad945c9592acfe"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/green_candy_cane.json"
+hash = "ff92c022e962ca4588c0b732c9ec963563a09e33438c7f92098aa62d8ada281e"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/marzipan.json"
+hash = "1ff2db3e00cad995182628bfdb42115740148985e7875e1902c5ce6ee47bc24a"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/mince_pie.json"
+hash = "4dbf74d6b6e1b0f6acc1b9f5e76e1a9aca492b57b92be2b3862786927a866f20"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/panettone.json"
+hash = "368ba6ef1ae43163a2f3ef98f2ca2c62af07e7c6b8f67424ebea688aad1023f9"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/peppermint_bark.json"
+hash = "98c90d89b2f697a948095478e45ea0044e7b62ac8d67c71598dc22f6c2265f88"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/station/cranberry_sauce.json"
+hash = "6547bf5303de030572b450f136a164c72c9034ad2fb6c87677c95fe3a0a32ae5"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/station/mulled_cider.json"
+hash = "a3099d78e5f33d9e01fadec1b8a8a136b56ec83c3d79f11e928a16a3e25799ca"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/station/mulled_wine.json"
+hash = "27f92fb088feaf5454810ddea51155f8af9c50d0dcf1fcab9834fbaae8a10d07"
 
 [[files]]
 file = "kubejs/data/merrymaking/recipe/aged_pine_mantel.json"

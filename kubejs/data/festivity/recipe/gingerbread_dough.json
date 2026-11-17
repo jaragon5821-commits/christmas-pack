@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "festivity:cookie_dough"
+    },
+    {
+      "item": "festivity:ginger_root"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "id": "festivity:gingerbread_dough",
+    "count": 1
+  }
+}
