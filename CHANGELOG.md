@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.17-9
+- Festivity 0.9.181 + Christmas Structures v50a4 (shipped together)
+
 ## 2026.11.17-8
 - Snow! Real Magic 12.2.3-chop.1 (MIT, patched: fixes a rare world-generation hang with C2ME + Snow Under Trees)
 

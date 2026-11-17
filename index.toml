@@ -4878,8 +4878,8 @@ file = "config/openloader/packs/15_Chops_Roadside_Christmas_v2.zip"
 hash = "2cf765fd5d84a24fceed8b30a844f49c3b5e6069e2d8ffd6d776b27fbf31749c"
 
 [[files]]
-file = "config/openloader/packs/16_Chops_Christmas_Structures_v50.zip"
-hash = "7e592a7acea0d6917cb1650dcab9fb8782b435ae9978df9d577bbd0a1503bbb6"
+file = "config/openloader/packs/16_Chops_Christmas_Structures_v50a4.zip"
+hash = "297cdccd5dd752a0be3f1580c31ba598475579a5d91a180b400542ce56a075a4"
 
 [[files]]
 file = "config/openloader/packs/17_chop_christmas_caves_v1b.zip"
@@ -43837,8 +43837,8 @@ hash = "e375c093c24e4464ccb2186b77177b742046c0d926c248805421ac8cd51fa998"
 metafile = true
 
 [[files]]
-file = "mods/custom-festivity-0.9.178.pw.toml"
-hash = "53e266de89c81f79468a138d70ad9cd8fef26ef37793cd1350af74da12ff1afe"
+file = "mods/custom-festivity-0.9.181.pw.toml"
+hash = "aaa307bee8afd1306261a2acc473593a0f88f14e1927808292bd7bb075a328b7"
 metafile = true
 
 [[files]]
