@@ -16,7 +16,7 @@ Backpacks hold a lot and take upgrades. Wear one on your back and open it with a
 
 ### Sophisticated Backpacks
 
-* Open the backpack you are wearing: **<KeyBind id="key.sophisticatedbackpacks.open_backpack" />**
+* Open the backpack you are wearing: **<KeyBind id="key.sophisticatedbackpacks.open_backpack" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 * Put the hovered item into the backpack: **<KeyBind id="key.sophisticatedbackpacks.inventory_interaction" />**
 * Swap to the best tool from the backpack: **<KeyBind id="key.sophisticatedbackpacks.tool_swap" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 * Toggle upgrade slot 1: **<KeyBind id="key.sophisticatedbackpacks.toggle_upgrade_1" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
@@ -41,7 +41,7 @@ Backpacks hold a lot and take upgrades. Wear one on your back and open it with a
 Works in chest and container screens.
 
 * Sort the open container: **<KeyBind id="key.sophisticatedsorter.sort" />**
-* Hide the sort buttons on this container: **<KeyBind id="key.sophisticatedsorter.disable" />**
+* Hide the sort buttons on this container: **<KeyBind id="key.sophisticatedsorter.disable" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 
 </OptionalSection>
 
