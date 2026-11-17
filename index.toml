@@ -44051,11 +44051,6 @@ hash = "6a05baa7acbb28d6ea014d35749cf4cee037d84417ffc6be3a5c014a92df0d94"
 metafile = true
 
 [[files]]
-file = "mods/kaleidoscope-texture-expansion.pw.toml"
-hash = "5ef2d2c218f075fb8ab3ba9c0c1d67a3613efdb1c3ddc38dc1020ece25ba4b7f"
-metafile = true
-
-[[files]]
 file = "mods/keybind-atlas.pw.toml"
 hash = "05e0b64b18e5dffb026c877cd89c472313800c8c76358134b6e855609680e7aa"
 metafile = true
