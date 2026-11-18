@@ -42990,6 +42990,10 @@ file = "kubejs/data/chop/recipe/red_kitchen/chile_ristra.json"
 hash = "afed5a0dd82938f1b2c5d9ebe8b9fbf5e369e29ac7edc541770f19b5d6dd0cf9"
 
 [[files]]
+file = "kubejs/data/chop/recipe/red_kitchen/chile_wreath.json"
+hash = "c1a9e47f104b988578b5432dbfb78e4d765f98aac183a9251f5965a6c9bc2732"
+
+[[files]]
 file = "kubejs/data/chop/recipe/red_kitchen/coal_furnace_chili_pot.json"
 hash = "75a99fc23ab334d23ed123ffc0f43cb638439f9df39e15a059b653e090a04f99"
 
@@ -43172,6 +43176,10 @@ hash = "01d8239af91ae82a3b5dd9a7a19d2ae46a83b1f64d794b4675e74ca17bc0e352"
 [[files]]
 file = "kubejs/server_scripts/chop_burnt_hut_repair.js"
 hash = "2409c06fe83355c2154fc9ce2333c6dd905609acca40c74a4c7b5ad7a6d48e72"
+
+[[files]]
+file = "kubejs/server_scripts/chop_chile_seed_loot.js"
+hash = "94b5f5f519305f896b3c53d6bbfa5596b4c05aa1d58c5dee9498ccfff1b18e42"
 
 [[files]]
 file = "kubejs/server_scripts/chop_crop_unify.js"
