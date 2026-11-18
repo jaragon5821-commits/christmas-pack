@@ -65,7 +65,7 @@
 	quest.03DB65DB715F1C1F.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
 	quest.03DB65DB715F1C1F.title: "Icing Piper"
 	quest.0451B265D4848AAE.quest_desc: [
-		"Something is out there that hates Christmas. When &4Santy Claws&r comes for your town, rally your colony and drive him off."
+		"Something is out there that hates Christmas. When &cSanty Claws&r comes for your town, rally your colony and drive him off."
 		""
 		"&7Naughty players beware: he remembers who's on his side.&r"
 	]
@@ -478,7 +478,7 @@
 	quest.34057A5E508A5B1B.title: "Say Cheese"
 	quest.34057A5E5099F180.quest_desc: [
 		"Lots of mods start with no key set so nothing clashes."
-		"[\"\",\"Open \",{\"keybind\":\"key.keybindatlas.open_keyboard\",\"color\":\"gold\"},\" (Keybind Atlas) to see every key, and click &fUnassigned&r to bind the ones you want.\"]"
+		"[\"\",\"Open \",{\"keybind\":\"key.keybindatlas.open_keyboard\",\"color\":\"gold\"},\" (Keybind Atlas) to see every key, and click \",{\"text\":\"Unassigned\",\"color\":\"white\"},\" to bind the ones you want.\"]"
 		"&7The Chop's Christmas Handbook has a page per mod with its keys.&r"
 	]
 	quest.34057A5E5099F180.title: "Every Key on One Keyboard"
@@ -511,7 +511,7 @@
 		"Welcome to &cChop's Christmas Special&r!"
 		""
 		"Quests are optional guides. Tick this one and the next ones open up."
-		"[\"\",\"Open the quest book any time with \",{\"keybind\":\"key.ftbquests.quests\",\"color\":\"gold\"},\".\"]"
+		"Open the quest book any time with the &6quest book button&r in your inventory, or set a key for it in Controls."
 		"&7Chapters on the left: &fThe Long Winter&7 is the main story, &fChop's Christmas&7 is the festive side, and the rest are guides for each big mod.&r"
 	]
 	quest.34057A5E50C05383.quest_subtitle: "Read me first"
@@ -539,7 +539,7 @@
 	]
 	quest.34057A5E50EA68C2.title: "What Am I Looking At?"
 	quest.34057A5E50EC0F24.quest_desc: [
-		"[\"\",\"Open the team menu with \",{\"keybind\":\"key.ftbteams.open_gui\",\"color\":\"gold\"},\" and invite your friends.\"]"
+		"Open the team menu with the &6team button&r in your inventory and invite your friends. You can also set a key for it in Controls."
 		"Quest progress is shared by the whole team, so you work through the book together."
 	]
 	quest.34057A5E50EC0F24.title: "Bring Your Friends"
@@ -567,7 +567,7 @@
 	quest.34057A5E51026026.title: "A Nether Fortress"
 	quest.34057A5E510BAD83.quest_desc: [
 		"The &aFestivity&r meter on your screen shows how merry the world is: Jolly, Merry, Quiet, Grumbling, Bleak... and worse."
-		"Decorating, feasting, giving gifts and helping your town raise it. When it sinks too low, &4Claws&r comes calling."
+		"Decorating, feasting, giving gifts and helping your town raise it. When it sinks too low, &cClaws&r comes calling."
 		"&7The Chop's Christmas chapter is all about raising it.&r"
 	]
 	quest.34057A5E510BAD83.title: "Keep the World Jolly"
@@ -638,7 +638,7 @@
 	]
 	quest.34057A5E51623538.title: "The Twisted Toymaster"
 	quest.34057A5E5166A5A4.quest_desc: [
-		"The richest ores are deep underground. So are the &8coal gnomes&r, Claws' little diggers. They aren't really made of coal. They just look it."
+		"The richest ores are deep underground. So are the &7coal gnomes&r, Claws' little diggers. They aren't really made of coal. They just look it."
 		"&7Dig carefully. They hear the pickaxe long before they see you.&r"
 	]
 	quest.34057A5E5166A5A4.quest_subtitle: "Diamonds and magic"
@@ -706,7 +706,7 @@
 	]
 	quest.34057A5E51CF97E9.title: "Into the Dungeon"
 	quest.34057A5E51D94714.quest_desc: [
-		"Long ago, something hungry fell out of the End. It learned to wear a red coat and a white beard, and it called itself &4Santy Claws&r."
+		"Long ago, something hungry fell out of the End. It learned to wear a red coat and a white beard, and it called itself &cSanty Claws&r."
 		"It wants every Christmas to be its Christmas. Now the elves have turned sour, the toys have turned mean, and a long winter has fallen over the world."
 		""
 		"First things first: stay warm and stay fed."
@@ -2214,7 +2214,7 @@
 	quest.4C1A0F15AFE70002.quest_desc: [
 		"Fire in this world is &cdangerous&r. Once something catches, the flames &lspread&r to every wooden block next to it."
 		""
-		"Burning wood smoulders, then turns into &8charred&r blocks. A house can burn down to a &8black shell&r in minutes."
+		"Burning wood smoulders, then turns into &7charred&r blocks. A house can burn down to a &7black shell&r in minutes."
 		""
 		"&bRain&r puts fires out. &cSnow won't save your building&r: the fire burns just as fast while it snows. You're the fire brigade."
 		""
@@ -2228,7 +2228,7 @@
 		""
 		"&7Colony buildings that burn get rebuilt by your builders, once a day after the fire is out. Your own builds and villager homes are yours to fix.&r"
 		""
-		"&4Careful:&r setting fires that hurt villages costs &cFestivity&r."
+		"&cCareful:&r setting fires that hurt villages costs &cFestivity&r."
 	]
 	quest.4C1A0F15AFE70004.title: "Bucket Brigade"
 	quest.4D39527FB6F145E4.quest_desc: ["A tray of fudge for the table."]
@@ -2357,7 +2357,7 @@
 	]
 	quest.79DEAAB57D31BFEF.title: "Stained Glass Windows"
 	quest.7C0A15F3B1D2E402.quest_desc: [
-		"Festivity has fallen below 50. Sour Elves, Nutcrackers and Coal Gnomes now drop &8Coal Tokens&r."
+		"Festivity has fallen below 50. Sour Elves, Nutcrackers and Coal Gnomes now drop &7Coal Tokens&r."
 		""
 		"Santy Claws keeps a list too. Prove you have been naughty and he pays in kind. Every reward here lowers Festivity for everyone, so the Nice players will not thank you."
 	]
