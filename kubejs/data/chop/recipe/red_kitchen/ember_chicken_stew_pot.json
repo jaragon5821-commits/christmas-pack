@@ -1,0 +1,44 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:ember_chicken_stew_pot"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:dried_red_chile"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "chop:unify/raw_chicken_cuts"
+    },
+    {
+      "tag": "chop:unify/raw_chicken_cuts"
+    },
+    {
+      "item": "festivity:dried_red_chile"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "tag": "c:crops/onion"
+    }
+  ],
+  "result": {
+    "id": "festivity:ember_chicken_stew_pot",
+    "count": 1
+  },
+  "experience": 2.0,
+  "cookingtime": 400
+}

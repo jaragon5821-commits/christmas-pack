@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:dried_red_chile"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:chile_powder"
+    }
+  ],
+  "type": "farm_and_charm:mincer",
+  "ingredient": {
+    "item": "festivity:dried_red_chile"
+  },
+  "recipe_type": "STONE",
+  "result": {
+    "id": "festivity:chile_powder",
+    "count": 2
+  },
+  "experience": 0.2
+}

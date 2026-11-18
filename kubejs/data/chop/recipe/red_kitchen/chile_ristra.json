@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:chile_ristra"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:dried_red_chile"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "CSC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "festivity:dried_red_chile"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "festivity:chile_ristra",
+    "count": 1
+  }
+}

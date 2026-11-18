@@ -1,0 +1,52 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:ironside_bean_pot"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:pinto_beans"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:chile_powder"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:squash"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "festivity:pinto_beans"
+    },
+    {
+      "item": "festivity:pinto_beans"
+    },
+    {
+      "item": "festivity:chile_powder"
+    },
+    {
+      "item": "festivity:squash"
+    },
+    {
+      "tag": "c:crops/corn"
+    },
+    {
+      "tag": "c:foods/raw_bacon"
+    }
+  ],
+  "result": {
+    "id": "festivity:ironside_bean_pot",
+    "count": 1
+  },
+  "experience": 2.0,
+  "cookingtime": 400
+}

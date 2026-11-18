@@ -1,0 +1,52 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:coal_furnace_chili_pot"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:dried_red_chile"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:chile_powder"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:pinto_beans"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "chop:unify/minced_beef"
+    },
+    {
+      "item": "festivity:dried_red_chile"
+    },
+    {
+      "item": "festivity:dried_red_chile"
+    },
+    {
+      "item": "festivity:chile_powder"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "item": "festivity:pinto_beans"
+    }
+  ],
+  "result": {
+    "id": "festivity:coal_furnace_chili_pot",
+    "count": 1
+  },
+  "experience": 2.0,
+  "cookingtime": 400
+}
