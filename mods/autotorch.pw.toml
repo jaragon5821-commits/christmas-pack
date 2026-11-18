@@ -1,0 +1,13 @@
+name = "AutoTorch!"
+filename = "autotorchset-neoforge-1.21.1-1.1.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/JPip03vS/versions/MpL5cqxm/autotorchset-neoforge-1.21.1-1.1.1.jar"
+hash-format = "sha512"
+hash = "09f44b27a4390f85936abb9b0f9e75f97188c7762ee9e080055887ce62fa77f5f5e98a65f4ef352012a1e8759cb94c6cd17afd65b594360e1c0bdbc1965d06e4"
+
+[update]
+[update.modrinth]
+mod-id = "JPip03vS"
+version = "MpL5cqxm"
