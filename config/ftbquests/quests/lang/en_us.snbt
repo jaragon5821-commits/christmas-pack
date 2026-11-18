@@ -16,15 +16,15 @@
 	chapter.34057A5E54000000.chapter_subtitle: ["Hidden discoveries. Each one appears here the moment you find it."]
 	chapter.34057A5E54000000.title: "Secrets Under the Snow"
 	chapter.34057A5E55000000.chapter_subtitle: ["Bigger chests, better backpacks, pipes, and a full Refined Storage network."]
-	chapter.34057A5E55000000.title: "Storage & Logistics"
+	chapter.34057A5E55000000.title: "Storage \\& Logistics"
 	chapter.34057A5E56000000.chapter_subtitle: ["Power for your machines: from a starter generator to a reactor."]
 	chapter.34057A5E56000000.title: "Powah!"
 	chapter.34057A5E57000000.chapter_subtitle: ["Villagers with lives of their own, loyal dogs, horses and other animal friends."]
-	chapter.34057A5E57000000.title: "Friends & Family"
+	chapter.34057A5E57000000.title: "Friends \\& Family"
 	chapter.34057A5E58000000.chapter_subtitle: ["Better rods, hooks and bait, legendary fish, and a little ice fishing."]
-	chapter.34057A5E58000000.title: "Fishing & the Sea"
+	chapter.34057A5E58000000.title: "Fishing \\& the Sea"
 	chapter.34057A5E59000000.chapter_subtitle: ["Accessories with real powers: artifacts, relics and jewelry."]
-	chapter.34057A5E59000000.title: "Relics & Trinkets"
+	chapter.34057A5E59000000.title: "Relics \\& Trinkets"
 	chapter.34057A5E5A000000.chapter_subtitle: ["Sleds, Christmas outfits, winter friends, warm drinks and holly."]
 	chapter.34057A5E5A000000.title: "The Festive Workshop"
 	chapter.34057A5E5B000000.chapter_subtitle: ["Every building your colony finishes adds a light to the tree."]
@@ -33,7 +33,7 @@
 	chapter.34057A5E5C000000.title: "Visit the Giants"
 	chapter.34057A5E5E000000.chapter_subtitle: ["New crops, bushes and fruit trees grow wild out there. Find them, plant them, cook with them."]
 	chapter.34057A5E5E000000.title: "Winter Pantry"
-	chapter.404E8D82CC44BFB6.title: "Kitchen & Farm"
+	chapter.404E8D82CC44BFB6.title: "Kitchen \\& Farm"
 	chapter.4359586307706BDD.title: "The Naughty Citadel"
 	chapter.4C1A0F15AFE70001.title: "Fire Safety"
 	chapter.4CF18885D3604885.title: "Getting Around"
@@ -45,8 +45,8 @@
 	chapter.7C0A15F3B1D2E401.title: "Naughty List"
 	chapter.7C0A15F3B1D2E501.title: "Nice List"
 	chapter_group.34057A5E60000001.title: "Story"
-	chapter_group.34057A5E60000002.title: "Home & Colony"
-	chapter_group.34057A5E60000003.title: "Kitchen & Crafting"
+	chapter_group.34057A5E60000002.title: "Home \\& Colony"
+	chapter_group.34057A5E60000003.title: "Kitchen \\& Crafting"
 	chapter_group.34057A5E60000004.title: "Out in the World"
 	chapter_group.34057A5E60000005.title: "Dungeons"
 	quest.0139074B2CA1C12A.quest_desc: ["Moves items around town so workers aren't stuck waiting."]
@@ -499,7 +499,7 @@
 	quest.34057A5E50B41AD8.quest_desc: [
 		"Backpacks hold a lot and take upgrades."
 		"[\"\",\"Wear it on your back, then open it with \",{\"keybind\":\"key.sophisticatedbackpacks.open_backpack\",\"color\":\"gold\"},\".\"]"
-		"&7The Storage & Logistics chapter covers upgrades.&r"
+		"&7The Storage \\& Logistics chapter covers upgrades.&r"
 	]
 	quest.34057A5E50B41AD8.title: "A Bag for Everything"
 	quest.34057A5E50BCB532.quest_desc: [
@@ -594,7 +594,7 @@
 	quest.34057A5E512C7480.title: "Dear Santa"
 	quest.34057A5E51325FC5.quest_desc: ["The Forgemaster's core still glows. With the Coal Heart, it can point the way to Claws himself."]
 	quest.34057A5E51325FC5.title: "The Clinker Core"
-	quest.34057A5E51359D97.quest_desc: ["Cook food, smelt ore, make glass. The &fKitchen & Farm&r chapter has bigger furnaces."]
+	quest.34057A5E51359D97.quest_desc: ["Cook food, smelt ore, make glass. The &fKitchen \\& Farm&r chapter has bigger furnaces."]
 	quest.34057A5E51359D97.title: "Smelting"
 	quest.34057A5E51382C42.quest_desc: [
 		"Coal Heart, blaze powder, a magma block and paper. Use it inside the Clinker Forge you already cleared to call the Forgemaster back for an encore."
@@ -605,7 +605,7 @@
 	quest.34057A5E513C384C.title: "Brewing"
 	quest.34057A5E513E2C8C.quest_desc: ["Paper, a compass and a lump of coal make a &6Toymaker's Ticket&r. Right-click it to read where the show is."]
 	quest.34057A5E513E2C8C.title: "Admit One"
-	quest.34057A5E513ED795.quest_desc: ["Bread, stew, roast anything. The &fKitchen & Farm&r and &fChristmas Baking&r chapters have hundreds more recipes."]
+	quest.34057A5E513ED795.quest_desc: ["Bread, stew, roast anything. The &fKitchen \\& Farm&r and &fChristmas Baking&r chapters have hundreds more recipes."]
 	quest.34057A5E513ED795.title: "Something Hot to Eat"
 	quest.34057A5E5148E0BE.quest_desc: ["Winter is long here. A campfire cooks food and makes a cosy spot to come back to."]
 	quest.34057A5E5148E0BE.title: "Keep Warm"
@@ -990,7 +990,7 @@
 	quest.34057A5E5335E360.title: "The Festive Chicken"
 	quest.34057A5E53369CF3.quest_desc: [
 		"Every recipe in this chapter is in the recipe viewer: hover the item and check how it's made."
-		"&7Kitchen & Farm covers the cooking basics. This chapter is all about the sweet stuff.&r"
+		"&7Kitchen \\& Farm covers the cooking basics. This chapter is all about the sweet stuff.&r"
 	]
 	quest.34057A5E53369CF3.quest_subtitle: "Christmas is for baking"
 	quest.34057A5E53369CF3.title: "Grandma's Kitchen"
