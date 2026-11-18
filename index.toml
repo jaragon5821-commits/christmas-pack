@@ -4346,7 +4346,7 @@ hash = "29d47ae6d733546ee2443b53597cb260bc70327d34cc7ef8491e66d3cb5500e0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "2df8b942ca353df982dd652603055a42bf407e3788fa082dc03c83f0d23eabc4"
+hash = "159871b40cd0de4b3917d0e659d63a6c7d65c5099a02f9622c3c7d31828e4a39"
 
 [[files]]
 file = "config/ftbquests-client.snbt"

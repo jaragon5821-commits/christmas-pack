@@ -638,7 +638,7 @@
 	]
 	quest.34057A5E51623538.title: "The Twisted Toymaster"
 	quest.34057A5E5166A5A4.quest_desc: [
-		"The richest ores are deep underground. So are the &8coal gnomes&r, who swore themselves to Claws for a pocketful of coal."
+		"The richest ores are deep underground. So are the &8coal gnomes&r, Claws' little diggers. They aren't really made of coal. They just look it."
 		"&7Dig carefully. They hear the pickaxe long before they see you.&r"
 	]
 	quest.34057A5E5166A5A4.quest_subtitle: "Diamonds and magic"
@@ -713,7 +713,7 @@
 	]
 	quest.34057A5E51D94714.quest_subtitle: "Survive the first night"
 	quest.34057A5E51D94714.title: "Act I: The Cold"
-	quest.34057A5E51DC92C6.quest_desc: ["The Toymaster's heart is a lump of burning coal. Keep it: it leads the way to the next of Claws' captains."]
+	quest.34057A5E51DC92C6.quest_desc: ["The Toymaster's heart looks like a lump of burning coal. Keep it: it leads the way to the next of Claws' captains."]
 	quest.34057A5E51DC92C6.title: "The Coal Heart"
 	quest.34057A5E51E0E25B.quest_desc: ["Smelt raw iron in a furnace."]
 	quest.34057A5E51E0E25B.title: "Iron!"
