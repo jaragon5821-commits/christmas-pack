@@ -42974,6 +42974,38 @@ file = "kubejs/data/chop/recipe/kitchen/peppermint_bark.json"
 hash = "9a6c5bc8884fcb19afd30ec50753784fd8ee7f79a17b7940e923a70b744cb516"
 
 [[files]]
+file = "kubejs/data/chop/recipe/red_kitchen/carne_adovada_pot.json"
+hash = "de1f8505f1aa37d994989f6b8765ab4cb87791b75f08d86fa542d6441c1823ee"
+
+[[files]]
+file = "kubejs/data/chop/recipe/red_kitchen/chile_cross.json"
+hash = "fd25fb08a6e87f996cf0f89c9ab22ab2216b1bd178cf4a689e80a2963b0f8be8"
+
+[[files]]
+file = "kubejs/data/chop/recipe/red_kitchen/chile_powder_mincer.json"
+hash = "212fb9985e13d32870f1c3a5ff66d54f83f89d3bf023d51f35b79330eed92faa"
+
+[[files]]
+file = "kubejs/data/chop/recipe/red_kitchen/chile_ristra.json"
+hash = "afed5a0dd82938f1b2c5d9ebe8b9fbf5e369e29ac7edc541770f19b5d6dd0cf9"
+
+[[files]]
+file = "kubejs/data/chop/recipe/red_kitchen/coal_furnace_chili_pot.json"
+hash = "75a99fc23ab334d23ed123ffc0f43cb638439f9df39e15a059b653e090a04f99"
+
+[[files]]
+file = "kubejs/data/chop/recipe/red_kitchen/dried_red_chile_smoking.json"
+hash = "4dd0a62c42fa9505874a6a1ff1d09162be7514ad6baa6134d7f61887d2c9d3b6"
+
+[[files]]
+file = "kubejs/data/chop/recipe/red_kitchen/ember_chicken_stew_pot.json"
+hash = "910ecc9e22196d6ad71529c3fae180bf3c6c45cc6a62e5144277015013b22683"
+
+[[files]]
+file = "kubejs/data/chop/recipe/red_kitchen/ironside_bean_pot.json"
+hash = "f8186fa6b9933bf7cd4f1d02af67c4849d7098bbcf2efebf603711b4ef5aee24"
+
+[[files]]
 file = "kubejs/data/chop/recipe/smelting/packed_mud_to_terracotta.json"
 hash = "fe21f13750b6336f78389d252b41190b20d33a2254bc691b776a9da7ed389f8f"
 
@@ -43143,7 +43175,7 @@ hash = "2409c06fe83355c2154fc9ce2333c6dd905609acca40c74a4c7b5ad7a6d48e72"
 
 [[files]]
 file = "kubejs/server_scripts/chop_crop_unify.js"
-hash = "a2cc2195d296a2cb9ca7458c007aaefc492f5ebc134b2e5c37e313c0b527f476"
+hash = "d7d2bfaaf6ebdb1d31450955ed2190addcff6e41594e4967e7fc4ce7ebe25bf8"
 
 [[files]]
 file = "kubejs/server_scripts/chop_donation_bucket.js"
@@ -43199,7 +43231,7 @@ hash = "88e3d258fa6e259c18b25755bb3a61f43b47bc1fb75962b80c953baa07cf9b29"
 
 [[files]]
 file = "kubejs/server_scripts/chop_starter_kit.js"
-hash = "dfef687c5acb2eb9c441aa44d75e2315da962a5fcf46eae3f9de50a05e418786"
+hash = "b595e4c7dd3784af803820eb12beec143bd26dd6d26b1524cc650ced4b419cc7"
 
 [[files]]
 file = "kubejs/server_scripts/chop_synergy_critters.js"
