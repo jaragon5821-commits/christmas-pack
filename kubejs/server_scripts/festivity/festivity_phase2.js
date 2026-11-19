@@ -28,7 +28,8 @@ const P2 = {
   RAID_EVERY_N_NIGHTS: 2,
   // MineColonies 1.21 syntax (source, CommandRaid.java): mc colony raid <colonyID|all> <now|tonight> [<type> [ships] [amount] [location]]
   RAID_CMD: 'mc colony raid all now minecolonies:barbarian_raid false',
-  KNOCKDOWN_CHANCE: { 60: 0.05, 80: 0.15, 95: 0.30 },
+  KNOCKDOWN_CHANCE: { 80: 0.15, 95: 0.30 },   // 0.10.4 E12 (boss): big knock-downs only from 80 (was 60/80/95)
+  KNOCKDOWN_MIN: 80,
   TOKEN_BAND_MAX: 49,
   MINIONS: {
     grumbling: [{ n: 3, id: 'minecraft:stray', name: 'Sour Elf', tags: 'fest_t1', nbt: '{HandItems:[{id:"minecraft:stick",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",count:1,components:{"minecraft:dyed_color":{rgb:2263842}}}],active_effects:[{id:"minecraft:speed",amplifier:0,duration:-1}]}' }],   // stick, not bow: no arrows near colonists
@@ -523,11 +524,13 @@ ServerEvents.tick(event => {
     }
     return;
   }
-  if (day == p2_lastRollDay || v < 60 || isNight(server)) return;
+  if (day == p2_lastRollDay || v < P2.KNOCKDOWN_MIN || isNight(server)) return;
   p2_lastRollDay = day;
-  let chance = v >= 95 ? P2.KNOCKDOWN_CHANCE[95] : v >= 80 ? P2.KNOCKDOWN_CHANCE[80] : P2.KNOCKDOWN_CHANCE[60];
+  let chance = v >= 95 ? P2.KNOCKDOWN_CHANCE[95] : P2.KNOCKDOWN_CHANCE[80];
   if (Math.random() > chance) return;
   let pick = ['gnomes', 'blizzard', 'greyday'][Math.floor(Math.random() * 3)];
+  // 0.10.4 E8: the gnome swarm runs through the night, so it spends the night's one big event (blizzard / grey day end at dusk)
+  if (pick == 'gnomes' && Q.budget && !Q.budget(server, 'gnomes')) pick = Math.random() < 0.5 ? 'blizzard' : 'greyday';
   startEvent(server, pick);
 });
 function startEvent(server, type) {
@@ -543,11 +546,12 @@ function startEvent(server, type) {
   } else if (type == 'blizzard') {
     Q.cmd(server, 'weather thunder 12000');
     Q.cmd(server, 'title @a title ' + Q.jsonText('Blizzard of Doubt', 'aqua'));
-    Q.cmd(server, 'title @a subtitle ' + Q.jsonText('Festive deeds count for nothing until it passes. -3 by dawn unless the town stays lit.', 'gray'));
+    Q.cmd(server, 'title @a subtitle ' + Q.jsonText('Festive deeds count for nothing until it passes. Each of you place a lantern, candle, campfire or torch (up to 3 of you) to break it, or lose 3.', 'gray'));
+    ev.lit = {};
     server.scheduleInTicks(11000, () => { let e2 = p2json(server, 'event', null); if (e2 && e2.type == 'blizzard') Q.change(server, -3, 'event', null, null); });
   } else if (type == 'greyday') {
     Q.cmd(server, 'title @a title ' + Q.jsonText('A Grey Day', 'gray'));
-    Q.cmd(server, 'title @a subtitle ' + Q.jsonText('Good deeds are worth half today. Share a festive meal together to lift it.', 'gray'));
+    Q.cmd(server, 'title @a subtitle ' + Q.jsonText('Good deeds are worth half today. A festive meal from each of you (up to 3) lifts it.', 'gray'));
     ev.meals = {};
   }
   p2save(server, 'event', ev);
@@ -555,15 +559,28 @@ function startEvent(server, type) {
   Q.logEvent(server, 'Knock-down event: ' + type);
 }
 function endEvent(server, ev, text) { p2data(server).remove('event'); Q.announce(server, text, 'gray'); }
-// Grey Day: three different players eating festive food within 2 minutes lifts it (SP: three festive meals)
+// 0.10.5 E11 (boss B): every knock-down is beatable by however many are online. Blizzard: each active player (max 3) places a light.
+BlockEvents.placed(event => {
+  let p = event.player; if (!p) return;
+  let id = String(event.block.id); if (!(id.includes('lantern') || id.includes('candle') || id.includes('campfire') || id.includes('torch'))) return;
+  let server = p.server, ev = p2json(server, 'event', null); if (!ev || ev.type != 'blizzard') return;
+  if (!ev.lit) ev.lit = {};
+  ev.lit[p.username] = 1;
+  let n = Object.keys(ev.lit).length, need = Math.min(3, Math.max(1, Q.onlineCount(server)));
+  if (n >= need) { endEvent(server, ev, 'The town glows through the storm. The blizzard breaks.'); Q.cmd(server, 'weather clear 6000'); return; }
+  p2save(server, 'event', ev);
+  p.tell(Text.of('A light against the storm (' + n + ' of ' + need + ').').aqua());
+});
+// Grey Day (E11): a festive meal from every active player (max 3) within 2 minutes lifts it
 ItemEvents.foodEaten(event => {
   let p = event.player; if (!p || !event.item.hasTag('chop:festive_food')) return;
   let server = p.server, ev = p2json(server, 'event', null); if (!ev || ev.type != 'greyday') return;
   if (!ev.meals) ev.meals = {};
   ev.meals[p.username] = Q.nowMs();
   let n = 0; for (let k in ev.meals) if (Q.nowMs() - ev.meals[k] < 120000) n++;
-  let need = Q.onlineCount(server) >= 3 ? 3 : 1;
-  if (n >= need || (need == 1 && (ev.soloMeals = (ev.soloMeals || 0) + 1) >= 3)) { endEvent(server, ev, 'The grey lifts. Festivity flows again.'); return; }
+  let need = Math.min(3, Math.max(1, Q.onlineCount(server)));
+  if (n >= need) { endEvent(server, ev, 'The grey lifts. Festivity flows again.'); return; }
+  p.tell(Text.of('A festive meal against the grey (' + n + ' of ' + need + ').').gray());
   p2save(server, 'event', ev);
 });
 

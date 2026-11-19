@@ -66,7 +66,9 @@ ServerEvents.tick(event => {
   p3_lastRollDay = day;
   if (!anchor(server)) return;   // 11-16 boss: no heist / Naughty Letter / events before the first town hall
   if (Math.random() > P3.ROLL_CHANCE) return;
-  if (Math.random() < 0.5 && anchor(server)) startHeist(server); else startLetter(server);   // heist fix: no town hall -> letter
+  // 0.10.4 E8: a heist runs into the night, so it spends the night's one big event; when the night is taken, the Naughty Letter comes instead
+  // 0.10.6: the Naughty Letter is retired (Temptations replace it, Java). A roll that cannot take the night does nothing.
+  if (Math.random() < 0.5 && anchor(server) && (!R.budget || R.budget(server, 'heist'))) startHeist(server);
 });
 
 // ---------- Sour Elf heist (doc 15): thieves grab presents from the Town Hall doorstep ----------
@@ -108,7 +110,7 @@ EntityEvents.death(event => {
   } catch (err) {}
 });
 
-// ---------- Naughty Letter (doc 15): a dare from Santy Claws. Doing it: -4 and a ledger mark. Ignoring it a day: +1. ----------
+// ---------- Naughty Letter (doc 15), RETIRED in 0.10.6 (nothing starts one; letterTick only settles a letter left in an old save): a dare from Santy Claws. Doing it: -4 and a ledger mark. Ignoring it a day: +1. ----------
 function startLetter(server) {
   let players = []; for (let p of R.online(server)) if (p3overworld(p)) players.push(p);   // plain loop: server.players is a Java list, no .filter
   if (!players.length) return;
@@ -190,7 +192,6 @@ ServerEvents.commandRegistry(event => {
       .then(Commands.literal('clear').executes(ctx => { R.data(ctx.source.server).remove('townhall'); ctx.source.sendSuccess(Text.of('Town Hall anchor cleared.'), true); return 1; })))
     .then(Commands.literal('event').requires(src => src.hasPermission(2))
       .then(Commands.literal('heist').executes(ctx => { startHeist(ctx.source.server); return 1; }))
-      .then(Commands.literal('letter').executes(ctx => { startLetter(ctx.source.server); return 1; }))
       .then(Commands.literal('sleigh').executes(ctx => { startSleigh(ctx.source.server); return 1; })))
   );
 });

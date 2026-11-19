@@ -12,10 +12,10 @@ const P4 = {
   NIGHT_CHANCE_HIGH: 0.4,      // chance per night at >=60
   NIGHT_CHANCE_QUIET: 0.2,     // 50-59: mild events only
   EVENTS_NEED_TOWNHALL: true,  // 11-16 boss: no natural events before the first town hall
-  TANTRUM_CHANCE: 0.03,        // 11-16 boss: Claus's Tantrum, chance per dawn while Festivity >= TANTRUM_MIN
-  TANTRUM_MIN: 65,
+  TANTRUM_CHANCE: 0.03,        // 11-16 boss: Claws' Tantrum, chance per dawn while Festivity >= TANTRUM_MIN
+  TANTRUM_MIN: 80,             // 0.10.4 E12 (boss): Tantrum only at the Jolly edge (80)
   ADVENT: true,                // real-calendar Dec 1-24: an event every dusk, guaranteed
-  OUTPOST_AT: 30, OUTPOST_W: 35,       // weight (of 100) for the Outpost roll when none stands and value <= OUTPOST_AT
+  OUTPOST_AT: 24, OUTPOST_W: 35,   // 0.10.4 E12 (boss): Outpost at the Claws' Eve edge (24)       // weight (of 100) for the Outpost roll when none stands and value <= OUTPOST_AT
   SPIRE_AT: 39, SPIRE_W: 20, SPIRE_MAX: 2,
   STRUCT_MIN: 48, STRUCT_MAX: 128,      // blocks from the anchor player
   OUTPOST_TPL: 'chop:event/claws_outpost_s', OUTPOST_CORE: [[7, 1, 7], [7, 1, 7], [7, 11, 7]], OUTPOST_SIZE: 15,
@@ -138,8 +138,11 @@ function e4rotate(server, key, cands) {
   if (!cands.length) return null;
   let done = e4json(server, key, []), left = cands.filter(p => done.indexOf(p.username) < 0);
   if (!left.length) { done = []; left = cands.slice(); }
-  let best = null, score = -1;
-  for (let p of left) { let sc = e4bad(server, p) + Math.random() * 0.01; if (sc > score) { score = sc; best = p; } }
+  let best = null, score = -Infinity;
+  // 0.10.5 (boss Q1): bad events target the NICEST first (personal record, Java NaughtyNice); old jar: naughtiest first as before.
+  // 0.10.7 (boss A 11-17 18:53Z): Santy Claws himself still goes for the NAUGHTIEST (phase5 worstOnline rotates through 'p5_rot_claws').
+  let naughtyFirst = key == 'p5_rot_claws' || !Fest.niceness;
+  for (let p of left) { let sc = (naughtyFirst ? e4bad(server, p) : Fest.niceness(p)) + Math.random() * 0.01; if (sc > score) { score = sc; best = p; } }
   done.push(best.username); e4save(server, key, done);
   return best;
 }
@@ -308,8 +311,7 @@ e4def('chimes', 'Crooked Chimes', ['low'], 8, server => {
   return {};
 }, null);
 
-// 13 a second letter from S. Claws (Phase 3 dare, bigger stakes handled there)
-e4def('letter2', 'Another Letter', ['low'], 6, server => { try { startLetter(server); return {}; } catch (e) { return null; } }, null);
+// 13 (retired 0.10.6) 'letter2', the second Naughty Letter: Temptations replace the letter dares
 
 // 14 black ice: an 8x8 patch of ice on open ground near a player, melts at dawn
 e4def('blackice', 'Black Ice', ['low'], 8, server => {
@@ -652,6 +654,10 @@ function clawsSmash(server) {
     // step down to the target's floor once he is close (surfaceY would keep him on the roof)
     if (h <= 3 && Math.abs(t.y - bear.y) > 1.5) e4cmd(server, 'tp @e[tag=fest_claws,limit=1] ' + bear.x.toFixed(2) + ' ' + Math.floor(t.y) + ' ' + bear.z.toFixed(2));
     let lvl = server.overworld(), broke = 0, ty = Math.floor(t.y), tx = Math.floor(t.x), tz = Math.floor(t.z), ux = h > 0 ? dx / h : 0, uz = h > 0 ? dz / h : 0;
+    // 0.10.5 E15 (boss B): with the Festivity jar the smash is recorded and every door/gate/glass comes back at dawn (no item drops)
+    let jarSmash = null; try { jarSmash = Java.loadClass('com.chop.festivity.events.TempBlocks'); } catch (e) { jarSmash = null; }
+    if (jarSmash && typeof jarSmash.clawsSmash == 'function') { broke = jarSmash.clawsSmash(lvl, bear.x, bear.z, t.blockPosition()); }
+    else {
     let cols = {};
     for (let s = 1; s <= Math.min(3, Math.ceil(h)); s++) { let cx = Math.floor(bear.x + ux * s), cz = Math.floor(bear.z + uz * s); for (let ox = -1; ox <= 1; ox++) for (let oz = -1; oz <= 1; oz++) cols[(cx + ox) + ',' + (cz + oz)] = 1; }   // the path
     for (let ox = -2; ox <= 2; ox++) for (let oz = -2; oz <= 2; oz++) cols[(tx + ox) + ',' + (tz + oz)] = 1;   // the walls around the target
@@ -665,6 +671,7 @@ function clawsSmash(server) {
           e4cmd(server, 'setblock ' + x + ' ' + y + ' ' + z + ' minecraft:air destroy'); broke++;
         }
       }
+    }
     }
     if (broke) { e4log('claws smashed ' + broke + ' block(s) near ' + t.username); e4cmd(server, 'playsound minecraft:entity.zombie.break_wooden_door master @a ' + Math.floor(bear.x) + ' ' + Math.floor(bear.y) + ' ' + Math.floor(bear.z) + ' 2 0.6'); e4cmd(server, 'playsound minecraft:block.glass.break master @a ' + Math.floor(bear.x) + ' ' + Math.floor(bear.y) + ' ' + Math.floor(bear.z) + ' 2 0.7'); }
   } catch (e) { console.warn('[Festivity4] claws smash: ' + e); }
@@ -722,8 +729,8 @@ function endEvent4(server) {
   E4.data(server).remove('p4_booby'); E4.data(server).remove('p4_thief');
 }
 let e4_lastRollDay = -1;
-// ================= Claus's Tantrum (11-16 boss) =================
-// Rarely, at dawn on a cheerful world, Claus decides things are far too jolly and kicks Festivity to 0. Through the day it climbs back,
+// ================= Claws' Tantrum (11-16 boss) =================
+// Rarely, at dawn on a cheerful world, Claws decides things are far too jolly and kicks Festivity to 0. Through the day it climbs back,
 // reaching the value from before by dusk. Needs a town hall like every other event. Lines are placeholders until Lorekeeper writes them.
 let e4_lastTantrumDay = -1;
 function tantrumTick(server, t, day) {
@@ -733,8 +740,7 @@ function tantrumTick(server, t, day) {
     if (t >= 12000 || st.day != day || v >= target) {
       if (v < target) E4.change(server, target - v, 'drift-silent', null, null);
       E4.data(server).remove('p4_tantrum');
-      e4text(server, 'Claus has stomped off. The cheer is back where it was.', 'green');
-      E4.logEvent(server, "Claus's Tantrum is over");
+      E4.logEvent(server, "Claws' Tantrum is over");
       return;
     }
     let step = Math.max(0.05, target * 100 / 12000);   // even climb from dawn to dusk (this runs every 100 ticks)
@@ -745,14 +751,13 @@ function tantrumTick(server, t, day) {
   e4_lastTantrumDay = day;
   let v = E4.value(server);
   if (v < P4.TANTRUM_MIN || Math.random() >= P4.TANTRUM_CHANCE) return;
+  try { if (!E4.data(server).getBoolean('claws_arrived')) return; } catch (e) { return; }   // LAUNCH GATE (boss Q25 A): his Tantrum waits for his arrival
   if (P4.EVENTS_NEED_TOWNHALL && !e4townHall(server)) return;
   e4save(server, 'p4_tantrum', { from: v, day: day });
   E4.change(server, -v, 'drift-silent', null, null);
-  E4.logEvent(server, "Claus's Tantrum: Festivity kicked to 0 (was " + Math.round(v) + ')');
-  e4cmd(server, 'title @a title ' + E4.jsonText("CLAUS'S TANTRUM", 'dark_red'));
-  e4cmd(server, 'title @a subtitle ' + E4.jsonText('Far too jolly! He kicks the cheer to 0. It creeps back by dusk.', 'red'));
-  e4cmd(server, 'playsound minecraft:entity.ravager.roar master @a ~ ~ ~ 0.4 0.6');
-  e4cmd(server, 'execute at @a run particle minecraft:large_smoke ~ ~1 ~ 3 1 3 0.02 80');
+  E4.logEvent(server, "Claws' Tantrum: Festivity kicked to 0 (was " + Math.round(v) + ')');
+  // 0.10.4 E10 (boss): no announcement, title, roar or smoke. The Festivity jar (0.10.4+) cracks and melts the bar itself, then mends it
+  // as the value climbs back (band skin steps every ~90 s), with soft crack / drip / mend sounds.
   e4log('tantrum from ' + v.toFixed(1));
 }
 ServerEvents.tick(event => {
@@ -780,7 +785,7 @@ ServerEvents.commandRegistry(event => {
   for (let id in E4_POOL) { let eid = id; root = root.then(Commands.literal(eid).executes(ctx => { let ok = startEvent4(ctx.source.server, eid, true); ctx.source.sendSuccess(Text.of('[Festivity] ' + eid + (ok ? ' started' : ' could not start (no spot?)')), true); return ok ? 1 : 0; })); }
   root = root.then(Commands.literal('roll').executes(ctx => { rollEvent4(ctx.source.server); return 1; }))
              .then(Commands.literal('end').executes(ctx => { endEvent4(ctx.source.server); return 1; }))
-             .then(Commands.literal('nograce').executes(ctx => { E4.data(ctx.source.server).putLong('lastEmptyRealMs', 0); ctx.source.sendSuccess(Text.of('[Festivity] join grace cleared (debug): Phase 2 ticks, Claws approach, rolls and stage growth run now'), true); return 1; }))
+             .then(Commands.literal('nograce').executes(ctx => { E4.data(ctx.source.server).putLong('lastEmptyRealMs', 0); try { Java.loadClass('com.chop.festivity.core.FestCore').clearGrace(ctx.source.server); } catch (e) {} ctx.source.sendSuccess(Text.of('[Festivity] join grace cleared (debug): Phase 2 ticks, Claws approach, rolls and stage growth run now'), true); return 1; }))
              .then(Commands.literal('starbreak').executes(ctx => { let server = ctx.source.server, st = e4json(server, 'p4_star', null); if (!st) { let o = p2json(server, 'outpost', null); if (o && o.star) st = { star: o.star, x: o.x, y: o.y, z: o.z }; } if (!st) { ctx.source.sendSuccess(Text.of('[Festivity] no outpost star on record'), true); return 0; } starBroken(server, st, ctx.source.player, true); ctx.source.sendSuccess(Text.of('[Festivity] star break handler run for ' + st.star), true); return 1; }))
              .then(Commands.literal('freeelf').executes(ctx => { let p = ctx.source.player; if (!p) return 0; for (let i = 0; i < P4.FREED_ELVES; i++) spawnFreedElf(ctx.source.server, p.x + e4rnd(-3, 3), p.y, p.z + e4rnd(-3, 3), p.username); ctx.source.sendSuccess(Text.of('[Festivity] ' + P4.FREED_ELVES + ' Freed Elves summoned (debug look check)'), true); return 1; }))
              .then(Commands.literal('list').executes(ctx => { let ids = []; for (let id in E4_POOL) ids.push(id); ctx.source.sendSuccess(Text.of('[Festivity] events: ' + ids.join(', ') + ' | roll, end, nograce, starbreak, freeelf'), true); return 1; }));

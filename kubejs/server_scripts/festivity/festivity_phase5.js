@@ -135,7 +135,11 @@ function worstOnline(server) {   // Phase 2 picked the naughtiest; Phase 5 rotat
   if (!cands.length) return null;
   try { return e4rotate(server, 'p5_rot_claws', cands); } catch (e) { return f5pick(cands); }
 }
+// LAUNCH GATE (boss Q25 A, 11-17): Santy Claws in person stays away until his arrival (the post-launch crash event), unless an op unlocks it.
+// Flag lives in the festivity persistent data: claws_arrived (bool). /festivity crash unlock|lock|status.
+function f5clawsArrived(server) { try { return F5.data(server).getBoolean('claws_arrived'); } catch (e) { return false; } }
 function clawsArrive(server, finale) {
+  if (!f5clawsArrived(server)) { f5log('claws arrival skipped: not arrived yet (launch gate)'); return; }
   let target = worstOnline(server); if (!target) return;
   let ang = Math.random() * Math.PI * 2;
   let x = target.x + Math.cos(ang) * P5.CLAWS_SPAWN_DIST, z = target.z + Math.sin(ang) * P5.CLAWS_SPAWN_DIST, y = surfaceY(target.level, Math.floor(x), Math.floor(z));
