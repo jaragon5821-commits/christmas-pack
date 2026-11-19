@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "festivity:peppermint"
+    },
+    {
+      "item": "festivity:peppermint"
+    }
+  ],
+  "result": {
+    "id": "festivity:green_candy_cane",
+    "count": 4
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}

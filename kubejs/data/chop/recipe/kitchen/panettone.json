@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "farm_and_charm:dough"
+    },
+    {
+      "item": "farm_and_charm:yeast"
+    },
+    {
+      "item": "festivity:candied_orange"
+    }
+  ],
+  "result": {
+    "id": "festivity:panettone",
+    "count": 1
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}

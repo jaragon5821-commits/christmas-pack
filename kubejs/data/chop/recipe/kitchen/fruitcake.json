@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "farm_and_charm:dough"
+    },
+    {
+      "item": "festivity:candied_orange"
+    },
+    {
+      "tag": "c:nuts"
+    }
+  ],
+  "result": {
+    "id": "festivity:fruitcake",
+    "count": 1
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}
