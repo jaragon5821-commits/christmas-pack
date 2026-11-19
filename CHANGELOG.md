@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026.11.19-1 (the big update)
+- Festivity 0.10.9 r21: animal personalities, tameable Sea Otter / Hedgehog / Frostpuff / field mouse, Advent doors, presents rework, frozen drinks, Red Kitchen, 21 Immersive Melodies instruments, zone music volume slider, event intros, new food icons
+- AzureLib 3.2.8 (needed for the new animal models and the Builder Elf)
+- Blueprint Board 0.3.3: the Builder Elf
+- Quests: Winter Pantry chapter, Claws' Deal, text fixes
+- Santy Claws only arrives after the crash event (launch gate)
+- Christmas Kitchen recipe upgrades, Red Kitchen recipes, chile seeds in village chests, hostile mob cap 45
+- Structures v50a7, Weeping Witch camp, new KubeJS item art
+- AutoTorch! (client) and a one-time What's new note on login
+
 ## 2026.11.17-10
 - Christmas Structures v50a5: spawn fixes so beach snow sculptures, polar plunge hut and mountain watchtower B now generate
 

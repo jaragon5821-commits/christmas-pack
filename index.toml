@@ -3706,7 +3706,7 @@ hash = "9d7e2db3fb92440a7acb2b9af73f7b2e01817b6ee07d306edf929040b967680a"
 
 [[files]]
 file = "config/colonyautopilot-server.toml"
-hash = "f36577cfa99ff4294c269e2fed8ec6f08172fcf2e38e4799191e5253896ef0ef"
+hash = "1ee7ccae797150c8234c2afc171df6daefd5a593765440b782021fc89fdaba97"
 
 [[files]]
 file = "config/comforts-common.toml"
@@ -4882,8 +4882,8 @@ file = "config/openloader/packs/15_Chops_Roadside_Christmas_v2.zip"
 hash = "2cf765fd5d84a24fceed8b30a844f49c3b5e6069e2d8ffd6d776b27fbf31749c"
 
 [[files]]
-file = "config/openloader/packs/16_Chops_Christmas_Structures_v50a5.zip"
-hash = "8cc076c74af9253a43dc9b7c54afac73677b7f13c45c5369931c9d18ba9e49f3"
+file = "config/openloader/packs/16_Chops_Christmas_Structures_v50a7.zip"
+hash = "0d346afcfa0d2f294e7640744197fa00030198f89c6be11b654a12e2bb75e035"
 
 [[files]]
 file = "config/openloader/packs/17_chop_christmas_caves_v1b.zip"
@@ -4976,6 +4976,10 @@ hash = "79948a6c431b28f95e3a07be9e95211c65e85484f7a94639632b2790bfdaa2ba"
 [[files]]
 file = "config/openloader/packs/31_Chops_Road_Surface_v1.zip"
 hash = "bf28678d5f43f56cf3f81b750a418905ed894b6ea00ad88d7abf0f137dc92135"
+
+[[files]]
+file = "config/openloader/packs/33_Chops_Weeping_Witch_Camp_v1.zip"
+hash = "834f507d4706d86d2a1614634d84e84ef7d6ac4b8f5f82d96e49bcad572d08e6"
 
 [[files]]
 file = "config/openloader/packs/4_FA+Player-v1.1.zip"
@@ -22218,6 +22222,22 @@ file = "kubejs/assets/chop/models/item/ribbed_ornament.json"
 hash = "80774f33b24118ad73ede308e77be4bb0f1bf87d45ca4f35f3b650def5b5f749"
 
 [[files]]
+file = "kubejs/assets/chop/models/item/rotten_cookie.json"
+hash = "22b96b9d9cca465ca2650ed33aac400d941f5478861ea82f0b7e5f8180d2d923"
+
+[[files]]
+file = "kubejs/assets/chop/models/item/rotten_cookie_bite1.json"
+hash = "ab620ae188184e837fd3f65f1d93e21c84a960f8cb1389bd135a373005c4f255"
+
+[[files]]
+file = "kubejs/assets/chop/models/item/rotten_cookie_bite2.json"
+hash = "3a56961e6ea633b78b4b336089a0e8a3832c689fd69605d76067119700d59d45"
+
+[[files]]
+file = "kubejs/assets/chop/models/item/rotten_cookie_bite3.json"
+hash = "da9f27082da231f0b32e9ec51effcc46523da7a3f2745bfcd4ef74965007be4d"
+
+[[files]]
 file = "kubejs/assets/chop/models/item/snowflake_large_ornament.json"
 hash = "d30e77a7c0bf328fd853aafc5dedbd8a6ee7f2af317b3c66a5f3d62913d66346"
 
@@ -22312,6 +22332,22 @@ hash = "cc5ce2c44e6f03989e2e11bff345f869eae6a15812adab56e1806c6a03f1111d"
 [[files]]
 file = "kubejs/assets/chop/models/item/snowy_stone_brick_stairs.json"
 hash = "575e489ffa056a9324519a42c57cf311d8780e46ad844c24368843825c8e9efe"
+
+[[files]]
+file = "kubejs/assets/chop/models/item/sour_candy.json"
+hash = "9c0e92e6bdcd64a9327b2bbe2d0c7d0dd38552d773772b42a5e33d3826612179"
+
+[[files]]
+file = "kubejs/assets/chop/models/item/sour_candy_bite1.json"
+hash = "6cea7a8e5c22b33f4f4ff86f80ea9ddef40c48e889c0acc378daffae9b859966"
+
+[[files]]
+file = "kubejs/assets/chop/models/item/sour_candy_bite2.json"
+hash = "4fa5bc1839f1e71be1a1b7aa5f9250e8346e32f95e94acf22040ab062b9953bb"
+
+[[files]]
+file = "kubejs/assets/chop/models/item/sour_candy_bite3.json"
+hash = "24cc00f12a5e6b38e45e7f8d7acf28a5d97d32cb58e4ee18188375ea4f5a43bb"
 
 [[files]]
 file = "kubejs/assets/chop/models/item/star_window.json"
@@ -42159,11 +42195,11 @@ hash = "8556ad3649fcc22bfaacf7e4f8d6e2cc2590b710223a1940a9056197b69c1e62"
 
 [[files]]
 file = "kubejs/assets/chop/textures/item/frozen_treat.png"
-hash = "27f05e62b963c1a4d0ab00b9f249c750b8f5b0ea4cd332a2a93fed38b96fc427"
+hash = "6a895b0ee08ecf47da484aee75417d52c2595be934a4f996b9c23f8e070da049"
 
 [[files]]
 file = "kubejs/assets/chop/textures/item/gingerbread_chunk.png"
-hash = "4b9d383c3409c5979fb5ad5c6b2891129614fd1d42a1086d1c271987dea147d7"
+hash = "06bcd9a24114ed91e5a92285b871318ef2b090f380f9ae8464ccfa4d197b247b"
 
 [[files]]
 file = "kubejs/assets/chop/textures/item/gingerbread_friend.png"
@@ -42183,11 +42219,35 @@ hash = "e76d8f59fd55b2a8b3f7a973175f4fb30302ddb00ec542d911c0aa7f230549ba"
 
 [[files]]
 file = "kubejs/assets/chop/textures/item/rotten_cookie.png"
-hash = "1995c422d208e3796a08fa8be705f099bff31be5ef2ea479cb17b74c89a40be2"
+hash = "94efcb5194db96052d20418ccb77b0a0c339b299059db0adc0aeb821bffbf68e"
+
+[[files]]
+file = "kubejs/assets/chop/textures/item/rotten_cookie_bite1.png"
+hash = "aa8dabf528f9ad2039f24f5c3172862a4cf8e4c95171ab16a270280aae6648bc"
+
+[[files]]
+file = "kubejs/assets/chop/textures/item/rotten_cookie_bite2.png"
+hash = "2cb38ad4c874d9429c681b2833ddd1a8fdcdde6c3db5eef5f53cecf6108566c4"
+
+[[files]]
+file = "kubejs/assets/chop/textures/item/rotten_cookie_bite3.png"
+hash = "6b9f479d562ef54dca2410a99101c0404c9095e00199eea7d538060017046862"
 
 [[files]]
 file = "kubejs/assets/chop/textures/item/sour_candy.png"
-hash = "05b1c3658242c06563b14b30cf0bd1762b48e7417a5feb9ae7250003461ec138"
+hash = "10e299703acdd2af6a5d38d6c101426c095ab06c31793df2642e99d15d331df0"
+
+[[files]]
+file = "kubejs/assets/chop/textures/item/sour_candy_bite1.png"
+hash = "b239525528e1f08f75f477fe7963cddda7666e0b5b8ab433afc52446c399f47d"
+
+[[files]]
+file = "kubejs/assets/chop/textures/item/sour_candy_bite2.png"
+hash = "011be4ab2bebf2c308ffc372e5c8c9075f0ae465b8c230411cae2e49caa5267f"
+
+[[files]]
+file = "kubejs/assets/chop/textures/item/sour_candy_bite3.png"
+hash = "487422185c1571a8d00a555038bf76b985d764b76c92d9f0a473668d0671e315"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guideme_guides/handbook.json"
@@ -43114,6 +43174,66 @@ file = "kubejs/config/web_server.json"
 hash = "b866f0010b304fea7489bf8a8e7b2b8ee5b6ae4666b7f294ed74c745b600a44f"
 
 [[files]]
+file = "kubejs/data/chop/recipe/kitchen/candy_cane.json"
+hash = "81fce0135408a9aa11d5f16d80d64d09ac353632493204835e7108b77242d62d"
+
+[[files]]
+file = "kubejs/data/chop/recipe/kitchen/fruitcake.json"
+hash = "4ac77900d5818c16fe1f576ef0a36674891f623085d9975222a2235faf17d4e4"
+
+[[files]]
+file = "kubejs/data/chop/recipe/kitchen/green_candy_cane.json"
+hash = "2a7ebf80ba2e7566f55c4fca6a5dd593fc9fe757145f5afea21968fa90f204d4"
+
+[[files]]
+file = "kubejs/data/chop/recipe/kitchen/mince_pie.json"
+hash = "778cd115ecb44af0dc89c58fc2b077ad72c292867a6645858e2ee1065acaa475"
+
+[[files]]
+file = "kubejs/data/chop/recipe/kitchen/panettone.json"
+hash = "7576ef4345929839f8ed9a8fbf90d443e79c03ed9de6b736004595b5a7c11e60"
+
+[[files]]
+file = "kubejs/data/chop/recipe/kitchen/peppermint_bark.json"
+hash = "9a6c5bc8884fcb19afd30ec50753784fd8ee7f79a17b7940e923a70b744cb516"
+
+[[files]]
+file = "kubejs/data/chop/recipe/red_kitchen/carne_adovada_pot.json"
+hash = "de1f8505f1aa37d994989f6b8765ab4cb87791b75f08d86fa542d6441c1823ee"
+
+[[files]]
+file = "kubejs/data/chop/recipe/red_kitchen/chile_cross.json"
+hash = "fd25fb08a6e87f996cf0f89c9ab22ab2216b1bd178cf4a689e80a2963b0f8be8"
+
+[[files]]
+file = "kubejs/data/chop/recipe/red_kitchen/chile_powder_mincer.json"
+hash = "212fb9985e13d32870f1c3a5ff66d54f83f89d3bf023d51f35b79330eed92faa"
+
+[[files]]
+file = "kubejs/data/chop/recipe/red_kitchen/chile_ristra.json"
+hash = "afed5a0dd82938f1b2c5d9ebe8b9fbf5e369e29ac7edc541770f19b5d6dd0cf9"
+
+[[files]]
+file = "kubejs/data/chop/recipe/red_kitchen/chile_wreath.json"
+hash = "c1a9e47f104b988578b5432dbfb78e4d765f98aac183a9251f5965a6c9bc2732"
+
+[[files]]
+file = "kubejs/data/chop/recipe/red_kitchen/coal_furnace_chili_pot.json"
+hash = "75a99fc23ab334d23ed123ffc0f43cb638439f9df39e15a059b653e090a04f99"
+
+[[files]]
+file = "kubejs/data/chop/recipe/red_kitchen/dried_red_chile_smoking.json"
+hash = "4dd0a62c42fa9505874a6a1ff1d09162be7514ad6baa6134d7f61887d2c9d3b6"
+
+[[files]]
+file = "kubejs/data/chop/recipe/red_kitchen/ember_chicken_stew_pot.json"
+hash = "910ecc9e22196d6ad71529c3fae180bf3c6c45cc6a62e5144277015013b22683"
+
+[[files]]
+file = "kubejs/data/chop/recipe/red_kitchen/ironside_bean_pot.json"
+hash = "f8186fa6b9933bf7cd4f1d02af67c4849d7098bbcf2efebf603711b4ef5aee24"
+
+[[files]]
 file = "kubejs/data/chop/recipe/smelting/packed_mud_to_terracotta.json"
 hash = "fe21f13750b6336f78389d252b41190b20d33a2254bc691b776a9da7ed389f8f"
 
@@ -43172,6 +43292,58 @@ hash = "fc81f8cc61dda76523f18aeddce2b9523afcab926f80d06338473c3bf0f4c684"
 [[files]]
 file = "kubejs/data/festive_delight/recipe/tea_craft.json"
 hash = "48a8874a135e29b1200cf8ef1d9c8f1fe4cc8576852fcf5a84ba7894b439a00a"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/candy_cane.json"
+hash = "0ef32134f1913e39a7f01dcce67e0bf2a75c391af2b16081a457c239402591aa"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/cooking/eggnog.json"
+hash = "7f8fbea4e54a02c863e223daffd76cd81f070a1153fba729f627676d44c57579"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/eggnog.json"
+hash = "aaf886030a2e820f03aaa643318aecd3616b6103ecf4b736ba0088fd458bc7e0"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/fruitcake.json"
+hash = "660d0829b201ef023b2642c5f8f7133c831fbe9c178bd491d5ad5dff4808dee8"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/gingerbread_dough.json"
+hash = "14dff2b5140aa63f8dc45549cc1c3187d69eb935733b282f62ad945c9592acfe"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/green_candy_cane.json"
+hash = "ff92c022e962ca4588c0b732c9ec963563a09e33438c7f92098aa62d8ada281e"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/marzipan.json"
+hash = "1ff2db3e00cad995182628bfdb42115740148985e7875e1902c5ce6ee47bc24a"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/mince_pie.json"
+hash = "4dbf74d6b6e1b0f6acc1b9f5e76e1a9aca492b57b92be2b3862786927a866f20"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/panettone.json"
+hash = "368ba6ef1ae43163a2f3ef98f2ca2c62af07e7c6b8f67424ebea688aad1023f9"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/peppermint_bark.json"
+hash = "98c90d89b2f697a948095478e45ea0044e7b62ac8d67c71598dc22f6c2265f88"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/station/cranberry_sauce.json"
+hash = "6547bf5303de030572b450f136a164c72c9034ad2fb6c87677c95fe3a0a32ae5"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/station/mulled_cider.json"
+hash = "a3099d78e5f33d9e01fadec1b8a8a136b56ec83c3d79f11e928a16a3e25799ca"
+
+[[files]]
+file = "kubejs/data/festivity/recipe/station/mulled_wine.json"
+hash = "27f92fb088feaf5454810ddea51155f8af9c50d0dcf1fcab9834fbaae8a10d07"
 
 [[files]]
 file = "kubejs/data/merrymaking/recipe/aged_pine_mantel.json"
@@ -43234,8 +43406,12 @@ file = "kubejs/server_scripts/chop_carryon_animals.js"
 hash = "e8bf5e9f3366efbbdcc9670ba1959a0f369de5396524b1f303e7060104f0d59d"
 
 [[files]]
+file = "kubejs/server_scripts/chop_chile_seed_loot.js"
+hash = "94b5f5f519305f896b3c53d6bbfa5596b4c05aa1d58c5dee9498ccfff1b18e42"
+
+[[files]]
 file = "kubejs/server_scripts/chop_crop_unify.js"
-hash = "a2cc2195d296a2cb9ca7458c007aaefc492f5ebc134b2e5c37e313c0b527f476"
+hash = "d7d2bfaaf6ebdb1d31450955ed2190addcff6e41594e4967e7fc4ce7ebe25bf8"
 
 [[files]]
 file = "kubejs/server_scripts/chop_donation_bucket.js"
@@ -43291,7 +43467,7 @@ hash = "88e3d258fa6e259c18b25755bb3a61f43b47bc1fb75962b80c953baa07cf9b29"
 
 [[files]]
 file = "kubejs/server_scripts/chop_starter_kit.js"
-hash = "1b0bb7a3195c441c972c769347445b47ad90880e2d04a5d996c466eb3e4f0f38"
+hash = "5e4d519afab28013d11279d4694e7af53d52337091b8f836c6685e07e6fbcf29"
 
 [[files]]
 file = "kubejs/server_scripts/chop_synergy_critters.js"
@@ -43314,6 +43490,10 @@ file = "kubejs/server_scripts/chop_via_romana_paths.js"
 hash = "7b56ab39cb7b35ae66ae9c1490bb0ad845549a8dfc6b83c411bb07c1bd87d423"
 
 [[files]]
+file = "kubejs/server_scripts/chop_whats_new.js"
+hash = "cde70d3ac48397be6bc683a16f3b394b9b42bd3a7e97098adb9b5e548cb430f8"
+
+[[files]]
 file = "kubejs/server_scripts/chop_winter_cycle.js"
 hash = "0d4f63e108e861cf65c880516c5d76000650be79cb9997d8407e1a5e859e072e"
 
@@ -43331,7 +43511,7 @@ hash = "a6b0784ef18854c48763ccc1c06306e84970a57fe7738dbf0633c37c195e4470"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity.js"
-hash = "e290071f5ed0cf9bfe2197d272fc372e481f4ffc539b44ed407a2e07dcf4cfb2"
+hash = "bf541cc851b4db003f3ae85d3cd7f6b3ec0327a4352f0afbfacf28469a0391f6"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_gbhouse_loot.js"
@@ -43347,19 +43527,19 @@ hash = "84edab40cb6cf9b3b6289a4b67f3a2d33461d8d29972e845e12efc14c30d5227"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase2.js"
-hash = "d3ce94e53ff6ce7b213200693a46bcab8ae15646d5ae9e98ae53a4c7559a4b13"
+hash = "771397f0c0b7c4a8160195b23f5d5d3bf3eff155403b2fd3d31e9457c763aa7f"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase3.js"
-hash = "65e0c04cc40b00d88091a67074305aefa302ca6f3862c5757dd3fa2c9e1207f1"
+hash = "69edacd0332017c0f3deb01b48cb69ae6e702c0f42197f39abe604059e7fed5f"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase4.js"
-hash = "63b5b7a522a6d3a126c424d9d71fc3b43d2261ddaefa4aad86e0459c9781386b"
+hash = "b32639f37594e08b767187fa68218f0e94aef060e6f7c1299dbb9302a2c750d7"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase5.js"
-hash = "49ea1afbd50ab2f4f2af12f610a5ed33e1f00fc1e6c920d56e5b6f02f777fb82"
+hash = "e2151e64b40854e64953698d7019df8e4088be24d61ee3ecbce610f30ca17a04"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_quests.js"
@@ -43483,6 +43663,16 @@ metafile = true
 [[files]]
 file = "mods/autochefs-delight.pw.toml"
 hash = "53b979e6b76d58e3c6cf47abc0491e75a4fd8e546111188a098069e6e0bcf3c2"
+metafile = true
+
+[[files]]
+file = "mods/autotorch.pw.toml"
+hash = "82d4e7691cbd96146e1af42871eab3e8dd0f99d6a068be061b9f63ec07a16524"
+metafile = true
+
+[[files]]
+file = "mods/azurelib.pw.toml"
+hash = "ad775806176bcf110b286b6a272699fa22fbabf9958c0da4a9053178fb177d7d"
 metafile = true
 
 [[files]]
@@ -43816,8 +44006,8 @@ hash = "b7f63fc9aeaefa71acbedd853df29491c4500d6425ff1de0110500b64b42d8a3"
 metafile = true
 
 [[files]]
-file = "mods/custom-chop-blueprints-0.1.0.pw.toml"
-hash = "3000cc058933d579d24432f27193b6518918d43d6469954fe8b032b31a9de385"
+file = "mods/custom-chop-blueprints-0.3.3.pw.toml"
+hash = "69de3ef0d8525cdf2c0de2c5bb8365a23c980e67b6476f10a1cd78666d6959b0"
 metafile = true
 
 [[files]]
@@ -43841,8 +44031,8 @@ hash = "e375c093c24e4464ccb2186b77177b742046c0d926c248805421ac8cd51fa998"
 metafile = true
 
 [[files]]
-file = "mods/custom-festivity-0.9.181.pw.toml"
-hash = "aaa307bee8afd1306261a2acc473593a0f88f14e1927808292bd7bb075a328b7"
+file = "mods/custom-festivity-0.10.9.pw.toml"
+hash = "80946966be6c325a71555b00ba9df7d3acd490ff7f962afb13e6ecd5f944b791"
 metafile = true
 
 [[files]]
