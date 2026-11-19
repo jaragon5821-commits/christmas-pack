@@ -1,0 +1,26 @@
+{
+ "parent": "minecraft:item/generated",
+ "textures": {
+  "layer0": "chop:item/sour_candy"
+ },
+ "overrides": [
+  {
+   "predicate": {
+    "festivity:bite": 0.25
+   },
+   "model": "chop:item/sour_candy_bite1"
+  },
+  {
+   "predicate": {
+    "festivity:bite": 0.5
+   },
+   "model": "chop:item/sour_candy_bite2"
+  },
+  {
+   "predicate": {
+    "festivity:bite": 0.75
+   },
+   "model": "chop:item/sour_candy_bite3"
+  }
+ ]
+}
