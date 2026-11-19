@@ -16,7 +16,8 @@
   const HANDBOOK = 'guideme:guide[guideme:guide_id="chopxmas:handbook"]';
   // [flag, item id that must be registered, give argument]. Add the Field Guide here when it exists.
   const EXTRA_BOOKS = [
-    ['chopKitFestiveBook', 'festivity:festive_book', 'festivity:festive_book']
+    ['chopKitFestiveBook', 'festivity:festive_book', 'festivity:festive_book'],
+    ['chopBookbag', 'festivity:bookbag', 'festivity:bookbag']   // Rune 19aaba3 (11-18): Bookbag once, only when registered
   ];
   const registered = id => BuiltInRegistries.ITEM.containsKey(ResourceLocation.parse(id));
   PlayerEvents.loggedIn(event => {

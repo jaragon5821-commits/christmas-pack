@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:red_chile"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:dried_red_chile"
+    }
+  ],
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": {
+    "item": "festivity:red_chile"
+  },
+  "result": {
+    "id": "festivity:dried_red_chile"
+  },
+  "experience": 0.1,
+  "cookingtime": 7200
+}
