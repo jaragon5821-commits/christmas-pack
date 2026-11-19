@@ -4882,8 +4882,8 @@ file = "config/openloader/packs/15_Chops_Roadside_Christmas_v2.zip"
 hash = "2cf765fd5d84a24fceed8b30a844f49c3b5e6069e2d8ffd6d776b27fbf31749c"
 
 [[files]]
-file = "config/openloader/packs/16_Chops_Christmas_Structures_v50a7.zip"
-hash = "0d346afcfa0d2f294e7640744197fa00030198f89c6be11b654a12e2bb75e035"
+file = "config/openloader/packs/16_Chops_Christmas_Structures_v50a10r3.zip"
+hash = "9c9549ac68466ab29189a684cfd2558c3c196e6dd3b5fde62f3926bf40348f66"
 
 [[files]]
 file = "config/openloader/packs/17_chop_christmas_caves_v1b.zip"
@@ -43491,7 +43491,7 @@ hash = "7b56ab39cb7b35ae66ae9c1490bb0ad845549a8dfc6b83c411bb07c1bd87d423"
 
 [[files]]
 file = "kubejs/server_scripts/chop_whats_new.js"
-hash = "cde70d3ac48397be6bc683a16f3b394b9b42bd3a7e97098adb9b5e548cb430f8"
+hash = "843552267457a0bc8cff12941c61f71bdd6020860c493b012668cb9d2a2f7f84"
 
 [[files]]
 file = "kubejs/server_scripts/chop_winter_cycle.js"
@@ -44021,8 +44021,8 @@ hash = "07a6a94021dc15dfa0c5235ede7dad0fcc248f4d7ba9744e77eb2f779962a588"
 metafile = true
 
 [[files]]
-file = "mods/custom-choproadbridges-1.21.1-0.13.4.pw.toml"
-hash = "ad8a4ab281693ac51e271adcb856362ecee852e3a908c09390ee88e6d081706e"
+file = "mods/custom-choproadbridges-1.21.1-0.13.5.pw.toml"
+hash = "815afd8c11ba795e6fa35f2856cd64091ba6aca9e974c5f46b4a4f86dbde4821"
 metafile = true
 
 [[files]]
@@ -44031,8 +44031,8 @@ hash = "e375c093c24e4464ccb2186b77177b742046c0d926c248805421ac8cd51fa998"
 metafile = true
 
 [[files]]
-file = "mods/custom-festivity-0.10.9.pw.toml"
-hash = "80946966be6c325a71555b00ba9df7d3acd490ff7f962afb13e6ecd5f944b791"
+file = "mods/custom-festivity-0.10.10.pw.toml"
+hash = "7e10abeff75fb277a000beeac37543da169d8e334fbea30ad4c24b8e53d0e78c"
 metafile = true
 
 [[files]]
@@ -44067,7 +44067,7 @@ metafile = true
 
 [[files]]
 file = "mods/diegesis-api.pw.toml"
-hash = "ae17d6e99341468fee6adcc8863ab319dd25958fa2d98dfdf5c317f23df92950"
+hash = "9f8800ebeea6c57ee789665f2e7f9b728ff89c64ab19cdf73dbd8c99f7c65eef"
 metafile = true
 
 [[files]]
@@ -44317,7 +44317,7 @@ metafile = true
 
 [[files]]
 file = "mods/hands-on-delight.pw.toml"
-hash = "bfcc849ef7da61d3829d3821b3a1f8f98b7fb5f9a6f588a92414915eb0b40dfa"
+hash = "d0562ec6db4356396172daa75c3f3b7f9b4c028e22ca7fd447522e4796355579"
 metafile = true
 
 [[files]]

@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026.11.19-2
+- Festivity 0.10.10 r3 (forest animal spawn fix, Gingerbread Buddy v2.1, Reindeer models, Snowman Companion v3)
+- Chop's Road Bridges 0.13.5 (fixes long freezes when locating giant statues)
+- Structures v50a10 r3: more giant statues, easier to find
+- Hands-On Delight 1.6.0 + Diegesis API beta.13
+
 ## 2026.11.19-1 (the big update)
 - Festivity 0.10.9 r21: animal personalities, tameable Sea Otter / Hedgehog / Frostpuff / field mouse, Advent doors, presents rework, frozen drinks, Red Kitchen, 21 Immersive Melodies instruments, zone music volume slider, event intros, new food icons
 - AzureLib 3.2.8 (needed for the new animal models and the Builder Elf)

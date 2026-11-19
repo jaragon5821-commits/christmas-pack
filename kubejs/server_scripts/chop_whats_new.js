@@ -1,10 +1,10 @@
 // chop_whats_new.js v0.1.2 (Sleigh, 2026-11-18) - "What's new" note, shown ONCE per pack update to each player on login.
 // Edit WN_VERSION and WN_LINES at each install. A player who has seen this version is not shown it again.
 // Chat only (no screen, no client mod), so it works the same on LAN, e4mc and the server.
-const WN_VERSION = '2026.11.19-1'
-// Lines below are for Festivity 0.10.9 r21 (launch jar). If the install falls back to 0.10.7 r4, use the FALLBACK list instead.
+const WN_VERSION = '2026.11.19-2'
+// Lines below are for Festivity 0.10.10 r3 (launch jar). If the install falls back to 0.10.7 r4, use the FALLBACK list instead.
 const WN_LINES = [
-  'Festivity 0.10.9: animals with personalities; tame the Sea Otter, Hedgehog, Frostpuff and the field mouse',
+  'Festivity 0.10.10: animals with personalities; tame the Sea Otter, Hedgehog, Frostpuff and the field mouse',
   'Advent doors, presents rework, frozen drinks and new food icons',
   'Red Kitchen: red chile crop and feast pots (find its Lost Book)',
   '21 new Immersive Melodies instruments, plus carol melodies',
