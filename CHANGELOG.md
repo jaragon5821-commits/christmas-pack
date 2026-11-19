@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.19-3
+- Festivity 0.10.10 r8 (fix build, replaces r3)
+
 ## 2026.11.19-2
 - Festivity 0.10.10 r3 (forest animal spawn fix, Gingerbread Buddy v2.1, Reindeer models, Snowman Companion v3)
 - Chop's Road Bridges 0.13.5 (fixes long freezes when locating giant statues)
