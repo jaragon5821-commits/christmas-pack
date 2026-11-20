@@ -9,6 +9,7 @@
 //   - Mailbox + market: no diamonds. Nether: debris out, scrap 2% small / 6% big. End big keeps a 'relics' pool without top tier.
 //   - furnace_boss: netherite scrap ~23% -> ~10%, end crystal out. Giant summits: 1-2 diamonds guaranteed, untaken summits +1 T3 roll.
 //   Prison mines filter + the theme layer by structure live in chop_loot_theme.js.
+//   claws_stash / hold_cargo / place/* tables ship in Cobblestone's structures pack (v50a14), not here. T2 main rolls 4-6 -> 4-5 (room for the theme pool).
 // v0.2.1 (Rune 11-16, boss rule for the elf prison mines: no diamond gear, diamonds only in the end vault): a table can set
 //   'exclude' (regex on the item id). xmas_dungeon_small (mines pots + small dungeon chests) now drops no diamond or netherite
 //   item at all: no diamond sword/pickaxe/knife in gear, no diamonds in valuables or rare, no diamond horse armor, no netherite scrap.
@@ -145,7 +146,7 @@
                                         extra: [['chop_strongbox', [['minecraft:diamond', 10, 1, 2], ['minecraft:golden_apple', 8, 1, 1], ['minecraft:book', 10, 1, 1, 'ench'],
                                                                      ['sophisticatedbackpacks:backpack', 2, 1, 1]], 70]],
                                         bonus: 1 },
-    'chop:chests/xmas_dungeon_small': { tier: 'T2', rolls: [4, 6], mix: [['valuables', 2], ['gear', 2], ['food', 1], ['basics', 2], ['festive', 1]], exclude: /diamond|netherite/,
+    'chop:chests/xmas_dungeon_small': { tier: 'T2', rolls: [4, 5], mix: [['valuables', 2], ['gear', 2], ['food', 1], ['basics', 2], ['festive', 1]], exclude: /diamond|netherite/,
                                         extra: [FUN, ['chop_t2_diamond', [['minecraft:diamond', 3, 1, 1]], 97]] },
     'chop:chests/xmas_nether':        { tier: 'Nether', rolls: [4, 5], mix: [['nether', 4], ['valuables', 2], ['gear', 2]], exclude: /netherite/,
                                         extra: [['chop_nether_scrap', [['minecraft:netherite_scrap', 6, 1, 1]], 94]], bonus: 1 },
