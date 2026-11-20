@@ -43198,6 +43198,14 @@ file = "kubejs/config/web_server.json"
 hash = "b866f0010b304fea7489bf8a8e7b2b8ee5b6ae4666b7f294ed74c745b600a44f"
 
 [[files]]
+file = "kubejs/data/chop/loot_table/chests/claws_stash.json"
+hash = "4648091724daa869a9a20169b8f34658e7d3a91f9364becee5a3343877234a62"
+
+[[files]]
+file = "kubejs/data/chop/loot_table/chests/hold_cargo.json"
+hash = "b4411977d4f252897716af17232574f443811076d3b28a3fdffdbb8355a408e9"
+
+[[files]]
 file = "kubejs/data/chop/recipe/kitchen/candy_cane.json"
 hash = "81fce0135408a9aa11d5f16d80d64d09ac353632493204835e7108b77242d62d"
 
@@ -43527,7 +43535,7 @@ hash = "7e109555db629a58b057e83a83d268fd43514320b5f0e5217f7cf0594870185a"
 
 [[files]]
 file = "kubejs/server_scripts/chop_xmas_chest_loot.js"
-hash = "dc2d2e4b11a86df6fb7d668a518f7860bd06f269cc607950d3a4a263d7a9d3d1"
+hash = "94ca3111083906e235d165a4db45398a7f58b8682e492b7a02704fa6dc963641"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/05_tags.js"
