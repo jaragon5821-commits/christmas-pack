@@ -1,0 +1,891 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chopq_lost_books"
+	group: "34057A5E60000005"
+	icon: {
+		id: "minecraft:written_book"
+	}
+	id: "34057A5E5D000000"
+	images: [ ]
+	order_index: 31
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:written_book"
+			}
+			id: "34057A5E5D9BC562"
+			rewards: [
+				{
+					id: "34057A5E5D1F5FB2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "34057A5E5DCBA520"
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "festivity:lost_book_frostmasons_ledger"
+			}
+			id: "34057A5E5D527D2A"
+			invisible: true
+			rewards: [
+				{
+					id: "34057A5E5DCDC39A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "34057A5E5DA81F62"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["34057A5E5D527D2A"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:frozen_remnant"
+			}
+			id: "34057A5E5DAC3DFF"
+			rewards: [
+				{
+					id: "34057A5E5DE1362B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "34057A5E5DDFBBEC"
+					item: { count: 1, id: "festivity:frozen_remnant" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["34057A5E5DAC3DFF"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:frost_forged_coat"
+			}
+			id: "34057A5E5DB0820B"
+			rewards: [
+				{
+					id: "34057A5E5DBAC280"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5DADFE89"
+					item: { count: 1, id: "festivity:frost_forged_coat" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["34057A5E5DB0820B"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:frost_forged_hood"
+			}
+			id: "34057A5E5D34B5AA"
+			rewards: [
+				{
+					id: "34057A5E5D20EAC3"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5DD93B5A"
+					item: { count: 1, id: "festivity:frost_forged_hood" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5D481591"
+					item: { count: 1, id: "festivity:frost_forged_trousers" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5D553815"
+					item: { count: 1, id: "festivity:frost_forged_boots" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: -5.0d
+		}
+		{
+			dependencies: ["34057A5E5D34B5AA"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:frost_forged_wish_sword"
+			}
+			id: "34057A5E5DBE80D5"
+			rewards: [
+				{
+					id: "34057A5E5DC564A1"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5D20972E"
+					item: { count: 1, id: "festivity:frost_forged_wish_sword" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["34057A5E5DBE80D5"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:lost_book_frostmasons_ledger"
+			}
+			id: "34057A5E5D67F632"
+			rewards: [
+				{
+					id: "34057A5E5D3A3B95"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "34057A5E5D1DE24A"
+					type: "checkmark"
+				}
+			]
+			x: 8.75d
+			y: -5.0d
+		}
+		{
+			icon: {
+				id: "festivity:lost_book_clockwork_manual"
+			}
+			id: "34057A5E5DE108AD"
+			invisible: true
+			rewards: [
+				{
+					id: "34057A5E5D5CC100"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "34057A5E5DE3742D"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34057A5E5DE108AD"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:clockwork_key"
+			}
+			id: "34057A5E5DD06F6C"
+			rewards: [
+				{
+					id: "34057A5E5D8EC1D9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5D714E3C"
+					item: { count: 1, id: "festivity:clockwork_key" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34057A5E5DD06F6C"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:clockwork_wrapper"
+			}
+			id: "34057A5E5D7AFC16"
+			rewards: [
+				{
+					id: "34057A5E5DE7C60C"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5D7C7B23"
+					item: { count: 1, id: "festivity:clockwork_wrapper" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34057A5E5D7AFC16"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:clockwork_feeder"
+			}
+			id: "34057A5E5D9EF52E"
+			rewards: [
+				{
+					id: "34057A5E5D53820E"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5DDEAD62"
+					item: { count: 1, id: "festivity:clockwork_feeder" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34057A5E5D9EF52E"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:lost_book_clockwork_manual"
+			}
+			id: "34057A5E5D1D9CFE"
+			rewards: [
+				{
+					id: "34057A5E5DC4A169"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "34057A5E5D25ABEE"
+					type: "checkmark"
+				}
+			]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				id: "festivity:lost_book_stokers_logbook"
+			}
+			id: "34057A5E5D7E8DE8"
+			invisible: true
+			rewards: [
+				{
+					id: "34057A5E5DED6453"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "34057A5E5DEC3106"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34057A5E5D7E8DE8"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:forge_ember"
+			}
+			id: "34057A5E5D11CC00"
+			rewards: [
+				{
+					id: "34057A5E5DB52EB3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "34057A5E5D0E33D5"
+					item: { count: 1, id: "festivity:forge_ember" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34057A5E5D11CC00"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:ember_smithing_plate"
+			}
+			id: "34057A5E5DA09FF5"
+			rewards: [
+				{
+					id: "34057A5E5D855B52"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5DB49CB1"
+					item: { count: 1, id: "festivity:ember_smithing_plate" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34057A5E5DA09FF5"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:ember_tempered_pickaxe"
+			}
+			id: "34057A5E5D97903A"
+			rewards: [
+				{
+					id: "34057A5E5D66F809"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5DA51AF8"
+					item: { count: 1, id: "festivity:ember_tempered_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34057A5E5D97903A"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:ember_tempered_axe"
+			}
+			id: "34057A5E5D5861CA"
+			rewards: [
+				{
+					id: "34057A5E5DA9FDD3"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5DC70724"
+					item: { count: 1, id: "festivity:ember_tempered_axe" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34057A5E5D5861CA"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:ember_tempered_shovel"
+			}
+			id: "34057A5E5D77BCF5"
+			rewards: [
+				{
+					id: "34057A5E5DA32146"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5DEFA31B"
+					item: { count: 1, id: "festivity:ember_tempered_shovel" }
+					type: "item"
+				}
+			]
+			x: 8.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34057A5E5D77BCF5"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:lost_book_stokers_logbook"
+			}
+			id: "34057A5E5D8153F3"
+			rewards: [
+				{
+					id: "34057A5E5D66219C"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "34057A5E5DEDB859"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "festivity:lost_book_red_kitchen"
+			}
+			id: "34057A5E5D942CEB"
+			invisible: true
+			rewards: [
+				{
+					id: "34057A5E5D85B616"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "34057A5E5D091BBD"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34057A5E5D942CEB"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:coal_furnace_chili_pot"
+			}
+			id: "34057A5E5D73544E"
+			rewards: [
+				{
+					id: "34057A5E5D188EC8"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5DF754D0"
+					item: { count: 1, id: "festivity:coal_furnace_chili_pot" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34057A5E5D73544E"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:carne_adovada_pot"
+			}
+			id: "34057A5E5DB961FC"
+			rewards: [
+				{
+					id: "34057A5E5DB1C7A8"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5D6D09E5"
+					item: { count: 1, id: "festivity:carne_adovada_pot" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34057A5E5DB961FC"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:ironside_bean_pot"
+			}
+			id: "34057A5E5DAACA15"
+			rewards: [
+				{
+					id: "34057A5E5D503017"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5DBC14DD"
+					item: { count: 1, id: "festivity:ironside_bean_pot" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34057A5E5DAACA15"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:ember_chicken_stew_pot"
+			}
+			id: "34057A5E5DA5848F"
+			rewards: [
+				{
+					id: "34057A5E5D165814"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5D067BC6"
+					item: { count: 1, id: "festivity:ember_chicken_stew_pot" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34057A5E5DA5848F"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:lost_book_red_kitchen"
+			}
+			id: "34057A5E5DADC83B"
+			rewards: [
+				{
+					id: "34057A5E5DD3BA0D"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "34057A5E5DFEC8D4"
+					type: "checkmark"
+				}
+			]
+			x: 8.75d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "festivity:lost_book_lamplighters_notes"
+			}
+			id: "34057A5E5D52187A"
+			invisible: true
+			rewards: [
+				{
+					id: "34057A5E5D2A3967"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "34057A5E5D5C7CB3"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34057A5E5D52187A"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:lighthouse_lens"
+			}
+			id: "34057A5E5D3BEB3F"
+			rewards: [
+				{
+					id: "34057A5E5D22C96C"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5D82BBF6"
+					item: { count: 1, id: "festivity:lighthouse_lens" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34057A5E5D3BEB3F"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:everlit_lantern"
+			}
+			id: "34057A5E5DDA3BD6"
+			rewards: [
+				{
+					id: "34057A5E5DC74A32"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "34057A5E5D55AE07"
+					item: { count: 1, id: "festivity:everlit_lantern" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34057A5E5DDA3BD6"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:candle_of_vigil_ii"
+			}
+			id: "34057A5E5DC32416"
+			rewards: [
+				{
+					id: "34057A5E5D6DCDAD"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5D7E4C78"
+					item: { count: 1, id: "festivity:candle_of_vigil_ii" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34057A5E5DC32416"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:lost_book_lamplighters_notes"
+			}
+			id: "34057A5E5D32ADDF"
+			rewards: [
+				{
+					id: "34057A5E5DC4917B"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "34057A5E5D7711B4"
+					type: "checkmark"
+				}
+			]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "festivity:lost_book_last_route"
+			}
+			id: "34057A5E5D291FED"
+			invisible: true
+			rewards: [
+				{
+					id: "34057A5E5D69862F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "34057A5E5D455449"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["34057A5E5D291FED"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:broken_reindeer_bell"
+			}
+			id: "34057A5E5DB589D4"
+			rewards: [
+				{
+					id: "34057A5E5DBB1598"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5D6F0105"
+					item: { count: 1, id: "festivity:broken_reindeer_bell" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["34057A5E5DB589D4"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:star_chart"
+			}
+			id: "34057A5E5D5B65AD"
+			rewards: [
+				{
+					id: "34057A5E5D8B0967"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5DF16BA9"
+					item: { count: 1, id: "festivity:star_chart" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["34057A5E5D5B65AD"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:route_bell"
+			}
+			id: "34057A5E5D1F294A"
+			rewards: [
+				{
+					id: "34057A5E5D652F8C"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5D1EA845"
+					item: { count: 1, id: "festivity:route_bell" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["34057A5E5D1F294A"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "festivity:lost_book_last_route"
+			}
+			id: "34057A5E5DE5575C"
+			rewards: [
+				{
+					id: "34057A5E5D43078A"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "34057A5E5DCDC0C0"
+					type: "checkmark"
+				}
+			]
+			x: 7.0d
+			y: 5.0d
+		}
+	]
+}

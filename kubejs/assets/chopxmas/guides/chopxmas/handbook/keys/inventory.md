@@ -12,6 +12,12 @@ Small helpers for trashing, crafting and extra slots.
 
 **Your keys right now.** Keys marked **Unassigned** start with no key: click the link to open Keybind Atlas, then pick the key there (Edit, then the Unassigned list).
 
+### Bookbag
+
+* Open your bookbag: **<KeyBind id="key.festivity.bookbag" />**
+
+The bookbag holds your books: the Festive Book, the Field Guide, Lost Books and most other books, tomes and journals. Wear it in its own curio slot.
+
 <OptionalSection modId="trashslot">
 
 ### TrashSlot

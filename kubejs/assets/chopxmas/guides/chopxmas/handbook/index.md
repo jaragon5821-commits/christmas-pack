@@ -20,6 +20,7 @@ Every mod's keys are in this book, and each one shows what it is set to on your 
 
 * **New here?** Start with **Getting Started** below.
 * **Festivity:** keep the town jolly. Decorate, feast and give gifts. The Festivity HUD shows how merry things are.
+* **Creatures:** where the pack's animals and monsters live and what they drop.
 * **Quests:** the quest book has chapters for Christmas, your colony, the kitchen, getting around, magic, the giants and every dungeon. Open it with the **Quests** button in your inventory.
 * **Friends:** voice chat works near other players. See the Voice Chat page to pick your mic.
 

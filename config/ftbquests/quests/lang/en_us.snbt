@@ -31,6 +31,8 @@
 	chapter.34057A5E5B000000.title: "The Colony Tree"
 	chapter.34057A5E5C000000.chapter_subtitle: ["Old stories, very big statues. Go and see them for yourself."]
 	chapter.34057A5E5C000000.title: "Visit the Giants"
+	chapter.34057A5E5D000000.chapter_subtitle: ["Six books, lost in the worst places. Read one and its pages open here."]
+	chapter.34057A5E5D000000.title: "Lost Books"
 	chapter.34057A5E5E000000.chapter_subtitle: ["New crops, bushes and fruit trees grow wild out there. Find them, plant them, cook with them."]
 	chapter.34057A5E5E000000.title: "Winter Pantry"
 	chapter.404E8D82CC44BFB6.title: "Kitchen \\& Farm"
@@ -2069,6 +2071,99 @@
 		"Walk towards it if you find it."
 	]
 	quest.34057A5E5CFFDDC0.title: "The Lamplighter"
+	quest.34057A5E5D11CC00.quest_desc: ["Collect Forge Embers. Bank them in ash and they keep a year."]
+	quest.34057A5E5D11CC00.title: "Banked Embers"
+	quest.34057A5E5D1D9CFE.quest_desc: ["You've made everything this book teaches."]
+	quest.34057A5E5D1D9CFE.title: "The Clockwork Manual: Done"
+	quest.34057A5E5D1F294A.quest_desc: ["Make the route bell from the broken bell and the star chart, then ring it once. The stars lead back to your bed."]
+	quest.34057A5E5D1F294A.title: "Route Bell"
+	quest.34057A5E5D291FED.quest_desc: [
+		"You read the Last Route. You can make a route bell now."
+		"It makes no sound any more. Ring it anyway, and a trail of stars points the way home."
+	]
+	quest.34057A5E5D291FED.title: "The Last Route"
+	quest.34057A5E5D32ADDF.quest_desc: ["You've made everything this book teaches."]
+	quest.34057A5E5D32ADDF.title: "The Lamplighter's Notes: Done"
+	quest.34057A5E5D34B5AA.quest_desc: ["Hood, trousers and boots to match. Wear all four and anyone who strikes you gets a touch of frost."]
+	quest.34057A5E5D34B5AA.title: "The Warden's Set"
+	quest.34057A5E5D3BEB3F.quest_desc: ["Find the Lighthouse Lens in the Taken Lighthouse out at sea."]
+	quest.34057A5E5D3BEB3F.title: "A Lens From the Sea"
+	quest.34057A5E5D52187A.quest_desc: [
+		"You read the Lamplighter's Notes. You can make Everlit Lanterns and a stronger Candle of Vigil now."
+		"A light someone chose to keep lit is a promise. Promises are hard to break."
+	]
+	quest.34057A5E5D52187A.title: "The Lamplighter's Notes"
+	quest.34057A5E5D527D2A.quest_desc: [
+		"You read the Frostmason's Ledger. You can upgrade Frostfur and the Frozen Wish Sword into Frost-Forged gear now."
+		"Ice that never melts, worked into fur and steel. Stronger than diamond, not quite netherite."
+	]
+	quest.34057A5E5D527D2A.title: "The Frostmason's Ledger"
+	quest.34057A5E5D5861CA.quest_desc: ["A diamond axe: logs come out as charcoal."]
+	quest.34057A5E5D5861CA.title: "Tempered Axe"
+	quest.34057A5E5D5B65AD.quest_desc: ["A Star Chart, drawn by someone who knew the way."]
+	quest.34057A5E5D5B65AD.title: "The Old Route"
+	quest.34057A5E5D67F632.quest_desc: ["You've made everything this book teaches."]
+	quest.34057A5E5D67F632.title: "The Frostmason's Ledger: Done"
+	quest.34057A5E5D73544E.quest_desc: ["Red chile, slow heat. A bowl keeps the heat off you and the warmth in."]
+	quest.34057A5E5D73544E.title: "Coal Furnace Chili"
+	quest.34057A5E5D77BCF5.quest_desc: ["A diamond shovel: sand comes out as glass."]
+	quest.34057A5E5D77BCF5.title: "Tempered Shovel"
+	quest.34057A5E5D7AFC16.quest_desc: ["Build a helper that wraps anything you put in it into a present. A hopper underneath collects them."]
+	quest.34057A5E5D7AFC16.title: "The Wrapper"
+	quest.34057A5E5D7E8DE8.quest_desc: [
+		"You read the Stoker's Logbook. Ember smithing is yours now."
+		"Tools that smelt what they break and reach a little further. Crouch and use one on the air to switch the heat off and on."
+	]
+	quest.34057A5E5D7E8DE8.title: "The Stoker's Logbook"
+	quest.34057A5E5D8153F3.quest_desc: ["You've made everything this book teaches."]
+	quest.34057A5E5D8153F3.title: "The Stoker's Logbook: Done"
+	quest.34057A5E5D942CEB.quest_desc: [
+		"You read the Red Kitchen recipes: four chile feasts for the cooking pot. Set one on the table and everyone eats."
+		"Each serving keeps a blessing on you for about twenty minutes. Cook them for a table, not a war."
+	]
+	quest.34057A5E5D942CEB.title: "Recipes from the Red Kitchen"
+	quest.34057A5E5D97903A.quest_desc: ["Temper a diamond pickaxe with a Forge Ember."]
+	quest.34057A5E5D97903A.title: "Tempered Pick"
+	quest.34057A5E5D9BC562.quest_desc: [
+		"Somewhere out there are six old books, each written by someone who learned how to make something remarkable."
+		"They're kept in the hardest places to reach. Read one and its chapter opens here, and so do its recipes. The recipes are only for whoever read the book, so everyone needs their own copy."
+		"&7Keep them in your bookbag once you've read them.&r"
+		"Where to look: the deepest rooms of the Elf Prison Mines, the Toy Factory, Claws' Coal Furnace and the Clinker Forge, and the summits of the Lamplighter and the Wrecked Sleigh in the End."
+	]
+	quest.34057A5E5D9BC562.title: "Lost Books"
+	quest.34057A5E5D9EF52E.quest_desc: ["Build a helper that breeds the animals within 8 blocks from its own store, a pair at a time. It stops when a pen gets crowded."]
+	quest.34057A5E5D9EF52E.title: "The Feeder"
+	quest.34057A5E5DA09FF5.quest_desc: ["Make the logbook's template: it holds an ember against a tool at the smithing table."]
+	quest.34057A5E5DA09FF5.title: "The Smithing Plate"
+	quest.34057A5E5DA5848F.quest_desc: ["The last page, scorched at the edge. Cook it anyway: it mends you for a long while."]
+	quest.34057A5E5DA5848F.title: "Ember Chicken Stew"
+	quest.34057A5E5DAACA15.quest_desc: ["Beans that stand up to anything. So will you."]
+	quest.34057A5E5DAACA15.title: "Ironside Bean Pot"
+	quest.34057A5E5DAC3DFF.quest_desc: ["Gather Frozen Remnant: splinters of the Ascendant that will not melt."]
+	quest.34057A5E5DAC3DFF.title: "Ice That Remembers"
+	quest.34057A5E5DADC83B.quest_desc: ["You've made everything this book teaches."]
+	quest.34057A5E5DADC83B.title: "Recipes from the Red Kitchen: Done"
+	quest.34057A5E5DB0820B.quest_desc: ["Craft the ledger's template first: blue ice around a diamond, with paper at the bottom. Then at a smithing table: template, a Frostfur piece and Frozen Remnant. Start with the coat."]
+	quest.34057A5E5DB0820B.title: "A Coat the Wind Can't Find"
+	quest.34057A5E5DB589D4.quest_desc: ["Find a Broken Reindeer Bell. It still knows the way, even if the sleigh doesn't."]
+	quest.34057A5E5DB589D4.title: "Still Rings True"
+	quest.34057A5E5DB961FC.quest_desc: ["The stokers' own. Eat it before a long day's digging."]
+	quest.34057A5E5DB961FC.title: "Stoker's Carne Adovada"
+	quest.34057A5E5DBE80D5.quest_desc: ["The last pattern in the ledger: upgrade a Frozen Wish Sword. Its hits frost what they touch."]
+	quest.34057A5E5DBE80D5.title: "A Wish in the Steel"
+	quest.34057A5E5DC32416.quest_desc: ["Make the stronger vigil candle: twice the ward of the first, and it stays lit through dawn."]
+	quest.34057A5E5DC32416.title: "The Long Vigil"
+	quest.34057A5E5DD06F6C.quest_desc: ["Every helper starts with a clockwork key."]
+	quest.34057A5E5DD06F6C.title: "One Way Only"
+	quest.34057A5E5DDA3BD6.quest_desc: ["Make Everlit Lanterns: eight lanterns around the lens. Put one in every window."]
+	quest.34057A5E5DDA3BD6.title: "Everlit"
+	quest.34057A5E5DE108AD.quest_desc: [
+		"You read the Clockwork Manual. You can build clockwork helpers now."
+		"One job each, done well, forever. They never need winding: the key only turns for show."
+	]
+	quest.34057A5E5DE108AD.title: "The Clockwork Manual"
+	quest.34057A5E5DE5575C.quest_desc: ["You've made everything this book teaches."]
+	quest.34057A5E5DE5575C.title: "The Last Route: Done"
 	quest.34057A5E5E1609A3.quest_desc: ["Wild parsnips grow in snowy places and taiga forests."]
 	quest.34057A5E5E1609A3.title: "Parsnips"
 	quest.34057A5E5E194D52.quest_desc: ["Wild peppermint grows in snowy places and taiga forests. Keep the seeds."]
@@ -2503,6 +2598,19 @@
 	task.34057A5E5CE52988.title: "All six"
 	task.34057A5E5CEA6417.title: "I'll go and look"
 	task.34057A5E5CFEB5F9.title: "Onward"
+	task.34057A5E5D091BBD.title: "Read it"
+	task.34057A5E5D1DE24A.title: "Every page"
+	task.34057A5E5D25ABEE.title: "Every page"
+	task.34057A5E5D455449.title: "Read it"
+	task.34057A5E5D5C7CB3.title: "Read it"
+	task.34057A5E5D7711B4.title: "Every page"
+	task.34057A5E5DA81F62.title: "Read it"
+	task.34057A5E5DCBA520.title: "I'll look for them"
+	task.34057A5E5DCDC0C0.title: "Every page"
+	task.34057A5E5DE3742D.title: "Read it"
+	task.34057A5E5DEC3106.title: "Read it"
+	task.34057A5E5DEDB859.title: "Every page"
+	task.34057A5E5DFEC8D4.title: "Every page"
 	task.34057A5E5E4DC6D3.title: "Let's forage"
 	task.34057A5E5E86DC56.title: "Done"
 	task.46D5C33595D8E442.title: "Let's go"

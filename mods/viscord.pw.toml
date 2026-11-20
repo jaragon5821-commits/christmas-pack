@@ -1,0 +1,14 @@
+filename = "viscord-1.0.3-neoforge-1.21.1.jar"
+name = "Viscord"
+side = "server"
+
+[download]
+hash-format = "sha512"
+hash = "bbbc0f2fad8bb5c9a63a8854314dffefe8f4a9b3a4d17fd9587332c5c8aacbb82e983d0bf06be79c5e874c3afbc2466dd983ee4e66efd2b28c7bb4823762dfbf"
+mode = "url"
+url = "https://cdn.modrinth.com/data/9NvsRotH/versions/VRJvbkF2/viscord-1.0.3-neoforge-1.21.1.jar"
+
+[update]
+[update.modrinth]
+mod-id = "9NvsRotH"
+version = "VRJvbkF2"

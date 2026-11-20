@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026.11.20-4
+- Festivity batch B: Bookbag, Festive Book, glider, lore books in loot, flying sleigh and reindeer flight, The Audit, Ledger Keeper, Lost Elf, Snow Day, Wishing Star, Carol night, Christmas dinner, Claws Night, Old Blackfrost, instruments batch 2 and more
+- Hearthkin Interactions v2
+- Quests: Lost Books chapter; Handbook: Creatures pages and Bookbag key
+- Server only: FTB Quests Optimizer, Viscord, Chop's Team Waypoints
+
 ## 2026.11.20-3
 - Structures v50a12 r2: furnished interiors for the new structures
 

@@ -4265,6 +4265,10 @@ file = "config/ftbquests/quests/chapters/chopq_long_winter.snbt"
 hash = "93704cfd98242b08fec8152692386ac35b4100f58fcd9a3a763c6be25e3745cf"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/chopq_lost_books.snbt"
+hash = "7da0c4391da05bbe953d6d838dda55ba96ac7105963363e10d98332f1cfc6628"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/chopq_powah.snbt"
 hash = "9d56a30845ce1849a6c8174bddfc61eb735e286386a30d95c661f55ec22710cf"
 
@@ -4346,7 +4350,7 @@ hash = "29d47ae6d733546ee2443b53597cb260bc70327d34cc7ef8491e66d3cb5500e0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "f8304f8b7c1074915a1685edce41672f641fc9b379bde7db3898d56fa2fae5fa"
+hash = "881e18661121c3e80539a65322bac8bca611a02ca73458ebfd04baecc7876308"
 
 [[files]]
 file = "config/ftbquests-client.snbt"
@@ -42254,8 +42258,24 @@ file = "kubejs/assets/chopxmas/guideme_guides/handbook.json"
 hash = "c923cd9a989886b287a62a516b12675a902ed6ae8d399485c684b305caacd726"
 
 [[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/creatures/dangers.md"
+hash = "afd022004c7a99e57844e2c20fde40775ec6fedbf19559898f6813872aff22f4"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/creatures/index.md"
+hash = "adc6cecdb6d987da5263e3e36fd1f17880caf602599c20f6652c324e7fd93026"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/creatures/ruins.md"
+hash = "4aea3e1b066453df398ca4b1e79d32ab33cab8bf96463a579330cf0ecdc20c2e"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/creatures/wildlife.md"
+hash = "98679a22f1443832b44b027b8b7fa46737c6f915b7b229e42a6d8e1da97d6475"
+
+[[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/index.md"
-hash = "7856db361e5d052b66e4a6d63992221289bbb5383589d789413702644620f8df"
+hash = "dc9112c860c025c7568bf96f21cd2265c8d3ca45adae3b1b0978b878195725ff"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/backpacks.md"
@@ -42287,7 +42307,7 @@ hash = "b9a8263fdf44c3c8a2515f6e3f4d63effe1b0296b68dffeaaa6ef5fb857a92a8"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/inventory.md"
-hash = "edd34b3b902f4676b639dcd5c703fbaaa8cfe02c5e0d242f53832ce67ace14ca"
+hash = "82f6a3f11e2d1c37c735b404302fc7339c8142aac89f29dae6f495c41df9d68c"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/magic.md"
@@ -44030,13 +44050,18 @@ hash = "286e1e16cabfe259c343fe30de46725cf7096f78a00f078d9074e5d8661c6cf9"
 metafile = true
 
 [[files]]
+file = "mods/custom-chopteamwaypoints-0.1.0.pw.toml"
+hash = "2d3ea5ac523f6770601000b22a7bf637f9f48d0bf9906c7587a60ec06d04a1b7"
+metafile = true
+
+[[files]]
 file = "mods/custom-diorama-0.8.1-chop.3.pw.toml"
 hash = "e375c093c24e4464ccb2186b77177b742046c0d926c248805421ac8cd51fa998"
 metafile = true
 
 [[files]]
 file = "mods/custom-festivity-0.10.10.pw.toml"
-hash = "0f7ccedd842e105603abd03b5027afa1d016e7e7ee7e385a73cfb9c8c5444c19"
+hash = "b2f701d5ae642f81b0de2053aa0ec235f0f631a6451ecf9fd07c85275b8605c4"
 metafile = true
 
 [[files]]
@@ -44046,7 +44071,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-hearthkin-1.0.0.pw.toml"
-hash = "f76181138a0cffabc0ec01ce2c39ae019b902d883cf25a30c2df2bb635ff5926"
+hash = "d344299f6822d89cdf6ecd69c56b4b7549a427c59ef39132b640fe683070349c"
 metafile = true
 
 [[files]]
@@ -44267,6 +44292,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-library.pw.toml"
 hash = "dd398e62201dd34db1111a03176f4de4a20c81474bab6c5000ce392d09a33631"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-optimizer.pw.toml"
+hash = "cfab338dc18230aed6dab90c04be18f6c311da81f629c2044777b904522b9148"
 metafile = true
 
 [[files]]
@@ -45217,6 +45247,11 @@ metafile = true
 [[files]]
 file = "mods/via-romana.pw.toml"
 hash = "aeca91ac48fc3009440928eb9fc6a044be80cb3bfcbb50aa1d35780050893b39"
+metafile = true
+
+[[files]]
+file = "mods/viscord.pw.toml"
+hash = "428d77da391f8fb16b0e06e8985582c424ebbe6bc806ad7bcd2992036da6dd6c"
 metafile = true
 
 [[files]]

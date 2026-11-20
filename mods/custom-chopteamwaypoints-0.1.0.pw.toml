@@ -1,0 +1,8 @@
+filename = "chopteamwaypoints-1.21.1-0.1.0.jar"
+name = "Chop's Team Waypoints (server only)"
+side = "server"
+
+[download]
+hash-format = "sha512"
+hash = "91f10dcf6aefc2f6520d96e46021eaf0558e0bcbee9aafae3a2724f4eb57c505dffa504052748fd130949d47ed7c6d8c3fa5a5db511a15acbdb2a2b8ebb7f794"
+url = "https://raw.githubusercontent.com/jaragon5821-commits/christmas-pack/test/patched-jars/chopteamwaypoints-1.21.1-0.1.0.jar"
