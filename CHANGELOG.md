@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.19-5
+- Festivity 0.10.10 r10 and Chop's Road Bridges 0.13.6 (debug logging builds to help track down bugs)
+
 ## 2026.11.19-4
 - Festivity 0.10.10 r9: 14 new wildlife skins
 

@@ -44021,8 +44021,8 @@ hash = "07a6a94021dc15dfa0c5235ede7dad0fcc248f4d7ba9744e77eb2f779962a588"
 metafile = true
 
 [[files]]
-file = "mods/custom-choproadbridges-1.21.1-0.13.5.pw.toml"
-hash = "815afd8c11ba795e6fa35f2856cd64091ba6aca9e974c5f46b4a4f86dbde4821"
+file = "mods/custom-choproadbridges-1.21.1-0.13.6.pw.toml"
+hash = "6f35c1bcb27c474c71ce02d194d0d90e99d9133a973ab8c5ad48e13887f98209"
 metafile = true
 
 [[files]]
@@ -44032,7 +44032,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-festivity-0.10.10.pw.toml"
-hash = "a04d7ccf8a8317d7e326bb98f707d664d104758858d26cb7bde501903ca706c7"
+hash = "bd1e51679c4cbd50722fdf7e5bf2c4fe316284b5cdc00abbca97a3f465d1953b"
 metafile = true
 
 [[files]]
