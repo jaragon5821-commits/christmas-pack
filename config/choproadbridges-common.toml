@@ -75,7 +75,7 @@ wornBridgePercent = 25
 #0.13.0: percent of water bridges (at least 12 blocks long) that are broken: only a ruined end on each bank, open water between. 0 = never.
 # Default: 3
 # Range: 0 ~ 100
-brokenBridgePercent = 3
+brokenBridgePercent = 0
 #0.13.3: blocks added to each side of a bridge deck beyond the road width, so the railings sit outside the walkable road. 0 = old width.
 # Default: 1
 # Range: 0 ~ 2

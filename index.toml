@@ -3658,7 +3658,7 @@ hash = "9ca49f856d752022a85e54ccbf1f86ef204f3e65479ed9886de6d4c602f76396"
 
 [[files]]
 file = "config/choproadbridges-common.toml"
-hash = "1e33b41b8259f88c8aae7ca5b7f4f3556d48cc823f4f105271c086c53c075213"
+hash = "66de36d7497bb9e9ae92eb9fc2fcfcd8fec0b381ab3f8a3332d5b403da9ec578"
 
 [[files]]
 file = "config/christmas_hearthlight-client.toml"
@@ -4346,7 +4346,7 @@ hash = "29d47ae6d733546ee2443b53597cb260bc70327d34cc7ef8491e66d3cb5500e0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "68041d11f985312f2dc7f700ffb97485760f7a94de7d573992b2ec89a4b529e4"
+hash = "6e7b7462e0030fa789f802e62a6699fa1b5cade96794000969f6be6567881018"
 
 [[files]]
 file = "config/ftbquests-client.snbt"
@@ -42255,11 +42255,11 @@ hash = "c923cd9a989886b287a62a516b12675a902ed6ae8d399485c684b305caacd726"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/index.md"
-hash = "3d013c813705d388b07986fd85beeec729cb5bf9a5f586b444fd8026cdf5dbf4"
+hash = "7856db361e5d052b66e4a6d63992221289bbb5383589d789413702644620f8df"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/backpacks.md"
-hash = "f22cc9c8b709fddcf9872c143f67774deeea73fc6dc937a1e238ff5dc237801d"
+hash = "0b492c69dd00073aac91232afebc539b2a17081d125b9b53eb259ae1f9ff6592"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/basics.md"
@@ -42271,35 +42271,35 @@ hash = "d150aba31dbb5d44419a5cbd0bafe25c96cb47a3669e7fc662a2747e0e4f46bd"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/colony.md"
-hash = "961c9afe8f45cba711e0d257d61b952c2f6c8dba5d61cf591d858c35bc7923b5"
+hash = "5ad8147efc75fe5d37bb9e1f9ff9c288241f18447d13b91c9779ca3d4afb78a6"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/graphics.md"
-hash = "4b0fbca738319e7d4a7ee2b2ea7ab3db65f045527ff1206d13ae5800395e334a"
+hash = "b97eec8daceed65d25cf074d5190c70f54f49be9d2a0279de7767ab6fe8877a2"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/index.md"
-hash = "3c8d21786c0e32acdb61331adefec4b2d1bcd9adc6d88a398f45ffe4e6e0936a"
+hash = "f97fc5aa37c4150f3270a5c48f567bacfb4bc1ca59be050684361bff9a34cf17"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/info.md"
-hash = "e0c8c51ff05fab2d6317addd5937f28cf2e516d55fd4c7132250e4b8c25c6353"
+hash = "b9a8263fdf44c3c8a2515f6e3f4d63effe1b0296b68dffeaaa6ef5fb857a92a8"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/inventory.md"
-hash = "6dd9e967fedeb5e119ad465aacf3e20c850ee27172e6bf32a51e0fbe485a76f1"
+hash = "edd34b3b902f4676b639dcd5c703fbaaa8cfe02c5e0d242f53832ce67ace14ca"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/magic.md"
-hash = "38806abdae797bcfbd464d39cd4510c47ff89f56c6d0f69bf8fbc62534dde3fa"
+hash = "e951e02ad8ce1639e685949ecbc8b76d7bc373b2a1cf38ef1d2842816c8d2e6e"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/map.md"
-hash = "9e7fbaaa82848b7fc74535896b6f33547c8b98e84892d79c328c401caff28a81"
+hash = "798a40f0b22e61110a2214f57a7811c0ef5babdc724c0d791a4aa9d6485901f2"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/mining.md"
-hash = "a80aa6aceb7215d0819c271f1068c478a0dab3f81d16e3605d35ebf5bd00d947"
+hash = "4c5ffe140b1c55b9dd4c98f656ced2d90701dfe6d7845dced8ba83d47f169659"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/mods/index.md"
@@ -42311,11 +42311,11 @@ hash = "ebf089d98ac3ef9e7e20e0d5483c5ee552c11cace212514b60815338a455d93a"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/quests.md"
-hash = "2c3599dc3d3f97323ffed69d898a03e0b37278ba085ac3ba7b006907a9937ac9"
+hash = "efcf3d8390b283d23e487296669ee22b6587af81e9d5ee29f663ed80dfc28b66"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/voice.md"
-hash = "904abaaa65815c0c0f14175fc29cfeeca3bdcfff0bc18390f88b4f005721c64f"
+hash = "e495b6f8e9fd9a3bd085a4817cc6a349056035b2d32c41a6b060f737586d4fcb"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/colony.md"
@@ -42339,7 +42339,7 @@ hash = "5b42a586071bf0eb2dab48274a8026eec0774f67824fd8387d548757f92ad237"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/index.md"
-hash = "f5e4efb435436fc2897d4efe87ad9abcd1ceb230f8be3e7fb54f07116922caad"
+hash = "a093e4da96022b3277ee09abeb96a779f1aa9b859f4e73adce39582da3bfb3ab"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/magic.md"
@@ -44021,8 +44021,8 @@ hash = "07a6a94021dc15dfa0c5235ede7dad0fcc248f4d7ba9744e77eb2f779962a588"
 metafile = true
 
 [[files]]
-file = "mods/custom-choproadbridges-1.21.1-0.13.6.pw.toml"
-hash = "cb51724c6510eb83eaa9b990835cef1c366c392a94270fd4b5a3248247f5c673"
+file = "mods/custom-choproadbridges-1.21.1-0.13.7.pw.toml"
+hash = "286e1e16cabfe259c343fe30de46725cf7096f78a00f078d9074e5d8661c6cf9"
 metafile = true
 
 [[files]]
@@ -44032,7 +44032,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-festivity-0.10.10.pw.toml"
-hash = "bd1e51679c4cbd50722fdf7e5bf2c4fe316284b5cdc00abbca97a3f465d1953b"
+hash = "d67ada79d6531e0af1ee55b77f55591c7abf7b66a52b9262af6993313b033c4d"
 metafile = true
 
 [[files]]

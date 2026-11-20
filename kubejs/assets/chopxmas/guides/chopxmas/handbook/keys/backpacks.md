@@ -21,6 +21,9 @@ Backpacks hold a lot and take upgrades. Wear one on your back and open it with a
 * Swap to the best tool from the backpack: **<KeyBind id="key.sophisticatedbackpacks.tool_swap" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 * Toggle upgrade slot 1: **<KeyBind id="key.sophisticatedbackpacks.toggle_upgrade_1" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 * Toggle upgrade slot 2: **<KeyBind id="key.sophisticatedbackpacks.toggle_upgrade_2" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Switch the upgrade in slot 3 on or off: **<KeyBind id="key.sophisticatedbackpacks.toggle_upgrade_3" />**
+* Switch the upgrade in slot 4 on or off: **<KeyBind id="key.sophisticatedbackpacks.toggle_upgrade_4" />**
+* Switch the upgrade in slot 5 on or off: **<KeyBind id="key.sophisticatedbackpacks.toggle_upgrade_5" />**
 
 </OptionalSection>
 
@@ -51,3 +54,16 @@ Works in chest and container screens.
 
 Atlas opens showing just these mods' keys that already have a key. Keys marked *Not bound* above are in Atlas under **Edit** (pencil) then **Unassigned**: type the mod name in its search, click one, press the key you want, then **Apply**.
 You can also open Keybind Atlas any time with **<KeyBind id="key.keybindatlas.open_keyboard" />**.
+
+<OptionalSection modId="refinedstorage">
+
+### Refined Storage
+
+* Jump to the grid search bar: **<KeyBind id="key.refinedstorage.focus_search_bar" />**
+* Clear the crafting grid into the network: **<KeyBind id="key.refinedstorage.clear_crafting_grid_matrix_to_network" />**
+* Clear the crafting grid into your inventory: **<KeyBind id="key.refinedstorage.clear_crafting_grid_matrix_to_inventory" />**
+* Open the wireless grid: **<KeyBind id="key.refinedstorage.open_wireless_grid" />**
+* Open the portable grid: **<KeyBind id="key.refinedstorage.open_portable_grid" />**
+* Open the wireless autocrafting monitor: **<KeyBind id="key.refinedstorage.open_wireless_autocrafting_monitor" />**
+
+</OptionalSection>

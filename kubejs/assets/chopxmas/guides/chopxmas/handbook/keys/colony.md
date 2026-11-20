@@ -28,6 +28,7 @@ Use these while a building preview is showing.
 * Move right: **<KeyBind id="key.structurize.move_right" />**
 * Move up: **<KeyBind id="key.structurize.move_up" />**
 * Move down: **<KeyBind id="key.structurize.move_down" />**
+* Teleport with the scan tool: **<KeyBind id="key.structurize.teleport" />**
 
 </OptionalSection>
 

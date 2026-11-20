@@ -23,6 +23,18 @@ Keys for casting spells and for trinkets that switch on and off.
 * Quick cast slot 1: **<KeyBind id="key.irons_spellbooks.spell_quick_cast_1" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 * Quick cast slot 2: **<KeyBind id="key.irons_spellbooks.spell_quick_cast_2" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 * Quick cast slot 3: **<KeyBind id="key.irons_spellbooks.spell_quick_cast_3" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Quick cast slot 4: **<KeyBind id="key.irons_spellbooks.spell_quick_cast_4" />**
+* Quick cast slot 5: **<KeyBind id="key.irons_spellbooks.spell_quick_cast_5" />**
+* Quick cast slot 6: **<KeyBind id="key.irons_spellbooks.spell_quick_cast_6" />**
+* Quick cast slot 7: **<KeyBind id="key.irons_spellbooks.spell_quick_cast_7" />**
+* Quick cast slot 8: **<KeyBind id="key.irons_spellbooks.spell_quick_cast_8" />**
+* Quick cast slot 9: **<KeyBind id="key.irons_spellbooks.spell_quick_cast_9" />**
+* Quick cast slot 10: **<KeyBind id="key.irons_spellbooks.spell_quick_cast_10" />**
+* Quick cast slot 11: **<KeyBind id="key.irons_spellbooks.spell_quick_cast_11" />**
+* Quick cast slot 12: **<KeyBind id="key.irons_spellbooks.spell_quick_cast_12" />**
+* Quick cast slot 13: **<KeyBind id="key.irons_spellbooks.spell_quick_cast_13" />**
+* Quick cast slot 14: **<KeyBind id="key.irons_spellbooks.spell_quick_cast_14" />**
+* Quick cast slot 15: **<KeyBind id="key.irons_spellbooks.spell_quick_cast_15" />**
 
 </OptionalSection>
 
@@ -39,8 +51,14 @@ Keys for casting spells and for trinkets that switch on and off.
 
 ### Artifacts
 
-Some trinkets have an on/off key. Find them in Keybind Atlas under Artifacts once you have one.
+Some trinkets have an on/off key:
 
+* Toggle the Charm of Shrinking: **<KeyBind id="artifacts.key.charm_of_shrinking.toggle" />**
+* Toggle the Charm of Sinking: **<KeyBind id="artifacts.key.charm_of_sinking.toggle" />**
+* Use the Helium Flamingo: **<KeyBind id="artifacts.key.helium_flamingo.activate" />**
+* Toggle the Night Vision Goggles: **<KeyBind id="artifacts.key.night_vision_goggles.toggle" />**
+* Toggle the Scarf of Invisibility: **<KeyBind id="artifacts.key.scarf_of_invisibility.toggle" />**
+* Toggle the Universal Attractor: **<KeyBind id="artifacts.key.universal_attractor.toggle" />**
 
 </OptionalSection>
 

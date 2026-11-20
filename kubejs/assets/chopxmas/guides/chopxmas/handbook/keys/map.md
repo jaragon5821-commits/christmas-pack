@@ -24,6 +24,7 @@ Your minimap, world map and waypoints.
 * Zoom the minimap in: **<KeyBind id="key.diorama.zoom_in" />**
 * Zoom the minimap out: **<KeyBind id="key.diorama.zoom_out" />**
 * Map settings: **<KeyBind id="key.diorama.settings" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Switch the map to another dimension: **<KeyBind id="key.diorama.toggle_dimension" />**
 
 </OptionalSection>
 

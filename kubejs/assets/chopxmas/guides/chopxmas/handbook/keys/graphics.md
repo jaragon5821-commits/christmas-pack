@@ -27,6 +27,7 @@ Shaders make winter look amazing. Turn them off here if your FPS drops.
 ### Dynamic FPS
 
 * Turn Dynamic FPS on or off: **<KeyBind id="key.dynamic_fps.toggle_disabled" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Force the low-power mode on or off: **<KeyBind id="key.dynamic_fps.toggle_forced" />**
 
 </OptionalSection>
 

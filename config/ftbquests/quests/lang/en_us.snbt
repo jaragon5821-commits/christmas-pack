@@ -2079,7 +2079,7 @@
 	quest.34057A5E5E38C322.title: "Cranberry Sauce"
 	quest.34057A5E5E3A2AD6.quest_desc: ["Collect a sapling of all five trees and plant an orchard at home."]
 	quest.34057A5E5E3A2AD6.title: "An Orchard of Your Own"
-	quest.34057A5E5E3C66EA.quest_desc: ["In snowy, dry or mountain country, spruce and pine leaves can drop juniper berries too."]
+	quest.34057A5E5E3C66EA.quest_desc: ["In snowy, dry or mountain country, spruce and pine leaves can drop juniper berries. Fortune helps a little."]
 	quest.34057A5E5E3C66EA.title: "Juniper Berries"
 	quest.34057A5E5E42C4A7.quest_desc: ["Winter spice bushes grow in forests. One spice does the work of nutmeg, clove and anise."]
 	quest.34057A5E5E42C4A7.title: "Winter Spice"
@@ -2118,7 +2118,7 @@
 		"Fruit grows on the leaves in stages. Pick it when it's ripe."
 	]
 	quest.34057A5E5EB7181C.title: "Pecan Tree"
-	quest.34057A5E5EC28F81.quest_desc: ["Spruce and pine leaves sometimes drop pinon nuts when you break them. Fortune helps a little."]
+	quest.34057A5E5EC28F81.quest_desc: ["Pinon trees grow in windswept hills and forests, snowy taiga and tundra. Break their leaves for pinon nuts. Fortune helps, and leaves that fall after you cut the trunk drop them too."]
 	quest.34057A5E5EC28F81.title: "Pinon Nuts"
 	quest.34057A5E5ED03170.quest_desc: [
 		"Sweet, sticky and bright."

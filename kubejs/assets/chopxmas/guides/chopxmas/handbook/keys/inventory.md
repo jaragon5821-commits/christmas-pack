@@ -19,6 +19,7 @@ Small helpers for trashing, crafting and extra slots.
 * Show or hide the trash slot: **<KeyBind id="key.trashslot.toggle" />**
 * Delete the hovered item: **<KeyBind id="key.trashslot.delete" />**
 * Delete all of that item: **<KeyBind id="key.trashslot.delete_all" />**
+* Lock or unlock the trash slot: **<KeyBind id="key.trashslot.toggle_lock" />**
 
 </OptionalSection>
 
@@ -29,6 +30,18 @@ Small helpers for trashing, crafting and extra slots.
 * Rotate the crafting grid: **<KeyBind id="key.craftingtweaks.rotate" />**
 * Balance the crafting grid: **<KeyBind id="key.craftingtweaks.balance" />**
 * Clear the crafting grid: **<KeyBind id="key.craftingtweaks.clear" />**
+* Rotate the grid the other way: **<KeyBind id="key.craftingtweaks.rotate_counter_clockwise" />**
+* Spread items across the grid: **<KeyBind id="key.craftingtweaks.spread" />**
+* Force-clear the grid: **<KeyBind id="key.craftingtweaks.force_clear" />**
+* Compress one item: **<KeyBind id="key.craftingtweaks.compress_one" />**
+* Compress a stack: **<KeyBind id="key.craftingtweaks.compress_stack" />**
+* Compress everything: **<KeyBind id="key.craftingtweaks.compress_all" />**
+* Decompress one item: **<KeyBind id="key.craftingtweaks.decompress_one" />**
+* Decompress a stack: **<KeyBind id="key.craftingtweaks.decompress_stack" />**
+* Decompress everything: **<KeyBind id="key.craftingtweaks.decompress_all" />**
+* Refill the last recipe: **<KeyBind id="key.craftingtweaks.refill_last" />**
+* Refill the last recipe (a stack): **<KeyBind id="key.craftingtweaks.refill_last_stack" />**
+* Move a stack into the grid: **<KeyBind id="key.craftingtweaks.transfer_stack" />**
 
 </OptionalSection>
 
@@ -78,3 +91,22 @@ Small helpers for trashing, crafting and extra slots.
 
 Atlas opens showing just these mods' keys that already have a key. Keys marked *Not bound* above are in Atlas under **Edit** (pencil) then **Unassigned**: type the mod name in its search, click one, press the key you want, then **Apply**.
 You can also open Keybind Atlas any time with **<KeyBind id="key.keybindatlas.open_keyboard" />**.
+
+<OptionalSection modId="inventoryessentials">
+
+### Inventory Essentials
+
+Four of these are click combos set by Inventory Essentials itself, so they do not show in Controls.
+
+* Move one item: **<KeyBind id="key.inventoryessentials.single_transfer" />**
+* Move all items of that kind: **Ctrl + Shift + click**
+* Move everything: **Space + click**
+* Move items as you hover: hold **Left Shift** and drag
+* Drop all of that item: **Ctrl + Shift + Q**
+* Drop items out of the screen: **<KeyBind id="key.inventoryessentials.screen_bulk_drop" />**
+* Sort the inventory: **<KeyBind id="key.inventoryessentials.sort_inventory" />**
+* Restock the container: **<KeyBind id="key.inventoryessentials.restock_container" />**
+* Restock your inventory: **<KeyBind id="key.inventoryessentials.restock_inventory" />**
+* Dump into the container: **<KeyBind id="key.inventoryessentials.dump_to_container" />**
+
+</OptionalSection>

@@ -3,7 +3,7 @@ navigation:
   parent: index.md
   title: Getting Started
   icon: minecraft:oak_sapling
-  position: 0
+  position: 1
 ---
 
 # Getting Started

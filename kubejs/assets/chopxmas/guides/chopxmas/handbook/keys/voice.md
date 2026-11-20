@@ -25,6 +25,7 @@ Proximity voice chat. Open the voice chat settings once to pick your microphone 
 * Groups: **<KeyBind id="key.voice_chat_group" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 * Adjust volumes: **<KeyBind id="key.voice_chat_adjust_volumes" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
 * Hide the voice icons: **<KeyBind id="key.hide_icons" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Start or stop recording: **<KeyBind id="key.voice_chat_toggle_recording" />**
 
 </OptionalSection>
 

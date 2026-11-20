@@ -3,7 +3,7 @@ navigation:
   parent: index.md
   title: Controls & Keys
   icon: minecraft:tripwire_hook
-  position: 1
+  position: 0
 ---
 
 # Controls & Keys
