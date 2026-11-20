@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026.11.20-3
+- Structures v50a12 r2: furnished interiors for the new structures
+
 ## 2026.11.20-2
 - NEW: Hearthkin 1.0.0 (animal personalities, Field Guide, Temperament Spyglass, pet treats)
 - Festivity 0.10.10 r17: needs Hearthkin; smoother hare, goose, owl, hound, deer and reindeer; Ember Imp v2; snowy pinon leaves
