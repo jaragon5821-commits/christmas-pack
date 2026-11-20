@@ -43466,6 +43466,10 @@ file = "kubejs/server_scripts/chop_letsdo_to_fd.js"
 hash = "ddfd704541292742c4f74c98854ca6fd1cc9ecf879454cace5589846c154cddf"
 
 [[files]]
+file = "kubejs/server_scripts/chop_loot_theme.js"
+hash = "1df6dd9f7087afdb1a7d622222a74420fbb629e465f6deddbb52ae9eaa94fef7"
+
+[[files]]
 file = "kubejs/server_scripts/chop_no_autopilot_guide.js"
 hash = "1187dda2d71a08c6c8950e34b4dc890f42b3321b4454f235dd1adc3e1628b168"
 
@@ -43531,7 +43535,7 @@ hash = "7e109555db629a58b057e83a83d268fd43514320b5f0e5217f7cf0594870185a"
 
 [[files]]
 file = "kubejs/server_scripts/chop_xmas_chest_loot.js"
-hash = "dc2d2e4b11a86df6fb7d668a518f7860bd06f269cc607950d3a4a263d7a9d3d1"
+hash = "7c2e7e039464c8aafdeae2a65375fd3e9ee90361a0eee3605b7b4aa9d19b0a51"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/05_tags.js"

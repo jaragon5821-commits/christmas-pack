@@ -1,8 +1,5 @@
 # Changelog
 
-## 2026.11.20-6
-- Quests: a keepsake reward at the end of each chapter
-
 ## 2026.11.20-5
 - Festivity batch D: Santy Claws v4 model and faces, Bookbag v2 (bookshelf library, 128-slot bag), Courier Call Book, 3D flat decor, animated pictures
 - Structures v50a13 r3
