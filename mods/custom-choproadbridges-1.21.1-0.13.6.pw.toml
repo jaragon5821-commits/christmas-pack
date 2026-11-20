@@ -5,4 +5,4 @@ side = "both"
 [download]
 url = "https://raw.githubusercontent.com/jaragon5821-commits/christmas-pack/test/patched-jars/choproadbridges-1.21.1-0.13.6.jar"
 hash-format = "sha512"
-hash = "f8750a7db62fc782982b19aee33a8e213fd02b2581a541370ca819dce36ef0461e645589a4345808e0b664c93dd166e15084b5ddbf17785f600b0eaa7305f799"
+hash = "23a9760ead1bf931ec4bd90a1f9a2bab412df8485c6747126437751fdbcc093e2311d1ad739f90a605c1473b8559384f8079e9fe8b4983ac46f59ea56a83cf82"
