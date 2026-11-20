@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026.11.20-1
+- Festivity 0.10.10 r14: pinon trees, animal personalities (r1b), reindeer bells removed, fast leaf decay, spell book fits the Curios slot, caroler and rotten gingerbread fixes
+- Chop's Road Bridges 0.13.7 (bridge fixes; no more broken bridges in new chunks)
+- Structures v50a11 r2: friends' hand-decorated houses, ice rink no longer sunk
+- Handbook: every mod's keys up front
+- Pinon Nuts and Juniper quest text
+
 ## 2026.11.19-5
 - Festivity 0.10.10 r10 and Chop's Road Bridges 0.13.6 r2 and Townwright (Colony Autopilot) chop.59 (debug logging builds to help track down bugs)
 
