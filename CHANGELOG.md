@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026.11.20-5
+- Festivity batch D: Santy Claws v4 model and faces, Bookbag v2 (bookshelf library, 128-slot bag), Courier Call Book, 3D flat decor, animated pictures
+- Structures v50a13 r3
+- MCA villager dungeon quests (10 quests)
+- Starter kit v0.4.0: new players get one pre-filled Bookbag
+
 ## 2026.11.20-4
 - Festivity batch B: Bookbag, Festive Book, glider, lore books in loot, flying sleigh and reindeer flight, The Audit, Ledger Keeper, Lost Elf, Snow Day, Wishing Star, Carol night, Christmas dinner, Claws Night, Old Blackfrost, instruments batch 2 and more
 - Hearthkin Interactions v2

@@ -1,4 +1,10 @@
-// chop_starter_kit.js v0.3.1 (Lorekeeper, 2026-11-20) - server script.
+// chop_starter_kit.js v0.4.0 (Tinker, 2026-11-20) - server script.
+// v0.4.0: Bookbag v2 (boss 18:22Z). A new player gets ONE pre-filled Bookbag (Festivity: /festivity bookbag give <player>,
+//         holds every guide book: Handbook, Festive Book, Field Guide, quest book, mod guides, MCA lore books) and nothing loose.
+//         Existing players get one pre-filled bag on their next join, once (flag chopBookbagV2). Nothing is taken out of
+//         anyone's inventory: players who already hold loose books keep them. The old per-book flags are set when the bag is
+//         given so the loose-book code below can never hand out duplicates later. If the Festivity command node festivity/bookbag/give
+//         does not exist (jar without Bookbag v2) the old loose-book behaviour runs unchanged.
 // v0.3.1: boss YES (11-20): Field Guide (hearthkin:field_guide) added to the kit, own flag, given once when registered.
 // v0.3.0: boss D323 (11-16): spawn kit = Handbook + Festive Book (Field Guide later). The Handbook part is unchanged
 //         (same 'chopHandbook' flag, so nobody gets a second copy). Each extra book has its OWN flag and is given
@@ -26,6 +32,26 @@
     let p = event.player;
     let server = p.server, name = String(p.username);
     let gives = [];
+    // Bookbag v2: one pre-filled bag, once per player. Only when the Festivity command exists (it ships with the Bookbag v2
+    // jar; the older Bookbag item alone is not enough). Flags are set only AFTER the command ran and the player is still online,
+    // so a player who leaves or a failed give is simply retried at the next join.
+    let giveNode = null;
+    try { giveNode = server.getCommands().getDispatcher().findNode(['festivity', 'bookbag', 'give']); } catch (e) { giveNode = null; }
+    if (!p.persistentData.getBoolean('chopBookbagV2') && registered('festivity:bookbag') && giveNode != null) {
+      server.scheduleInTicks(60, () => {
+        let pl = server.getPlayerList().getPlayerByName(name);
+        if (pl != null && pl.persistentData.getBoolean('chopBookbagV2')) return; // a relog queued a second callback
+        if (pl == null) { console.info('[chop kit] ' + name + ' left before the Bookbag; will retry at next join'); return; }
+        let rc = 0;
+        try { rc = server.runCommandSilent('festivity bookbag give ' + name); } catch (e) { console.warn('[chop kit] bookbag give failed: ' + e); }
+        if (rc > 0) {
+          pl.persistentData.putBoolean('chopBookbagV2', true);
+          ['chopHandbook', 'chopKitFestiveBook', 'chopBookbag', 'chopKitFieldGuide'].forEach(f => pl.persistentData.putBoolean(f, true));
+          console.info('[chop kit] ' + name + ' got the pre-filled Bookbag');
+        } else console.warn('[chop kit] bookbag give returned ' + rc + ' for ' + name + '; will retry at next join');
+      });
+      return;
+    }
     if (!p.persistentData.getBoolean('chopHandbook') && registered('guideme:guide')) {
       p.persistentData.putBoolean('chopHandbook', true);
       gives.push(['Handbook', HANDBOOK]);

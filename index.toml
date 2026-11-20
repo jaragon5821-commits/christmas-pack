@@ -4886,8 +4886,8 @@ file = "config/openloader/packs/15_Chops_Roadside_Christmas_v2.zip"
 hash = "2cf765fd5d84a24fceed8b30a844f49c3b5e6069e2d8ffd6d776b27fbf31749c"
 
 [[files]]
-file = "config/openloader/packs/16_Chops_Christmas_Structures_v50a12r2.zip"
-hash = "bdf8eea4766cf138503daf9ca8ee74c41eb1ba8f7a368e4f8c5b16055711ae13"
+file = "config/openloader/packs/16_Chops_Christmas_Structures_v50a13r3.zip"
+hash = "c1d382feffe6652b61d17ef855b52ba9265c8c9f7e6cdfde4b7f4f99ea49ea73"
 
 [[files]]
 file = "config/openloader/packs/17_chop_christmas_caves_v1b.zip"
@@ -4960,6 +4960,10 @@ hash = "ca534d58c7db3896b39292f0c544c910b14f9fb260e835299fb8f8056b07381d"
 [[files]]
 file = "config/openloader/packs/29_Chops_Secret_Structure_Tags_v1.zip"
 hash = "2ad9b8f33c4fcd1651c1b312c8655f3ef339802e98df6c6d4883ee81fbad8ea5"
+
+[[files]]
+file = "config/openloader/packs/34_Chops_MCA_Dungeon_Quests_v1.zip"
+hash = "dd9519f491608b1e527428eea031f6ef42ebf5b99bf4b1a9b6c35ec3734e7968"
 
 [[files]]
 file = "config/openloader/packs/3_FA+All_Extensions-v1.10.1.zip"
@@ -43491,7 +43495,7 @@ hash = "88e3d258fa6e259c18b25755bb3a61f43b47bc1fb75962b80c953baa07cf9b29"
 
 [[files]]
 file = "kubejs/server_scripts/chop_starter_kit.js"
-hash = "c6df6b2272d45fa28dc3242e9b9969b8085e984b30efc82c4473634db268fcb4"
+hash = "4cf591f180e3f7d474ebf5a63338aff4f189be9fd6df5f62aca0b60b8718b4f2"
 
 [[files]]
 file = "kubejs/server_scripts/chop_synergy_critters.js"
@@ -44061,7 +44065,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-festivity-0.10.10.pw.toml"
-hash = "b2f701d5ae642f81b0de2053aa0ec235f0f631a6451ecf9fd07c85275b8605c4"
+hash = "76baaa3dc6833f7a3527ad880136c9354f729f8d018e50d545d4d5916170f3ec"
 metafile = true
 
 [[files]]
