@@ -534,6 +534,14 @@
 			id: "34057A5E50F9C41F"
 			rewards: [
 				{
+					id: "A622A1EA821C058D"
+					item: {
+						count: 1
+						id: "festivity:stocking"
+					}
+					type: "item"
+				}
+				{
 					id: "34057A5E5029531E"
 					type: "xp"
 					xp: 100

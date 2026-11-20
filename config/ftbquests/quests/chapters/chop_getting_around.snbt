@@ -267,5 +267,47 @@
 			x: 12.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["01FBCF491FDEEF9D" "3372B096386B0B31" "662E9D09F0746B30" "786C372D3D8A8224" "408ABAA7FDB5CE7D" "7C2CA09A6F45BE6B" "6CC1BE6A7F7D77F1" "630F70C971E520A9" "42C5C2979469C5AD" "08EB363841750EFF"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:saddle"
+			}
+			id: "4BBF0C68C598B517"
+			rewards: [
+				{
+					id: "CE15A7EC0B827845"
+					item: {
+						count: 1
+						id: "minecraft:saddle"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "668952EFDC413A04"
+					item: {
+						count: 1
+						id: "minecraft:lead"
+					}
+					type: "item"
+				}
+				{
+					id: "6980D065DC0BEF6C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "CD8F18108AC6829C"
+					type: "checkmark"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
 	]
 }

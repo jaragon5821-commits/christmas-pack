@@ -1043,5 +1043,39 @@
 			x: -2.9d
 			y: -5.03d
 		}
+		{
+			dependencies: ["34057A5E590685C4" "34057A5E5968A787" "34057A5E59410BA4" "34057A5E5937D723" "34057A5E59A108B5" "34057A5E593C1E49" "34057A5E59FCD11F" "34057A5E59619AA5" "34057A5E59792CFA" "34057A5E5968B2F7" "34057A5E594019D3" "34057A5E59811BAE" "34057A5E597E1C7C" "34057A5E59B96366" "34057A5E59BECCD8" "34057A5E5985607D" "34057A5E59865D65"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
+			id: "363E80C78E4942CC"
+			rewards: [
+				{
+					count: 8
+					id: "12134EEA3DFA9A9E"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3C4CBC88D0D4E3D0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "117FA483DC2B4465"
+					type: "checkmark"
+				}
+			]
+			x: 8.68d
+			y: 0.0d
+		}
 	]
 }

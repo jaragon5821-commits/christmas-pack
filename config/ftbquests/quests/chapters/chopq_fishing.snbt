@@ -668,5 +668,39 @@
 			x: 0.26d
 			y: -10.87d
 		}
+		{
+			dependencies: ["34057A5E58D5ADBE" "34057A5E5820A479" "34057A5E58A8B5DB" "34057A5E58607EF1" "34057A5E58392468" "34057A5E58153FDE" "34057A5E589F57B3" "34057A5E58ED33B1" "34057A5E58A5304C" "34057A5E58B17ABB" "34057A5E58FB6ED5" "34057A5E58E17857" "34057A5E58DBA0BA" "34057A5E58C9439E" "34057A5E5858C41E" "34057A5E58DA1C22" "34057A5E58D33283" "34057A5E58905DB9"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:nautilus_shell"
+			}
+			id: "DAD83A40FA6C703F"
+			rewards: [
+				{
+					count: 2
+					id: "FE92990D5A87E56C"
+					item: {
+						count: 1
+						id: "minecraft:nautilus_shell"
+					}
+					type: "item"
+				}
+				{
+					id: "353BECC9112BD681"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "C8D2D2B9FDCD2376"
+					type: "checkmark"
+				}
+			]
+			x: 6.92d
+			y: 0.0d
+		}
 	]
 }

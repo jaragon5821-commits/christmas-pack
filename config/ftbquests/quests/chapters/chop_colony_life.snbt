@@ -483,5 +483,39 @@
 			x: 13.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["1F344F35A265534E" "2CD104F5F6C42608" "385B3C2DA6275C49" "5302A2E581014C43" "740CB0052DBB0B07" "4808B74437F5E9A0" "0C62648B95A8B3B6" "20EB26356651CA27" "457606E4CD7D8FF0" "617ED107310721E6" "0139074B2CA1C12A" "6839A2EBF24292EE" "79619769AC865C69" "1F71E101707292A4" "161DDCC336EDBE31" "7560CAA8AC9B59C7" "0F9CE372C45513F3" "4B36866F35EFC509" "0736133653784D3E" "0D165327A60A26E4"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "71F56B4CD7B0EB0E"
+			rewards: [
+				{
+					count: 8
+					id: "5EC4F6B89095AA91"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "1ED9D46269F8E853"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "FA27F76960C413D5"
+					type: "checkmark"
+				}
+			]
+			x: 15.5d
+			y: 0.0d
+		}
 	]
 }

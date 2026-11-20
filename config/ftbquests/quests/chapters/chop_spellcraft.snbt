@@ -1052,5 +1052,39 @@
 			x: 13.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["34057A5E30000005" "34057A5E30000024"]
+			hide_dependency_lines: true
+			icon: {
+				id: "irons_spellbooks:arcane_essence"
+			}
+			id: "5DADB9268539D74A"
+			rewards: [
+				{
+					count: 6
+					id: "32824F7BB2115001"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "AED644A2A05D17AC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "43BBA0BA3902FA81"
+					type: "checkmark"
+				}
+			]
+			x: 15.5d
+			y: 0.0d
+		}
 	]
 }

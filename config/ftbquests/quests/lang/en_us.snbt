@@ -151,6 +151,10 @@
 	quest.1754F854F9B8637A.title: "Find the Gingerbread Labyrinth"
 	quest.178EE23444BCC392.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
 	quest.178EE23444BCC392.title: "Gnome Muzzle"
+	quest.1AE0233ECBA21A11.quest_desc: [
+		"Find any 10 of the secrets in this chapter. Here is a small thank-you from the Town."
+	]
+	quest.1AE0233ECBA21A11.title: "Ten Secrets Found"
 	quest.1B8AD3B5745CCF22.quest_desc: [
 		"Your colonists post what they need on the &6Requests Board&r. Fill requests to keep them happy and earn Festivity."
 		""
@@ -2256,6 +2260,10 @@
 	quest.341E64D86C318400.title: "Eggnog"
 	quest.350ED68F4D3729FA.quest_desc: ["The &62x2&r and &63x3&r picture windows show one big picture across the whole square. They line up to the world grid, so shuffle your square a block if the picture looks cut."]
 	quest.350ED68F4D3729FA.title: "Cathedral Glass"
+	quest.363E80C78E4942CC.quest_desc: [
+		"You finished every main quest in this chapter. Here is a small thank-you from the Town."
+	]
+	quest.363E80C78E4942CC.title: "Relics: All Done"
 	quest.369075A72095C2DE.quest_desc: ["Plain glass, stained glass and panes connect too. Build a 3x3 and watch the inner lines disappear."]
 	quest.369075A72095C2DE.title: "Seamless Glass"
 	quest.36DC7DDF932F9FDD.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
@@ -2294,6 +2302,10 @@
 		"Start with flint; upgrade later."
 	]
 	quest.3F8F77A04DC3BD28.title: "A Sharp Start"
+	quest.405409DC36FE1CF8.quest_desc: [
+		"You finished every main quest in this chapter. Here is a small thank-you from the Town."
+	]
+	quest.405409DC36FE1CF8.title: "Festive Workshop: All Done"
 	quest.408ABAA7FDB5CE7D.quest_desc: ["Sleds are quick on snow and ice. Hitch a wolf, or a friend, to pull it."]
 	quest.408ABAA7FDB5CE7D.title: "A Proper Sled"
 	quest.40F9DB57DD089F7E.quest_desc: ["Craft a plain &7silver ornament&r. Dye it any colour, or hang the small one under a ledge like a lantern."]
@@ -2306,6 +2318,10 @@
 	quest.42FE26CC526FB3F1.title: "Snowball Cannon"
 	quest.43CDFA0AA06A3706.quest_desc: ["Grow ginger from wild Ginger Flowers to bake these."]
 	quest.43CDFA0AA06A3706.title: "A Plate of Gingerbread"
+	quest.445FD733BC052B2A.quest_desc: [
+		"You finished every main quest in this chapter. Here is a small thank-you from the Town."
+	]
+	quest.445FD733BC052B2A.title: "The Long Winter: All Done"
 	quest.44AAB9911D351DEE.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
 	quest.44AAB9911D351DEE.title: "Gumdrop Boots"
 	quest.457606E4CD7D8FF0.quest_desc: ["Cooks raw food so your citizens stay fed and happy."]
@@ -2324,6 +2340,10 @@
 	quest.4A61FA92A5CAD3D6.title: "Snowman Core"
 	quest.4B36866F35EFC509.quest_desc: ["Bread, cakes and cookies in bulk. Very on-theme."]
 	quest.4B36866F35EFC509.title: "The Bakery"
+	quest.4BBF0C68C598B517.quest_desc: [
+		"You finished every main quest in this chapter. Here is a small thank-you from the Town."
+	]
+	quest.4BBF0C68C598B517.title: "Getting Around: All Done"
 	quest.4C12EC1A09B6199B.quest_desc: ["Iron Furnaces has its own Christmas look. Use this on an Iron Furnace to dress it up for the season."]
 	quest.4C12EC1A09B6199B.title: "A Festive Furnace"
 	quest.4C1A0F15AFE70002.quest_desc: [
@@ -2390,6 +2410,14 @@
 	quest.5A7CDA5D95E0F5D6.title: "Tomatoes"
 	quest.5BD1DFF736A97117.quest_desc: ["Compost turns into rich soil, which makes crops grow faster."]
 	quest.5BD1DFF736A97117.title: "Rich Soil"
+	quest.5D67E91EA36D4553.quest_desc: [
+		"You finished every main quest in this chapter. Here is a small thank-you from the Town."
+	]
+	quest.5D67E91EA36D4553.title: "Lost Books: All Done"
+	quest.5DADB9268539D74A.quest_desc: [
+		"You finished every main quest in this chapter. Here is a small thank-you from the Town."
+	]
+	quest.5DADB9268539D74A.title: "Spellcraft: All Done"
 	quest.60CEEFC024E0A4BA.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
 	quest.60CEEFC024E0A4BA.title: "Freed Elf Whistle"
 	quest.617ED107310721E6.quest_desc: ["Central storage. Couriers carry items between huts from here."]
@@ -2404,6 +2432,10 @@
 	quest.65AFE2F7DC7DC725.title: "Rolling Pin"
 	quest.662E9D09F0746B30.quest_desc: ["The fastest way across a frozen lake is... on top of it. Boats fly on ice."]
 	quest.662E9D09F0746B30.title: "Set Sail"
+	quest.68008C256BE82D61.quest_desc: [
+		"You finished every main quest in this chapter. Here is a small thank-you from the Town."
+	]
+	quest.68008C256BE82D61.title: "Kitchen and Farm: All Done"
 	quest.6839A2EBF24292EE.quest_desc: ["A guard to keep the coal gnomes and worse away at night."]
 	quest.6839A2EBF24292EE.title: "The Guard Tower"
 	quest.68C74ABC472EAD02.quest_desc: [
@@ -2447,6 +2479,10 @@
 		"&7Each dungeon hides treasure found nowhere else. Common finds are in its chests; rare ones in its vaults; the best one comes from its boss.&r"
 	]
 	quest.6FAB609FB90E358E.title: "Find the Sunken Snow Globe"
+	quest.71F56B4CD7B0EB0E.quest_desc: [
+		"You finished every main quest in this chapter. Here is a small thank-you from the Town."
+	]
+	quest.71F56B4CD7B0EB0E.title: "Colony Life: All Done"
 	quest.73FEC5FB13D5BC3E.quest_desc: ["Fry food on the stove, or swing it in a pinch."]
 	quest.73FEC5FB13D5BC3E.title: "The Skillet"
 	quest.740CB0052DBB0B07.quest_desc: ["Fields of wheat, carrots and more. Feeds the whole town."]
@@ -2525,6 +2561,34 @@
 	quest.7D599F30B63C9769.title: "Christmas Dinner"
 	quest.7EC3B9CB318C8A8A.quest_desc: ["Find wild onions and plant them."]
 	quest.7EC3B9CB318C8A8A.title: "Onions"
+	quest.7F1ED6514B08B7D3.quest_desc: [
+		"You finished every main quest in this chapter. Here is a small thank-you from the Town."
+	]
+	quest.7F1ED6514B08B7D3.title: "Storage: All Done"
+	quest.9AC12E72A3DB4944.quest_desc: [
+		"You finished every main quest in this chapter. Here is a small thank-you from the Town."
+	]
+	quest.9AC12E72A3DB4944.title: "Christmas Baking: All Done"
+	quest.9ED69506F6DB80F9.quest_desc: [
+		"You finished every main quest in this chapter. Here is a small thank-you from the Town."
+	]
+	quest.9ED69506F6DB80F9.title: "Power: All Done"
+	quest.BBEC713289DE5172.quest_desc: [
+		"You finished every main quest in this chapter. Here is a small thank-you from the Town."
+	]
+	quest.BBEC713289DE5172.title: "Friends and Family: All Done"
+	quest.DAD83A40FA6C703F.quest_desc: [
+		"You finished every main quest in this chapter. Here is a small thank-you from the Town."
+	]
+	quest.DAD83A40FA6C703F.title: "Fishing: All Done"
+	quest.DD12D85F1C1366E5.quest_desc: [
+		"You finished every main quest in this chapter. Here is a small thank-you from the Town."
+	]
+	quest.DD12D85F1C1366E5.title: "Winter Pantry: All Done"
+	quest.F93295075E15F08B.quest_desc: [
+		"You finished every main quest in this chapter. Here is a small thank-you from the Town."
+	]
+	quest.F93295075E15F08B.title: "Town Builder: All Done"
 	task.03DBAEFBC3800C57.title: "Santy Claws was driven off"
 	task.07A8B1AC13BDF185.title: "I hosted a dinner for my friends"
 	task.34057A5E40000039.title: "Let's explore"

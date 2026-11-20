@@ -1088,11 +1088,29 @@
 				id: "minecraft:filled_map"
 			}
 			id: "34057A5E40000037"
-			rewards: [{
-				id: "34057A5E400000A4"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					id: "9040AB1D89FE6BBF"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+				{
+					id: "3A03260DCFF9A656"
+					item: {
+						count: 1
+						id: "minecraft:map"
+					}
+					type: "item"
+				}
+				{
+					id: "34057A5E400000A4"
+					type: "xp"
+					xp: 500
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{

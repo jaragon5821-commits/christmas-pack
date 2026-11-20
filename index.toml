@@ -4218,43 +4218,43 @@ hash = "a20ed604e4c9a1c50daf0486f7f44bbaeabd03e168ef81a0c382d4e74c1fb38b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chop_colony_life.snbt"
-hash = "d0969e7150788f7bf8a8cb5b07d20d226c8c58a81955535a9a640cdc307f5e68"
+hash = "da60c7674d845c380a5336d37b90f2513ef05cf408709f3402ec7cf40481def6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chop_explorer.snbt"
-hash = "23556fa85c332331bd473c4094b583df7a59658617ccff5681929a2de4df43a2"
+hash = "e1c32255aac26f156cb1bb3ad6217bbe0def22251030ec2be768e58027fb0105"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chop_getting_around.snbt"
-hash = "54cb54df6462d40387c6fafeddb13c9e0125f97b2fd23e9399d6e97d13ac4a3f"
+hash = "b4ee940f1cc25938ade0d410956de84d7cd8265ec1f4757dc34e243903fee0d9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chop_kitchen_farm.snbt"
-hash = "fe26305162bdd9bb98d8c82de41b1457383fefe21dae028d49eaf31c7b72baac"
+hash = "04941048f772318690c2455c76670e763914fa247ac27c01aaead2ced68150d5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chop_spellcraft.snbt"
-hash = "19da380a90682cb02fbe5befa5e3c58349e7b65dc48d35485027597ac2bc7a11"
+hash = "21251cd177d20f7fc57ab64cacc1fe3954ce838f3ee94405b455de4d512b17ed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_christmas_baking.snbt"
-hash = "ddacbbbc441c6863e461d3200f9716791f28c462108618fa787a401916d3dfe4"
+hash = "dbd22b21f9e6f5dd67883ef5c60541f3b7f7bd0023872461aa5a8e71f565571f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_colony_tree.snbt"
-hash = "ccedc6c19a16b4904b252d3f60f69eedb5a4cb9483b226353bb99f8a5a8fa9b1"
+hash = "c6424ce478ccefcbdfd4216c3ddbac43605626249f3d5f72e15278a22f555e8b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_festive_workshop.snbt"
-hash = "1c4a0f7d74e376075341f6d34a9e531bbed3e648d0d21aa8f973d37cb6056f1a"
+hash = "fb706ba4728e69c5370bd35470cc22240a139c3ae0d9d00cce3d99199267cb13"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_fishing.snbt"
-hash = "b15c3dd424df29f09795aabf4ac1f35d1c136ec95923561ed298b526f653f0cb"
+hash = "6af30248fcbe2416612e07eb5a70099e33b659e9a8e47ca6996debb471e2b571"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_friends_family.snbt"
-hash = "49caf6972ceb377e6fb994d884c2c27b7f40b612c127fad708e1fbb453e25a04"
+hash = "a246a99513bead2ba9ebcccac4085c7507c2df96f768f41ea153ad9f6962e702"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_giants.snbt"
@@ -4262,39 +4262,39 @@ hash = "4a7f1d681ff182c2301f43b5efe8c0f75024cb7d380e63c8bbbf57205c6746ec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_long_winter.snbt"
-hash = "93704cfd98242b08fec8152692386ac35b4100f58fcd9a3a763c6be25e3745cf"
+hash = "5794ea84aea15dcef14e6a0a47971f5666a426060d5c203bbfe7f2c41b1d66b6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_lost_books.snbt"
-hash = "7da0c4391da05bbe953d6d838dda55ba96ac7105963363e10d98332f1cfc6628"
+hash = "4853801ddcd4f03a437ad480c03d14c524b385835bfadc4b923683b3f07e9b2f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_powah.snbt"
-hash = "9d56a30845ce1849a6c8174bddfc61eb735e286386a30d95c661f55ec22710cf"
+hash = "7f9239c44739ffca974a576aa383d732d89cfc223758df2516c437923aefb38e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_relics.snbt"
-hash = "2bd543c075efe2fbba890e03ef995892e2c7a4f4426b39662cad1aaddf70bf0a"
+hash = "b534f48c4a42502b5eec6b62f18c11f841ef46a61d85bd04b51ae92e83689917"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_secrets.snbt"
-hash = "0fb7a465230dd073ea521ec75216a82b1a46a0011862ee20ad25706d5d76fb4e"
+hash = "4f841167260dc4efb8af60712955d47f472e64f4f2e1678ba0ed50edf2455b53"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_start_here.snbt"
-hash = "71b77577aacdec72d86e2b5ae33290accbe338c563aa9e895b767268c7764a74"
+hash = "3750eecddf58f67612a4d628cc8ff71531f70189ee75fcf2d28a940922995614"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_storage.snbt"
-hash = "2f8b8b400bcb2f1e223529229ab0e728000a3e482b3a15ffd33c4c1aecad9c5b"
+hash = "cc929beedd75ada85c17919a5ee02662cf680012b2887816610b78f0c76bc51b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_town_builder.snbt"
-hash = "14cb99afda5749f0253a5ecf2e138a9b173ad7d34529abec0cf50f7f43347c51"
+hash = "45e45319b8774edd2e750516015eb48a4f5e57babb7ee1758e94b56b7875b42b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_winter_pantry.snbt"
-hash = "66155aabb1ee1d4170d775e2a379d61b6cacdee008cdaa9127fddf906c5bf4cb"
+hash = "bfc692431c650a34a016ad78c65de727753d6ef91e75b59ddabb4725df421249"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chops_christmas.snbt"
@@ -4350,7 +4350,7 @@ hash = "29d47ae6d733546ee2443b53597cb260bc70327d34cc7ef8491e66d3cb5500e0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "881e18661121c3e80539a65322bac8bca611a02ca73458ebfd04baecc7876308"
+hash = "a751ec756fd7f6b638aba655c759251a26c90687f432d53dbde3208b6aa0074f"
 
 [[files]]
 file = "config/ftbquests-client.snbt"

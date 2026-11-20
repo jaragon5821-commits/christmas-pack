@@ -4951,11 +4951,22 @@
 				id: "minecolonies:blockhuttownhall"
 			}
 			id: "34057A5E5B992BAD"
-			rewards: [{
-				id: "34057A5E5B0E8D9A"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "498B52B52E085424"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "34057A5E5B0E8D9A"
+					type: "xp"
+					xp: 500
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{

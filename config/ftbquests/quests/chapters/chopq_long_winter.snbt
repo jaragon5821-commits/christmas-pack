@@ -1079,5 +1079,38 @@
 			x: -0.61d
 			y: -11.94d
 		}
+		{
+			dependencies: ["34057A5E513ED795" "34057A5E512C29D0" "34057A5E51BF3261" "34057A5E515C9B33" "34057A5E512C7480" "34057A5E513C384C" "34057A5E51A184F5"]
+			hide_dependency_lines: true
+			icon: {
+				id: "festivity:hot_cocoa_thermos"
+			}
+			id: "445FD733BC052B2A"
+			rewards: [
+				{
+					id: "D70BEBBDFBBF89DC"
+					item: {
+						count: 1
+						id: "festivity:hot_cocoa_thermos"
+					}
+					type: "item"
+				}
+				{
+					id: "4AE633AF3B187B1E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "DECACE92C6CA527B"
+					type: "checkmark"
+				}
+			]
+			x: 14.22d
+			y: -2.0d
+		}
 	]
 }

@@ -887,5 +887,47 @@
 			x: 7.0d
 			y: 5.0d
 		}
+		{
+			dependencies: ["34057A5E5D9BC562" "34057A5E5D67F632" "34057A5E5D1D9CFE" "34057A5E5D8153F3" "34057A5E5DADC83B" "34057A5E5D32ADDF" "34057A5E5DE5575C"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:name_tag"
+			}
+			id: "5D67E91EA36D4553"
+			rewards: [
+				{
+					count: 8
+					id: "62B1CAE6E0DA9765"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "1DA6AE1C1FF4CC99"
+					item: {
+						count: 1
+						id: "minecraft:name_tag"
+					}
+					type: "item"
+				}
+				{
+					id: "2E7FACC633DF4100"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "E5C7540038B06BB3"
+					type: "checkmark"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
 	]
 }

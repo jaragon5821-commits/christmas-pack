@@ -933,5 +933,38 @@
 			x: -0.52d
 			y: -14.52d
 		}
+		{
+			dependencies: ["34057A5E5A17933B" "34057A5E5AE7F0DB" "34057A5E5A7FD0B0" "34057A5E5A1D6F56" "34057A5E5AE64775" "34057A5E5ADCCA61"]
+			hide_dependency_lines: true
+			icon: {
+				id: "festivity:music_box"
+			}
+			id: "405409DC36FE1CF8"
+			rewards: [
+				{
+					id: "1EAC6A7B719CDE70"
+					item: {
+						count: 1
+						id: "festivity:music_box"
+					}
+					type: "item"
+				}
+				{
+					id: "FA9B89602BB71C5A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "9FF501BADACB361E"
+					type: "checkmark"
+				}
+			]
+			x: 8.83d
+			y: 3.0d
+		}
 	]
 }

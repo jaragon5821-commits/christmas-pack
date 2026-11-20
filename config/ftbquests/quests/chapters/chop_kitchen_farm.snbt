@@ -664,5 +664,39 @@
 			x: 1.5d
 			y: 4.0d
 		}
+		{
+			dependencies: ["3F8F77A04DC3BD28" "769343B9F9389B33" "20D58F67543C78A6" "223558D92D008BB5" "73FEC5FB13D5BC3E" "5A7CDA5D95E0F5D6" "1F4DAA1E1FF27843" "7EC3B9CB318C8A8A" "6D23AE2FBD86FD6D" "5BD1DFF736A97117" "24498DBE8CB2D5D2" "659A070A3E0E32CA" "57002F8B008AC71D" "208F625365053422" "2A10EB27BE6039F9" "7D599F30B63C9769" "3CB2F648AF644AA0"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:golden_carrot"
+			}
+			id: "68008C256BE82D61"
+			rewards: [
+				{
+					count: 6
+					id: "F26A0A3EAF3C7C38"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "857349C41E0B0BC6"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3F2B9AC5377AAEA4"
+					type: "checkmark"
+				}
+			]
+			x: 16.5d
+			y: 2.0d
+		}
 	]
 }

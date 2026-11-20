@@ -888,5 +888,46 @@
 			x: 1.56d
 			y: 14.2d
 		}
+		{
+			dependencies: ["34057A5E573FB6F7" "34057A5E57C3C45B" "34057A5E57013119" "34057A5E57A04EA8" "34057A5E57384754" "34057A5E576111DC" "34057A5E57F86520" "34057A5E572830EC" "34057A5E57E6F745" "34057A5E5737AA82" "34057A5E57F546A9" "34057A5E577D4EF0" "34057A5E5725A5EC" "34057A5E578554C9" "34057A5E57AED816" "34057A5E57C4C424" "34057A5E57B07B8B" "34057A5E57C036A6" "34057A5E571C6AA1" "34057A5E57B9FAA1" "34057A5E57E7B97F" "34057A5E576C7F8F" "34057A5E575178E4" "34057A5E576C84D2" "34057A5E57861852" "34057A5E5745334B" "34057A5E57A89FE5" "34057A5E5B4B7254" "34057A5E5B863A48" "34057A5E5B683B46"]
+			hide_dependency_lines: true
+			icon: {
+				id: "festivity:hand_bell_set"
+			}
+			id: "BBEC713289DE5172"
+			rewards: [
+				{
+					id: "C9EF4B157906CA53"
+					item: {
+						count: 1
+						id: "minecraft:cake"
+					}
+					type: "item"
+				}
+				{
+					id: "C4F7BDA8BE4FFF48"
+					item: {
+						count: 1
+						id: "festivity:hand_bell_set"
+					}
+					type: "item"
+				}
+				{
+					id: "D06E18ABC0AE122E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "F717D3BE52AE9B45"
+					type: "checkmark"
+				}
+			]
+			x: 12.21d
+			y: 1.0d
+		}
 	]
 }
