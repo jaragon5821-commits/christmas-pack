@@ -1,4 +1,6 @@
-// chop_xmas_chest_loot.js v0.3.0 (Rune, 2026-11-20) - server script, LootJS 3.7.0.
+// chop_xmas_chest_loot.js v0.3.1 (Rune, 2026-11-20) - server script, LootJS 3.7.0.
+// v0.3.1 (Owl's number check on b8e8107): xmas_end bonus pool swapped too; untaken giant summits' pool 1 now rolls xmas_dungeon
+//   (no extra T3 pool, ~8 slots); starter_house + roadside_gifts: no diamonds, JSON pool 1 golden apple -> empty (emerald stays).
 // v0.3.0 LOOT REWORK (Owl's plan v1, boss approved all 5 on 11-20 22:15Z; tiers T0-T4 in lanes/owl/LOOT_AUDIT_AND_REWORK_PLAN_v1.md 5.1-5.2):
 //   - Top-tier items leave ordinary chests: no enchanted golden apple, totem, diamond gear, diamond horse armor, netherite ingot.
 //     The old 'rare' pool is gone. T1/T2 get a 4% 'fun finds' pool; T2 small chests a 3% single-diamond pool;
@@ -7,7 +9,7 @@
 //   - No supply camp / supply ship deployers anywhere; engagement ring only in hidden/chapel at 1%.
 //   - Iron backpack + magnet upgrade out of chests (boss / quest rewards only). Trident + heart of the sea 1% each, sea tables only.
 //   - Mailbox + market: no diamonds. Nether: debris out, scrap 2% small / 6% big. End big keeps a 'relics' pool without top tier.
-//   - furnace_boss: netherite scrap ~23% -> ~10%, end crystal out. Giant summits: 1-2 diamonds guaranteed, untaken summits +1 T3 roll.
+//   - furnace_boss: netherite scrap ~23% -> ~10%, end crystal out. Giant summits: 1-2 diamonds guaranteed, untaken summits roll xmas_dungeon (v0.3.1).
 //   Prison mines filter + the theme layer by structure live in chop_loot_theme.js.
 //   claws_stash / hold_cargo / place/* tables ship in Cobblestone's structures pack (v50a14), not here. T2 main rolls 4-6 -> 4-5 (room for the theme pool).
 // v0.2.1 (Rune 11-16, boss rule for the elf prison mines: no diamond gear, diamonds only in the end vault): a table can set
@@ -152,11 +154,13 @@
                                         extra: [['chop_nether_scrap', [['minecraft:netherite_scrap', 6, 1, 1]], 94]], bonus: 1 },
     'chop:chests/xmas_nether_small':  { tier: 'Nether', rolls: [4, 6], mix: [['nether', 4], ['valuables', 1], ['gear', 1], ['basics', 1]], exclude: /netherite/,
                                         extra: [['chop_nether_scrap', [['minecraft:netherite_scrap', 2, 1, 1]], 98]] },
-    'chop:chests/xmas_end':           { tier: 'End', rolls: [4, 5], mix: [['end', 4], ['valuables', 2], ['gear', 2], ['relics', 2]] },
+    'chop:chests/xmas_end':           { tier: 'End', rolls: [4, 5], mix: [['end', 4], ['valuables', 2], ['gear', 2], ['relics', 2]], bonus: 1 },   // v0.3.1 Owl fix 1
     'chop:chests/xmas_end_small':     { tier: 'End', rolls: [4, 6], mix: [['end', 4], ['valuables', 1], ['gear', 1], ['basics', 1]] },
-    'chop:chests/starter_house':      { tier: 'T1', rolls: [5, 6], mix: [['basics', 3], ['tools', 3], ['food', 2], ['seeds', 2], ['festive', 1], ['valuables', 1]], extra: [FUN] },
+    'chop:chests/starter_house':      { tier: 'T1', rolls: [5, 6], mix: [['basics', 3], ['tools', 3], ['food', 2], ['seeds', 2], ['festive', 1], ['valuables', 1]], exclude: /diamond/, extra: [FUN],
+                                        pool1: [[['minecraft:emerald', 1, 1, 3]], 4] },   // v0.3.1 Owl fixes 3+4: JSON pool 1 golden apple -> empty
     'chop:chests/starter_pantry':     { tier: 'T1', rolls: [5, 7], mix: [['food', 5], ['seeds', 2], ['basics', 1]] },
-    'chop:chests/roadside_gifts':     { tier: 'T1', rolls: [5, 6], mix: [['festive', 4], ['food', 1], ['basics', 1], ['valuables', 1]], extra: [FUN] },
+    'chop:chests/roadside_gifts':     { tier: 'T1', rolls: [5, 6], mix: [['festive', 4], ['food', 1], ['basics', 1], ['valuables', 1]], exclude: /diamond/, extra: [FUN],
+                                        pool1: [[['minecraft:emerald', 2, 1, 2]], 7] },   // v0.3.1 Owl fixes 3+4
     'chop:chests/roadside_market':    { tier: 'T1', rolls: [5, 7], mix: [['food', 3], ['seeds', 2], ['valuables', 2], ['tools', 1], ['festive', 1]], exclude: /diamond/, extra: [FUN] },
     'chop:chests/roadside_mail':      { tier: 'T1', rolls: [5, 7], mix: [['mail', 5], ['festive', 2], ['valuables', 1]], exclude: /diamond/,
                                         extra: [FUN, ['chop_mail_gold', [['minecraft:gold_nugget', 1, 2, 6]], 4]] },
@@ -167,9 +171,9 @@
   const ADD = {
     'chop:chests/hidden/coast': [SEA], 'chop:chests/claws_sea_cache': [SEA],
     'chop:chests/hidden/chapel': [['chop_chapel_ring', [['mca:engagement_ring', 1, 1, 1]], 99]],
-    'chop:chests/giants/summit': [['chop_summit_diamonds', [['minecraft:diamond', 1, 1, 2]], 0], ['chop_summit_t3', 'chop:chests/xmas_dungeon']],
-    'chop:chests/giants/summit_nether': [['chop_summit_diamonds', [['minecraft:diamond', 1, 1, 2]], 0], ['chop_summit_t3', 'chop:chests/xmas_dungeon']],
-    'chop:chests/giants/summit_end': [['chop_summit_diamonds', [['minecraft:diamond', 1, 1, 2]], 0], ['chop_summit_t3', 'chop:chests/xmas_dungeon']],
+    'chop:chests/giants/summit': [['chop_summit_diamonds', [['minecraft:diamond', 1, 1, 2]], 0], ['@pool1ref', 'chop:chests/xmas_dungeon']],
+    'chop:chests/giants/summit_nether': [['chop_summit_diamonds', [['minecraft:diamond', 1, 1, 2]], 0], ['@pool1ref', 'chop:chests/xmas_dungeon']],
+    'chop:chests/giants/summit_end': [['chop_summit_diamonds', [['minecraft:diamond', 1, 1, 2]], 0], ['@pool1ref', 'chop:chests/xmas_dungeon']],
     'chop:chests/giants/summit_taken': [['chop_summit_diamonds', [['minecraft:diamond', 1, 1, 2]], 0]],
     'chop:chests/giants/summit_nether_taken': [['chop_summit_diamonds', [['minecraft:diamond', 1, 1, 2]], 0]],
     'chop:chests/giants/summit_end_taken': [['chop_summit_diamonds', [['minecraft:diamond', 1, 1, 2]], 0]]
@@ -191,6 +195,7 @@
     if (emptyW > 0) pool.addEntry(LootEntry.empty().withWeight(emptyW));
   }
   function addExtra(table, x, skipped) {   // x = [name, rows, emptyWeight] or [name, 'table:id'] (one roll of another table)
+    if (x[0] == '@pool1ref') { table.modifyPool(1, pool => { pool.removeEntry(e => true, true); pool.addEntry(LootEntry.reference(x[1])); }); return; }   // v0.3.1 Owl fix 2
     table.createPool(pool => {
       pool.name(x[0]);
       pool.rolls(1);
@@ -224,6 +229,7 @@
       let table = event.getLootTable(tid);
       (cfg.extra || []).forEach(x => { addExtra(table, x, skipped); extras++; });
       if (cfg.bonus != null) table.modifyPool(cfg.bonus, pool => { pool.removeEntry(e => true, true); fillPool(pool, BONUS, 6, skipped); });
+      if (cfg.pool1) table.modifyPool(1, pool => { pool.removeEntry(e => true, true); fillPool(pool, cfg.pool1[0], cfg.pool1[1], skipped); });   // v0.3.1
       done++;
       } catch (err) { console.warn('[chop loot] ' + tid + ' failed: ' + err); }
     });
@@ -239,7 +245,7 @@
       } else console.warn('[chop loot] missing table ' + FURNACE[0]);
     } catch (err) { console.warn('[chop loot] furnace_boss failed: ' + err); }
     let sk = Object.keys(skipped);
-    console.info('[chop loot] v0.3.0 rewrote ' + done + ' chest tables, ' + extras + ' extra/bonus pool edits, ' + Object.keys(kept).length + ' item ids in use, ' + sk.length + ' skipped');
+    console.info('[chop loot] v0.3.1 rewrote ' + done + ' chest tables, ' + extras + ' extra/bonus pool edits, ' + Object.keys(kept).length + ' item ids in use, ' + sk.length + ' skipped');
     if (sk.length) console.info('[chop loot] skipped (not in registry): ' + sk.join(', '));
   });
 })();
