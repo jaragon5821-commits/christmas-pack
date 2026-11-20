@@ -4254,7 +4254,7 @@ hash = "b15c3dd424df29f09795aabf4ac1f35d1c136ec95923561ed298b526f653f0cb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_friends_family.snbt"
-hash = "8c0340ea00f2242f78958a24c1af1bfea677b7c1ab575e2171582eccdbde9303"
+hash = "49caf6972ceb377e6fb994d884c2c27b7f40b612c127fad708e1fbb453e25a04"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_giants.snbt"
@@ -4346,7 +4346,7 @@ hash = "29d47ae6d733546ee2443b53597cb260bc70327d34cc7ef8491e66d3cb5500e0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "6e7b7462e0030fa789f802e62a6699fa1b5cade96794000969f6be6567881018"
+hash = "f8304f8b7c1074915a1685edce41672f641fc9b379bde7db3898d56fa2fae5fa"
 
 [[files]]
 file = "config/ftbquests-client.snbt"
@@ -42318,6 +42318,10 @@ file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/voice.md"
 hash = "e495b6f8e9fd9a3bd085a4817cc6a349056035b2d32c41a6b060f737586d4fcb"
 
 [[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/animals.md"
+hash = "c3d5afef172ba68b710b660279c2c85a918a1310b67a0ceb882ebe59ed83bec0"
+
+[[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/colony.md"
 hash = "cd800d1df53ec000bb944de0cc5c05f292ce55d5f9aec6b7a3acd39a79359f25"
 
@@ -43467,7 +43471,7 @@ hash = "88e3d258fa6e259c18b25755bb3a61f43b47bc1fb75962b80c953baa07cf9b29"
 
 [[files]]
 file = "kubejs/server_scripts/chop_starter_kit.js"
-hash = "5e4d519afab28013d11279d4694e7af53d52337091b8f836c6685e07e6fbcf29"
+hash = "c6df6b2272d45fa28dc3242e9b9969b8085e984b30efc82c4473634db268fcb4"
 
 [[files]]
 file = "kubejs/server_scripts/chop_synergy_critters.js"
@@ -44032,12 +44036,17 @@ metafile = true
 
 [[files]]
 file = "mods/custom-festivity-0.10.10.pw.toml"
-hash = "d67ada79d6531e0af1ee55b77f55591c7abf7b66a52b9262af6993313b033c4d"
+hash = "0f7ccedd842e105603abd03b5027afa1d016e7e7ee7e385a73cfb9c8c5444c19"
 metafile = true
 
 [[files]]
 file = "mods/custom-MCA-Colony-Integration-0.1.2-chop.pw.toml"
 hash = "832d9618d08a29831988c90e0cf9b7d24508e4ac6a126cc5ae07cd138a16f5c6"
+metafile = true
+
+[[files]]
+file = "mods/custom-hearthkin-1.0.0.pw.toml"
+hash = "f76181138a0cffabc0ec01ce2c39ae019b902d883cf25a30c2df2bb635ff5926"
 metafile = true
 
 [[files]]

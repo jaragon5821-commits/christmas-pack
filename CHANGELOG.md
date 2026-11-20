@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026.11.20-2
+- NEW: Hearthkin 1.0.0 (animal personalities, Field Guide, Temperament Spyglass, pet treats)
+- Festivity 0.10.10 r17: needs Hearthkin; smoother hare, goose, owl, hound, deer and reindeer; Ember Imp v2; snowy pinon leaves
+- Quests: 4 new Friends & Family quests; Handbook page Animals & Personality
+- Starter kit gives the Field Guide once
+
 ## 2026.11.20-1
 - Festivity 0.10.10 r14: pinon trees, animal personalities (r1b), reindeer bells removed, fast leaf decay, spell book fits the Curios slot, caroler and rotten gingerbread fixes
 - Chop's Road Bridges 0.13.7 (bridge fixes; no more broken bridges in new chunks)

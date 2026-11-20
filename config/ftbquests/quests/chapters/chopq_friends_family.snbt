@@ -810,5 +810,83 @@
 			x: 4.2d
 			y: -10.87d
 		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "hearthkin:pet_treat"
+			}
+			id: "34057A5E5B3E0059"
+			rewards: [{
+				id: "34057A5E5BDF809F"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5B5F5E66"
+				item: { count: 1, id: "hearthkin:pet_treat" }
+				type: "item"
+			}]
+			x: -3.63d
+			y: 14.2d
+		}
+		{
+			dependencies: ["34057A5E5B3E0059"]
+			icon: {
+				id: "hearthkin:field_guide"
+			}
+			id: "34057A5E5B4B7254"
+			rewards: [{
+				id: "34057A5E5B977B92"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5B652131"
+				item: { count: 1, id: "hearthkin:field_guide" }
+				type: "item"
+			}]
+			x: -1.9d
+			y: 14.2d
+		}
+		{
+			dependencies: ["34057A5E5B3E0059"]
+			icon: {
+				id: "hearthkin:temperament_spyglass"
+			}
+			id: "34057A5E5B863A48"
+			rewards: [{
+				id: "34057A5E5BFCD7BF"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34057A5E5BE32C02"
+				item: { count: 1, id: "hearthkin:temperament_spyglass" }
+				type: "item"
+			}]
+			x: -0.17d
+			y: 14.2d
+		}
+		{
+			dependencies: ["34057A5E57E4796D"]
+			icon: {
+				id: "minecraft:feather"
+			}
+			id: "34057A5E5B683B46"
+			rewards: [{
+				id: "34057A5E5B7305EC"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "34057A5E5BF545E4"
+				type: "checkmark"
+			}]
+			x: 1.56d
+			y: 14.2d
+		}
 	]
 }

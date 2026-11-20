@@ -1717,6 +1717,8 @@
 	quest.34057A5E5B3D1C20.title: "School (Level 2)"
 	quest.34057A5E5B3D4625.title: "Alchemist Tower (Level 4)"
 	quest.34057A5E5B3D5859.title: "Archery (Level 5)"
+	quest.34057A5E5B3E0059.quest_desc: ["Every friendship starts with a snack. Get a &6Pet Treat&r: you need one for the Field Guide and one for the Temperament Spyglass."]
+	quest.34057A5E5B3E0059.title: "Pet Treats"
 	quest.34057A5E5B40E229.title: "Sifter (Level 4)"
 	quest.34057A5E5B416720.title: "Warehouse (Level 3)"
 	quest.34057A5E5B41E2E6.title: "Swineherd's Hut (Level 5)"
@@ -1730,6 +1732,12 @@
 	quest.34057A5E5B491E07.title: "Restaurant (Level 4)"
 	quest.34057A5E5B4A9E19.title: "Courier's Hut (Level 4)"
 	quest.34057A5E5B4ACDA0.title: "Chicken Farm"
+	quest.34057A5E5B4B7254.quest_desc: [
+		"Craft a &6Field Guide&r from a book and a Pet Treat, then right-click it to open your own pet journal."
+		"Every pet you tame gets a page: how it is &oToday&r, &oIts nature&r and its &oMemories&r. You can rename a pet there too."
+		"The first pages show you how to read animals."
+	]
+	quest.34057A5E5B4B7254.title: "A Pet's Journal"
 	quest.34057A5E5B4C79B4.title: "Concrete Mixer (Level 2)"
 	quest.34057A5E5B4CA197.title: "Combat Academy (Level 4)"
 	quest.34057A5E5B4EDAD0.title: "Alchemist Tower"
@@ -1754,6 +1762,12 @@
 	quest.34057A5E5B60B049.title: "Fletcher's Hut (Level 4)"
 	quest.34057A5E5B60EFBA.title: "Alchemist Tower (Level 2)"
 	quest.34057A5E5B643144.title: "Shepherd's Hut (Level 4)"
+	quest.34057A5E5B683B46.quest_desc: [
+		"Crouch and right-click your own pet with an empty hand to give it some fuss. Hearts mean it liked that."
+		"Hit an animal and it lets you know: a grumpy bubble, angry puffs and a line at the bottom of your screen. Some animals remember who chased them."
+		"Tick this off once you have made a pet happy."
+	]
+	quest.34057A5E5B683B46.title: "Gentle Hands"
 	quest.34057A5E5B686879.title: "Cowhand's Hut (Level 3)"
 	quest.34057A5E5B68D80F.title: "Enchanter's Tower (Level 3)"
 	quest.34057A5E5B69D03A.title: "Smeltery (Level 2)"
@@ -1785,6 +1799,12 @@
 	quest.34057A5E5B83D45C.title: "Composter's Hut (Level 4)"
 	quest.34057A5E5B85988C.title: "Barracks Tower"
 	quest.34057A5E5B85F442.title: "Shepherd's Hut"
+	quest.34057A5E5B863A48.quest_desc: [
+		"Craft a &6Temperament Spyglass&r from a spyglass and a Pet Treat."
+		"Hold right-click and aim it at an animal. Its thoughts drift up beside your crosshair: little hints at whether it is friendly, shy or one to keep an eye on."
+		"It works on wild animals and pets alike."
+	]
+	quest.34057A5E5B863A48.title: "Read the Room"
 	quest.34057A5E5B870AF6.title: "Plantation (Level 2)"
 	quest.34057A5E5B871D64.title: "Guard Tower (Level 3)"
 	quest.34057A5E5B88FF14.title: "Glassblower's Hut (Level 3)"

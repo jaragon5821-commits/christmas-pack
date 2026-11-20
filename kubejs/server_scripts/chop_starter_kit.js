@@ -1,4 +1,5 @@
-// chop_starter_kit.js v0.3.0 (Lorekeeper, 2026-11-17) - server script.
+// chop_starter_kit.js v0.3.1 (Lorekeeper, 2026-11-20) - server script.
+// v0.3.1: boss YES (11-20): Field Guide (hearthkin:field_guide) added to the kit, own flag, given once when registered.
 // v0.3.0: boss D323 (11-16): spawn kit = Handbook + Festive Book (Field Guide later). The Handbook part is unchanged
 //         (same 'chopHandbook' flag, so nobody gets a second copy). Each extra book has its OWN flag and is given
 //         once, only when its item is registered. Until Toybox ships the Festive Book item this does nothing.
@@ -14,10 +15,11 @@
   const BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries');
   const ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation');
   const HANDBOOK = 'guideme:guide[guideme:guide_id="chopxmas:handbook"]';
-  // [flag, item id that must be registered, give argument]. Add the Field Guide here when it exists.
+  // [flag, item id that must be registered, give argument]. Field Guide added v0.3.1.
   const EXTRA_BOOKS = [
     ['chopKitFestiveBook', 'festivity:festive_book', 'festivity:festive_book'],
-    ['chopBookbag', 'festivity:bookbag', 'festivity:bookbag']   // Rune 19aaba3 (11-18): Bookbag once, only when registered
+    ['chopBookbag', 'festivity:bookbag', 'festivity:bookbag'],  // Rune 19aaba3 (11-18): Bookbag once, only when registered
+    ['chopKitFieldGuide', 'hearthkin:field_guide', 'hearthkin:field_guide']   // boss YES 11-20: Field Guide once, only when Hearthkin is installed
   ];
   const registered = id => BuiltInRegistries.ITEM.containsKey(ResourceLocation.parse(id));
   PlayerEvents.loggedIn(event => {
