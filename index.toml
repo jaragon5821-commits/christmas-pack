@@ -44149,8 +44149,8 @@ hash = "04b07ed6f35ae628423d13b4c68e5ebeead36a119a001fa85b53899ab71cd0eb"
 metafile = true
 
 [[files]]
-file = "mods/custom-chop-autopilot-1.3.4-chop.61.pw.toml"
-hash = "bf7948f83e5aba807470950c45773abf58a1dae6df78154bd68272ce661ac2d6"
+file = "mods/custom-chop-autopilot-1.3.4-chop.62.pw.toml"
+hash = "dc5d8a0481f29951ba135ed5515f2d120fad5389b43acbfb85bbc311cf98befc"
 metafile = true
 
 [[files]]
@@ -44185,7 +44185,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-festivity-0.10.10.pw.toml"
-hash = "c09070fcef738845d37ae1af2790325bc0596da7976b565f4b9f4fc18ac51b72"
+hash = "8a26e0aa455bb1981651ebc28f8d67893fcea9df1817c73f9d63312f14881fe3"
 metafile = true
 
 [[files]]
@@ -44195,7 +44195,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-hearthkin-1.0.0.pw.toml"
-hash = "d78c43e8cf92655e9c960ee2e56dd1db276fcbffb118f0895631d5c3cf3e527c"
+hash = "0ee96f57e4dfdf1ac72e072d2524675d70040c6b48053dc5a0de56c5a296a62d"
 metafile = true
 
 [[files]]
