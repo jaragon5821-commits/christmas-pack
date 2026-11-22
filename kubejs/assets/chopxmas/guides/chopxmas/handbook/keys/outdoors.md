@@ -8,9 +8,24 @@ navigation:
 
 # Out & About
 
-Pets, carts, fishing, claims and a few friendly gestures.
+Pets, flying, carts, fishing, claims and a few friendly gestures.
 
 **Your keys right now.** Keys marked **Unassigned** start with no key: click the link to open Keybind Atlas, then pick the key there (Edit, then the Unassigned list).
+
+<OptionalSection modId="skyreins">
+
+### Flying (reindeer and the Flying Sleigh)
+
+Flying uses your normal movement keys. See **Flying** in Your First Days.
+
+* Take off and flap: **<KeyBind id="key.jump" />**
+* Build speed: **<KeyBind id="key.forward" />** (let go to glide)
+* Brake: **<KeyBind id="key.back" />** or **<KeyBind id="key.sprint" />**
+* Rudder: **<KeyBind id="key.left" />** / **<KeyBind id="key.right" />**
+* Bank and nose: the mouse
+* Get off: **<KeyBind id="key.sneak" />**
+
+</OptionalSection>
 
 <OptionalSection modId="doggytalents">
 
@@ -57,7 +72,7 @@ Used during the fishing minigame.
 
 ### PatPat
 
-* Pat: **<KeyBind id="patpat.keybinding.pat" />** · <CommandLink command="/chopkeys" close={true} title="Opens Keybind Atlas">Unassigned: click to assign</CommandLink>
+* Pat: hold **Left Alt** and right-click with an empty hand (you can change it in PatPat's settings).
 
 </OptionalSection>
 

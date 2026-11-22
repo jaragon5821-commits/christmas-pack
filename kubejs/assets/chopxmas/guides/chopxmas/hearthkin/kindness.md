@@ -10,7 +10,7 @@ navigation:
 
 ## Petting
 
-Crouch and right-click an animal with an **empty hand**. Hearts and a happy line mean it liked that. A few creatures use crouch-click for something else, so they don't get pets that way.
+Give it a **pat**: hold Left Alt and right-click the animal with an **empty hand**. Hearts and a happy line mean it liked that.
 
 ## Pet Treats
 

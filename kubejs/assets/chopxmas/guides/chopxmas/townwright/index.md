@@ -17,6 +17,6 @@ Upgrades, repairs, roads and upkeep carry on by themselves.
 * **[Plots and Your Own Builds](plots.md):** keeping the town's hands off your projects.
 * **[When Something Seems Stuck](stuck.md):** what the status line means and what to do.
 
-Townwright is the pack's own version of Colony Autopilot by Backwards. Its commands still start with `/colonyautopilot`.
+Townwright is the pack's own version of Colony Autopilot by Backwards. Its commands start with `/townwright` (the old `/colonyautopilot` works too).
 
 <SubPages />

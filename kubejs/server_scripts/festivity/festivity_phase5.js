@@ -559,7 +559,7 @@ ItemEvents.entityInteracted(event => {
     if (f5has(e, 'fest_e4')) { f5cmd(server, 'tellraw ' + p.username + ' ' + F5.jsonText('This one is not yours to keep. It only watches.', 'gray')); event.cancel(); return; }   // event reindeer: never tameable
     if (String(event.item.id) != 'chop:bell_necklace') return;
     let tamed = false; try { tamed = !!e.isTamed(); } catch (q) { try { tamed = !!e.tamed; } catch (r) {} }
-    if (!tamed) { f5cmd(server, 'tellraw ' + p.username + ' ' + F5.jsonText('Calm it first: ride it bareback until it accepts you, like a horse.', 'gray')); event.cancel(); return; }
+    if (!tamed) { f5cmd(server, 'tellraw ' + p.username + ' ' + F5.jsonText('Make friends with it first: give it a pat and follow your thoughts.', 'gray')); event.cancel(); return; }
     if (!p.isCreative()) event.item.shrink(1);
     f5cmd(server, 'data merge entity ' + e.uuid + ' {SaddleItem:{id:"minecraft:saddle",count:1}}');
     e.addTag('fest_belled');

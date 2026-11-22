@@ -12,9 +12,11 @@ Any animal with a personality can become a friend, but never by accident. Taming
 
 ## How it starts
 
-Crouch and pet the animal (empty hand), or say yes when it comes to you with a bubble. Then your own thoughts give you a clue about what to try next, using the animal's name. Each step you finish adds a note in your **Field Guide**, and the next clue appears.
+Give the animal a gentle pat, or help it when it comes to you with a want. Then your own thoughts give you a clue about what to try next, using the animal's name. Each step you finish adds a note in your **Field Guide**, and the next clue appears.
 
-Most animals want the same kind of things: let it sniff you, bring its food a couple of times, hold the food out and stand still, then pet it to finish. Rarer creatures have their own chains, and their clues tell you what they need.
+Most animals want the same kind of things: let it sniff you, bring its food a couple of times, hold the food out and stand still, then give it a pat to finish. Rarer creatures have their own chains, and their clues tell you what they need.
+
+A few of the pack's own creatures have their own way instead: a Gingerbread Buddy is tamed with a cookie, and a Coal Gnome is woken with a Blaze Heart. The Handbook's **Buddies & Pets** page has those.
 
 ## Shy and grumpy animals
 

@@ -18,7 +18,7 @@ Little gingerbread people. Wild ones wander around and run from Sour Elves and S
 
 **Rotten buddies:** about 1 wild buddy in 40 has gone stale and mouldy. It can't be tamed and never fights.
 
-**Eating buddies:** you can eat any **untamed** buddy with an **empty hand**, one bite per right-click. Three bites and it's gone. Tamed buddies are never bitten.
+**Eating buddies:** you can eat any **untamed** buddy with an **empty hand**. Right-click it standing up: "It smells delicious... click again to take a bite." Click again within 3 seconds to take a bite. Three bites and it's gone. You never bite while crouching, and tamed buddies are never bitten.
 
 * **Normal buddy:** only when you're hungry. Each bite gives 2 hunger.
 * **Rotten buddy:** you can always eat it, but it's like rotten flesh. Each bite gives 4 hunger, with a good chance of Hunger, plus Nausea and Poison.
@@ -26,5 +26,5 @@ Little gingerbread people. Wild ones wander around and run from Sour Elves and S
 ## Other pets
 
 * **Coal Gnome:** right-click a Clinker Gnome with a **Blaze Heart** to wake it as your pet.
-* **Frost Hound:** right-click a wild one with a **Frozen Treat** to tame it. A bone works too, like a wolf.
-* **Reindeer:** put a **Bell Necklace** on one to ride it.
+* **Frost Hound:** tamed through its own chain of friendly steps. Give a wild one a pat to begin, then follow your thoughts' clues. See the **Hearthkin Guide**.
+* **Reindeer:** tamed through its own chain of friendly steps, like the Frost Hound. Once it's yours, put a **Bell Necklace** on it to ride it (a plain saddle won't do). A **Flying Saddle** lets it fly: see **Flying**.

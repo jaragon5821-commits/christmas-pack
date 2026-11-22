@@ -42351,7 +42351,7 @@ hash = "d8a501b5322a856ca3666d1bb98b337f308245f91697074f32415911c43bd872"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/outdoors.md"
-hash = "ebf089d98ac3ef9e7e20e0d5483c5ee552c11cace212514b60815338a455d93a"
+hash = "052e1e5e4c88d4a09c21ffe9f46d062b5b92b932b5e8b51264481765062c2d85"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/quests.md"
@@ -42363,7 +42363,7 @@ hash = "e495b6f8e9fd9a3bd085a4817cc6a349056035b2d32c41a6b060f737586d4fcb"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/animals.md"
-hash = "9824f3f74580bd7081385bdc4df38b0771ed2993dc515063997c88cb2e0cd23b"
+hash = "22dd1e04694bb07274fee5cdaea240eb4965310d49f884ffe911e8e1185fcc5c"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/colony.md"
@@ -42375,7 +42375,7 @@ hash = "ba20212f8ed52137c61eb4b67bedcd90ff6abe8d805e6a4c40e8e93855d90661"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/festivity.md"
-hash = "164b8f6a602716eaffc60fa04c31a6de1257f4f404333936b794b1c545e6fb9b"
+hash = "e7baea8df46f80152593ce62065047247175b1614c8d3b52033dca05aa5f5d17"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/giving.md"
@@ -42403,11 +42403,11 @@ hash = "0e02892b0b819f61eb95d8e19244a65656bc175d1714ee295923cf7a921e1d95"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/travel.md"
-hash = "975cf17907eb4ab2c6862d576f35bcdde93f3cd4b5f84b0fcaa8ea5f79762ab6"
+hash = "0ae3812c6da969188ac3ae40e35bdf81690bab2cf20df7d316b40d344c8ef2f9"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/buddies.md"
-hash = "05cd4e29609f68133ed14f2952cdde37a716d16e7f916ac0ca3441f43a799208"
+hash = "9b038624cab0f930ad5df36753cdbc1468c4d9dd9cfcfa5d1b6e22a46449e9c8"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/candle_of_vigil.md"
@@ -42415,7 +42415,7 @@ hash = "d1ecd95cb987b50e1342010773b8815d6fea49730e14432878e9fcd16770f021"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/colonybucks.md"
-hash = "6ea07bdf93093a7c587f306c80aa52c8e6981bbaeb61060dc1d0e6f12d55346f"
+hash = "f14caf6f892e60b5030a902b8455b02b1f406eeeaf94b40022dc46cfd43a431a"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/festivity.md"
@@ -42451,7 +42451,7 @@ hash = "05d219acea5f3b2e785aa4e93f2e4962d38bd8d80d6798dcb2250b179881958b"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/hearthkin/kindness.md"
-hash = "3a26669d6697ebe28af0d29b5a762a7cc2e38568f1afb3cc04bcef5073bdb553"
+hash = "5dc57e63cb394e50c38537a5c54ef8d5ce8d07148e26e592a1e49d947a0bbcf0"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/hearthkin/reading.md"
@@ -42459,7 +42459,7 @@ hash = "be75e1917ae97b870f051072cbe253da0bee08717fca2e06fba9f91851b11465"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/hearthkin/taming.md"
-hash = "8e124cbf62f489ba6daf8780e38b0a6c46a835207aa7f918ddce780d584f4d0e"
+hash = "ca657d3306c26d1a1713d6381a9eaa482b9db2dd48003810e7940a8b70434098"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/hearthkin/toys.md"
@@ -42467,7 +42467,7 @@ hash = "ba8029b236202ff6914a78b5359a522fa578d86f5f6c7507004be5f0a88f5bd9"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/hearthkin/wants.md"
-hash = "ca31e6102067eda0112d68640c33626dcb795d09d31dafe5b32b9568a3cd2c1c"
+hash = "83e96e64e66644945282ddd455e42e4e1bf2c70c45127c089129c6f8ce7b83e3"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/board.md"
@@ -42475,15 +42475,15 @@ hash = "e03a2c338d6179bcc991c8069fa501d41d5eea23ffc5e6c26a69a3a95f574c33"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/founding.md"
-hash = "db002e3bc45974d8f1a8d762fcf31c6fbad8111f543c97b3de118838e1852aff"
+hash = "dfe33b7c7d863710d867feb047408a8dc3f02fc8463c691ed74e6d67f4bdc305"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/index.md"
-hash = "12e74eaadb3a0f1e33e12fb6c3de53317749130a1719e61904816d9c0c24a98d"
+hash = "899755fe67d6873434e43e7494b4c9769662a9720d45317d438224c5c35cb451"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/plots.md"
-hash = "4afec68e0ff247cea439f57b39bf97817f5bd5f4cbd6cc4d1c49422c9feb8fcf"
+hash = "0bfc287bbd6faa90137d8cd111675bfd0ed64570b952e5d54b177530fed08bdf"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/roads.md"
@@ -42491,7 +42491,7 @@ hash = "06389f10b2efad8892234a675d1b79843c4b4f2f7d0d718c7a888c8107e73e8d"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/stuck.md"
-hash = "34ab501aada1ae13ef2e12493fcb7d972ece459c634dd3ff79effc43ab5ab0f8"
+hash = "5b2dc2a9f47ee61e9cede865824cf5aeaf43bc1d2b11ed60752382599f7195d5"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/walls.md"
@@ -43687,7 +43687,7 @@ hash = "b32639f37594e08b767187fa68218f0e94aef060e6f7c1299dbb9302a2c750d7"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_phase5.js"
-hash = "e2151e64b40854e64953698d7019df8e4088be24d61ee3ecbce610f30ca17a04"
+hash = "1b8b33e7b13ce114f14af42335e0ac59e9c64adbda15190f504f3692ff45488b"
 
 [[files]]
 file = "kubejs/server_scripts/festivity/festivity_quests.js"
@@ -45445,3 +45445,11 @@ preserve = true
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.9.3.zip"
 hash = "fed6c879e732cf7fc7bc6570ebb1def43235aa7e96f62859fbdbdbfa0b484b38"
+
+[[files]]
+file = "config/openloader/packs/37_Chops_Creature_Rumours_v1.zip"
+hash = "926fdd998c999b6f041c0de3c934b36d51d1a7f89ebd46608ebc66e46dd70e3f"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/flying.md"
+hash = "c0f9f9ed806ebd208699abeb51cdb8902bb3e1f831edfb69f448d762a17291aa"

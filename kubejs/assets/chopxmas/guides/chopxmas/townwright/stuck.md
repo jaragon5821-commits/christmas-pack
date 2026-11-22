@@ -8,7 +8,7 @@ navigation:
 
 # When Something Seems Stuck
 
-Type `/colonyautopilot status`. It says in plain words what your town is waiting for.
+Type `/townwright status` while standing in your town. It says in plain words what your town is waiting for.
 
 | The status says | What to do |
 |---|---|

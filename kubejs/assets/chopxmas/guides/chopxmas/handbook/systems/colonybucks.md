@@ -8,7 +8,7 @@ navigation:
 
 # ColonyBucks & the Treasury
 
-**ColonyBucks** are your colony's money. With the colony autopilot, builders **buy** their materials from the colony's treasury, and a new colony starts with **0 bucks**. Until you pay in, the first hut just waits.
+**ColonyBucks** are your colony's money. With Townwright, builders **buy** their materials from the colony's treasury. A new colony starts with **5 bucks**, about enough for the first Builder's Hut. After that, keep paying in or the builders wait.
 
 **Getting bucks:** they drop from monsters and turn up in loot chests.
 
@@ -19,4 +19,4 @@ navigation:
 
 **Donation Kettle:** place one inside a colony and right-click it with ColonyBucks to give 1 (sneak to give 5). It goes straight to that colony's Town Hall. Your first donation each day also gives you a small 10-minute buff and a little Festivity.
 
-**Stuck?** Type `/colonyautopilot status`. It says in plain words what the colony is waiting for, for example materials and how many bucks are in the treasury.
+**Stuck?** Type `/townwright status`. It says in plain words what the colony is waiting for, for example materials and how many bucks are in the treasury.
