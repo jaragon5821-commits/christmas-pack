@@ -8,18 +8,17 @@ navigation:
 
 # Santy Claws
 
-When the Festivity bar falls to **Claws Night**, Santy Claws comes at **midnight**. He goes after the naughtiest player online.
+Not everyone loves Christmas. When the **Festivity** bar sinks low, Santy Claws and his minions come calling, and they come for the naughtiest first.
 
-He comes **silently**, leaping across the snow. Your only warning is a heavy thud and the words *"Something heavy just landed behind you."*
+## Staying safe
 
-**If he catches you**, he carries you far away and wraps you in a **Giant Present**.
+* **Keep the season merry.** The higher the Festivity bar, the safer everyone is.
+* **Stay indoors on dark nights** when the bar is low. Stout doors help.
+* **Light a Candle of Vigil** at home. See its page.
 
-* **Friends:** break the red **Ribbon Knot** on top to free them. Only the knot breaks, not the walls.
-* **Alone?** Jump to wriggle free. The counter shows on screen.
-* Dying inside the present just puts you back in it.
+## If the worst happens
 
-**Driving him off:** hit him, together if you can. Every hit slows him down. Enough hits and he flees, and everyone who hit him gets **Ribbon Tokens**. Otherwise he slinks away at dawn.
+* **Caught and wrapped up?** Jump to wriggle free, or ask a friend to break the red **Ribbon Knot** on top.
+* **Fight back together.** Driving him off is far easier with friends, and it's worth it.
 
-**Doors and windows are not safe.** If he can't reach you, he smashes wooden doors, trapdoors, gates and glass, and squeezes through doorways. Everything he breaks grows back at dawn, and he never drops it as loot. Iron doors stop him.
-
-**Keep him out:** a lit **Candle of Vigil** stops him breaking in. See its page.
+The rest you'll find out for yourself.

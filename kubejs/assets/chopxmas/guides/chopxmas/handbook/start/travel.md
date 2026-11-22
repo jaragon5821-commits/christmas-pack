@@ -2,12 +2,15 @@
 navigation:
   parent: start/index.md
   title: Getting Around
-  icon: minecraft:compass
-  position: 5
+  icon: minecraft:saddle
+  position: 8
 ---
 
 # Getting Around
 
-Roads link the villages. Ride a horse, a stagecoach, a sled or a polar bear.
+Roads link the villages and towns. Ride a horse, a stagecoach, a sled or even a polar bear, and whistle your horse back when you need it.
 
-The **Getting Around** quest chapter has the details. Merry Christmas!
+* **Your map:** open it to see where you've been. Waypoints can be shared with your team.
+* **Compasses:** the Explorer's Compass and Nature's Compass find structures and biomes for you.
+
+The **Getting Around** quest chapter has the details.

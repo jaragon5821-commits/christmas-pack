@@ -6,14 +6,15 @@
     },
     "tooltip_lines": [
       {
-        "text": "Controls, keys and tips for the pack",
+        "text": "Start here: the pack, your first days and your keys",
         "color": "gray"
       },
       {
         "text": "Right-click to read",
         "color": "dark_gray"
       }
-    ]
+    ],
+    "model": "chopxmas:item/handbook"
   },
   "default_language": "en_us"
 }

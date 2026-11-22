@@ -1,0 +1,20 @@
+{
+  "item_settings": {
+    "display_name": {
+      "text": "Townwright Guide",
+      "color": "#E8C15A"
+    },
+    "tooltip_lines": [
+      {
+        "text": "How your town plans and builds itself",
+        "color": "gray"
+      },
+      {
+        "text": "Right-click to read",
+        "color": "dark_gray"
+      }
+    ],
+    "model": "chopxmas:item/townwright_guide"
+  },
+  "default_language": "en_us"
+}

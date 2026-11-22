@@ -42271,7 +42271,15 @@ hash = "487422185c1571a8d00a555038bf76b985d764b76c92d9f0a473668d0671e315"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guideme_guides/handbook.json"
-hash = "c923cd9a989886b287a62a516b12675a902ed6ae8d399485c684b305caacd726"
+hash = "b2a327e78f47495e6886490c13a28c9db5ab14d2f154f447afbfea6b5bdd943e"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guideme_guides/hearthkin.json"
+hash = "4a2c674686bdffe1047ed49f82efa7e094aaab398b4cbddfdb2b01113d5098b3"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guideme_guides/townwright.json"
+hash = "5a16ba1cf4835eb3708698f1567251e77a21a881bde6f075577601892cde3636"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/creatures/dangers.md"
@@ -42291,7 +42299,7 @@ hash = "98679a22f1443832b44b027b8b7fa46737c6f915b7b229e42a6d8e1da97d6475"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/index.md"
-hash = "dc9112c860c025c7568bf96f21cd2265c8d3ca45adae3b1b0978b878195725ff"
+hash = "d14901b6bea2f84962a25ca6454a400ebd35b8fd798996319e4cfe0e0b8494be"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/backpacks.md"
@@ -42343,7 +42351,7 @@ hash = "d8a501b5322a856ca3666d1bb98b337f308245f91697074f32415911c43bd872"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/outdoors.md"
-hash = "ebf089d98ac3ef9e7e20e0d5483c5ee552c11cace212514b60815338a455d93a"
+hash = "d1180c0c9a252f38776dc85e9345540bc31e6319cf8e7f10ebabb0f3d20a80f7"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/quests.md"
@@ -42355,11 +42363,11 @@ hash = "e495b6f8e9fd9a3bd085a4817cc6a349056035b2d32c41a6b060f737586d4fcb"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/animals.md"
-hash = "c3d5afef172ba68b710b660279c2c85a918a1310b67a0ceb882ebe59ed83bec0"
+hash = "9824f3f74580bd7081385bdc4df38b0771ed2993dc515063997c88cb2e0cd23b"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/colony.md"
-hash = "cd800d1df53ec000bb944de0cc5c05f292ce55d5f9aec6b7a3acd39a79359f25"
+hash = "bea5c15d24d9f27b5ed504ad84c55d00d91d74b26a6c2da836fe3d4ed1f162ba"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/decorating.md"
@@ -42375,19 +42383,27 @@ hash = "70048eefa75df5e84bc121dcbd815bf18d48d5bc8e5936e7dbda0d4e0b732d89"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/handy.md"
-hash = "5b42a586071bf0eb2dab48274a8026eec0774f67824fd8387d548757f92ad237"
+hash = "8f5df588f3e6f1640a186ec304a0391b600b64ae0a4de267e037278d4d9a280f"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/index.md"
-hash = "a093e4da96022b3277ee09abeb96a779f1aa9b859f4e73adce39582da3bfb3ab"
+hash = "2ae9d3b2853d8428a8504f818ac285721d688c65543c93faa15e676a1148f51f"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/library.md"
+hash = "20b8733b779250cf1bddeff151446d179e7f4e4a0e6bc50566846b7492fb869f"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/magic.md"
 hash = "92f017f8c3c7512e53c5e7405331a0bc9417cb29d6516637858d5485efe14450"
 
 [[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/pack.md"
+hash = "0e02892b0b819f61eb95d8e19244a65656bc175d1714ee295923cf7a921e1d95"
+
+[[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/travel.md"
-hash = "f534beb0140be080618c3a57d290f16940f56b7964ac0d209b7d18b93152968c"
+hash = "975cf17907eb4ab2c6862d576f35bcdde93f3cd4b5f84b0fcaa8ea5f79762ab6"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/buddies.md"
@@ -42403,7 +42419,7 @@ hash = "6ea07bdf93093a7c587f306c80aa52c8e6981bbaeb61060dc1d0e6f12d55346f"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/festivity.md"
-hash = "6bf0dc67f9982a20f29861f0d3c28e0ddfeb4ad7683fe3c26e9a8897febaba96"
+hash = "d16a27a632cdc0e90ffc7830c5518f12f28fa2c7c5a6c5c9d41141168ced08fc"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/index.md"
@@ -42411,7 +42427,7 @@ hash = "2fe3e328662eae0ee7d0fce695e7292a149078c7093f93e6da705e83a700dd70"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/santy_claws.md"
-hash = "18812abf288b6585c1a8f729211119989d115493a67473bb3c92e1aa898f4717"
+hash = "6807a8be3b08207d31b74b7df8007953183d0931d7cb5a2234bf3d306b2e7191"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/spell_schools.md"
@@ -42419,7 +42435,91 @@ hash = "3cd3d7013fecf7c9e4724241ead1448af562c576f86f3151533123dac8332054"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/town_planner.md"
-hash = "908f34467a3d4d710767b76bb6b09ccc18a745a0bc00300252baf3997da797d9"
+hash = "721ea5d158a7288b3d7f3655cc10cf34891dd925f60e4361bb3c2effb5c5fbda"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/hearthkin/bond.md"
+hash = "9d58a61c0f6a75984dfb43af1528d30f27269ca4599ae56057c7c0c4b2e2edad"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/hearthkin/field_guide.md"
+hash = "258afdb8ccb2f272cf6c919ef45ab1e0c7c5b4148e9748525b2f6ba429025500"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/hearthkin/index.md"
+hash = "05d219acea5f3b2e785aa4e93f2e4962d38bd8d80d6798dcb2250b179881958b"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/hearthkin/kindness.md"
+hash = "3a26669d6697ebe28af0d29b5a762a7cc2e38568f1afb3cc04bcef5073bdb553"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/hearthkin/reading.md"
+hash = "be75e1917ae97b870f051072cbe253da0bee08717fca2e06fba9f91851b11465"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/hearthkin/taming.md"
+hash = "8e124cbf62f489ba6daf8780e38b0a6c46a835207aa7f918ddce780d584f4d0e"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/hearthkin/toys.md"
+hash = "ba8029b236202ff6914a78b5359a522fa578d86f5f6c7507004be5f0a88f5bd9"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/hearthkin/wants.md"
+hash = "808471e8f3c4c20291dd86249c058c71767ea2b539d31d0049289e3aa8525f25"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/board.md"
+hash = "e03a2c338d6179bcc991c8069fa501d41d5eea23ffc5e6c26a69a3a95f574c33"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/founding.md"
+hash = "db002e3bc45974d8f1a8d762fcf31c6fbad8111f543c97b3de118838e1852aff"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/index.md"
+hash = "12e74eaadb3a0f1e33e12fb6c3de53317749130a1719e61904816d9c0c24a98d"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/plots.md"
+hash = "4afec68e0ff247cea439f57b39bf97817f5bd5f4cbd6cc4d1c49422c9feb8fcf"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/roads.md"
+hash = "06389f10b2efad8892234a675d1b79843c4b4f2f7d0d718c7a888c8107e73e8d"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/stuck.md"
+hash = "34ab501aada1ae13ef2e12493fcb7d972ece459c634dd3ff79effc43ab5ab0f8"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/walls.md"
+hash = "51742bf7ee75f673c58ee3d03816a6727242580df0bee591f9b2ae402d735c73"
+
+[[files]]
+file = "kubejs/assets/chopxmas/models/item/handbook.json"
+hash = "1f3315e0ad9b7f8ea3ffc8ac667448c4f3417458d02af893c092902c27e88713"
+
+[[files]]
+file = "kubejs/assets/chopxmas/models/item/hearthkin_guide.json"
+hash = "ce486612c013e5b5705d828fd75a9ed3f341f026cb88672bb2fe0bb619151d26"
+
+[[files]]
+file = "kubejs/assets/chopxmas/models/item/townwright_guide.json"
+hash = "cbeb406b12bba7f6a7b78a41cbeac5288e451850bf477ca327fcae9285066a15"
+
+[[files]]
+file = "kubejs/assets/chopxmas/textures/item/book_overlay/handbook.png"
+hash = "f5cdc1aec8e19088dc64c770b6ef6de186e9c77303011d236fa728d1a869e8a2"
+
+[[files]]
+file = "kubejs/assets/chopxmas/textures/item/book_overlay/hearthkin_guide.png"
+hash = "9cefd48c0cc7856eeff5e7fa4d6e90706c9de5967617fab61326bcfadb452d10"
+
+[[files]]
+file = "kubejs/assets/chopxmas/textures/item/book_overlay/townwright_guide.png"
+hash = "73e628e7c8c5e70c5b77b4800f8af38801cb5bb2cf7e4f23a9d1d92f2a9f24c9"
 
 [[files]]
 file = "kubejs/assets/chopxmas/tips/tip_01.json"

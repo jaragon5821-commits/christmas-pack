@@ -53,6 +53,14 @@ Used during the fishing minigame.
 
 </OptionalSection>
 
+<OptionalSection modId="hearthkin">
+
+### Hearthkin
+
+* Answer an animal: **<KeyBind id="key.hearthkin.answer" />**
+
+</OptionalSection>
+
 <OptionalSection modId="patpat">
 
 ### PatPat

@@ -19,9 +19,11 @@ The whole server shares one **Festivity** bar, from 0 to 100. The HUD shows how 
 * Jolly (80+)
 * Merry (60 to 79)
 * Quiet (50 to 59)
-* Grumbling (40 to 49): Santy Claws' minions start coming out at night.
+* Grumbling (40 to 49)
 * Bleak (25 to 39)
 * Claws' Eve (10 to 24)
-* Claws Night (0 to 9): Santy Claws himself comes at midnight. See the Santy Claws page.
+* Claws Night (0 to 9)
 
-Coal Tokens drop from his minions while the bar is 49 or lower. Ribbon Tokens come from rescues and from driving him off.
+The lower it falls, the less safe the nights become. See the Santy Claws page.
+
+The **Festive Book** in your Bookbag lists every way to raise or lower Festivity. Its entries fill in as you discover them.

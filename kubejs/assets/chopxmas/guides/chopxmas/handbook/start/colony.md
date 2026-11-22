@@ -1,17 +1,16 @@
 ---
 navigation:
   parent: start/index.md
-  title: Your Colony
+  title: Your Town
   icon: minecolonies:blockhuttownhall
   position: 2
 ---
 
-# Your Colony
+# Your Town
 
-Craft a **Supply Camp** (on land) or **Supply Ship** (on water) and place it. It unpacks into a starter stockpile and a **Town Hall**.
+Place a **Town Hall** and your town is born. Your citizens do the building, with **Townwright** planning where things go. Nothing new gets built without your OK.
 
-Place the Town Hall and your colony is born. Builders then raise the town for you.
+* Builders buy their materials with **ColonyBucks**, which drop from monsters and turn up in loot chests. Pay them in at the Town Hall, or carry the materials over yourself.
+* Your citizens have names, moods and families. Fill their requests and keep them fed and happy.
 
-Your colonists are villagers too: they have names, moods and families. Fill their requests on the **Requests Board**.
-
-The **Colony Life** quest chapter walks you through the first huts.
+The **Colony Life** and **Town Builder** quest chapters walk you through the first huts. The **Townwright Guide** in your Bookbag explains the Planning Board, roads, walls and plots.
