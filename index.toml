@@ -45451,5 +45451,9 @@ file = "config/openloader/packs/37_Chops_Creature_Rumours_v1.zip"
 hash = "926fdd998c999b6f041c0de3c934b36d51d1a7f89ebd46608ebc66e46dd70e3f"
 
 [[files]]
+file = "config/openloader/packs/38_Chops_Hearthkin_Quests_v1.zip"
+hash = "d39b8cad220d588625b9629025ee421d723615ccccb06e9a72f10a97ee2beafb"
+
+[[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/flying.md"
 hash = "c0f9f9ed806ebd208699abeb51cdb8902bb3e1f831edfb69f448d762a17291aa"
