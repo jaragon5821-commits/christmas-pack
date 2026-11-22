@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026.11.21-1
+- Festivity Train U (335532b0): big flyers (Borealis Ray, Clockwork Albatross, Clinker Roc), rare creatures and dances, Carol's creature voices, Frostpuff Snowball Puff, music director, Christmas paintings, Keytar/Accordion/Glockenspiel, animal faces, Yule Cat and Lava Lizard spawns
+- Hearthkin r19b (animals dance to live instruments), Skyreins 1.2.3 (NEW: flying mounts), Townwright chop.60 (supply camp or ship for new towns)
+- Structures v50a14 r5 plus chest loot fixes (dungeons v6, colony loot v2, roadside v3, witch camp v2), loot rework, Festive Lootr textures, creature pages, animal spawn groups x0.6
+- Quests: a keepsake reward at the end of each chapter
+- Needs NeoForge 21.1.265 (see README if you get 'Incompatible client')
+
 ## 2026.11.20-5
 - Festivity batch D: Santy Claws v4 model and faces, Bookbag v2 (bookshelf library, 128-slot bag), Courier Call Book, 3D flat decor, animated pictures
 - Structures v50a13 r3

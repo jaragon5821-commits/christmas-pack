@@ -1,0 +1,8 @@
+name = "skyreins-1.2.3"
+filename = "skyreins-1.2.3.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/jaragon5821-commits/christmas-pack/test/patched-jars/skyreins-1.2.3.jar"
+hash-format = "sha512"
+hash = "b744fc40bd1722f559a4db322e4d00b74dd1276bd498d2a7ad35240f19db6d08e9a0357451e6c7e47477860c704bc8263982382c178c19f38c31f02f0b74dee4"
