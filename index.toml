@@ -44181,7 +44181,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-festivity-0.10.10.pw.toml"
-hash = "f6e281bf6e20e5dd642dd682e4575d7f1ad228e9dbe6fd2f0be720540ae1b89d"
+hash = "13143c5e4c899609e6b6e19a6676a93267c24aa9cc981535ef1e8a5f7fb9639e"
 metafile = true
 
 [[files]]
@@ -44191,7 +44191,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-hearthkin-1.0.0.pw.toml"
-hash = "115c5ae213304aa654ada3df764bdf67bb5205584baa53cc96ff9946312eec4d"
+hash = "a98a0f3d35768a1c1d1bbef2e109f56088ca34f5d46a0f27fc69c0e22ad5263d"
 metafile = true
 
 [[files]]

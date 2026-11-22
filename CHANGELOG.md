@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026.11.22-1
+- Festivity 0.10.12 (Train X2): the Claws crash event reworked - purple sky, purple star and meteor, bigger crater, fog, smooth search (no more lag), /festivity crash open
+- Hearthkin r21 (Answer key is now J)
+- New guide books: Townwright Guide, Hearthkin Guide, and a spoiler-free Handbook start
+
 ## 2026.11.21-1
 - Festivity Train U (335532b0): big flyers (Borealis Ray, Clockwork Albatross, Clinker Roc), rare creatures and dances, Carol's creature voices, Frostpuff Snowball Puff, music director, Christmas paintings, Keytar/Accordion/Glockenspiel, animal faces, Yule Cat and Lava Lizard spawns
 - Hearthkin r19b (animals dance to live instruments), Skyreins 1.2.3 (NEW: flying mounts), Townwright chop.60 (supply camp or ship for new towns)
