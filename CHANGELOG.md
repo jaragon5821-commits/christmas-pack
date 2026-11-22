@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026.11.22-2
+- Festivity 0.10.15 (Train Y): the crash event now finds a landing spot on its own (looser limits, smarter search), boar bluff crash fixed, raider spells no longer hit colony folk
+- Hearthkin r23b, Townwright chop.61
+- Fixes: Bookbag no longer handed out on every login, Hole Filler water recipe works
+- Hearthkin Guide updated for r22 (no answer key; animals answer what you do)
+
 ## 2026.11.22-1
 - Festivity 0.10.12 (Train X2): the Claws crash event reworked - purple sky, purple star and meteor, bigger crater, fog, smooth search (no more lag), /festivity crash open
 - Hearthkin r21 (Answer key is now J)

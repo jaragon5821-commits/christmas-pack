@@ -42351,7 +42351,7 @@ hash = "d8a501b5322a856ca3666d1bb98b337f308245f91697074f32415911c43bd872"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/outdoors.md"
-hash = "d1180c0c9a252f38776dc85e9345540bc31e6319cf8e7f10ebabb0f3d20a80f7"
+hash = "ebf089d98ac3ef9e7e20e0d5483c5ee552c11cace212514b60815338a455d93a"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/keys/quests.md"
@@ -42467,7 +42467,7 @@ hash = "ba8029b236202ff6914a78b5359a522fa578d86f5f6c7507004be5f0a88f5bd9"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/hearthkin/wants.md"
-hash = "808471e8f3c4c20291dd86249c058c71767ea2b539d31d0049289e3aa8525f25"
+hash = "ca31e6102067eda0112d68640c33626dcb795d09d31dafe5b32b9568a3cd2c1c"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/board.md"
@@ -44149,8 +44149,8 @@ hash = "c38a1257e028370f0312aee8b3bad6e87bc7ec6e84559cc9051e5770e2a9f16d"
 metafile = true
 
 [[files]]
-file = "mods/custom-chop-autopilot-1.3.4-chop.60.pw.toml"
-hash = "d5b475faf8bb5aed90919aa24edd1fcb5d51c937ca7e67a7d828768f3497b744"
+file = "mods/custom-chop-autopilot-1.3.4-chop.61.pw.toml"
+hash = "bf7948f83e5aba807470950c45773abf58a1dae6df78154bd68272ce661ac2d6"
 metafile = true
 
 [[files]]
@@ -44185,7 +44185,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-festivity-0.10.10.pw.toml"
-hash = "13143c5e4c899609e6b6e19a6676a93267c24aa9cc981535ef1e8a5f7fb9639e"
+hash = "c09070fcef738845d37ae1af2790325bc0596da7976b565f4b9f4fc18ac51b72"
 metafile = true
 
 [[files]]
@@ -44195,7 +44195,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-hearthkin-1.0.0.pw.toml"
-hash = "a98a0f3d35768a1c1d1bbef2e109f56088ca34f5d46a0f27fc69c0e22ad5263d"
+hash = "d78c43e8cf92655e9c960ee2e56dd1db276fcbffb118f0895631d5c3cf3e527c"
 metafile = true
 
 [[files]]
