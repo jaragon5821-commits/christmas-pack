@@ -43539,7 +43539,7 @@ hash = "ef4b2a4e7b26e9ebdb91956cd32a7f3ec43c55287bad0a1a67738630fd079a65"
 
 [[files]]
 file = "kubejs/server_scripts/chop_audit_fixes.js"
-hash = "01d8239af91ae82a3b5dd9a7a19d2ae46a83b1f64d794b4675e74ca17bc0e352"
+hash = "dc3cec2a1523326e2d5daf27c42d1d13e3e1d6382e87b9f52ecf015b7efb61b3"
 
 [[files]]
 file = "kubejs/server_scripts/chop_burnt_hut_repair.js"
