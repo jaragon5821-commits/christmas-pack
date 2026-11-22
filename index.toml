@@ -43486,6 +43486,10 @@ file = "kubejs/data/festivity/recipe/station/mulled_wine.json"
 hash = "27f92fb088feaf5454810ddea51155f8af9c50d0dcf1fcab9834fbaae8a10d07"
 
 [[files]]
+file = "kubejs/data/hole_filler_mod/recipe/throwable_hole_filler_water.json"
+hash = "2b92d3bd93bd4686415063c117236a3be7b90e042b9a4efb5e9a3284acd2d1f1"
+
+[[files]]
 file = "kubejs/data/merrymaking/recipe/aged_pine_mantel.json"
 hash = "f66817eed566b1c3a71a06f52846894f1cccbf9dae1ceb4ea36c0559417db1ea"
 
@@ -43611,7 +43615,7 @@ hash = "88e3d258fa6e259c18b25755bb3a61f43b47bc1fb75962b80c953baa07cf9b29"
 
 [[files]]
 file = "kubejs/server_scripts/chop_starter_kit.js"
-hash = "4cf591f180e3f7d474ebf5a63338aff4f189be9fd6df5f62aca0b60b8718b4f2"
+hash = "967959e7cdc54e5722d24063039292fefba83ca15b37a37455bb40361368170e"
 
 [[files]]
 file = "kubejs/server_scripts/chop_synergy_critters.js"
