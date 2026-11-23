@@ -5,4 +5,4 @@ side = "both"
 [download]
 url = "https://raw.githubusercontent.com/jaragon5821-commits/christmas-pack/test/patched-jars/hearthkin-1.0.0.jar"
 hash-format = "sha512"
-hash = "55c4bb07bbc25945a3e06ad6afc878cd82e4342eb96d327a47cb1a50fd6395871044be9cb7e9c53d725f409c94d0635dd4eef56f38dbd37c0e3a5a9ff6cca44d"
+hash = "c0f0c314f815418dffb60d7e2f2f518163745036695f1f41bc0d471eaef60a8c664637b4a1ce8f346bfa398d76354168fa6c29acf1f03b136548057b089cda2e"
