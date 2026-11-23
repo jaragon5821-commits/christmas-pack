@@ -13,7 +13,7 @@ Want to build something yourself inside the town? Claim the ground first, and th
 ## Seeing the plots
 
 * **Plot Surveyor:** craft it from a spyglass with paper on all four sides. Hold it in town to see the plots outlined on the ground: blue claimed, green open, orange likely to be used by the town, yellow a building the planner has picked, grey buildings, white the plaza's planned streets, and cyan a protected zone. Right-click the air to hear what the plot you are standing on is.
-* **Plot map:** the third tab of the Planning Board, or a **Plan Map Board** in town (craft: paper, map, paper on top; stick, Planning Board, stick below). Green tags are open plots. Owners and officers claim by dragging a box, or by clicking two corners. Click one open plot twice to claim just that plot. The answer appears on a paper slip.
+* **Plot map:** the third tab of the Planning Board, or a **Plan Map Board** in town (craft: paper, map, paper on top; stick, Planning Board, stick below). Green tags are open plots, and a dashed purple line marks the town edge. Owners and officers claim by dragging a box, or by clicking two corners. Click one open plot twice to claim just that plot. The answer appears on a paper slip.
 
 ## Marking your own plot
 

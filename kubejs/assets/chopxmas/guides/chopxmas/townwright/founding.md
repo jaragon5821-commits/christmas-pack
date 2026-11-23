@@ -28,7 +28,12 @@ ColonyBucks drop from monsters and turn up in loot chests.
 
 Townwright gives new towns a little push: builders start with their building skills raised a little, and a builder out at a site can take materials straight from its own hut instead of walking home. Nothing is free, though. The hut still has to be stocked.
 
-A brand new town also gets one **Supply Camp** (or a **Supply Ship**, if there is open water within 96 blocks of the hall). Your builders build it like any other decoration, out at the edge of town so it stays out of the way of planned buildings. Its chests start empty.
+A brand new town also gets one **Supply Camp** (or a **Supply Ship** out on open water). Your builders build it like any other decoration, right at the town's edge and as far from the hall and plaza as they can, so it stays out of the way of planned buildings. Its chests start empty.
+
+Don't want it, or want the other kind?
+
+* **Supply camp / ship** in the board's **Town settings**: **auto** (the default: a camp, or a ship if there's open water), **camp**, **ship** or **off**. Choosing off, or the other kind, cancels one that isn't built yet and frees its plot. One that already stands is left alone.
+* **Take a standing one down:** `/townwright supplycamp <id> reclaim`, run twice within 10 seconds to confirm. Anything left in its chests comes to you, and it takes down only the blocks it placed: anything you built or changed stays, and so does the floor. The plot is freed and it won't be built again. Owner and officers only (and server ops).
 
 Hover over a MineColonies hut item to see how that building stands in your nearest town: not built yet, being built, its level, or what it needs for the next level.
 

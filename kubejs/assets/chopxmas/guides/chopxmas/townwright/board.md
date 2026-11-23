@@ -24,7 +24,7 @@ A building you said Yes to is built before anything new is proposed. A Builder's
 
 ## Town settings
 
-A card for every choice: building looks, road surface, bridges, snow clearing at build sites, lanterns until the guards arrive, progress markers over building sites, foundation walls, the road crew and more. Click a chip to change it.
+A card for every choice: building looks, road surface, bridges, snow clearing at build sites, lanterns until the guards arrive, progress markers over building sites, foundation walls, the road crew, the supply camp or ship (auto, camp, ship or off) and more. Click a chip to change it.
 
 ## Plot map
 
