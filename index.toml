@@ -44154,6 +44154,11 @@ hash = "dc5d8a0481f29951ba135ed5515f2d120fad5389b43acbfb85bbc311cf98befc"
 metafile = true
 
 [[files]]
+file = "mods/custom-shopfront-0.1.0.pw.toml"
+hash = "1620e858ee10e31ac820b77c5cfa172f56fd3b2c5def2bb8334676cfb9d9d489"
+metafile = true
+
+[[files]]
 file = "mods/custom-chop-blueprints-0.3.3.pw.toml"
 hash = "69de3ef0d8525cdf2c0de2c5bb8365a23c980e67b6476f10a1cd78666d6959b0"
 metafile = true
