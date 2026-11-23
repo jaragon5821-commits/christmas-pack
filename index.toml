@@ -4482,7 +4482,7 @@ hash = "3c61da907d33f559887f9832c679bfef05e91cf4eb67271638fa2ea02e317a0b"
 
 [[files]]
 file = "config/immersiveoverlays.json"
-hash = "3826b8194178be63494585a155157030b568798ef3751109ae9148ba30171fbb"
+hash = "614cbd74623fc9b41778586954942915597f734894c87416db986b46cc1581dc"
 
 [[files]]
 file = "config/inventoryessentials-common.toml"

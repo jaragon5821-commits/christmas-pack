@@ -12,7 +12,7 @@
   "render_background": true,
   "hide_from_debug": true,
   "compass_enable": true,
-  "compass_vertical_position": 140,
+  "compass_vertical_position": 200,
   "compass_horizontal_position_left": false,
   "compass_direction": false,
   "compass_single_line": false,
@@ -53,7 +53,7 @@
   "clock_24_hour": true,
   "clock_seasons": true,
   "clock_text_colour": 14737632,
-  "clock_vertical_position": 85,
+  "clock_vertical_position": 145,
   "clock_horizontal_position_left": false,
   "clock_items": [
     "minecraft:clock"
@@ -96,7 +96,7 @@
   "biome_reduced_info": false,
   "biome_text_tinted": true,
   "biome_text_colour": 14737632,
-  "biome_vertical_position": 112,
+  "biome_vertical_position": 172,
   "biome_horizontal_position_left": false,
   "biome_items": [
     "minecraft:map",
@@ -157,7 +157,7 @@
   "moon_horizontal_position_left": false,
   "moon_text_colour": -1507334,
   "moon_text_colour_from_events": true,
-  "moon_vertical_position": 62,
+  "moon_vertical_position": 122,
   "moon_reduced_info": true,
   "moon_only_at_night": true,
   "moon_items": [
