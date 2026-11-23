@@ -4655,7 +4655,7 @@ hash = "3ee86b7d3db0c11d9e4288110804777e598f49a8445fa63d7fbec00f74a0f92f"
 
 [[files]]
 file = "config/litematica.json"
-hash = "76d445363f44273607336927dd98c17b37d404b6ce782bdc4a73ca39ef91b0f7"
+hash = "74d868d351243494d3fe1a5d2711a0b4e4db2f24ea8266c4c67b3d1be47890f1"
 
 [[files]]
 file = "config/lithium.properties"

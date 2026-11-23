@@ -86,7 +86,7 @@
     "commandNameSetblock": "setblock",
     "commandNameSummon": "summon",
     "commandTaskInterval": 1,
-    "customSchematicBaseDirectory": "C:\\Users\\Josh\\AppData\\Roaming\\PrismLauncher\\instances\\Josh\u0027s Christmas\\minecraft\\schematics",
+    "customSchematicBaseDirectory": "",
     "easyPlaceSwapInterval": 0,
     "pickBlockableSlots": "1,2,3,4,5",
     "toolItem": "minecraft:breeze_rod",
