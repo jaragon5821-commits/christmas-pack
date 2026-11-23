@@ -44169,8 +44169,8 @@ hash = "c8bf3e81e03f1ebe525314ad700a26b2b1ff061db1840fc7211a8631409d01a9"
 metafile = true
 
 [[files]]
-file = "mods/custom-chopcolonylooks-1.21.1-0.1.3.pw.toml"
-hash = "07a6a94021dc15dfa0c5235ede7dad0fcc248f4d7ba9744e77eb2f779962a588"
+file = "mods/custom-chopcolonylooks-1.21.1-0.1.4.pw.toml"
+hash = "4f052feccb01e0bd9fa99827b211a2121bdbbb87d4724505436dcb49e07770e8"
 metafile = true
 
 [[files]]
