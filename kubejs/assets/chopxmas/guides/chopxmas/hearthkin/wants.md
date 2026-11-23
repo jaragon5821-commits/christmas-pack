@@ -50,8 +50,13 @@ How long it waits depends on the want and the animal. A calm, sociable one gives
 * **Hide and seek:** it runs off to hide. Find it and get right next to it for a "found you!" If you don't, it pops out after a minute.
 * **Showing off:** it hops about. Watch it for a few seconds and it's proud. Look away and it deflates.
 
+## Leave this animal be
+
+Look at an animal and press **<KeyBind id="key.hearthkin.ignore" />**. It won't reach out to you or give you taming hints for about 3 in-game days. Crouch and press it to do this for every animal within 16 blocks, which helps with pens and big herds. Press it again on the same animal to undo. A taming chain you had going with it ends quietly. Petting, feeding and everything else still work.
+
 ## Good to know
 
+* Wild animals reach out to you much less often than your own animals and friends. Sociable and curious ones do it a bit more.
 * Doing the right thing builds trust.
 * Ignoring a want never makes a wild animal hold it against you.
 * A challenge or a "go away" handled the wrong way gets a warning lunge that stops short. It never actually bites a player.
