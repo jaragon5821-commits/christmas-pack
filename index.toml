@@ -44149,8 +44149,8 @@ hash = "04b07ed6f35ae628423d13b4c68e5ebeead36a119a001fa85b53899ab71cd0eb"
 metafile = true
 
 [[files]]
-file = "mods/custom-chop-autopilot-1.3.4-chop.68.pw.toml"
-hash = "54c4a8d6a3fecf72ed2442e5fc73f4d545ad6b3183bb73fc9f8100c559c75e8b"
+file = "mods/custom-chop-autopilot-1.3.4-chop.69r2.pw.toml"
+hash = "728207b523f0f187c9221df2eb4b9dc592891f8c1bc716c8e31520e9028ac28c"
 metafile = true
 
 [[files]]
