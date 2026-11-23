@@ -8,7 +8,7 @@ navigation:
 
 # ColonyBucks & the Treasury
 
-**ColonyBucks** are your colony's money. With Townwright, builders **buy** their materials from the colony's treasury. A new colony starts with **5 bucks**, about enough for the first Builder's Hut. After that, keep paying in or the builders wait.
+**ColonyBucks** are your colony's money. With Townwright, builders **buy** their materials from the colony's treasury. A new colony starts with **14 bucks** to get the first builds going. After that, keep paying in or the builders wait.
 
 **Getting bucks:** they drop from monsters and turn up in loot chests.
 

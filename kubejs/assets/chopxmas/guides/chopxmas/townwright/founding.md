@@ -17,7 +17,7 @@ A town's plan (Plaza, Main Street, Grid, Walled Ring or Village) can be changed 
 
 ## Paying for it
 
-Builders **buy** their materials from the town's treasury in **ColonyBucks**. A new town starts with 5, about enough for the first Builder's Hut. After that, keep the treasury topped up or the builders wait.
+Builders **buy** their materials from the town's treasury in **ColonyBucks**. A new town starts with 14 to get the first builds going. After that, keep the treasury topped up or the builders wait.
 
 * Sneak-right-click the Town Hall while holding ColonyBucks, or put them in the Town Hall's racks or a built Warehouse's racks.
 * Or carry the materials to the Builder's Hut yourself.
@@ -28,11 +28,9 @@ ColonyBucks drop from monsters and turn up in loot chests.
 
 Townwright gives new towns a little push: builders start with their building skills raised a little, and a builder out at a site can take materials straight from its own hut instead of walking home. Nothing is free, though. The hut still has to be stocked.
 
-A brand new town also gets one **Supply Camp** (or a **Supply Ship** out on open water). Your builders build it like any other decoration, right at the town's edge and as far from the hall and plaza as they can, so it stays out of the way of planned buildings. Its chests start empty.
+**Supply camps and ships are switched off on this server for now.** New towns don't get one, but they still get their starter ColonyBucks. An order that was placed before the switch and isn't built yet is cancelled and its plot freed. A camp or ship that already stands is left alone.
 
-Don't want it, or want the other kind?
-
-* **Supply camp / ship** in the board's **Town settings**: **auto** (the default: a camp, or a ship if there's open water), **camp**, **ship** or **off**. Choosing off, or the other kind, cancels a camp that isn't built yet and frees its plot. A ship that is ordered but not built yet may stay ordered; the reclaim command below clears it. One that already stands is left alone.
+* **Turning them back on (ops):** set `economy.supplyCamps = true` in the server's Townwright config. Then a new town gets a **Supply Camp** (or a **Supply Ship** out on open water) at its edge, and the **Supply camp / ship** card in the board's **Town settings** picks per town: **auto**, **camp**, **ship** or **off**.
 * **Take a standing one down:** `/townwright supplycamp <id> reclaim` (or `/colonyautopilot supplycamp <id> reclaim`), run twice within 10 seconds to confirm. Anything left in its chests comes to you, and it takes down only the blocks it placed: anything you built or changed stays, and so does the floor. The plot is freed and it won't be built again. Owner and officers only (and server ops).
 
 Hover over a MineColonies hut item to see how that building stands in your nearest town: not built yet, being built, its level, or what it needs for the next level.
