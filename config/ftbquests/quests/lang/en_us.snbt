@@ -711,6 +711,13 @@
 		"&7Dungeons hold loot found nowhere else. Common finds are in chests, rare ones in vaults.&r"
 	]
 	quest.34057A5E51CF97E9.title: "Into the Dungeon"
+	quest.34057A5E513CD355.quest_desc: [
+		"Watch the sky. One night something will tear down out of it and hit the world hard, and everyone will know."
+		""
+		"&7This completes by itself once the crash is over, even if you weren't there to see it.&r"
+	]
+	quest.34057A5E513CD355.quest_subtitle: "Witness the crash"
+	quest.34057A5E513CD355.title: "Prologue: A Star Fell"
 	quest.34057A5E51D94714.quest_desc: [
 		"Long ago, something hungry fell out of the End. It learned to wear a red coat and a white beard, and it called itself &cSanty Claws&r."
 		"It wants every Christmas to be its Christmas. Now the elves have turned sour, the toys have turned mean, and a long winter has fallen over the world."

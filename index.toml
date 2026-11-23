@@ -4262,7 +4262,7 @@ hash = "4a7f1d681ff182c2301f43b5efe8c0f75024cb7d380e63c8bbbf57205c6746ec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_long_winter.snbt"
-hash = "5794ea84aea15dcef14e6a0a47971f5666a426060d5c203bbfe7f2c41b1d66b6"
+hash = "103c51be35514c9f98aec4307472d9688615e92c8574db70ba1031f1dfe47ebb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_lost_books.snbt"
@@ -4350,7 +4350,7 @@ hash = "29d47ae6d733546ee2443b53597cb260bc70327d34cc7ef8491e66d3cb5500e0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "a751ec756fd7f6b638aba655c759251a26c90687f432d53dbde3208b6aa0074f"
+hash = "2f3eb6f51f8b6b76d55f7137041985b3b2d3e1873723d62eab0db2b66480da8b"
 
 [[files]]
 file = "config/ftbquests-client.snbt"

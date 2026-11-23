@@ -12,6 +12,28 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "minecraft:fire_charge"
+			}
+			id: "34057A5E513CD355"
+			rewards: [{
+				id: "34057A5E5141EB6D"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				advancement: "festivity:crash/seen"
+				criterion: ""
+				id: "34057A5E511C3D3E"
+				type: "advancement"
+			}]
+			x: 7.25d
+			y: 12.6d
+		}
+		{
+			dependencies: ["34057A5E513CD355"]
 			id: "34057A5E51D94714"
 			rewards: [{
 				id: "34057A5E51BBA1CC"
