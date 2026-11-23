@@ -5,4 +5,4 @@ side = "both"
 [download]
 url = "https://raw.githubusercontent.com/jaragon5821-commits/christmas-pack/test/patched-jars/festivity-0.10.10.jar"
 hash-format = "sha512"
-hash = "9f9b744a6780ec177f681d2c5c6dbd7ea370611356968f462f3cf04d7d6fba932b083ae7181f354b3370419f64af0fdbf78676fa06a3ff5594c205cda555ff6a"
+hash = "a74c326f85fb54493420a3e6e507f7f35813f0080163fd940a3beb4bad92e9effb228902a2b3db545743f35b1b20a60883a050b87e6c5381cd47746d9d78e6cd"
