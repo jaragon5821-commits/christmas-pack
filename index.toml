@@ -3706,7 +3706,7 @@ hash = "9d7e2db3fb92440a7acb2b9af73f7b2e01817b6ee07d306edf929040b967680a"
 
 [[files]]
 file = "config/colonyautopilot-server.toml"
-hash = "33095ab33b96a2617722410f253d5c808fc2cea1561436dc679de7a20f3d7a89"
+hash = "712c2351d98493b92590f3293f07d6802f350d1b9675fce9ef119f28a2dc7d8f"
 
 [[files]]
 file = "config/comforts-common.toml"
@@ -44149,8 +44149,8 @@ hash = "04b07ed6f35ae628423d13b4c68e5ebeead36a119a001fa85b53899ab71cd0eb"
 metafile = true
 
 [[files]]
-file = "mods/custom-chop-autopilot-1.3.4-chop.65r2.pw.toml"
-hash = "3c4aaff2767000b0a8033e3023f072f7e9264577f852c987de222f150a989572"
+file = "mods/custom-chop-autopilot-1.3.4-chop.66.pw.toml"
+hash = "817dbb05161c64389a7ab9da768cc32cc40d1ad9597764b6baa975d2ce69130f"
 metafile = true
 
 [[files]]
