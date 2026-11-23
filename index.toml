@@ -4886,8 +4886,8 @@ file = "config/openloader/packs/15_Chops_Roadside_Christmas_v3.zip"
 hash = "733e3bd50456a41e15e036ac460c794b388cc560ecd9998663cd6193a4b68c54"
 
 [[files]]
-file = "config/openloader/packs/16_Chops_Christmas_Structures_v50a14r11.zip"
-hash = "93c18e01173771e185daefe76f61239de5f583ea5c799bce8901c34ac1ebae42"
+file = "config/openloader/packs/16_Chops_Christmas_Structures_v50a14r12.zip"
+hash = "752314127c21cb2a0bc29d65814748c5a6f65b756db0ef3ff7dff354e7e349f1"
 
 [[files]]
 file = "config/openloader/packs/17_chop_christmas_caves_v1b.zip"
@@ -4994,8 +4994,8 @@ file = "config/openloader/packs/31_Chops_Road_Surface_v1.zip"
 hash = "bf28678d5f43f56cf3f81b750a418905ed894b6ea00ad88d7abf0f137dc92135"
 
 [[files]]
-file = "config/openloader/packs/33_Chops_Weeping_Witch_Camp_v2.zip"
-hash = "22c17067a82413c538d6225246dbf190c3be08792c32df07463aba55936ec245"
+file = "config/openloader/packs/33_Chops_Weeping_Witch_Camp_v3.zip"
+hash = "5729176ac0397c01cf09277969a70d206c5332a22654d2d02ea3358b6c7a4721"
 
 [[files]]
 file = "config/openloader/packs/41_Chops_Animal_Spawn_Groups_x06_POSTPREGEN.zip"
@@ -5431,7 +5431,7 @@ hash = "d953af1457a8cb242fa5cde67a51ce0ce8717031c4adc786b522118c2cc573c5"
 
 [[files]]
 file = "config/roadweaver/roadweaver.json"
-hash = "eff7c55434df894d9d43e5e92e48ddf680d2236e7f05e33443946785e51b7ba3"
+hash = "059f806a3eb5acc5230d7ceaf244b654833a36c2111384f922154f6a00ea4bb1"
 
 [[files]]
 file = "config/roadweaver/structure_selection.json"
@@ -5703,7 +5703,7 @@ hash = "5a9058652bc0b88b8810e0b94eba0e1a90cbff2472845c53a7e67442682a1579"
 
 [[files]]
 file = "config/structurify.json"
-hash = "08d6f8074f0938121ca399d6741f67e634148e1c1264c38986e79e826ea79dd9"
+hash = "7fe804143326e4801944eb18372e09170a276082659539c35763f0898b654671"
 
 [[files]]
 file = "config/structurize-client.toml"

@@ -89,14 +89,14 @@
   },
   "roadsideStructure": {
     "enabled": true,
-    "maxStructuresPerRoad": 2,
+    "maxStructuresPerRoad": 1,
     "smallStructureOffset": 8,
     "mediumStructureOffset": 12,
     "largeStructureOffset": 16
   },
   "roadsideVillage": {
     "enabled": true,
-    "maxVillagesPerRoad": 6,
+    "maxVillagesPerRoad": 2,
     "minRoadSegments": 32,
     "windowSegments": 24,
     "targetNodeCountMin": 6,
@@ -109,7 +109,7 @@
     "buildingGapInterval": 3,
     "maxStepHeight": 3,
     "maxDistanceFromCenter": 96,
-    "spawnChance": 0.3
+    "spawnChance": 0.1
   },
   "client": {
     "loadingTipsEnabled": true,
