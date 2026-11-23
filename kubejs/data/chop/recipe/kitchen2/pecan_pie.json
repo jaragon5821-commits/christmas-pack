@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "farmersdelight:pie_crust"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:pecans"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:caramel"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:pecan_pie"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "farmersdelight:pie_crust"
+    },
+    {
+      "item": "festivity:pecans"
+    },
+    {
+      "item": "festivity:caramel"
+    }
+  ],
+  "result": {
+    "id": "festivity:pecan_pie",
+    "count": 1
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}

@@ -1,0 +1,46 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:masa"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:chile_powder"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:corn_husk"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:tamales"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "festivity:masa"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "festivity:chile_powder"
+    },
+    {
+      "item": "festivity:corn_husk"
+    }
+  ],
+  "result": {
+    "id": "festivity:tamales",
+    "count": 6
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:parsnip"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:brussels_sprouts"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:roast_parsnips_sprouts"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "festivity:parsnip"
+    },
+    {
+      "item": "festivity:brussels_sprouts"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "result": {
+    "id": "festivity:roast_parsnips_sprouts",
+    "count": 2
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}

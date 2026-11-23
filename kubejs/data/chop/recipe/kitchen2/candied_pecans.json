@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:roasted_pecans"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festive_delight:cinnamon_powder"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:candied_pecans"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "festivity:roasted_pecans"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "festive_delight:cinnamon_powder"
+    }
+  ],
+  "result": {
+    "id": "festivity:candied_pecans",
+    "count": 4
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}

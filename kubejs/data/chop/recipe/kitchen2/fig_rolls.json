@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "farm_and_charm:flour"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:dried_fig"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "farm_and_charm:butter"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:fig_rolls"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "farm_and_charm:flour"
+    },
+    {
+      "item": "festivity:dried_fig"
+    },
+    {
+      "item": "farm_and_charm:butter"
+    }
+  ],
+  "result": {
+    "id": "festivity:fig_rolls",
+    "count": 6
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}

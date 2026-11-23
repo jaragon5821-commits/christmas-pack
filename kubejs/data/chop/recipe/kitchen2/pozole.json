@@ -1,0 +1,46 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:hominy"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:dried_red_chile"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:pozole"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "festivity:hominy"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "festivity:dried_red_chile"
+    },
+    {
+      "tag": "c:crops/onion"
+    }
+  ],
+  "result": {
+    "id": "festivity:pozole",
+    "count": 2
+  },
+  "experience": 1.0,
+  "cookingtime": 200,
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  }
+}

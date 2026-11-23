@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:icing"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:brown_icing"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "festivity:icing"
+    },
+    {
+      "item": "festivity:icing"
+    },
+    {
+      "item": "festivity:icing"
+    },
+    {
+      "item": "festivity:icing"
+    },
+    {
+      "item": "minecraft:brown_dye"
+    }
+  ],
+  "result": {
+    "id": "festivity:brown_icing",
+    "count": 4
+  }
+}

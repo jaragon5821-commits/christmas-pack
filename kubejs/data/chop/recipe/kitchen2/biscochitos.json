@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "farm_and_charm:flour"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:lard"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:winter_spice"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:biscochitos"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "farm_and_charm:flour"
+    },
+    {
+      "item": "festivity:lard"
+    },
+    {
+      "item": "festivity:winter_spice"
+    }
+  ],
+  "result": {
+    "id": "festivity:biscochitos",
+    "count": 8
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}

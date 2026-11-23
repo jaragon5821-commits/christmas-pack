@@ -1,0 +1,46 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:fig"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:orange"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:fig_jam"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "drinks",
+  "ingredients": [
+    {
+      "item": "festivity:fig"
+    },
+    {
+      "item": "festivity:fig"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "festivity:orange"
+    }
+  ],
+  "result": {
+    "id": "festivity:fig_jam",
+    "count": 2
+  },
+  "experience": 1.0,
+  "cookingtime": 200,
+  "container": {
+    "id": "minecraft:glass_bottle",
+    "count": 1
+  }
+}

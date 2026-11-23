@@ -1,0 +1,44 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:custard"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:cream"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "bakery:sponge_sheet"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:trifle"
+    }
+  ],
+  "type": "farm_and_charm:crafting_bowl",
+  "ingredients": [
+    {
+      "item": "festivity:custard"
+    },
+    {
+      "item": "festivity:cream"
+    },
+    {
+      "item": "bakery:sponge_sheet"
+    },
+    {
+      "tag": "c:foods/berry"
+    }
+  ],
+  "result": {
+    "id": "festivity:trifle",
+    "count": 1
+  },
+  "experience": 0.2
+}
