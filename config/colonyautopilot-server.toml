@@ -42,7 +42,11 @@
 	#chest loot, raid pay); the exchange's markup holds at any value. At 128 a stack of 64 is half a buck.
 	# Default: 128
 	# Range: 1 ~ 4096
-	itemsPerBuck = 64
+	itemsPerBuck = 32
+	#chop.65r2 one-time rescale: the items per buck existing treasuries were saved at (0 = unused). Ignored once a save records its rate.
+	previousItemsPerBuck = 64
+	#Bucks a new colony's supply camp starts with (boss 11-23 rebalance).
+	supplyStarterBucks = 14
 	#What one piece of gear from IRON tier up - an iron, diamond, netherite or modded-tier tool, sword
 	#or armour piece, or a guard's TaCZ rifle - costs, in items: a diamond pickaxe is not one cobblestone.
 	#Wood, stone and gold tools, leather, chain and gold armour, bows, crossbows, shields, tridents and
