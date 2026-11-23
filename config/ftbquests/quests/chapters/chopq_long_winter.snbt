@@ -16,6 +16,7 @@
 				id: "minecraft:fire_charge"
 			}
 			id: "34057A5E513CD355"
+			invisible: true
 			rewards: [{
 				id: "34057A5E5141EB6D"
 				type: "xp"
