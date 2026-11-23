@@ -43547,7 +43547,7 @@ hash = "2409c06fe83355c2154fc9ce2333c6dd905609acca40c74a4c7b5ad7a6d48e72"
 
 [[files]]
 file = "kubejs/server_scripts/chop_carryon_animals.js"
-hash = "e8bf5e9f3366efbbdcc9670ba1959a0f369de5396524b1f303e7060104f0d59d"
+hash = "d806e6f15117927cb71d40e871b97154bdf3398480be7a75e237f3f2d33c1cf4"
 
 [[files]]
 file = "kubejs/server_scripts/chop_chile_seed_loot.js"
