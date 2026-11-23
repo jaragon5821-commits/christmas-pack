@@ -32,8 +32,8 @@ A brand new town also gets one **Supply Camp** (or a **Supply Ship** out on open
 
 Don't want it, or want the other kind?
 
-* **Supply camp / ship** in the board's **Town settings**: **auto** (the default: a camp, or a ship if there's open water), **camp**, **ship** or **off**. Choosing off, or the other kind, cancels one that isn't built yet and frees its plot. One that already stands is left alone.
-* **Take a standing one down:** `/townwright supplycamp <id> reclaim`, run twice within 10 seconds to confirm. Anything left in its chests comes to you, and it takes down only the blocks it placed: anything you built or changed stays, and so does the floor. The plot is freed and it won't be built again. Owner and officers only (and server ops).
+* **Supply camp / ship** in the board's **Town settings**: **auto** (the default: a camp, or a ship if there's open water), **camp**, **ship** or **off**. Choosing off, or the other kind, cancels a camp that isn't built yet and frees its plot. A ship that is ordered but not built yet may stay ordered; the reclaim command below clears it. One that already stands is left alone.
+* **Take a standing one down:** `/townwright supplycamp <id> reclaim` (or `/colonyautopilot supplycamp <id> reclaim`), run twice within 10 seconds to confirm. Anything left in its chests comes to you, and it takes down only the blocks it placed: anything you built or changed stays, and so does the floor. The plot is freed and it won't be built again. Owner and officers only (and server ops).
 
 Hover over a MineColonies hut item to see how that building stands in your nearest town: not built yet, being built, its level, or what it needs for the next level.
 
