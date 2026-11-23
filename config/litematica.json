@@ -89,12 +89,12 @@
     "customSchematicBaseDirectory": "C:\\Users\\Josh\\AppData\\Roaming\\PrismLauncher\\instances\\Josh\u0027s Christmas\\minecraft\\schematics",
     "easyPlaceSwapInterval": 0,
     "pickBlockableSlots": "1,2,3,4,5",
-    "toolItem": "minecraft:stick",
+    "toolItem": "minecraft:breeze_rod",
     "toolItemComponents": "empty"
   },
   "Hotkeys": {
     "addSelectionBox": {
-      "keys": "M,A"
+      "keys": "J,A"
     },
     "cloneSelection": {
       "keys": ""
@@ -121,10 +121,10 @@
       "keys": ""
     },
     "layerModeNext": {
-      "keys": "M,PAGE_UP"
+      "keys": "J,PAGE_UP"
     },
     "layerModePrevious": {
-      "keys": "M,PAGE_DOWN"
+      "keys": "J,PAGE_DOWN"
     },
     "layerNext": {
       "keys": "PAGE_UP"
@@ -151,28 +151,28 @@
       "keys": ""
     },
     "openGuiMainMenu": {
-      "keys": "M"
+      "keys": "J"
     },
     "openGuiMaterialList": {
-      "keys": "M,L"
+      "keys": "J,L"
     },
     "openGuiPlacementSettings": {
       "keys": "KP_SUBTRACT"
     },
     "openGuiSchematicPlacements": {
-      "keys": "M,P"
+      "keys": "J,P"
     },
     "openGuiSchematicProjects": {
       "keys": ""
     },
     "openGuiSchematicVerifier": {
-      "keys": "M,V"
+      "keys": "J,V"
     },
     "openGuiSelectionManager": {
-      "keys": "M,S"
+      "keys": "J,S"
     },
     "openGuiSettings": {
-      "keys": "M,C"
+      "keys": "J,C"
     },
     "operationModeChangeModifier": {
       "keys": "LEFT_CONTROL"
@@ -184,7 +184,7 @@
       "keys": ""
     },
     "pickBlockToggle": {
-      "keys": "M,BUTTON_3"
+      "keys": "J,BUTTON_3"
     },
     "renderInfoOverlay": {
       "keys": "I"
@@ -193,7 +193,7 @@
       "keys": "RIGHT_CONTROL"
     },
     "rerenderSchematic": {
-      "keys": "F3,M"
+      "keys": "F3,J"
     },
     "saveAreaAsInMemorySchematic": {
       "keys": ""
@@ -253,7 +253,7 @@
       "keys": "LEFT_ALT"
     },
     "selectionModeCycle": {
-      "keys": "LEFT_CONTROL,M"
+      "keys": "LEFT_CONTROL,J"
     },
     "selectionShrink": {
       "keys": ""
@@ -268,10 +268,10 @@
       "keys": ""
     },
     "toggleAllRendering": {
-      "keys": "M,R"
+      "keys": "J,R"
     },
     "toggleAreaSelectionBoxesRendering": {
-      "keys": ""
+      "keys": "J,N"
     },
     "toggleInfoOverlayRendering": {
       "keys": ""
@@ -295,7 +295,7 @@
       "keys": ""
     },
     "toggleSchematicRendering": {
-      "keys": "M,G"
+      "keys": "J,G"
     },
     "toggleSignTextPaste": {
       "keys": ""
@@ -307,7 +307,7 @@
       "keys": ""
     },
     "toolEnabledToggle": {
-      "keys": "M,T"
+      "keys": "J,T"
     },
     "toolPlaceCorner1": {
       "keys": "BUTTON_1"
@@ -360,7 +360,7 @@
   "Visuals": {
     "enableRendering": true,
     "enableSchematicRendering": true,
-    "enableAreaSelectionBoxesRendering": true,
+    "enableAreaSelectionBoxesRendering": false,
     "enablePlacementBoxesRendering": true,
     "enableSchematicBlocksRendering": true,
     "enableSchematicFluidRendering": true,
