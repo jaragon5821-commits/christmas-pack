@@ -4281,6 +4281,10 @@ file = "config/ftbquests/quests/chapters/chopq_secrets.snbt"
 hash = "4f841167260dc4efb8af60712955d47f472e64f4f2e1678ba0ed50edf2455b53"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/chopq_star_silver.snbt"
+hash = "7387482098e7f98e11389f6e185ec89ddd47829d7714d0e8df33118d10958b62"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/chopq_start_here.snbt"
 hash = "3750eecddf58f67612a4d628cc8ff71531f70189ee75fcf2d28a940922995614"
 
@@ -4290,7 +4294,7 @@ hash = "cc929beedd75ada85c17919a5ee02662cf680012b2887816610b78f0c76bc51b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_town_builder.snbt"
-hash = "45e45319b8774edd2e750516015eb48a4f5e57babb7ee1758e94b56b7875b42b"
+hash = "542d87f633484da8bc621f04bd0ada6682120b9afc8f96d3cdc40abde4d99585"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chopq_winter_pantry.snbt"
@@ -4350,7 +4354,7 @@ hash = "29d47ae6d733546ee2443b53597cb260bc70327d34cc7ef8491e66d3cb5500e0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "3d0c708ec3cf0d4c44052637197a3bea920710617358dca7b1c1e3067c025c67"
+hash = "14b3dff8d2c04ccf41fbb20324012745d0af91594c8f85d82c31a02c9562e936"
 
 [[files]]
 file = "config/ftbquests-client.snbt"
@@ -42367,7 +42371,7 @@ hash = "22dd1e04694bb07274fee5cdaea240eb4965310d49f884ffe911e8e1185fcc5c"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/colony.md"
-hash = "bea5c15d24d9f27b5ed504ad84c55d00d91d74b26a6c2da836fe3d4ed1f162ba"
+hash = "693133669855c64fe09468d5db100dd6c6083514723ad5a4fc43cf5a181d646a"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/decorating.md"
@@ -42379,7 +42383,7 @@ hash = "e7baea8df46f80152593ce62065047247175b1614c8d3b52033dca05aa5f5d17"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/giving.md"
-hash = "70048eefa75df5e84bc121dcbd815bf18d48d5bc8e5936e7dbda0d4e0b732d89"
+hash = "289ee07a1198971906f5d14a67f8185158bed468d05f85c04793337177a51e31"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/handy.md"
@@ -42415,7 +42419,7 @@ hash = "d1ecd95cb987b50e1342010773b8815d6fea49730e14432878e9fcd16770f021"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/colonybucks.md"
-hash = "8d676eb354524f64ffd3d42e3e399f3ce71b97d426353c20298fbd80cc01c4ac"
+hash = "36c46bfdf98bee13c7d0bfc305222ba0d6c40f57522269f7d67a4981f8b316a1"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/festivity.md"
@@ -42432,6 +42436,10 @@ hash = "6807a8be3b08207d31b74b7df8007953183d0931d7cb5a2234bf3d306b2e7191"
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/spell_schools.md"
 hash = "3cd3d7013fecf7c9e4724241ead1448af562c576f86f3151533123dac8332054"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/star_silver.md"
+hash = "32fb8af04707944247d08ae837018f5a66a4a7985b63e56af9362d436f041760"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/town_planner.md"
@@ -42471,11 +42479,11 @@ hash = "a52ef2937fe86af945c9e55306e7f775d53da71d5be3e88de7e56396e2f6b7fb"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/board.md"
-hash = "e03a2c338d6179bcc991c8069fa501d41d5eea23ffc5e6c26a69a3a95f574c33"
+hash = "6486194a9ef82638ce16d7087f7b8db26a1ee06c2b96c042573e6fb8ea10ac86"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/founding.md"
-hash = "f963f1719a3dbe3324ec3feb6c30a8664d1a07048327de520670144c374ef463"
+hash = "fb79a4769755df90379ea5702f8b0f4cb8f92396ba965fac33368111083da51e"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/index.md"
@@ -42491,7 +42499,7 @@ hash = "06389f10b2efad8892234a675d1b79843c4b4f2f7d0d718c7a888c8107e73e8d"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/stuck.md"
-hash = "5b2dc2a9f47ee61e9cede865824cf5aeaf43bc1d2b11ed60752382599f7195d5"
+hash = "4da09904328f125fb2d9993ce41d84a73e474ee7aa272d189c937f4a6c8ada21"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/walls.md"
@@ -43279,7 +43287,7 @@ hash = "85220f21bba905a5bd1bd7cd7ebbb53451b9b915dfa6d840e52e06c78b792cc2"
 
 [[files]]
 file = "kubejs/client_scripts/chop_item_tooltips.js"
-hash = "ae6ada106c5c21183a0e39059eb09f265436f42f1a4789dcea6eceb53c649497"
+hash = "ecc6f248cbb0ab6321a93a327894c59d8e082843a3f19a47b84eabdfce4bf70f"
 
 [[files]]
 file = "kubejs/client_scripts/chop_keys_atlas.js"
@@ -43559,7 +43567,7 @@ hash = "d7d2bfaaf6ebdb1d31450955ed2190addcff6e41594e4967e7fc4ce7ebe25bf8"
 
 [[files]]
 file = "kubejs/server_scripts/chop_donation_bucket.js"
-hash = "b77674dc2daf54dbe41d8e9069b8b3362c7250ea20954a3dec7c1038a4cea70c"
+hash = "a4a8aa743af5f1c39e681d229235282142730edf908eeb77aeaec1580f17cb1f"
 
 [[files]]
 file = "kubejs/server_scripts/chop_festivity_fire.js"

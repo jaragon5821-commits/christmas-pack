@@ -1,7 +1,7 @@
-// chop_donation_bucket.js  v0.1.5 (TEST passed 2026-11-05)  - scripts thread, 2026-11-05
+// chop_donation_bucket.js  v0.2.0 (2026-11-23, Lorekeeper: emeralds replace ColonyBucks, boss go 22:47Z)  - was v0.1.5 scripts thread, 2026-11-05
 // priority: 0   (loads after festivity.js, priority 50)
 // Boss D97 option A + D98: a Salvation-Army-style donation kettle.
-//   - Right-click a block in #chop:donation_bucket that stands inside a colony, holding ColonyBucks:
+//   - Right-click a block in #chop:donation_bucket that stands inside a colony, holding emeralds (v0.2.0; old ColonyBucks still accepted):
 //     1 buck goes in (sneak: up to 5). They go straight into that colony's Town Hall inventory, the same as a
 //     hopper feeding the Town Hall (Colony Autopilot counts them in the treasury).
 //   - Thank-you buff: one random small buff for 10 min, once per player per in-game day.
@@ -89,8 +89,8 @@
     if (CFG.DEBUG && (kettle || /donation|cauldron/.test(bid))) console.info('[chop donate] click: hand=' + hand + ' block=' + bid + ' kettle=' + kettle + ' item=' + item + ' buck=' + findBuck());
     if (!/main/i.test(hand)) return;
     if (!kettle) return;
-    let id = findBuck();
-    if (!id || String(event.item.id) != id) return;
+    let id = findBuck();   // v0.2.0: emeralds are the money now; old ColonyBucks still go in (Townwright still sweeps them)
+    if (!(item == 'minecraft:emerald' || (id && item == id))) return;
     let level = event.level, pos = block.pos;
     let colony = null;
     try { colony = ColonyManager.getInstance().getColonyByPosFromWorld(level, pos); } catch (e) { console.info('[chop donate] colony lookup error: ' + e); }

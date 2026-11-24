@@ -61,7 +61,7 @@
 		{
 			dependencies: ["34057A5E52D143C6"]
 			icon: {
-				id: "colonyautopilot:colony_bucks"
+				id: "minecraft:emerald"
 			}
 			id: "34057A5E52327F27"
 			rewards: [{
@@ -71,9 +71,9 @@
 			}]
 			tasks: [{
 				consume_items: false
-				count: 5L
+				count: 20L
 				id: "34057A5E52150793"
-				item: { count: 1, id: "colonyautopilot:colony_bucks" }
+				item: { count: 1, id: "minecraft:emerald" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -128,11 +128,11 @@
 					xp: 50
 				}
 				{
-					count: 2
+					count: 8
 					id: "34057A5E520E3B27"
 					item: {
 						count: 1
-						id: "colonyautopilot:colony_bucks"
+						id: "minecraft:emerald"
 					}
 					type: "item"
 				}
@@ -159,11 +159,11 @@
 					xp: 75
 				}
 				{
-					count: 2
+					count: 8
 					id: "34057A5E5292F748"
 					item: {
 						count: 1
-						id: "colonyautopilot:colony_bucks"
+						id: "minecraft:emerald"
 					}
 					type: "item"
 				}
@@ -190,11 +190,11 @@
 					xp: 100
 				}
 				{
-					count: 3
+					count: 12
 					id: "34057A5E5239D503"
 					item: {
 						count: 1
-						id: "colonyautopilot:colony_bucks"
+						id: "minecraft:emerald"
 					}
 					type: "item"
 				}
@@ -221,11 +221,11 @@
 					xp: 150
 				}
 				{
-					count: 4
+					count: 16
 					id: "34057A5E526B45E6"
 					item: {
 						count: 1
-						id: "colonyautopilot:colony_bucks"
+						id: "minecraft:emerald"
 					}
 					type: "item"
 				}
@@ -252,11 +252,11 @@
 					xp: 250
 				}
 				{
-					count: 5
+					count: 20
 					id: "34057A5E5285D785"
 					item: {
 						count: 1
-						id: "colonyautopilot:colony_bucks"
+						id: "minecraft:emerald"
 					}
 					type: "item"
 				}
@@ -325,11 +325,11 @@
 					xp: 75
 				}
 				{
-					count: 3
+					count: 12
 					id: "34057A5E525B699D"
 					item: {
 						count: 1
-						id: "colonyautopilot:colony_bucks"
+						id: "minecraft:emerald"
 					}
 					type: "item"
 				}
@@ -356,11 +356,11 @@
 					xp: 150
 				}
 				{
-					count: 5
+					count: 20
 					id: "34057A5E529C543D"
 					item: {
 						count: 1
-						id: "colonyautopilot:colony_bucks"
+						id: "minecraft:emerald"
 					}
 					type: "item"
 				}

@@ -17,7 +17,7 @@ Right-click your **Town Planner** to open the Planning Board, a cork board with 
 * **Skipped:** click a skipped building to let the town propose it again. Skipping a cook, farmer, fisher, warehouse, courier or homes shows a warning first.
 * **Coming up:** the next steps of the plan. Drag one onto another to swap their order; **Plan's own order** undoes it.
 * **Notes:** **Town plan** (your layout, sealed once 5 buildings stand), **Town plaza** and **Decorations** (Build it or Another; auto, pick or off).
-* The status slip shows the treasury, for example "Treasury: 42 ColonyBucks left".
+* The status slip shows the treasury, for example "Treasury: 42 emeralds left".
 * If a build is stuck, a line explains why.
 
 A building you said Yes to is built before anything new is proposed. A Builder's Hut can't be skipped or swapped, because everything else needs builders.

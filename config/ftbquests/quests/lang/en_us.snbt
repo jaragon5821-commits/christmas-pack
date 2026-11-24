@@ -31,6 +31,8 @@
 	chapter.34057A5E5B000000.title: "The Colony Tree"
 	chapter.34057A5E5C000000.chapter_subtitle: ["Old stories, very big statues. Go and see them for yourself."]
 	chapter.34057A5E5C000000.title: "Visit the Giants"
+	chapter.34057A5E5F000000.chapter_subtitle: ["Festive gear for the cold: Star Silver from the peaks, then Northstar."]
+	chapter.34057A5E5F000000.title: "Star Silver \\& Northstar"
 	chapter.34057A5E5D000000.chapter_subtitle: ["Six books, lost in the worst places. Read one and its pages open here."]
 	chapter.34057A5E5D000000.title: "Lost Books"
 	chapter.34057A5E5E000000.chapter_subtitle: ["New crops, bushes and fruit trees grow wild out there. Find them, plant them, cook with them."]
@@ -108,9 +110,7 @@
 	quest.0F9CE372C45513F3.quest_desc: ["Adults study here to raise their skills."]
 	quest.0F9CE372C45513F3.title: "The Library"
 	quest.0F9EBC2267755F33.quest_desc: [
-		"Drop items or &6Colony Bucks&r into the &cDonation Kettle&r. Your colony puts them to use, and generosity raises your Festivity."
-		""
-		"&7Bucks and materials count about the same, so give whatever you have spare.&r"
+		"Right-click the &cDonation Kettle&r with &aemeralds&r to give one (sneak to give 5). They go straight to that town's treasury, and generosity raises your Festivity."
 	]
 	quest.0F9EBC2267755F33.title: "The Donation Kettle"
 	quest.1138382B2D7A6CD6.quest_desc: ["A rare find: look in the dungeon's &6vaults&r and big chests."]
@@ -773,11 +773,13 @@
 	quest.34057A5E522F579D.quest_desc: ["More travelers stop by, and some of them stay."]
 	quest.34057A5E522F579D.title: "Tavern III"
 	quest.34057A5E52327F27.quest_desc: [
-		"Your colony buys what it can't make itself with &6ColonyBucks&r: building materials, guard gear, research, cures."
-		"You find bucks in dungeon and structure chests, and the colony earns some from kills and raids."
-		"Sneak-right-click the Town Hall with bucks in hand to pay them in."
+		"Your colony buys what it can't make itself with &aemeralds&r: building materials, guard gear, research, cures."
+		"Monsters sometimes drop them, loot chests hold a few, and a happy town earns a little every day."
+		"Sneak-right-click the Town Hall with emeralds in hand to pay them in."
+		""
+		"&7Old ColonyBucks? Craft each one into 4 emeralds.&r"
 	]
-	quest.34057A5E52327F27.title: "ColonyBucks"
+	quest.34057A5E52327F27.title: "Emeralds"
 	quest.34057A5E52365E38.quest_desc: ["A citizen comes back to life at the graveyard."]
 	quest.34057A5E52365E38.title: "Back From the Grave"
 	quest.34057A5E523792AE.quest_desc: ["Sifts gravel and sand for ores and other goodies."]
@@ -801,8 +803,8 @@
 	quest.34057A5E5250F611.quest_desc: ["When a ravine or river cuts through town, builders can span it with a bridge deck."]
 	quest.34057A5E5250F611.title: "Mind the Gap"
 	quest.34057A5E525238B4.quest_desc: [
-		"Short on bucks? The Town Hall's &fExchange&r tab buys diamonds, gold, ancient debris and netherite for ColonyBucks."
-		"&7Or run /colonyautopilot exchange while standing in your colony. It only buys; bucks never come back out.&r"
+		"Short on emeralds? The Town Hall's &fExchange&r tab buys diamonds, gold, ancient debris and netherite for emeralds."
+		"&7Or run /colonyautopilot exchange while standing in your colony. It only buys; emeralds paid in never come back out.&r"
 	]
 	quest.34057A5E525238B4.title: "The Exchange"
 	quest.34057A5E5258DEB7.quest_desc: ["A bigger restaurant feeds more people faster."]
@@ -2265,6 +2267,46 @@
 		"Fruit grows on the leaves in stages. Pick it when it's ripe."
 	]
 	quest.34057A5E5EF2921B.title: "Fig Tree"
+	quest.34057A5E5F000001.quest_desc: [
+		"High in the mountains, in frozen, jagged and stony peaks and on snowy slopes, &bStar Silver Ore&r glows faintly in the rock."
+		""
+		"Mine it with an iron pickaxe or better. Fortune works."
+	]
+	quest.34057A5E5F000001.quest_subtitle: "Up in the peaks"
+	quest.34057A5E5F000001.title: "Star Silver"
+	quest.34057A5E5F000002.quest_desc: [
+		"Smelt or blast Raw Star Silver into an ingot. Armor and tools use the usual vanilla shapes."
+	]
+	quest.34057A5E5F000002.quest_subtitle: "Into the furnace"
+	quest.34057A5E5F000002.title: "Star Silver Ingot"
+	quest.34057A5E5F000003.quest_desc: [
+		"Every piece keeps you from freezing, and the boots walk on powder snow."
+		""
+		"Wear the full set and &bFrosted&r can't take hold of you."
+	]
+	quest.34057A5E5F000003.quest_subtitle: "A full Star Silver set"
+	quest.34057A5E5F000003.title: "Starlit"
+	quest.34057A5E5F000004.quest_desc: [
+		"Three ingots, a red dye and a stick. Longer reach, and it hooks what you hit a little closer."
+	]
+	quest.34057A5E5F000004.quest_subtitle: "Star Silver's own weapon"
+	quest.34057A5E5F000004.title: "Candy Crook"
+	quest.34057A5E5F000005.quest_desc: [
+		"Sometimes found in the big chests of the Christmas dungeons."
+		""
+		"Copy it with 7 diamonds and a Block of Star Silver."
+	]
+	quest.34057A5E5F000005.quest_subtitle: "A rare smithing template"
+	quest.34057A5E5F000005.title: "Northstar Upgrade"
+	quest.34057A5E5F000006.quest_desc: [
+		"Upgrade each Star Silver piece at a smithing table with the template and a &6Northstar Ingot&r. The ingot takes a shard that only a very dangerous foe drops."
+		""
+		"With the full set, a killing blow leaves you at 2 hearts instead, once every 10 minutes."
+		""
+		"&7Unlike netherite, a dropped Northstar item burns up in lava or fire.&r"
+	]
+	quest.34057A5E5F000006.quest_subtitle: "A full Northstar set"
+	quest.34057A5E5F000006.title: "Guiding Star"
 	quest.341E64D86C318400.quest_desc: ["A seasonal classic."]
 	quest.341E64D86C318400.title: "Eggnog"
 	quest.350ED68F4D3729FA.quest_desc: ["The &62x2&r and &63x3&r picture windows show one big picture across the whole square. They line up to the world grid, so shuffle your square a block if the picture looks cut."]

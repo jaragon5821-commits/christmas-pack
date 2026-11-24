@@ -19,11 +19,11 @@
   // ---- exact ids ----
   const TIPS = {
     // Chop Autopilot (colonyautopilot). Town Planner proposals line needs chop.7 or newer.
-    'colonyautopilot:colony_bucks': ['Colony money. Builders buy materials with it.', 'To pay in, sneak-right-click your Town Hall while holding it.', 'Drops from monsters and turns up in loot chests.'],
+    'colonyautopilot:colony_bucks': ['Old ColonyBucks: craft one into 4 emeralds,', 'or pay it in at the Town Hall.'],
     'colonyautopilot:town_planner': ['Right-click to see the colony\'s plan and settings.', 'Owners and officers accept or skip proposals here.'],
     'colonyautopilot:zone_marker': ['Right-click two corners to protect an area (up to 48 per side).', 'The autopilot builds around it. Sneak-right-click inside to remove.', 'Needs officer rank.'],
     // Chop KubeJS blocks
-    'chop:donation_kettle': ['Place it inside a colony. Right-click with ColonyBucks to donate 1', '(sneak: 5) straight to the Town Hall.', 'First donation each day gives you a small 10-minute buff.'],
+    'chop:donation_kettle': ['Place it inside a colony. Right-click with emeralds to donate 1', '(sneak: 5) straight to the Town Hall.', 'First donation each day gives you a small 10-minute buff.'],
     'chop:coal_token': ['Counts toward the Naughty List quests.'],
     'chop:ribbon_token': ['Counts toward the Nice List quests. Crafts a Blaze Heart.'],
     // Festivity blocks

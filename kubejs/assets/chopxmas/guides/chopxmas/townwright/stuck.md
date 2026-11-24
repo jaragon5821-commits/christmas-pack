@@ -12,7 +12,7 @@ Type `/townwright status` while standing in your town. It says in plain words wh
 
 | The status says | What to do |
 |---|---|
-| waiting for materials ... Treasury: 0 ColonyBucks | Pay ColonyBucks in at the Town Hall, or bring the materials. |
+| waiting for materials ... Treasury: 0 emeralds | Pay emeralds in at the Town Hall, or bring the materials. |
 | the builders' trickle buys materials a little at a time | Normal. Builders buy a little every minute. |
 | its racks are full: moved ... to the town hall | Normal. Dug-up clutter goes to the Town Hall's racks. |
 | its racks are full and nothing could be moved out | Empty the Builder's Hut or Town Hall racks. |

@@ -1,0 +1,210 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chopq_star_silver"
+	group: "34057A5E60000004"
+	icon: {
+		id: "festivity:star_silver_ingot"
+	}
+	id: "34057A5E5F000000"
+	images: [ ]
+	order_index: 32
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "festivity:raw_star_silver"
+			}
+			id: "34057A5E5F000001"
+			rewards: [
+				{
+					id: "34057A5E5F000007"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5F000008"
+					item: { count: 1, id: "festivity:raw_star_silver" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34057A5E5F000001"]
+			icon: {
+				id: "festivity:star_silver_ingot"
+			}
+			id: "34057A5E5F000002"
+			rewards: [
+				{
+					id: "34057A5E5F000009"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5F00000A"
+					item: { count: 1, id: "festivity:star_silver_ingot" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34057A5E5F000002"]
+			icon: {
+				id: "festivity:star_silver_chestplate"
+			}
+			id: "34057A5E5F000003"
+			rewards: [
+				{
+					id: "34057A5E5F00000B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "34057A5E5F00000C"
+					item: { count: 1, id: "festivity:star_silver_ingot" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5F00000D"
+					item: { count: 1, id: "festivity:star_silver_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5F00000E"
+					item: { count: 1, id: "festivity:star_silver_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5F00000F"
+					item: { count: 1, id: "festivity:star_silver_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5F000010"
+					item: { count: 1, id: "festivity:star_silver_boots" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34057A5E5F000002"]
+			icon: {
+				id: "festivity:star_silver_candy_crook"
+			}
+			id: "34057A5E5F000004"
+			rewards: [
+				{
+					id: "34057A5E5F000011"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5F000012"
+					item: { count: 1, id: "festivity:star_silver_candy_crook" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34057A5E5F000003"]
+			icon: {
+				id: "festivity:northstar_upgrade_smithing_template"
+			}
+			id: "34057A5E5F000005"
+			rewards: [
+				{
+					id: "34057A5E5F000013"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5F000014"
+					item: { count: 1, id: "festivity:northstar_upgrade_smithing_template" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34057A5E5F000005"]
+			icon: {
+				id: "festivity:northstar_chestplate"
+			}
+			id: "34057A5E5F000006"
+			rewards: [
+				{
+					id: "34057A5E5F000015"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 1
+					id: "34057A5E5F000016"
+					item: { count: 1, id: "festivity:star_silver_block" }
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: false
+					id: "34057A5E5F000017"
+					item: { count: 1, id: "festivity:northstar_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5F000018"
+					item: { count: 1, id: "festivity:northstar_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5F000019"
+					item: { count: 1, id: "festivity:northstar_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34057A5E5F00001A"
+					item: { count: 1, id: "festivity:northstar_boots" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+}

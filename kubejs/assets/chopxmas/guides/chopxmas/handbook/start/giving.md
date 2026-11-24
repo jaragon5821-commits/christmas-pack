@@ -8,6 +8,6 @@ navigation:
 
 # Giving
 
-Drop spare items or Colony Bucks into a **Donation Kettle**. Both count the same toward Festivity.
+Right-click a **Donation Kettle** with emeralds to give them to that town (sneak to give 5). Giving raises your Festivity.
 
 From **December 1st**, open one **Advent Calendar** door a day.
