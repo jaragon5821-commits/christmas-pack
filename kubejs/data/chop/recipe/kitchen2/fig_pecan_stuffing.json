@@ -1,0 +1,43 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:dried_fig"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:pecans"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:fig_pecan_stuffing"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "festivity:dried_fig"
+    },
+    {
+      "item": "festivity:pecans"
+    }
+  ],
+  "result": {
+    "id": "festivity:fig_pecan_stuffing",
+    "count": 2
+  },
+  "experience": 1.0,
+  "cookingtime": 200,
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  }
+}

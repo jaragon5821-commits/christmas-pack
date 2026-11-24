@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "kaleidoscope_tavern:grape"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:raisins"
+    }
+  ],
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": {
+    "item": "kaleidoscope_tavern:grape"
+  },
+  "result": {
+    "id": "festivity:raisins",
+    "count": 2
+  },
+  "experience": 0.35,
+  "cookingtime": 7200
+}

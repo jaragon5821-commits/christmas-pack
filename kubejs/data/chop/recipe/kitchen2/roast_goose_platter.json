@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:roast_goose"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:chestnut_stuffing"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:roast_goose_platter"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "festivity:roast_goose"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "festivity:chestnut_stuffing"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "festivity:roast_goose_platter",
+    "count": 1
+  }
+}

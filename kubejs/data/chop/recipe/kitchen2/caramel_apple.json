@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:caramel"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:caramel_apple"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "festivity:caramel"
+    },
+    {
+      "tag": "c:nuts"
+    }
+  ],
+  "result": {
+    "id": "festivity:caramel_apple",
+    "count": 2
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}

@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "farmersdelight:hot_cocoa"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:marshmallow"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:marshmallow_cocoa"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "farmersdelight:hot_cocoa"
+    },
+    {
+      "item": "festivity:marshmallow"
+    }
+  ],
+  "result": {
+    "id": "festivity:marshmallow_cocoa",
+    "count": 1
+  }
+}

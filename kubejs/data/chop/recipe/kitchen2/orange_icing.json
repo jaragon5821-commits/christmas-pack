@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:icing"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:orange_icing"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "festivity:icing"
+    },
+    {
+      "item": "festivity:icing"
+    },
+    {
+      "item": "festivity:icing"
+    },
+    {
+      "item": "festivity:icing"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    }
+  ],
+  "result": {
+    "id": "festivity:orange_icing",
+    "count": 4
+  }
+}

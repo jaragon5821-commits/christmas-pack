@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "kaleidoscope_tavern:rum"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:rum_balls"
+    }
+  ],
+  "type": "farm_and_charm:crafting_bowl",
+  "ingredients": [
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "kaleidoscope_tavern:rum"
+    },
+    {
+      "item": "minecraft:cookie"
+    }
+  ],
+  "result": {
+    "id": "festivity:rum_balls",
+    "count": 4
+  },
+  "experience": 0.2
+}

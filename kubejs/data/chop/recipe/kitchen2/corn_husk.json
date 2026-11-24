@@ -1,0 +1,45 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "farm_and_charm:corn"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:corn_husk"
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "farm_and_charm:corn"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "farm_and_charm:corn"
+      }
+    },
+    {
+      "item": {
+        "count": 1,
+        "id": "festivity:corn_husk"
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ]
+}

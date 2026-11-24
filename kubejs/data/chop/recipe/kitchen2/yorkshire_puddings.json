@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "farm_and_charm:flour"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:yorkshire_puddings"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "farm_and_charm:flour"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "tag": "c:drinks/milk"
+    }
+  ],
+  "result": {
+    "id": "festivity:yorkshire_puddings",
+    "count": 6
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}

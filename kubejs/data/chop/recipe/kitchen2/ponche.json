@@ -1,0 +1,57 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:orange"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festive_delight:cinnamon_powder"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:piloncillo"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:ponche"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:mug"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "drinks",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "festivity:orange"
+    },
+    {
+      "item": "minecraft:sugar_cane"
+    },
+    {
+      "item": "festive_delight:cinnamon_powder"
+    },
+    {
+      "item": "festivity:piloncillo"
+    }
+  ],
+  "result": {
+    "id": "festivity:ponche",
+    "count": 2
+  },
+  "experience": 1.0,
+  "cookingtime": 200,
+  "container": {
+    "id": "festivity:mug",
+    "count": 1
+  }
+}

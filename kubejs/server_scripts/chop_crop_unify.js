@@ -1,4 +1,4 @@
-// chop_crop_unify.js v0.4.4 (Rune, 2026-11-18: v0.4.4 chili powder group (Festivity chile powder + BBQ chili powder); 2026-11-17: v0.4.3 Merry Making + Festivity gingerbread dough group; v0.4.2 Q7 chicken parts + lamb ham groups; v0.4.1: guard the KC fried egg tag fix, Kaleidoscope Cookery removed; v0.4.0 2026-11-16; v0.3.3 2026-11-10; v0.3.2 2026-11-09; v0.2.0 grapes, v0.1.0 2026-11-06) - boss card 107: duplicate crops work in EVERY recipe.
+// chop_crop_unify.js v0.4.5 (Rune, 2026-11-24: v0.4.5 icing group (Festivity / Festive Delight / Merry Making); 2026-11-18: v0.4.4 chili powder group (Festivity chile powder + BBQ chili powder); 2026-11-17: v0.4.3 Merry Making + Festivity gingerbread dough group; v0.4.2 Q7 chicken parts + lamb ham groups; v0.4.1: guard the KC fried egg tag fix, Kaleidoscope Cookery removed; v0.4.0 2026-11-16; v0.3.3 2026-11-10; v0.3.2 2026-11-09; v0.2.0 grapes, v0.1.0 2026-11-06) - boss card 107: duplicate crops work in EVERY recipe.
 // Tomato / onion / cabbage / rice / garlic (Farmer's Delight, Farm & Charm, MineColonies, Herbs and Harvest...)
 // and ginger / cinnamon (Snowy Spirit, Festive Delight, Herbs and Harvest, Merrymaking) exist several times.
 // 1) Tags: every copy found in the registry joins one shared c: tag (adds to chop_synergy_tags.js, never removes).
@@ -89,7 +89,10 @@
     // Not festive_delight:gingerbread_dough (a placeable block with its own rolling mechanic). No c: tag (not plain dough).
     { tag: 'chop:unify/gingerbread_dough', ids: ['festivity:gingerbread_dough', 'merrymaking:gingerbread_dough'] },
     // v0.4.4 (11-18, kitchen spec s2): Festivity chile powder (id from Toybox, not registered until the Red Kitchen build) works wherever BBQ's chili powder does. Missing ids are dropped.
-    { tag: 'chop:unify/chili_powder', also: 'c:foods/chili_powder', ids: ['festivity:chile_powder', 'barbequesdelight:chili_powder'] }
+    { tag: 'chop:unify/chili_powder', also: 'c:foods/chili_powder', ids: ['festivity:chile_powder', 'barbequesdelight:chili_powder'] },
+    // v0.4.5 (11-24 boss food clash check): Festivity icing (kitchen batch 2), Festive Delight sugar icing and Merry Making icing are the
+    // same thing; any one works in the others' recipes. Missing ids are dropped (festivity:icing only exists from Train AJ on).
+    { tag: 'chop:unify/icing', ids: ['festivity:icing', 'festive_delight:sugar_icing', 'merrymaking:icing'] }
   ];
   const NO_WIDEN = [{ type: 'minecraft:smelting' }, { type: 'minecraft:smoking' }, { type: 'minecraft:campfire_cooking' }, { type: 'minecraft:blasting' }];   // v0.3.2
   const SKIP = /^(minecraft|kubejs|chop):/;
@@ -124,7 +127,7 @@
     event.remove('c:foods/bread', 'minecolonies:hand_pie');               // F&C / FD bread recipes took a hand pie
     event.remove('c:foods/bread', 'minecolonies:stew_trencher');
     if (scanHas('bakery:bread')) event.add('c:foods/bread', 'bakery:bread');   // Bakery bread works in FD sandwiches
-    console.info('[chop crops] v0.4.4 tag fixes applied');
+    console.info('[chop crops] v0.4.5 tag fixes applied');
   });
 
   // v0.3.2: Ultimine snow group (block tag; registry-scanned, so only real ids; logged)

@@ -1,0 +1,43 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "farmersdelight:wild_rice"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:cranberries"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:wild_rice_cranberries"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersdelight:wild_rice"
+    },
+    {
+      "item": "festivity:cranberries"
+    },
+    {
+      "tag": "c:nuts"
+    }
+  ],
+  "result": {
+    "id": "festivity:wild_rice_cranberries",
+    "count": 2
+  },
+  "experience": 1.0,
+  "cookingtime": 200,
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  }
+}

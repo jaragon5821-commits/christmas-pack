@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "farm_and_charm:dough"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:bunuelos"
+    }
+  ],
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "farm_and_charm:dough"
+  },
+  "result": {
+    "id": "festivity:bunuelos",
+    "count": 6
+  },
+  "experience": 0.35,
+  "cookingtime": 600
+}

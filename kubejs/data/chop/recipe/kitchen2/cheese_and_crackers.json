@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:crackers"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "brewinandchewin:flaxen_cheese_wedge"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:cheese_and_crackers"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "festivity:crackers"
+    },
+    {
+      "item": "brewinandchewin:flaxen_cheese_wedge"
+    }
+  ],
+  "result": {
+    "id": "festivity:cheese_and_crackers",
+    "count": 2
+  }
+}

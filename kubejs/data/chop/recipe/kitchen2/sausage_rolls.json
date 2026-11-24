@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "farmersdelight:pie_crust"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:sausage_rolls"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "farmersdelight:pie_crust"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "tag": "c:eggs"
+    }
+  ],
+  "result": {
+    "id": "festivity:sausage_rolls",
+    "count": 6
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}

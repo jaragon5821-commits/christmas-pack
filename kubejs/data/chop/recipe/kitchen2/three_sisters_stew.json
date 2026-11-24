@@ -1,0 +1,43 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:pinto_beans"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:squash"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:three_sisters_stew"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "c:crops/corn"
+    },
+    {
+      "item": "festivity:pinto_beans"
+    },
+    {
+      "item": "festivity:squash"
+    }
+  ],
+  "result": {
+    "id": "festivity:three_sisters_stew",
+    "count": 2
+  },
+  "experience": 1.0,
+  "cookingtime": 200,
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  }
+}

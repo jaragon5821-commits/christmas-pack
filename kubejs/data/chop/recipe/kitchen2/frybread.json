@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:frybread_dough"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:frybread"
+    }
+  ],
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "festivity:frybread_dough"
+  },
+  "result": {
+    "id": "festivity:frybread",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 600
+}

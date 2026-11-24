@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "farm_and_charm:corn"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:corn_husk"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:husked_corn"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "farm_and_charm:corn"
+    },
+    {
+      "item": "festivity:corn_husk"
+    }
+  ],
+  "result": {
+    "id": "festivity:husked_corn",
+    "count": 1
+  }
+}

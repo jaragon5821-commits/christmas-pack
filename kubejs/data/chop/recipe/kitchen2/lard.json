@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:lard"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop"
+    }
+  ],
+  "result": {
+    "id": "festivity:lard",
+    "count": 2
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

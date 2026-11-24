@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "farmersdelight:pie_crust"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:fig"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:fig_honey_tart"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "farmersdelight:pie_crust"
+    },
+    {
+      "item": "festivity:fig"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "result": {
+    "id": "festivity:fig_honey_tart",
+    "count": 1
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}

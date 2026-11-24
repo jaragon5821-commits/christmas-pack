@@ -1,0 +1,58 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:frybread"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:pinto_beans"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "farm_and_charm:lettuce"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "brewinandchewin:flaxen_cheese_wedge"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:chile_powder"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:navajo_taco"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "festivity:frybread"
+    },
+    {
+      "item": "festivity:pinto_beans"
+    },
+    {
+      "item": "farm_and_charm:lettuce"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "brewinandchewin:flaxen_cheese_wedge"
+    },
+    {
+      "item": "festivity:chile_powder"
+    }
+  ],
+  "result": {
+    "id": "festivity:navajo_taco",
+    "count": 1
+  }
+}

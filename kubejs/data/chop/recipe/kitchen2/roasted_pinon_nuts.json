@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:pinon_nuts"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:roasted_pinon_nuts"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "festivity:pinon_nuts"
+    },
+    {
+      "item": "festivity:pinon_nuts"
+    }
+  ],
+  "result": {
+    "id": "festivity:roasted_pinon_nuts",
+    "count": 2
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}
