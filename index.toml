@@ -5126,8 +5126,8 @@ file = "config/openloader/packs/3_FA+All_Extensions-v1.10.1.zip"
 hash = "10bcd8cfec9c70694ceaf37ec52e4b69f3a9b2fcab2ba67f202d6cbfcb7a38c9"
 
 [[files]]
-file = "config/openloader/packs/30_Chops_Minimap_Faces_v5.zip"
-hash = "b9dfd2ef01996f598045780b2fb627212018be179d758b7dc3067cca14dec906"
+file = "config/openloader/packs/30_Chops_Minimap_Faces_v6.zip"
+hash = "3539e48481d3e6d4df4f593c01c0ae984205b91c72e045f89c90a6f97ad7ce95"
 
 [[files]]
 file = "config/openloader/packs/30_Chops_More_Animals_v1_off.zip"
