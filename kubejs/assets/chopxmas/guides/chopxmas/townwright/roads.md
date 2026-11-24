@@ -3,7 +3,7 @@ navigation:
   parent: index.md
   title: Roads, Bridges and the Plaza
   icon: minecraft:dirt_path
-  position: 2
+  position: 3
 ---
 
 # Roads, Bridges and the Plaza
@@ -15,8 +15,12 @@ Every building gets a road to the rest of town. As the town fills in, main roads
 * **Better roads over time:** road near a levelled-up building takes a finer surface. Roads only ever improve.
 * **Steps:** where a road climbs a block, the edge becomes a step, so nobody has to jump.
 * **The road crew:** one or two workers push a wheelbarrow out from the Town Hall and lay main roads, plaza streets and upgrades block by block, then walk home. A hut's own door road is laid at once. You can turn this off on the Town settings tab, and roads then appear all at once.
-* Town roads are kept clear of snow.
+* **Snow:** snow can settle on town roads. Once it stops snowing, the road crew comes out with shovels and clears it, block by block. With the road crew off, it melts away at once.
+* **Street first:** once a town has a few buildings, a new building waits for the street beside its plot before the builders start, so nobody hauls materials across open ground. It waits 10 minutes at most. The Plans tab shows **Waiting for the street**.
+* **Nothing in the way:** walls, fields, lamps and decorations never go on a planned street, and new buildings keep a block clear of every planned street.
 * Townwright only touches roads it laid itself. Your own paths are left alone.
+
+How new streets are levelled depends on the town's style: see **[Town Styles](styles.md)**.
 
 ## Road Stakes
 
@@ -30,7 +34,7 @@ The road crew lays these like any other town road.
 
 ## Bridges
 
-Roads over water or gaps become bridges with railings, and longer ones get arches and piers underneath. Their look follows your town's material set and gets finer as the buildings nearby level up.
+Roads over water or gaps become bridges with railings, and longer ones get arches and piers underneath. A bridge reaches up to 12 blocks of water. Where a street can't get through, for example water that's too wide, or a building or a player's block in the way, the Plans tab lists it under **Where the streets are blocked**. Their look follows your town's material set and gets finer as the buildings nearby level up.
 
 ## The Plaza
 

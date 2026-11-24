@@ -3,7 +3,7 @@ navigation:
   parent: index.md
   title: When Something Seems Stuck
   icon: minecraft:clock
-  position: 5
+  position: 7
 ---
 
 # When Something Seems Stuck
@@ -20,6 +20,9 @@ Type `/townwright status` while standing in your town. It says in plain words wh
 | the plan board proposes X and waits | Say Yes, No or swap it on the Planning Board. |
 | no buildable dry plot for it in reach yet | Clear some land, grow the town's claim, or place that hut yourself. |
 | the plan waits on the hall | The Town Hall upgrade is due. It needs a built Builder's Hut and materials. |
+| On fire: repairs wait (Plans tab) | Put the fire out, or let the fire squad do it. Work starts again a minute later. |
+| Waiting for the street (Plans tab) | Normal. The road crew lays the street first. It never waits more than 10 minutes. |
+| Where the streets are blocked (Plans tab) | Move the block that's in the way, or accept that wide water can't be bridged. |
 
 **Stuck colonists:** a colonist that can't get any closer to where it's going for a while is moved there for you.
 

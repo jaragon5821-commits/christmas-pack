@@ -42578,6 +42578,10 @@ file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/santy_claws.md"
 hash = "6807a8be3b08207d31b74b7df8007953183d0931d7cb5a2234bf3d306b2e7191"
 
 [[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/shops.md"
+hash = "47797d8c8e70db354da81a9c83cae90586dea0b106f881124b53fe363b9b4ca5"
+
+[[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/systems/spell_schools.md"
 hash = "3cd3d7013fecf7c9e4724241ead1448af562c576f86f3151533123dac8332054"
 
@@ -42623,7 +42627,11 @@ hash = "a52ef2937fe86af945c9e55306e7f775d53da71d5be3e88de7e56396e2f6b7fb"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/board.md"
-hash = "6486194a9ef82638ce16d7087f7b8db26a1ee06c2b96c042573e6fb8ea10ac86"
+hash = "cfc59a36086720fb1e48df16279f395b45ba589ca68ec4f88eac489cc2d34f31"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/fire.md"
+hash = "6b3b08c916b365556495b748cc2f5907f4a122ca4257e217533fdc546f398d28"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/founding.md"
@@ -42631,23 +42639,27 @@ hash = "fb79a4769755df90379ea5702f8b0f4cb8f92396ba965fac33368111083da51e"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/index.md"
-hash = "899755fe67d6873434e43e7494b4c9769662a9720d45317d438224c5c35cb451"
+hash = "ab9558084208c513d8ec91189e91dda15869bb8b071c0e478f5db3414d7ab482"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/plots.md"
-hash = "8d37503fa2ace9a5d6978fa48d3f4c530ea5eb923a3833f96871458d7859844d"
+hash = "e047a16cb7ea62f3ce7e47fecdf6d0f2e12a6d363d38994c441a910ae1d01a3d"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/roads.md"
-hash = "06389f10b2efad8892234a675d1b79843c4b4f2f7d0d718c7a888c8107e73e8d"
+hash = "e8c529615938124c577d965871ff4556b523b2947ede8783c67be097aab65a86"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/stuck.md"
-hash = "4da09904328f125fb2d9993ce41d84a73e474ee7aa272d189c937f4a6c8ada21"
+hash = "86e6b765f5d0860d594d157c8fece294f30b6f5f5b5f9a2f8cd592ab7bcd8b88"
+
+[[files]]
+file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/styles.md"
+hash = "c5d046b69fa20d83b42091c1c9946df55aca21f690ca7c08c9a1cd16e5cb6ec0"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/townwright/walls.md"
-hash = "51742bf7ee75f673c58ee3d03816a6727242580df0bee591f9b2ae402d735c73"
+hash = "784e22d149e1c6f9b04e42a0c3a0fc3f76bd32f645968f3927901db7feced891"
 
 [[files]]
 file = "kubejs/assets/chopxmas/models/item/handbook.json"

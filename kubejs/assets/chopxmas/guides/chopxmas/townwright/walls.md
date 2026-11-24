@@ -3,7 +3,7 @@ navigation:
   parent: index.md
   title: Walls
   icon: minecraft:stone_bricks
-  position: 3
+  position: 4
 ---
 
 # Walls

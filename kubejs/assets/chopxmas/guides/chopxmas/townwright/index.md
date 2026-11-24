@@ -11,9 +11,11 @@ navigation:
 Upgrades, repairs, roads and upkeep carry on by themselves.
 
 * **[Founding a Town](founding.md):** the Town Hall, the Town Planner and the first proposal.
+* **[Town Styles](styles.md):** Structure, Balanced or Nature, and how streets follow the style.
 * **[The Planning Board](board.md):** say yes, no or swap what the town wants to build next.
 * **[Roads, Bridges and the Plaza](roads.md):** how the town lays its streets.
 * **[Walls](walls.md):** keeping the town safe.
+* **[Fires](fire.md):** why builders wait, and the fire squad.
 * **[Plots and Your Own Builds](plots.md):** keeping the town's hands off your projects.
 * **[When Something Seems Stuck](stuck.md):** what the status line means and what to do.
 

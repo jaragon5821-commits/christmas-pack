@@ -3,7 +3,7 @@ navigation:
   parent: index.md
   title: The Planning Board
   icon: minecraft:paper
-  position: 1
+  position: 2
 ---
 
 # The Planning Board
@@ -19,6 +19,9 @@ Right-click your **Town Planner** to open the Planning Board, a cork board with 
 * **Notes:** **Town plan** (your layout, sealed once 5 buildings stand), **Town plaza** and **Decorations** (Build it or Another; auto, pick or off).
 * The status slip shows the treasury, for example "Treasury: 42 emeralds left".
 * If a build is stuck, a line explains why.
+* **On fire: repairs wait:** a building is burning, so builders stay away until it has been out for a minute. See **Fires**.
+* **Waiting for the street:** a new building waits for its street to be laid first.
+* **Where the streets are blocked:** streets that can't get through, and why (water too wide, a player's block, a building or a claimed plot in the way).
 
 A building you said Yes to is built before anything new is proposed. A Builder's Hut can't be skipped or swapped, because everything else needs builders.
 

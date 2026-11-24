@@ -3,7 +3,7 @@ navigation:
   parent: index.md
   title: Plots and Your Own Builds
   icon: minecraft:spyglass
-  position: 4
+  position: 6
 ---
 
 # Plots and Your Own Builds
