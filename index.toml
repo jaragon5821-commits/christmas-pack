@@ -3653,12 +3653,28 @@ file = "config/chopautopilot-variants.json"
 hash = "8845bc40616b505fcfef66d72e8a4604176578485af3e1f9e48e6f057fa9ffc8"
 
 [[files]]
+file = "config/chopblueprints/previews/alpine_chalet.png"
+hash = "d0c78141fd5358303a3ccdd7c7c271741671c28beca270c51fd805e2b220d65b"
+
+[[files]]
+file = "config/chopblueprints/previews/arch_gate.png"
+hash = "4e15bdba459554abd68098f320a69e896d0b60f5dfb95f94d940fa094fba4844"
+
+[[files]]
 file = "config/chopblueprints/previews/bakery.png"
 hash = "924a386479911d300105e2097fadaaa3f776574eaffec9db95cf0bca53a22970"
 
 [[files]]
 file = "config/chopblueprints/previews/family_house.png"
 hash = "a809d04f81cf4809cf83ee98b448a7e8975fc28d117f31d575f31885f873470a"
+
+[[files]]
+file = "config/chopblueprints/previews/fishermans_cottage.png"
+hash = "351ef71b1562be7de6b683f937a4cd7494b3d43fd30b43b80f80c91eb8670ce7"
+
+[[files]]
+file = "config/chopblueprints/previews/general_store.png"
+hash = "c6e994fb3792e32064e7a379d488700cf7fe83217a2844b7d8397bd1589284dd"
 
 [[files]]
 file = "config/chopblueprints/previews/lamp_post.png"
@@ -3677,6 +3693,10 @@ file = "config/chopblueprints/previews/park_bench.png"
 hash = "2d397ba44e17c7538280ca11849909f50397f43eadf82178259a411762c0ae46"
 
 [[files]]
+file = "config/chopblueprints/previews/smithy.png"
+hash = "02032f49eeba4b7456063b536d0bfb54794fe807fe2b21a5f67d76ae701ed289"
+
+[[files]]
 file = "config/chopblueprints/previews/snowy_cabin.png"
 hash = "e1230c13af526d9a0be9d2036950348a44dc062608d9df3a8cb30174e9bc683b"
 
@@ -3685,12 +3705,32 @@ file = "config/chopblueprints/previews/starter_cottage.png"
 hash = "b67164f414072aba0e299d4372b66dd544114ff7f963bbcd79a8c169908573c5"
 
 [[files]]
+file = "config/chopblueprints/previews/town_well.png"
+hash = "8ec1e12cba51c6c982d932a472827904215d4a744aa41f491e9c9202fe39df7c"
+
+[[files]]
+file = "config/chopblueprints/schematics/alpine_chalet.litematic"
+hash = "fbf778f9d031c8a31c228ec4053b69dccabe193038d68251b7d8bc3d1b165b21"
+
+[[files]]
+file = "config/chopblueprints/schematics/arch_gate.litematic"
+hash = "70ce695acc717f10f816d16a2c6f42259b229d99b5a8c2c2949f47af51c29cb1"
+
+[[files]]
 file = "config/chopblueprints/schematics/bakery.litematic"
 hash = "733e6a1581c9a232547598f3997e8a3c0dd346561de4cd6159d4d29ee34178c3"
 
 [[files]]
 file = "config/chopblueprints/schematics/family_house.litematic"
 hash = "92d1428b0ab497b85c2dc672fd872de9c8f731627523019c0aecdf952e2f9da6"
+
+[[files]]
+file = "config/chopblueprints/schematics/fishermans_cottage.litematic"
+hash = "325e16cd8aa2aeb5c5f27bc1fe267424222dcd5aff75f3a33d9d830ac3687a71"
+
+[[files]]
+file = "config/chopblueprints/schematics/general_store.litematic"
+hash = "28942e6c2192e28aa3ed5db30a82c0d59ee7ef4bcf16371888f3f9bbf7b25b89"
 
 [[files]]
 file = "config/chopblueprints/schematics/lamp_post.litematic"
@@ -3709,12 +3749,20 @@ file = "config/chopblueprints/schematics/park_bench.litematic"
 hash = "6cbaa934d79fbf9f721383eabd96daf11ea8a1cfbae11c13872c8dbdf2fb64f8"
 
 [[files]]
+file = "config/chopblueprints/schematics/smithy.litematic"
+hash = "663557bec58d0e283f4836786d2b10f03c98b1cdcb03561d5f7e1d4974590188"
+
+[[files]]
 file = "config/chopblueprints/schematics/snowy_cabin.litematic"
 hash = "553a00c7c8e1b96ba726c11aaa1f6dd776cce829d05716895c5ec2c19166dc91"
 
 [[files]]
 file = "config/chopblueprints/schematics/starter_cottage.litematic"
 hash = "ff815f958701c362c6fbfeb20d55a4d5f15a2797125e504ee7088779ae3c4c25"
+
+[[files]]
+file = "config/chopblueprints/schematics/town_well.litematic"
+hash = "efc99477980910e810c60dc9b0024c22be75a51962104daf85693715688fbc64"
 
 [[files]]
 file = "config/chopcolonylooks-common.toml"
