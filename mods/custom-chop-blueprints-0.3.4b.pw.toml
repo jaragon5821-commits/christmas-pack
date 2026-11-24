@@ -1,0 +1,8 @@
+name = "Blueprint Board"
+filename = "chop-blueprints-0.3.4b.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/jaragon5821-commits/christmas-pack/test/patched-jars/chop-blueprints-0.3.4b.jar"
+hash-format = "sha512"
+hash = "9341d20c850de3e12b130964099a84954198a35f8e4d9404f739ce96203857d69856cb131a72d6fdb4b96d8b2095dbfa3809e8a847bb327ad6c17a5b397ef38d"
