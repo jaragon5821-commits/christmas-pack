@@ -44162,8 +44162,8 @@ hash = "f2fe50780f6171833d78690d1f0712ab68c0161db12396302a01a841c3d3b027"
 metafile = true
 
 [[files]]
-file = "mods/custom-shopfront-0.2.1.pw.toml"
-hash = "44b89be2606e14b2e2e65a0a5cce8cd3d5c73841c73c1216eaeec4e19052367c"
+file = "mods/custom-shopfront-0.3.0.pw.toml"
+hash = "9beca713d0e510b5738ec0ee1599c64b02afbed6d4d61079c7befbe4445503ba"
 metafile = true
 
 [[files]]

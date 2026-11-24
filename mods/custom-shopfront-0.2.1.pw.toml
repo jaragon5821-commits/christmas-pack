@@ -1,8 +1,0 @@
-name = "shopfront-0.2.1"
-filename = "shopfront-0.2.1.jar"
-side = "both"
-
-[download]
-url = "https://raw.githubusercontent.com/jaragon5821-commits/christmas-pack/test/patched-jars/shopfront-0.2.1.jar"
-hash-format = "sha512"
-hash = "713810b195bc71d68a832f1817c0a06e11ce6e4029e90ec294e9ae08e35301edcc672eb46982f37bcd679eb0c5b1536eac9c1e78668ef8df6e668c1a28be45ce"
