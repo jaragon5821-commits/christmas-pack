@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "bakery:sponge_sheet"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:orange_jelly"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:jaffa_cakes"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "bakery:sponge_sheet"
+    },
+    {
+      "item": "festivity:orange_jelly"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    }
+  ],
+  "result": {
+    "id": "festivity:jaffa_cakes",
+    "count": 8
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}

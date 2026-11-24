@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "farm_and_charm:dough"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:marzipan"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:raisins"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:stollen"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "farm_and_charm:dough"
+    },
+    {
+      "item": "festivity:marzipan"
+    },
+    {
+      "item": "festivity:raisins"
+    }
+  ],
+  "result": {
+    "id": "festivity:stollen",
+    "count": 1
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}

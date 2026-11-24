@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:fruitcake"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:marzipan"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:icing"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:christmas_cake"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "festivity:fruitcake"
+    },
+    {
+      "item": "festivity:marzipan"
+    },
+    {
+      "item": "festivity:icing"
+    }
+  ],
+  "result": {
+    "id": "festivity:christmas_cake",
+    "count": 1
+  }
+}

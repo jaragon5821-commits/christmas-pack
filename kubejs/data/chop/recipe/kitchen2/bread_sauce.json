@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:winter_spice"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:bread_sauce"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "tag": "c:drinks/milk"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "item": "festivity:winter_spice"
+    }
+  ],
+  "result": {
+    "id": "festivity:bread_sauce",
+    "count": 2
+  },
+  "experience": 1.0,
+  "cookingtime": 200,
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  }
+}

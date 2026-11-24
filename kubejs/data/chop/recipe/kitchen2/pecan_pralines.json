@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:pecans"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:caramel"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:cream"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:pecan_pralines"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "festivity:pecans"
+    },
+    {
+      "item": "festivity:caramel"
+    },
+    {
+      "item": "festivity:cream"
+    }
+  ],
+  "result": {
+    "id": "festivity:pecan_pralines",
+    "count": 6
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}

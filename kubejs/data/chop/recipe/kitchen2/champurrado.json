@@ -1,0 +1,57 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:masa"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festive_delight:cinnamon_powder"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:piloncillo"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:champurrado"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:mug"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "drinks",
+  "ingredients": [
+    {
+      "item": "festivity:masa"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "festive_delight:cinnamon_powder"
+    },
+    {
+      "item": "festivity:piloncillo"
+    },
+    {
+      "tag": "c:drinks/milk"
+    }
+  ],
+  "result": {
+    "id": "festivity:champurrado",
+    "count": 2
+  },
+  "experience": 1.0,
+  "cookingtime": 200,
+  "container": {
+    "id": "festivity:mug",
+    "count": 1
+  }
+}

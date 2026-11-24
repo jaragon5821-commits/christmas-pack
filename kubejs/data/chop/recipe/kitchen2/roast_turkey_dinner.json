@@ -1,0 +1,47 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:roast_turkey"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:roast_potatoes"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:cranberry_sauce"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:chestnut_stuffing"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:roast_turkey_dinner"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "festivity:roast_turkey"
+    },
+    {
+      "item": "festivity:roast_potatoes"
+    },
+    {
+      "item": "festivity:cranberry_sauce"
+    },
+    {
+      "item": "festivity:chestnut_stuffing"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "festivity:roast_turkey_dinner",
+    "count": 1
+  }
+}

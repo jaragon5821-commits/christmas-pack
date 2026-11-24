@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:icing"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:red_icing"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "festivity:icing"
+    },
+    {
+      "item": "festivity:icing"
+    },
+    {
+      "item": "festivity:icing"
+    },
+    {
+      "item": "festivity:icing"
+    },
+    {
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "result": {
+    "id": "festivity:red_icing",
+    "count": 4
+  }
+}

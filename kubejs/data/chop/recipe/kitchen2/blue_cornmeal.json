@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:blue_corn"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:blue_cornmeal"
+    }
+  ],
+  "type": "farm_and_charm:mincer",
+  "ingredient": {
+    "item": "festivity:blue_corn"
+  },
+  "recipe_type": "STONE",
+  "result": {
+    "id": "festivity:blue_cornmeal",
+    "count": 2
+  },
+  "experience": 0.2
+}

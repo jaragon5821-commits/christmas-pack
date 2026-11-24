@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "farm_and_charm:flour"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:gravy"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "c:foods/cooked_meat"
+    },
+    {
+      "item": "farm_and_charm:flour"
+    }
+  ],
+  "result": {
+    "id": "festivity:gravy",
+    "count": 2
+  },
+  "experience": 1.0,
+  "cookingtime": 200,
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  }
+}

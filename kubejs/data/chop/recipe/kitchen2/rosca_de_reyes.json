@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "farm_and_charm:dough"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:candied_orange"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:fig"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:rosca_de_reyes"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "farm_and_charm:dough"
+    },
+    {
+      "item": "festivity:candied_orange"
+    },
+    {
+      "item": "festivity:fig"
+    }
+  ],
+  "result": {
+    "id": "festivity:rosca_de_reyes",
+    "count": 1
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}

@@ -1,0 +1,40 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:blue_cornmeal"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:juniper_berries"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:blue_corn_mush"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "festivity:blue_cornmeal"
+    },
+    {
+      "item": "festivity:juniper_berries"
+    }
+  ],
+  "result": {
+    "id": "festivity:blue_corn_mush",
+    "count": 2
+  },
+  "experience": 1.0,
+  "cookingtime": 200,
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  }
+}

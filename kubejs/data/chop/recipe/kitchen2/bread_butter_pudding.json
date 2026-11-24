@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "farm_and_charm:butter"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:custard"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:bread_butter_pudding"
+    }
+  ],
+  "type": "farm_and_charm:stove",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "farm_and_charm:butter"
+    },
+    {
+      "item": "festivity:custard"
+    }
+  ],
+  "result": {
+    "id": "festivity:bread_butter_pudding",
+    "count": 1
+  },
+  "experience": 0.5,
+  "requiresLearning": false
+}

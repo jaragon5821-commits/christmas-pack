@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:fig"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:dried_fig"
+    }
+  ],
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": {
+    "item": "festivity:fig"
+  },
+  "result": {
+    "id": "festivity:dried_fig",
+    "count": 2
+  },
+  "experience": 0.35,
+  "cookingtime": 7200
+}

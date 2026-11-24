@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:husked_corn"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:kneeldown_bread"
+    }
+  ],
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "festivity:husked_corn"
+  },
+  "result": {
+    "id": "festivity:kneeldown_bread",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 600
+}

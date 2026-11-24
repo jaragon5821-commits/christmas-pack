@@ -1,0 +1,48 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farm_and_charm"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:custard"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:cream"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "bakery:sponge_sheet"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "kaleidoscope_tavern:sherry"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "festivity:sherry_trifle"
+    }
+  ],
+  "type": "farm_and_charm:crafting_bowl",
+  "ingredients": [
+    {
+      "item": "festivity:custard"
+    },
+    {
+      "item": "festivity:cream"
+    },
+    {
+      "item": "bakery:sponge_sheet"
+    },
+    {
+      "item": "kaleidoscope_tavern:sherry"
+    }
+  ],
+  "result": {
+    "id": "festivity:sherry_trifle",
+    "count": 1
+  },
+  "experience": 0.2
+}
