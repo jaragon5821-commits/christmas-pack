@@ -3673,6 +3673,10 @@ file = "config/chopblueprints/previews/fishermans_cottage.png"
 hash = "351ef71b1562be7de6b683f937a4cd7494b3d43fd30b43b80f80c91eb8670ce7"
 
 [[files]]
+file = "config/chopblueprints/previews/gazebo.png"
+hash = "6a7aa4e60a8f54bfe205607aea0d33ba44a0399f7473026386943376153c3c90"
+
+[[files]]
 file = "config/chopblueprints/previews/general_store.png"
 hash = "c6e994fb3792e32064e7a379d488700cf7fe83217a2844b7d8397bd1589284dd"
 
@@ -3705,8 +3709,20 @@ file = "config/chopblueprints/previews/starter_cottage.png"
 hash = "b67164f414072aba0e299d4372b66dd544114ff7f963bbcd79a8c169908573c5"
 
 [[files]]
+file = "config/chopblueprints/previews/stone_manor.png"
+hash = "c53fa5335934426f19e67204a9048e34696b4025465e3cc699e3ccd5c7ceb2f9"
+
+[[files]]
+file = "config/chopblueprints/previews/tavern_inn.png"
+hash = "d1226f0f6bf210f23352dcad86cd77b6dce624b906822406c8521b25a8fd3f93"
+
+[[files]]
 file = "config/chopblueprints/previews/town_well.png"
 hash = "8ec1e12cba51c6c982d932a472827904215d4a744aa41f491e9c9202fe39df7c"
+
+[[files]]
+file = "config/chopblueprints/previews/tree_plaza.png"
+hash = "a4fc6431f17e34939da9e0291a1b5166a5d7e36d69c94bb937a279e22e613c48"
 
 [[files]]
 file = "config/chopblueprints/schematics/alpine_chalet.litematic"
@@ -3727,6 +3743,10 @@ hash = "92d1428b0ab497b85c2dc672fd872de9c8f731627523019c0aecdf952e2f9da6"
 [[files]]
 file = "config/chopblueprints/schematics/fishermans_cottage.litematic"
 hash = "325e16cd8aa2aeb5c5f27bc1fe267424222dcd5aff75f3a33d9d830ac3687a71"
+
+[[files]]
+file = "config/chopblueprints/schematics/gazebo.litematic"
+hash = "a695acb1da9b03b7a08d2d79cb2fb9e30f482779fc87d7c0f0fb3a82d013b1af"
 
 [[files]]
 file = "config/chopblueprints/schematics/general_store.litematic"
@@ -3761,8 +3781,20 @@ file = "config/chopblueprints/schematics/starter_cottage.litematic"
 hash = "ff815f958701c362c6fbfeb20d55a4d5f15a2797125e504ee7088779ae3c4c25"
 
 [[files]]
+file = "config/chopblueprints/schematics/stone_manor.litematic"
+hash = "44978f8d609bad0d6e86dce943aaa67fcae671d37a638450dee8ef9255e82cca"
+
+[[files]]
+file = "config/chopblueprints/schematics/tavern_inn.litematic"
+hash = "60b8d465a8745d36bb582f183c3d4dfc5e19f9d4296a3419456da46809196f58"
+
+[[files]]
 file = "config/chopblueprints/schematics/town_well.litematic"
 hash = "efc99477980910e810c60dc9b0024c22be75a51962104daf85693715688fbc64"
+
+[[files]]
+file = "config/chopblueprints/schematics/tree_plaza.litematic"
+hash = "aeed332a9b907ed428cbfd60176467f7e0ca5b27015d591b2617cc5cb55d66f9"
 
 [[files]]
 file = "config/chopcolonylooks-common.toml"
