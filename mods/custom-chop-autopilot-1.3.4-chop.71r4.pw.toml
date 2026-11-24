@@ -1,0 +1,8 @@
+name = "chop-autopilot-1.3.4-chop.71r4"
+filename = "chop-autopilot-1.3.4-chop.71r4.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/jaragon5821-commits/christmas-pack/test/patched-jars/chop-autopilot-1.3.4-chop.71r4.jar"
+hash-format = "sha512"
+hash = "69ee1a2b09acea9f5364e8c79eef75dbee3dc97c8b837e41f6706205bcecdd26bd514e6ebece970436fb6319d33708a99f112aeb902063235cf4b6093aa71cf6"

@@ -43,10 +43,12 @@
 	# Default: 128
 	# Range: 1 ~ 4096
 	itemsPerBuck = 32
+	#Townwright chop.71: items of value per emerald (treasuries count in emeralds).
+	itemsPerEmerald = 8
 	#chop.65r2 one-time rescale: the items per buck existing treasuries were saved at (0 = unused). Ignored once a save records its rate.
 	previousItemsPerBuck = 64
 	#Bucks a new colony's supply camp starts with (boss 11-23 rebalance).
-	supplyStarterBucks = 14
+	supplyStarterBucks = 56
 	#chop.66 (boss 11-23 07:19Z): supply camps and ships off until a permanent fix. Do not ship true.
 	supplyCamps = false
 	#What one piece of gear from IRON tier up - an iron, diamond, netherite or modded-tier tool, sword
@@ -62,7 +64,7 @@
 	#supply. 0: only the cost items are charged.
 	# Default: 1
 	# Range: 0 ~ 64
-	researchFeePerTier = 1
+	researchFeePerTier = 4
 	#Progression Mode only: construction jobs in flight (huts placed but not built, upgrades under
 	#way; repairs, removals and decorations not counted) allowed per built builder's hut. Without a cap a
 	#starved colony turns into a field of empty construction sites nobody can pay to finish. The plan's
@@ -90,11 +92,11 @@
 	#Mode a colony citizen's kill (a guard's) pays its buck into his colony's treasury instead.
 	# Default: 0.033
 	# Range: 0.0 ~ 1.0
-	dropChance = 0.033
+	dropChance = 0.133
 	#Added to dropChance per level of Looting on the killer's weapon.
 	# Default: 0.005
 	# Range: 0.0 ~ 1.0
-	lootingBonus = 0.005
+	lootingBonus = 0.02
 	#A mob with this much max health or more is a boss and never drops a ColonyBuck, with or without
 	#the c:bosses tag - a modded boss is not always tagged. (Health points: 150 is 75 hearts; a zombie
 	#has 20.) At 150 the elites pay - Spore's Inquisitor, Usurper and Vigil, late MineColonies raiders -
@@ -114,11 +116,11 @@
 	#offerings) pays none. A roll of 0 adds nothing.
 	# Default: 1
 	# Range: 0 ~ 64
-	chestMin = 1
+	chestMin = 4
 	#The most ColonyBucks one loot chest holds (see chestMin). A chestMin above this gives chestMin.
 	# Default: 4
 	# Range: 0 ~ 64
-	chestMax = 4
+	chestMax = 16
 	#The fewest ColonyBucks in a mineshaft chest: mineshafts are full of chests, so each one pays less.
 	# Default: 0
 	# Range: 0 ~ 64
@@ -126,7 +128,7 @@
 	#The most ColonyBucks in a mineshaft chest. A mineshaftMin above this gives mineshaftMin.
 	# Default: 2
 	# Range: 0 ~ 64
-	mineshaftMax = 2
+	mineshaftMax = 8
 	#The Exchange: the Trade button on the town hall's Exchange tab and '/colonyautopilot exchange' open a
 	#trading screen that sells ColonyBucks for valuables (economy.offers). One way only: bucks never buy
 	#items back. It serves colonies in Progression Mode only. Off: the button is hidden, the command
@@ -145,7 +147,7 @@
 	#markup (economy.conjureMarkup) doubled with them, so the colony pays for the goods what it did. A
 	#file that lists the old offers keeps them until it is edited.
 	#Read when the server (or a single-player world) starts: an edit takes effect at the next start.
-	offers = ["minecraft:diamond x2 -> 1", "minecraft:diamond_block x1 -> 5", "minecraft:gold_ingot x16 -> 1", "minecraft:ancient_debris x1 -> 1", "minecraft:netherite_ingot x1 -> 4"]
+	offers = ["minecraft:diamond x2 -> 4", "minecraft:diamond_block x1 -> 20", "minecraft:gold_ingot x16 -> 4", "minecraft:ancient_debris x1 -> 4", "minecraft:netherite_ingot x1 -> 16"]
 	#Multiplies what the exchange's goods and their forms cost to conjure in Progression Mode (while
 	#economy.exchange is on: off, nothing is priced as a good), over the floor at which buying them and
 	#selling them back breaks even: 4 makes a diamond cost about two bucks (2 until the owner's 2026-09-28
@@ -1002,7 +1004,7 @@
 	#mineshaftMin/mineshaftMax 2-5 become 0-2. Whatever you set afterwards is yours and is not touched again.
 	# Default: 1
 	# Range: 1 ~ 1000
-	configVersion = 4
+	configVersion = 6
 
 [builders]
 	#Chop fork (chop.30): a citizen working at a Builder's Hut gets a head start. The two skills
