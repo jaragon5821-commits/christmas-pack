@@ -1,4 +1,4 @@
-// chop_item_tooltips.js v0.1.2 (Tooltips thread, 2026-11-09; candle line needs Festivity 0.9.12c+) - CLIENT script (kubejs/client_scripts). Text only, no gameplay.
+// chop_item_tooltips.js v0.1.3 (Tooltips thread, 2026-11-09; candle line needs Festivity 0.9.12c+) - CLIENT script (kubejs/client_scripts). Text only, no gameplay.
 // Josh 2026-11-09: helpful English tooltips for the pack's custom items (no translations).
 // Adds ONLY to items that had no hint before this (checked against Festivity 0.9.12b src lang/appendHoverText,
 // Chop Autopilot chop.15 src, and the pack's KubeJS startup/client scripts on the test branch).
@@ -31,6 +31,20 @@
     'festivity:toy_soldier_banner': ['When placed, Nutcrackers within 20 blocks stop fighting', 'and march to it for 1 minute.'],
     'festivity:wrapped_present': ['Plain: decoration.', 'Made by the Gift Wrap spell: place it to unwrap the block inside, contents and all.']
   };
+
+  // v0.1.3 (Lorekeeper, Train AK): rare-creature items, spoiler-light (never names a rare or a taming step).
+  // Behaviour checked by Toybox in nextTrainAK source, 11-25 02:28Z.
+  TIPS['festivity:paper_airplane'] = ['Right-click to throw it.', 'It lands and can be thrown again. Water turns it back into paper.'];
+  TIPS['festivity:caravan_bell'] = ['Lost one? Craft another from a gold ingot and string.'];
+  TIPS['festivity:yak_blanket'] = ['Dye it like leather armour. The gold trim stays gold.'];
+  TIPS['festivity:yak_blanket_draped'] = ['Dye it like leather armour. The gold trim stays gold.'];
+  TIPS['festivity:frost_shard'] = ['Dropped by Frost Hounds. Used in frosty crafting.'];
+  TIPS['festivity:carol_fragment'] = ['A scrap of an old carol. Collect every verse.'];
+  TIPS['festivity:starfold_bowl'] = ['A glass bowl to place as decoration.'];
+  ['', '_aurora', '_dusk', '_twilight', '_void'].forEach(s => {
+    TIPS['festivity:starwool' + s] = ['Softly glowing wool. Dye it night blue, aurora,', 'dusk, twilight or void.'];
+    TIPS['festivity:starwool' + s + '_carpet'] = ['A softly glowing carpet.'];
+  });
 
   // ---- generated: Festivity string lights + spell school crafting items ----
   ['warm', 'multicolour', 'blue', 'white', 'twinkle', 'chase', 'fade'].forEach(s => {   // ids without an item are skipped below

@@ -43443,7 +43443,7 @@ hash = "85220f21bba905a5bd1bd7cd7ebbb53451b9b915dfa6d840e52e06c78b792cc2"
 
 [[files]]
 file = "kubejs/client_scripts/chop_item_tooltips.js"
-hash = "ecc6f248cbb0ab6321a93a327894c59d8e082843a3f19a47b84eabdfce4bf70f"
+hash = "3899b748610b76af6e89b3beb186cb73c56e45aca389f8ef9d5e8e37769ea37d"
 
 [[files]]
 file = "kubejs/client_scripts/chop_keys_atlas.js"
