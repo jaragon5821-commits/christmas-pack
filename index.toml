@@ -44585,8 +44585,8 @@ hash = "04b07ed6f35ae628423d13b4c68e5ebeead36a119a001fa85b53899ab71cd0eb"
 metafile = true
 
 [[files]]
-file = "mods/custom-chop-autopilot-1.3.4-chop.72r1.pw.toml"
-hash = "970bccd567ac718e791915f19c8e593f59b5bb86aa31a8b71f3b6180c069ebdb"
+file = "mods/custom-chop-autopilot-1.3.4-chop.75r3b.pw.toml"
+hash = "19681afc37ff27cc4cb95ed6c4df0ce7937dcef8bf55efa32d3521fcb8aa0c24"
 metafile = true
 
 [[files]]
@@ -44626,7 +44626,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-festivity-0.10.10.pw.toml"
-hash = "839461ce66c270df18f162ec7fda9f9821080199e1feff9f170646788e4acb04"
+hash = "8f4d17148b428708eeb6491d820fe778df36b4b78fc5f2ac8643e99a400a1b49"
 metafile = true
 
 [[files]]
@@ -44636,7 +44636,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-hearthkin-1.0.0.pw.toml"
-hash = "6a065da37e47912de1ca69ad341ec53eb685183fa63ee76523e9e87afd6c8041"
+hash = "cebc80b19e7ec4e1adcac26ca51fb54a3227affac5c76147a9b736c70948318d"
 metafile = true
 
 [[files]]
@@ -45893,8 +45893,13 @@ hash = "926fdd998c999b6f041c0de3c934b36d51d1a7f89ebd46608ebc66e46dd70e3f"
 
 [[files]]
 file = "config/openloader/packs/38_Chops_Hearthkin_Quests_v1.zip"
-hash = "d39b8cad220d588625b9629025ee421d723615ccccb06e9a72f10a97ee2beafb"
+hash = "76ea28b7401e40081aa2dd8179d3b83721eb6c7db40d0a49f26a1e4f89a965c6"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/flying.md"
 hash = "c0f9f9ed806ebd208699abeb51cdb8902bb3e1f831edfb69f448d762a17291aa"
+
+[[files]]
+file = "mods/climbing-claws.pw.toml"
+hash = "5fe7879da1ea4a6e9c134bd1b6ea4977207b304cc094c8b5fbfb93c08ae2814d"
+metafile = true

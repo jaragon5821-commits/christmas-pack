@@ -1,0 +1,14 @@
+filename = "climbingclaws-1.21.1-1.3r.jar"
+name = "Climbing Claws"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "67fe4a8754471e0efe33a2905da8210489120d9654c6cb976ec60afd6d17aa02a3ceb3ab566e18b2c63406ef41a0fbd50af4c460471e86b16e04c01f379e9584"
+mode = "url"
+url = "https://cdn.modrinth.com/data/F1N2M1H5/versions/5gx9hlv7/climbingclaws-1.21.1-1.3r.jar"
+
+[update]
+[update.modrinth]
+mod-id = "F1N2M1H5"
+version = "5gx9hlv7"
