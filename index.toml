@@ -3338,7 +3338,7 @@ hash = "a1bdbd84f5af95c2de06cb8e8d05a9b34595a2f8bffc8a34590e605ac66f3eb9"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "144f79fa167a2ef509f9cca7be41a2818d99a517a5a98a992956129fa78e021e"
+hash = "05504f8d473c3baecfa603d53ee5ddd9ed6dd9bfa722548aa89bcac843012b68"
 
 [[files]]
 file = "config/better-advanced-tooltips-client.toml"
@@ -45893,7 +45893,7 @@ hash = "926fdd998c999b6f041c0de3c934b36d51d1a7f89ebd46608ebc66e46dd70e3f"
 
 [[files]]
 file = "config/openloader/packs/38_Chops_Hearthkin_Quests_v1.zip"
-hash = "76ea28b7401e40081aa2dd8179d3b83721eb6c7db40d0a49f26a1e4f89a965c6"
+hash = "a9c84d033b6a8ebcd75e667a9210bb9c62b12e72e999d49102a4279e9661cae4"
 
 [[files]]
 file = "kubejs/assets/chopxmas/guides/chopxmas/handbook/start/flying.md"
@@ -45903,3 +45903,11 @@ hash = "c0f9f9ed806ebd208699abeb51cdb8902bb3e1f831edfb69f448d762a17291aa"
 file = "mods/climbing-claws.pw.toml"
 hash = "5fe7879da1ea4a6e9c134bd1b6ea4977207b304cc094c8b5fbfb93c08ae2814d"
 metafile = true
+
+[[files]]
+file = "config/chopblueprints/schematics/schoolhouse.litematic"
+hash = "41672a92d9fd7faed1c0e8d35682defa2bb5582fb60d634766d5ba6113a071ae"
+
+[[files]]
+file = "config/chopblueprints/previews/schoolhouse.png"
+hash = "6eb28141139e5ff68292f25e96462b8e6a72cbbf9545b11922d369979869f58d"
